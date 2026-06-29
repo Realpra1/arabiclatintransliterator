@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arabic ⇄ English-alphabet Mapper (Standalone)</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin: 18px; max-width: 1100px; }
+    h1 { font-size: 18px; margin: 0 0 10px; }
+    .row { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin: 10px 0 14px; }
+    .panel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .box { display: flex; flex-direction: column; gap: 6px; }
+    label { font-size: 13px; opacity: 0.85; }
+    textarea {
+      width: 100%;
+      min-height: 320px;
+      resize: vertical;
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    textarea[readonly] { background: #f6f6f6; }
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; }
+    .pill {
+      border: 1px solid #bbb; border-radius: 999px; padding: 8px 12px;
+      display: inline-flex; gap: 8px; align-items: center;
+      user-select: none;
+    }
+    .btn {
+      border: 1px solid #bbb; border-radius: 10px; padding: 8px 12px;
+      background: white; cursor: pointer;
+    }
+    .btn:hover { background: #f1f1f1; }
+    .note { font-size: 12px; opacity: 0.8; }
+    code { background: #f2f2f2; padding: 2px 5px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Arabic ⇄ English-alphabet Mapper (stable round-trip; strict mapping rules)</h1>
+
+  <div class="row controls">
+    <label class="pill">
+      <input type="radio" name="dir" value="ar2en" checked />
+      From Arabic → English alphabet
+    </label>
+    <label class="pill">
+      <input type="radio" name="dir" value="en2ar" />
+      From English → Arabic alphabet
+    </label>
+
+    <button class="btn" id="copyBtn" type="button">Copy output</button>
+    <button class="btn" id="clearBtn" type="button">Clear</button>
+
+    <span class="note">
+      Uses ONLY your provided mapping. Stability: when encoding English→Arabic we add existing Arabic diacritics
+      (kasra/damma/sukūn) as context markers so a round-trip returns the same English encoding.
+      Sukūn is still removed in Arabic→English output.
+    </span>
+  </div>
+
+  <div class="panel">
+    <div class="box">
+      <label for="input">Input (editable)</label>
+      <textarea id="input" placeholder="Type Arabic or your encoded English here..."></textarea>
+    </div>
+    <div class="box">
+      <label for="output">Output (read-only)</label>
+      <textarea id="output" readonly></textarea>
+    </div>
+  </div>
+
+  <!-- Character constants, seldom changed -->
+  <script src="./constants.js"></script>
+  
+  <!-- Translation logic (more frequently edited) -->
+  <script src="./translator-core-utils.js"></script>
+  <script src="./latin-normalizer.js"></script>
+  <script src="./translator-ar2en.js"></script>
+  <script src="./translator-en2ar.js"></script>
+  <script src="./translator.js"></script>
+
+  <!-- UI + utilities (stable) -->
+  <script src="./app-utils.js"></script>
+</body>
+</html>
