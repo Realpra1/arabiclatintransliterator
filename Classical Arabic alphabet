@@ -1,0 +1,58 @@
+Design:
+"Glass-Arabic" is designed for engraving on glass. For this use case small marks and dots were avoided as they would not be legible and the more runic Latin letters were used.
+It is also a reversible round-trip stable orthographic transliteration system optimized for human readability.
+In philosophy it is somewhere between Habash–Soudi–Buckwalter and phoenetic transliteration.
+
+This table describes the main mapping the program uses. In addition, the app applies a few simple context-based rules for article forms, hamza, wasla, shadda, and weak letters to improve round trips.
+
+Rules:
+1. Classical Arabic characters are translated to English characters exactly as per this table.
+2. The start of sentences should NOT be capitalized. Use the table exactly.
+3. Arabic texts made with this should NOT be translated to English, but only use the English alphabet as described here.
+4. Double letters for special Shadda character.
+5. Sukūn is removed when translating.
+6. Arabic "I" with fatha (line) on it is mapped as just "a" (a short "a" and not "ā" and not "āa" or "aā").
+7. Silent hamza carriers just become hamza (ء->'). On the return trip Alif is usually used if needed.
+ا>ā
+اَ>a
+ى>á
+ة>at
+ب>b
+ت>t
+ث>th
+ج>J
+ح>H
+خ>kh
+د>d
+ذ>dh
+ر>r
+ز>z
+س>s
+ش>sh
+ص>S
+ض>D
+ط>T
+ظ>Z
+ع>-
+غ>gh
+ف>f
+ق>q
+ك>k
+ل>l
+م>m
+ن>n
+ه>h
+و>v (consonant) / ū (vowel)
+ي>j (consonant) / ī (vowel)
+'i<إ
+'u<أُ
+'a<أ أَ
+'ā<آ
+ء أ ؤ ئ>'
+a<fatHat
+i<kasrat
+u<Dammat
+N<tanwīn
+aN<fatHatān
+iN<kasratān
+uN<Dammatān
