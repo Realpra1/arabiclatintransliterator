@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0519",
+    "input": " 'aN",
+    "normalized": " 'aN",
+    "collapsed": " 'aN"
+  },
+  {
+    "id": "normalizer/0520",
+    "input": " 'iN",
+    "normalized": " 'iN",
+    "collapsed": " 'iN"
+  },
+  {
+    "id": "normalizer/0521",
+    "input": " 'uN",
+    "normalized": " 'uN",
+    "collapsed": " 'uN"
+  },
+  {
+    "id": "normalizer/0522",
+    "input": " 'b",
+    "normalized": " 'b",
+    "collapsed": " 'b"
+  },
+  {
+    "id": "normalizer/0523",
+    "input": "'ādam",
+    "normalized": "'ādam",
+    "collapsed": "'ādam"
+  },
+  {
+    "id": "normalizer/0524",
+    "input": "'āa",
+    "normalized": "'āa",
+    "collapsed": "'āa"
+  },
+  {
+    "id": "normalizer/0525",
+    "input": "'āi",
+    "normalized": "'āi",
+    "collapsed": "'āi"
+  },
+  {
+    "id": "normalizer/0526",
+    "input": "'āu",
+    "normalized": "'āu",
+    "collapsed": "'āu"
+  },
+  {
+    "id": "normalizer/0527",
+    "input": "'ā ",
+    "normalized": "'ā ",
+    "collapsed": "'ā "
+  },
+  {
+    "id": "normalizer/0528",
+    "input": "('ā)",
+    "normalized": "('ā)",
+    "collapsed": "('ā)"
+  },
+  {
+    "id": "normalizer/0529",
+    "input": "ʾā",
+    "normalized": "ʾā",
+    "collapsed": "ʾā"
+  },
+  {
+    "id": "normalizer/0530",
+    "input": "ʾa ʾi ʾu",
+    "normalized": "ʾa ʾi ʾu",
+    "collapsed": "ʾa ʾi ʾu"
+  },
+  {
+    "id": "normalizer/0531",
+    "input": "mā'",
+    "normalized": "mā'",
+    "collapsed": "mā'"
+  },
+  {
+    "id": "normalizer/0532",
+    "input": "mā'i",
+    "normalized": "mā'i",
+    "collapsed": "mā'i"
+  },
+  {
+    "id": "normalizer/0533",
+    "input": "su'āl",
+    "normalized": "su'āl",
+    "collapsed": "su'āl"
+  },
+  {
+    "id": "normalizer/0534",
+    "input": "bi'r",
+    "normalized": "bi'r",
+    "collapsed": "bi'r"
+  },
+  {
+    "id": "normalizer/0535",
+    "input": "HaDāratuN fī SafHatiN vāHidatiN",
+    "normalized": "HaDāratuN fī SafHatiN vāHidatiN",
+    "collapsed": "HaDāratuN fī SafHatiN vāHidatiN"
+  },
+  {
+    "id": "normalizer/0536",
+    "input": "al-arabijja",
+    "normalized": "al-arabijja",
+    "collapsed": "al-arabijja"
+  },
+  {
+    "id": "normalizer/0537",
+    "input": "alSSiHHa",
+    "normalized": "alSSiHHa",
+    "collapsed": "alSSiHHa"
+  },
+  {
+    "id": "normalizer/0538",
+    "input": "alTTāqa",
+    "normalized": "alTTāqa",
+    "collapsed": "alTTāqa"
+  },
+  {
+    "id": "normalizer/0539",
+    "input": "alHaDāra",
+    "normalized": "alHaDāra",
+    "collapsed": "alHaDāra"
+  },
+  {
+    "id": "normalizer/0540",
+    "input": "marHabaN",
+    "normalized": "marHabaN",
+    "collapsed": "marHabaN"
+  },
+  {
+    "id": "normalizer/0541",
+    "input": "alssalāmu -alajkum",
+    "normalized": "alssalāmu -alajkum",
+    "collapsed": "alssalāmu -alajkum"
+  },
+  {
+    "id": "normalizer/0542",
+    "input": "bismi allāh",
+    "normalized": "bismi allāh",
+    "collapsed": "bismi allāh"
+  },
+  {
+    "id": "normalizer/0543",
+    "input": "kitābuN",
+    "normalized": "kitābuN",
+    "collapsed": "kitābuN"
+  },
+  {
+    "id": "normalizer/0544",
+    "input": "kitābiN",
+    "normalized": "kitābiN",
+    "collapsed": "kitābiN"
+  },
+  {
+    "id": "normalizer/0545",
+    "input": "kitābaN",
+    "normalized": "kitābaN",
+    "collapsed": "kitābaN"
+  },
+  {
+    "id": "normalizer/0546",
+    "input": "shadda",
+    "normalized": "shadda",
+    "collapsed": "shadda"
+  },
+  {
+    "id": "normalizer/0547",
+    "input": "quvva",
+    "normalized": "quvva",
+    "collapsed": "quvva"
+  },
+  {
+    "id": "normalizer/0548",
+    "input": "Hajj",
+    "normalized": "Hajj",
+    "collapsed": "Hajj"
+  },
+  {
+    "id": "normalizer/0549",
+    "input": "Haj",
+    "normalized": "Haj",
+    "collapsed": "Haj"
+  },
+  {
+    "id": "normalizer/0550",
+    "input": "jaj",
+    "normalized": "jaj",
+    "collapsed": "jaj"
+  },
+  {
+    "id": "normalizer/0551",
+    "input": "vav",
+    "normalized": "vav",
+    "collapsed": "vav"
+  },
+  {
+    "id": "normalizer/0552",
+    "input": "vvv",
+    "normalized": "vvv",
+    "collapsed": "vvv"
+  },
+  {
+    "id": "normalizer/0553",
+    "input": "jjj",
+    "normalized": "jjj",
+    "collapsed": "jjj"
+  },
+  {
+    "id": "normalizer/0554",
+    "input": "vat",
+    "normalized": "vat",
+    "collapsed": "vat"
+  },
+  {
+    "id": "normalizer/0555",
+    "input": "wat",
+    "normalized": "wat",
+    "collapsed": "wat"
+  },
+  {
+    "id": "normalizer/0556",
+    "input": "vāt",
+    "normalized": "vāt",
+    "collapsed": "vāt"
+  },
+  {
+    "id": "normalizer/0557",
+    "input": "vā",
+    "normalized": "vā",
+    "collapsed": "vā"
+  },
+  {
+    "id": "normalizer/0558",
+    "input": "vi",
+    "normalized": "vi",
+    "collapsed": "vi"
+  },
+  {
+    "id": "normalizer/0559",
+    "input": "vu",
+    "normalized": "vu",
+    "collapsed": "vu"
+  },
+  {
+    "id": "normalizer/0560",
+    "input": "v'a",
+    "normalized": "v'a",
+    "collapsed": "v'a"
+  },
+  {
+    "id": "normalizer/0561",
+    "input": "vba",
+    "normalized": "vba",
+    "collapsed": "vba"
+  },
+  {
+    "id": "normalizer/0562",
+    "input": "bva",
+    "normalized": "bva",
+    "collapsed": "bva"
+  },
+  {
+    "id": "normalizer/0563",
+    "input": "bvi",
+    "normalized": "bvi",
+    "collapsed": "bvi"
+  },
+  {
+    "id": "normalizer/0564",
+    "input": "bvu",
+    "normalized": "bvu",
+    "collapsed": "bvu"
+  },
+  {
+    "id": "normalizer/0565",
+    "input": "llkitāb",
+    "normalized": "llkitāb",
+    "collapsed": "llkitāb"
+  },
+  {
+    "id": "normalizer/0566",
+    "input": "lilkitāb",
+    "normalized": "lilkitāb",
+    "collapsed": "lilkitāb"
+  },
+  {
+    "id": "normalizer/0567",
+    "input": "alālam",
+    "normalized": "alālam",
+    "collapsed": "alālam"
+  },
+  {
+    "id": "normalizer/0568",
+    "input": "allatī",
+    "normalized": "allatī",
+    "collapsed": "allatī"
+  },
+  {
+    "id": "normalizer/0569",
+    "input": "al'amr",
+    "normalized": "al'amr",
+    "collapsed": "al'amr"
+  },
+  {
+    "id": "normalizer/0570",
+    "input": "li'i-āda",
+    "normalized": "li'i-āda",
+    "collapsed": "li'i-āda"
+  },
+  {
+    "id": "normalizer/0571",
+    "input": "SafHatiN",
+    "normalized": "SafHatiN",
+    "collapsed": "SafHatiN"
+  },
+  {
+    "id": "normalizer/0572",
+    "input": "One page civilization",
+    "normalized": "uni pagi sivilizatiun",
+    "collapsed": "One page civilization"
+  },
+  {
+    "id": "normalizer/0573",
+    "input": "one page civilization",
+    "normalized": "uni pagi sivilizatiun",
+    "collapsed": "one page civilization"
+  },
+  {
+    "id": "normalizer/0574",
+    "input": "FOOD & SOIL",
+    "normalized": "fūD & Suil",
+    "collapsed": "FOOD & SOIL"
+  },
+  {
+    "id": "normalizer/0575",
+    "input": "Health",
+    "normalized": "Hialth",
+    "collapsed": "Health"
+  },
+  {
+    "id": "normalizer/0576",
+    "input": "Energy & machines",
+    "normalized": "inirgi & machinis",
+    "collapsed": "Energy & machines"
+  },
+  {
+    "id": "normalizer/0577",
+    "input": "Knowledge preservation",
+    "normalized": "knuwlidgi prisirvatiun",
+    "collapsed": "Knowledge preservation"
+  },
+  {
+    "id": "normalizer/0578",
+    "input": "Civilization & scientific practice",
+    "normalized": "sivilizatiun & ssīntifis praktisi",
+    "collapsed": "Civilization & scientific practice"
+  },
+  {
+    "id": "normalizer/0579",
+    "input": "Scientific foundations",
+    "normalized": "Ssīntifis fūndatiuns",
+    "collapsed": "Scientific foundations"
+  },
+  {
+    "id": "normalizer/0580",
+    "input": "Hello, world!",
+    "normalized": "Hillu, wurld!",
+    "collapsed": "Hello, world!"
+  },
+  {
+    "id": "normalizer/0581",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "normalized": "Thi quikk bruwn fux jumps uvir thi lazi dug.",
+    "collapsed": "The quick brown fox jumps over the lazy dog."
+  },
+  {
+    "id": "normalizer/0582",
+    "input": "Pack my box with five dozen liquor jugs.",
+    "normalized": "pakk mi bux with fivi duzin liqūr jugs.",
+    "collapsed": "Pack my box with five dozen liquor jugs."
+  },
+  {
+    "id": "normalizer/0583",
+    "input": "Sphinx of black quartz, judge my vow.",
+    "normalized": "Sphinx uf blakk quartz, judgi mi vuw.",
+    "collapsed": "Sphinx of black quartz, judge my vow."
+  },
+  {
+    "id": "normalizer/0584",
+    "input": "Don't change what's already working.",
+    "normalized": "Dun't changi what's alriadi wurking.",
+    "collapsed": "Don't change what's already working."
+  },
+  {
+    "id": "normalizer/0585",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "normalized": "a kat, a siti, a sikli, a schūl, and a machini.",
+    "collapsed": "A cat, a city, a cycle, a school, and a machine."
+  },
+  {
+    "id": "normalizer/0586",
+    "input": "Chemistry: chlorine, charcoal, copper, calcium, carbon.",
+    "normalized": "chimistri: chlurini, charkual, kuppir, kalsium, karbun.",
+    "collapsed": "Chemistry: chlorine, charcoal, copper, calcium, carbon."
+  },
+  {
+    "id": "normalizer/0587",
+    "input": "Rotate agricultural plant families yearly.",
+    "normalized": "rutati agrikultural plant familīs yiarli.",
+    "collapsed": "Rotate agricultural plant families yearly."
+  },
+  {
+    "id": "normalizer/0588",
+    "input": "Move cattle through 12 pasture plots.",
+    "normalized": "muvi kattli thrūgh 12 pasturi pluts.",
+    "collapsed": "Move cattle through 12 pasture plots."
+  },
+  {
+    "id": "normalizer/0589",
+    "input": "Filter water through sand & charcoal columns.",
+    "normalized": "filtir watir thrūgh sand & charkual kulumns.",
+    "collapsed": "Filter water through sand & charcoal columns."
+  },
+  {
+    "id": "normalizer/0590",
+    "input": "Store books cool, dry & dark.",
+    "normalized": "Sturi būks kūl, dri & dark.",
+    "collapsed": "Store books cool, dry & dark."
+  },
+  {
+    "id": "normalizer/0591",
+    "input": "A pendulum swings out and back in 2 seconds.",
+    "normalized": "a pindulum swings ūt and bakk in 2 sikunds.",
+    "collapsed": "A pendulum swings out and back in 2 seconds."
+  },
+  {
+    "id": "normalizer/0592",
+    "input": "Hydrogen oxygen nitrogen ammonia",
+    "normalized": "Hidrugin uxigin nitrugin ammunia",
+    "collapsed": "Hydrogen oxygen nitrogen ammonia"
+  }
+]

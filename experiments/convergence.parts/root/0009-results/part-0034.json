@@ -1,0 +1,446 @@
+[
+  {
+    "id": "arabic-words/ar2en/0044",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0045",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0046",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "arabic-words/ar2en/0047",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "arabic-words/ar2en/0048",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0049",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0050",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "arabic-words/ar2en/0051",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0052",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0053",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0054",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0055",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0056",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0057",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0058",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "arabic-words/ar2en/0059",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "arabic-words/ar2en/0060",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0001",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 4,
+      "Arabic": 5
+    },
+    "stablePairReachedAtConversion": 5
+  },
+  {
+    "id": "hamza-seating/en2ar/0002",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 3
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "hamza-seating/en2ar/0003",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0004",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0005",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0006",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0007",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0008",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 3
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "hamza-seating/en2ar/0009",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 3
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "hamza-seating/en2ar/0010",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0011",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0012",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0013",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 4,
+      "Arabic": 5
+    },
+    "stablePairReachedAtConversion": 5
+  },
+  {
+    "id": "hamza-seating/en2ar/0014",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0015",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0016",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0017",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "hamza-seating/en2ar/0018",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0019",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "hamza-seating/en2ar/0020",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  }
+]

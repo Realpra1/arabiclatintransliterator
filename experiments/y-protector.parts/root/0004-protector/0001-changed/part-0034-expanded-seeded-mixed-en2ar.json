@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0008",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "havā' — مدرسة صوت, 42/by, my? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith my\n\nnaHnu/iN\n\nمسؤول/",
+    "output": "هَوْاء — مدرسة صوت، 42/بِي، مِي؟ من، حَيّ/عائشة\n\nقُوَّة مدرسة\n\nمَدرَسة أنت، شَمْسٌ هواء\n\nوِث مِي\n\nنَحنُ/ٍ\n\nمسؤول/",
+    "roundTrip": "havā' — mdrsat Sūt, 42/bī, mī? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat 'ant, shamsuN hvā'\n\nvith mī\n\nnaHnu/iN\n\nms'ūl/",
+    "secondPass": "هَوْاء — مدرسة صُوت، 42/bِي، مِي؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِي\n\nنَحنُ/ٍ\n\nمسؤُوl/",
+    "before": {
+      "output": "هَوْاء — مدرسة صوت، 42/بِ، مِ؟ من، حَيّ/عائشة\n\nقُوَّة مدرسة\n\nمَدرَسة أنت، شَمْسٌ هواء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤول/",
+      "roundTrip": "havā' — mdrsat Sūt, 42/bi, mi? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat 'ant, shamsuN hvā'\n\nvith mi\n\nnaHnu/iN\n\nms'ūl/",
+      "secondPass": "هَوْاء — مدرسة صُوت، 42/بِ، مِ؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤُوl/"
+    },
+    "after": {
+      "output": "هَوْاء — مدرسة صوت، 42/بِ، مِ؟ من، حَيّ/عائشة\n\nقُوَّة مدرسة\n\nمَدرَسة أنت، شَمْسٌ هواء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤول/",
+      "roundTrip": "havā' — mdrsat Sūt, 42/bi, mi? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat 'ant, shamsuN hvā'\n\nvith mi\n\nnaHnu/iN\n\nms'ūl/",
+      "secondPass": "هَوْاء — مدرسة صُوت، 42/بِ، مِ؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤُول/"
+    },
+    "stages": [
+      "secondPass"
+    ]
+  }
+]

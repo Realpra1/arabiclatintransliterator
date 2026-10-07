@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0001",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+    "output": "نعم — قهوة/اليوم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، أمس ستجُول — ستجُول؟ شَمْسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+    "roundTrip": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhithm? á\n\n🙂 mā', 'ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn ",
+    "secondPass": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من "
+  }
+]

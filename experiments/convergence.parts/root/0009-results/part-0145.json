@@ -1,0 +1,446 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0135",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0136",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0137",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0138",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0139",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0140",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0141",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0142",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0143",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0144",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0145",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0146",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0147",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0148",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0149",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0150",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0151",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0152",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0153",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0154",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0155",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0156",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0157",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0158",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0159",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0160",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0161",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0162",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0163",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0164",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0165",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0166",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0167",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0168",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0169",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0170",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0171",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  }
+]

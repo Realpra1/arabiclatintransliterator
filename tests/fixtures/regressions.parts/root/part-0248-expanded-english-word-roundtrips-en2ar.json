@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0050",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "accept",
+    "output": "اَكسِبت",
+    "roundTrip": "aksibt",
+    "secondPass": "اَكسِبت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0051",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "accent",
+    "output": "اَكسِنت",
+    "roundTrip": "aksint",
+    "secondPass": "اَكسِنت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0052",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "accident",
+    "output": "اَكسِدِنت",
+    "roundTrip": "aksidint",
+    "secondPass": "اَكسِدِنت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0053",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "success",
+    "output": "سُكسِسّ",
+    "roundTrip": "suksiss",
+    "secondPass": "سُكسِسّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0054",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "account",
+    "output": "اَكُّونت",
+    "roundTrip": "akkūnt",
+    "secondPass": "اَكُّونت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0055",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chess",
+    "output": "تجِسّ",
+    "roundTrip": "tJiss",
+    "secondPass": "تجِسّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0056",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cheese",
+    "output": "تجِيسِ",
+    "roundTrip": "tJīsi",
+    "secondPass": "تجِيسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0057",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chair",
+    "output": "تجَِر",
+    "roundTrip": "tJair",
+    "secondPass": "تجَِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0058",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "child",
+    "output": "تجِلد",
+    "roundTrip": "tJild",
+    "secondPass": "تجِلد"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0059",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "church",
+    "output": "تجُرتج",
+    "roundTrip": "tJurtJ",
+    "secondPass": "تجُرتج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0060",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chocolate",
+    "output": "تجُكُلةِ",
+    "roundTrip": "tJukulati",
+    "secondPass": "تجُكُلةِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0061",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chicken",
+    "output": "تجِكِّن",
+    "roundTrip": "tJikkin",
+    "secondPass": "تجِكِّن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0062",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chorus",
+    "output": "تجُرُس",
+    "roundTrip": "tJurus",
+    "secondPass": "تجُرُس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0063",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "choir",
+    "output": "تجُِر",
+    "roundTrip": "tJuir",
+    "secondPass": "تجُِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0064",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chemical",
+    "output": "تجِمِكَل",
+    "roundTrip": "tJimikal",
+    "secondPass": "تجِمِكَل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0065",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chemistry",
+    "output": "تجِمِسترِ",
+    "roundTrip": "tJimistri",
+    "secondPass": "تجِمِسترِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0066",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "character",
+    "output": "تجَرَكتِر",
+    "roundTrip": "tJaraktir",
+    "secondPass": "تجَرَكتِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0067",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chronic",
+    "output": "تجرُنِس",
+    "roundTrip": "tJrunis",
+    "secondPass": "تجرُنِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0068",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "chef",
+    "output": "تجِف",
+    "roundTrip": "tJif",
+    "secondPass": "تجِف"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0069",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "machine",
+    "output": "مَتجِنِ",
+    "roundTrip": "matJini",
+    "secondPass": "مَتجِنِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0070",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "schedule",
+    "output": "ستجِدُلِ",
+    "roundTrip": "stJiduli",
+    "secondPass": "ستجِدُلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0071",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "stomach",
+    "output": "ستُمَتج",
+    "roundTrip": "stumatJ",
+    "secondPass": "ستُمَتج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0072",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "ache",
+    "output": "اَتجِ",
+    "roundTrip": "atJi",
+    "secondPass": "اَتجِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0073",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "echo",
+    "output": "إِتجُ",
+    "roundTrip": "itJu",
+    "secondPass": "إِتجُ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0074",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "technical",
+    "output": "تِتجنِكَل",
+    "roundTrip": "titJnikal",
+    "secondPass": "تِتجنِكَل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0075",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "x",
+    "output": "إِكس",
+    "roundTrip": "iks",
+    "secondPass": "إِكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0076",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xenon",
+    "output": "سِنُن",
+    "roundTrip": "sinun",
+    "secondPass": "سِنُن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0077",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xylem",
+    "output": "سِلِم",
+    "roundTrip": "silim",
+    "secondPass": "سِلِم"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0078",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xylitol",
+    "output": "سِلِتُل",
+    "roundTrip": "silitul",
+    "secondPass": "سِلِتُل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0079",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xenophobia",
+    "output": "سِنُفُبَِ",
+    "roundTrip": "sinufubia",
+    "secondPass": "سِنُفُبَِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0080",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xerox",
+    "output": "سِرُكس",
+    "roundTrip": "siruks",
+    "secondPass": "سِرُكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0081",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "Xerxes",
+    "output": "سِركسِس",
+    "roundTrip": "sirksis",
+    "secondPass": "سِركسِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0082",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "x-ray",
+    "output": "إِكسعرَيْ",
+    "roundTrip": "iks-raj",
+    "secondPass": "إِكسعرَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0083",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "box",
+    "output": "بُكس",
+    "roundTrip": "buks",
+    "secondPass": "بُكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0084",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "fox",
+    "output": "فُكس",
+    "roundTrip": "fuks",
+    "secondPass": "فُكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0085",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "extra",
+    "output": "إِكسترَ",
+    "roundTrip": "ikstra",
+    "secondPass": "إِكسترَ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0086",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "exit",
+    "output": "إِكسِت",
+    "roundTrip": "iksit",
+    "secondPass": "إِكسِت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0087",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "exam",
+    "output": "إِكسَم",
+    "roundTrip": "iksam",
+    "secondPass": "إِكسَم"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0088",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "example",
+    "output": "إِكسَمبلِ",
+    "roundTrip": "iksambli",
+    "secondPass": "إِكسَمبلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0089",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "exact",
+    "output": "إِكسَكت",
+    "roundTrip": "iksakt",
+    "secondPass": "إِكسَكت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0090",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "exist",
+    "output": "إِكسِست",
+    "roundTrip": "iksist",
+    "secondPass": "إِكسِست"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0091",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "six",
+    "output": "سِكس",
+    "roundTrip": "siks",
+    "secondPass": "سِكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0092",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "text",
+    "output": "تِكست",
+    "roundTrip": "tikst",
+    "secondPass": "تِكست"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0093",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "taxi",
+    "output": "تَكسِ",
+    "roundTrip": "taksi",
+    "secondPass": "تَكسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0094",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "oxygen",
+    "output": "أُكسِجِن",
+    "roundTrip": "uksiJin",
+    "secondPass": "أُكسِجِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0095",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "pixel",
+    "output": "بِكسِل",
+    "roundTrip": "biksil",
+    "secondPass": "بِكسِل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0096",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "complex",
+    "output": "كُمبلِكس",
+    "roundTrip": "kumbliks",
+    "secondPass": "كُمبلِكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0097",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "next",
+    "output": "نِكست",
+    "roundTrip": "nikst",
+    "secondPass": "نِكست"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0098",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "suffix",
+    "output": "سُفِّكس",
+    "roundTrip": "suffiks",
+    "secondPass": "سُفِّكس"
+  }
+]

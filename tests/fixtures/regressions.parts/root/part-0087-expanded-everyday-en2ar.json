@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-everyday/en2ar/0001",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "marHaba",
+    "output": "مَرحَبَ",
+    "roundTrip": "marHaba",
+    "secondPass": "مَرحَبَ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0002",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "ahlan va sahlan",
+    "output": "اَهلَن وَ سَهلَن",
+    "roundTrip": "ahlan va sahlan",
+    "secondPass": "اَهلَن وَ سَهلَن"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0003",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "alssalāmu -alajkum",
+    "output": "اَلسَّلامُ عَلَيْكُم",
+    "roundTrip": "alssalāmu -alajkum",
+    "secondPass": "اَلسَّلامُ عَلَيْكُم"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0004",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "va -alajkum alssalām",
+    "output": "وَ عَلَيْكُم اَلسَّلام",
+    "roundTrip": "va -alajkum alssalām",
+    "secondPass": "وَ عَلَيْكُم اَلسَّلام"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0005",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "SabāH alkhajr",
+    "output": "صَباح اَلخَيْر",
+    "roundTrip": "SabāH alkhajr",
+    "secondPass": "صَباح اَلخَيْر"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0006",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "masā' alkhajr",
+    "output": "مَساء اَلخَيْر",
+    "roundTrip": "masā' alkhajr",
+    "secondPass": "مَساء اَلخَيْر"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0007",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "shukraN JazīlaN",
+    "output": "شُكرً جَزِيلً",
+    "roundTrip": "shukraN JazīlaN",
+    "secondPass": "شُكرً جَزِيلً"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0008",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "min faDlik",
+    "output": "مِن فَضلِك",
+    "roundTrip": "min faDlik",
+    "secondPass": "مِن فَضلِك"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0009",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "kajfa Hāluk?",
+    "output": "كَيْفَ حالُك؟",
+    "roundTrip": "kajfa Hāluk?",
+    "secondPass": "كَيْفَ حالُك؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0010",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "anā bikhajr, va anta?",
+    "output": "اَنا بِخَيْر، وَ اَنتَ؟",
+    "roundTrip": "anā bikhajr, va anta?",
+    "secondPass": "اَنا بِخَيْر، وَ اَنتَ؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0011",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "mā ismuk?",
+    "output": "ما إِسمُك؟",
+    "roundTrip": "mā ismuk?",
+    "secondPass": "ما إِسمُك؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0012",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "ismī lajlá.",
+    "output": "إِسمِي لَيْلى.",
+    "roundTrip": "ismī lajlá.",
+    "secondPass": "إِسمِي لَيْلى."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0013",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "ajna taskun?",
+    "output": "اَيْنَ تَسكُن؟",
+    "roundTrip": "ajna taskun?",
+    "secondPass": "اَيْنَ تَسكُن؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0014",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "lā afham.",
+    "output": "لا اَفهَم.",
+    "roundTrip": "lā afham.",
+    "secondPass": "لا اَفهَم."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0015",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "hal tatakallam al-arabijja?",
+    "output": "هَل تَتَكَلَّم اَلعَرَبِيَّ؟",
+    "roundTrip": "hal tatakallam al-arabijja?",
+    "secondPass": "هَل تَتَكَلَّم اَلعَرَبِيَّ؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0016",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "urid kuubaN min almaa'.",
+    "output": "أُرِد كُوبً مِن اَلماء.",
+    "roundTrip": "urid kūbaN min almā'.",
+    "secondPass": "أُرِد كُوبً مِن اَلماء."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0017",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "urīdu qahva bilā sukkar.",
+    "output": "أُرِيدُ قَهوَ بِلا سُكَّر.",
+    "roundTrip": "urīdu qahva bilā sukkar.",
+    "secondPass": "أُرِيدُ قَهوَ بِلا سُكَّر."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0018",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "kam alssā-a alān?",
+    "output": "كَم اَلسّاعَ اَلان؟",
+    "roundTrip": "kam alssā-a alān?",
+    "secondPass": "كَم اَلسّاعَ اَلان؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0019",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "ajna maHaTTat alqiTār?",
+    "output": "اَيْنَ مَحَطّة اَلقِطار؟",
+    "roundTrip": "ajna maHaTTat alqiTār?",
+    "secondPass": "اَيْنَ مَحَطّة اَلقِطار؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0020",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "satasma- Sawt almaTar ghadaN.",
+    "output": "سَتَسمَع صَوْت اَلمَطَر غَدً.",
+    "roundTrip": "satasma- Savt almaTar ghadaN.",
+    "secondPass": "سَتَسمَع صَوْت اَلمَطَر غَدً."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0021",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.",
+    "output": "هاذا كِتابٌ جَدِيدٌ، وَ تِلكَ مَدرَسةٌ قَدِيمةٌ.",
+    "roundTrip": "hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.",
+    "secondPass": "هاذا كِتابٌ جَدِيدٌ، وَ تِلكَ مَدرَسةٌ قَدِيمةٌ."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0022",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "ashshams valqamar",
+    "output": "اَشَّمس وَلقَمَر",
+    "roundTrip": "ashshams valqamar",
+    "secondPass": "اَشَّمس وَلقَمَر"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0023",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "alshshams va alqamar",
+    "output": "اَلشَّمس وَ اَلقَمَر",
+    "roundTrip": "alshshams va alqamar",
+    "secondPass": "اَلشَّمس وَ اَلقَمَر"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0024",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "allāh",
+    "output": "اَلّاه",
+    "roundTrip": "allāh",
+    "secondPass": "اَلّاه"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0025",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "in shā' allāh",
+    "output": "إِن شاء اَلّاه",
+    "roundTrip": "in shā' allāh",
+    "secondPass": "إِن شاء اَلّاه"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0026",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "mā shā' allāh",
+    "output": "ما شاء اَلّاه",
+    "roundTrip": "mā shā' allāh",
+    "secondPass": "ما شاء اَلّاه"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0027",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "-abd allāh",
+    "output": "عَبد اَلّاه",
+    "roundTrip": "-abd allāh",
+    "secondPass": "عَبد اَلّاه"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0028",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "aHmad va 'ibrāhīm",
+    "output": "اَحمَد وَ إِبراهِيم",
+    "roundTrip": "aHmad va ibrāhīm",
+    "secondPass": "اَحمَد وَ إِبراهِيم"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0029",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "fāTimat, -ā'ishat, va marjam",
+    "output": "فاطِمة، عاءِشة، وَ مَريَم",
+    "roundTrip": "fāTimat, -ā'ishat, va marjam",
+    "secondPass": "فاطِمة، عاءِشة، وَ مَريَم"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0030",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "alQāhira, bajrūt, dimashq, baghdād",
+    "output": "اَلقاهِرَ، بَيْرُوت، دِمَشق، بَغداد",
+    "roundTrip": "alqāhira, bajrūt, dimashq, baghdād",
+    "secondPass": "اَلقاهِرَ، بَيْرُوت، دِمَشق، بَغداد"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0031",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "makka almukarrama",
+    "output": "مَكَّ اَلمُكَرَّمَ",
+    "roundTrip": "makka almukarrama",
+    "secondPass": "مَكَّ اَلمُكَرَّمَ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0032",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "mā', havā', shaj', su'āl, mas'ala",
+    "output": "ماء، هَوْاء، شَيْء، سُؤال، مَسأَلَ",
+    "roundTrip": "mā', havā', shaj', su'āl, mas'ala",
+    "secondPass": "ماء، هَوْاء، شَيْء، سُؤال، مَسأَلَ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0033",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Hello! How are you today?",
+    "output": "حِلُّ! حُوْ اَرِ يُْو تُدَيْ؟",
+    "roundTrip": "Hillu! Huv ari jū tudaj?",
+    "secondPass": "حِلُّ! حُوْ اَرِ يُْو تُدَيْ؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0034",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Good morning. Good evening. Good night.",
+    "output": "جُود مُرنِنج. جُود إِوِنِنج. جُود نِغت.",
+    "roundTrip": "Jūd murninJ. Jūd ivininJ. Jūd night.",
+    "secondPass": "جُود مُرنِنج. جُود إِوِنِنج. جُود نِغت."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0035",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Please, thank you, and sorry.",
+    "output": "بلَِسِ، ثَنك يُْو، اَند سُرِّ.",
+    "roundTrip": "bliasi, thank jū, and surri.",
+    "secondPass": "بلَِسِ، ثَنك يُْو، اَند سُرِّ."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0036",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "I'm fine. What's your name? Where's the station?",
+    "output": "إِئم فِنِ. وْهَتءس يُْور نَمِ؟ وْهِرِئس ثِ ستَتُِن؟",
+    "roundTrip": "i'm fini. vhat's jūr nami? vhiri's thi statiun?",
+    "secondPass": "إِئم فِنِ. وْهَتءس يُْور نَمِ؟ وْهِرِئس ثِ ستَتُِن؟"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0037",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "One coffee without sugar, please.",
+    "output": "أُنِ كُفِّي وِثُوت سُجَر، بلَِسِ.",
+    "roundTrip": "uni kuffī vithūt suJar, bliasi.",
+    "secondPass": "أُنِ كُفِّي وِثُوت سُجَر، بلَِسِ."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0038",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "The meeting is at 08:30 on Wednesday.",
+    "output": "طهِ مِيتِنج إِس ة 08:30 أُن وِدنِسدَيْ.",
+    "roundTrip": "Thi mītinJ is at 08:30 un vidnisdaj.",
+    "secondPass": "طهِ مِيتِنج إِس ة 08:30 أُن وِدنِسدَيْ."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0039",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Call +44 20 1234 5678, extension 42.",
+    "output": "كَلّ +44 20 1234 5678، إِكستِنسُِن 42.",
+    "roundTrip": "kall +44 20 1234 5678, ikstinsiun 42.",
+    "secondPass": "كَلّ +44 20 1234 5678، إِكستِنسُِن 42."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0040",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "My address is 12 Church Street, apartment 3B.",
+    "output": "مِ اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3B.",
+    "roundTrip": "mi addriss is 12 tJurtJ Strīt, abartmint 3B.",
+    "secondPass": "مِ اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3B."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0041",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Bread, milk, eggs, cheese, apples, and tea.",
+    "output": "برَِد، مِلك، إِجّس، تجِيسِ، اَبّلِس، اَند تَِ.",
+    "roundTrip": "briad, milk, iJJs, tJīsi, abblis, and tia.",
+    "secondPass": "برَِد، مِلك، إِجّس، تجِيسِ، اَبّلِس، اَند تَِ."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0042",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "I paid $12.50, €8.99, and £3.00.",
+    "output": "إِ بَِد $12.50، €8.99، اَند £3.00.",
+    "roundTrip": "i baid $12.50, €8.99, and £3.00.",
+    "secondPass": "إِ بَِد $12.50، €8.99، اَند £3.00."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0043",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "She said, “Yes”; he replied, “Why?”",
+    "output": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِ؟”",
+    "roundTrip": "Shi said, “jis”; hi riblīd, “vhi?”",
+    "secondPass": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِ؟”"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0044",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "O'Connor, D'Angelo, Anne-Marie, and Jean-Luc",
+    "output": "أُؤكُنُّر، ضأَنجِلُ، اَنِّعمَرِي، اَند جَِنعلُس",
+    "roundTrip": "u'kunnur, D'anJilu, anni-marī, and Jian-lus",
+    "secondPass": "أُؤكُنُّر، ضأَنجِلُ، اَنِّعمَرِي، اَند جَِنعلُس"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0045",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "queue rhythm yacht choir thorough though tough",
+    "output": "قُُِِ رهِثم يَتجت تجُِر ثُرُوغ ثُوغ تُوغ",
+    "roundTrip": "quiui rhithm jatJt tJuir thurūgh thūgh tūgh",
+    "secondPass": "قُُِِ رهِثم يَتجت تجُِر ثُرُوغ ثُوغ تُوغ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0046",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "a an the and or but if in on at to of for with",
+    "output": "اَ اَن ثِ اَند أُر بُت إِف إِن أُن ة تُ أُف فُر وِث",
+    "roundTrip": "a an thi and ur but if in un at tu uf fur vith",
+    "secondPass": "اَ اَن ثِ اَند أُر بُت إِف إِن أُن ة تُ أُف فُر وِث"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0047",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Monday Tuesday Wednesday Thursday Friday",
+    "output": "مُندَيْ طُِسدَيْ وِدنِسدَيْ طهُرسدَيْ فرِدَيْ",
+    "roundTrip": "mundaj Tuisdaj vidnisdaj Thursdaj fridaj",
+    "secondPass": "مُندَيْ طُِسدَيْ وِدنِسدَيْ طهُرسدَيْ فرِدَيْ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0048",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "January February March April May June July",
+    "output": "جَنَُرِ فِبرَُرِ مَرتج اَبرِل مَيْ جُنِ جُلِ",
+    "roundTrip": "Januari fibruari martJ abril maj Juni Juli",
+    "secondPass": "جَنَُرِ فِبرَُرِ مَرتج اَبرِل مَيْ جُنِ جُلِ"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0049",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "0 zero 1 one 2 two 10 ten 100 hundred",
+    "output": "0 زِرُ 1 أُنِ 2 توُ 10 تِن 100 هُندرِد",
+    "roundTrip": "0 ziru 1 uni 2 tvu 10 tin 100 hundrid",
+    "secondPass": "0 زِرُ 1 أُنِ 2 توُ 10 تِن 100 هُندرِد"
+  }
+]

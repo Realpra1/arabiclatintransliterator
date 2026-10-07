@@ -1,0 +1,10 @@
+{
+  "changedExamples": {
+    "$jsonModules": "arabiclatin/v1",
+    "kind": "array",
+    "parts": [
+      "terminal-at.parts/root/0003-reports/0001-00001/0011-changedExamples/part-0001.json",
+      "terminal-at.parts/root/0003-reports/0001-00001/0011-changedExamples/part-0002.json"
+    ]
+  }
+}

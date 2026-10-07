@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0044",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+      "L1": "alSawt\n\nilá/rhythm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/coffee — 'ams/my — my ā, stsm-? ",
+      "A2": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباح/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِ — مِ ا، ستسمع؟ ",
+      "L2": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — ams/mi — mi ā, stsm-? ",
+      "A3": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباح/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — اَمس/مِ — مِ ا، ستسمع؟ ",
+      "L3": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — ams/mi — mi ā, stsm-? "
+    }
+  }
+]

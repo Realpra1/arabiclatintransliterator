@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0050",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+      "L1": "'ams — shaj'/lā — ١٢? 'ilá, nHn qhūat, havā'? aN\n\nschool l'n — ghadaN naHnu\n\nhī Hajj — 'anā? hū — h'lā' 'ams — su'āl/",
+      "A2": "أَمس — شَيْء/لا — ١٢؟ إِلى، نحن قهُوة، هَوْاء؟ ً\n\nستجُول لأن — غَدً نَحنُ\n\nهِي حَيّ — أَنا؟ هُو — هءلاء أَمس — سُؤال/",
+      "L2": "ams — shaj'/lā — ١٢? ilá, nHn qhūat, havā'? aN\n\nstJūl l'n — ghadaN naHnu\n\nhī Hajj — anā? hū — h'lā' ams — su'āl/",
+      "A3": "اَمس — شَيْء/لا — ١٢؟ إِلى، نحن قهُوة، هَوْاء؟ ً\n\nستجُول لأن — غَدً نَحنُ\n\nهِي حَيّ — اَنا؟ هُو — هءلاء اَمس — سُؤال/",
+      "L3": "ams — shaj'/lā — ١٢? ilá, nHn qhūat, havā'? aN\n\nstJūl l'n — ghadaN naHnu\n\nhī Hajj — anā? hū — h'lā' ams — su'āl/"
+    }
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "expanded-seeded-fragments/ar2en/0148",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "َظ وّش؟ضٰ\nدتّشي",
+    "output": "aZ vvsh?Dā\ndttshī",
+    "roundTrip": "اَظ وّش؟ضا\nدتّشِي",
+    "secondPass": "aZ vvsh?Dā\ndttshī"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0149",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ص\n وعٌ؟لٰادًّىيأٰؤموّىيضَنُتع/فخٰذ)غهٱٍِْٰ)",
+    "output": "S\n v-uN?lāādaNdáī'ā'mvváīDanut-/fkhādh)ghhiNiā)",
+    "roundTrip": "ص\n وْعٌ؟لاادًدىِيئاءموّىِيضَنُتع/فخاذ)غهٍِا)",
+    "secondPass": "S\n v-uN?lāādaNdáī'ā'mvváīDanut-/fkhādh)ghhiNiā)"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0150",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ئٌثـَُْغهٱٍخ+ذدز،جيخ+ظدته/آـٰا ؛ّ/يلٰن ته/ٍأكذ)تهقٍأصذط",
+    "output": "'uNthaughhiNkh+dhdz,Jīkh+Zdth/'āāā ;;/īlān th/iN'kdh)thqiN'SdhT",
+    "roundTrip": "أٌثَُغهٍخ+ذدز،جِيخ+ظدث/آاا ؛ّ/ِيلان ث/ٍأكذ)ثقٍئصذط",
+    "secondPass": "'uNthaughhiNkh+dhdz,Jīkh+Zdth/'āāā ;;/īlān th/iN'kdh)thqiN'SdhT"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0151",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ّٱسضصا زر/سلكؤ)ًعقثِك",
+    "output": "isDSā zr/slk')aN-qthik",
+    "roundTrip": "إِسضصا زر/سلكء)ًعقثِك",
+    "secondPass": "isDSā zr/slk')aN-qthik"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0152",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "إزئ/يلَؤ)زئٱث(كاُترى؟ضصنطتٌّس(ٰؤطً،ٌيَِ\nإ؛،جآل+ا تع/سلص\nد",
+    "output": "'iz'/īla')z'th(kāutrá?DSnTttuNs(ā'TaN,uNjia\n'i;,J'āl+ā t-/slS\nd",
+    "roundTrip": "إِزئ/ِيلَأ)zأث(كاُترى؟ضصنطتٌّس(اءطً،ٌيَِ\nإِ؛،جأال+ا تع/سلص\nد",
+    "secondPass": "iz'/īla')z'th(kāutrá?DSnTttuNs(ā'TaN,uNjia\ni;,J'āl+ā t-/slS\nd"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0153",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ئ/فأةن ؛،ٌسأكظ)ت،ىيِةذمزبش؟(حاُغر/سخحذدغرجف",
+    "output": "'/f'atn ;,uNs'kZ)t,ájiatdhmzbsh?(Hāughr/skhHdhdghrJf",
+    "roundTrip": "أ/fأَتن ؛،ٌسؤكظ)t،ىيَِتذمزبش؟(حاُغر/سخحذدغرجف",
+    "secondPass": "'a/f'atn ;,uNs'kZ)t,ájiatdhmzbsh?(Hāughr/skhHdhdghrJf"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0154",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "حادًبٌفخةذطءّشٍـ+ْطغب",
+    "output": "HādaNbuNfkhatdhT''shiN+Tghb",
+    "roundTrip": "حادًبٌفخَتذطءّشٍ+طغب",
+    "secondPass": "HādaNbuNfkhatdhT''shiN+Tghb"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0155",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "آ(ةاطًّشٍِص\nدورٱٍضك\nإ",
+    "output": "'ā(atāTaNTshiNiS\ndūriNDk\n'i",
+    "roundTrip": "آ(اَتاطًطشٍِص\nدُورٍضك\nإِ",
+    "secondPass": "'ā(atāTaNTshiNiS\ndūriNDk\ni"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0156",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "،ٱس(َؤطغعٌيـٰؤموعٱفضكا غّٱسخصا غهجآأَنإغبٱآضَذدغ،شآـةذ غهٌ؟ِصاُو،/سلح\n تبٱسـٰ",
+    "output": ",is(a'Tgh-uNjā'mū-fDkā ghghskhSā ghhJ'ā'an'ghb'āDadhdgh,sh'āatdh ghhuN?iSāū,/slH\n tbsā",
+    "roundTrip": "،ِس(aأطغعٌيْاءمُوعفضكا غّسخصا غهجأاأَنءغبأاضَذدغ،شأاَتذ غهٌ؟ِصاُو،/سلح\n تبسا",
+    "secondPass": ",is(a'Tgh-uNjā'mū-fDkā ghghskhSā ghhJ'ā'an'ghb'āDadhdgh,sh'atdh ghhuN?iSāū,/slH\n tbsā"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0157",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": ")زئٌآأَنطً،ٌفـك\nًُعجف(صاط",
+    "output": ")z'uN'ā'anTaN,uNfk\nuaN-Jf(SāT",
+    "roundTrip": ")zأٌؤاأَنطً،ٌفك\nأًُعجف(صاط",
+    "secondPass": ")z'uN'ā'anTaN,uNfk\nuaN-Jf(SāT"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0158",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "رٱسلصؤمغئىثأَنُءعٌ؟ِحؤدًبىفل+ادًهشفلةا غهجثِحظإغرٌفأ+",
+    "output": "rslS'mgh'áth'anu'-uN?iH'daNbáfl+ādaNhshflatā ghhJthiHZ'ghruNf'+",
+    "roundTrip": "رسلصءمغءىثأَنُؤعٌ؟ِحئدًبىفل+ادًهشفلَتا غهجثِحظئغرٌفأ+",
+    "secondPass": "rslS'mgh'áth'anu'-uN?iH'daNbáfl+ādaNhshflatā ghhJthiHZ'ghruNf'+"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0159",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "إترٌفأصنمءرجٍأكندء،ش؟(حْمت،ٱآلُْٰزّشٍـص\nطءع/فأةؤُءهقيخحاإءهجيلحام؛رى؟",
+    "output": "'itruNf'Snm'rJiN'knd',sh?(Hmt,u'ālāuzzshiNS\nT'-/f'at'u'hqīkhHā''hJīlHām;rá?",
+    "roundTrip": "إِترٌفأصنمؤرجٍئكندئ،ش؟(حمت،ُؤالاُزّشٍص\nطءع/fأَتؤُؤهقِيخحاءّهجِيلحام؛رى؟",
+    "secondPass": "itruNf'Snm'rJiN'knd',sh?(Hmt,u'ālāuzzshiNS\nT'-/f'at'u'hqīkhHā''hJīlHām;rá?"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0160",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "صنإ",
+    "output": "Sn'",
+    "roundTrip": "صنء",
+    "secondPass": "Sn'"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0161",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "عٱفلحذدتعىآلةن غئجٍـَظ ؛ئشٍخحؤطزبقفخةاطغئش؟ل+ندزبجفأك\n ؛هشٍلكظ تبقٍَِْدزبشفـَا)",
+    "output": "-flHdhdt-á'ālatn gh'JiNaZ ;'shiNkhH'TzbqfkhatāTgh'sh?l+ndzbJf'k\n ;hshiNlkZ tbqiNiadzbshfā)",
+    "roundTrip": "عفلحذدتعىأالَتن غءجٍَظ ؛ءشٍخحئطزبقفخَتاطغءش؟l+ندزبجفأك\n ؛هشٍلكظ تبقٍَِدزبشفا)",
+    "secondPass": "-flHdhdt-á'ālatn gh'JiNaZ ;'shiNkhH'TzbqfkhatāTgh'sh?l+ndzbJf'k\n ;hshiNlkZ tbqiNiadzbshfā)"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0162",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "،شيـكذطءعٱآلٰؤ)تئىآلٰذمغّشثلةاطز،شٍـصنموٌّ؟ـَنإت،ىسأة\nدغ،شٍِ+ؤ)ًعىٍخك\nد",
+    "output": ",shjkdhT'-'ālā')t'á'ālādhmghghshthlatāTz,shiNSnmvvuN?an't,ás'at\ndgh,shiNi+')aN-áiNkhk\nd",
+    "roundTrip": "،شيْكذطءعأالاء)tأىأالاذمغّشثلَتاطز،شٍصنموٌّ؟َنءت،ىسءة\nدغ،شٍِ+أ)ًعىٍخك\nد",
+    "secondPass": ",shjkdhT'-'ālā')t'á'ālādhmghghshthlatāTz,shiNSnmvvuN?an't,ás'at\ndgh,shiNi+')aN-áiNkhk\nd"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0163",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "عقيضكْطًئٌآِٰاطءرٱآـَاُوعقثَِ\n)ًبق؟ـ+نطتهٌس(حذُغعجآِكْمءر/؟(صذ ءبقفِصظدزعٱفـح",
+    "output": "-qīDkTaN'uN'āiāāT'r'āāū-qthia\n)aNbq?+nTthuNs(Hdhugh-J'āikm'r/?(Sdh 'bqfiSZdz-fH",
+    "roundTrip": "عقِيضكطًؤٌؤاِااطءرأااُوعقثَِ\n)ًبق؟+نطثٌس(حذُغعجأاِكمئr/؟(صذ أبقفِصظدزعفح",
+    "secondPass": "-qīDkTaN'uN'āiāāT'r'āāū-qthia\n)aNbq?+nTthuNs(Hdhugh-J'āikm'r/?(Sdh 'abqfiSZdz-fH"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0164",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": " غبشثضةؤُتهشيضصظإزعق؟ل+\nمزّقفِةذإو،/ثِحاطًرجسِحذ وبٱ؟أَ",
+    "output": " ghbshthDat'uthshīDSZ'z-q?l+\nmzzqfiatdh'ū,/thiHāTaNrJsiHdh vb?a",
+    "roundTrip": " غبشثضَتؤُثشِيضصظئزعق؟l+\nمزّقفَِتذؤُو،/ثِحاطًرجسِحذ وْب؟َ",
+    "secondPass": " ghbshthDat'uthshīDSZ'z-q?l+\nmzzqfiatdh'ū,/thiHāTaNrJsiHdh vb?a"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0165",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ُغب/فلكؤإزعج؟ـصْدوعش؟أَظإتّىٍلكْطزهجفخحظ)و،جيأٰؤ)وعشس",
+    "output": "ughb/flk''z-J?Sdū-sh?aZ'ttáiNlkTzhJfkhHZ)v,Jī'ā')v-shs",
+    "roundTrip": "أُغب/فلكءّزعج؟صدُوعش؟َظءتّىٍلكطزهجفخحظ)v،جِيئاء)vعشس",
+    "secondPass": "ughb/flk''z-J?Sdū-sh?aZ'ttáiNlkTzhJfkhHZ)v,Jī'ā')v-shs"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0166",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ص\nطوب/سلكاُء،/؟(+\nدزع",
+    "output": "S\nTūb/slkāu',/?(+\ndz-",
+    "roundTrip": "ص\nطُوب/سلكاُؤ،/؟(+\nدزع",
+    "secondPass": "S\nTūb/slkāu',/?(+\ndz-"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0167",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ٍِص\nإوعىيأٰؤط؛ئ/فِحْد؛عى؟خَْ)؛هىٍلة\nإغّش؟أ+\nم",
+    "output": "iNiS\n'iū-áī'ā'T;'/fiHd;-á?kha);háiNlat\n'ighghsh?'a+\nm",
+    "roundTrip": "ٍإِص\nإُِوعىِيئاءط؛ء/فِحد؛عى؟خَ)؛هىٍلة\nإِغّش؟ءa+\nم",
+    "secondPass": "iNiS\niū-áī'ā'T;'/fiHd;-á?kha);háiNlat\nighghsh?'a+\nm"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0168",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "هجآأكا)غع/ي(صظطًبقيضكُْ؛ّٱٍخحنموعٱٍـةؤمغهجثـصذُزّشآـَ",
+    "output": "hJ'ā'kā)gh-/ī(SZTaNbqīDku;;īNkhHnmū-iNat'mghhJthSdhuzzsh'āa",
+    "roundTrip": "هجأاءكا)غع/ِي(صظطًبقِيضكُ؛ِّيNخحنمُوعٍَتءمغهجثصذُزّشؤاَ",
+    "secondPass": "hJ'ā'kā)gh-/ī(SZTaNbqīDku;;īNkhHnmū-iNat'mghhJthSdhuzzsh'a"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0169",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "مترٱس(+ظإءعىٍَِذد",
+    "output": "mtrs(+Z''-áiNiadhd",
+    "roundTrip": "مترس(+Zءّعىٍَِذد",
+    "secondPass": "mtrs(+Z''-áiNiadhd"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0170",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "رٌثِٰؤموعىي(ٰؤًُرىثـَنمتبجآ(ٰنطترج؟أكنطًئقآِك\nُغعىٍخص\nطًئقيلكنطغ،جٍِكْإً،ىآ",
+    "output": "ruNthiā'mū-áī(ā'uaNráthanmtbJ'ā(ānTtrJ?'aknTaN'q'āik\nugh-áiNkhS\nTaN'qīlknTgh,JiNik'aN,á'ā",
+    "roundTrip": "رٌثِاءمُوعىِي(اؤًُرىثَنمتبجأا(انطترج؟أَكنطًءقأاِك\nأُغعىٍخص\nطًءقِيلكنطغ،جٍِكئً،ىأا",
+    "secondPass": "ruNthiā'mū-áī(ā'uaNráthanmtbJ'ā(ānTtrJ?aknTaN'q'āik\nugh-áiNkhS\nTaN'qīlknTgh,JiNik'aN,á'ā"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0171",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "َظدورجفـَذموّىفضَاط؛،قآأ+ْ)زهشٍـةن)ءّٱٍلصؤإًئشث",
+    "output": "aZdūrJfadhmvváfDāT;,q'ā'+)zhshiNatn)''iNlS''aN'shth",
+    "roundTrip": "اَظدُورجفَذموّىفضاط؛،قأاء+)زهشٍَتن)ءٍّلصءًّءشث",
+    "secondPass": "aZdūrJfadhmvváfDāT;,q'ā'+)zhshiNatn)''iNlS''aN'shth"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0172",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "+ؤدتعقفخصْم؛ب",
+    "output": "+'dt-qfkhSm;b",
+    "roundTrip": "+أدتعقفخصم؛ب",
+    "secondPass": "+'dt-qfkhSm;b"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0173",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "سأك\n)؛ّقآأحْإ؛ع/فِة\nطزر/ثـص",
+    "output": "s'k\n);;q'ā'H';-/fiat\nTzr/thS",
+    "roundTrip": "سءك\n)؛ّقأاءحء؛ع/فِة\nطزر/ثص",
+    "secondPass": "s'k\n);;q'ā'H';-/fiat\nTzr/thS"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0174",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": " ءهٌ؟لكْ ؛بقآ(صنط؛ئىثـحْإءئجسـكنإ؛بشيأٰا ؛هجثـصذإ",
+    "output": " 'huN?lk ;bq'ā(SnT;'áthH'''Jskn';bshī'āā ;hJthSdh'",
+    "roundTrip": " أهٌ؟لك ؛بقأا(صنط؛ءىثحءّءجسكنء؛بشِيئاا ؛هجثصذء",
+    "secondPass": " 'ahuN?lk ;bq'ā(SnT;'áthH'''Jskn';bshī'āā ;hJthSdh'"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0175",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "رجثـٰنُ",
+    "output": "rJthānu",
+    "roundTrip": "رجثانُ",
+    "secondPass": "rJthānu"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0176",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ٌّآلصذ)وئجس(ةظ)؛،شسخكذًُرٱثخةظإ؛ب/ف",
+    "output": "uN'ālSdh)v'Js(atZ);,shskhkdhuaNrthkhatZ';b/f",
+    "roundTrip": "ٌآلصذ)vأجس(اَتظ)؛،شسخكذًُرثخَتظء؛b/f",
+    "secondPass": "uN'ālSdh)v'Js(atZ);,shskhkdhuaNrthkhatZ';b/f"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0177",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "صنُ؛هجفلةنإغر/يضٰظمز،ٱفَِنًُع",
+    "output": "Snu;hJflatn'ghr/īDāZmz,ifianuaN-",
+    "roundTrip": "صنُ؛هجفلَتنءغر/ِيضاظمز،ِفَِنًُع",
+    "secondPass": "Snu;hJflatn'ghr/īDāZmz,ifianuaN-"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0178",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "فخَنإءهشٍ(حؤ غرٌفخَنم؛،شٍلكْ غهجفِحن)ءهىفِٰؤ)غرىٍأ+ظُ؛بى؟خْٰمغعىثضَن ءّىثضٰ",
+    "output": "fkhan''hshiN(H' ghruNfkhanm;,shiNlk ghhJfiHn)'háfiā')ghráiN'+Zu;bá?khāmgh-áthDan ''áthDā",
+    "roundTrip": "فخَنءّهشٍ(Hأ غرٌفخَنم؛،شٍلك غهجفِحن)أهىفِاء)غرىٍئ+ظُ؛بى؟خامغعىثضَن ءّىثضا",
+    "secondPass": "fkhan''hshiN(H' ghruNfkhanm;,shiNlk ghhJfiHn)'aháfiā')ghráiN'+Zu;bá?khāmgh-áthDan ''áthDā"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0179",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": " تّقيخةْموه/آلكْإغ،شآأْٰ)ءّجثض+نُءئقي(ح\n)؛هشسأحذُءه",
+    "output": " ttqīkhatmūh/'ālk'gh,sh'ā'ā)''JthD+nu''qī(H\n);hshs'Hdhu'h",
+    "roundTrip": " تّقِيخَتمُوه/آلكءغ،شأاأا)ءّجثض+نُءّقِي(H\n)؛هشسءحذُؤه",
+    "secondPass": " ttqīkhatmūh/'ālk'gh,sh'ā'ā)''JthD+nu''qī(H\n);hshs'Hdhu'h"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0180",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "؟ـصظمزع/؟ـحؤ)زعٌسِٰاإوّجثـة\nًُهى؟أَْإزّج؟ل+ذموبىفأَ\nُوئ/ٍلة\nمءّقثـصذطزبىآل+",
+    "output": "?SZmz-/?H')z-uNsiāā'vvJthat\nuaNhá?a'zzJ?l+dhmūbáf'a\nū'/iNlat\nm''qthSdhTzbá'āl+",
+    "roundTrip": "؟صظمزع/؟حء)zعٌسِااءوّجثة\nأًُهى؟َأزّج؟l+ذمُوبىفأَ\nُوأ/ٍلة\nمءّقثصذطزبىأال+",
+    "secondPass": "?SZmz-/?H')z-uNsiāā'vvJthat\nuaNhá?a'azzJ?l+dhmūbáf'a\nū'/iNlat\nm''qthSdhTzbá'āl+"
+  }
+]

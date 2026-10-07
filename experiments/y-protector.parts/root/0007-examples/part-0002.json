@@ -1,0 +1,74 @@
+[
+  {
+    "input": "/bīN",
+    "before": {
+      "output": "/bِيN",
+      "roundTrip": "/bīN",
+      "secondPass": "/bِيN"
+    },
+    "shortY": {
+      "output": "/bِيN",
+      "roundTrip": "/bīN",
+      "secondPass": "/bِيN"
+    },
+    "combined": {
+      "output": "/بِيN",
+      "roundTrip": "/bīN",
+      "secondPass": "/بِيN"
+    }
+  },
+  {
+    "input": "aljāf",
+    "before": {
+      "output": "اَليْاف",
+      "roundTrip": "aljāf",
+      "secondPass": "اَليْاف"
+    },
+    "shortY": {
+      "output": "اَليْاف",
+      "roundTrip": "aljāf",
+      "secondPass": "اَليْاف"
+    },
+    "combined": {
+      "output": "اَليْاف",
+      "roundTrip": "aljāf",
+      "secondPass": "اَليْاف"
+    }
+  },
+  {
+    "input": "yuSab",
+    "before": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    },
+    "shortY": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    },
+    "combined": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    }
+  },
+  {
+    "input": "juSab",
+    "before": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    },
+    "shortY": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    },
+    "combined": {
+      "output": "يُصَب",
+      "roundTrip": "juSab",
+      "secondPass": "يُصَب"
+    }
+  }
+]

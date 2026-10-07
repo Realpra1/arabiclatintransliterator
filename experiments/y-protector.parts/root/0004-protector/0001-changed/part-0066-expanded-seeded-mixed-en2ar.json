@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0036",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mc^2, shāj/إلى — 42 مسؤول, من/هي\n\nqueue ",
+    "output": "أنت، عائشة/نافذة — 42 في — محمد/شيء — ماء اَحمَد\n\nنعم/١٢، هو E=مك^2، شاj/إلى — 42 مسؤول، من/هي\n\nقُُِِ ",
+    "roundTrip": "'ant, -ā'shat/nāfdhat — 42 fī — mHmd/shī' — mā' aHmad\n\nn-m/١٢, hū E=mk^2, shāj/'lá — 42 ms'ūl, mn/hī\n\nquiui ",
+    "secondPass": "أَنت، عاءشة/nافذة — 42 فِي — محمد/شِيئ — ماء اَحمَد\n\nنعm/١٢، هُو E=مك^2، شاj/ألى — 42 مسؤُول، من/hِي\n\nقُُِِ ",
+    "before": {
+      "output": "أنت، عائشة/نافذة — 42 في — محمد/شيء — ماء اَحمَد\n\nنعم/١٢، هو E=مك^2، شاj/إلى — 42 مسؤول، من/هي\n\nقُُِِ ",
+      "roundTrip": "'ant, -ā'shat/nāfdhat — 42 fī — mHmd/shī' — mā' aHmad\n\nn-m/١٢, hū E=mk^2, shāj/'lá — 42 ms'ūl, mn/hī\n\nquiui ",
+      "secondPass": "أَنت، عاءشة/nافذة — 42 فِي — محمد/شِيئ — ماء اَحمَد\n\nنعm/١٢، هُو E=مك^2، شاj/ألى — 42 مسؤُول، من/hِي\n\nقُُِِ "
+    },
+    "after": {
+      "output": "أنت، عائشة/نافذة — 42 في — محمد/شيء — ماء اَحمَد\n\nنعم/١٢، هو E=مك^2، شايْ/إلى — 42 مسؤول، من/هي\n\nقُُِِ ",
+      "roundTrip": "'ant, -ā'shat/nāfdhat — 42 fī — mHmd/shī' — mā' aHmad\n\nn-m/١٢, hū E=mk^2, shāj/'lá — 42 ms'ūl, mn/hī\n\nquiui ",
+      "secondPass": "أَنت، عاءشة/نافذة — 42 فِي — محمد/شِيئ — ماء اَحمَد\n\nنعm/١٢، هُو E=مك^2، شايْ/ألى — 42 مسؤُول، من/هِي\n\nقُُِِ "
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

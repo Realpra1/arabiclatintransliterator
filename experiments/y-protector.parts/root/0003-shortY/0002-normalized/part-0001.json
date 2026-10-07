@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0304",
+    "input": "alyāb",
+    "before": "alīāb",
+    "after": "aliāb"
+  },
+  {
+    "id": "normalizer/0576",
+    "input": "Energy & machines",
+    "before": "inirgī & machinis",
+    "after": "inirgi & machinis"
+  },
+  {
+    "id": "normalizer/0581",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "before": "Thi quikk bruwn fux jumps uvir thi lazī dug.",
+    "after": "Thi quikk bruwn fux jumps uvir thi lazi dug."
+  },
+  {
+    "id": "normalizer/0582",
+    "input": "Pack my box with five dozen liquor jugs.",
+    "before": "pakk mī bux with fivi duzin liqūr jugs.",
+    "after": "pakk mi bux with fivi duzin liqūr jugs."
+  },
+  {
+    "id": "normalizer/0583",
+    "input": "Sphinx of black quartz, judge my vow.",
+    "before": "Sphinx uf blakk quartz, judgi mī vuw.",
+    "after": "Sphinx uf blakk quartz, judgi mi vuw."
+  },
+  {
+    "id": "normalizer/0584",
+    "input": "Don't change what's already working.",
+    "before": "Dun't changi what's alriadī wurking.",
+    "after": "Dun't changi what's alriadi wurking."
+  },
+  {
+    "id": "normalizer/0585",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "before": "a kat, a sitī, a sīkli, a schūl, and a machini.",
+    "after": "a kat, a siti, a sikli, a schūl, and a machini."
+  },
+  {
+    "id": "normalizer/0586",
+    "input": "Chemistry: chlorine, charcoal, copper, calcium, carbon.",
+    "before": "chimistrī: chlurini, charkual, kuppir, kalsium, karbun.",
+    "after": "chimistri: chlurini, charkual, kuppir, kalsium, karbun."
+  },
+  {
+    "id": "normalizer/0587",
+    "input": "Rotate agricultural plant families yearly.",
+    "before": "rutati agrikultural plant familīs yiarlī.",
+    "after": "rutati agrikultural plant familīs yiarli."
+  },
+  {
+    "id": "normalizer/0590",
+    "input": "Store books cool, dry & dark.",
+    "before": "Sturi būks kūl, drī & dark.",
+    "after": "Sturi būks kūl, dri & dark."
+  },
+  {
+    "id": "normalizer/0592",
+    "input": "Hydrogen oxygen nitrogen ammonia",
+    "before": "Hīdrugin uxīgin nitrugin ammunia",
+    "after": "Hidrugin uxigin nitrugin ammunia"
+  },
+  {
+    "id": "normalizer/0595",
+    "input": "c C ce ci cy ca co cu ch school science",
+    "before": "s s si si sī ka ku ku ch schūl ssīnsi",
+    "after": "s s si si si ka ku ku ch schūl ssīnsi"
+  },
+  {
+    "id": "normalizer/0596",
+    "input": "yellow yes happy sky rhythm my by toy boy",
+    "before": "yilluw yis happī skī rhīthm mī bī tuy buy",
+    "after": "yilluw yis happi ski rhithm mi bi tuy buy"
+  },
+  {
+    "id": "normalizer/0602",
+    "input": "pneumonia psychology philosophy photograph phone",
+    "before": "pniumunia psīchulugī philusuphī phutugraph phuni",
+    "after": "pniumunia psichulugi philusuphi phutugraph phuni"
+  },
+  {
+    "id": "normalizer/0726",
+    "input": "by",
+    "before": "bī",
+    "after": "bi"
+  },
+  {
+    "id": "normalizer/0728",
+    "input": "byy",
+    "before": "bīy",
+    "after": "biy"
+  },
+  {
+    "id": "normalizer/0731",
+    "input": "byyy",
+    "before": "bīyī",
+    "after": "biyi"
+  },
+  {
+    "id": "normalizer/0734",
+    "input": "byyyy",
+    "before": "bīyīy",
+    "after": "biyiy"
+  },
+  {
+    "id": "normalizer/0737",
+    "input": "byyyyy",
+    "before": "bīyīyī",
+    "after": "biyiyi"
+  },
+  {
+    "id": "normalizer/0740",
+    "input": "byyyyyy",
+    "before": "bīyīyīy",
+    "after": "biyiyiy"
+  },
+  {
+    "id": "normalizer/0743",
+    "input": "byyyyyyy",
+    "before": "bīyīyīyī",
+    "after": "biyiyiyi"
+  },
+  {
+    "id": "normalizer/0746",
+    "input": "byyyyyyyy",
+    "before": "bīyīyīyīy",
+    "after": "biyiyiyiy"
+  },
+  {
+    "id": "normalizer/0958",
+    "input": "xy",
+    "before": "sī",
+    "after": "si"
+  },
+  {
+    "id": "normalizer/1021",
+    "input": "Please, thank you, and sorry.",
+    "before": "pliasi, thank yū, and surrī.",
+    "after": "pliasi, thank yū, and surri."
+  },
+  {
+    "id": "normalizer/1026",
+    "input": "My address is 12 Church Street, apartment 3B.",
+    "before": "mī addriss is 12 church Strīt, apartmint 3b.",
+    "after": "mi addriss is 12 church Strīt, apartmint 3b."
+  },
+  {
+    "id": "normalizer/1029",
+    "input": "She said, “Yes”; he replied, “Why?”",
+    "before": "Shi said, “yis”; hi riplīd, “whī?”",
+    "after": "Shi said, “yis”; hi riplīd, “whi?”"
+  },
+  {
+    "id": "normalizer/1031",
+    "input": "queue rhythm yacht choir thorough though tough",
+    "before": "quiui rhīthm yacht chuir thurūgh thūgh tūgh",
+    "after": "quiui rhithm yacht chuir thurūgh thūgh tūgh"
+  },
+  {
+    "id": "normalizer/1034",
+    "input": "January February March April May June July",
+    "before": "Januarī fibruarī march april may Juni Julī",
+    "after": "Januari fibruari march april may Juni Juli"
+  },
+  {
+    "id": "normalizer/1040",
+    "input": "At 8:30, I left my keys by the café door. 'Did you hear that?' asked May.\nA quiet yellow taxi passed the old school; three children waved.\n\nShopping: coffee, cheese, bread, apples. Total: €12.50.\nSend the receipt to ali@example.com, then write: shukraN!",
+    "before": "at 8:30, i lift mī kiys bī thi kafé dūr. 'Did yū hiar that?' askid may.\na quīt yilluw taxi passid thi uld schūl; thrī childrin wavid.\n\nShupping: kuffī, chīsi, briad, applis. Tutal: €12.50.\nSind thi risīpt tu ali@ixampli.kum, thin writi: shukraN!",
+    "after": "at 8:30, i lift mi kiys bi thi kafé dūr. 'Did yū hiar that?' askid may.\na quīt yilluw taxi passid thi uld schūl; thrī childrin wavid.\n\nShupping: kuffī, chīsi, briad, applis. Tutal: €12.50.\nSind thi risīpt tu ali@ixampli.kum, thin writi: shukraN!"
+  },
+  {
+    "id": "normalizer/1041",
+    "input": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kuubaN min almaa'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alQāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hello! How are you today? Good morning. Good evening. Good night. Please, thank you, and sorry. I'm fine. What's your name? Where's the station? One coffee without sugar, please. The meeting is at 08:30 on Wednesday. Call +44 20 1234 5678, extension 42. My address is 12 Church Street, apartment 3B. Bread, milk, eggs, cheese, apples, and tea. I paid $12.50, €8.99, and £3.00. She said, “Yes”; he replied, “Why?” O'Connor, D'Angelo, Anne-Marie, and Jean-Luc queue rhythm yacht choir thorough though tough a an the and or but if in on at to of for with Monday Tuesday Wednesday Thursday Friday January February March April May June July 0 zero 1 one 2 two 10 ten 100 hundred Email user+tag@example.com; open https://example.com/a?x=1&y=2#section. file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt naïve façade coöperate piñata Straße Łódź déjà vu",
+    "before": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kūbaN min almā'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alqāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hillu! Huw ari yū tuday? gūd murning. gūd ivining. gūd night. pliasi, thank yū, and surrī. i'm fini. what's yūr nami? whiri's thi statiun? uni kuffī withūt sugar, pliasi. Thi mīting is at 08:30 un widnisday. kall +44 20 1234 5678, ixtinsiun 42. mī addriss is 12 church Strīt, apartmint 3b. briad, milk, iggs, chīsi, applis, and tia. i paid $12.50, €8.99, and £3.00. Shi said, “yis”; hi riplīd, “whī?” u'kunnur, D'angilu, anni-marī, and Jian-lus quiui rhīthm yacht chuir thurūgh thūgh tūgh a an thi and ur but if in un at tu uf fur with munday Tuisday widnisday Thursday friday Januarī fibruarī march april may Juni Julī 0 ziru 1 uni 2 twu 10 tin 100 hundrid imail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun. fili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt naïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "after": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kūbaN min almā'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alqāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hillu! Huw ari yū tuday? gūd murning. gūd ivining. gūd night. pliasi, thank yū, and surri. i'm fini. what's yūr nami? whiri's thi statiun? uni kuffī withūt sugar, pliasi. Thi mīting is at 08:30 un widnisday. kall +44 20 1234 5678, ixtinsiun 42. mi addriss is 12 church Strīt, apartmint 3b. briad, milk, iggs, chīsi, applis, and tia. i paid $12.50, €8.99, and £3.00. Shi said, “yis”; hi riplīd, “whi?” u'kunnur, D'angilu, anni-marī, and Jian-lus quiui rhithm yacht chuir thurūgh thūgh tūgh a an thi and ur but if in un at tu uf fur with munday Tuisday widnisday Thursday friday Januari fibruari march april may Juni Juli 0 ziru 1 uni 2 twu 10 tin 100 hundrid imail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun. fili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt naïvi façadi kuöpirati piñata Straßi Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1042",
+    "input": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kuubaN min almaa'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalQāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHello! How are you today?\nGood morning. Good evening. Good night.\nPlease, thank you, and sorry.\nI'm fine. What's your name? Where's the station?\nOne coffee without sugar, please.\nThe meeting is at 08:30 on Wednesday.\nCall +44 20 1234 5678, extension 42.\nMy address is 12 Church Street, apartment 3B.\nBread, milk, eggs, cheese, apples, and tea.\nI paid $12.50, €8.99, and £3.00.\nShe said, “Yes”; he replied, “Why?”\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\nqueue rhythm yacht choir thorough though tough\na an the and or but if in on at to of for with\nMonday Tuesday Wednesday Thursday Friday\nJanuary February March April May June July\n0 zero 1 one 2 two 10 ten 100 hundred\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\nnaïve façade coöperate piñata Straße Łódź déjà vu",
+    "before": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kūbaN min almā'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalqāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHillu! Huw ari yū tuday?\ngūd murning. gūd ivining. gūd night.\npliasi, thank yū, and surrī.\ni'm fini. what's yūr nami? whiri's thi statiun?\nuni kuffī withūt sugar, pliasi.\nThi mīting is at 08:30 un widnisday.\nkall +44 20 1234 5678, ixtinsiun 42.\nmī addriss is 12 church Strīt, apartmint 3b.\nbriad, milk, iggs, chīsi, applis, and tia.\ni paid $12.50, €8.99, and £3.00.\nShi said, “yis”; hi riplīd, “whī?”\nu'kunnur, D'angilu, anni-marī, and Jian-lus\nquiui rhīthm yacht chuir thurūgh thūgh tūgh\na an thi and ur but if in un at tu uf fur with\nmunday Tuisday widnisday Thursday friday\nJanuarī fibruarī march april may Juni Julī\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "after": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kūbaN min almā'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalqāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHillu! Huw ari yū tuday?\ngūd murning. gūd ivining. gūd night.\npliasi, thank yū, and surri.\ni'm fini. what's yūr nami? whiri's thi statiun?\nuni kuffī withūt sugar, pliasi.\nThi mīting is at 08:30 un widnisday.\nkall +44 20 1234 5678, ixtinsiun 42.\nmi addriss is 12 church Strīt, apartmint 3b.\nbriad, milk, iggs, chīsi, applis, and tia.\ni paid $12.50, €8.99, and £3.00.\nShi said, “yis”; hi riplīd, “whi?”\nu'kunnur, D'angilu, anni-marī, and Jian-lus\nquiui rhithm yacht chuir thurūgh thūgh tūgh\na an thi and ur but if in un at tu uf fur with\nmunday Tuisday widnisday Thursday friday\nJanuari fibruari march april may Juni Juli\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1043",
+    "input": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kuubaN min almaa'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalQāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHello! How are you today?\n\nGood morning. Good evening. Good night.\n\nPlease, thank you, and sorry.\n\nI'm fine. What's your name? Where's the station?\n\nOne coffee without sugar, please.\n\nThe meeting is at 08:30 on Wednesday.\n\nCall +44 20 1234 5678, extension 42.\n\nMy address is 12 Church Street, apartment 3B.\n\nBread, milk, eggs, cheese, apples, and tea.\n\nI paid $12.50, €8.99, and £3.00.\n\nShe said, “Yes”; he replied, “Why?”\n\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\n\nqueue rhythm yacht choir thorough though tough\n\na an the and or but if in on at to of for with\n\nMonday Tuesday Wednesday Thursday Friday\n\nJanuary February March April May June July\n\n0 zero 1 one 2 two 10 ten 100 hundred\n\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\n\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\n\nnaïve façade coöperate piñata Straße Łódź déjà vu",
+    "before": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kūbaN min almā'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalqāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHillu! Huw ari yū tuday?\n\ngūd murning. gūd ivining. gūd night.\n\npliasi, thank yū, and surrī.\n\ni'm fini. what's yūr nami? whiri's thi statiun?\n\nuni kuffī withūt sugar, pliasi.\n\nThi mīting is at 08:30 un widnisday.\n\nkall +44 20 1234 5678, ixtinsiun 42.\n\nmī addriss is 12 church Strīt, apartmint 3b.\n\nbriad, milk, iggs, chīsi, applis, and tia.\n\ni paid $12.50, €8.99, and £3.00.\n\nShi said, “yis”; hi riplīd, “whī?”\n\nu'kunnur, D'angilu, anni-marī, and Jian-lus\n\nquiui rhīthm yacht chuir thurūgh thūgh tūgh\n\na an thi and ur but if in un at tu uf fur with\n\nmunday Tuisday widnisday Thursday friday\n\nJanuarī fibruarī march april may Juni Julī\n\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\n\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\n\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\n\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "after": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kūbaN min almā'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalqāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHillu! Huw ari yū tuday?\n\ngūd murning. gūd ivining. gūd night.\n\npliasi, thank yū, and surri.\n\ni'm fini. what's yūr nami? whiri's thi statiun?\n\nuni kuffī withūt sugar, pliasi.\n\nThi mīting is at 08:30 un widnisday.\n\nkall +44 20 1234 5678, ixtinsiun 42.\n\nmi addriss is 12 church Strīt, apartmint 3b.\n\nbriad, milk, iggs, chīsi, applis, and tia.\n\ni paid $12.50, €8.99, and £3.00.\n\nShi said, “yis”; hi riplīd, “whi?”\n\nu'kunnur, D'angilu, anni-marī, and Jian-lus\n\nquiui rhithm yacht chuir thurūgh thūgh tūgh\n\na an thi and ur but if in un at tu uf fur with\n\nmunday Tuisday widnisday Thursday friday\n\nJanuari fibruari march april may Juni Juli\n\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\n\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\n\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\n\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1187",
+    "input": "aly",
+    "before": "alī",
+    "after": "ali"
+  },
+  {
+    "id": "normalizer/1416",
+    "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+    "before": "bīa bīya bīyīa bīyīya bīaN ayya iyya uyya",
+    "after": "bia biya biyia biyiya biaN ayya iyya uyya"
+  },
+  {
+    "id": "normalizer/1448",
+    "input": "world+city na-am shaj'\tanta qahva aN\naHmad؛ yellow city\tcity+anta uN qahva؛ by\naN anta\nqahva mā'+aN؛ alSSabāH+qahva؛ min na-am\taN world alSSabāH+mā'؛ -alá\nmarHaba\tworld\nalSSabāH؛ by+queue city\nworld؛ by\naHmad\tbook mā'\tyellow+alSSabāH aHmad+uN؛ alSawt\n",
+    "before": "wurld+sitī na-am shaj'\tanta qahva aN\naHmad؛ yilluw sitī\tsitī+anta uN qahva؛ bī\naN anta\nqahva mā'+aN؛ alSSabāH+qahva؛ min na-am\taN wurld alSSabāH+mā'؛ -alá\nmarHaba\twurld\nalSSabāH؛ bī+quiui sitī\nwurld؛ bī\naHmad\tbūk mā'\tyilluw+alSSabāH aHmad+uN؛ alSawt\n",
+    "after": "wurld+siti na-am shaj'\tanta qahva aN\naHmad؛ yilluw siti\tsiti+anta uN qahva؛ bi\naN anta\nqahva mā'+aN؛ alSSabāH+qahva؛ min na-am\taN wurld alSSabāH+mā'؛ -alá\nmarHaba\twurld\nalSSabāH؛ bi+quiui siti\nwurld؛ bi\naHmad\tbūk mā'\tyilluw+alSSabāH aHmad+uN؛ alSawt\n"
+  },
+  {
+    "id": "normalizer/1450",
+    "input": "by+anta -alá min؛ -alá+quvva\tkitāb\n",
+    "before": "bī+anta -alá min؛ -alá+quvva\tkitāb\n",
+    "after": "bi+anta -alá min؛ -alá+quvva\tkitāb\n"
+  },
+  {
+    "id": "normalizer/1452",
+    "input": "by\nmin؛ anta\nmarHaba city mā'\taN aN queue marHaba qahva aHmad\tshaj' kitāb\tyellow quvva -alá queue؛ city\nby؛ marHaba+aN alSSabāH uN؛ city by\tqueue+-alá؛ by queue؛ queue+anta\tna-am queue\tmā'+mā'؛ -alá+min؛ aHmad+queue\tanta\nalSawt\tkitāb\n",
+    "before": "bī\nmin؛ anta\nmarHaba sitī mā'\taN aN quiui marHaba qahva aHmad\tshaj' kitāb\tyilluw quvva -alá quiui؛ sitī\nbī؛ marHaba+aN alSSabāH uN؛ sitī bī\tquiui+-alá؛ bī quiui؛ quiui+anta\tna-am quiui\tmā'+mā'؛ -alá+min؛ aHmad+quiui\tanta\nalSawt\tkitāb\n",
+    "after": "bi\nmin؛ anta\nmarHaba siti mā'\taN aN quiui marHaba qahva aHmad\tshaj' kitāb\tyilluw quvva -alá quiui؛ siti\nbi؛ marHaba+aN alSSabāH uN؛ siti bi\tquiui+-alá؛ bi quiui؛ quiui+anta\tna-am quiui\tmā'+mā'؛ -alá+min؛ aHmad+quiui\tanta\nalSawt\tkitāb\n"
+  },
+  {
+    "id": "normalizer/1453",
+    "input": "with\n\nshāj/Hajj, madrasat/rubbamā — with? with\n\ncoffee/school — lajla/ghadaN — rubbamā/with, ilá/naHnu — su'āl/iN\n\nrubbamā lajla — school? Hajj, anā/ilá, with Hajj\n\nlajla? lajla\n\nrhythm? shāj, anā madrasat — madrasat my, madrasat!",
+    "before": "with\n\nshāj/Hajj, madrasat/rubbamā — with? with\n\nkuffī/schūl — lajla/ghadaN — rubbamā/with, ilá/naHnu — su'āl/iN\n\nrubbamā lajla — schūl? Hajj, anā/ilá, with Hajj\n\nlajla? lajla\n\nrhīthm? shāj, anā madrasat — madrasat mī, madrasat!",
+    "after": "with\n\nshāj/Hajj, madrasat/rubbamā — with? with\n\nkuffī/schūl — lajla/ghadaN — rubbamā/with, ilá/naHnu — su'āl/iN\n\nrubbamā lajla — schūl? Hajj, anā/ilá, with Hajj\n\nlajla? lajla\n\nrhithm? shāj, anā madrasat — madrasat mi, madrasat!"
+  },
+  {
+    "id": "normalizer/1454",
+    "input": "kitāb\nquvva\tmarHaba\ncity؛ aHmad\ncity world queue shaj' aHmad؛ marHaba\nworld\talSSabāH\nshaj' aHmad؟",
+    "before": "kitāb\nquvva\tmarHaba\nsitī؛ aHmad\nsitī wurld quiui shaj' aHmad؛ marHaba\nwurld\talSSabāH\nshaj' aHmad؟",
+    "after": "kitāb\nquvva\tmarHaba\nsiti؛ aHmad\nsiti wurld quiui shaj' aHmad؛ marHaba\nwurld\talSSabāH\nshaj' aHmad؟"
+  },
+  {
+    "id": "normalizer/1455",
+    "input": "with — rubbamā coffee\n\nfī my\n\nhavā'/Hajj — rhythm/lajla — fī hello — fī/madrasat, rubbamā/shāj\n\nrubbamā? anā, su'āl? lajla — ghadaN? satasma-\n\nHajj my\n\nrhythm rubbamā — iN? anā — satasma-/madrasat, havā' coffee\n\nhavā'؟",
+    "before": "with — rubbamā kuffī\n\nfī mī\n\nhavā'/Hajj — rhīthm/lajla — fī hillu — fī/madrasat, rubbamā/shāj\n\nrubbamā? anā, su'āl? lajla — ghadaN? satasma-\n\nHajj mī\n\nrhīthm rubbamā — iN? anā — satasma-/madrasat, havā' kuffī\n\nhavā'؟",
+    "after": "with — rubbamā kuffī\n\nfī mi\n\nhavā'/Hajj — rhithm/lajla — fī hillu — fī/madrasat, rubbamā/shāj\n\nrubbamā? anā, su'āl? lajla — ghadaN? satasma-\n\nHajj mi\n\nrhithm rubbamā — iN? anā — satasma-/madrasat, havā' kuffī\n\nhavā'؟"
+  },
+  {
+    "id": "normalizer/1456",
+    "input": "alSawt book؛ min\n-alá\tkitāb+anta\tby uN kitāb yellow\tmarHaba+alSawt marHaba queue\tanta qahva؛ kitāb aN -alá+kitāb yellow alSSabāH\tmin aHmad uN+qahva\tshaj'\nanta\tmā'",
+    "before": "alSawt būk؛ min\n-alá\tkitāb+anta\tbī uN kitāb yilluw\tmarHaba+alSawt marHaba quiui\tanta qahva؛ kitāb aN -alá+kitāb yilluw alSSabāH\tmin aHmad uN+qahva\tshaj'\nanta\tmā'",
+    "after": "alSawt būk؛ min\n-alá\tkitāb+anta\tbi uN kitāb yilluw\tmarHaba+alSawt marHaba quiui\tanta qahva؛ kitāb aN -alá+kitāb yilluw alSSabāH\tmin aHmad uN+qahva\tshaj'\nanta\tmā'"
+  },
+  {
+    "id": "normalizer/1457",
+    "input": "anā, rhythm? ghadaN\n\nghadaN with, school naHnu, Hajj? shāj — rubbamā school\n\nHajj? su'āl — fī/ghadaN, shāj havā'\n\nrhythm fī, rubbamā/rubbamā — ghadaN",
+    "before": "anā, rhīthm? ghadaN\n\nghadaN with, schūl naHnu, Hajj? shāj — rubbamā schūl\n\nHajj? su'āl — fī/ghadaN, shāj havā'\n\nrhīthm fī, rubbamā/rubbamā — ghadaN",
+    "after": "anā, rhithm? ghadaN\n\nghadaN with, schūl naHnu, Hajj? shāj — rubbamā schūl\n\nHajj? su'āl — fī/ghadaN, shāj havā'\n\nrhithm fī, rubbamā/rubbamā — ghadaN"
+  },
+  {
+    "id": "normalizer/1458",
+    "input": "aHmad\nalSSabāH alSSabāH+-alá\t-alá+queue\tmā'+book na-am alSSabāH\t-alá city؛ marHaba\naN؛ by aHmad\tna-am\nkitāb؛ aHmad uN by+city book quvva aN\nmarHaba\tworld\nqueue -alá.",
+    "before": "aHmad\nalSSabāH alSSabāH+-alá\t-alá+quiui\tmā'+būk na-am alSSabāH\t-alá sitī؛ marHaba\naN؛ bī aHmad\tna-am\nkitāb؛ aHmad uN bī+sitī būk quvva aN\nmarHaba\twurld\nquiui -alá.",
+    "after": "aHmad\nalSSabāH alSSabāH+-alá\t-alá+quiui\tmā'+būk na-am alSSabāH\t-alá siti؛ marHaba\naN؛ bi aHmad\tna-am\nkitāb؛ aHmad uN bi+siti būk quvva aN\nmarHaba\twurld\nquiui -alá."
+  },
+  {
+    "id": "normalizer/1459",
+    "input": "ghadaN — satasma- anā — hello/lajla — su'āl rubbamā\n\nhello/naHnu — madrasat rubbamā — satasma- havā' — madrasat/rubbamā\n\nschool? rubbamā\n\nmy lajla, naHnu? shāj — ghadaN coffee, naHnu? havā', satasma-/with, anā/hello — su'āl? rubbamā\n\nsatasma- iN\n\nHajj ghadaN — fī",
+    "before": "ghadaN — satasma- anā — hillu/lajla — su'āl rubbamā\n\nhillu/naHnu — madrasat rubbamā — satasma- havā' — madrasat/rubbamā\n\nschūl? rubbamā\n\nmī lajla, naHnu? shāj — ghadaN kuffī, naHnu? havā', satasma-/with, anā/hillu — su'āl? rubbamā\n\nsatasma- iN\n\nHajj ghadaN — fī",
+    "after": "ghadaN — satasma- anā — hillu/lajla — su'āl rubbamā\n\nhillu/naHnu — madrasat rubbamā — satasma- havā' — madrasat/rubbamā\n\nschūl? rubbamā\n\nmi lajla, naHnu? shāj — ghadaN kuffī, naHnu? havā', satasma-/with, anā/hillu — su'āl? rubbamā\n\nsatasma- iN\n\nHajj ghadaN — fī"
+  },
+  {
+    "id": "normalizer/1460",
+    "input": "kitāb+mā'\tqahva\nmarHaba\tna-am city marHaba+marHaba\tuN aN\taN+qahva؛ marHaba.",
+    "before": "kitāb+mā'\tqahva\nmarHaba\tna-am sitī marHaba+marHaba\tuN aN\taN+qahva؛ marHaba.",
+    "after": "kitāb+mā'\tqahva\nmarHaba\tna-am siti marHaba+marHaba\tuN aN\taN+qahva؛ marHaba."
+  },
+  {
+    "id": "normalizer/1461",
+    "input": "rubbamā\n\nmy/ghadaN, Hajj/coffee\n\nhavā' coffee\n\ncoffee ghadaN, madrasat? lajla\n\nHajj? madrasat\n\nghadaN/my\n\nhello? with — satasma-? anā\n\nshāj naHnu — naHnu/coffee\n\nwith/su'āl — fī/ghadaN\n\nlajla!",
+    "before": "rubbamā\n\nmī/ghadaN, Hajj/kuffī\n\nhavā' kuffī\n\nkuffī ghadaN, madrasat? lajla\n\nHajj? madrasat\n\nghadaN/mī\n\nhillu? with — satasma-? anā\n\nshāj naHnu — naHnu/kuffī\n\nwith/su'āl — fī/ghadaN\n\nlajla!",
+    "after": "rubbamā\n\nmi/ghadaN, Hajj/kuffī\n\nhavā' kuffī\n\nkuffī ghadaN, madrasat? lajla\n\nHajj? madrasat\n\nghadaN/mi\n\nhillu? with — satasma-? anā\n\nshāj naHnu — naHnu/kuffī\n\nwith/su'āl — fī/ghadaN\n\nlajla!"
+  },
+  {
+    "id": "normalizer/1462",
+    "input": "marHaba min\taHmad\nkitāb qahva -alá\tqueue\nquvva marHaba+marHaba\tanta shaj'\tcity+na-am na-am\nuN city+mā'\tanta\nqahva؛ qahva by\talSSabāH -alá؛ alSawt+na-am alSawt book marHaba world uN+-alá shaj'\nmarHaba؛ by+mā'؛ qahva+shaj'؛ alSSabāH min؛ shaj' book؛ marHaba+na-am؛ quvva\nmā'\tquvva!",
+    "before": "marHaba min\taHmad\nkitāb qahva -alá\tquiui\nquvva marHaba+marHaba\tanta shaj'\tsitī+na-am na-am\nuN sitī+mā'\tanta\nqahva؛ qahva bī\talSSabāH -alá؛ alSawt+na-am alSawt būk marHaba wurld uN+-alá shaj'\nmarHaba؛ bī+mā'؛ qahva+shaj'؛ alSSabāH min؛ shaj' būk؛ marHaba+na-am؛ quvva\nmā'\tquvva!",
+    "after": "marHaba min\taHmad\nkitāb qahva -alá\tquiui\nquvva marHaba+marHaba\tanta shaj'\tsiti+na-am na-am\nuN siti+mā'\tanta\nqahva؛ qahva bi\talSSabāH -alá؛ alSawt+na-am alSawt būk marHaba wurld uN+-alá shaj'\nmarHaba؛ bi+mā'؛ qahva+shaj'؛ alSSabāH min؛ shaj' būk؛ marHaba+na-am؛ quvva\nmā'\tquvva!"
+  },
+  {
+    "id": "normalizer/1464",
+    "input": "mā'\nalSSabāH\t-alá+book؛ quvva\nby world+mā'\tuN+yellow queue city by marHaba؛ quvva+marHaba qahva+-alá book\ncity؛ city+kitāb\taHmad+aN؛ anta+marHaba\talSSabāH\nshaj'؛ alSSabāH؟",
+    "before": "mā'\nalSSabāH\t-alá+būk؛ quvva\nbī wurld+mā'\tuN+yilluw quiui sitī bī marHaba؛ quvva+marHaba qahva+-alá būk\nsitī؛ sitī+kitāb\taHmad+aN؛ anta+marHaba\talSSabāH\nshaj'؛ alSSabāH؟",
+    "after": "mā'\nalSSabāH\t-alá+būk؛ quvva\nbi wurld+mā'\tuN+yilluw quiui siti bi marHaba؛ quvva+marHaba qahva+-alá būk\nsiti؛ siti+kitāb\taHmad+aN؛ anta+marHaba\talSSabāH\nshaj'؛ alSSabāH؟"
+  },
+  {
+    "id": "normalizer/1465",
+    "input": "Hajj\n\nwith/havā', coffee? ilá\n\nshāj/naHnu\n\nmadrasat? school, naHnu my — my/havā'\n\nanā? hello, havā'? lajla — ghadaN? satasma- — fī/madrasat — fī my\n\nhavā' rhythm, fī? ghadaN\n\niN/iN — coffee rubbamā — with shāj, my? school\n\nmadrasat/school, lā? Hajj\n\nrhythm? rhythm, naHnu? shāj\n\nlā/ghadaN — havā' hello\n\niN/fī — ilá.",
+    "before": "Hajj\n\nwith/havā', kuffī? ilá\n\nshāj/naHnu\n\nmadrasat? schūl, naHnu mī — mī/havā'\n\nanā? hillu, havā'? lajla — ghadaN? satasma- — fī/madrasat — fī mī\n\nhavā' rhīthm, fī? ghadaN\n\niN/iN — kuffī rubbamā — with shāj, mī? schūl\n\nmadrasat/schūl, lā? Hajj\n\nrhīthm? rhīthm, naHnu? shāj\n\nlā/ghadaN — havā' hillu\n\niN/fī — ilá.",
+    "after": "Hajj\n\nwith/havā', kuffī? ilá\n\nshāj/naHnu\n\nmadrasat? schūl, naHnu mi — mi/havā'\n\nanā? hillu, havā'? lajla — ghadaN? satasma- — fī/madrasat — fī mi\n\nhavā' rhithm, fī? ghadaN\n\niN/iN — kuffī rubbamā — with shāj, mi? schūl\n\nmadrasat/schūl, lā? Hajj\n\nrhithm? rhithm, naHnu? shāj\n\nlā/ghadaN — havā' hillu\n\niN/fī — ilá."
+  },
+  {
+    "id": "normalizer/1466",
+    "input": "by book\taHmad queue\tanta\n-alá\tmin shaj' by -alá aN city marHaba.",
+    "before": "bī būk\taHmad quiui\tanta\n-alá\tmin shaj' bī -alá aN sitī marHaba.",
+    "after": "bi būk\taHmad quiui\tanta\n-alá\tmin shaj' bi -alá aN siti marHaba."
+  },
+  {
+    "id": "normalizer/1468",
+    "input": "quvva\nmin؛ queue city book\ncity؛ marHaba\n-alá na-am\nuN؛ uN\nalSawt anta+min؛ marHaba alSawt alSSabāH\nmin\talSSabāH qahva\tna-am mā'\tna-am na-am؛ mā'\nmin؛ by+-alá\tquvva city\talSSabāH+na-am\tby\nalSSabāH؛ kitāb aN quvva+-alá aN alSSabāH؛ min shaj' city+aHmad؛ aN+book؛ qahva+aN\taHmad.",
+    "before": "quvva\nmin؛ quiui sitī būk\nsitī؛ marHaba\n-alá na-am\nuN؛ uN\nalSawt anta+min؛ marHaba alSawt alSSabāH\nmin\talSSabāH qahva\tna-am mā'\tna-am na-am؛ mā'\nmin؛ bī+-alá\tquvva sitī\talSSabāH+na-am\tbī\nalSSabāH؛ kitāb aN quvva+-alá aN alSSabāH؛ min shaj' sitī+aHmad؛ aN+būk؛ qahva+aN\taHmad.",
+    "after": "quvva\nmin؛ quiui siti būk\nsiti؛ marHaba\n-alá na-am\nuN؛ uN\nalSawt anta+min؛ marHaba alSawt alSSabāH\nmin\talSSabāH qahva\tna-am mā'\tna-am na-am؛ mā'\nmin؛ bi+-alá\tquvva siti\talSSabāH+na-am\tbi\nalSSabāH؛ kitāb aN quvva+-alá aN alSSabāH؛ min shaj' siti+aHmad؛ aN+būk؛ qahva+aN\taHmad."
+  },
+  {
+    "id": "normalizer/1469",
+    "input": "satasma- — school? su'āl, coffee? with — naHnu? anā, lā? rubbamā — rhythm madrasat\n\nrubbamā? su'āl — Hajj? coffee — naHnu fī\n\nsu'āl Hajj, ghadaN my — shāj? lajla\n\nlā\n",
+    "before": "satasma- — schūl? su'āl, kuffī? with — naHnu? anā, lā? rubbamā — rhīthm madrasat\n\nrubbamā? su'āl — Hajj? kuffī — naHnu fī\n\nsu'āl Hajj, ghadaN mī — shāj? lajla\n\nlā\n",
+    "after": "satasma- — schūl? su'āl, kuffī? with — naHnu? anā, lā? rubbamā — rhithm madrasat\n\nrubbamā? su'āl — Hajj? kuffī — naHnu fī\n\nsu'āl Hajj, ghadaN mi — shāj? lajla\n\nlā\n"
+  },
+  {
+    "id": "normalizer/1470",
+    "input": "yellow\nqahva؛ anta uN alSawt+queue aN\nna-am\tqahva book city\nanta؛ quvva\nshaj' min\nworld marHaba\nyellow؛ alSSabāH\nalSawt -alá aHmad؛ kitāb.",
+    "before": "yilluw\nqahva؛ anta uN alSawt+quiui aN\nna-am\tqahva būk sitī\nanta؛ quvva\nshaj' min\nwurld marHaba\nyilluw؛ alSSabāH\nalSawt -alá aHmad؛ kitāb.",
+    "after": "yilluw\nqahva؛ anta uN alSawt+quiui aN\nna-am\tqahva būk siti\nanta؛ quvva\nshaj' min\nwurld marHaba\nyilluw؛ alSSabāH\nalSawt -alá aHmad؛ kitāb."
+  },
+  {
+    "id": "normalizer/1472",
+    "input": "min\nalSSabāH؛ marHaba\nqahva\tqueue\nquvva\tbook alSSabāH\tkitāb aHmad queue+qahva؛ marHaba anta؛ world alSawt\tbook+alSSabāH\tna-am\nworld؛ aHmad+na-am؛ marHaba+min city\nby\tmin uN؛ aN+marHaba na-am world؛ marHaba shaj' city+kitāb؛ alSawt\naN uN+book؛ quvva+yellow world alSawt alSSabāH",
+    "before": "min\nalSSabāH؛ marHaba\nqahva\tquiui\nquvva\tbūk alSSabāH\tkitāb aHmad quiui+qahva؛ marHaba anta؛ wurld alSawt\tbūk+alSSabāH\tna-am\nwurld؛ aHmad+na-am؛ marHaba+min sitī\nbī\tmin uN؛ aN+marHaba na-am wurld؛ marHaba shaj' sitī+kitāb؛ alSawt\naN uN+būk؛ quvva+yilluw wurld alSawt alSSabāH",
+    "after": "min\nalSSabāH؛ marHaba\nqahva\tquiui\nquvva\tbūk alSSabāH\tkitāb aHmad quiui+qahva؛ marHaba anta؛ wurld alSawt\tbūk+alSSabāH\tna-am\nwurld؛ aHmad+na-am؛ marHaba+min siti\nbi\tmin uN؛ aN+marHaba na-am wurld؛ marHaba shaj' siti+kitāb؛ alSawt\naN uN+būk؛ quvva+yilluw wurld alSawt alSSabāH"
+  },
+  {
+    "id": "normalizer/1473",
+    "input": "Hajj, with? ghadaN, my/ghadaN\n\nmy/naHnu\n\nrubbamā lajla, with/su'āl — Hajj\n",
+    "before": "Hajj, with? ghadaN, mī/ghadaN\n\nmī/naHnu\n\nrubbamā lajla, with/su'āl — Hajj\n",
+    "after": "Hajj, with? ghadaN, mi/ghadaN\n\nmi/naHnu\n\nrubbamā lajla, with/su'āl — Hajj\n"
+  },
+  {
+    "id": "normalizer/1474",
+    "input": "na-am+queue\tshaj'\nworld\talSawt\nyellow mā'\nuN alSawt aHmad\tyellow+qahva؛ shaj' city\tworld uN؛ aN quvva yellow\nshaj'؛ book+uN\tkitāb alSawt\tshaj'؟",
+    "before": "na-am+quiui\tshaj'\nwurld\talSawt\nyilluw mā'\nuN alSawt aHmad\tyilluw+qahva؛ shaj' sitī\twurld uN؛ aN quvva yilluw\nshaj'؛ būk+uN\tkitāb alSawt\tshaj'؟",
+    "after": "na-am+quiui\tshaj'\nwurld\talSawt\nyilluw mā'\nuN alSawt aHmad\tyilluw+qahva؛ shaj' siti\twurld uN؛ aN quvva yilluw\nshaj'؛ būk+uN\tkitāb alSawt\tshaj'؟"
+  },
+  {
+    "id": "normalizer/1475",
+    "input": "my — with satasma-\n\nrhythm/iN\n\niN/anā\n\nsatasma-/ilá — naHnu anā, naHnu? Hajj\n\nrubbamā/su'āl\n\nlā iN, lā/with\n\nghadaN? Hajj — hello fī — lajla? school — anā/ghadaN, madrasat iN, satasma-/havā'\n\nhavā' madrasat\n\nmadrasat/naHnu — lā/shāj\n\nschool Hajj — my/anā — ilá shāj — rubbamā/with, hello",
+    "before": "mī — with satasma-\n\nrhīthm/iN\n\niN/anā\n\nsatasma-/ilá — naHnu anā, naHnu? Hajj\n\nrubbamā/su'āl\n\nlā iN, lā/with\n\nghadaN? Hajj — hillu fī — lajla? schūl — anā/ghadaN, madrasat iN, satasma-/havā'\n\nhavā' madrasat\n\nmadrasat/naHnu — lā/shāj\n\nschūl Hajj — mī/anā — ilá shāj — rubbamā/with, hillu",
+    "after": "mi — with satasma-\n\nrhithm/iN\n\niN/anā\n\nsatasma-/ilá — naHnu anā, naHnu? Hajj\n\nrubbamā/su'āl\n\nlā iN, lā/with\n\nghadaN? Hajj — hillu fī — lajla? schūl — anā/ghadaN, madrasat iN, satasma-/havā'\n\nhavā' madrasat\n\nmadrasat/naHnu — lā/shāj\n\nschūl Hajj — mi/anā — ilá shāj — rubbamā/with, hillu"
+  },
+  {
+    "id": "normalizer/1476",
+    "input": "mā'\nmarHaba aHmad+queue؛ aN+anta؛ anta\n-alá؛ -alá\nqahva\taN queue\tmā'\nmā' aN+book\tkitāb\nby؛ by -alá queue\nshaj' by+uN -alá+quvva؛ qahva by city\naHmad\tmin\nyellow queue+na-am\tby marHaba؛ -alá\ncity؛ alSawt+yellow\tanta",
+    "before": "mā'\nmarHaba aHmad+quiui؛ aN+anta؛ anta\n-alá؛ -alá\nqahva\taN quiui\tmā'\nmā' aN+būk\tkitāb\nbī؛ bī -alá quiui\nshaj' bī+uN -alá+quvva؛ qahva bī sitī\naHmad\tmin\nyilluw quiui+na-am\tbī marHaba؛ -alá\nsitī؛ alSawt+yilluw\tanta",
+    "after": "mā'\nmarHaba aHmad+quiui؛ aN+anta؛ anta\n-alá؛ -alá\nqahva\taN quiui\tmā'\nmā' aN+būk\tkitāb\nbi؛ bi -alá quiui\nshaj' bi+uN -alá+quvva؛ qahva bi siti\naHmad\tmin\nyilluw quiui+na-am\tbi marHaba؛ -alá\nsiti؛ alSawt+yilluw\tanta"
+  },
+  {
+    "id": "normalizer/1478",
+    "input": "anta anta\tbook+shaj'\talSSabāH+queue qahva+marHaba kitāb+-alá queue+alSawt؛ queue+queue\talSSabāH na-am؛ city\ncity world\ncity؛ na-am -alá؛ kitāb+uN\tna-am+kitāb qahva\naN؛ yellow+quvva marHaba\nshaj'\talSawt aHmad؛ queue marHaba marHaba\n",
+    "before": "anta anta\tbūk+shaj'\talSSabāH+quiui qahva+marHaba kitāb+-alá quiui+alSawt؛ quiui+quiui\talSSabāH na-am؛ sitī\nsitī wurld\nsitī؛ na-am -alá؛ kitāb+uN\tna-am+kitāb qahva\naN؛ yilluw+quvva marHaba\nshaj'\talSawt aHmad؛ quiui marHaba marHaba\n",
+    "after": "anta anta\tbūk+shaj'\talSSabāH+quiui qahva+marHaba kitāb+-alá quiui+alSawt؛ quiui+quiui\talSSabāH na-am؛ siti\nsiti wurld\nsiti؛ na-am -alá؛ kitāb+uN\tna-am+kitāb qahva\naN؛ yilluw+quvva marHaba\nshaj'\talSawt aHmad؛ quiui marHaba marHaba\n"
+  },
+  {
+    "id": "normalizer/1479",
+    "input": "satasma- — ilá? ghadaN, lā with, satasma-/iN, lajla iN\n\nwith/hello — su'āl? anā — my? fī — ghadaN iN\n\nhello? shāj\n\nsatasma-/hello — iN/hello, Hajj? coffee, fī anā, rubbamā lā\n\niN? my\n\nlajla/madrasat — my.",
+    "before": "satasma- — ilá? ghadaN, lā with, satasma-/iN, lajla iN\n\nwith/hillu — su'āl? anā — mī? fī — ghadaN iN\n\nhillu? shāj\n\nsatasma-/hillu — iN/hillu, Hajj? kuffī, fī anā, rubbamā lā\n\niN? mī\n\nlajla/madrasat — mī.",
+    "after": "satasma- — ilá? ghadaN, lā with, satasma-/iN, lajla iN\n\nwith/hillu — su'āl? anā — mi? fī — ghadaN iN\n\nhillu? shāj\n\nsatasma-/hillu — iN/hillu, Hajj? kuffī, fī anā, rubbamā lā\n\niN? mi\n\nlajla/madrasat — mi."
+  },
+  {
+    "id": "normalizer/1480",
+    "input": "qahva\nkitāb\tna-am min؛ yellow by؛ qahva+alSawt\tmā' quvva\tna-am+yellow\tanta\nmā'\tmin\naHmad؛ quvva\nkitāb\tquvva queue city quvva؛ mā' book\tanta+-alá\taN+na-am؛ qahva world quvva marHaba؛ book uN aHmad\n",
+    "before": "qahva\nkitāb\tna-am min؛ yilluw bī؛ qahva+alSawt\tmā' quvva\tna-am+yilluw\tanta\nmā'\tmin\naHmad؛ quvva\nkitāb\tquvva quiui sitī quvva؛ mā' būk\tanta+-alá\taN+na-am؛ qahva wurld quvva marHaba؛ būk uN aHmad\n",
+    "after": "qahva\nkitāb\tna-am min؛ yilluw bi؛ qahva+alSawt\tmā' quvva\tna-am+yilluw\tanta\nmā'\tmin\naHmad؛ quvva\nkitāb\tquvva quiui siti quvva؛ mā' būk\tanta+-alá\taN+na-am؛ qahva wurld quvva marHaba؛ būk uN aHmad\n"
+  },
+  {
+    "id": "normalizer/1481",
+    "input": "lajla\n\nfī/rubbamā, hello/anā\n\nmadrasat? coffee\n\nmadrasat rhythm — satasma-? with — madrasat/naHnu, rubbamā su'āl, my fī — su'āl? rubbamā, lajla",
+    "before": "lajla\n\nfī/rubbamā, hillu/anā\n\nmadrasat? kuffī\n\nmadrasat rhīthm — satasma-? with — madrasat/naHnu, rubbamā su'āl, mī fī — su'āl? rubbamā, lajla",
+    "after": "lajla\n\nfī/rubbamā, hillu/anā\n\nmadrasat? kuffī\n\nmadrasat rhithm — satasma-? with — madrasat/naHnu, rubbamā su'āl, mi fī — su'āl? rubbamā, lajla"
+  },
+  {
+    "id": "normalizer/1482",
+    "input": "alSawt\nalSawt book+city aN\nmarHaba\tanta+qahva\taN+aN\tyellow+by\talSawt min؛ aN\nqahva؛ uN\nmā' quvva+kitāb؛ marHaba\nmā'\taHmad+aN kitāb\naN min\nmā'؛ shaj' kitāb؛ qahva+queue marHaba world -alá uN marHaba+uN alSawt؟",
+    "before": "alSawt\nalSawt būk+sitī aN\nmarHaba\tanta+qahva\taN+aN\tyilluw+bī\talSawt min؛ aN\nqahva؛ uN\nmā' quvva+kitāb؛ marHaba\nmā'\taHmad+aN kitāb\naN min\nmā'؛ shaj' kitāb؛ qahva+quiui marHaba wurld -alá uN marHaba+uN alSawt؟",
+    "after": "alSawt\nalSawt būk+siti aN\nmarHaba\tanta+qahva\taN+aN\tyilluw+bi\talSawt min؛ aN\nqahva؛ uN\nmā' quvva+kitāb؛ marHaba\nmā'\taHmad+aN kitāb\naN min\nmā'؛ shaj' kitāb؛ qahva+quiui marHaba wurld -alá uN marHaba+uN alSawt؟"
+  },
+  {
+    "id": "normalizer/1483",
+    "input": "lā\n\nlā naHnu — ghadaN? madrasat — Hajj? su'āl — ghadaN/rhythm, naHnu ghadaN — naHnu/ilá, Hajj iN\n\nnaHnu? lajla\n\nsu'āl rubbamā\n\nmadrasat? ilá — havā'/anā — ilá/iN, shāj fī\n\ncoffee/iN, ilá? naHnu, rhythm ilá — school/rubbamā\n\nHajj/school\n\nwith with\n\nfī naHnu, fī? school, school? lā, rubbamā naHnu — ilá!",
+    "before": "lā\n\nlā naHnu — ghadaN? madrasat — Hajj? su'āl — ghadaN/rhīthm, naHnu ghadaN — naHnu/ilá, Hajj iN\n\nnaHnu? lajla\n\nsu'āl rubbamā\n\nmadrasat? ilá — havā'/anā — ilá/iN, shāj fī\n\nkuffī/iN, ilá? naHnu, rhīthm ilá — schūl/rubbamā\n\nHajj/schūl\n\nwith with\n\nfī naHnu, fī? schūl, schūl? lā, rubbamā naHnu — ilá!",
+    "after": "lā\n\nlā naHnu — ghadaN? madrasat — Hajj? su'āl — ghadaN/rhithm, naHnu ghadaN — naHnu/ilá, Hajj iN\n\nnaHnu? lajla\n\nsu'āl rubbamā\n\nmadrasat? ilá — havā'/anā — ilá/iN, shāj fī\n\nkuffī/iN, ilá? naHnu, rhithm ilá — schūl/rubbamā\n\nHajj/schūl\n\nwith with\n\nfī naHnu, fī? schūl, schūl? lā, rubbamā naHnu — ilá!"
+  },
+  {
+    "id": "normalizer/1484",
+    "input": "anta kitāb؛ aHmad+aHmad؛ min qahva؛ alSawt+yellow\tbook+kitāb\tqueue kitāb city\nqueue؛ quvva by\tna-am na-am\t-alá+kitāb kitāb\n",
+    "before": "anta kitāb؛ aHmad+aHmad؛ min qahva؛ alSawt+yilluw\tbūk+kitāb\tquiui kitāb sitī\nquiui؛ quvva bī\tna-am na-am\t-alá+kitāb kitāb\n",
+    "after": "anta kitāb؛ aHmad+aHmad؛ min qahva؛ alSawt+yilluw\tbūk+kitāb\tquiui kitāb siti\nquiui؛ quvva bi\tna-am na-am\t-alá+kitāb kitāb\n"
+  },
+  {
+    "id": "normalizer/1485",
+    "input": "my — naHnu anā, hello ilá — satasma-? hello\n\nmy/anā, naHnu",
+    "before": "mī — naHnu anā, hillu ilá — satasma-? hillu\n\nmī/anā, naHnu",
+    "after": "mi — naHnu anā, hillu ilá — satasma-? hillu\n\nmi/anā, naHnu"
+  },
+  {
+    "id": "normalizer/1486",
+    "input": "marHaba+min queue queue qahva\nquvva\talSSabāH+aHmad\tcity qahva؛ kitāb+kitāb؛ -alá city؛ quvva alSSabāH aN\nquvva min+marHaba\tby+-alá؛ by\nkitāb city+book؛ anta\nqueue qahva aN alSawt na-am\tmā' shaj'؛ yellow؟",
+    "before": "marHaba+min quiui quiui qahva\nquvva\talSSabāH+aHmad\tsitī qahva؛ kitāb+kitāb؛ -alá sitī؛ quvva alSSabāH aN\nquvva min+marHaba\tbī+-alá؛ bī\nkitāb sitī+būk؛ anta\nquiui qahva aN alSawt na-am\tmā' shaj'؛ yilluw؟",
+    "after": "marHaba+min quiui quiui qahva\nquvva\talSSabāH+aHmad\tsiti qahva؛ kitāb+kitāb؛ -alá siti؛ quvva alSSabāH aN\nquvva min+marHaba\tbi+-alá؛ bi\nkitāb siti+būk؛ anta\nquiui qahva aN alSawt na-am\tmā' shaj'؛ yilluw؟"
+  },
+  {
+    "id": "normalizer/1488",
+    "input": "mā'+na-am book+quvva\tshaj'\nmin؛ kitāb+na-am by world؛ yellow shaj'\tshaj'+qahva؛ kitāb city marHaba\nshaj' kitāb!",
+    "before": "mā'+na-am būk+quvva\tshaj'\nmin؛ kitāb+na-am bī wurld؛ yilluw shaj'\tshaj'+qahva؛ kitāb sitī marHaba\nshaj' kitāb!",
+    "after": "mā'+na-am būk+quvva\tshaj'\nmin؛ kitāb+na-am bi wurld؛ yilluw shaj'\tshaj'+qahva؛ kitāb siti marHaba\nshaj' kitāb!"
+  },
+  {
+    "id": "normalizer/1489",
+    "input": "anā, lā/hello — madrasat/havā', fī/iN\n\nshāj? madrasat\n\nhello/madrasat — with madrasat\n\nrubbamā? my\n\nlajla/hello — coffee lā — fī/shāj\n\nanā/lā\n\nschool.",
+    "before": "anā, lā/hillu — madrasat/havā', fī/iN\n\nshāj? madrasat\n\nhillu/madrasat — with madrasat\n\nrubbamā? mī\n\nlajla/hillu — kuffī lā — fī/shāj\n\nanā/lā\n\nschūl.",
+    "after": "anā, lā/hillu — madrasat/havā', fī/iN\n\nshāj? madrasat\n\nhillu/madrasat — with madrasat\n\nrubbamā? mi\n\nlajla/hillu — kuffī lā — fī/shāj\n\nanā/lā\n\nschūl."
+  },
+  {
+    "id": "normalizer/1492",
+    "input": "uN city؛ na-am -alá\tqueue\n-alá\tqahva na-am\tmā'\ncity\tby+kitāb؛ by -alá\taN\nbook na-am.",
+    "before": "uN sitī؛ na-am -alá\tquiui\n-alá\tqahva na-am\tmā'\nsitī\tbī+kitāb؛ bī -alá\taN\nbūk na-am.",
+    "after": "uN siti؛ na-am -alá\tquiui\n-alá\tqahva na-am\tmā'\nsiti\tbi+kitāb؛ bi -alá\taN\nbūk na-am."
+  },
+  {
+    "id": "normalizer/1494",
+    "input": "shaj'+-alá\tshaj'+mā'\taHmad+mā' qahva uN city",
+    "before": "shaj'+-alá\tshaj'+mā'\taHmad+mā' qahva uN sitī",
+    "after": "shaj'+-alá\tshaj'+mā'\taHmad+mā' qahva uN siti"
+  },
+  {
+    "id": "normalizer/1495",
+    "input": "anā — fī? naHnu, naHnu/lā, rhythm shāj — fī/satasma-\n\nmy? anā\n\nlajla/shāj — shāj/lajla, hello",
+    "before": "anā — fī? naHnu, naHnu/lā, rhīthm shāj — fī/satasma-\n\nmī? anā\n\nlajla/shāj — shāj/lajla, hillu",
+    "after": "anā — fī? naHnu, naHnu/lā, rhithm shāj — fī/satasma-\n\nmi? anā\n\nlajla/shāj — shāj/lajla, hillu"
+  },
+  {
+    "id": "normalizer/1497",
+    "input": "lā, satasma- coffee\n\nmadrasat/coffee\n\nnaHnu/coffee, naHnu/hello, my? lā, ilá/havā'\n\nnaHnu coffee, Hajj",
+    "before": "lā, satasma- kuffī\n\nmadrasat/kuffī\n\nnaHnu/kuffī, naHnu/hillu, mī? lā, ilá/havā'\n\nnaHnu kuffī, Hajj",
+    "after": "lā, satasma- kuffī\n\nmadrasat/kuffī\n\nnaHnu/kuffī, naHnu/hillu, mi? lā, ilá/havā'\n\nnaHnu kuffī, Hajj"
+  },
+  {
+    "id": "normalizer/1498",
+    "input": "world+anta\talSawt\nbook\taN kitāb na-am by alSSabāH\n-alá marHaba\nby\talSSabāH uN\taN quvva؛ na-am\nmarHaba\tbook na-am\tkitāb\nbook qahva alSawt\tkitāb quvva qahva+-alá uN",
+    "before": "wurld+anta\talSawt\nbūk\taN kitāb na-am bī alSSabāH\n-alá marHaba\nbī\talSSabāH uN\taN quvva؛ na-am\nmarHaba\tbūk na-am\tkitāb\nbūk qahva alSawt\tkitāb quvva qahva+-alá uN",
+    "after": "wurld+anta\talSawt\nbūk\taN kitāb na-am bi alSSabāH\n-alá marHaba\nbi\talSSabāH uN\taN quvva؛ na-am\nmarHaba\tbūk na-am\tkitāb\nbūk qahva alSawt\tkitāb quvva qahva+-alá uN"
+  }
+]

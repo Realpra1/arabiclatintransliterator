@@ -1,0 +1,450 @@
+[
+  {
+    "direction": "en2ar",
+    "input": "at",
+    "released": {
+      "L1": "at",
+      "A1": "ة",
+      "L2": "at",
+      "A2": "ة",
+      "L3": "at",
+      "A3": "ة"
+    },
+    "split": {
+      "L1": "at",
+      "A1": "ة",
+      "L2": "at",
+      "A2": "ة",
+      "L3": "at",
+      "A3": "ة"
+    },
+    "carrier": {
+      "L1": "at",
+      "A1": "ة",
+      "L2": "at",
+      "A2": "ة",
+      "L3": "at",
+      "A3": "ة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat",
+    "released": {
+      "L1": "cat",
+      "A1": "كة",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    },
+    "split": {
+      "L1": "cat",
+      "A1": "كة",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    },
+    "carrier": {
+      "L1": "cat",
+      "A1": "كة",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cata",
+    "released": {
+      "L1": "cata",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كةَ",
+      "L3": "kata",
+      "A3": "كةَ"
+    },
+    "split": {
+      "L1": "cata",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كةَ",
+      "L3": "kata",
+      "A3": "كةَ"
+    },
+    "carrier": {
+      "L1": "cata",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كةَ",
+      "L3": "kata",
+      "A3": "كةَ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catu",
+    "released": {
+      "L1": "catu",
+      "A1": "كةُ",
+      "L2": "katu",
+      "A2": "كةُ",
+      "L3": "katu",
+      "A3": "كةُ"
+    },
+    "split": {
+      "L1": "catu",
+      "A1": "كةُ",
+      "L2": "katu",
+      "A2": "كةُ",
+      "L3": "katu",
+      "A3": "كةُ"
+    },
+    "carrier": {
+      "L1": "catu",
+      "A1": "كةُ",
+      "L2": "katu",
+      "A2": "كةُ",
+      "L3": "katu",
+      "A3": "كةُ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catuN",
+    "released": {
+      "L1": "catuN",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كةٌ",
+      "L3": "katuN",
+      "A3": "كةٌ"
+    },
+    "split": {
+      "L1": "catuN",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كةٌ",
+      "L3": "katuN",
+      "A3": "كةٌ"
+    },
+    "carrier": {
+      "L1": "catuN",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كةٌ",
+      "L3": "katuN",
+      "A3": "كةٌ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cats",
+    "released": {
+      "L1": "cats",
+      "A1": "كةس",
+      "L2": "kats",
+      "A2": "كةس",
+      "L3": "kats",
+      "A3": "كةس"
+    },
+    "split": {
+      "L1": "cats",
+      "A1": "كَتس",
+      "L2": "kats",
+      "A2": "كَتس",
+      "L3": "kats",
+      "A3": "كَتس"
+    },
+    "carrier": {
+      "L1": "cats",
+      "A1": "كاَتس",
+      "L2": "kats",
+      "A2": "كاَتس",
+      "L3": "kats",
+      "A3": "كاَتس"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cater",
+    "released": {
+      "L1": "cater",
+      "A1": "كةِر",
+      "L2": "katir",
+      "A2": "كةِر",
+      "L3": "katir",
+      "A3": "كةِر"
+    },
+    "split": {
+      "L1": "cater",
+      "A1": "كَتِر",
+      "L2": "katir",
+      "A2": "كَتِر",
+      "L3": "katir",
+      "A3": "كَتِر"
+    },
+    "carrier": {
+      "L1": "cater",
+      "A1": "كاَتِر",
+      "L2": "katir",
+      "A2": "كاَتِر",
+      "L3": "katir",
+      "A3": "كاَتِر"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "atlas",
+    "released": {
+      "L1": "atlas",
+      "A1": "ةلَس",
+      "L2": "atlas",
+      "A2": "ةلَس",
+      "L3": "atlas",
+      "A3": "ةلَس"
+    },
+    "split": {
+      "L1": "atlas",
+      "A1": "اَتلَس",
+      "L2": "atlas",
+      "A2": "اَتلَس",
+      "L3": "atlas",
+      "A3": "اَتلَس"
+    },
+    "carrier": {
+      "L1": "atlas",
+      "A1": "اَتلَس",
+      "L2": "atlas",
+      "A2": "اَتلَس",
+      "L3": "atlas",
+      "A3": "اَتلَس"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "satasma-",
+    "released": {
+      "L1": "satasma-",
+      "A1": "سةَسمَع",
+      "L2": "satasma-",
+      "A2": "سةَسمَع",
+      "L3": "satasma-",
+      "A3": "سةَسمَع"
+    },
+    "split": {
+      "L1": "satasma-",
+      "A1": "سَتَسمَع",
+      "L2": "satasma-",
+      "A2": "سَتَسمَع",
+      "L3": "satasma-",
+      "A3": "سَتَسمَع"
+    },
+    "carrier": {
+      "L1": "satasma-",
+      "A1": "ساَتَسمَع",
+      "L2": "satasma-",
+      "A2": "ساَتَسمَع",
+      "L3": "satasma-",
+      "A3": "ساَتَسمَع"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "liqatl",
+    "released": {
+      "L1": "liqatl",
+      "A1": "لِقةل",
+      "L2": "liqatl",
+      "A2": "لِقةل",
+      "L3": "liqatl",
+      "A3": "لِقةل"
+    },
+    "split": {
+      "L1": "liqatl",
+      "A1": "لِقَتل",
+      "L2": "liqatl",
+      "A2": "لِقَتل",
+      "L3": "liqatl",
+      "A3": "لِقَتل"
+    },
+    "carrier": {
+      "L1": "liqatl",
+      "A1": "لِقاَتل",
+      "L2": "liqatl",
+      "A2": "لِقاَتل",
+      "L3": "liqatl",
+      "A3": "لِقاَتل"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "natā'iJ",
+    "released": {
+      "L1": "natā'iJ",
+      "A1": "نةاءِج",
+      "L2": "natā'iJ",
+      "A2": "نةاءِج",
+      "L3": "natā'iJ",
+      "A3": "نةاءِج"
+    },
+    "split": {
+      "L1": "natā'iJ",
+      "A1": "نَتاءِج",
+      "L2": "natā'iJ",
+      "A2": "نَتاءِج",
+      "L3": "natā'iJ",
+      "A3": "نَتاءِج"
+    },
+    "carrier": {
+      "L1": "natā'iJ",
+      "A1": "ناَتاءِج",
+      "L2": "natā'iJ",
+      "A2": "ناَتاءِج",
+      "L3": "natā'iJ",
+      "A3": "ناَتاءِج"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "Hatta",
+    "released": {
+      "L1": "Hatta",
+      "A1": "حةتَ",
+      "L2": "Hatta",
+      "A2": "حةتَ",
+      "L3": "Hatta",
+      "A3": "حةتَ"
+    },
+    "split": {
+      "L1": "Hatta",
+      "A1": "حَتَّ",
+      "L2": "Hatta",
+      "A2": "حَتَّ",
+      "L3": "Hatta",
+      "A3": "حَتَّ"
+    },
+    "carrier": {
+      "L1": "Hatta",
+      "A1": "حاَتَّ",
+      "L2": "Hatta",
+      "A2": "حاَتَّ",
+      "L3": "Hatta",
+      "A3": "حاَتَّ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "kathīr",
+    "released": {
+      "L1": "kathīr",
+      "A1": "كةهِير",
+      "L2": "kathīr",
+      "A2": "كةهِير",
+      "L3": "kathīr",
+      "A3": "كةهِير"
+    },
+    "split": {
+      "L1": "kathīr",
+      "A1": "كَثِير",
+      "L2": "kathīr",
+      "A2": "كَثِير",
+      "L3": "kathīr",
+      "A3": "كَثِير"
+    },
+    "carrier": {
+      "L1": "kathīr",
+      "A1": "كاَثِير",
+      "L2": "kathīr",
+      "A2": "كاَثِير",
+      "L3": "kathīr",
+      "A3": "كاَثِير"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "HaDāratuN",
+    "released": {
+      "L1": "HaDāratuN",
+      "A1": "حَضارةٌ",
+      "L2": "HaDāratuN",
+      "A2": "حَضارةٌ",
+      "L3": "HaDāratuN",
+      "A3": "حَضارةٌ"
+    },
+    "split": {
+      "L1": "HaDāratuN",
+      "A1": "حَضارةٌ",
+      "L2": "HaDāratuN",
+      "A2": "حَضارةٌ",
+      "L3": "HaDāratuN",
+      "A3": "حَضارةٌ"
+    },
+    "carrier": {
+      "L1": "HaDāratuN",
+      "A1": "حَضارةٌ",
+      "L2": "HaDāratuN",
+      "A2": "حَضارةٌ",
+      "L3": "HaDāratuN",
+      "A3": "حَضارةٌ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "'atb",
+    "released": {
+      "L1": "'atb",
+      "A1": "أةب",
+      "L2": "'ātb",
+      "A2": "آتب",
+      "L3": "'ātb",
+      "A3": "آتب"
+    },
+    "split": {
+      "L1": "'atb",
+      "A1": "أَتب",
+      "L2": "atb",
+      "A2": "اَتب",
+      "L3": "atb",
+      "A3": "اَتب"
+    },
+    "carrier": {
+      "L1": "'atb",
+      "A1": "أاَتب",
+      "L2": "'ātb",
+      "A2": "آتب",
+      "L3": "'ātb",
+      "A3": "آتب"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "batb",
+    "released": {
+      "L1": "batb",
+      "A1": "بةب",
+      "L2": "batb",
+      "A2": "بةب",
+      "L3": "batb",
+      "A3": "بةب"
+    },
+    "split": {
+      "L1": "batb",
+      "A1": "بَتب",
+      "L2": "batb",
+      "A2": "بَتب",
+      "L3": "batb",
+      "A3": "بَتب"
+    },
+    "carrier": {
+      "L1": "batb",
+      "A1": "باَتب",
+      "L2": "batb",
+      "A2": "باَتب",
+      "L3": "batb",
+      "A3": "باَتب"
+    }
+  }
+]

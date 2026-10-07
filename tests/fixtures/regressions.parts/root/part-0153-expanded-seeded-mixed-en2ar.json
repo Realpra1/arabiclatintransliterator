@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0014",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "rubbamā\n\nanta/أنت — á/kitāb\n\nلكن? شاي, shaj'? مدرسة, yellow? نحن, من kitāb\n\nrubbamā quvva\n\nyellow? alSSabāH\n\nكتاب/ستسمع\n\nلا ",
+    "output": "رُبَّما\n\nاَنتَ/أنت — ى/كِتاب\n\nلكن؟ شاي، شَيْء؟ مدرسة، يِلُّوْ؟ نحن، من كِتاب\n\nرُبَّما قُوَّ\n\nيِلُّوْ؟ اَلصَّباح\n\nكتاب/ستسمع\n\nلا ",
+    "roundTrip": "rubbamā\n\nanta/'nt — á/kitāb\n\nlkn? shāj, shaj'? mdrsat, jilluv? nHn, mn kitāb\n\nrubbamā quvva\n\njilluv? alSSabāH\n\nktāb/stsm-\n\nlā ",
+    "secondPass": "رُبَّما\n\nاَنتَ/أنت — ى/كِتاب\n\nلكن؟ شايْ، شَيْء؟ مدرسة، يِلُّوْ؟ نحن، من كِتاب\n\nرُبَّما قُوَّ\n\nيِلُّوْ؟ اَلصَّباح\n\nكتاب/ستسمع\n\nلا "
+  }
+]

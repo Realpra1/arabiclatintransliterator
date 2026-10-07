@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0015",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "su'āl, نافذة ماء\n\nshāj/أنا — city? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yellow ilá — shaj'/quvva — my/",
+    "output": "سُؤال، نافذة ماء\n\nشايْ/أنا — سِتِ؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِ/",
+    "roundTrip": "su'āl, nāfdhat mā'\n\nshāj/'nā — siti? lā, á? lajla, Hajj/lajla, 'ilá kitāb — rubbamā? nHn, jilluv ilá — shaj'/quvva — mi/",
+    "secondPass": "سُؤال، نافذة ماء\n\nشايْ/أنا — سِتِ؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إِلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِ/"
+  }
+]

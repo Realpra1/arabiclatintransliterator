@@ -1,0 +1,443 @@
+[
+  {
+    "id": "latin-tokens/en2ar/0001",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ā",
+    "output": "ا",
+    "roundTrip": "ā",
+    "secondPass": "ا"
+  },
+  {
+    "id": "latin-tokens/en2ar/0002",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "á",
+    "output": "ى",
+    "roundTrip": "á",
+    "secondPass": "ى"
+  },
+  {
+    "id": "latin-tokens/en2ar/0003",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "at",
+    "output": "ة",
+    "roundTrip": "at",
+    "secondPass": "ة"
+  },
+  {
+    "id": "latin-tokens/en2ar/0004",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "b",
+    "output": "ب",
+    "roundTrip": "b",
+    "secondPass": "ب"
+  },
+  {
+    "id": "latin-tokens/en2ar/0005",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "t",
+    "output": "ت",
+    "roundTrip": "t",
+    "secondPass": "ت"
+  },
+  {
+    "id": "latin-tokens/en2ar/0006",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "th",
+    "output": "ث",
+    "roundTrip": "th",
+    "secondPass": "ث"
+  },
+  {
+    "id": "latin-tokens/en2ar/0007",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "J",
+    "output": "ج",
+    "roundTrip": "J",
+    "secondPass": "ج"
+  },
+  {
+    "id": "latin-tokens/en2ar/0008",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "H",
+    "output": "ح",
+    "roundTrip": "H",
+    "secondPass": "ح"
+  },
+  {
+    "id": "latin-tokens/en2ar/0009",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "kh",
+    "output": "خ",
+    "roundTrip": "kh",
+    "secondPass": "خ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0010",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "d",
+    "output": "د",
+    "roundTrip": "d",
+    "secondPass": "د"
+  },
+  {
+    "id": "latin-tokens/en2ar/0011",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "dh",
+    "output": "ذ",
+    "roundTrip": "dh",
+    "secondPass": "ذ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0012",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "r",
+    "output": "ر",
+    "roundTrip": "r",
+    "secondPass": "ر"
+  },
+  {
+    "id": "latin-tokens/en2ar/0013",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "z",
+    "output": "ز",
+    "roundTrip": "z",
+    "secondPass": "ز"
+  },
+  {
+    "id": "latin-tokens/en2ar/0014",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "s",
+    "output": "س",
+    "roundTrip": "s",
+    "secondPass": "س"
+  },
+  {
+    "id": "latin-tokens/en2ar/0015",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "sh",
+    "output": "ش",
+    "roundTrip": "sh",
+    "secondPass": "ش"
+  },
+  {
+    "id": "latin-tokens/en2ar/0016",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "S",
+    "output": "ص",
+    "roundTrip": "S",
+    "secondPass": "ص"
+  },
+  {
+    "id": "latin-tokens/en2ar/0017",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "D",
+    "output": "ض",
+    "roundTrip": "D",
+    "secondPass": "ض"
+  },
+  {
+    "id": "latin-tokens/en2ar/0018",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "T",
+    "output": "ط",
+    "roundTrip": "T",
+    "secondPass": "ط"
+  },
+  {
+    "id": "latin-tokens/en2ar/0019",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "Z",
+    "output": "ظ",
+    "roundTrip": "Z",
+    "secondPass": "ظ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0020",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "-",
+    "output": "ع",
+    "roundTrip": "-",
+    "secondPass": "ع"
+  },
+  {
+    "id": "latin-tokens/en2ar/0021",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "gh",
+    "output": "غ",
+    "roundTrip": "gh",
+    "secondPass": "غ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0022",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "f",
+    "output": "ف",
+    "roundTrip": "f",
+    "secondPass": "ف"
+  },
+  {
+    "id": "latin-tokens/en2ar/0023",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "q",
+    "output": "ق",
+    "roundTrip": "q",
+    "secondPass": "ق"
+  },
+  {
+    "id": "latin-tokens/en2ar/0024",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "k",
+    "output": "ك",
+    "roundTrip": "k",
+    "secondPass": "ك"
+  },
+  {
+    "id": "latin-tokens/en2ar/0025",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "l",
+    "output": "ل",
+    "roundTrip": "l",
+    "secondPass": "ل"
+  },
+  {
+    "id": "latin-tokens/en2ar/0026",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "m",
+    "output": "م",
+    "roundTrip": "m",
+    "secondPass": "م"
+  },
+  {
+    "id": "latin-tokens/en2ar/0027",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "n",
+    "output": "ن",
+    "roundTrip": "n",
+    "secondPass": "ن"
+  },
+  {
+    "id": "latin-tokens/en2ar/0028",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "h",
+    "output": "ه",
+    "roundTrip": "h",
+    "secondPass": "ه"
+  },
+  {
+    "id": "latin-tokens/en2ar/0029",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "v",
+    "output": "وْ",
+    "roundTrip": "v",
+    "secondPass": "وْ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0030",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "j",
+    "output": "يْ",
+    "roundTrip": "j",
+    "secondPass": "يْ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0031",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "'",
+    "output": "أ",
+    "roundTrip": "'a",
+    "secondPass": "أَ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0032",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "a",
+    "output": "اَ",
+    "roundTrip": "a",
+    "secondPass": "اَ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0033",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "i",
+    "output": "إِ",
+    "roundTrip": "i",
+    "secondPass": "إِ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0034",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "u",
+    "output": "أُ",
+    "roundTrip": "u",
+    "secondPass": "أُ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0035",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ī",
+    "output": "ِي",
+    "roundTrip": "ī",
+    "secondPass": "ِي"
+  },
+  {
+    "id": "latin-tokens/en2ar/0036",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ū",
+    "output": "ُو",
+    "roundTrip": "ū",
+    "secondPass": "ُو"
+  },
+  {
+    "id": "latin-tokens/en2ar/0037",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "aN",
+    "output": "ً",
+    "roundTrip": "aN",
+    "secondPass": "ً"
+  },
+  {
+    "id": "latin-tokens/en2ar/0038",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "iN",
+    "output": "ٍ",
+    "roundTrip": "iN",
+    "secondPass": "ٍ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0039",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "uN",
+    "output": "ٌ",
+    "roundTrip": "uN",
+    "secondPass": "ٌ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0040",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ṣ",
+    "output": "ص",
+    "roundTrip": "S",
+    "secondPass": "ص"
+  },
+  {
+    "id": "latin-tokens/en2ar/0041",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ḍ",
+    "output": "ض",
+    "roundTrip": "D",
+    "secondPass": "ض"
+  },
+  {
+    "id": "latin-tokens/en2ar/0042",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ṭ",
+    "output": "ط",
+    "roundTrip": "T",
+    "secondPass": "ط"
+  },
+  {
+    "id": "latin-tokens/en2ar/0043",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ẓ",
+    "output": "ظ",
+    "roundTrip": "Z",
+    "secondPass": "ظ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0044",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ḥ",
+    "output": "ح",
+    "roundTrip": "H",
+    "secondPass": "ح"
+  },
+  {
+    "id": "latin-tokens/en2ar/0045",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ʿ",
+    "output": "ع",
+    "roundTrip": "-",
+    "secondPass": "ع"
+  },
+  {
+    "id": "latin-tokens/en2ar/0046",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ʾ",
+    "output": "أ",
+    "roundTrip": "'a",
+    "secondPass": "أَ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0047",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ph",
+    "output": "ف",
+    "roundTrip": "f",
+    "secondPass": "ف"
+  },
+  {
+    "id": "latin-tokens/en2ar/0048",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "ch",
+    "output": "تج",
+    "roundTrip": "tJ",
+    "secondPass": "تج"
+  },
+  {
+    "id": "latin-tokens/en2ar/0049",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "w",
+    "output": "وْ",
+    "roundTrip": "v",
+    "secondPass": "وْ"
+  }
+]

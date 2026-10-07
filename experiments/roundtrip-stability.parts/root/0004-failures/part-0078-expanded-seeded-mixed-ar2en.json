@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0046",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+      "L1": "lā\n\nyellow? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? 'ams\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? rbmā, lā alSawt\n\nlā? ",
+      "A2": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤُول، كِتاب اَحمَد، إِلى؟ أَمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ ",
+      "L2": "lā\n\njilluv? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? ams\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? rbmā, lā alSavt\n\nlā? ",
+      "A3": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤُول، كِتاب اَحمَد، إِلى؟ اَمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ ",
+      "L3": "lā\n\njilluv? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? ams\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? rbmā, lā alSavt\n\nlā? "
+    }
+  }
+]

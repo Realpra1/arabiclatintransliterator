@@ -1,0 +1,308 @@
+{
+  "description": "Separate effects of short vowel y, then house-vowel word boundaries in technical-symbol protection. Compares against saved pre-change source and unchanged corpus.",
+  "sourceSha256": {
+    "constants.js": "dd7cc34d8ae93c4a0b98df808e1a91e59a8e8a54f5094dea3cd69f5e69cdf3e8",
+    "translator-core-utils.js": "271b9dd10132afbda5db1f33d693437bcd4144ead5071f838b2529fa89afcd2c",
+    "latin-normalizer.js": "0af0b3904994fa986242dbfe7d41219e53699a2947c5a9861af2b669d2594f6f",
+    "translator-ar2en.js": "69232c8a89c4673af9a657388058fd55a1d23b94138ba94656be103e9fe58f9f",
+    "translator-en2ar.js": "1e68205f8e2bf45b57371796e5521adea5996fb4e970d929255f17839c889bf1",
+    "translator.js": "63b65f8b3c206682102fe5d0ce1b6ee345a4001d13333ecbc8546e09331c791c"
+  },
+  "originalNormalizer": "/* latin-normalizer.js\n   Shared Latin-side preprocessing for en2ar.\n\n   Purpose:\n   - loose alias normalization\n   - protected technical-symbol handling\n   - vowel-run collapsing\n*/\n\n(() => {\n  const {\n    LATIN_NORMALIZER_POLICY\n  } = window.MapperConstants;\n\n  const {\n    PROTECTED_MARK,\n    PRESERVE_CAPS,\n    PROTECT_SINGLE_LATIN_LETTER_NEAR_SYMBOLS\n  } = LATIN_NORMALIZER_POLICY;\n\n  const preserveCaps = new Set(PRESERVE_CAPS);\n  const protectSymbols = new Set(PROTECT_SINGLE_LATIN_LETTER_NEAR_SYMBOLS);\n\n  function isAsciiLetter(ch) {\n    return !!ch && /^[A-Za-z]$/.test(ch);\n  }\n\n  function isLooseLatinVowelChar(ch) {\n    return ch === \"a\" || ch === \"e\" || ch === \"i\" || ch === \"o\" || ch === \"u\" ||\n           ch === \"ā\" || ch === \"ī\" || ch === \"ū\";\n  }\n\n  function collapseLatinVowelRuns(str) {\n    let collapsed = \"\";\n    for (let k = 0; k < str.length; ) {\n      const ch = str[k];\n\n      if (ch === PROTECTED_MARK) {\n        collapsed += str[k] + str[k + 1];\n        k += 2;\n        continue;\n      }\n\n      if (ch === \"a\" || ch === \"i\" || ch === \"u\") {\n        let j = k + 1;\n        while (j < str.length && str[j] === ch) j++;\n\n        const runLen = j - k;\n        if (runLen >= 2) {\n          const longVowel = ch === \"a\" ? \"ā\" : (ch === \"i\" ? \"ī\" : \"ū\");\n          const longCount = Math.ceil(runLen / 2);\n          collapsed += longVowel.repeat(longCount);\n          k = j;\n          continue;\n        }\n      }\n\n      collapsed += ch;\n      k += 1;\n    }\n    return collapsed;\n  }\n\n  function isProtectedSingleCharAt(pos, source) {\n    const ch = source[pos];\n    if (!isAsciiLetter(ch)) return false;\n    // N belongs to the tanwin token after ā, even next to punctuation/symbols.\n    if (ch === \"N\" && source[pos - 1] === \"ā\") return false;\n    if (source.length === 1) return false;\n\n    const prev = source[pos - 1];\n    const next = source[pos + 1];\n\n    const prevBlocks = pos === 0 || /\\s/.test(prev) || !isAsciiLetter(prev);\n    const nextBlocks = pos === source.length - 1 || /\\s/.test(next) || !isAsciiLetter(next);\n\n    const prevProtectedSymbol = protectSymbols.has(prev);\n    const nextProtectedSymbol = protectSymbols.has(next);\n\n    return prevBlocks && nextBlocks && (prevProtectedSymbol || nextProtectedSymbol);\n  }\n\n  function normalizeInputForLooseAliases(str) {\n    // Pass 1: lowercase ordinary capitals unless protected or house-style.\n    let normalized = \"\";\n    for (let k = 0; k < str.length; k++) {\n      const ch = str[k];\n      const isProtected = isProtectedSingleCharAt(k, str);\n\n      if (ch >= \"A\" && ch <= \"Z\" && !preserveCaps.has(ch) && !isProtected) {\n        normalized += ch.toLowerCase();\n      } else {\n        normalized += ch;\n      }\n    }\n\n    let rewritten = \"\";\n\n    for (let k = 0; k < normalized.length; k++) {\n      const ch = normalized[k];\n      const next = normalized[k + 1];\n      const prev = normalized[k - 1];\n\n      if (isProtectedSingleCharAt(k, normalized)) {\n        rewritten += PROTECTED_MARK + ch;\n        continue;\n      }\n\n      // Collapse raw loose-input vowel runs.\n      if (ch === \"a\" || ch === \"e\" || ch === \"i\" || ch === \"o\" || ch === \"u\") {\n        let j = k + 1;\n        while (j < normalized.length && normalized[j] === ch) j++;\n\n        const runLen = j - k;\n        if (runLen >= 2) {\n          let longVowel = ch;\n          if (ch === \"a\") longVowel = \"ā\";\n          else if (ch === \"e\" || ch === \"i\") longVowel = \"ī\";\n          else if (ch === \"o\" || ch === \"u\") longVowel = \"ū\";\n\n          const longCount = Math.ceil(runLen / 2);\n          rewritten += longVowel.repeat(longCount);\n          k = j - 1;\n          continue;\n        }\n      }\n\n      // Preserve runs of w as consonant material only.\n      if (ch === \"w\") {\n        let j = k + 1;\n        while (j < normalized.length && normalized[j] === \"w\") j++;\n        const runLen = j - k;\n        if (runLen >= 2) {\n          rewritten += \"w\".repeat(runLen);\n          k = j - 1;\n          continue;\n        }\n      }\n\n      // Preserve / reinterpret runs of y.\n      if (ch === \"y\") {\n        let j = k + 1;\n        while (j < normalized.length && normalized[j] === \"y\") j++;\n        const runLen = j - k;\n\n        if (runLen >= 2) {\n          if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {\n            let pattern = \"\";\n            for (let n = 0; n < runLen; n++) {\n              pattern += (n % 2 === 0) ? \"ī\" : \"y\";\n            }\n            rewritten += pattern;\n          } else {\n            rewritten += \"y\".repeat(runLen);\n          }\n          k = j - 1;\n          continue;\n        }\n      }\n\n      // Preserve \"ch\" for token-table matching.\n      if (ch === \"c\" && next === \"h\") {\n        rewritten += \"ch\";\n        k += 1;\n        continue;\n      }\n\n      // x:\n      // - standalone x -> iks\n      // - word-start/boundary x -> s\n      // - otherwise x -> x (later maps to كس)\n      if (ch === \"x\") {\n        const prevIsLetter = isAsciiLetter(prev);\n        const nextIsLetter = isAsciiLetter(next);\n\n        if (!prevIsLetter && !nextIsLetter) {\n          rewritten += \"iks\";\n        } else if (!prevIsLetter) {\n          rewritten += \"s\";\n        } else {\n          rewritten += \"x\";\n        }\n        continue;\n      }\n\n      // c:\n      // - preserve \"ch\" above\n      // - before e/i/y or whitespace/end -> s\n      // - otherwise -> k\n      if (ch === \"c\") {\n        if (next === \"e\" || next === \"i\" || next === \"y\" || next == null || /\\s/.test(next)) {\n          rewritten += \"s\";\n        } else {\n          rewritten += \"k\";\n        }\n        continue;\n      }\n\n      // Loose English short-vowel aliases\n      if (ch === \"e\") {\n        rewritten += \"i\";\n        continue;\n      }\n      if (ch === \"o\") {\n        rewritten += \"u\";\n        continue;\n      }\n\n      // Loose English y:\n      // after a consonant-like Latin letter, prefer vowel-like ī rather than consonantal j.\n      if (ch === \"y\") {\n        if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {\n          rewritten += \"ī\";\n        } else {\n          rewritten += \"y\";\n        }\n        continue;\n      }\n\n      rewritten += ch;\n    }\n\n    return collapseLatinVowelRuns(rewritten);\n  }\n\n  window.MapperLatinNormalizer = {\n    normalizeInputForLooseAliases,\n    collapseLatinVowelRuns,\n    isAsciiLetter,\n    isLooseLatinVowelChar\n  };\n})();\n",
+  "shortY": {
+    "summary": {
+      "cases": 5445,
+      "changedCases": 334,
+      "fields": {
+        "output": 293,
+        "roundTrip": 334,
+        "secondPass": 334
+      },
+      "normalizersChanged": 290,
+      "checks": 11022,
+      "beforeFailed": 572,
+      "afterFailed": 569,
+      "fixed": 5,
+      "newlyFailing": 2
+    },
+    "changed": {
+      "$jsonModules": "arabiclatin/v1",
+      "kind": "array",
+      "parts": [
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0001-latin-context-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0002-english-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0003-alias-runs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0004-civilization-latin-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0005-civilization-latin-lines-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0006-civilization-latin-words-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0007-expanded-everyday-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0008-expanded-continuous-text-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0009-expanded-latin-context-boundaries-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0010-expanded-arabic-context-boundaries-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0011-expanded-ambiguous-tokenization-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0012-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0013-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0014-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0015-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0016-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0017-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0018-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0019-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0020-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0021-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0022-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0023-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0024-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0025-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0026-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0027-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0028-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0029-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0030-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0031-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0032-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0033-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0034-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0035-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0036-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0037-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0038-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0039-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0040-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0041-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0042-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0043-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0044-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0045-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0046-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0047-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0048-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0049-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0050-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0051-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0052-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0053-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0054-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0055-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0056-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0057-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0058-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0059-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0060-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0061-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0062-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0063-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0064-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0065-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0066-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0067-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0068-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0069-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0070-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0071-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0072-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0073-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0074-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0075-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0076-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0077-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0078-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0079-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0080-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0081-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0082-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0083-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0084-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0085-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0086-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0087-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0088-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0089-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0090-expanded-english-word-roundtrips-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0091-expanded-english-word-roundtrips-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0092-expanded-english-word-context-en2ar.json",
+        "y-protector.parts/root/0003-shortY/0001-changed/part-0093-expanded-english-word-context-en2ar.json"
+      ]
+    },
+    "normalized": {
+      "$jsonModules": "arabiclatin/v1",
+      "kind": "array",
+      "parts": [
+        "y-protector.parts/root/0003-shortY/0002-normalized/part-0001.json",
+        "y-protector.parts/root/0003-shortY/0002-normalized/part-0002.json",
+        "y-protector.parts/root/0003-shortY/0002-normalized/part-0003.json",
+        "y-protector.parts/root/0003-shortY/0002-normalized/part-0004.json"
+      ]
+    },
+    "stability": {
+      "checks": 11022,
+      "beforeFailed": 572,
+      "afterFailed": 569,
+      "fixed": [
+        {
+          "id": "expanded-ambiguous-tokenization/en2ar/0016",
+          "group": "expanded-ambiguous-tokenization",
+          "direction": "en2ar",
+          "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+            "L2": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+            "A2": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ",
+            "L3": "bija bīja bīīija bījīja bijaN ajja ijja ujja",
+            "A3": "بِيَ بِييَ بِيِيِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ"
+          },
+          "after": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L2": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A2": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L3": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A3": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+          }
+        },
+        {
+          "id": "expanded-ambiguous-tokenization/en2ar/0016",
+          "group": "expanded-ambiguous-tokenization",
+          "direction": "en2ar",
+          "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+            "L2": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+            "A2": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ",
+            "L3": "bija bīja bīīija bījīja bijaN ajja ijja ujja",
+            "A3": "بِيَ بِييَ بِيِيِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ"
+          },
+          "after": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L2": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A2": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L3": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A3": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0018",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+            "A1": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيٍ)اِييْجٍثشععثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L2": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNijiN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A2": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍإِيٍْ)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L3": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiN'ijiN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A3": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍإِيٍْ)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو"
+          },
+          "after": {
+            "L1": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+            "A1": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)اِييْجٍثشععثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L2": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNīN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A2": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L3": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNīN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A3": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو"
+          }
+        },
+        {
+          "id": "expanded-seeded-mixed/ar2en/0003",
+          "group": "expanded-seeded-mixed",
+          "direction": "ar2en",
+          "input": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+          "rule": "Arabic input: Arabic A2 = A3",
+          "before": {
+            "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+            "L1": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+            "A2": "ً\n\nبِي/قُُِِ — عَلى ١٢ — هوْاء/بِي، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L2": "aN\n\nbī/quiui — -alá ١٢ — hvā'/bī, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? ",
+            "A3": "ً\n\nبِي/قُُِِ — عَلى ١٢ — هوْاء/bِي، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L3": "aN\n\nbī/quiui — -alá ١٢ — hvā'/bī, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+          },
+          "after": {
+            "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+            "L1": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+            "A2": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L2": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? ",
+            "A3": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L3": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+          }
+        },
+        {
+          "id": "expanded-seeded-mixed/ar2en/0004",
+          "group": "expanded-seeded-mixed",
+          "direction": "ar2en",
+          "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+          "rule": "Arabic input: Arabic A2 = A3",
+          "before": {
+            "A1": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+            "L1": "yellow, hū? rbmā, ms'ūl? yellow, fī? alSawt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhello? 42 — rbmā/my — rubbamā yellow\n\nsatasma-/",
+            "A2": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L2": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+            "A3": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/mِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L3": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/"
+          },
+          "after": {
+            "A1": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+            "L1": "yellow, hū? rbmā, ms'ūl? yellow, fī? alSawt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhello? 42 — rbmā/my — rubbamā yellow\n\nsatasma-/",
+            "A2": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L2": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/",
+            "A3": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L3": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/"
+          }
+        }
+      ],
+      "newlyFailing": [
+        {
+          "id": "alias-runs/en2ar/0164",
+          "group": "alias-runs",
+          "direction": "en2ar",
+          "input": "byyyyyyy",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "byyyyyyy",
+            "A1": "بِييِْييِْييِْي",
+            "L2": "bījījījī",
+            "A2": "بِييِْييِْييِْي",
+            "L3": "bījījījī",
+            "A3": "بِييِْييِْييِْي"
+          },
+          "after": {
+            "L1": "byyyyyyy",
+            "A1": "بِيِيِيِ",
+            "L2": "bīīji",
+            "A2": "بِيِييِ",
+            "L3": "bījji",
+            "A3": "بِييِّ"
+          }
+        },
+        {
+          "id": "alias-runs/en2ar/0164",
+          "group": "alias-runs",
+          "direction": "en2ar",
+          "input": "byyyyyyy",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "byyyyyyy",
+            "A1": "بِييِْييِْييِْي",
+            "L2": "bījījījī",
+            "A2": "بِييِْييِْييِْي",
+            "L3": "bījījījī",
+            "A3": "بِييِْييِْييِْي"
+          },
+          "after": {
+            "L1": "byyyyyyy",
+            "A1": "بِيِيِيِ",
+            "L2": "bīīji",
+            "A2": "بِيِييِ",
+            "L3": "bījji",
+            "A3": "بِييِّ"
+          }
+        }
+      ]
+    }
+  }
+}

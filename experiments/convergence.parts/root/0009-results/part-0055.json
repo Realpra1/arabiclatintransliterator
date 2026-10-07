@@ -1,0 +1,446 @@
+[
+  {
+    "id": "civilization-latin-words/en2ar/0067",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0068",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0069",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0070",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0071",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0072",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0073",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0074",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0075",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0076",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0077",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0078",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0079",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0080",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0081",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0082",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0083",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0084",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0085",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0086",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0087",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0088",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0089",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0090",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0091",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0092",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0093",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0094",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0095",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0096",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0097",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0098",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0099",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0100",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0101",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0102",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 2,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0103",
+    "direction": "en2ar",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 0,
+      "Arabic": 1
+    },
+    "stablePairReachedAtConversion": 1
+  }
+]

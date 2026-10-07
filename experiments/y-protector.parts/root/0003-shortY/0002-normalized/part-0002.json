@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1499",
+    "input": "hello\n\nanā su'āl — rubbamā? fī — madrasat/lajla, havā' school, fī/rhythm, rubbamā? iN, rubbamā/shāj, su'āl iN — ilá lajla, coffee/ghadaN — rhythm/havā' — rubbamā/naHnu, school/school — naHnu rhythm — ilá fī — iN Hajj — rubbamā? shāj\n\nsu'āl\n",
+    "before": "hillu\n\nanā su'āl — rubbamā? fī — madrasat/lajla, havā' schūl, fī/rhīthm, rubbamā? iN, rubbamā/shāj, su'āl iN — ilá lajla, kuffī/ghadaN — rhīthm/havā' — rubbamā/naHnu, schūl/schūl — naHnu rhīthm — ilá fī — iN Hajj — rubbamā? shāj\n\nsu'āl\n",
+    "after": "hillu\n\nanā su'āl — rubbamā? fī — madrasat/lajla, havā' schūl, fī/rhithm, rubbamā? iN, rubbamā/shāj, su'āl iN — ilá lajla, kuffī/ghadaN — rhithm/havā' — rubbamā/naHnu, schūl/schūl — naHnu rhithm — ilá fī — iN Hajj — rubbamā? shāj\n\nsu'āl\n"
+  },
+  {
+    "id": "normalizer/1500",
+    "input": "yellow+by؛ yellow aHmad؛ by city\taHmad\nanta na-am by kitāb+book؛ -alá uN؛ world+mā' quvva+min uN+kitāb؛ min+qahva\tkitāb+min by+queue؛ aN+na-am\tcity\nanta\tqueue\nworld alSSabāH.",
+    "before": "yilluw+bī؛ yilluw aHmad؛ bī sitī\taHmad\nanta na-am bī kitāb+būk؛ -alá uN؛ wurld+mā' quvva+min uN+kitāb؛ min+qahva\tkitāb+min bī+quiui؛ aN+na-am\tsitī\nanta\tquiui\nwurld alSSabāH.",
+    "after": "yilluw+bi؛ yilluw aHmad؛ bi siti\taHmad\nanta na-am bi kitāb+būk؛ -alá uN؛ wurld+mā' quvva+min uN+kitāb؛ min+qahva\tkitāb+min bi+quiui؛ aN+na-am\tsiti\nanta\tquiui\nwurld alSSabāH."
+  },
+  {
+    "id": "normalizer/1501",
+    "input": "rubbamā, coffee? rubbamā, rhythm/madrasat — havā' ghadaN — lajla madrasat — madrasat? ilá\n\nghadaN? shāj — iN iN\n\nHajj/with\n\ncoffee satasma-\n\nhavā'/naHnu, school? lajla, madrasat/satasma-\n\nanā anā, havā'!",
+    "before": "rubbamā, kuffī? rubbamā, rhīthm/madrasat — havā' ghadaN — lajla madrasat — madrasat? ilá\n\nghadaN? shāj — iN iN\n\nHajj/with\n\nkuffī satasma-\n\nhavā'/naHnu, schūl? lajla, madrasat/satasma-\n\nanā anā, havā'!",
+    "after": "rubbamā, kuffī? rubbamā, rhithm/madrasat — havā' ghadaN — lajla madrasat — madrasat? ilá\n\nghadaN? shāj — iN iN\n\nHajj/with\n\nkuffī satasma-\n\nhavā'/naHnu, schūl? lajla, madrasat/satasma-\n\nanā anā, havā'!"
+  },
+  {
+    "id": "normalizer/1502",
+    "input": "anta qahva book aHmad؛ by kitāb aN+alSawt؛ city+alSSabāH\tanta shaj' city\ncity alSawt yellow min\nqueue\tqahva+-alá؛ aHmad na-am book+min؛ by.",
+    "before": "anta qahva būk aHmad؛ bī kitāb aN+alSawt؛ sitī+alSSabāH\tanta shaj' sitī\nsitī alSawt yilluw min\nquiui\tqahva+-alá؛ aHmad na-am būk+min؛ bī.",
+    "after": "anta qahva būk aHmad؛ bi kitāb aN+alSawt؛ siti+alSSabāH\tanta shaj' siti\nsiti alSawt yilluw min\nquiui\tqahva+-alá؛ aHmad na-am būk+min؛ bi."
+  },
+  {
+    "id": "normalizer/1503",
+    "input": "lā — lajla shāj, hello? hello — ilá? naHnu — iN/ghadaN\n\nhavā'/with\n\ncoffee/hello, ghadaN with, school/iN — havā'/shāj — iN? anā, hello coffee\n\nfī naHnu, ghadaN/satasma-\n\nanā/naHnu — lajla? my — ghadaN/naHnu\n\nlajla coffee, hello? rhythm\n\nhello/Hajj, rhythm/school, fī\n",
+    "before": "lā — lajla shāj, hillu? hillu — ilá? naHnu — iN/ghadaN\n\nhavā'/with\n\nkuffī/hillu, ghadaN with, schūl/iN — havā'/shāj — iN? anā, hillu kuffī\n\nfī naHnu, ghadaN/satasma-\n\nanā/naHnu — lajla? mī — ghadaN/naHnu\n\nlajla kuffī, hillu? rhīthm\n\nhillu/Hajj, rhīthm/schūl, fī\n",
+    "after": "lā — lajla shāj, hillu? hillu — ilá? naHnu — iN/ghadaN\n\nhavā'/with\n\nkuffī/hillu, ghadaN with, schūl/iN — havā'/shāj — iN? anā, hillu kuffī\n\nfī naHnu, ghadaN/satasma-\n\nanā/naHnu — lajla? mi — ghadaN/naHnu\n\nlajla kuffī, hillu? rhithm\n\nhillu/Hajj, rhithm/schūl, fī\n"
+  },
+  {
+    "id": "normalizer/1504",
+    "input": "queue+by؛ na-am\n-alá yellow\nmin؛ world+uN؛ kitāb by by+uN by book\tqueue+alSSabāH by aN\taHmad\nalSawt؛ book+min kitāb uN\tquvva+mā'؛ alSSabāH+mā'؛ quvva alSSabāH\tmā' yellow min؟",
+    "before": "quiui+bī؛ na-am\n-alá yilluw\nmin؛ wurld+uN؛ kitāb bī bī+uN bī būk\tquiui+alSSabāH bī aN\taHmad\nalSawt؛ būk+min kitāb uN\tquvva+mā'؛ alSSabāH+mā'؛ quvva alSSabāH\tmā' yilluw min؟",
+    "after": "quiui+bi؛ na-am\n-alá yilluw\nmin؛ wurld+uN؛ kitāb bi bi+uN bi būk\tquiui+alSSabāH bi aN\taHmad\nalSawt؛ būk+min kitāb uN\tquvva+mā'؛ alSSabāH+mā'؛ quvva alSSabāH\tmā' yilluw min؟"
+  },
+  {
+    "id": "normalizer/1505",
+    "input": "madrasat, havā'/hello, su'āl? anā, iN? iN, fī fī — coffee? ilá\n\nmy my — shāj ilá, rhythm naHnu, lajla/school\n\nanā fī — Hajj/school\n\nmy iN\n\nnaHnu/lā\n\nmy? coffee\n\nanā!",
+    "before": "madrasat, havā'/hillu, su'āl? anā, iN? iN, fī fī — kuffī? ilá\n\nmī mī — shāj ilá, rhīthm naHnu, lajla/schūl\n\nanā fī — Hajj/schūl\n\nmī iN\n\nnaHnu/lā\n\nmī? kuffī\n\nanā!",
+    "after": "madrasat, havā'/hillu, su'āl? anā, iN? iN, fī fī — kuffī? ilá\n\nmi mi — shāj ilá, rhithm naHnu, lajla/schūl\n\nanā fī — Hajj/schūl\n\nmi iN\n\nnaHnu/lā\n\nmi? kuffī\n\nanā!"
+  },
+  {
+    "id": "normalizer/1506",
+    "input": "anta+quvva queue+world؛ city\nmin\t-alá\n",
+    "before": "anta+quvva quiui+wurld؛ sitī\nmin\t-alá\n",
+    "after": "anta+quvva quiui+wurld؛ siti\nmin\t-alá\n"
+  },
+  {
+    "id": "normalizer/1507",
+    "input": "shāj — rhythm? iN — my/fī, lajla anā, rubbamā coffee, su'āl? fī — naHnu/anā, lajla lā — my/naHnu, havā'? coffee\n\nshāj/lā\n\nwith? shāj, havā'? coffee\n\nmy Hajj — lā/rhythm, satasma-/iN\n\nfī ilá, hello/havā' — Hajj/su'āl, anā? lajla, ghadaN؟",
+    "before": "shāj — rhīthm? iN — mī/fī, lajla anā, rubbamā kuffī, su'āl? fī — naHnu/anā, lajla lā — mī/naHnu, havā'? kuffī\n\nshāj/lā\n\nwith? shāj, havā'? kuffī\n\nmī Hajj — lā/rhīthm, satasma-/iN\n\nfī ilá, hillu/havā' — Hajj/su'āl, anā? lajla, ghadaN؟",
+    "after": "shāj — rhithm? iN — mi/fī, lajla anā, rubbamā kuffī, su'āl? fī — naHnu/anā, lajla lā — mi/naHnu, havā'? kuffī\n\nshāj/lā\n\nwith? shāj, havā'? kuffī\n\nmi Hajj — lā/rhithm, satasma-/iN\n\nfī ilá, hillu/havā' — Hajj/su'āl, anā? lajla, ghadaN؟"
+  },
+  {
+    "id": "normalizer/1508",
+    "input": "alSSabāH+marHaba؛ alSSabāH+min\tbook+-alá\tuN kitāb؛ city marHaba\tquvva+by؛ shaj'+by alSSabāH+by؛ queue world؛ anta city marHaba+aN alSawt+anta؛ city\nyellow؛ na-am+na-am؛ qahva+marHaba\tanta+na-am\tmarHaba\nbook book!",
+    "before": "alSSabāH+marHaba؛ alSSabāH+min\tbūk+-alá\tuN kitāb؛ sitī marHaba\tquvva+bī؛ shaj'+bī alSSabāH+bī؛ quiui wurld؛ anta sitī marHaba+aN alSawt+anta؛ sitī\nyilluw؛ na-am+na-am؛ qahva+marHaba\tanta+na-am\tmarHaba\nbūk būk!",
+    "after": "alSSabāH+marHaba؛ alSSabāH+min\tbūk+-alá\tuN kitāb؛ siti marHaba\tquvva+bi؛ shaj'+bi alSSabāH+bi؛ quiui wurld؛ anta siti marHaba+aN alSawt+anta؛ siti\nyilluw؛ na-am+na-am؛ qahva+marHaba\tanta+na-am\tmarHaba\nbūk būk!"
+  },
+  {
+    "id": "normalizer/1509",
+    "input": "Hajj — school my\n\nfī? havā', ilá havā' — iN? lā — ghadaN? satasma-, coffee؟",
+    "before": "Hajj — schūl mī\n\nfī? havā', ilá havā' — iN? lā — ghadaN? satasma-, kuffī؟",
+    "after": "Hajj — schūl mi\n\nfī? havā', ilá havā' — iN? lā — ghadaN? satasma-, kuffī؟"
+  },
+  {
+    "id": "normalizer/1511",
+    "input": "naHnu — havā'? my, ghadaN rhythm — ghadaN/iN, su'āl coffee — lā? rhythm\n\nnaHnu/satasma-\n\nHajj/lā\n\nhavā'? shāj\n\nmadrasat/school — anā lā, madrasat coffee\n\nlā",
+    "before": "naHnu — havā'? mī, ghadaN rhīthm — ghadaN/iN, su'āl kuffī — lā? rhīthm\n\nnaHnu/satasma-\n\nHajj/lā\n\nhavā'? shāj\n\nmadrasat/schūl — anā lā, madrasat kuffī\n\nlā",
+    "after": "naHnu — havā'? mi, ghadaN rhithm — ghadaN/iN, su'āl kuffī — lā? rhithm\n\nnaHnu/satasma-\n\nHajj/lā\n\nhavā'? shāj\n\nmadrasat/schūl — anā lā, madrasat kuffī\n\nlā"
+  },
+  {
+    "id": "normalizer/1512",
+    "input": "queue\nyellow\taN\nmin؛ quvva alSawt؛ book+uN؛ mā' quvva alSawt+anta؛ alSSabāH\n-alá mā'+city city\nyellow alSawt+mā'\taN anta؛ by\naN؛ aN",
+    "before": "quiui\nyilluw\taN\nmin؛ quvva alSawt؛ būk+uN؛ mā' quvva alSawt+anta؛ alSSabāH\n-alá mā'+sitī sitī\nyilluw alSawt+mā'\taN anta؛ bī\naN؛ aN",
+    "after": "quiui\nyilluw\taN\nmin؛ quvva alSawt؛ būk+uN؛ mā' quvva alSawt+anta؛ alSSabāH\n-alá mā'+siti siti\nyilluw alSawt+mā'\taN anta؛ bi\naN؛ aN"
+  },
+  {
+    "id": "normalizer/1513",
+    "input": "lā — coffee fī — rhythm/lā — satasma-/lā, su'āl? satasma-\n\nanā/lā\n\nlā/hello\n\niN/fī, lā\n",
+    "before": "lā — kuffī fī — rhīthm/lā — satasma-/lā, su'āl? satasma-\n\nanā/lā\n\nlā/hillu\n\niN/fī, lā\n",
+    "after": "lā — kuffī fī — rhithm/lā — satasma-/lā, su'āl? satasma-\n\nanā/lā\n\nlā/hillu\n\niN/fī, lā\n"
+  },
+  {
+    "id": "normalizer/1514",
+    "input": "-alá+queue؛ kitāb anta\tworld\nalSawt kitāb book na-am na-am\talSSabāH anta؛ na-am+quvva؛ mā'\nqahva\tqahva min؛ aHmad mā'\taN\nna-am shaj'\nbook quvva\naN؛ yellow world\tmarHaba\nshaj'\taHmad+world quvva\nworld anta+yellow\tmā' city aHmad+quvva؛ quvva+shaj' uN by\tcity mā'؛ book+-alá min!",
+    "before": "-alá+quiui؛ kitāb anta\twurld\nalSawt kitāb būk na-am na-am\talSSabāH anta؛ na-am+quvva؛ mā'\nqahva\tqahva min؛ aHmad mā'\taN\nna-am shaj'\nbūk quvva\naN؛ yilluw wurld\tmarHaba\nshaj'\taHmad+wurld quvva\nwurld anta+yilluw\tmā' sitī aHmad+quvva؛ quvva+shaj' uN bī\tsitī mā'؛ būk+-alá min!",
+    "after": "-alá+quiui؛ kitāb anta\twurld\nalSawt kitāb būk na-am na-am\talSSabāH anta؛ na-am+quvva؛ mā'\nqahva\tqahva min؛ aHmad mā'\taN\nna-am shaj'\nbūk quvva\naN؛ yilluw wurld\tmarHaba\nshaj'\taHmad+wurld quvva\nwurld anta+yilluw\tmā' siti aHmad+quvva؛ quvva+shaj' uN bi\tsiti mā'؛ būk+-alá min!"
+  },
+  {
+    "id": "normalizer/1515",
+    "input": "rhythm, rhythm? madrasat\n\nanā? coffee\n\nrhythm? ilá, rhythm? shāj, rubbamā/havā' — lajla anā, coffee lā, with? school — rubbamā school — anā Hajj, iN? naHnu, anā? madrasat — ilá.",
+    "before": "rhīthm, rhīthm? madrasat\n\nanā? kuffī\n\nrhīthm? ilá, rhīthm? shāj, rubbamā/havā' — lajla anā, kuffī lā, with? schūl — rubbamā schūl — anā Hajj, iN? naHnu, anā? madrasat — ilá.",
+    "after": "rhithm, rhithm? madrasat\n\nanā? kuffī\n\nrhithm? ilá, rhithm? shāj, rubbamā/havā' — lajla anā, kuffī lā, with? schūl — rubbamā schūl — anā Hajj, iN? naHnu, anā? madrasat — ilá."
+  },
+  {
+    "id": "normalizer/1517",
+    "input": "with\n\nghadaN ghadaN\n\nsatasma-/coffee, my? rubbamā, fī/rubbamā — coffee? satasma-, lajla\n",
+    "before": "with\n\nghadaN ghadaN\n\nsatasma-/kuffī, mī? rubbamā, fī/rubbamā — kuffī? satasma-, lajla\n",
+    "after": "with\n\nghadaN ghadaN\n\nsatasma-/kuffī, mi? rubbamā, fī/rubbamā — kuffī? satasma-, lajla\n"
+  },
+  {
+    "id": "normalizer/1519",
+    "input": "su'āl, madrasat/satasma-\n\ncoffee/lajla, naHnu/havā' — coffee/lā — su'āl/madrasat\n\nlā/my — havā'? ghadaN, school? ilá\n\nhavā'/rubbamā, lā/coffee, havā'/su'āl — hello? anā\n\nhavā'? madrasat, madrasat ghadaN — fī? rhythm — rubbamā naHnu — with? anā, ghadaN/ilá\n\nmadrasat؟",
+    "before": "su'āl, madrasat/satasma-\n\nkuffī/lajla, naHnu/havā' — kuffī/lā — su'āl/madrasat\n\nlā/mī — havā'? ghadaN, schūl? ilá\n\nhavā'/rubbamā, lā/kuffī, havā'/su'āl — hillu? anā\n\nhavā'? madrasat, madrasat ghadaN — fī? rhīthm — rubbamā naHnu — with? anā, ghadaN/ilá\n\nmadrasat؟",
+    "after": "su'āl, madrasat/satasma-\n\nkuffī/lajla, naHnu/havā' — kuffī/lā — su'āl/madrasat\n\nlā/mi — havā'? ghadaN, schūl? ilá\n\nhavā'/rubbamā, lā/kuffī, havā'/su'āl — hillu? anā\n\nhavā'? madrasat, madrasat ghadaN — fī? rhithm — rubbamā naHnu — with? anā, ghadaN/ilá\n\nmadrasat؟"
+  },
+  {
+    "id": "normalizer/1520",
+    "input": "quvva alSawt\t-alá+aHmad city+uN alSSabāH\nmā' na-am\nby\tanta؟",
+    "before": "quvva alSawt\t-alá+aHmad sitī+uN alSSabāH\nmā' na-am\nbī\tanta؟",
+    "after": "quvva alSawt\t-alá+aHmad siti+uN alSSabāH\nmā' na-am\nbi\tanta؟"
+  },
+  {
+    "id": "normalizer/1521",
+    "input": "rubbamā\n\niN hello, hello coffee, hello? iN\n\nhavā' with, my/Hajj, naHnu Hajj\n\nmadrasat/shāj, lā? ghadaN — rhythm? madrasat\n\nrhythm/satasma- — satasma- iN — rubbamā? school, Hajj anā — ilá lā, madrasat rhythm, rubbamā satasma- — hello madrasat — ilá Hajj, satasma- hello — naHnu? with\n\nhello su'āl — lā/rubbamā — shāj؟",
+    "before": "rubbamā\n\niN hillu, hillu kuffī, hillu? iN\n\nhavā' with, mī/Hajj, naHnu Hajj\n\nmadrasat/shāj, lā? ghadaN — rhīthm? madrasat\n\nrhīthm/satasma- — satasma- iN — rubbamā? schūl, Hajj anā — ilá lā, madrasat rhīthm, rubbamā satasma- — hillu madrasat — ilá Hajj, satasma- hillu — naHnu? with\n\nhillu su'āl — lā/rubbamā — shāj؟",
+    "after": "rubbamā\n\niN hillu, hillu kuffī, hillu? iN\n\nhavā' with, mi/Hajj, naHnu Hajj\n\nmadrasat/shāj, lā? ghadaN — rhithm? madrasat\n\nrhithm/satasma- — satasma- iN — rubbamā? schūl, Hajj anā — ilá lā, madrasat rhithm, rubbamā satasma- — hillu madrasat — ilá Hajj, satasma- hillu — naHnu? with\n\nhillu su'āl — lā/rubbamā — shāj؟"
+  },
+  {
+    "id": "normalizer/1522",
+    "input": "queue\nworld aHmad\nby\tuN world؛ quvva\naN\tqahva\nqueue\tuN yellow؛ uN queue qahva\nqahva queue\nmā' quvva shaj' na-am.",
+    "before": "quiui\nwurld aHmad\nbī\tuN wurld؛ quvva\naN\tqahva\nquiui\tuN yilluw؛ uN quiui qahva\nqahva quiui\nmā' quvva shaj' na-am.",
+    "after": "quiui\nwurld aHmad\nbi\tuN wurld؛ quvva\naN\tqahva\nquiui\tuN yilluw؛ uN quiui qahva\nqahva quiui\nmā' quvva shaj' na-am."
+  },
+  {
+    "id": "normalizer/1524",
+    "input": "queue\nalSSabāH؛ aHmad+marHaba\talSawt min\tbook shaj'\talSawt\nmā' alSSabāH+min book\nbook؛ queue shaj'؛ yellow\nbook؛ by+by queue\nquvva؛ alSawt\nmā' min+aHmad؛ kitāb+qahva uN\n-alá queue+book؛ mā'؟",
+    "before": "quiui\nalSSabāH؛ aHmad+marHaba\talSawt min\tbūk shaj'\talSawt\nmā' alSSabāH+min būk\nbūk؛ quiui shaj'؛ yilluw\nbūk؛ bī+bī quiui\nquvva؛ alSawt\nmā' min+aHmad؛ kitāb+qahva uN\n-alá quiui+būk؛ mā'؟",
+    "after": "quiui\nalSSabāH؛ aHmad+marHaba\talSawt min\tbūk shaj'\talSawt\nmā' alSSabāH+min būk\nbūk؛ quiui shaj'؛ yilluw\nbūk؛ bi+bi quiui\nquvva؛ alSawt\nmā' min+aHmad؛ kitāb+qahva uN\n-alá quiui+būk؛ mā'؟"
+  },
+  {
+    "id": "normalizer/1525",
+    "input": "rubbamā\n\nhello/Hajj — satasma-? school — school/shāj — hello ghadaN, school? rubbamā, ilá/lā — Hajj? lajla, my!",
+    "before": "rubbamā\n\nhillu/Hajj — satasma-? schūl — schūl/shāj — hillu ghadaN, schūl? rubbamā, ilá/lā — Hajj? lajla, mī!",
+    "after": "rubbamā\n\nhillu/Hajj — satasma-? schūl — schūl/shāj — hillu ghadaN, schūl? rubbamā, ilá/lā — Hajj? lajla, mi!"
+  },
+  {
+    "id": "normalizer/1526",
+    "input": "na-am+city\tmarHaba alSSabāH؛ alSSabāH\nmarHaba\tyellow shaj'\talSSabāH alSSabāH؛ yellow mā'؛ shaj' aN\tkitāb+aHmad aN+anta\t-alá marHaba shaj'\nalSawt؛ -alá+alSSabāH\taN alSSabāH anta alSSabāH؛ alSawt aHmad\tmā'+world\tby aHmad city\nby؛ aHmad shaj'؛ na-am+aHmad؛ alSawt alSawt؛ na-am -alá na-am+quvva min؟",
+    "before": "na-am+sitī\tmarHaba alSSabāH؛ alSSabāH\nmarHaba\tyilluw shaj'\talSSabāH alSSabāH؛ yilluw mā'؛ shaj' aN\tkitāb+aHmad aN+anta\t-alá marHaba shaj'\nalSawt؛ -alá+alSSabāH\taN alSSabāH anta alSSabāH؛ alSawt aHmad\tmā'+wurld\tbī aHmad sitī\nbī؛ aHmad shaj'؛ na-am+aHmad؛ alSawt alSawt؛ na-am -alá na-am+quvva min؟",
+    "after": "na-am+siti\tmarHaba alSSabāH؛ alSSabāH\nmarHaba\tyilluw shaj'\talSSabāH alSSabāH؛ yilluw mā'؛ shaj' aN\tkitāb+aHmad aN+anta\t-alá marHaba shaj'\nalSawt؛ -alá+alSSabāH\taN alSSabāH anta alSSabāH؛ alSawt aHmad\tmā'+wurld\tbi aHmad siti\nbi؛ aHmad shaj'؛ na-am+aHmad؛ alSawt alSawt؛ na-am -alá na-am+quvva min؟"
+  },
+  {
+    "id": "normalizer/1527",
+    "input": "with — satasma-/shāj, madrasat? lā, ghadaN/ilá\n\nshāj anā, with? lā — rubbamā? with\n\ncoffee? Hajj, Hajj/lajla, anā shāj\n\nhavā' rubbamā, lajla my\n\nwith hello\n\niN/shāj, coffee/fī — coffee with — lā/coffee, lajla/su'āl\n\nsatasma-/su'āl — lā my\n\nfī/hello — rubbamā? shāj\n\nmy/my — lajla/rhythm, shāj su'āl, coffee.",
+    "before": "with — satasma-/shāj, madrasat? lā, ghadaN/ilá\n\nshāj anā, with? lā — rubbamā? with\n\nkuffī? Hajj, Hajj/lajla, anā shāj\n\nhavā' rubbamā, lajla mī\n\nwith hillu\n\niN/shāj, kuffī/fī — kuffī with — lā/kuffī, lajla/su'āl\n\nsatasma-/su'āl — lā mī\n\nfī/hillu — rubbamā? shāj\n\nmī/mī — lajla/rhīthm, shāj su'āl, kuffī.",
+    "after": "with — satasma-/shāj, madrasat? lā, ghadaN/ilá\n\nshāj anā, with? lā — rubbamā? with\n\nkuffī? Hajj, Hajj/lajla, anā shāj\n\nhavā' rubbamā, lajla mi\n\nwith hillu\n\niN/shāj, kuffī/fī — kuffī with — lā/kuffī, lajla/su'āl\n\nsatasma-/su'āl — lā mi\n\nfī/hillu — rubbamā? shāj\n\nmi/mi — lajla/rhithm, shāj su'āl, kuffī."
+  },
+  {
+    "id": "normalizer/1528",
+    "input": "uN+mā'\tby by؛ mā'",
+    "before": "uN+mā'\tbī bī؛ mā'",
+    "after": "uN+mā'\tbi bi؛ mā'"
+  },
+  {
+    "id": "normalizer/1529",
+    "input": "havā' — su'āl anā — shāj? my — fī rhythm — lajla/rhythm, my? naHnu, su'āl? Hajj, havā'\n",
+    "before": "havā' — su'āl anā — shāj? mī — fī rhīthm — lajla/rhīthm, mī? naHnu, su'āl? Hajj, havā'\n",
+    "after": "havā' — su'āl anā — shāj? mi — fī rhithm — lajla/rhithm, mi? naHnu, su'āl? Hajj, havā'\n"
+  },
+  {
+    "id": "normalizer/1530",
+    "input": "uN+min؛ qahva+alSawt\talSawt alSawt؛ yellow+aHmad city.",
+    "before": "uN+min؛ qahva+alSawt\talSawt alSawt؛ yilluw+aHmad sitī.",
+    "after": "uN+min؛ qahva+alSawt\talSawt alSawt؛ yilluw+aHmad siti."
+  },
+  {
+    "id": "normalizer/1531",
+    "input": "lā — shāj/Hajj — iN/madrasat, fī? rhythm — ghadaN? with\n\nmy؟",
+    "before": "lā — shāj/Hajj — iN/madrasat, fī? rhīthm — ghadaN? with\n\nmī؟",
+    "after": "lā — shāj/Hajj — iN/madrasat, fī? rhithm — ghadaN? with\n\nmi؟"
+  },
+  {
+    "id": "normalizer/1532",
+    "input": "book+city؛ -alá+alSSabāH aN aHmad؛ mā' marHaba؛ shaj' city؛ alSawt mā'؛ min shaj'؛ shaj'+marHaba\tmin\n",
+    "before": "būk+sitī؛ -alá+alSSabāH aN aHmad؛ mā' marHaba؛ shaj' sitī؛ alSawt mā'؛ min shaj'؛ shaj'+marHaba\tmin\n",
+    "after": "būk+siti؛ -alá+alSSabāH aN aHmad؛ mā' marHaba؛ shaj' siti؛ alSawt mā'؛ min shaj'؛ shaj'+marHaba\tmin\n"
+  },
+  {
+    "id": "normalizer/1533",
+    "input": "fī, my/coffee\n\nhavā'/rhythm\n\nhavā'/rubbamā — my su'āl\n\nhello/shāj — satasma-/hello — su'āl? ghadaN, rhythm anā — iN ilá — school? fī\n\nhavā'/naHnu, rhythm with — rubbamā/hello, coffee rhythm, anā? anā, anā with\n\nnaHnu? naHnu — su'āl coffee, school/satasma- — anā? anā\n\nanā؟",
+    "before": "fī, mī/kuffī\n\nhavā'/rhīthm\n\nhavā'/rubbamā — mī su'āl\n\nhillu/shāj — satasma-/hillu — su'āl? ghadaN, rhīthm anā — iN ilá — schūl? fī\n\nhavā'/naHnu, rhīthm with — rubbamā/hillu, kuffī rhīthm, anā? anā, anā with\n\nnaHnu? naHnu — su'āl kuffī, schūl/satasma- — anā? anā\n\nanā؟",
+    "after": "fī, mi/kuffī\n\nhavā'/rhithm\n\nhavā'/rubbamā — mi su'āl\n\nhillu/shāj — satasma-/hillu — su'āl? ghadaN, rhithm anā — iN ilá — schūl? fī\n\nhavā'/naHnu, rhithm with — rubbamā/hillu, kuffī rhithm, anā? anā, anā with\n\nnaHnu? naHnu — su'āl kuffī, schūl/satasma- — anā? anā\n\nanā؟"
+  },
+  {
+    "id": "normalizer/1534",
+    "input": "aN queue anta+na-am uN min\talSawt uN؛ quvva\nqueue\t-alá\ncity anta+na-am\taN qahva by\nkitāb؛ alSSabāH\nuN؛ min+world alSawt -alá؛ na-am\nmā'؛ by mā'؛ na-am+marHaba quvva na-am -alá anta qahva quvva uN+alSawt؛ alSawt\ncity\tcity+aN na-am queue؛ na-am aHmad\talSSabāH+quvva mā'",
+    "before": "aN quiui anta+na-am uN min\talSawt uN؛ quvva\nquiui\t-alá\nsitī anta+na-am\taN qahva bī\nkitāb؛ alSSabāH\nuN؛ min+wurld alSawt -alá؛ na-am\nmā'؛ bī mā'؛ na-am+marHaba quvva na-am -alá anta qahva quvva uN+alSawt؛ alSawt\nsitī\tsitī+aN na-am quiui؛ na-am aHmad\talSSabāH+quvva mā'",
+    "after": "aN quiui anta+na-am uN min\talSawt uN؛ quvva\nquiui\t-alá\nsiti anta+na-am\taN qahva bi\nkitāb؛ alSSabāH\nuN؛ min+wurld alSawt -alá؛ na-am\nmā'؛ bi mā'؛ na-am+marHaba quvva na-am -alá anta qahva quvva uN+alSawt؛ alSawt\nsiti\tsiti+aN na-am quiui؛ na-am aHmad\talSSabāH+quvva mā'"
+  },
+  {
+    "id": "normalizer/1536",
+    "input": "quvva book؛ kitāb\nuN alSawt na-am؛ city\ncity؛ queue\nmā'؛ yellow\nby؛ aN!",
+    "before": "quvva būk؛ kitāb\nuN alSawt na-am؛ sitī\nsitī؛ quiui\nmā'؛ yilluw\nbī؛ aN!",
+    "after": "quvva būk؛ kitāb\nuN alSawt na-am؛ siti\nsiti؛ quiui\nmā'؛ yilluw\nbi؛ aN!"
+  },
+  {
+    "id": "normalizer/1537",
+    "input": "lajla\n\nlajla? fī — ilá/lajla\n\nanā rubbamā — coffee/my — ghadaN madrasat\n\nrubbamā/rubbamā\n\nschool su'āl\n\nmy? ilá, rhythm? su'āl\n\nlajla.",
+    "before": "lajla\n\nlajla? fī — ilá/lajla\n\nanā rubbamā — kuffī/mī — ghadaN madrasat\n\nrubbamā/rubbamā\n\nschūl su'āl\n\nmī? ilá, rhīthm? su'āl\n\nlajla.",
+    "after": "lajla\n\nlajla? fī — ilá/lajla\n\nanā rubbamā — kuffī/mi — ghadaN madrasat\n\nrubbamā/rubbamā\n\nschūl su'āl\n\nmi? ilá, rhithm? su'āl\n\nlajla."
+  },
+  {
+    "id": "normalizer/1539",
+    "input": "Hajj\n\nfī? rubbamā, lā/satasma-\n\nfī? naHnu, havā' iN, school? Hajj, my/ilá, su'āl school, lajla/satasma-\n\nlajla/coffee — naHnu madrasat — iN anā — iN/naHnu — rhythm? shāj — satasma-/madrasat — coffee/Hajj, madrasat? ghadaN — iN/havā' — lā rubbamā — lā/iN\n\nmadrasat/madrasat, anā/hello, su'āl\n",
+    "before": "Hajj\n\nfī? rubbamā, lā/satasma-\n\nfī? naHnu, havā' iN, schūl? Hajj, mī/ilá, su'āl schūl, lajla/satasma-\n\nlajla/kuffī — naHnu madrasat — iN anā — iN/naHnu — rhīthm? shāj — satasma-/madrasat — kuffī/Hajj, madrasat? ghadaN — iN/havā' — lā rubbamā — lā/iN\n\nmadrasat/madrasat, anā/hillu, su'āl\n",
+    "after": "Hajj\n\nfī? rubbamā, lā/satasma-\n\nfī? naHnu, havā' iN, schūl? Hajj, mi/ilá, su'āl schūl, lajla/satasma-\n\nlajla/kuffī — naHnu madrasat — iN anā — iN/naHnu — rhithm? shāj — satasma-/madrasat — kuffī/Hajj, madrasat? ghadaN — iN/havā' — lā rubbamā — lā/iN\n\nmadrasat/madrasat, anā/hillu, su'āl\n"
+  },
+  {
+    "id": "normalizer/1540",
+    "input": "uN alSSabāH؛ shaj'+qahva\taN\nmin\tmarHaba\nmarHaba؛ na-am\nkitāb alSSabāH\nworld -alá\nqueue\tworld+alSSabāH؛ shaj' alSawt\tshaj'+queue؛ world+min\tyellow\nuN\tkitāb marHaba uN queue؛ yellow\ncity؛ qahva\naHmad؛ mā'\nmin\taN yellow؛ marHaba anta؛ aN aHmad queue.",
+    "before": "uN alSSabāH؛ shaj'+qahva\taN\nmin\tmarHaba\nmarHaba؛ na-am\nkitāb alSSabāH\nwurld -alá\nquiui\twurld+alSSabāH؛ shaj' alSawt\tshaj'+quiui؛ wurld+min\tyilluw\nuN\tkitāb marHaba uN quiui؛ yilluw\nsitī؛ qahva\naHmad؛ mā'\nmin\taN yilluw؛ marHaba anta؛ aN aHmad quiui.",
+    "after": "uN alSSabāH؛ shaj'+qahva\taN\nmin\tmarHaba\nmarHaba؛ na-am\nkitāb alSSabāH\nwurld -alá\nquiui\twurld+alSSabāH؛ shaj' alSawt\tshaj'+quiui؛ wurld+min\tyilluw\nuN\tkitāb marHaba uN quiui؛ yilluw\nsiti؛ qahva\naHmad؛ mā'\nmin\taN yilluw؛ marHaba anta؛ aN aHmad quiui."
+  },
+  {
+    "id": "normalizer/1541",
+    "input": "satasma-\n\nghadaN rubbamā — school? lajla — fī su'āl, school madrasat — rubbamā/my — fī/school — anā coffee, fī/havā'\n\nsatasma-? naHnu — coffee/shāj, iN/my\n\nHajj/shāj, fī/rubbamā, with? naHnu, fī anā — Hajj rhythm, rhythm? naHnu, school",
+    "before": "satasma-\n\nghadaN rubbamā — schūl? lajla — fī su'āl, schūl madrasat — rubbamā/mī — fī/schūl — anā kuffī, fī/havā'\n\nsatasma-? naHnu — kuffī/shāj, iN/mī\n\nHajj/shāj, fī/rubbamā, with? naHnu, fī anā — Hajj rhīthm, rhīthm? naHnu, schūl",
+    "after": "satasma-\n\nghadaN rubbamā — schūl? lajla — fī su'āl, schūl madrasat — rubbamā/mi — fī/schūl — anā kuffī, fī/havā'\n\nsatasma-? naHnu — kuffī/shāj, iN/mi\n\nHajj/shāj, fī/rubbamā, with? naHnu, fī anā — Hajj rhithm, rhithm? naHnu, schūl"
+  },
+  {
+    "id": "normalizer/1542",
+    "input": "yellow\nqueue na-am\nalSawt -alá mā'\t-alá kitāb min\nanta؛ uN+na-am\tqahva qahva mā' alSSabāH aHmad\nalSawt\tcity+shaj' yellow+book\tcity\nyellow\talSawt؟",
+    "before": "yilluw\nquiui na-am\nalSawt -alá mā'\t-alá kitāb min\nanta؛ uN+na-am\tqahva qahva mā' alSSabāH aHmad\nalSawt\tsitī+shaj' yilluw+būk\tsitī\nyilluw\talSawt؟",
+    "after": "yilluw\nquiui na-am\nalSawt -alá mā'\t-alá kitāb min\nanta؛ uN+na-am\tqahva qahva mā' alSSabāH aHmad\nalSawt\tsiti+shaj' yilluw+būk\tsiti\nyilluw\talSawt؟"
+  },
+  {
+    "id": "normalizer/1544",
+    "input": "alSawt\nyellow queue\nmarHaba na-am+qahva؛ yellow\nby\t-alá\n-alá\taHmad\naHmad shaj'+shaj'\tmā' -alá؛ anta\nalSawt؛ yellow queue؛ na-am+na-am\tanta+anta؛ city+yellow\tworld\nyellow\tkitāb\nqueue؛ book\nbook\tanta+alSSabāH mā'+marHaba shaj' min yellow+aN\tqahva",
+    "before": "alSawt\nyilluw quiui\nmarHaba na-am+qahva؛ yilluw\nbī\t-alá\n-alá\taHmad\naHmad shaj'+shaj'\tmā' -alá؛ anta\nalSawt؛ yilluw quiui؛ na-am+na-am\tanta+anta؛ sitī+yilluw\twurld\nyilluw\tkitāb\nquiui؛ būk\nbūk\tanta+alSSabāH mā'+marHaba shaj' min yilluw+aN\tqahva",
+    "after": "alSawt\nyilluw quiui\nmarHaba na-am+qahva؛ yilluw\nbi\t-alá\n-alá\taHmad\naHmad shaj'+shaj'\tmā' -alá؛ anta\nalSawt؛ yilluw quiui؛ na-am+na-am\tanta+anta؛ siti+yilluw\twurld\nyilluw\tkitāb\nquiui؛ būk\nbūk\tanta+alSSabāH mā'+marHaba shaj' min yilluw+aN\tqahva"
+  },
+  {
+    "id": "normalizer/1545",
+    "input": "anā — anā/with\n\nhello? su'āl\n\nschool/rhythm\n\nmadrasat/madrasat\n\ncoffee/naHnu\n\nnaHnu iN, Hajj? my, school/havā', fī rhythm, school/with, rhythm? with, coffee lā\n\nilá? ghadaN — hello؟",
+    "before": "anā — anā/with\n\nhillu? su'āl\n\nschūl/rhīthm\n\nmadrasat/madrasat\n\nkuffī/naHnu\n\nnaHnu iN, Hajj? mī, schūl/havā', fī rhīthm, schūl/with, rhīthm? with, kuffī lā\n\nilá? ghadaN — hillu؟",
+    "after": "anā — anā/with\n\nhillu? su'āl\n\nschūl/rhithm\n\nmadrasat/madrasat\n\nkuffī/naHnu\n\nnaHnu iN, Hajj? mi, schūl/havā', fī rhithm, schūl/with, rhithm? with, kuffī lā\n\nilá? ghadaN — hillu؟"
+  },
+  {
+    "id": "normalizer/1546",
+    "input": "mā'\nqueue by na-am\talSSabāH by\tna-am quvva\tkitāb\nqueue\talSawt+qahva\tshaj'.",
+    "before": "mā'\nquiui bī na-am\talSSabāH bī\tna-am quvva\tkitāb\nquiui\talSawt+qahva\tshaj'.",
+    "after": "mā'\nquiui bi na-am\talSSabāH bi\tna-am quvva\tkitāb\nquiui\talSawt+qahva\tshaj'."
+  },
+  {
+    "id": "normalizer/1547",
+    "input": "hello\n\nmy hello\n\nmy ilá\n\ncoffee? ilá\n\nwith/hello, satasma-? shāj, fī/su'āl\n\nwith? lajla, anā/su'āl — naHnu? coffee — naHnu fī — my? school — madrasat? fī — rubbamā",
+    "before": "hillu\n\nmī hillu\n\nmī ilá\n\nkuffī? ilá\n\nwith/hillu, satasma-? shāj, fī/su'āl\n\nwith? lajla, anā/su'āl — naHnu? kuffī — naHnu fī — mī? schūl — madrasat? fī — rubbamā",
+    "after": "hillu\n\nmi hillu\n\nmi ilá\n\nkuffī? ilá\n\nwith/hillu, satasma-? shāj, fī/su'āl\n\nwith? lajla, anā/su'āl — naHnu? kuffī — naHnu fī — mi? schūl — madrasat? fī — rubbamā"
+  },
+  {
+    "id": "normalizer/1548",
+    "input": "book\nqueue\tyellow+marHaba\tmā'+queue؛ queue city\talSawt\nyellow\talSawt\nqahva؛ min shaj'؛ book+marHaba -alá aN alSawt shaj' alSSabāH\nuN؛ mā' na-am city\nuN city+by\tshaj'+na-am\tmin+book؛ by na-am\talSawt.",
+    "before": "būk\nquiui\tyilluw+marHaba\tmā'+quiui؛ quiui sitī\talSawt\nyilluw\talSawt\nqahva؛ min shaj'؛ būk+marHaba -alá aN alSawt shaj' alSSabāH\nuN؛ mā' na-am sitī\nuN sitī+bī\tshaj'+na-am\tmin+būk؛ bī na-am\talSawt.",
+    "after": "būk\nquiui\tyilluw+marHaba\tmā'+quiui؛ quiui siti\talSawt\nyilluw\talSawt\nqahva؛ min shaj'؛ būk+marHaba -alá aN alSawt shaj' alSSabāH\nuN؛ mā' na-am siti\nuN siti+bi\tshaj'+na-am\tmin+būk؛ bi na-am\talSawt."
+  },
+  {
+    "id": "normalizer/1549",
+    "input": "my, madrasat coffee — iN satasma-\n\nschool/Hajj, shāj/shāj — havā'? rubbamā\n\nfī? ghadaN — ghadaN? hello — rubbamā/naHnu — fī? lā — anā/fī, with with, naHnu fī, with/coffee, coffee/with, ghadaN/fī — satasma- rubbamā\n\nsatasma- lā — madrasat? naHnu — school/rubbamā\n\nhavā'/ilá\n\nsu'āl lajla, madrasat.",
+    "before": "mī, madrasat kuffī — iN satasma-\n\nschūl/Hajj, shāj/shāj — havā'? rubbamā\n\nfī? ghadaN — ghadaN? hillu — rubbamā/naHnu — fī? lā — anā/fī, with with, naHnu fī, with/kuffī, kuffī/with, ghadaN/fī — satasma- rubbamā\n\nsatasma- lā — madrasat? naHnu — schūl/rubbamā\n\nhavā'/ilá\n\nsu'āl lajla, madrasat.",
+    "after": "mi, madrasat kuffī — iN satasma-\n\nschūl/Hajj, shāj/shāj — havā'? rubbamā\n\nfī? ghadaN — ghadaN? hillu — rubbamā/naHnu — fī? lā — anā/fī, with with, naHnu fī, with/kuffī, kuffī/with, ghadaN/fī — satasma- rubbamā\n\nsatasma- lā — madrasat? naHnu — schūl/rubbamā\n\nhavā'/ilá\n\nsu'āl lajla, madrasat."
+  },
+  {
+    "id": "normalizer/1550",
+    "input": "marHaba+book؛ by mā' aHmad+marHaba\tquvva+anta\tna-am+anta؛ kitāb+book qahva\nmarHaba qahva!",
+    "before": "marHaba+būk؛ bī mā' aHmad+marHaba\tquvva+anta\tna-am+anta؛ kitāb+būk qahva\nmarHaba qahva!",
+    "after": "marHaba+būk؛ bi mā' aHmad+marHaba\tquvva+anta\tna-am+anta؛ kitāb+būk qahva\nmarHaba qahva!"
+  },
+  {
+    "id": "normalizer/1551",
+    "input": "ghadaN, fī? madrasat — satasma-/su'āl, lajla/ilá\n\nghadaN? Hajj, lā my\n\nrhythm hello, hello/ghadaN — Hajj ghadaN, Hajj? fī — fī/madrasat — naHnu with — havā' school\n\nHajj/lajla\n\nsu'āl/my — my with, iN.",
+    "before": "ghadaN, fī? madrasat — satasma-/su'āl, lajla/ilá\n\nghadaN? Hajj, lā mī\n\nrhīthm hillu, hillu/ghadaN — Hajj ghadaN, Hajj? fī — fī/madrasat — naHnu with — havā' schūl\n\nHajj/lajla\n\nsu'āl/mī — mī with, iN.",
+    "after": "ghadaN, fī? madrasat — satasma-/su'āl, lajla/ilá\n\nghadaN? Hajj, lā mi\n\nrhithm hillu, hillu/ghadaN — Hajj ghadaN, Hajj? fī — fī/madrasat — naHnu with — havā' schūl\n\nHajj/lajla\n\nsu'āl/mi — mi with, iN."
+  },
+  {
+    "id": "normalizer/1552",
+    "input": "aHmad\nbook -alá+anta\tuN\nyellow alSawt mā'؛ yellow+alSawt kitāb marHaba\tshaj' kitāb aN\nby\talSawt+alSawt marHaba -alá quvva+na-am mā' aHmad\tuN\nalSawt\taHmad city\talSawt min\tqueue kitāb؛ kitāb by quvva\n",
+    "before": "aHmad\nbūk -alá+anta\tuN\nyilluw alSawt mā'؛ yilluw+alSawt kitāb marHaba\tshaj' kitāb aN\nbī\talSawt+alSawt marHaba -alá quvva+na-am mā' aHmad\tuN\nalSawt\taHmad sitī\talSawt min\tquiui kitāb؛ kitāb bī quvva\n",
+    "after": "aHmad\nbūk -alá+anta\tuN\nyilluw alSawt mā'؛ yilluw+alSawt kitāb marHaba\tshaj' kitāb aN\nbi\talSawt+alSawt marHaba -alá quvva+na-am mā' aHmad\tuN\nalSawt\taHmad siti\talSawt min\tquiui kitāb؛ kitāb bi quvva\n"
+  },
+  {
+    "id": "normalizer/1553",
+    "input": "havā', anā fī\n\nhavā' shāj, rhythm coffee — lā naHnu, satasma- naHnu\n\nHajj madrasat\n\nilá anā\n\nlā/with, hello? rhythm\n\nsatasma-",
+    "before": "havā', anā fī\n\nhavā' shāj, rhīthm kuffī — lā naHnu, satasma- naHnu\n\nHajj madrasat\n\nilá anā\n\nlā/with, hillu? rhīthm\n\nsatasma-",
+    "after": "havā', anā fī\n\nhavā' shāj, rhithm kuffī — lā naHnu, satasma- naHnu\n\nHajj madrasat\n\nilá anā\n\nlā/with, hillu? rhithm\n\nsatasma-"
+  },
+  {
+    "id": "normalizer/1555",
+    "input": "with, anā/shāj — with? hello, fī/my — iN!",
+    "before": "with, anā/shāj — with? hillu, fī/mī — iN!",
+    "after": "with, anā/shāj — with? hillu, fī/mi — iN!"
+  },
+  {
+    "id": "normalizer/1556",
+    "input": "na-am\nyellow\tbook\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+queue\tworld\nuN\tcity world\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb book؟",
+    "before": "na-am\nyilluw\tbūk\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+quiui\twurld\nuN\tsitī wurld\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb būk؟",
+    "after": "na-am\nyilluw\tbūk\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+quiui\twurld\nuN\tsiti wurld\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb būk؟"
+  },
+  {
+    "id": "normalizer/1557",
+    "input": "my, anā? lā, rhythm ghadaN — Hajj/rubbamā, coffee madrasat, iN",
+    "before": "mī, anā? lā, rhīthm ghadaN — Hajj/rubbamā, kuffī madrasat, iN",
+    "after": "mi, anā? lā, rhithm ghadaN — Hajj/rubbamā, kuffī madrasat, iN"
+  },
+  {
+    "id": "normalizer/1558",
+    "input": "queue\nqueue by world yellow\nmā' quvva\nalSSabāH؛ na-am\nanta\tqueue+aHmad؛ qahva+na-am؛ shaj' yellow qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ by queue؛ queue+qahva؛ city+book؛ min shaj'؛ yellow!",
+    "before": "quiui\nquiui bī wurld yilluw\nmā' quvva\nalSSabāH؛ na-am\nanta\tquiui+aHmad؛ qahva+na-am؛ shaj' yilluw qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ bī quiui؛ quiui+qahva؛ sitī+būk؛ min shaj'؛ yilluw!",
+    "after": "quiui\nquiui bi wurld yilluw\nmā' quvva\nalSSabāH؛ na-am\nanta\tquiui+aHmad؛ qahva+na-am؛ shaj' yilluw qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ bi quiui؛ quiui+qahva؛ siti+būk؛ min shaj'؛ yilluw!"
+  },
+  {
+    "id": "normalizer/1559",
+    "input": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhythm — naHnu/lajla — havā'? rhythm — anā fī\n\nshāj/coffee — madrasat? naHnu — school/ilá, Hajj shāj\n\nsatasma-/school\n\niN? su'āl\n\nHajj؟",
+    "before": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhīthm — naHnu/lajla — havā'? rhīthm — anā fī\n\nshāj/kuffī — madrasat? naHnu — schūl/ilá, Hajj shāj\n\nsatasma-/schūl\n\niN? su'āl\n\nHajj؟",
+    "after": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhithm — naHnu/lajla — havā'? rhithm — anā fī\n\nshāj/kuffī — madrasat? naHnu — schūl/ilá, Hajj shāj\n\nsatasma-/schūl\n\niN? su'āl\n\nHajj؟"
+  },
+  {
+    "id": "normalizer/1560",
+    "input": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+by\tby shaj' kitāb+queue؛ kitāb\nquvva؛ city quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ by aHmad\tbook\nqueue shaj'+alSSabāH\tkitāb؟",
+    "before": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+bī\tbī shaj' kitāb+quiui؛ kitāb\nquvva؛ sitī quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ bī aHmad\tbūk\nquiui shaj'+alSSabāH\tkitāb؟",
+    "after": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+bi\tbi shaj' kitāb+quiui؛ kitāb\nquvva؛ siti quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ bi aHmad\tbūk\nquiui shaj'+alSSabāH\tkitāb؟"
+  },
+  {
+    "id": "normalizer/1561",
+    "input": "school — coffee/my\n\nlajla with\n\nfī/madrasat, school.",
+    "before": "schūl — kuffī/mī\n\nlajla with\n\nfī/madrasat, schūl.",
+    "after": "schūl — kuffī/mi\n\nlajla with\n\nfī/madrasat, schūl."
+  },
+  {
+    "id": "normalizer/1562",
+    "input": "yellow+shaj'؛ yellow by؛ queue!",
+    "before": "yilluw+shaj'؛ yilluw bī؛ quiui!",
+    "after": "yilluw+shaj'؛ yilluw bi؛ quiui!"
+  },
+  {
+    "id": "normalizer/1563",
+    "input": "Hajj — lajla Hajj — coffee/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhythm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhythm, ghadaN/school — ilá/havā' — lajla? lā, my/hello, school/hello\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n",
+    "before": "Hajj — lajla Hajj — kuffī/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhīthm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhīthm, ghadaN/schūl — ilá/havā' — lajla? lā, mī/hillu, schūl/hillu\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n",
+    "after": "Hajj — lajla Hajj — kuffī/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhithm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhithm, ghadaN/schūl — ilá/havā' — lajla? lā, mi/hillu, schūl/hillu\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n"
+  },
+  {
+    "id": "normalizer/1564",
+    "input": "na-am\nna-am؛ uN\nna-am\tmā' queue؛ alSSabāH+marHaba world\nalSawt\tby+na-am\tshaj' alSSabāH book\nbook\tcity\nqueue؛ alSawt+yellow quvva+by؛ quvva\nna-am\tworld\ncity؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+by\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nby؛ uN؟",
+    "before": "na-am\nna-am؛ uN\nna-am\tmā' quiui؛ alSSabāH+marHaba wurld\nalSawt\tbī+na-am\tshaj' alSSabāH būk\nbūk\tsitī\nquiui؛ alSawt+yilluw quvva+bī؛ quvva\nna-am\twurld\nsitī؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bī\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nbī؛ uN؟",
+    "after": "na-am\nna-am؛ uN\nna-am\tmā' quiui؛ alSSabāH+marHaba wurld\nalSawt\tbi+na-am\tshaj' alSSabāH būk\nbūk\tsiti\nquiui؛ alSawt+yilluw quvva+bi؛ quvva\nna-am\twurld\nsiti؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bi\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nbi؛ uN؟"
+  },
+  {
+    "id": "normalizer/1565",
+    "input": "coffee, hello? rubbamā\n\nrubbamā? shāj, lā? ghadaN, coffee/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? my, rubbamā hello — with/su'āl, coffee? school\n\nwith lajla, ghadaN/satasma-, fī? iN, hello\n",
+    "before": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mī, rubbamā hillu — with/su'āl, kuffī? schūl\n\nwith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+    "after": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mi, rubbamā hillu — with/su'āl, kuffī? schūl\n\nwith lajla, ghadaN/satasma-, fī? iN, hillu\n"
+  },
+  {
+    "id": "normalizer/1566",
+    "input": "na-am+anta shaj' aHmad؛ yellow uN؛ book+aN\tanta+queue\tqahva by qahva+anta aN\nmā' aN\nshaj'\tcity\nkitāb yellow\nby\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "before": "na-am+anta shaj' aHmad؛ yilluw uN؛ būk+aN\tanta+quiui\tqahva bī qahva+anta aN\nmā' aN\nshaj'\tsitī\nkitāb yilluw\nbī\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "after": "na-am+anta shaj' aHmad؛ yilluw uN؛ būk+aN\tanta+quiui\tqahva bi qahva+anta aN\nmā' aN\nshaj'\tsiti\nkitāb yilluw\nbi\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta."
+  },
+  {
+    "id": "normalizer/1567",
+    "input": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHy ",
+    "before": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHī ",
+    "after": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHi "
+  },
+  {
+    "id": "normalizer/1568",
+    "input": "ūthiNJāghc+iNphZxatʿ yNbsh+()'áshyūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN theʾ̄SshycaiNb'ghū",
+    "before": "ūthiNJāghk+iNphZxatʿ yNbsh+()'áshīūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN thiʾ̄SshīkaiNb'ghū",
+    "after": "ūthiNJāghk+iNphZxatʿ yNbsh+()'áshiūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN thiʾ̄SshikaiNb'ghū"
+  },
+  {
+    "id": "normalizer/1570",
+    "input": "āph/ʾ̄ajSwuN/īeʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHyHaNcá )'theáūJDxatTchSe\n'aNNvkh",
+    "before": "āph/ʾ̄ajSwuN/īiʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHīHaNká )'thiáūJDxatTchSi\n'aNNvkh",
+    "after": "āph/ʾ̄ajSwuN/īiʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHiHaNká )'thiáūJDxatTchSi\n'aNNvkh"
+  },
+  {
+    "id": "normalizer/1573",
+    "input": "chb-TZáN+chgh̄phāī̄oūy'Tjawo(aNatychʿDTZ+āaNatxshʾkhaN()-ʾ/+ZoiN\nūxZy(á SchuNNáāakhghDS(á'gh(uNch",
+    "before": "chb-TZáN+chgh̄phāī̄uūy'Tjawu(aNatīchʿDTZ+āaNatxshʾkhaN()-ʾ/+ZuiN\nūsZī(á SchuNNáāakhghDS(á'gh(uNch",
+    "after": "chb-TZáN+chgh̄phāī̄uūy'Tjawu(aNatichʿDTZ+āaNatxshʾkhaN()-ʾ/+ZuiN\nūsZi(á SchuNNáāakhghDS(á'gh(uNch"
+  },
+  {
+    "id": "normalizer/1576",
+    "input": "khájph'T/gh-yjʿwy/ʿiNaH",
+    "before": "khájph'T/gh-yjʿwī/ʿiNaH",
+    "after": "khájph'T/gh-yjʿwi/ʿiNaH"
+  },
+  {
+    "id": "normalizer/1577",
+    "input": "j\ncbāoHoūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDtheaN'oiNJDTjokhbNī/ʾcáat+cJHveachokhvNSū\niNy/thHaNN",
+    "before": "j\nkbāuHuūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDthiaN'uiNJDTjukhbNī/ʾkáat+kJHviachukhvNSū\niNī/thHaNN",
+    "after": "j\nkbāuHuūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDthiaN'uiNJDTjukhbNī/ʾkáat+kJHviachukhvNSū\niNi/thHaNN"
+  },
+  {
+    "id": "normalizer/1578",
+    "input": "ūʾZxchōSjȳyDpheghū+Nī'ʾDv-\n-aNNbNT'x-\nch\n̄",
+    "before": "ūʾZxchūSjī̄yDphighū+Nī'ʾDv-\n-aNNbNT'iks-\nch\n̄",
+    "after": "ūʾZxchūSjīyDphighū+Nī'ʾDv-\n-aNNbNT'iks-\nch\n̄"
+  },
+  {
+    "id": "normalizer/1583",
+    "input": "khTiNī TūSūT phiNʾkhx(batykh",
+    "before": "khTiNī TūSūT phiNʾkhx(batīkh",
+    "after": "khTiNī TūSūT phiNʾkhx(batikh"
+  },
+  {
+    "id": "normalizer/1584",
+    "input": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+    "before": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNīiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNixū",
+    "after": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNīN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNixū"
+  },
+  {
+    "id": "normalizer/1585",
+    "input": "'ʿūoZSūȳ)ZáeaNat)shv xDyHS'Teo-ʾj+ch+shJkhb-ʿHʿDoā",
+    "before": "'ʿūuZSūȳ)ZáiaNat)shv sDīHS'Tiu-ʾj+ch+shJkhb-ʿHʿDuā",
+    "after": "'ʿūuZSūȳ)ZáiaNat)shv sDiHS'Tiu-ʾj+ch+shJkhb-ʿHʿDuā"
+  },
+  {
+    "id": "normalizer/1587",
+    "input": "Zy aN̄bkhuN̄\n/īchx(J-oiN+-+evwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N",
+    "before": "Zī aN̄bkhuN̄\n/īchx(J-uiN+-+ivwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N",
+    "after": "Zi aN̄bkhuN̄\n/īchx(J-uiN+-+ivwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N"
+  },
+  {
+    "id": "normalizer/1588",
+    "input": "(v̄īex̄xHīcoNaatyDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZoū",
+    "before": "(v̄īix̄sHīkuNātīDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZuū",
+    "after": "(v̄īix̄sHīkuNātiDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZuū"
+  },
+  {
+    "id": "normalizer/1589",
+    "input": "e+chghZʿHxeuNāaiNvNáiNʿNvchth-oāTeuN-JHyc) īāx'bkhywvNv/būīchphkhph'á/T̄ʾeīDSsh",
+    "before": "e+chghZʿHxiuNāaiNvNáiNʿNvchth-uāTiuN-JHīk) īāiks'bkhīwvNv/būīchphkhph'á/T̄ʾiīDSsh",
+    "after": "e+chghZʿHxiuNāaiNvNáiNʿNvchth-uāTiuN-JHik) īāiks'bkhiwvNv/būīchphkhph'á/T̄ʾiīDSsh"
+  },
+  {
+    "id": "normalizer/1592",
+    "input": "̄īiNīHa-b/TebcSZTZaNNSjyshgh(uN'aNchuNZ+ūákhajyDJkhyc",
+    "before": "̄īiNīHa-b/TibkSZTZaNNSjīshgh(uN'aNchuNZ+ūákhajīDJkhīs",
+    "after": "̄īiNīHa-b/TibkSZTZaNNSjishgh(uN'aNchuNZ+ūákhajiDJkhis"
+  }
+]

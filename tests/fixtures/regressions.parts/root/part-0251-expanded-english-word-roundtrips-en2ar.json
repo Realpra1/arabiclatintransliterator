@@ -1,0 +1,38 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0197",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "tree",
+    "output": "ترِي",
+    "roundTrip": "trī",
+    "secondPass": "ترِي"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0198",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "free",
+    "output": "فرِي",
+    "roundTrip": "frī",
+    "secondPass": "فرِي"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0199",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "bee",
+    "output": "بِي",
+    "roundTrip": "bī",
+    "secondPass": "بِي"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0200",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "be",
+    "output": "بِ",
+    "roundTrip": "bi",
+    "secondPass": "بِ"
+  }
+]

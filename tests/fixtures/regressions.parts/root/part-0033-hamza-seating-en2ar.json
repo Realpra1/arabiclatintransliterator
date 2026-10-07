@@ -1,0 +1,200 @@
+[
+  {
+    "id": "hamza-seating/en2ar/0148",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'e",
+    "output": "اَلإِ",
+    "roundTrip": "al'i",
+    "secondPass": "اَلإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0149",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'o",
+    "output": "اَلأُ",
+    "roundTrip": "al'u",
+    "secondPass": "اَلأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0150",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'ā",
+    "output": "اَلآ",
+    "roundTrip": "al'ā",
+    "secondPass": "اَلآ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0151",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'ī",
+    "output": "اَلإِي",
+    "roundTrip": "al'ī",
+    "secondPass": "اَلإِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0152",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'ū",
+    "output": "اَلأُو",
+    "roundTrip": "al'ū",
+    "secondPass": "اَلأُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0153",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'aN",
+    "output": "اَلأً",
+    "roundTrip": "al'aN",
+    "secondPass": "اَلأً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0154",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'iN",
+    "output": "اَلإٍ",
+    "roundTrip": "al'iN",
+    "secondPass": "اَلإٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0155",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'uN",
+    "output": "اَلأٌ",
+    "roundTrip": "al'uN",
+    "secondPass": "اَلأٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0156",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'b",
+    "output": "اَلأب",
+    "roundTrip": "al'b",
+    "secondPass": "اَلأب"
+  },
+  {
+    "id": "hamza-seating/en2ar/0157",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " '",
+    "output": " أ",
+    "roundTrip": " 'a",
+    "secondPass": " أَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0158",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'a",
+    "output": " أَ",
+    "roundTrip": " a",
+    "secondPass": " اَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0159",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'i",
+    "output": " إِ",
+    "roundTrip": " i",
+    "secondPass": " إِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0160",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'u",
+    "output": " أُ",
+    "roundTrip": " u",
+    "secondPass": " أُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0161",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'e",
+    "output": " إِ",
+    "roundTrip": " i",
+    "secondPass": " إِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0162",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'o",
+    "output": " أُ",
+    "roundTrip": " u",
+    "secondPass": " أُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0163",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'ā",
+    "output": " آ",
+    "roundTrip": " 'ā",
+    "secondPass": " آ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0164",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'ī",
+    "output": " إِي",
+    "roundTrip": " ī",
+    "secondPass": " ِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0165",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'ū",
+    "output": " أُو",
+    "roundTrip": " ū",
+    "secondPass": " ُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0166",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'aN",
+    "output": " أً",
+    "roundTrip": " 'aN",
+    "secondPass": " أً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0167",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'iN",
+    "output": " إٍ",
+    "roundTrip": " 'iN",
+    "secondPass": " إٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0168",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'uN",
+    "output": " أٌ",
+    "roundTrip": " 'uN",
+    "secondPass": " أٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0169",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'b",
+    "output": " أب",
+    "roundTrip": " 'ab",
+    "secondPass": " أَب"
+  }
+]

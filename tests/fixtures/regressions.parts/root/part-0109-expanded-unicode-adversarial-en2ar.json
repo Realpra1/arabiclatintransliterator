@@ -1,0 +1,164 @@
+[
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0001",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "﻿سلام hello",
+    "output": "﻿سلام هِلُّ",
+    "roundTrip": "﻿slām hillu",
+    "secondPass": "﻿سلام هِلُّ"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0002",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "a​b⁠c‍d‌e",
+    "output": "اَ​ب⁠ك‍د‌إِ",
+    "roundTrip": "a​b⁠k‍d‌'i",
+    "secondPass": "اَ​ب⁠ك‍د‌إِ"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0003",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "⁧Arabic العربية (a+b)⁩",
+    "output": "⁧اَرَبِس العربية (a+b)⁩",
+    "roundTrip": "⁧arabis al-rbīat (a+b)⁩",
+    "secondPass": "⁧اَرَبِس اَلعربِية (a+b)⁩"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0004",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "‫ب abc‬",
+    "output": "‫ب اَبك‬",
+    "roundTrip": "‫b abk‬",
+    "secondPass": "‫ب اَبك‬"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0005",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "ā ī ū á ṣ ḍ ṭ ẓ ḥ",
+    "output": "ا ِي ُو ى ص ض ط ظ ح",
+    "roundTrip": "ā ī ū á S D T Z H",
+    "secondPass": "ا ِي ُو ى ص ض ط ظ ح"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0006",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "ā ī ū á ṣ ḍ ṭ ẓ ḥ",
+    "output": "اَ̄ إِ̄ أُ̄ اَ́ س̣ د̣ ت̣ ز̣ ه̣",
+    "roundTrip": "ā ī ū á ṣ ḍ ṭ ẓ ḥ",
+    "secondPass": "اَ̄ إِ̄ أُ̄ اَ́ س̣ د̣ ت̣ ز̣ ه̣"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0007",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "َّب بَّ بَّ",
+    "output": "َّب بَّ بَّ",
+    "roundTrip": "ab bba bba",
+    "secondPass": "اَب بَّ بَّ"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0008",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "🙂بَ👩🏽‍💻sh🇪🇬",
+    "output": "🙂بَ👩🏽‍💻ش🇪🇬",
+    "roundTrip": "🙂ba👩🏽‍💻sh🇪🇬",
+    "secondPass": "🙂بَ👩🏽‍💻ش🇪🇬"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0009",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "\ud800a\udc00ب",
+    "output": "\ud800اَ\udc00ب",
+    "roundTrip": "\ud800a\udc00b",
+    "secondPass": "\ud800اَ\udc00ب"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0010",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "\udc00\ud800",
+    "output": "\udc00\ud800",
+    "roundTrip": "\udc00\ud800",
+    "secondPass": "\udc00\ud800"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0011",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "a ب  ",
+    "output": "a ب  uندِفِنِد",
+    "roundTrip": "a b  undifinid",
+    "secondPass": "اَ ب  أُندِفِنِد"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0012",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "a\bب\fsh\u000bم\rtest",
+    "output": "اَ\bب\fش\u000bم\rتِست",
+    "roundTrip": "a\bb\fsh\u000bm\rtist",
+    "secondPass": "اَ\bب\fش\u000bم\rتِست"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0013",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "a\n\nb\r\n\r\nب\r\rت",
+    "output": "اَ\n\nب\r\n\r\nب\r\rت",
+    "roundTrip": "a\n\nb\r\n\r\nb\r\rt",
+    "secondPass": "اَ\n\nب\r\n\r\nب\r\rت"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0014",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "x y ب",
+    "output": "إِكس يْ ب",
+    "roundTrip": "iks j b",
+    "secondPass": "إِكس يْ ب"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0015",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "ASCII 12,345.67; عربي ١٢٬٣٤٥٫٦٧; فارسی ۱۲۳۴۵",
+    "output": "اَصسِي 12،345.67؛ عربي ١٢٬٣٤٥٫٦٧؛ فارسی ۱۲۳۴۵",
+    "roundTrip": "aSsī 12,345.67; -rbī ١٢٬٣٤٥٫٦٧; fārsی ۱۲۳۴۵",
+    "secondPass": "اَصسِي 12،345.67؛ عربِي ١٢٬٣٤٥٫٦٧؛ فارسی ۱۲۳۴۵"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0016",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "− - ‐ ‑ – — ـ ʿ ع",
+    "output": "− ع ‐ ‑ – — ـ ع ع",
+    "roundTrip": "− - ‐ ‑ – —  - -",
+    "secondPass": "− ع ‐ ‑ – —  ع ع"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0017",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "' ’ ‘ ʼ ʾ ʻ ء ` ´",
+    "output": "أ ’ ‘ ʼ أ ʻ ء ` ´",
+    "roundTrip": "'a ’ ‘ ʼ 'a ʻ ' ` ´",
+    "secondPass": "أَ ’ ‘ ʼ أَ ʻ أ ` ´"
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0018",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "ＡＢＣ ａｂｃ １２３",
+    "output": "ＡＢＣ ａｂｃ １２３",
+    "roundTrip": "ＡＢＣ ａｂｃ １２３",
+    "secondPass": "ＡＢＣ ａｂｃ １２３"
+  }
+]

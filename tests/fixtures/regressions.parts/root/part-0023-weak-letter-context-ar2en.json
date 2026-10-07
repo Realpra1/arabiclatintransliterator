@@ -1,0 +1,443 @@
+[
+  {
+    "id": "weak-letter-context/ar2en/0001",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "و",
+    "output": "v",
+    "roundTrip": "وْ",
+    "secondPass": "v"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0002",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وا",
+    "output": "vā",
+    "roundTrip": "وا",
+    "secondPass": "vā"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0003",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وى",
+    "output": "vá",
+    "roundTrip": "وْى",
+    "secondPass": "vá"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0004",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وب",
+    "output": "vb",
+    "roundTrip": "وْب",
+    "secondPass": "vb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0005",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وَب",
+    "output": "vab",
+    "roundTrip": "وَب",
+    "secondPass": "vab"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0006",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وِب",
+    "output": "vib",
+    "roundTrip": "وِب",
+    "secondPass": "vib"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0007",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وُب",
+    "output": "vub",
+    "roundTrip": "وُب",
+    "secondPass": "vub"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0008",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وْب",
+    "output": "vb",
+    "roundTrip": "وْب",
+    "secondPass": "vb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0009",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وّ",
+    "output": "vv",
+    "roundTrip": "وّ",
+    "secondPass": "vv"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0010",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وُّ",
+    "output": "vvu",
+    "roundTrip": "وُّ",
+    "secondPass": "vvu"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0011",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "وِّ",
+    "output": "vvi",
+    "roundTrip": "وِّ",
+    "secondPass": "vvi"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0012",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بو",
+    "output": "bū",
+    "roundTrip": "بُو",
+    "secondPass": "bū"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0013",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوا",
+    "output": "bvā",
+    "roundTrip": "بوْا",
+    "secondPass": "bvā"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0014",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوى",
+    "output": "bvá",
+    "roundTrip": "بوْى",
+    "secondPass": "bvá"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0015",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوب",
+    "output": "būb",
+    "roundTrip": "بُوب",
+    "secondPass": "būb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0016",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوَب",
+    "output": "bvab",
+    "roundTrip": "بوَب",
+    "secondPass": "bvab"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0017",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوِب",
+    "output": "bvib",
+    "roundTrip": "بوِب",
+    "secondPass": "bvib"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0018",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوُب",
+    "output": "bvub",
+    "roundTrip": "بوُب",
+    "secondPass": "bvub"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0019",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوْب",
+    "output": "bvb",
+    "roundTrip": "بوْب",
+    "secondPass": "bvb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0020",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوّ",
+    "output": "bvv",
+    "roundTrip": "بوّ",
+    "secondPass": "bvv"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0021",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوُّ",
+    "output": "bvvu",
+    "roundTrip": "بوُّ",
+    "secondPass": "bvvu"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0022",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بوِّ",
+    "output": "bvvi",
+    "roundTrip": "بوِّ",
+    "secondPass": "bvvi"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0023",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَو",
+    "output": "bav",
+    "roundTrip": "بَوْ",
+    "secondPass": "bav"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0024",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوا",
+    "output": "bavā",
+    "roundTrip": "بَوْا",
+    "secondPass": "bavā"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0025",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوى",
+    "output": "bavá",
+    "roundTrip": "بَوْى",
+    "secondPass": "bavá"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0026",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوب",
+    "output": "bavb",
+    "roundTrip": "بَوْب",
+    "secondPass": "bavb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0027",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوَب",
+    "output": "bavab",
+    "roundTrip": "بَوَب",
+    "secondPass": "bavab"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0028",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوِب",
+    "output": "bavib",
+    "roundTrip": "بَوِب",
+    "secondPass": "bavib"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0029",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوُب",
+    "output": "bavub",
+    "roundTrip": "بَوُب",
+    "secondPass": "bavub"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0030",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوْب",
+    "output": "bavb",
+    "roundTrip": "بَوْب",
+    "secondPass": "bavb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0031",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوّ",
+    "output": "bavv",
+    "roundTrip": "بَوّ",
+    "secondPass": "bavv"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0032",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوُّ",
+    "output": "bavvu",
+    "roundTrip": "بَوُّ",
+    "secondPass": "bavvu"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0033",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بَوِّ",
+    "output": "bavvi",
+    "roundTrip": "بَوِّ",
+    "secondPass": "bavvi"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0034",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِو",
+    "output": "biv",
+    "roundTrip": "بِوْ",
+    "secondPass": "biv"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0035",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوا",
+    "output": "bivā",
+    "roundTrip": "بِوْا",
+    "secondPass": "bivā"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0036",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوى",
+    "output": "bivá",
+    "roundTrip": "بِوْى",
+    "secondPass": "bivá"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0037",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوب",
+    "output": "bivb",
+    "roundTrip": "بِوْب",
+    "secondPass": "bivb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0038",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوَب",
+    "output": "bivab",
+    "roundTrip": "بِوَب",
+    "secondPass": "bivab"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0039",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوِب",
+    "output": "bivib",
+    "roundTrip": "بِوِب",
+    "secondPass": "bivib"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0040",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوُب",
+    "output": "bivub",
+    "roundTrip": "بِوُب",
+    "secondPass": "bivub"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0041",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوْب",
+    "output": "bivb",
+    "roundTrip": "بِوْب",
+    "secondPass": "bivb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0042",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوّ",
+    "output": "bivv",
+    "roundTrip": "بِوّ",
+    "secondPass": "bivv"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0043",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوُّ",
+    "output": "bivvu",
+    "roundTrip": "بِوُّ",
+    "secondPass": "bivvu"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0044",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بِوِّ",
+    "output": "bivvi",
+    "roundTrip": "بِوِّ",
+    "secondPass": "bivvi"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0045",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بُو",
+    "output": "bū",
+    "roundTrip": "بُو",
+    "secondPass": "bū"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0046",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بُوا",
+    "output": "būā",
+    "roundTrip": "بُوا",
+    "secondPass": "būā"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0047",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بُوى",
+    "output": "būá",
+    "roundTrip": "بُوى",
+    "secondPass": "būá"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0048",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بُوب",
+    "output": "būb",
+    "roundTrip": "بُوب",
+    "secondPass": "būb"
+  },
+  {
+    "id": "weak-letter-context/ar2en/0049",
+    "group": "weak-letter-context",
+    "direction": "ar2en",
+    "input": "بُوَب",
+    "output": "buvab",
+    "roundTrip": "بُوَب",
+    "secondPass": "buvab"
+  }
+]

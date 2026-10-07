@@ -1,0 +1,28 @@
+[
+  {
+    "id": "expanded-mixed-script/en2ar/0004",
+    "direction": "en2ar",
+    "input": "ArabicعربيLatinلاتيني123١٢٣",
+    "changes": {
+      "secondPass": {
+        "before": "اَرَبِكعربِيلةِنلاتِينِي123١٢٣",
+        "after": "اَرَبِكعrbīlatinlātīnī123١٢٣"
+      }
+    }
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0004",
+    "direction": "ar2en",
+    "input": "ArabicعربيLatinلاتيني123١٢٣",
+    "changes": {
+      "roundTrip": {
+        "before": "اَرَبِكعربِيلةِنلاتِينِي123١٢٣",
+        "after": "اَرَبِكعrbīLatinlātīnī123١٢٣"
+      },
+      "secondPass": {
+        "before": "arabik-rbīlatinlātīnī123١٢٣",
+        "after": "arabik-rbīLatinlātīnī123١٢٣"
+      }
+    }
+  }
+]

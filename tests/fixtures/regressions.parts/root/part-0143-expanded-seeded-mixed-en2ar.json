@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0009",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "ليلى\n\nشَمْسٌ ā, kitāb havā', عائشة/ليلى\n\naN الذي\n\nanta/anta — Hajj marHaba\n\nقهوة/على\n\nbook? anā — aN اليوم — -alá ",
+    "output": "ليلى\n\nشَمْسٌ ا، كِتاب هَوْاء، عائشة/ليلى\n\nً الذي\n\nاَنتَ/اَنتَ — حَيّ مَرحَبَ\n\nقهوة/على\n\nبُوك؟ اَنا — ً اليوم — عَلى ",
+    "roundTrip": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbūk? anā — aN alīvm — -alá ",
+    "secondPass": "لِيلى\n\nشَمسٌ ا، كِتاب هَوْاء، عاءشة/لِيلى\n\nً اَلذِي\n\nاَنتَ/اَنتَ — حَيّ مَرحَبَ\n\nقهُوة/على\n\nبُوك؟ اَنا — ً اَلِيوْم — عَلى "
+  }
+]

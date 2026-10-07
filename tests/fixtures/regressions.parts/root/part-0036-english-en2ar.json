@@ -1,0 +1,281 @@
+[
+  {
+    "id": "english/en2ar/0001",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "One page civilization",
+    "output": "أُنِ بَجِ سِوِلِزَتُِن",
+    "roundTrip": "uni baJi sivilizatiun",
+    "secondPass": "أُنِ بَجِ سِوِلِزَتُِن"
+  },
+  {
+    "id": "english/en2ar/0002",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "one page civilization",
+    "output": "أُنِ بَجِ سِوِلِزَتُِن",
+    "roundTrip": "uni baJi sivilizatiun",
+    "secondPass": "أُنِ بَجِ سِوِلِزَتُِن"
+  },
+  {
+    "id": "english/en2ar/0003",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "FOOD & SOIL",
+    "output": "فُوض & صُِل",
+    "roundTrip": "fūD & Suil",
+    "secondPass": "فُوض & صُِل"
+  },
+  {
+    "id": "english/en2ar/0004",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Health",
+    "output": "حَِلث",
+    "roundTrip": "Hialth",
+    "secondPass": "حَِلث"
+  },
+  {
+    "id": "english/en2ar/0005",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Energy & machines",
+    "output": "إِنِرجِ & مَتجِنِس",
+    "roundTrip": "inirJi & matJinis",
+    "secondPass": "إِنِرجِ & مَتجِنِس"
+  },
+  {
+    "id": "english/en2ar/0006",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Knowledge preservation",
+    "output": "كنُوْلِدجِ برِسِروَتُِن",
+    "roundTrip": "knuvlidJi brisirvatiun",
+    "secondPass": "كنُوْلِدجِ برِسِروَتُِن"
+  },
+  {
+    "id": "english/en2ar/0007",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Civilization & scientific practice",
+    "output": "سِوِلِزَتُِن & سِّينتِفِس برَكتِسِ",
+    "roundTrip": "sivilizatiun & ssīntifis braktisi",
+    "secondPass": "سِوِلِزَتُِن & سِّينتِفِس برَكتِسِ"
+  },
+  {
+    "id": "english/en2ar/0008",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Scientific foundations",
+    "output": "صسِينتِفِس فُوندَتُِنس",
+    "roundTrip": "Ssīntifis fūndatiuns",
+    "secondPass": "صسِينتِفِس فُوندَتُِنس"
+  },
+  {
+    "id": "english/en2ar/0009",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Hello, world!",
+    "output": "حِلُّ، وُرلد!",
+    "roundTrip": "Hillu, vurld!",
+    "secondPass": "حِلُّ، وُرلد!"
+  },
+  {
+    "id": "english/en2ar/0010",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "output": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج.",
+    "roundTrip": "Thi quikk bruvn fuks jumbs uvir thi lazi duJ.",
+    "secondPass": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج."
+  },
+  {
+    "id": "english/en2ar/0011",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Pack my box with five dozen liquor jugs.",
+    "output": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+    "roundTrip": "bakk mi buks vith fivi duzin liqūr juJs.",
+    "secondPass": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس."
+  },
+  {
+    "id": "english/en2ar/0012",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Sphinx of black quartz, judge my vow.",
+    "output": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ وُوْ.",
+    "roundTrip": "Sfinks uf blakk quartz, judJi mi ūuv.",
+    "secondPass": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ ُوُوْ."
+  },
+  {
+    "id": "english/en2ar/0013",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Don't change what's already working.",
+    "output": "ضُنؤت تجَنجِ وْهَتءس اَلرَِدِ وُركِنج.",
+    "roundTrip": "Dun't tJanJi vhat's alriadi vurkinJ.",
+    "secondPass": "ضُنؤت تجَنجِ وْهَتءس اَلرَِدِ وُركِنج."
+  },
+  {
+    "id": "english/en2ar/0014",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+    "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+    "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ."
+  },
+  {
+    "id": "english/en2ar/0015",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Chemistry: chlorine, charcoal, copper, calcium, carbon.",
+    "output": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+    "roundTrip": "tJimistri: tJlurini, tJarkual, kubbir, kalsium, karbun.",
+    "secondPass": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن."
+  },
+  {
+    "id": "english/en2ar/0016",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Rotate agricultural plant families yearly.",
+    "output": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ.",
+    "roundTrip": "rutati aJrikultural blant familīs jiarli.",
+    "secondPass": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+  },
+  {
+    "id": "english/en2ar/0017",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Move cattle through 12 pasture plots.",
+    "output": "مُوِ كَتّلِ ثرُوغ 12 بَستُرِ بلُتس.",
+    "roundTrip": "muvi kattli thrūgh 12 basturi bluts.",
+    "secondPass": "مُوِ كَتّلِ ثرُوغ 12 بَستُرِ بلُتس."
+  },
+  {
+    "id": "english/en2ar/0018",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Filter water through sand & charcoal columns.",
+    "output": "فِلتِر وَتِر ثرُوغ سَند & تجَركَُل كُلُمنس.",
+    "roundTrip": "filtir vatir thrūgh sand & tJarkual kulumns.",
+    "secondPass": "فِلتِر وَتِر ثرُوغ سَند & تجَركَُل كُلُمنس."
+  },
+  {
+    "id": "english/en2ar/0019",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Store books cool, dry & dark.",
+    "output": "صتُرِ بُوكس كُول، درِ & دَرك.",
+    "roundTrip": "Sturi būks kūl, dri & dark.",
+    "secondPass": "صتُرِ بُوكس كُول، درِ & دَرك."
+  },
+  {
+    "id": "english/en2ar/0020",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "A pendulum swings out and back in 2 seconds.",
+    "output": "اَ بِندُلُم سوِنجس ُوت اَند بَكّ إِن 2 سِكُندس.",
+    "roundTrip": "a bindulum svinJs ūt and bakk in 2 sikunds.",
+    "secondPass": "اَ بِندُلُم سوِنجس ُوت اَند بَكّ إِن 2 سِكُندس."
+  },
+  {
+    "id": "english/en2ar/0021",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Hydrogen oxygen nitrogen ammonia",
+    "output": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ",
+    "roundTrip": "HidruJin uksiJin nitruJin ammunia",
+    "secondPass": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ"
+  },
+  {
+    "id": "english/en2ar/0022",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "electric current resistance voltage power",
+    "output": "إِلِكترِس كُرِّنت رِسِستَنسِ وُلتَجِ بُوِر",
+    "roundTrip": "iliktris kurrint risistansi vultaJi buvir",
+    "secondPass": "إِلِكترِس كُرِّنت رِسِستَنسِ وُلتَجِ بُوِر"
+  },
+  {
+    "id": "english/en2ar/0023",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "x X x-ray xenon extra box exit",
+    "output": "إِكس إِكس إِكسعرَيْ سِنُن إِكسترَ بُكس إِكسِت",
+    "roundTrip": "iks iks iks-raj sinun ikstra buks iksit",
+    "secondPass": "إِكس إِكس إِكسعرَيْ سِنُن إِكسترَ بُكس إِكسِت"
+  },
+  {
+    "id": "english/en2ar/0024",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "c C ce ci cy ca co cu ch school science",
+    "output": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ",
+    "roundTrip": "s s si si si ka ku ku tJ stJūl ssīnsi",
+    "secondPass": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ"
+  },
+  {
+    "id": "english/en2ar/0025",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "yellow yes happy sky rhythm my by toy boy",
+    "output": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ",
+    "roundTrip": "jilluv jis habbi ski rhithm mi bi tuj buj",
+    "secondPass": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ"
+  },
+  {
+    "id": "english/en2ar/0026",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "book moon food see green tree meet seed",
+    "output": "بُوك مُون فُود سِي جرِين ترِي مِيت سِيد",
+    "roundTrip": "būk mūn fūd sī Jrīn trī mīt sīd",
+    "secondPass": "بُوك مُون فُود سِي جرِين ترِي مِيت سِيد"
+  },
+  {
+    "id": "english/en2ar/0027",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "what where who wood wool wow new law",
+    "output": "وْهة وْهِرِ وْهُ وُود وُول وُوْ نِوْ لَوْ",
+    "roundTrip": "vhat vhiri vhu ūūd ūūl ūuv niv lav",
+    "secondPass": "وْهة وْهِرِ وْهُ ُوُود ُوُول ُوُوْ نِوْ لَوْ"
+  },
+  {
+    "id": "english/en2ar/0028",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "letter little coffee add success buzz miss hill",
+    "output": "لِتِّر لِتّلِ كُفِّي اَدّ سُكسِسّ بُزّ مِسّ هِلّ",
+    "roundTrip": "littir littli kuffī add suksiss buzz miss hill",
+    "secondPass": "لِتِّر لِتّلِ كُفِّي اَدّ سُكسِسّ بُزّ مِسّ هِلّ"
+  },
+  {
+    "id": "english/en2ar/0029",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "apple elephant ink orange umbrella",
+    "output": "اَبّلِ إِلِفَنت إِنك أُرَنجِ أُمبرِلَّ",
+    "roundTrip": "abbli ilifant ink uranJi umbrilla",
+    "secondPass": "اَبّلِ إِلِفَنت إِنك أُرَنجِ أُمبرِلَّ"
+  },
+  {
+    "id": "english/en2ar/0030",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "lowercase UPPERCASE MiXeD CaSe",
+    "output": "لُوِركَسِ أُبِّركَصِ مِكسِض كَصِ",
+    "roundTrip": "luvirkasi ubbirkaSi miksiD kaSi",
+    "secondPass": "لُوِركَسِ أُبِّركَصِ مِكسِض كَصِ"
+  },
+  {
+    "id": "english/en2ar/0031",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "pneumonia psychology philosophy photograph phone",
+    "output": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ",
+    "roundTrip": "bniumunia bsitJuluJi filusufi futuJraf funi",
+    "secondPass": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ"
+  }
+]

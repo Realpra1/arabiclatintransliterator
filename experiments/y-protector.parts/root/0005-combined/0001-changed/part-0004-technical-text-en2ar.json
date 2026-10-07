@@ -1,0 +1,25 @@
+[
+  {
+    "id": "technical-text/en2ar/0003",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "output": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "secondPass": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "before": {
+      "output": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+      "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+      "secondPass": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)"
+    },
+    "after": {
+      "output": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+      "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+      "secondPass": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

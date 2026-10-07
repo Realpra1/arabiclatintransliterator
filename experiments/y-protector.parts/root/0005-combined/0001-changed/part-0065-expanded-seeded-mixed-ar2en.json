@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0016",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "على — ٱلْبَيْتُ/🙂\n\nفي? الذي\n\nalSSabāH مسؤول — ā? اليوم, في/هو, هي? نحن — ماء من, شَمْسٌ? ليلى\n\nقارئ? الذي, مساءً? ",
+    "output": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? ",
+    "roundTrip": "على — اَلبَيْتُ/🙂\n\nفِي؟ اَلذِي\n\nاَلصَّباح مسؤُول — ا؟ اَلِيوْم، فِي/hُو، هِي؟ نحن — ماء من، شَمسٌ؟ لِيلى\n\nقارء؟ اَلذِي، مساأً؟ ",
+    "secondPass": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? ",
+    "before": {
+      "output": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? ",
+      "roundTrip": "على — اَلبَيْتُ/🙂\n\nفِي؟ اَلذِي\n\nاَلصَّباح مسؤُول — ا؟ اَلِيوْم، فِي/hُو، هِي؟ نحن — ماء من، شَمسٌ؟ لِيلى\n\nقارء؟ اَلذِي، مساأً؟ ",
+      "secondPass": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? "
+    },
+    "after": {
+      "output": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? ",
+      "roundTrip": "على — اَلبَيْتُ/🙂\n\nفِي؟ اَلذِي\n\nاَلصَّباح مسؤُول — ا؟ اَلِيوْم، فِي/هُو، هِي؟ نحن — ماء من، شَمسٌ؟ لِيلى\n\nقارء؟ اَلذِي، مساأً؟ ",
+      "secondPass": "-lá — albajtu/🙂\n\nfī? aldhī\n\nalSSabāH ms'ūl — ā? alīvm, fī/hū, hī? nHn — mā' mn, shamsuN? līlá\n\nqār'? aldhī, msā'aN? "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

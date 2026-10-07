@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0019",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+      "A1": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أمس\n\nأمس/نافذة — أحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+      "L2": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/",
+      "A2": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/نافذة — أَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+      "L3": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/",
+      "A3": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح اَمس\n\nاَمس/نافذة — اَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/"
+    }
+  }
+]

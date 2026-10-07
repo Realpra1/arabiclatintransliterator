@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-continuous-text/en2ar/0002",
+    "group": "expanded-continuous-text",
+    "direction": "en2ar",
+    "input": "At 8:30, I left my keys by the café door. 'Did you hear that?' asked May.\nA quiet yellow taxi passed the old school; three children waved.\n\nShopping: coffee, cheese, bread, apples. Total: €12.50.\nSend the receipt to ali@example.com, then write: shukraN!",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "At 8:30, I left my keys by the café door. 'Did you hear that?' asked May.\nA quiet yellow taxi passed the old school; three children waved.\n\nShopping: coffee, cheese, bread, apples. Total: €12.50.\nSend the receipt to ali@example.com, then write: shukraN!",
+      "A1": "ة 8:30، إِ لِفت مِ كِيْس بِ ثِ كَفé دُور. أضِد يُْو هَِر ثة؟ء اَسكِد مَيْ.\nاَ قُِيت يِلُّوْ تَكسِ بَسِّد ثِ أُلد ستجُول؛ ثرِي تجِلدرِن وَوِد.\n\nصهُبِّنج: كُفِّي، تجِيسِ، برَِد، اَبّلِس. طُتَل: €12.50.\nصِند ثِ رِسِيبت تُ اَلِ@إِكسَمبلِ.كُم، ثِن وْرِتِ: شُكرً!",
+      "L2": "at 8:30, i lift mi kijs bi thi kafé dūr. 'aDid jū hiar that?' askid maj.\na qujt jilluv taksi bassid thi uld stJūl; thrī tJildrin vavid.\n\nShubbinJ: kuffī, tJīsi, briad, abblis. Tutal: €12.50.\nSind thi risībt tu ali@'iksambli.kum, thin vriti: shukraN!",
+      "A2": "ة 8:30، إِ لِفت مِ كِيْس بِ ثِ كَفé دُور. أَضِد يُْو هَِر ثة؟ء اَسكِد مَيْ.\nاَ قُيْت يِلُّوْ تَكسِ بَسِّد ثِ أُلد ستجُول؛ ثرِي تجِلدرِن وَوِد.\n\nصهُبِّنج: كُفِّي، تجِيسِ، برَِد، اَبّلِس. طُتَل: €12.50.\nصِند ثِ رِسِيبت تُ اَلِ@إِكسَمبلِ.كُم، ثِن وْرِتِ: شُكرً!",
+      "L3": "at 8:30, i lift mi kijs bi thi kafé dūr. aDid jū hiar that?' askid maj.\na qujt jilluv taksi bassid thi uld stJūl; thrī tJildrin vavid.\n\nShubbinJ: kuffī, tJīsi, briad, abblis. Tutal: €12.50.\nSind thi risībt tu ali@'iksambli.kum, thin vriti: shukraN!",
+      "A3": "ة 8:30، إِ لِفت مِ كِيْس بِ ثِ كَفé دُور. اَضِد يُْو هَِر ثة؟ء اَسكِد مَيْ.\nاَ قُيْت يِلُّوْ تَكسِ بَسِّد ثِ أُلد ستجُول؛ ثرِي تجِلدرِن وَوِد.\n\nصهُبِّنج: كُفِّي، تجِيسِ، برَِد، اَبّلِس. طُتَل: €12.50.\nصِند ثِ رِسِيبت تُ اَلِ@إِكسَمبلِ.كُم، ثِن وْرِتِ: شُكرً!"
+    }
+  }
+]

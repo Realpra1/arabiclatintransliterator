@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-mixed-script/en2ar/0005",
+    "group": "expanded-mixed-script",
+    "direction": "en2ar",
+    "input": "email: علي@example.com / https://مثال.اختبار/path?q=ماء",
+    "output": "إِمَِل: علي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بةه؟q=ماء",
+    "roundTrip": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'",
+    "secondPass": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختباr/بةه؟q=mاء",
+    "before": {
+      "output": "إِمَِل: علي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بةه؟q=ماء",
+      "roundTrip": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'",
+      "secondPass": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختباr/بةه؟q=mاء"
+    },
+    "after": {
+      "output": "إِمَِل: علي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بةه؟q=ماء",
+      "roundTrip": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'",
+      "secondPass": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بةه؟q=ماء"
+    },
+    "stages": [
+      "secondPass"
+    ]
+  }
+]

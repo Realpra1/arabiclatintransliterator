@@ -1,0 +1,442 @@
+[
+  {
+    "direction": "en2ar",
+    "input": "at",
+    "before": {
+      "L1": "at",
+      "A1": "ة",
+      "L2": "at",
+      "A2": "ة",
+      "L3": "at",
+      "A3": "ة"
+    },
+    "after": {
+      "L1": "at",
+      "A1": "ة",
+      "L2": "at",
+      "A2": "ة",
+      "L3": "at",
+      "A3": "ة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat",
+    "before": {
+      "L1": "cat",
+      "A1": "كة",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    },
+    "after": {
+      "L1": "cat",
+      "A1": "كة",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "bat",
+    "before": {
+      "L1": "bat",
+      "A1": "بة",
+      "L2": "bat",
+      "A2": "بة",
+      "L3": "bat",
+      "A3": "بة"
+    },
+    "after": {
+      "L1": "bat",
+      "A1": "بة",
+      "L2": "bat",
+      "A2": "بة",
+      "L3": "bat",
+      "A3": "بة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "fat",
+    "before": {
+      "L1": "fat",
+      "A1": "فة",
+      "L2": "fat",
+      "A2": "فة",
+      "L3": "fat",
+      "A3": "فة"
+    },
+    "after": {
+      "L1": "fat",
+      "A1": "فة",
+      "L2": "fat",
+      "A2": "فة",
+      "L3": "fat",
+      "A3": "فة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "that",
+    "before": {
+      "L1": "that",
+      "A1": "ثة",
+      "L2": "that",
+      "A2": "ثة",
+      "L3": "that",
+      "A3": "ثة"
+    },
+    "after": {
+      "L1": "that",
+      "A1": "ثة",
+      "L2": "that",
+      "A2": "ثة",
+      "L3": "that",
+      "A3": "ثة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat.",
+    "before": {
+      "L1": "cat.",
+      "A1": "كة.",
+      "L2": "kat.",
+      "A2": "كة.",
+      "L3": "kat.",
+      "A3": "كة."
+    },
+    "after": {
+      "L1": "cat.",
+      "A1": "كة.",
+      "L2": "kat.",
+      "A2": "كة.",
+      "L3": "kat.",
+      "A3": "كة."
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "(cat)",
+    "before": {
+      "L1": "(cat)",
+      "A1": "(كة)",
+      "L2": "(kat)",
+      "A2": "(كة)",
+      "L3": "(kat)",
+      "A3": "(كة)"
+    },
+    "after": {
+      "L1": "(cat)",
+      "A1": "(كة)",
+      "L2": "(kat)",
+      "A2": "(كة)",
+      "L3": "(kat)",
+      "A3": "(كة)"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat/",
+    "before": {
+      "L1": "cat/",
+      "A1": "كة/",
+      "L2": "kat/",
+      "A2": "كة/",
+      "L3": "kat/",
+      "A3": "كة/"
+    },
+    "after": {
+      "L1": "cat/",
+      "A1": "كة/",
+      "L2": "kat/",
+      "A2": "كة/",
+      "L3": "kat/",
+      "A3": "كة/"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat+cat",
+    "before": {
+      "L1": "cat+cat",
+      "A1": "كة+كة",
+      "L2": "kat+kat",
+      "A2": "كة+كة",
+      "L3": "kat+kat",
+      "A3": "كة+كة"
+    },
+    "after": {
+      "L1": "cat+cat",
+      "A1": "كة+كة",
+      "L2": "kat+kat",
+      "A2": "كة+كة",
+      "L3": "kat+kat",
+      "A3": "كة+كة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat\ncat",
+    "before": {
+      "L1": "cat\ncat",
+      "A1": "كة\nكة",
+      "L2": "kat\nkat",
+      "A2": "كة\nكة",
+      "L3": "kat\nkat",
+      "A3": "كة\nكة"
+    },
+    "after": {
+      "L1": "cat\ncat",
+      "A1": "كة\nكة",
+      "L2": "kat\nkat",
+      "A2": "كة\nكة",
+      "L3": "kat\nkat",
+      "A3": "كة\nكة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catَ",
+    "before": {
+      "L1": "catَ",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كةَ",
+      "L3": "kata",
+      "A3": "كةَ"
+    },
+    "after": {
+      "L1": "catَ",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كَتَ",
+      "L3": "kata",
+      "A3": "كَتَ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catٌ",
+    "before": {
+      "L1": "catٌ",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كةٌ",
+      "L3": "katuN",
+      "A3": "كةٌ"
+    },
+    "after": {
+      "L1": "catٌ",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كَتٌ",
+      "L3": "katuN",
+      "A3": "كَتٌ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catْ",
+    "before": {
+      "L1": "catْ",
+      "A1": "كةْ",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    },
+    "after": {
+      "L1": "catْ",
+      "A1": "كةْ",
+      "L2": "kat",
+      "A2": "كة",
+      "L3": "kat",
+      "A3": "كة"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catَُ",
+    "before": {
+      "L1": "catَُ",
+      "A1": "كةَُ",
+      "L2": "katau",
+      "A2": "كةَُ",
+      "L3": "katau",
+      "A3": "كةَُ"
+    },
+    "after": {
+      "L1": "catَُ",
+      "A1": "كةَُ",
+      "L2": "katau",
+      "A2": "كَتَُ",
+      "L3": "katau",
+      "A3": "كَتَُ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat́",
+    "before": {
+      "L1": "cat́",
+      "A1": "كة́",
+      "L2": "kat́",
+      "A2": "كة́",
+      "L3": "kat́",
+      "A3": "كة́"
+    },
+    "after": {
+      "L1": "cat́",
+      "A1": "كة́",
+      "L2": "kat́",
+      "A2": "كة́",
+      "L3": "kat́",
+      "A3": "كة́"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catu",
+    "before": {
+      "L1": "catu",
+      "A1": "كةُ",
+      "L2": "katu",
+      "A2": "كةُ",
+      "L3": "katu",
+      "A3": "كةُ"
+    },
+    "after": {
+      "L1": "catu",
+      "A1": "كَتُ",
+      "L2": "katu",
+      "A2": "كَتُ",
+      "L3": "katu",
+      "A3": "كَتُ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cati",
+    "before": {
+      "L1": "cati",
+      "A1": "كةِ",
+      "L2": "kati",
+      "A2": "كةِ",
+      "L3": "kati",
+      "A3": "كةِ"
+    },
+    "after": {
+      "L1": "cati",
+      "A1": "كَتِ",
+      "L2": "kati",
+      "A2": "كَتِ",
+      "L3": "kati",
+      "A3": "كَتِ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cata",
+    "before": {
+      "L1": "cata",
+      "A1": "كةَ",
+      "L2": "kata",
+      "A2": "كةَ",
+      "L3": "kata",
+      "A3": "كةَ"
+    },
+    "after": {
+      "L1": "cata",
+      "A1": "كَتَ",
+      "L2": "kata",
+      "A2": "كَتَ",
+      "L3": "kata",
+      "A3": "كَتَ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catuN",
+    "before": {
+      "L1": "catuN",
+      "A1": "كةٌ",
+      "L2": "katuN",
+      "A2": "كةٌ",
+      "L3": "katuN",
+      "A3": "كةٌ"
+    },
+    "after": {
+      "L1": "catuN",
+      "A1": "كَتٌ",
+      "L2": "katuN",
+      "A2": "كَتٌ",
+      "L3": "katuN",
+      "A3": "كَتٌ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catiN",
+    "before": {
+      "L1": "catiN",
+      "A1": "كةٍ",
+      "L2": "katiN",
+      "A2": "كةٍ",
+      "L3": "katiN",
+      "A3": "كةٍ"
+    },
+    "after": {
+      "L1": "catiN",
+      "A1": "كَتٍ",
+      "L2": "katiN",
+      "A2": "كَتٍ",
+      "L3": "katiN",
+      "A3": "كَتٍ"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cataN",
+    "before": {
+      "L1": "cataN",
+      "A1": "كةً",
+      "L2": "kataN",
+      "A2": "كةً",
+      "L3": "kataN",
+      "A3": "كةً"
+    },
+    "after": {
+      "L1": "cataN",
+      "A1": "كَتً",
+      "L2": "kataN",
+      "A2": "كَتً",
+      "L3": "kataN",
+      "A3": "كَتً"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "catāN",
+    "before": {
+      "L1": "catāN",
+      "A1": "كةاً",
+      "L2": "katāN",
+      "A2": "كةاً",
+      "L3": "katāN",
+      "A3": "كةاً"
+    },
+    "after": {
+      "L1": "catāN",
+      "A1": "كَتاً",
+      "L2": "katāN",
+      "A2": "كَتاً",
+      "L3": "katāN",
+      "A3": "كَتاً"
+    }
+  }
+]

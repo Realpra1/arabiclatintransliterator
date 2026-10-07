@@ -1,0 +1,177 @@
+[
+  {
+    "id": "arabic-diacritics/ar2en/0421",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ءَ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ءَ",
+      "L1": "'a",
+      "A2": "أَ",
+      "L2": "a",
+      "A3": "اَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0424",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ءْ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ءْ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0438",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "أْ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أْ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0452",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "إْ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "إْ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0463",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ؤَ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ؤَ",
+      "L1": "'a",
+      "A2": "أَ",
+      "L2": "a",
+      "A3": "اَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0466",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ؤْ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ؤْ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0477",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ئَ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئَ",
+      "L1": "'a",
+      "A2": "أَ",
+      "L2": "a",
+      "A3": "اَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0480",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ئْ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئْ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0499",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "آَّ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "آَّ",
+      "L1": "'ā'āa",
+      "A2": "آأاَ",
+      "L2": "'ā'a",
+      "A3": "آأَ",
+      "L3": "'ā'a"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0500",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "آَّ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "آَّ",
+      "L1": "'ā'āa",
+      "A2": "آأاَ",
+      "L2": "'ā'a",
+      "A3": "آأَ",
+      "L3": "'ā'a"
+    }
+  }
+]

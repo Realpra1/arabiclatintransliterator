@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0041",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/coffee — كتاب/yellow — havā'? school — world? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/coffee — كتاب/yellow — havā'? school — world? ",
+      "L1": "havā', 'ams/satasma-\n\nnāfdhat? shāj\n\nHajj/ilá, h'lā'/fī\n\nnaHnu nHn\n\n-alá -alá\n\nh'lā'/coffee — ktāb/yellow — havā'? school — world? ",
+      "A2": "هَوْاء، أَمس/سَتَسمَع\n\nنافذة؟ شايْ\n\nحَيّ/إِلى، هءلاء/فِي\n\nنَحنُ نحن\n\nعَلى عَلى\n\nهءلاء/كُفِّي — كتاب/يِلُّوْ — هَوْاء؟ ستجُول — وُرلد؟ ",
+      "L2": "havā', ams/satasma-\n\nnāfdhat? shāj\n\nHajj/'ilá, h'lā'/fī\n\nnaHnu nHn\n\n-alá -alá\n\nh'lā'/kuffī — ktāb/jilluv — havā'? stJūl — vurld? ",
+      "A3": "هَوْاء، اَمس/سَتَسمَع\n\nنافذة؟ شايْ\n\nحَيّ/إِلى، هءلاء/فِي\n\nنَحنُ نحن\n\nعَلى عَلى\n\nهءلاء/كُفِّي — كتاب/يِلُّوْ — هَوْاء؟ ستجُول — وُرلد؟ ",
+      "L3": "havā', ams/satasma-\n\nnāfdhat? shāj\n\nHajj/'ilá, h'lā'/fī\n\nnaHnu nHn\n\n-alá -alá\n\nh'lā'/kuffī — ktāb/jilluv — havā'? stJūl — vurld? "
+    }
+  }
+]

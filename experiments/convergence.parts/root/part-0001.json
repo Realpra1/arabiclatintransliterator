@@ -1,0 +1,325 @@
+{
+  "description": "One round trip is source → other script → source. Round 0 is the original input. stableAfterRoundTrips identifies the first source state that repeats unchanged on the next round trip. A period greater than one proves nonconvergence. A resource limit is inconclusive, not proof of nonconvergence.",
+  "maxRounds": 200,
+  "maxLength": 100000,
+  "sourceSha256": {
+    "constants.js": "dd7cc34d8ae93c4a0b98df808e1a91e59a8e8a54f5094dea3cd69f5e69cdf3e8",
+    "translator-core-utils.js": "271b9dd10132afbda5db1f33d693437bcd4144ead5071f838b2529fa89afcd2c",
+    "latin-normalizer.js": "583497a5dfb33928d16e5f9dac2304bf789e1e4b6c4cd3330d239e0189b58d07",
+    "translator-ar2en.js": "69232c8a89c4673af9a657388058fd55a1d23b94138ba94656be103e9fe58f9f",
+    "translator-en2ar.js": "1e68205f8e2bf45b57371796e5521adea5996fb4e970d929255f17839c889bf1",
+    "translator.js": "63b65f8b3c206682102fe5d0ce1b6ee345a4001d13333ecbc8546e09331c791c"
+  },
+  "summary": {
+    "inputCases": 5511,
+    "stable": 5511,
+    "cycles": 0,
+    "unresolved": 0,
+    "longestStableAfterRoundTrips": 4,
+    "longestCaseCount": 4,
+    "longestStablePairReachedAtConversion": 9,
+    "stableAfterRoundTripsDistribution": {
+      "0": 3020,
+      "1": 2107,
+      "2": 299,
+      "3": 81,
+      "4": 4
+    }
+  },
+  "longest": [
+    {
+      "id": "alias-runs/en2ar/0045",
+      "group": "alias-runs",
+      "direction": "en2ar",
+      "input": "aeeeeeee",
+      "status": "stable",
+      "stableAfterRoundTrips": 4,
+      "confirmedAtRoundTrip": 5,
+      "finalFormFirstAtStep": {
+        "Latin": 8,
+        "Arabic": 9
+      },
+      "stablePairReachedAtConversion": 9,
+      "trace": [
+        {
+          "step": 0,
+          "language": "Latin",
+          "text": "aeeeeeee"
+        },
+        {
+          "step": 1,
+          "language": "Arabic",
+          "text": "اَِيِيِيِي"
+        },
+        {
+          "step": 2,
+          "language": "Latin",
+          "text": "aīīīj"
+        },
+        {
+          "step": 3,
+          "language": "Arabic",
+          "text": "اَِيِيِييْ"
+        },
+        {
+          "step": 4,
+          "language": "Latin",
+          "text": "aīījj"
+        },
+        {
+          "step": 5,
+          "language": "Arabic",
+          "text": "اَِيِييّ"
+        },
+        {
+          "step": 6,
+          "language": "Latin",
+          "text": "aījjj"
+        },
+        {
+          "step": 7,
+          "language": "Arabic",
+          "text": "اَِييّيْ"
+        },
+        {
+          "step": 8,
+          "language": "Latin",
+          "text": "ajjjj"
+        },
+        {
+          "step": 9,
+          "language": "Arabic",
+          "text": "اَيّيّ"
+        },
+        {
+          "step": 10,
+          "language": "Latin",
+          "text": "ajjjj"
+        }
+      ]
+    },
+    {
+      "id": "alias-runs/en2ar/0048",
+      "group": "alias-runs",
+      "direction": "en2ar",
+      "input": "aeeeeeeee",
+      "status": "stable",
+      "stableAfterRoundTrips": 4,
+      "confirmedAtRoundTrip": 5,
+      "finalFormFirstAtStep": {
+        "Latin": 8,
+        "Arabic": 9
+      },
+      "stablePairReachedAtConversion": 9,
+      "trace": [
+        {
+          "step": 0,
+          "language": "Latin",
+          "text": "aeeeeeeee"
+        },
+        {
+          "step": 1,
+          "language": "Arabic",
+          "text": "اَِيِيِيِي"
+        },
+        {
+          "step": 2,
+          "language": "Latin",
+          "text": "aīīīj"
+        },
+        {
+          "step": 3,
+          "language": "Arabic",
+          "text": "اَِيِيِييْ"
+        },
+        {
+          "step": 4,
+          "language": "Latin",
+          "text": "aīījj"
+        },
+        {
+          "step": 5,
+          "language": "Arabic",
+          "text": "اَِيِييّ"
+        },
+        {
+          "step": 6,
+          "language": "Latin",
+          "text": "aījjj"
+        },
+        {
+          "step": 7,
+          "language": "Arabic",
+          "text": "اَِييّيْ"
+        },
+        {
+          "step": 8,
+          "language": "Latin",
+          "text": "ajjjj"
+        },
+        {
+          "step": 9,
+          "language": "Arabic",
+          "text": "اَيّيّ"
+        },
+        {
+          "step": 10,
+          "language": "Latin",
+          "text": "ajjjj"
+        }
+      ]
+    },
+    {
+      "id": "alias-runs/en2ar/0069",
+      "group": "alias-runs",
+      "direction": "en2ar",
+      "input": "aiiiiiii",
+      "status": "stable",
+      "stableAfterRoundTrips": 4,
+      "confirmedAtRoundTrip": 5,
+      "finalFormFirstAtStep": {
+        "Latin": 8,
+        "Arabic": 9
+      },
+      "stablePairReachedAtConversion": 9,
+      "trace": [
+        {
+          "step": 0,
+          "language": "Latin",
+          "text": "aiiiiiii"
+        },
+        {
+          "step": 1,
+          "language": "Arabic",
+          "text": "اَِيِيِيِي"
+        },
+        {
+          "step": 2,
+          "language": "Latin",
+          "text": "aīīīj"
+        },
+        {
+          "step": 3,
+          "language": "Arabic",
+          "text": "اَِيِيِييْ"
+        },
+        {
+          "step": 4,
+          "language": "Latin",
+          "text": "aīījj"
+        },
+        {
+          "step": 5,
+          "language": "Arabic",
+          "text": "اَِيِييّ"
+        },
+        {
+          "step": 6,
+          "language": "Latin",
+          "text": "aījjj"
+        },
+        {
+          "step": 7,
+          "language": "Arabic",
+          "text": "اَِييّيْ"
+        },
+        {
+          "step": 8,
+          "language": "Latin",
+          "text": "ajjjj"
+        },
+        {
+          "step": 9,
+          "language": "Arabic",
+          "text": "اَيّيّ"
+        },
+        {
+          "step": 10,
+          "language": "Latin",
+          "text": "ajjjj"
+        }
+      ]
+    },
+    {
+      "id": "alias-runs/en2ar/0072",
+      "group": "alias-runs",
+      "direction": "en2ar",
+      "input": "aiiiiiiii",
+      "status": "stable",
+      "stableAfterRoundTrips": 4,
+      "confirmedAtRoundTrip": 5,
+      "finalFormFirstAtStep": {
+        "Latin": 8,
+        "Arabic": 9
+      },
+      "stablePairReachedAtConversion": 9,
+      "trace": [
+        {
+          "step": 0,
+          "language": "Latin",
+          "text": "aiiiiiiii"
+        },
+        {
+          "step": 1,
+          "language": "Arabic",
+          "text": "اَِيِيِيِي"
+        },
+        {
+          "step": 2,
+          "language": "Latin",
+          "text": "aīīīj"
+        },
+        {
+          "step": 3,
+          "language": "Arabic",
+          "text": "اَِيِيِييْ"
+        },
+        {
+          "step": 4,
+          "language": "Latin",
+          "text": "aīījj"
+        },
+        {
+          "step": 5,
+          "language": "Arabic",
+          "text": "اَِيِييّ"
+        },
+        {
+          "step": 6,
+          "language": "Latin",
+          "text": "aījjj"
+        },
+        {
+          "step": 7,
+          "language": "Arabic",
+          "text": "اَِييّيْ"
+        },
+        {
+          "step": 8,
+          "language": "Latin",
+          "text": "ajjjj"
+        },
+        {
+          "step": 9,
+          "language": "Arabic",
+          "text": "اَيّيّ"
+        },
+        {
+          "step": 10,
+          "language": "Latin",
+          "text": "ajjjj"
+        }
+      ]
+    }
+  ],
+  "cycles": [],
+  "unresolved": [],
+  "stressProbes": {
+    "$jsonModules": "arabiclatin/v1",
+    "kind": "array",
+    "parts": [
+      "convergence.parts/root/0008-stressProbes/part-0001.json",
+      "convergence.parts/root/0008-stressProbes/part-0002.json"
+    ]
+  }
+}

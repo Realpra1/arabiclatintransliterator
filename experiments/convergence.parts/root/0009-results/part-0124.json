@@ -1,0 +1,446 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0078",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0079",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0080",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0081",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0082",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0083",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0084",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0085",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0086",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0087",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0088",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0089",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0090",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0091",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0092",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0093",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0094",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0095",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0096",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0097",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0098",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0099",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0100",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0101",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0102",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0103",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0104",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0105",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0106",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0107",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0108",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0109",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0110",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0111",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0112",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0113",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0114",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0001",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+    "output": "n-m — qhūat/ālīvm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', 'ams school — school? shamsuN, na-am/hello — stsm- SbāHaNā — mn ",
+    "roundTrip": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِيثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+    "secondPass": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhīthm? á\n\n🙂 mā', ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn ",
+    "before": {
+      "output": "n-m — qhūat/ālīvm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', 'ams school — school? shamsuN, na-am/hello — stsm- SbāHaNā — mn ",
+      "roundTrip": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِيثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+      "secondPass": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhīthm? á\n\n🙂 mā', ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn "
+    },
+    "after": {
+      "output": "n-m — qhūat/ālīvm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', 'ams school — school? shamsuN, na-am/hello — stsm- SbāHaNā — mn ",
+      "roundTrip": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+      "secondPass": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhithm? á\n\n🙂 mā', ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

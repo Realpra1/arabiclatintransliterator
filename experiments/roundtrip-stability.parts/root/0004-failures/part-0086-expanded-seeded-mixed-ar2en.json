@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0054",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — coffee anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — coffee anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj ",
+      "L1": "'ilá, h'lā' marHaba, min 'anā\n\nfī satasma-, l'n shaj' — coffee anā\n\nmā'? ‍ — 'ant qār' — madrasat ktāb, 🙂/aN — shāj ",
+      "A2": "إِلى، هءلاء مَرحَبَ، مِن أَنا\n\nفِي سَتَسمَع، لأن شَيْء — كُفِّي اَنا\n\nماء؟ ‍ — أَنت قارء — مَدرَسة كتاب، 🙂/ً — شايْ ",
+      "L2": "ilá, h'lā' marHaba, min anā\n\nfī satasma-, l'n shaj' — kuffī anā\n\nmā'? ‍ — ant qār' — madrasat ktāb, 🙂/aN — shāj ",
+      "A3": "إِلى، هءلاء مَرحَبَ، مِن اَنا\n\nفِي سَتَسمَع، لأن شَيْء — كُفِّي اَنا\n\nماء؟ ‍ — اَنت قارء — مَدرَسة كتاب، 🙂/ً — شايْ ",
+      "L3": "ilá, h'lā' marHaba, min anā\n\nfī satasma-, l'n shaj' — kuffī anā\n\nmā'? ‍ — ant qār' — madrasat ktāb, 🙂/aN — shāj "
+    }
+  }
+]

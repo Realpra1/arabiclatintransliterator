@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0021",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmy ",
+    "output": "قُوَّ — نحن عائشة\n\nلا نافذة — ١٢؟ هؤلاء، سُؤال؟ الذي — في/‍ — شَمْسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِ ",
+    "roundTrip": "quvva — nHn -ā'shat\n\nlā nāfdhat — ١٢? h'lā', su'āl? aldhī — fī/‍ — shamsuN? alSSabāH, marHaba? nāfdhat\n\nSūt? ghdaNā, quvva? marHaba\n\nmi ",
+    "secondPass": "قُوَّ — نحن عاءشة\n\nلا نافذة — ١٢؟ هءلاء، سُؤال؟ اَلذِي — فِي/‍ — شَمسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصُوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِ "
+  }
+]

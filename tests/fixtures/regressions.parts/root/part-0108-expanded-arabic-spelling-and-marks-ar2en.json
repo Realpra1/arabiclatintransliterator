@@ -1,0 +1,209 @@
+[
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0001",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "مسؤول مسئول مسؤولية مسئولية",
+    "output": "ms'ūl ms'ūl ms'ūlīat ms'ūlīat",
+    "roundTrip": "مسؤُول مسؤُول مسؤُولِية مسؤُولِية",
+    "secondPass": "ms'ūl ms'ūl ms'ūlīat ms'ūlīat"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0002",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "رؤية رؤيا رأي آراء",
+    "output": "r'īat r'jā r'ī 'ārā'",
+    "roundTrip": "رئِية رءيْا رئِي آراء",
+    "secondPass": "r'īat r'jā r'ī 'ārā'"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0003",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "قراءة قارئ قرأ يقرأ",
+    "output": "qrā'at qār' qr' īqr'",
+    "roundTrip": "قراءة قارء قرء ِيقرئ",
+    "secondPass": "qrā'at qār' qr' īqr'"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0004",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "شيء شيئ شيئا شيئًا شيءٌ",
+    "output": "shī' shī' shī'ā shī'aNā shī'uN",
+    "roundTrip": "شِيئ شِيئ شِيئا شِيئًا شِيئٌ",
+    "secondPass": "shī' shī' shī'ā shī'aNā shī'uN"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0005",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "ماء ماءً ماءٌ مياه",
+    "output": "mā' mā'aN mā'uN mjāh",
+    "roundTrip": "ماء ماأً ماؤٌ ميْاه",
+    "secondPass": "mā' mā'aN mā'uN mjāh"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0006",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "مئة مائة مائتان مئتان",
+    "output": "m'at mā'at mā'tān m'tān",
+    "roundTrip": "مءة ماءة ماءتان مءتان",
+    "secondPass": "m'at mā'at mā'tān m'tān"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0007",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "هدى هدي هديّ هُدًى",
+    "output": "hdá hdī hdjj hudaNá",
+    "roundTrip": "هدى هدِي هديّ هُدًى",
+    "secondPass": "hdá hdī hdjj hudaNá"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0008",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "رحمة رحمت رحمه",
+    "output": "rHmat rHmt rHmh",
+    "roundTrip": "رحمة رحمت رحمه",
+    "secondPass": "rHmat rHmt rHmh"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0009",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "على علي عليّ عَلِيّ عَلَى",
+    "output": "-lá -lī -ljj -alijj -alaá",
+    "roundTrip": "على علِي عليّ عَلِيّ عَلَى",
+    "secondPass": "-lá -lī -ljj -alijj -alaá"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0010",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "وعد وُعد وْعد ووعد وّعد",
+    "output": "v-d vu-d v-d vū-d vv-d",
+    "roundTrip": "وْعد وُعد وْعد وُوعد وّعد",
+    "secondPass": "v-d vu-d v-d ūū-d vv-d"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0011",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "يعد يَعِد يْعد ييعد يّعد",
+    "output": "ī-d ja-id j-d īj-d jj-d",
+    "roundTrip": "ِيعد يَعِد يْعد ِييْعد يّعد",
+    "secondPass": "ī-d ja-id j-d īj-d jj-d"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0012",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "بَّ بِّ بُّ بًّ بًّ بٍّ بٍّ بٌّ بٌّ بّْ بّْ",
+    "output": "bba bbi bbu bbaN baNb bbiN biNb bbuN buNb bb bb",
+    "roundTrip": "بَّ بِّ بُّ بًّ بًب بٍّ بٍب بٌّ بٌب بّ بّ",
+    "secondPass": "bba bbi bbu bbaN baNb bbiN biNb bbuN buNb bb bb"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0013",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "َّب َُِب بَُِ بّّ بْْ بًٌٍ",
+    "output": "ab aiub baiu bbb b baNiNuN",
+    "roundTrip": "اَب اَُِب بَُِ بّب ب بًٌٍ",
+    "secondPass": "ab aiub baiu bbb b baNiNuN"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0014",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "َ ِ ُ ّ ْ ً ٍ ٌ ٰ",
+    "output": "a i u    aN iN uN ā",
+    "roundTrip": "اَ إِ أُ    ً ٍ ٌ ا",
+    "secondPass": "a i u    aN iN uN ā"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0015",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "بَـّ بّـَ بُـو بِـي بَـا",
+    "output": "bab bba buv bij baā",
+    "roundTrip": "بَب بَّ بُوْ بِيْ بَا",
+    "secondPass": "bab bba buv bij bā"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0016",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "وُو وُوُ وُوّ وُوُّ يِي يِيِ يِيّ يِيِّ",
+    "output": "ūū ūvu ūuvv ūūvu īj īji īijj īijji",
+    "roundTrip": "ُوُو ُووُ ُوُوّ ُوُووُ ِييْ ِييِ ِيِيّ ِيِيِّ",
+    "secondPass": "ūū ūvu ūuvv ūūvu īj īji īijj īijji"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0017",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "أ إ آ أ إ آ ؤ ؤ ئ ئ",
+    "output": "'a 'i 'ā āٔ āٕ āٓ ' vٔ ' īٔ",
+    "roundTrip": "أَ إِ آ أ إ آ أ ؤْ أ ِئ",
+    "secondPass": "a i 'ā āٔ āٕ āٓ 'a vٔ 'a īٔ"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0018",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "ﷲ الله اللّٰه اللَّه ٱللَّه",
+    "output": "ﷲ allh alllāh alllah alllah",
+    "roundTrip": "ﷲ اَلّه اَلّلاه اَلّلَه اَلّلَه",
+    "secondPass": "ﷲ allh alllāh alllah alllah"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0019",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "ﻻ ﻷ ﻹ ﻵ لا لأ لإ لآ",
+    "output": "ﻻ ﻷ ﻹ ﻵ lā l' l' l'ā",
+    "roundTrip": "ﻻ ﻷ ﻹ ﻵ لا لأ لأ لآ",
+    "secondPass": "ﻻ ﻷ ﻹ ﻵ lā l' l' l'ā"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0020",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "ﻣﺮﺣﺒﺎ مرحبا",
+    "output": "ﻣﺮﺣﺒﺎ mrHbā",
+    "roundTrip": "ﻣﺮﺣﺒﺎ مرحبا",
+    "secondPass": "ﻣﺮﺣﺒﺎ mrHbā"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0021",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "پ چ ژ گ ڤ ک ی ے ہ ھ ں",
+    "output": "پ چ ژ گ ڤ ک ی ے ہ ھ ں",
+    "roundTrip": "پ چ ژ گ ڤ ک ی ے ہ ھ ں",
+    "secondPass": "پ چ ژ گ ڤ ک ی ے ہ ھ ں"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0022",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "۞ بِسْمِ ٱللَّهِ ۝ ۩",
+    "output": "۞ bismi alllahi ۝ ۩",
+    "roundTrip": "۞ بِسمِ اَلّلَهِ ۝ ۩",
+    "secondPass": "۞ bismi alllahi ۝ ۩"
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0023",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "بؐتؑثٖجۖح",
+    "output": "bؐtؑthٖJۖH",
+    "roundTrip": "بؐتؑثٖجۖح",
+    "secondPass": "bؐtؑthٖJۖH"
+  }
+]

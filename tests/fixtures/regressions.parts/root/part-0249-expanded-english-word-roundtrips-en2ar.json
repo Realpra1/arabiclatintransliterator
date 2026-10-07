@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0099",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "fix",
+    "output": "فِكس",
+    "roundTrip": "fiks",
+    "secondPass": "فِكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0100",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "mixture",
+    "output": "مِكستُرِ",
+    "roundTrip": "miksturi",
+    "secondPass": "مِكستُرِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0101",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yes",
+    "output": "يِس",
+    "roundTrip": "jis",
+    "secondPass": "يِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0102",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yellow",
+    "output": "يِلُّوْ",
+    "roundTrip": "jilluv",
+    "secondPass": "يِلُّوْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0103",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "young",
+    "output": "يُْونج",
+    "roundTrip": "jūnJ",
+    "secondPass": "يُْونج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0104",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yacht",
+    "output": "يَتجت",
+    "roundTrip": "jatJt",
+    "secondPass": "يَتجت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0105",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "year",
+    "output": "يَِر",
+    "roundTrip": "jiar",
+    "secondPass": "يَِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0106",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yield",
+    "output": "يِْيلد",
+    "roundTrip": "jīld",
+    "secondPass": "يِْيلد"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0107",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yesterday",
+    "output": "يِستِردَيْ",
+    "roundTrip": "jistirdaj",
+    "secondPass": "يِستِردَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0108",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "yet",
+    "output": "يِت",
+    "roundTrip": "jit",
+    "secondPass": "يِت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0109",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "my",
+    "output": "مِ",
+    "roundTrip": "mi",
+    "secondPass": "مِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0110",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "by",
+    "output": "بِ",
+    "roundTrip": "bi",
+    "secondPass": "بِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0111",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "sky",
+    "output": "سكِ",
+    "roundTrip": "ski",
+    "secondPass": "سكِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0112",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "try",
+    "output": "ترِ",
+    "roundTrip": "tri",
+    "secondPass": "ترِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0113",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cry",
+    "output": "كرِ",
+    "roundTrip": "kri",
+    "secondPass": "كرِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0114",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "dry",
+    "output": "درِ",
+    "roundTrip": "dri",
+    "secondPass": "درِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0115",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "fly",
+    "output": "فلِ",
+    "roundTrip": "fli",
+    "secondPass": "فلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0116",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "why",
+    "output": "وْهِ",
+    "roundTrip": "vhi",
+    "secondPass": "وْهِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0117",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "shy",
+    "output": "شِ",
+    "roundTrip": "shi",
+    "secondPass": "شِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0118",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "rhythm",
+    "output": "رهِثم",
+    "roundTrip": "rhithm",
+    "secondPass": "رهِثم"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0119",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "happy",
+    "output": "هَبِّ",
+    "roundTrip": "habbi",
+    "secondPass": "هَبِّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0120",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "baby",
+    "output": "بَبِ",
+    "roundTrip": "babi",
+    "secondPass": "بَبِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0121",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "family",
+    "output": "فَمِلِ",
+    "roundTrip": "famili",
+    "secondPass": "فَمِلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0122",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "story",
+    "output": "ستُرِ",
+    "roundTrip": "sturi",
+    "secondPass": "ستُرِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0123",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "mystery",
+    "output": "مِستِرِ",
+    "roundTrip": "mistiri",
+    "secondPass": "مِستِرِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0124",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "symbol",
+    "output": "سِمبُل",
+    "roundTrip": "simbul",
+    "secondPass": "سِمبُل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0125",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "system",
+    "output": "سِستِم",
+    "roundTrip": "sistim",
+    "secondPass": "سِستِم"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0126",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "boy",
+    "output": "بُيْ",
+    "roundTrip": "buj",
+    "secondPass": "بُيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0127",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "toy",
+    "output": "تُيْ",
+    "roundTrip": "tuj",
+    "secondPass": "تُيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0128",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "day",
+    "output": "دَيْ",
+    "roundTrip": "daj",
+    "secondPass": "دَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0129",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "say",
+    "output": "سَيْ",
+    "roundTrip": "saj",
+    "secondPass": "سَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0130",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "way",
+    "output": "وَيْ",
+    "roundTrip": "vaj",
+    "secondPass": "وَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0131",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "key",
+    "output": "كِيْ",
+    "roundTrip": "kij",
+    "secondPass": "كِيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0132",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "buy",
+    "output": "بُيْ",
+    "roundTrip": "buj",
+    "secondPass": "بُيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0133",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "eye",
+    "output": "إِيِ",
+    "roundTrip": "ji",
+    "secondPass": "يِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0134",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "layer",
+    "output": "لَيِر",
+    "roundTrip": "lajir",
+    "secondPass": "لَيِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0135",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "player",
+    "output": "بلَيِر",
+    "roundTrip": "blajir",
+    "secondPass": "بلَيِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0136",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "phone",
+    "output": "فُنِ",
+    "roundTrip": "funi",
+    "secondPass": "فُنِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0137",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "photo",
+    "output": "فُتُ",
+    "roundTrip": "futu",
+    "secondPass": "فُتُ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0138",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "photograph",
+    "output": "فُتُجرَف",
+    "roundTrip": "futuJraf",
+    "secondPass": "فُتُجرَف"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0139",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "philosophy",
+    "output": "فِلُسُفِ",
+    "roundTrip": "filusufi",
+    "secondPass": "فِلُسُفِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0140",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "physics",
+    "output": "فِسِكس",
+    "roundTrip": "fisiks",
+    "secondPass": "فِسِكس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0141",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "graph",
+    "output": "جرَف",
+    "roundTrip": "Jraf",
+    "secondPass": "جرَف"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0142",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "elephant",
+    "output": "إِلِفَنت",
+    "roundTrip": "ilifant",
+    "secondPass": "إِلِفَنت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0143",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "ship",
+    "output": "شِب",
+    "roundTrip": "shib",
+    "secondPass": "شِب"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0144",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "sheep",
+    "output": "شِيب",
+    "roundTrip": "shīb",
+    "secondPass": "شِيب"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0145",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "fish",
+    "output": "فِش",
+    "roundTrip": "fish",
+    "secondPass": "فِش"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0146",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "dish",
+    "output": "دِش",
+    "roundTrip": "dish",
+    "secondPass": "دِش"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0147",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "fashion",
+    "output": "فَشُِن",
+    "roundTrip": "fashiun",
+    "secondPass": "فَشُِن"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0043",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "على — غدًا/هؤلاء — أنا? world — لأن? ٱلْبَيْتُ\n\nwith? rhythm\n\nshaj'? حَيّ\n\nqueue? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "على — غدًا/هؤلاء — أنا? world — لأن? ٱلْبَيْتُ\n\nwith? rhythm\n\nshaj'? حَيّ\n\nqueue? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+      "L1": "-lá — ghdaNā/h'lā' — 'anā? world — l'n? albajtu\n\nwith? rhythm\n\nshaj'? Hajj\n\nqueue? qār'\n\nwith? madrasat, qahva? 'aHmd, 'aHmd 42, shāj/",
+      "A2": "على — غدًا/hألاء — أَنا؟ وُرلد — لأن؟ اَلبَيْتُ\n\nوِث؟ رهِثم\n\nشَيْء؟ حَيّ\n\nقُُِِ؟ قارء\n\nوِث؟ مَدرَسة، قَهوَ؟ أَحمد، أَحمد 42، شايْ/",
+      "L2": "-lá — ghdaNā/h'lā' — anā? vurld — l'n? albajtu\n\nvith? rhithm\n\nshaj'? Hajj\n\nquiui? qār'\n\nvith? madrasat, qahva? aHmd, aHmd 42, shāj/",
+      "A3": "على — غدًا/hألاء — اَنا؟ وُرلد — لأن؟ اَلبَيْتُ\n\nوِث؟ رهِثم\n\nشَيْء؟ حَيّ\n\nقُُِِ؟ قارء\n\nوِث؟ مَدرَسة، قَهوَ؟ اَحمد، اَحمد 42، شايْ/",
+      "L3": "-lá — ghdaNā/h'lā' — anā? vurld — l'n? albajtu\n\nvith? rhithm\n\nshaj'? Hajj\n\nquiui? qār'\n\nvith? madrasat, qahva? aHmd, aHmd 42, shāj/"
+    }
+  }
+]

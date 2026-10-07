@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0060",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/coffee, uN alSawt, hello هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? ",
+    "output": "Hajj, aHmad? quvva\n\nghadaN alSSabāH — 'ant? albajtu, min? na-am\n\nnāfdhat/coffee, uN alSawt, hello h'lā'\n\nHajj? shaj'\n\nqār'? na-am — marHaba? ",
+    "roundTrip": "حَيّ، اَحمَد؟ قُوَّ\n\nغَدً اَلصَّباح — أَنت؟ اَلبَيْتُ، مِن؟ نَعَم\n\nنافذة/كُفِّي، ٌ اَلصَوْت، هِلُّ هءلاء\n\nحَيّ؟ شَيْء\n\nقارء؟ نَعَم — مَرحَبَ؟ ",
+    "secondPass": "Hajj, aHmad? quvva\n\nghadaN alSSabāH — ant? albajtu, min? na-am\n\nnāfdhat/kuffī, uN alSavt, hillu h'lā'\n\nHajj? shaj'\n\nqār'? na-am — marHaba? "
+  }
+]

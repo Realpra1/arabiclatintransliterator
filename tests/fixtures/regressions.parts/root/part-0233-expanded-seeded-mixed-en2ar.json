@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0054",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — coffee anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj ",
+    "output": "إلى، هؤلاء مَرحَبَ، مِن أنا\n\nفِي سَتَسمَع، لأن شَيْء — كُفِّي اَنا\n\nماء؟ ‍ — أنت قارئ — مَدرَسة كتاب، 🙂/ً — شايْ ",
+    "roundTrip": "'ilá, h'lā' marHaba, min 'anā\n\nfī satasma-, l'n shaj' — kuffī anā\n\nmā'? ‍ — 'ant qār' — madrasat ktāb, 🙂/aN — shāj ",
+    "secondPass": "إِلى، هءلاء مَرحَبَ، مِن أَنا\n\nفِي سَتَسمَع، لأن شَيْء — كُفِّي اَنا\n\nماء؟ ‍ — أَنت قارء — مَدرَسة كتاب، 🙂/ً — شايْ "
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0007",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "output": "نَحنُ، أمس؟ 42 — نافذة بِ\n\nا أحمد، اَحمَد/وُرلد — أمس؟ هو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفي؟ ",
+    "roundTrip": "naHnu, 'ams? 42 — nāfdhat bi\n\nā 'aHmd, aHmad/vurld — 'ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? ",
+    "secondPass": "نَحنُ، أَمس؟ 42 — نافذة بِ\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ "
+  }
+]

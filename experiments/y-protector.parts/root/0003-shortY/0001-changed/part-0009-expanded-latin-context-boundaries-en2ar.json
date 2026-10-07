@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0163",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "aly",
+    "output": "اَلِي",
+    "roundTrip": "alī",
+    "secondPass": "اَلِي",
+    "before": {
+      "output": "اَلِي",
+      "roundTrip": "alī",
+      "secondPass": "اَلِي"
+    },
+    "after": {
+      "output": "اَلِ",
+      "roundTrip": "ali",
+      "secondPass": "اَلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

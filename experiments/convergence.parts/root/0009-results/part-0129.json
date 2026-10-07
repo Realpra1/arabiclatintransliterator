@@ -1,0 +1,446 @@
+[
+  {
+    "id": "expanded-seeded-fragments/ar2en/0023",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0024",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0025",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0026",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0028",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0030",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0031",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0032",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0033",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0034",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0035",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0037",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0038",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0039",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0041",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0042",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 2,
+    "confirmedAtRoundTrip": 3,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 4
+    },
+    "stablePairReachedAtConversion": 4
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0044",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0045",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0046",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0047",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0049",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0050",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0051",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0052",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0053",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0054",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 3,
+    "confirmedAtRoundTrip": 4,
+    "finalFormFirstAtStep": {
+      "Latin": 5,
+      "Arabic": 6
+    },
+    "stablePairReachedAtConversion": 6
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0056",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0057",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0058",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0059",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0045",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+    "output": "alSawt, shamsuN/hdhh — mdrsat aHmad, city? ghdaNā — alSSabāH? qahva\n\nghadaN alSawt\n\nSbāHaNā? city\n\nSbāHaNā/āldhī — ghadaN yellow\n\n'ilá? ktāb\n\nrhythm/",
+    "roundTrip": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِثم/",
+    "secondPass": "alSavt, shamsuN/hdhh — mdrsat aHmad, siti? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? siti\n\nSbāHaNā/āldhī — ghadaN jilluv\n\nilá? ktāb\n\nrhithm/"
+  }
+]

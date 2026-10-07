@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0022",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "quvva\n\nعائشة with\n\nفي/lā\n\nمحمد? lajla, مسؤول? غدًا, anta/qahva\n\nنعم/aHmad, ā ستسمع, á/على, su'āl? ماء, naHnu? ",
+    "output": "quvva\n\n-ā'shat with\n\nfī/lā\n\nmHmd? lajla, ms'ūl? ghdaNā, anta/qahva\n\nn-m/aHmad, ā stsm-, á/-lá, su'āl? mā', naHnu? ",
+    "roundTrip": "قُوَّ\n\nعاءشة وِث\n\nفِي/لا\n\nمحمد؟ لَيْلَ، مسؤُول؟ غدًا، اَنتَ/قَهوَ\n\nنعm/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ ",
+    "secondPass": "quvva\n\n-ā'shat vith\n\nfī/lā\n\nmHmd? lajla, ms'ūl? ghdaNā, anta/qahva\n\nn-m/aHmad, ā stsm-, á/-lá, su'āl? mā', naHnu? "
+  }
+]

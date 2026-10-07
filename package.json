@@ -10,7 +10,9 @@
     "report:stability": "node scripts/report-roundtrip-stability.mjs",
     "baseline:update": "node scripts/capture-baseline.mjs --accept-current-behavior",
     "report:notation": "node scripts/report-notation-stability.mjs",
-    "test:browser": "node scripts/check-browser.cjs"
+    "test:browser": "node scripts/check-browser.cjs",
+    "check:files": "node scripts/check-file-length.mjs",
+    "report:failure-kinds": "node scripts/report-failure-kinds.mjs"
   },
   "engines": {
     "node": ">=20"

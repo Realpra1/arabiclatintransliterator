@@ -1,0 +1,446 @@
+[
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0244",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0245",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0246",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0247",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0248",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0249",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0250",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0251",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0252",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0253",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0254",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0255",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0256",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0257",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0258",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0259",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0260",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0261",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0262",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0263",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0264",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0265",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0266",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0267",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0268",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0269",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0270",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 2
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0271",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0272",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0273",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0274",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0275",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 1,
+    "confirmedAtRoundTrip": 2,
+    "finalFormFirstAtStep": {
+      "Latin": 3,
+      "Arabic": 2
+    },
+    "stablePairReachedAtConversion": 3
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0276",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0277",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0278",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0279",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0280",
+    "direction": "ar2en",
+    "status": "stable",
+    "stableAfterRoundTrips": 0,
+    "confirmedAtRoundTrip": 1,
+    "finalFormFirstAtStep": {
+      "Latin": 1,
+      "Arabic": 0
+    },
+    "stablePairReachedAtConversion": 1
+  }
+]

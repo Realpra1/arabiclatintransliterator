@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0046",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+    "output": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤول، كِتاب اَحمَد، إِلى؟ أمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ ",
+    "roundTrip": "lā\n\njilluv? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? 'ams\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? rbmā, lā alSavt\n\nlā? ",
+    "secondPass": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤُول، كِتاب اَحمَد، إِلى؟ أَمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ "
+  }
+]

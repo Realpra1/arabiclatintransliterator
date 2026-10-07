@@ -1,0 +1,443 @@
+[
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0442",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "thānija",
+    "output": "ثانِيَ",
+    "roundTrip": "thānija",
+    "secondPass": "ثانِيَ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0443",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(s).",
+    "output": "(s).",
+    "roundTrip": "(s).",
+    "secondPass": "(s)."
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0444",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "1",
+    "output": "1",
+    "roundTrip": "1",
+    "secondPass": "1"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0445",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Hz=1/s",
+    "output": "حز=1/s",
+    "roundTrip": "Hz=1/s",
+    "secondPass": "حز=1/s"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0446",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "sīzjūm133",
+    "output": "sīzjūm133",
+    "roundTrip": "sīzjūm133",
+    "secondPass": "sīzjūm133"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0447",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(55",
+    "output": "(55",
+    "roundTrip": "(55",
+    "secondPass": "(55"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0448",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "burūtūn)",
+    "output": "بُرُوتُون)",
+    "roundTrip": "burūtūn)",
+    "secondPass": "بُرُوتُون)"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0449",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "taraddud=9.192.631.770",
+    "output": "تَرَدُّد=9.192.631.770",
+    "roundTrip": "taraddud=9.192.631.770",
+    "secondPass": "تَرَدُّد=9.192.631.770"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0450",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Hz",
+    "output": "حز",
+    "roundTrip": "Hz",
+    "secondPass": "حز"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0451",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "N=kg×tasāru-;",
+    "output": "N=كج×تَسارُع؛",
+    "roundTrip": "N=kJ×tasāru-;",
+    "secondPass": "N=كج×تَسارُع؛"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0452",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "fi-l",
+    "output": "فِعل",
+    "roundTrip": "fi-l",
+    "secondPass": "فِعل"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0453",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "lahu",
+    "output": "لَهُ",
+    "roundTrip": "lahu",
+    "secondPass": "لَهُ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0454",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "radd",
+    "output": "رَدّ",
+    "roundTrip": "radd",
+    "secondPass": "رَدّ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0455",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "musāv",
+    "output": "مُساوْ",
+    "roundTrip": "musāv",
+    "secondPass": "مُساوْ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0456",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "muDādd.",
+    "output": "مُضادّ.",
+    "roundTrip": "muDādd.",
+    "secondPass": "مُضادّ."
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0457",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Jādhibijja=G×m1×m2/r^2",
+    "output": "جاذِبِيَّ=G×m1×m2/r^2",
+    "roundTrip": "Jādhibijja=G×m1×m2/r^2",
+    "secondPass": "جاذِبِيَّ=G×m1×m2/r^2"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0458",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "silsijūs:",
+    "output": "سِلسِيُْوس:",
+    "roundTrip": "silsijūs:",
+    "secondPass": "سِلسِيُْوس:"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0459",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "0°C",
+    "output": "0°C",
+    "roundTrip": "0°C",
+    "secondPass": "0°C"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0460",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "tajammud",
+    "output": "تَيَمُّد",
+    "roundTrip": "tajammud",
+    "secondPass": "تَيَمُّد"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0461",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "100°C",
+    "output": "100°C",
+    "roundTrip": "100°C",
+    "secondPass": "100°C"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0462",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "101",
+    "output": "101",
+    "roundTrip": "101",
+    "secondPass": "101"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0463",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "kPa/1",
+    "output": "كبَ/1",
+    "roundTrip": "kba/1",
+    "secondPass": "كبَ/1"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0464",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "bār;",
+    "output": "بار؛",
+    "roundTrip": "bār;",
+    "secondPass": "بار؛"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0465",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "K=°C+273.15.",
+    "output": "K=°C+273.15.",
+    "roundTrip": "K=°C+273.15.",
+    "secondPass": "K=°C+273.15."
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0466",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "sur-a",
+    "output": "سُرعَ",
+    "roundTrip": "sur-a",
+    "secondPass": "سُرعَ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0467",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Dav'",
+    "output": "ضَوْأ",
+    "roundTrip": "Dav'",
+    "secondPass": "ضَوْأ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0468",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "c=299.792.458",
+    "output": "c=299.792.458",
+    "roundTrip": "c=299.792.458",
+    "secondPass": "c=299.792.458"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0469",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "m/s",
+    "output": "m/s",
+    "roundTrip": "m/s",
+    "secondPass": "m/s"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0470",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "kb=1.380649×10^-23",
+    "output": "كب=1.380649×10^ع23",
+    "roundTrip": "kb=1.380649×10^-23",
+    "secondPass": "كب=1.380649×10^ع23"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0471",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "J/K",
+    "output": "J/K",
+    "roundTrip": "J/K",
+    "secondPass": "J/K"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0472",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(būltsmān)",
+    "output": "(بُولتسمان)",
+    "roundTrip": "(būltsmān)",
+    "secondPass": "(بُولتسمان)"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0473",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "hp=6.626×10^-34",
+    "output": "هب=6.626×10^ع34",
+    "roundTrip": "hb=6.626×10^-34",
+    "secondPass": "هب=6.626×10^ع34"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0474",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "J×s",
+    "output": "ج×س",
+    "roundTrip": "J×s",
+    "secondPass": "ج×س"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0475",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(blānk)",
+    "output": "(بلانك)",
+    "roundTrip": "(blānk)",
+    "secondPass": "(بلانك)"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0476",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "DaghT(Pa)=quvva/misāHa",
+    "output": "ضَغط(بَ)=قُوَّ/مِساحَ",
+    "roundTrip": "DaghT(ba)=quvva/misāHa",
+    "secondPass": "ضَغط(بَ)=قُوَّ/مِساحَ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0477",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "DaghT×HaJm=",
+    "output": "ضَغط×حَجم=",
+    "roundTrip": "DaghT×HaJm=",
+    "secondPass": "ضَغط×حَجم="
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0478",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "n_Juzaj'āt×kb×Harāra",
+    "output": "ن_جُزَيْأات×كب×حَرارَ",
+    "roundTrip": "n_Juzaj'āt×kb×Harāra",
+    "secondPass": "ن_جُزَيْأات×كب×حَرارَ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0479",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "kg≈kutla",
+    "output": "كج≈كُتلَ",
+    "roundTrip": "kJ≈kutla",
+    "secondPass": "كج≈كُتلَ"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0480",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "muka-ab",
+    "output": "مُكَعَب",
+    "roundTrip": "muka-ab",
+    "secondPass": "مُكَعَب"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0481",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Dil-",
+    "output": "ضِلع",
+    "roundTrip": "Dil-",
+    "secondPass": "ضِلع"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0482",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "0.1",
+    "output": "0.1",
+    "roundTrip": "0.1",
+    "secondPass": "0.1"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0483",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "m.",
+    "output": "م.",
+    "roundTrip": "m.",
+    "secondPass": "م."
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0484",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "G=6.6743×10^-11×m^3/(kg×s^2)",
+    "output": "G=6.6743×10^ع11×m^3/(كج×s^2)",
+    "roundTrip": "G=6.6743×10^-11×m^3/(kJ×s^2)",
+    "secondPass": "G=6.6743×10^ع11×m^3/(كج×s^2)"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0485",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "E(TTāqa/J)=1",
+    "output": "E(طّاقَ/J)=1",
+    "roundTrip": "E(TTāqa/J)=1",
+    "secondPass": "E(طّاقَ/J)=1"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0486",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "kg×m^2/s^2",
+    "output": "كج×m^2/s^2",
+    "roundTrip": "kJ×m^2/s^2",
+    "secondPass": "كج×m^2/s^2"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0487",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "E=kutla×c^2",
+    "output": "E=كُتلَ×c^2",
+    "roundTrip": "E=kutla×c^2",
+    "secondPass": "E=كُتلَ×c^2"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0488",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "E=hp×f",
+    "output": "E=هب×ف",
+    "roundTrip": "E=hb×f",
+    "secondPass": "E=هب×ف"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0489",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(taraddud",
+    "output": "(تَرَدُّد",
+    "roundTrip": "(taraddud",
+    "secondPass": "(تَرَدُّد"
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0490",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Dav'/Hz)",
+    "output": "ضَوْأ/حز)",
+    "roundTrip": "Dav'/Hz)",
+    "secondPass": "ضَوْأ/حز)"
+  }
+]

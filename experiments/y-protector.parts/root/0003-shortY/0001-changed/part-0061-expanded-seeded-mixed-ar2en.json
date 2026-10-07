@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0038",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "اليوم\n\nمن/rhythm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhythm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nهي? ",
+    "output": "alīvm\n\nmn/rhythm\n\nalbajtu? ghadaN\n\nhdhh/rhythm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nhī? ",
+    "roundTrip": "اَلِيوْم\n\nمن/رهِيثم\n\nاَلبَيْتُ؟ غَدً\n\nهذه/رهِيثم، ‍/على\n\nصُوت؟ سُؤال — مساأً؟ ا\n\nسِتِي قَهوَ — هَوْاء/قُوَّ — رهِيثم؟ إِلى\n\nهِي؟ ",
+    "secondPass": "alīvm\n\nmn/rhīthm\n\nalbajtu? ghadaN\n\nhdhh/rhīthm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\nsitī qahva — havā'/quvva — rhīthm? ilá\n\nhī? ",
+    "before": {
+      "output": "alīvm\n\nmn/rhythm\n\nalbajtu? ghadaN\n\nhdhh/rhythm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nhī? ",
+      "roundTrip": "اَلِيوْم\n\nمن/رهِيثم\n\nاَلبَيْتُ؟ غَدً\n\nهذه/رهِيثم، ‍/على\n\nصُوت؟ سُؤال — مساأً؟ ا\n\nسِتِي قَهوَ — هَوْاء/قُوَّ — رهِيثم؟ إِلى\n\nهِي؟ ",
+      "secondPass": "alīvm\n\nmn/rhīthm\n\nalbajtu? ghadaN\n\nhdhh/rhīthm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\nsitī qahva — havā'/quvva — rhīthm? ilá\n\nhī? "
+    },
+    "after": {
+      "output": "alīvm\n\nmn/rhythm\n\nalbajtu? ghadaN\n\nhdhh/rhythm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nhī? ",
+      "roundTrip": "اَلِيوْم\n\nمن/رهِثم\n\nاَلبَيْتُ؟ غَدً\n\nهذه/رهِثم، ‍/على\n\nصُوت؟ سُؤال — مساأً؟ ا\n\nسِتِ قَهوَ — هَوْاء/قُوَّ — رهِثم؟ إِلى\n\nهِي؟ ",
+      "secondPass": "alīvm\n\nmn/rhithm\n\nalbajtu? ghadaN\n\nhdhh/rhithm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\nsiti qahva — havā'/quvva — rhithm? ilá\n\nhī? "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

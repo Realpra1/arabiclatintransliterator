@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0023",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+      "L1": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' my, city/mn — fī madrasat, iN 'ams, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+      "A2": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِ، سِتِ/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سَتَسمَع\n\nستجُول/نَعَم — كِتاب؟ ",
+      "L2": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mi, siti/mn — fī madrasat, iN ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? ",
+      "A3": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِ، سِتِ/من — فِي مَدرَسة، ٍ اَمس، E=مك^2/سَتَسمَع\n\nستجُول/نَعَم — كِتاب؟ ",
+      "L3": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mi, siti/mn — fī madrasat, iN ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? "
+    }
+  }
+]

@@ -1,6 +1,6 @@
 import {loadTranslator} from '../tests/helpers/load-translator.mjs';
 import {stabilityCases,traceRoundTrip,stabilityComparisons} from '../tests/helpers/roundtrip-stability.mjs';
-import {writeFileSync} from 'node:fs';
+import {writeJsonArtifact} from './lib/json-artifacts.mjs';
 const {MapperView:v,MapperTranslator:c}=loadTranslator();
 const std={en2ar:s=>v.convert(s,'en2ar',true).text,ar2en:s=>v.convert(s,'ar2en',true).text};
 let failures=[],checks=0,beforeFailed=0,afterFailed=0;
@@ -12,7 +12,7 @@ for(const x of stabilityCases()){
   for(const [rule,i,j]of stabilityComparisons(d)) {checks++;beforeFailed+=a[i]!==a[j];afterFailed+=b[i]!==b[j];if(a[i]===a[j]&&b[i]!==b[j])failures.push({id:x.id,rule,a,b});}
  }
 }
-writeFileSync(new URL('../experiments/notation-stability.json', import.meta.url),JSON.stringify({description:'Both starting directions, seeded from identical Arabic for custom and standard notation. All corpus inputs contribute, including Arabic generated from Latin inputs.',checks,beforeFailed,afterFailed,newFailures:failures},null,2)+'\n');
+writeJsonArtifact(new URL('../experiments/notation-stability.json', import.meta.url),{description:'Both starting directions, seeded from identical Arabic for custom and standard notation. All corpus inputs contribute, including Arabic generated from Latin inputs.',checks,beforeFailed,afterFailed,newFailures:failures});
 console.log(JSON.stringify({checks,beforeFailed,afterFailed,newFailures:failures.length,examples:failures.slice(0,3)},null,2));
 
 if (failures.length) process.exitCode = 1;

@@ -1,0 +1,279 @@
+{
+  "name": "apostrophe-for-ayn-distinct-hamza",
+  "added": {
+    "-": "'",
+    "'": "ʾ"
+  },
+  "checks": {
+    "total": 22044,
+    "beforeFailed": 631,
+    "afterFailed": 627,
+    "newlyFailing": [],
+    "fixed": [
+      {
+        "id": "formatting-and-unicode/ar2en/0027",
+        "direction": "ar2en",
+        "rule": "Arabic input: Latin L2 = L3"
+      },
+      {
+        "id": "formatting-and-unicode/ar2en/0027",
+        "direction": "ar2en",
+        "rule": "Arabic input: Arabic A2 = A3"
+      },
+      {
+        "id": "formatting-and-unicode/ar2en/0027",
+        "direction": "en2ar",
+        "rule": "Latin input: Latin L2 = L3"
+      },
+      {
+        "id": "formatting-and-unicode/ar2en/0027",
+        "direction": "en2ar",
+        "rule": "Latin input: Arabic A2 = A3"
+      }
+    ]
+  },
+  "changedArabicTraces": 80,
+  "changedArabicInputCases": 40,
+  "changes": [
+    {
+      "id": "formatting-and-unicode/ar2en/0027",
+      "direction": "ar2en",
+      "before": {
+        "A1": "'’ʾ\"“”«»",
+        "L1": "'’ʾ\"“”«»",
+        "A2": "أ’أ\"“”«»",
+        "L2": "'a’'\"“”«»",
+        "A3": "أَ’أ\"“”«»",
+        "L3": "a’'\"“”«»"
+      },
+      "after": {
+        "A1": "'’ʾ\"“”«»",
+        "L1": "'’ʾ\"“”«»",
+        "A2": "ع’أ\"“”«»",
+        "L2": "'’ʾ\"“”«»",
+        "A3": "ع’أ\"“”«»",
+        "L3": "'’ʾ\"“”«»"
+      }
+    },
+    {
+      "id": "formatting-and-unicode/ar2en/0027",
+      "direction": "en2ar",
+      "before": {
+        "L1": "'’ʾ\"“”«»",
+        "A1": "أ’أ\"“”«»",
+        "L2": "'a’'\"“”«»",
+        "A2": "أَ’أ\"“”«»",
+        "L3": "a’'\"“”«»",
+        "A3": "اَ’أ\"“”«»"
+      },
+      "after": {
+        "L1": "'’ʾ\"“”«»",
+        "A1": "ع’أ\"“”«»",
+        "L2": "'’ʾ\"“”«»",
+        "A2": "ع’أ\"“”«»",
+        "L3": "'’ʾ\"“”«»",
+        "A3": "ع’أ\"“”«»"
+      }
+    },
+    {
+      "id": "expanded-unicode-adversarial/ar2en/0017",
+      "direction": "ar2en",
+      "before": {
+        "A1": "' ’ ‘ ʼ ʾ ʻ ء ` ´",
+        "L1": "' ’ ‘ ʼ ʾ ʻ ' ` ´",
+        "A2": "أ ’ ‘ ʼ أ ʻ أ ` ´",
+        "L2": "'a ’ ‘ ʼ 'a ʻ 'a ` ´",
+        "A3": "أَ ’ ‘ ʼ أَ ʻ أَ ` ´",
+        "L3": "a ’ ‘ ʼ a ʻ a ` ´"
+      },
+      "after": {
+        "A1": "' ’ ‘ ʼ ʾ ʻ ء ` ´",
+        "L1": "' ’ ‘ ʼ ʾ ʻ ʾ ` ´",
+        "A2": "ع ’ ‘ ʼ أ ʻ أ ` ´",
+        "L2": "' ’ ‘ ʼ ʾa ʻ ʾa ` ´",
+        "A3": "ع ’ ‘ ʼ أَ ʻ أَ ` ´",
+        "L3": "' ’ ‘ ʼ a ʻ a ` ´"
+      }
+    },
+    {
+      "id": "expanded-unicode-adversarial/ar2en/0017",
+      "direction": "en2ar",
+      "before": {
+        "L1": "' ’ ‘ ʼ ʾ ʻ ' ` ´",
+        "A1": "أ ’ ‘ ʼ أ ʻ أ ` ´",
+        "L2": "'a ’ ‘ ʼ 'a ʻ 'a ` ´",
+        "A2": "أَ ’ ‘ ʼ أَ ʻ أَ ` ´",
+        "L3": "a ’ ‘ ʼ a ʻ a ` ´",
+        "A3": "اَ ’ ‘ ʼ اَ ʻ اَ ` ´"
+      },
+      "after": {
+        "L1": "' ’ ‘ ʼ ʾ ʻ ʾ ` ´",
+        "A1": "ع ’ ‘ ʼ أ ʻ أ ` ´",
+        "L2": "' ’ ‘ ʼ ʾa ʻ ʾa ` ´",
+        "A2": "ع ’ ‘ ʼ أَ ʻ أَ ` ´",
+        "L3": "' ’ ‘ ʼ a ʻ a ` ´",
+        "A3": "ع ’ ‘ ʼ اَ ʻ اَ ` ´"
+      }
+    },
+    {
+      "id": "expanded-mixed-script/ar2en/0006",
+      "direction": "ar2en",
+      "before": {
+        "A1": "قالت: \"satasma-\", then added: «سَتَسْمَعُ».\n\nNext: mā' + ماء.",
+        "L1": "qālt: \"satasma-\", then added: «satasma-u».\n\nNext: mā' + mā'.",
+        "A2": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماء + ماء.",
+        "L2": "qālt: \"satasma-\", thin addid: «satasma-u».\n\nN'ikst: mā' + mā'.",
+        "A3": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماء + ماء.",
+        "L3": "qālt: \"satasma-\", thin addid: «satasma-u».\n\nN'ikst: mā' + mā'."
+      },
+      "after": {
+        "A1": "قالت: \"satasma-\", then added: «سَتَسْمَعُ».\n\nNext: mā' + ماء.",
+        "L1": "qālt: \"satasma'\", then added: «satasma'u».\n\nNext: mā' + māʾ.",
+        "A2": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماع + ماء.",
+        "L2": "qālt: \"satasma'\", thin addid: «satasma'u».\n\nNʾikst: mā' + māʾ.",
+        "A3": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماع + ماء.",
+        "L3": "qālt: \"satasma'\", thin addid: «satasma'u».\n\nNʾikst: mā' + māʾ."
+      }
+    },
+    {
+      "id": "expanded-mixed-script/ar2en/0006",
+      "direction": "en2ar",
+      "before": {
+        "L1": "qālt: \"satasma-\", then added: «satasma-u».\n\nNext: mā' + mā'.",
+        "A1": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماء + ماء.",
+        "L2": "qālt: \"satasma-\", thin addid: «satasma-u».\n\nN'ikst: mā' + mā'.",
+        "A2": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماء + ماء.",
+        "L3": "qālt: \"satasma-\", thin addid: «satasma-u».\n\nN'ikst: mā' + mā'.",
+        "A3": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماء + ماء."
+      },
+      "after": {
+        "L1": "qālt: \"satasma'\", then added: «satasma'u».\n\nNext: mā' + māʾ.",
+        "A1": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماع + ماء.",
+        "L2": "qālt: \"satasma'\", thin addid: «satasma'u».\n\nNʾikst: mā' + māʾ.",
+        "A2": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماع + ماء.",
+        "L3": "qālt: \"satasma'\", thin addid: «satasma'u».\n\nNʾikst: mā' + māʾ.",
+        "A3": "قالت: \"سةَسمَع\"، ثِن اَدِّد: «سةَسمَعu».\n\nNإِكست: ماع + ماء."
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0001",
+      "direction": "ar2en",
+      "before": {
+        "A1": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+        "L1": "n-m — qhūat/ālīwm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', 'ams school — school? shamsuṇ, na-am/hello — stsm- ṣbāḥaṇā — mn ",
+        "A2": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَجء — رهيْثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L2": "n-m — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na-am/hillu — stsm- ṣbāḥaṇā — mn ",
+        "A3": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَجء — رهيْثم؟ ى\n\n🙂 ماء، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L3": "n-m — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na-am/hillu — stsm- ṣbāḥaṇā — mn "
+      },
+      "after": {
+        "A1": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+        "L1": "n'm — qhūat/ālīwm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', ʾams school — school? shamsuṇ, na'am/hello — stsm' ṣbāḥaṇā — mn ",
+        "A2": "نعم — قهُوة/الِيوْم، ماع/ً، وُرلد شَجع — رهيْثم؟ ى\n\n🙂 ماع، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L2": "n'm — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na'am/hillu — stsm' ṣbāḥaṇā — mn ",
+        "A3": "نعم — قهُوة/الِيوْم، ماع/ً، وُرلد شَجع — رهيْثم؟ ى\n\n🙂 ماع، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L3": "n'm — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na'am/hillu — stsm' ṣbāḥaṇā — mn "
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0001",
+      "direction": "en2ar",
+      "before": {
+        "L1": "n-m — qhūat/ālīwm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', 'ams school — school? shamsuṇ, na-am/hello — stsm- ṣbāḥaṇā — mn ",
+        "A1": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَجء — رهيْثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L2": "n-m — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na-am/hillu — stsm- ṣbāḥaṇā — mn ",
+        "A2": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَجء — رهيْثم؟ ى\n\n🙂 ماء، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L3": "n-m — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na-am/hillu — stsm- ṣbāḥaṇā — mn ",
+        "A3": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَجء — رهيْثم؟ ى\n\n🙂 ماء، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من "
+      },
+      "after": {
+        "L1": "n'm — qhūat/ālīwm, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', ʾams school — school? shamsuṇ, na'am/hello — stsm' ṣbāḥaṇā — mn ",
+        "A1": "نعم — قهُوة/الِيوْم، ماع/ً، وُرلد شَجع — رهيْثم؟ ى\n\n🙂 ماع، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L2": "n'm — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na'am/hillu — stsm' ṣbāḥaṇā — mn ",
+        "A2": "نعم — قهُوة/الِيوْم، ماع/ً، وُرلد شَجع — رهيْثم؟ ى\n\n🙂 ماع، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+        "L3": "n'm — qhūat/ālīwm, mā'/aṇ, wurld shaj' — rhythm? á\n\n🙂 mā', ams stjūl — stjūl? shamsuṇ, na'am/hillu — stsm' ṣbāḥaṇā — mn ",
+        "A3": "نعم — قهُوة/الِيوْم، ماع/ً، وُرلد شَجع — رهيْثم؟ ى\n\n🙂 ماع، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من "
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0003",
+      "direction": "ar2en",
+      "before": {
+        "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+        "L1": "aN\n\nby/queue — -alá ١٢ — hwā'/by, mā'? E=mc^2 — shāy/lā\n\nwith? quwwāt\n\nE=mc^2/mḥmd\n\nlā quwwāt — queue mā' — stsm-? ",
+        "A2": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+        "L2": "aṇ\n\nby/quiui — -alá ١٢ — hwā'/by, mā'? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm-? ",
+        "A3": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+        "L3": "aṇ\n\nby/quiui — -alá ١٢ — hwā'/by, mā'? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm-? "
+      },
+      "after": {
+        "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+        "L1": "aN\n\nby/queue — 'alá ١٢ — hwāʾ/by, māʾ? E=mc^2 — shāy/lā\n\nwith? quwwāt\n\nE=mc^2/mḥmd\n\nlā quwwāt — queue mā' — stsm'? ",
+        "A2": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماع — ستسمع؟ ",
+        "L2": "aṇ\n\nby/quiui — 'alá ١٢ — hwāʾ/by, māʾ? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm'? ",
+        "A3": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماع — ستسمع؟ ",
+        "L3": "aṇ\n\nby/quiui — 'alá ١٢ — hwāʾ/by, māʾ? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm'? "
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0003",
+      "direction": "en2ar",
+      "before": {
+        "L1": "aN\n\nby/queue — -alá ١٢ — hwā'/by, mā'? E=mc^2 — shāy/lā\n\nwith? quwwāt\n\nE=mc^2/mḥmd\n\nlā quwwāt — queue mā' — stsm-? ",
+        "A1": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+        "L2": "aṇ\n\nby/quiui — -alá ١٢ — hwā'/by, mā'? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm-? ",
+        "A2": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+        "L3": "aṇ\n\nby/quiui — -alá ١٢ — hwā'/by, mā'? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm-? ",
+        "A3": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ "
+      },
+      "after": {
+        "L1": "aN\n\nby/queue — 'alá ١٢ — hwāʾ/by, māʾ? E=mc^2 — shāy/lā\n\nwith? quwwāt\n\nE=mc^2/mḥmd\n\nlā quwwāt — queue mā' — stsm'? ",
+        "A1": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماع — ستسمع؟ ",
+        "L2": "aṇ\n\nby/quiui — 'alá ١٢ — hwāʾ/by, māʾ? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm'? ",
+        "A2": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماع — ستسمع؟ ",
+        "L3": "aṇ\n\nby/quiui — 'alá ١٢ — hwāʾ/by, māʾ? E=mk^2 — shāy/lā\n\nwith? quwwāt\n\nE=mk^2/mḥmd\n\nlā quwwāt — quiui mā' — stsm'? ",
+        "A3": "ً\n\nبيْ/قُُِِ — عَلى ١٢ — هوْاء/بيْ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماع — ستسمع؟ "
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0005",
+      "direction": "ar2en",
+      "before": {
+        "A1": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+        "L1": "fī\n\n١٢ shamsuṇ — book/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaṇā lajla — fī? 'anā — quvva/naHnu, ā albaytu — msā'aṇ? ",
+        "A2": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L2": "fī\n\n١٢ shamsuṇ — būk/n-m\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msā'aṇ? ",
+        "A3": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L3": "fī\n\n١٢ shamsuṇ — būk/n-m\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msā'aṇ? "
+      },
+      "after": {
+        "A1": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+        "L1": "fī\n\n١٢ shamsuṇ — book/n'm\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaṇā lajla — fī? ʾanā — quvva/naHnu, ā albaytu — msāʾaṇ? ",
+        "A2": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماع، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L2": "fī\n\n١٢ shamsuṇ — būk/n'm\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msāʾaṇ? ",
+        "A3": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماع، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L3": "fī\n\n١٢ shamsuṇ — būk/n'm\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msāʾaṇ? "
+      }
+    },
+    {
+      "id": "expanded-seeded-mixed/ar2en/0005",
+      "direction": "en2ar",
+      "before": {
+        "L1": "fī\n\n١٢ shamsuṇ — book/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaṇā lajla — fī? 'anā — quvva/naHnu, ā albaytu — msā'aṇ? ",
+        "A1": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L2": "fī\n\n١٢ shamsuṇ — būk/n-m\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msā'aṇ? ",
+        "A2": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L3": "fī\n\n١٢ shamsuṇ — būk/n-m\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msā'aṇ? ",
+        "A3": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ "
+      },
+      "after": {
+        "L1": "fī\n\n١٢ shamsuṇ — book/n'm\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaṇā lajla — fī? ʾanā — quvva/naHnu, ā albaytu — msāʾaṇ? ",
+        "A1": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماع، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L2": "fī\n\n١٢ shamsuṇ — būk/n'm\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msāʾaṇ? ",
+        "A2": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماع، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+        "L3": "fī\n\n١٢ shamsuṇ — būk/n'm\n\nmdrsat/mā', ghadaṇ anta — alṣṣabāḥ? līlá — ghdaṇā lajla — fī? anā — quwwa/naḥnu, ā albaytu — msāʾaṇ? ",
+        "A3": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماع، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَجلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ "
+      }
+    }
+  ]
+}

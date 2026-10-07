@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0003",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+    "output": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+    "roundTrip": "ً\n\nبِي/قُُِِ — عَلى ١٢ — هوْاء/بِي، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+    "secondPass": "aN\n\nbī/quiui — -alá ١٢ — hvā'/bī, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? ",
+    "before": {
+      "output": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+      "roundTrip": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+      "secondPass": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+    },
+    "after": {
+      "output": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+      "roundTrip": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+      "secondPass": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

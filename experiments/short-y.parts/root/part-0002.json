@@ -1,0 +1,402 @@
+{
+  "examples": [
+    {
+      "input": "city",
+      "before": {
+        "output": "سِتِي",
+        "roundTrip": "sitī",
+        "secondPass": "سِتِي"
+      },
+      "after": {
+        "output": "سِتِ",
+        "roundTrip": "siti",
+        "secondPass": "سِتِ"
+      }
+    },
+    {
+      "input": "cycle",
+      "before": {
+        "output": "سِيكلِ",
+        "roundTrip": "sīkli",
+        "secondPass": "سِيكلِ"
+      },
+      "after": {
+        "output": "سِكلِ",
+        "roundTrip": "sikli",
+        "secondPass": "سِكلِ"
+      }
+    },
+    {
+      "input": "xylophone",
+      "before": {
+        "output": "سِيلُفُنِ",
+        "roundTrip": "sīlufuni",
+        "secondPass": "سِيلُفُنِ"
+      },
+      "after": {
+        "output": "سِلُفُنِ",
+        "roundTrip": "silufuni",
+        "secondPass": "سِلُفُنِ"
+      }
+    },
+    {
+      "input": "cat",
+      "before": {
+        "output": "كة",
+        "roundTrip": "kat",
+        "secondPass": "كة"
+      },
+      "after": {
+        "output": "كة",
+        "roundTrip": "kat",
+        "secondPass": "كة"
+      }
+    },
+    {
+      "input": "cancer",
+      "before": {
+        "output": "كَنسِر",
+        "roundTrip": "kansir",
+        "secondPass": "كَنسِر"
+      },
+      "after": {
+        "output": "كَنسِر",
+        "roundTrip": "kansir",
+        "secondPass": "كَنسِر"
+      }
+    },
+    {
+      "input": "school",
+      "before": {
+        "output": "ستجُول",
+        "roundTrip": "stJūl",
+        "secondPass": "ستجُول"
+      },
+      "after": {
+        "output": "ستجُول",
+        "roundTrip": "stJūl",
+        "secondPass": "ستجُول"
+      }
+    },
+    {
+      "input": "satasma-",
+      "before": {
+        "output": "سةَسمَع",
+        "roundTrip": "satasma-",
+        "secondPass": "سةَسمَع"
+      },
+      "after": {
+        "output": "سةَسمَع",
+        "roundTrip": "satasma-",
+        "secondPass": "سةَسمَع"
+      }
+    },
+    {
+      "input": "happy",
+      "before": {
+        "output": "هَبِّي",
+        "roundTrip": "habbī",
+        "secondPass": "هَبِّي"
+      },
+      "after": {
+        "output": "هَبِّ",
+        "roundTrip": "habbi",
+        "secondPass": "هَبِّ"
+      }
+    },
+    {
+      "input": "family",
+      "before": {
+        "output": "فَمِلِي",
+        "roundTrip": "familī",
+        "secondPass": "فَمِلِي"
+      },
+      "after": {
+        "output": "فَمِلِ",
+        "roundTrip": "famili",
+        "secondPass": "فَمِلِ"
+      }
+    },
+    {
+      "input": "sky",
+      "before": {
+        "output": "سكِي",
+        "roundTrip": "skī",
+        "secondPass": "سكِي"
+      },
+      "after": {
+        "output": "سكِ",
+        "roundTrip": "ski",
+        "secondPass": "سكِ"
+      }
+    },
+    {
+      "input": "my",
+      "before": {
+        "output": "مِي",
+        "roundTrip": "mī",
+        "secondPass": "مِي"
+      },
+      "after": {
+        "output": "مِ",
+        "roundTrip": "mi",
+        "secondPass": "مِ"
+      }
+    },
+    {
+      "input": "rhythm",
+      "before": {
+        "output": "رهِيثم",
+        "roundTrip": "rhīthm",
+        "secondPass": "رهِيثم"
+      },
+      "after": {
+        "output": "رهِثم",
+        "roundTrip": "rhithm",
+        "secondPass": "رهِثم"
+      }
+    },
+    {
+      "input": "system",
+      "before": {
+        "output": "سِيستِم",
+        "roundTrip": "sīstim",
+        "secondPass": "سِيستِم"
+      },
+      "after": {
+        "output": "سِستِم",
+        "roundTrip": "sistim",
+        "secondPass": "سِستِم"
+      }
+    },
+    {
+      "input": "yes",
+      "before": {
+        "output": "يِس",
+        "roundTrip": "jis",
+        "secondPass": "يِس"
+      },
+      "after": {
+        "output": "يِس",
+        "roundTrip": "jis",
+        "secondPass": "يِس"
+      }
+    },
+    {
+      "input": "yellow",
+      "before": {
+        "output": "يِلُّوْ",
+        "roundTrip": "jilluv",
+        "secondPass": "يِلُّوْ"
+      },
+      "after": {
+        "output": "يِلُّوْ",
+        "roundTrip": "jilluv",
+        "secondPass": "يِلُّوْ"
+      }
+    },
+    {
+      "input": "boy",
+      "before": {
+        "output": "بُيْ",
+        "roundTrip": "buj",
+        "secondPass": "بُيْ"
+      },
+      "after": {
+        "output": "بُيْ",
+        "roundTrip": "buj",
+        "secondPass": "بُيْ"
+      }
+    },
+    {
+      "input": "day",
+      "before": {
+        "output": "دَيْ",
+        "roundTrip": "daj",
+        "secondPass": "دَيْ"
+      },
+      "after": {
+        "output": "دَيْ",
+        "roundTrip": "daj",
+        "secondPass": "دَيْ"
+      }
+    },
+    {
+      "input": "toy",
+      "before": {
+        "output": "تُيْ",
+        "roundTrip": "tuj",
+        "secondPass": "تُيْ"
+      },
+      "after": {
+        "output": "تُيْ",
+        "roundTrip": "tuj",
+        "secondPass": "تُيْ"
+      }
+    },
+    {
+      "input": "alyāf",
+      "before": {
+        "output": "اَلِياف",
+        "roundTrip": "aljāf",
+        "secondPass": "اَليْاف"
+      },
+      "after": {
+        "output": "اَلِاف",
+        "roundTrip": "aliāf",
+        "secondPass": "اَلِاف"
+      }
+    },
+    {
+      "input": "aljāf",
+      "before": {
+        "output": "اَليْاف",
+        "roundTrip": "aljāf",
+        "secondPass": "اَليْاف"
+      },
+      "after": {
+        "output": "اَليْاف",
+        "roundTrip": "aljāf",
+        "secondPass": "اَليْاف"
+      }
+    },
+    {
+      "input": "yuSab",
+      "before": {
+        "output": "يُصَب",
+        "roundTrip": "juSab",
+        "secondPass": "يُصَب"
+      },
+      "after": {
+        "output": "يُصَب",
+        "roundTrip": "juSab",
+        "secondPass": "يُصَب"
+      }
+    },
+    {
+      "input": "juSab",
+      "before": {
+        "output": "يُصَب",
+        "roundTrip": "juSab",
+        "secondPass": "يُصَب"
+      },
+      "after": {
+        "output": "يُصَب",
+        "roundTrip": "juSab",
+        "secondPass": "يُصَب"
+      }
+    },
+    {
+      "input": "yawm",
+      "before": {
+        "output": "يَوْم",
+        "roundTrip": "javm",
+        "secondPass": "يَوْم"
+      },
+      "after": {
+        "output": "يَوْم",
+        "roundTrip": "javm",
+        "secondPass": "يَوْم"
+      }
+    },
+    {
+      "input": "byya",
+      "before": {
+        "output": "بِييَ",
+        "roundTrip": "bīja",
+        "secondPass": "بِييَ"
+      },
+      "after": {
+        "output": "بِيَ",
+        "roundTrip": "bija",
+        "secondPass": "بِيَ"
+      }
+    },
+    {
+      "input": "byyya",
+      "before": {
+        "output": "بِييِْيَ",
+        "roundTrip": "bījija",
+        "secondPass": "بِييِيَ"
+      },
+      "after": {
+        "output": "بِيَِ",
+        "roundTrip": "bjia",
+        "secondPass": "بيَِ"
+      }
+    },
+    {
+      "input": "iyyāka",
+      "before": {
+        "output": "إِيّاكَ",
+        "roundTrip": "ijjāka",
+        "secondPass": "إِيّاكَ"
+      },
+      "after": {
+        "output": "إِيّاكَ",
+        "roundTrip": "ijjāka",
+        "secondPass": "إِيّاكَ"
+      }
+    },
+    {
+      "input": "ī",
+      "before": {
+        "output": "ِي",
+        "roundTrip": "ī",
+        "secondPass": "ِي"
+      },
+      "after": {
+        "output": "ِي",
+        "roundTrip": "ī",
+        "secondPass": "ِي"
+      }
+    },
+    {
+      "input": "j",
+      "before": {
+        "output": "يْ",
+        "roundTrip": "j",
+        "secondPass": "يْ"
+      },
+      "after": {
+        "output": "يْ",
+        "roundTrip": "j",
+        "secondPass": "يْ"
+      }
+    },
+    {
+      "input": "y",
+      "before": {
+        "output": "يْ",
+        "roundTrip": "j",
+        "secondPass": "يْ"
+      },
+      "after": {
+        "output": "يْ",
+        "roundTrip": "j",
+        "secondPass": "يْ"
+      }
+    }
+  ],
+  "changes": {
+    "$jsonModules": "arabiclatin/v1",
+    "kind": "array",
+    "parts": [
+      "short-y.parts/root/0007-changes/part-0001.json",
+      "short-y.parts/root/0007-changes/part-0002.json",
+      "short-y.parts/root/0007-changes/part-0003.json",
+      "short-y.parts/root/0007-changes/part-0004.json",
+      "short-y.parts/root/0007-changes/part-0005.json",
+      "short-y.parts/root/0007-changes/part-0006.json",
+      "short-y.parts/root/0007-changes/part-0007.json",
+      "short-y.parts/root/0007-changes/part-0008.json",
+      "short-y.parts/root/0007-changes/part-0009.json",
+      "short-y.parts/root/0007-changes/part-0010.json",
+      "short-y.parts/root/0007-changes/part-0011.json",
+      "short-y.parts/root/0007-changes/part-0012.json",
+      "short-y.parts/root/0007-changes/part-0013.json",
+      "short-y.parts/root/0007-changes/part-0014.json",
+      "short-y.parts/root/0007-changes/part-0015.json"
+    ]
+  }
+}

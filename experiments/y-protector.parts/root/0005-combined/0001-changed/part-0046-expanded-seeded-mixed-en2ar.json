@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0004",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+    "output": "يِلُّوْ، هو؟ ربما، مسؤول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاي/مساءً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+    "roundTrip": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+    "secondPass": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/mِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+    "before": {
+      "output": "يِلُّوْ، هو؟ ربما، مسؤول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاي/مساءً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+      "roundTrip": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+      "secondPass": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/mِي — رُبَّما يِلُّوْ\n\nسةَسمَع/"
+    },
+    "after": {
+      "output": "يِلُّوْ، هو؟ ربما، مسؤول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاي/مساءً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+      "roundTrip": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/",
+      "secondPass": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شايْ/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

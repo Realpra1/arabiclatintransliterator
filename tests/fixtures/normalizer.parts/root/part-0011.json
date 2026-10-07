@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0741",
+    "input": "ayyyyyy",
+    "normalized": "ayyyyyy",
+    "collapsed": "ayyyyyy"
+  },
+  {
+    "id": "normalizer/0742",
+    "input": "yyyyyyy",
+    "normalized": "yyyyyyy",
+    "collapsed": "yyyyyyy"
+  },
+  {
+    "id": "normalizer/0743",
+    "input": "byyyyyyy",
+    "normalized": "biyiyiyi",
+    "collapsed": "byyyyyyy"
+  },
+  {
+    "id": "normalizer/0744",
+    "input": "ayyyyyyy",
+    "normalized": "ayyyyyyy",
+    "collapsed": "ayyyyyyy"
+  },
+  {
+    "id": "normalizer/0745",
+    "input": "yyyyyyyy",
+    "normalized": "yyyyyyyy",
+    "collapsed": "yyyyyyyy"
+  },
+  {
+    "id": "normalizer/0746",
+    "input": "byyyyyyyy",
+    "normalized": "biyiyiyiy",
+    "collapsed": "byyyyyyyy"
+  },
+  {
+    "id": "normalizer/0747",
+    "input": "ayyyyyyyy",
+    "normalized": "ayyyyyyyy",
+    "collapsed": "ayyyyyyyy"
+  },
+  {
+    "id": "normalizer/0748",
+    "input": "C=6.242×10^18",
+    "normalized": "C=6.242×10^18",
+    "collapsed": "C=6.242×10^18"
+  },
+  {
+    "id": "normalizer/0749",
+    "input": "A(ambīruN)=1 C/s",
+    "normalized": "A(ambīruN)=1 C/s",
+    "collapsed": "A(ambīruN)=1 C/s"
+  },
+  {
+    "id": "normalizer/0750",
+    "input": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "normalized": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "collapsed": "U(fūltuN/V)=muqāvama(Ω)×I(A)"
+  },
+  {
+    "id": "normalizer/0751",
+    "input": "qudra(W)=E(J) / t(s)=U×I",
+    "normalized": "qudra(W)=E(J) / t(s)=U×i",
+    "collapsed": "qudra(W)=E(J) / t(s)=U×I"
+  },
+  {
+    "id": "normalizer/0752",
+    "input": "1 Hz=1/s",
+    "normalized": "1 Hz=1/s",
+    "collapsed": "1 Hz=1/s"
+  },
+  {
+    "id": "normalizer/0753",
+    "input": "E=kutla×c^2",
+    "normalized": "E=kutla×c^2",
+    "collapsed": "E=kutla×c^2"
+  },
+  {
+    "id": "normalizer/0754",
+    "input": "E=hp×f",
+    "normalized": "E=hp×f",
+    "collapsed": "E=hp×f"
+  },
+  {
+    "id": "normalizer/0755",
+    "input": "G=6.6743×10^-11×m^3/(kg×s^2)",
+    "normalized": "G=6.6743×10^-11×m^3/(kg×s^2)",
+    "collapsed": "G=6.6743×10^-11×m^3/(kg×s^2)"
+  },
+  {
+    "id": "normalizer/0756",
+    "input": "kb=1.380649×10^-23 J/K",
+    "normalized": "kb=1.380649×10^-23 J/K",
+    "collapsed": "kb=1.380649×10^-23 J/K"
+  },
+  {
+    "id": "normalizer/0757",
+    "input": "hp=6.626×10^-34 J×s",
+    "normalized": "hp=6.626×10^-34 J×s",
+    "collapsed": "hp=6.626×10^-34 J×s"
+  },
+  {
+    "id": "normalizer/0758",
+    "input": "K=°C+273.15",
+    "normalized": "K=°C+273.15",
+    "collapsed": "K=°C+273.15"
+  },
+  {
+    "id": "normalizer/0759",
+    "input": "N=kg×tasāru-",
+    "normalized": "N=kg×tasāru-",
+    "collapsed": "N=kg×tasāru-"
+  },
+  {
+    "id": "normalizer/0760",
+    "input": "CO2 H2O O2 N2 NH3",
+    "normalized": "CO2 H2O O2 N2 NH3",
+    "collapsed": "CO2 H2O O2 N2 NH3"
+  },
+  {
+    "id": "normalizer/0761",
+    "input": "500°C 1200°C 1700°C",
+    "normalized": "500°C 1200°C 1700°C",
+    "collapsed": "500°C 1200°C 1700°C"
+  },
+  {
+    "id": "normalizer/0762",
+    "input": "−23 -23 –23 —23",
+    "normalized": "−23 -23 –23 —23",
+    "collapsed": "−23 -23 –23 —23"
+  },
+  {
+    "id": "normalizer/0763",
+    "input": "0.994 m",
+    "normalized": "0.994 m",
+    "collapsed": "0.994 m"
+  },
+  {
+    "id": "normalizer/0764",
+    "input": "0.1 m",
+    "normalized": "0.1 m",
+    "collapsed": "0.1 m"
+  },
+  {
+    "id": "normalizer/0765",
+    "input": "120° ~1% 101 kPa/1 bār",
+    "normalized": "120° ~1% 101 kpa/1 bār",
+    "collapsed": "120° ~1% 101 kPa/1 bār"
+  },
+  {
+    "id": "normalizer/0766",
+    "input": "10.000.000",
+    "normalized": "10.000.000",
+    "collapsed": "10.000.000"
+  },
+  {
+    "id": "normalizer/0767",
+    "input": "9.192.631.770 Hz",
+    "normalized": "9.192.631.770 Hz",
+    "collapsed": "9.192.631.770 Hz"
+  },
+  {
+    "id": "normalizer/0768",
+    "input": "c=299.792.458 m/s",
+    "normalized": "c=299.792.458 m/s",
+    "collapsed": "c=299.792.458 m/s"
+  },
+  {
+    "id": "normalizer/0769",
+    "input": "n_Juzaj'āt×kb×Harāra",
+    "normalized": "n_Juzaj'āt×kb×Harāra",
+    "collapsed": "n_Juzaj'āt×kb×Harāra"
+  },
+  {
+    "id": "normalizer/0770",
+    "input": "C+",
+    "normalized": "C+",
+    "collapsed": "C+"
+  },
+  {
+    "id": "normalizer/0771",
+    "input": "+C",
+    "normalized": "+C",
+    "collapsed": "+C"
+  },
+  {
+    "id": "normalizer/0772",
+    "input": "x+",
+    "normalized": "x+",
+    "collapsed": "x+"
+  },
+  {
+    "id": "normalizer/0773",
+    "input": "+x",
+    "normalized": "+x",
+    "collapsed": "+x"
+  },
+  {
+    "id": "normalizer/0774",
+    "input": "a + b",
+    "normalized": "a + b",
+    "collapsed": "a + b"
+  },
+  {
+    "id": "normalizer/0775",
+    "input": "ab+cd",
+    "normalized": "ab+kd",
+    "collapsed": "ab+cd"
+  },
+  {
+    "id": "normalizer/0776",
+    "input": "C−",
+    "normalized": "C−",
+    "collapsed": "C−"
+  },
+  {
+    "id": "normalizer/0777",
+    "input": "−C",
+    "normalized": "−C",
+    "collapsed": "−C"
+  },
+  {
+    "id": "normalizer/0778",
+    "input": "x−",
+    "normalized": "x−",
+    "collapsed": "x−"
+  },
+  {
+    "id": "normalizer/0779",
+    "input": "−x",
+    "normalized": "−x",
+    "collapsed": "−x"
+  },
+  {
+    "id": "normalizer/0780",
+    "input": "a − b",
+    "normalized": "a − b",
+    "collapsed": "a − b"
+  },
+  {
+    "id": "normalizer/0781",
+    "input": "ab−cd",
+    "normalized": "ab−kd",
+    "collapsed": "ab−cd"
+  },
+  {
+    "id": "normalizer/0782",
+    "input": "C=",
+    "normalized": "C=",
+    "collapsed": "C="
+  },
+  {
+    "id": "normalizer/0783",
+    "input": "=C",
+    "normalized": "=C",
+    "collapsed": "=C"
+  },
+  {
+    "id": "normalizer/0784",
+    "input": "x=",
+    "normalized": "x=",
+    "collapsed": "x="
+  },
+  {
+    "id": "normalizer/0785",
+    "input": "=x",
+    "normalized": "=x",
+    "collapsed": "=x"
+  },
+  {
+    "id": "normalizer/0786",
+    "input": "a = b",
+    "normalized": "a = b",
+    "collapsed": "a = b"
+  },
+  {
+    "id": "normalizer/0787",
+    "input": "ab=cd",
+    "normalized": "ab=kd",
+    "collapsed": "ab=cd"
+  },
+  {
+    "id": "normalizer/0788",
+    "input": "C^",
+    "normalized": "C^",
+    "collapsed": "C^"
+  },
+  {
+    "id": "normalizer/0789",
+    "input": "^C",
+    "normalized": "^C",
+    "collapsed": "^C"
+  },
+  {
+    "id": "normalizer/0790",
+    "input": "x^",
+    "normalized": "x^",
+    "collapsed": "x^"
+  },
+  {
+    "id": "normalizer/0791",
+    "input": "^x",
+    "normalized": "^x",
+    "collapsed": "^x"
+  },
+  {
+    "id": "normalizer/0792",
+    "input": "a ^ b",
+    "normalized": "a ^ b",
+    "collapsed": "a ^ b"
+  },
+  {
+    "id": "normalizer/0793",
+    "input": "ab^cd",
+    "normalized": "ab^kd",
+    "collapsed": "ab^cd"
+  },
+  {
+    "id": "normalizer/0794",
+    "input": "C°",
+    "normalized": "C°",
+    "collapsed": "C°"
+  },
+  {
+    "id": "normalizer/0795",
+    "input": "°C",
+    "normalized": "°C",
+    "collapsed": "°C"
+  },
+  {
+    "id": "normalizer/0796",
+    "input": "x°",
+    "normalized": "x°",
+    "collapsed": "x°"
+  },
+  {
+    "id": "normalizer/0797",
+    "input": "°x",
+    "normalized": "°x",
+    "collapsed": "°x"
+  },
+  {
+    "id": "normalizer/0798",
+    "input": "a ° b",
+    "normalized": "a ° b",
+    "collapsed": "a ° b"
+  },
+  {
+    "id": "normalizer/0799",
+    "input": "ab°cd",
+    "normalized": "ab°kd",
+    "collapsed": "ab°cd"
+  },
+  {
+    "id": "normalizer/0800",
+    "input": "C*",
+    "normalized": "C*",
+    "collapsed": "C*"
+  },
+  {
+    "id": "normalizer/0801",
+    "input": "*C",
+    "normalized": "*C",
+    "collapsed": "*C"
+  },
+  {
+    "id": "normalizer/0802",
+    "input": "x*",
+    "normalized": "x*",
+    "collapsed": "x*"
+  },
+  {
+    "id": "normalizer/0803",
+    "input": "*x",
+    "normalized": "*x",
+    "collapsed": "*x"
+  },
+  {
+    "id": "normalizer/0804",
+    "input": "a * b",
+    "normalized": "a * b",
+    "collapsed": "a * b"
+  },
+  {
+    "id": "normalizer/0805",
+    "input": "ab*cd",
+    "normalized": "ab*kd",
+    "collapsed": "ab*cd"
+  },
+  {
+    "id": "normalizer/0806",
+    "input": "C/",
+    "normalized": "C/",
+    "collapsed": "C/"
+  },
+  {
+    "id": "normalizer/0807",
+    "input": "/C",
+    "normalized": "/C",
+    "collapsed": "/C"
+  },
+  {
+    "id": "normalizer/0808",
+    "input": "x/",
+    "normalized": "x/",
+    "collapsed": "x/"
+  },
+  {
+    "id": "normalizer/0809",
+    "input": "/x",
+    "normalized": "/x",
+    "collapsed": "/x"
+  },
+  {
+    "id": "normalizer/0810",
+    "input": "a / b",
+    "normalized": "a / b",
+    "collapsed": "a / b"
+  },
+  {
+    "id": "normalizer/0811",
+    "input": "ab/cd",
+    "normalized": "ab/kd",
+    "collapsed": "ab/cd"
+  },
+  {
+    "id": "normalizer/0812",
+    "input": "C(",
+    "normalized": "C(",
+    "collapsed": "C("
+  },
+  {
+    "id": "normalizer/0813",
+    "input": "(C",
+    "normalized": "(C",
+    "collapsed": "(C"
+  },
+  {
+    "id": "normalizer/0814",
+    "input": "x(",
+    "normalized": "x(",
+    "collapsed": "x("
+  }
+]

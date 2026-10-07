@@ -1,0 +1,434 @@
+[
+  {
+    "id": "alias-runs/en2ar/0033",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeee",
+      "A1": "اَِيِي",
+      "L2": "aīj",
+      "A2": "اَِييْ",
+      "L3": "ajj",
+      "A3": "اَيّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0036",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeeee",
+      "A1": "اَِيِي",
+      "L2": "aīj",
+      "A2": "اَِييْ",
+      "L3": "ajj",
+      "A3": "اَيّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0037",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "eeeee",
+      "A1": "ِيِيِي",
+      "L2": "īīj",
+      "A2": "ِيِييْ",
+      "L3": "ījj",
+      "A3": "ِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0038",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "beeeee",
+      "A1": "بِيِيِي",
+      "L2": "bīīj",
+      "A2": "بِيِييْ",
+      "L3": "bījj",
+      "A3": "بِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0039",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeeeee",
+      "A1": "اَِيِيِي",
+      "L2": "aīīj",
+      "A2": "اَِيِييْ",
+      "L3": "aījj",
+      "A3": "اَِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0040",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "eeeeee",
+      "A1": "ِيِيِي",
+      "L2": "īīj",
+      "A2": "ِيِييْ",
+      "L3": "ījj",
+      "A3": "ِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0041",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "beeeeee",
+      "A1": "بِيِيِي",
+      "L2": "bīīj",
+      "A2": "بِيِييْ",
+      "L3": "bījj",
+      "A3": "بِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0042",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeeeeee",
+      "A1": "اَِيِيِي",
+      "L2": "aīīj",
+      "A2": "اَِيِييْ",
+      "L3": "aījj",
+      "A3": "اَِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0043",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "eeeeeee",
+      "A1": "ِيِيِيِي",
+      "L2": "īīīj",
+      "A2": "ِيِيِييْ",
+      "L3": "īījj",
+      "A3": "ِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0044",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "beeeeeee",
+      "A1": "بِيِيِيِي",
+      "L2": "bīīīj",
+      "A2": "بِيِيِييْ",
+      "L3": "bīījj",
+      "A3": "بِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0045",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeeeeeee",
+      "A1": "اَِيِيِيِي",
+      "L2": "aīīīj",
+      "A2": "اَِيِيِييْ",
+      "L3": "aīījj",
+      "A3": "اَِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0046",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "eeeeeeee",
+      "A1": "ِيِيِيِي",
+      "L2": "īīīj",
+      "A2": "ِيِيِييْ",
+      "L3": "īījj",
+      "A3": "ِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0047",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "beeeeeeee",
+      "A1": "بِيِيِيِي",
+      "L2": "bīīīj",
+      "A2": "بِيِيِييْ",
+      "L3": "bīījj",
+      "A3": "بِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0048",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeeeee",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aeeeeeeee",
+      "A1": "اَِيِيِيِي",
+      "L2": "aīīīj",
+      "A2": "اَِيِيِييْ",
+      "L3": "aīījj",
+      "A3": "اَِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0057",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aiii",
+      "A1": "اَِيِي",
+      "L2": "aīj",
+      "A2": "اَِييْ",
+      "L3": "ajj",
+      "A3": "اَيّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0060",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aiiii",
+      "A1": "اَِيِي",
+      "L2": "aīj",
+      "A2": "اَِييْ",
+      "L3": "ajj",
+      "A3": "اَيّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0061",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "iiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "iiiii",
+      "A1": "ِيِيِي",
+      "L2": "īīj",
+      "A2": "ِيِييْ",
+      "L3": "ījj",
+      "A3": "ِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0062",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "biiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "biiiii",
+      "A1": "بِيِيِي",
+      "L2": "bīīj",
+      "A2": "بِيِييْ",
+      "L3": "bījj",
+      "A3": "بِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0063",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aiiiii",
+      "A1": "اَِيِيِي",
+      "L2": "aīīj",
+      "A2": "اَِيِييْ",
+      "L3": "aījj",
+      "A3": "اَِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0064",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "iiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "iiiiii",
+      "A1": "ِيِيِي",
+      "L2": "īīj",
+      "A2": "ِيِييْ",
+      "L3": "ījj",
+      "A3": "ِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0065",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "biiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "biiiiii",
+      "A1": "بِيِيِي",
+      "L2": "bīīj",
+      "A2": "بِيِييْ",
+      "L3": "bījj",
+      "A3": "بِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0066",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aiiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "aiiiiii",
+      "A1": "اَِيِيِي",
+      "L2": "aīīj",
+      "A2": "اَِيِييْ",
+      "L3": "aījj",
+      "A3": "اَِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0067",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "iiiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "iiiiiii",
+      "A1": "ِيِيِيِي",
+      "L2": "īīīj",
+      "A2": "ِيِيِييْ",
+      "L3": "īījj",
+      "A3": "ِيِييّ"
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0068",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "biiiiiii",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "biiiiiii",
+      "A1": "بِيِيِيِي",
+      "L2": "bīīīj",
+      "A2": "بِيِيِييْ",
+      "L3": "bīījj",
+      "A3": "بِيِييّ"
+    }
+  }
+]

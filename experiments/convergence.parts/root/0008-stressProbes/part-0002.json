@@ -1,0 +1,32 @@
+[
+  {
+    "id": "extended-arabic-ya-run/128",
+    "direction": "ar2en",
+    "input": "اَِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِي",
+    "status": "stable",
+    "stableAfterRoundTrips": 128,
+    "confirmedAtRoundTrip": 129,
+    "finalFormFirstAtStep": {
+      "Latin": 255,
+      "Arabic": 256
+    },
+    "stablePairReachedAtConversion": 256,
+    "finalStates": [
+      {
+        "step": 256,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 257,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 258,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      }
+    ]
+  }
+]

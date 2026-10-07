@@ -1,0 +1,74 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0118",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "na-am\nna-am؛ uN\nna-am\tmā' queue؛ alSSabāH+marHaba world\nalSawt\tby+na-am\tshaj' alSSabāH book\nbook\tcity\nqueue؛ alSawt+yellow quvva+by؛ quvva\nna-am\tworld\ncity؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+by\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nby؛ uN؟",
+    "output": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباH+مَرحَبَ وُرلد\nاَلصَوْت\tبِي+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِي\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِي؛ قُوَّ\nنَعَم\tوُرلد\nسِتِي؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِي\tشَيْء+mاء؛ كِتاb+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِي؛ ٌ؟",
+    "roundTrip": "na-am\nna-am; uN\nna-am\tmā' quiui; alSSabāH+marHaba vurld\nalSavt\tbī+na-am\tshaj' alSSabāH būk\nbūk\tsitī\nquiui; alSavt+jilluv quvva+bī; quvva\nna-am\tvurld\nsitī; alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bī\tshaj'+mā'; kitāb+-alá quvva min\tanta shaj'\tanta\nbī; uN?",
+    "secondPass": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباH+مَرحَبَ وُرلد\nاَلصَوْت\tبِي+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِي\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+bِي؛ قُوَّ\nنَعَم\tوُرلد\nسِتِي؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+bِي\tشَيْء+mاء؛ كِتاb+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِي؛ ٌ؟",
+    "before": {
+      "output": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباH+مَرحَبَ وُرلد\nاَلصَوْت\tبِي+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِي\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِي؛ قُوَّ\nنَعَم\tوُرلد\nسِتِي؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِي\tشَيْء+mاء؛ كِتاb+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِي؛ ٌ؟",
+      "roundTrip": "na-am\nna-am; uN\nna-am\tmā' quiui; alSSabāH+marHaba vurld\nalSavt\tbī+na-am\tshaj' alSSabāH būk\nbūk\tsitī\nquiui; alSavt+jilluv quvva+bī; quvva\nna-am\tvurld\nsitī; alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bī\tshaj'+mā'; kitāb+-alá quvva min\tanta shaj'\tanta\nbī; uN?",
+      "secondPass": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباH+مَرحَبَ وُرلد\nاَلصَوْت\tبِي+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِي\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+bِي؛ قُوَّ\nنَعَم\tوُرلد\nسِتِي؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+bِي\tشَيْء+mاء؛ كِتاb+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِي؛ ٌ؟"
+    },
+    "after": {
+      "output": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباح+مَرحَبَ وُرلد\nاَلصَوْت\tبِ+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِ\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِ؛ قُوَّ\nنَعَم\tوُرلد\nسِتِ؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِ\tشَيْء+ماء؛ كِتاب+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِ؛ ٌ؟",
+      "roundTrip": "na-am\nna-am; uN\nna-am\tmā' quiui; alSSabāH+marHaba vurld\nalSavt\tbi+na-am\tshaj' alSSabāH būk\nbūk\tsiti\nquiui; alSavt+jilluv quvva+bi; quvva\nna-am\tvurld\nsiti; alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bi\tshaj'+mā'; kitāb+-alá quvva min\tanta shaj'\tanta\nbi; uN?",
+      "secondPass": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباح+مَرحَبَ وُرلد\nاَلصَوْت\tبِ+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِ\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِ؛ قُوَّ\nنَعَم\tوُرلد\nسِتِ؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِ\tشَيْء+ماء؛ كِتاب+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِ؛ ٌ؟"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0119",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "coffee, hello? rubbamā\n\nrubbamā? shāj, lā? ghadaN, coffee/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? my, rubbamā hello — with/su'āl, coffee? school\n\nwith lajla, ghadaN/satasma-, fī? iN, hello\n",
+    "output": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِي، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n",
+    "roundTrip": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mī, rubbamā hillu — vith/su'āl, kuffī? stJūl\n\nvith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+    "secondPass": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِي، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n",
+    "before": {
+      "output": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِي، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n",
+      "roundTrip": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mī, rubbamā hillu — vith/su'āl, kuffī? stJūl\n\nvith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+      "secondPass": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِي، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n"
+    },
+    "after": {
+      "output": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِ، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n",
+      "roundTrip": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mi, rubbamā hillu — vith/su'āl, kuffī? stJūl\n\nvith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+      "secondPass": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سةَسمَع؟ رُبَّما، ٍ؟ مِ، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سةَسمَع، فِي؟ ٍ، هِلُّ\n"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0120",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "na-am+anta shaj' aHmad؛ yellow uN؛ book+aN\tanta+queue\tqahva by qahva+anta aN\nmā' aN\nshaj'\tcity\nkitāb yellow\nby\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "output": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِي قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِي\nكِتاب يِلُّوْ\nبِي\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ.",
+    "roundTrip": "na-am+anta shaj' aHmad; jilluv uN; būk+aN\tanta+quiui\tqahva bī qahva+anta aN\nmā' aN\nshaj'\tsitī\nkitāb jilluv\nbī\tmin\nalSavt\taHmad anta; -alá kitāb; min\naHmad anta.",
+    "secondPass": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوk+ً\tاَنتَ+قُُِِ\tقَهوَ بِي قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِي\nكِتاب يِلُّوْ\nبِي\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ.",
+    "before": {
+      "output": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِي قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِي\nكِتاب يِلُّوْ\nبِي\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ.",
+      "roundTrip": "na-am+anta shaj' aHmad; jilluv uN; būk+aN\tanta+quiui\tqahva bī qahva+anta aN\nmā' aN\nshaj'\tsitī\nkitāb jilluv\nbī\tmin\nalSavt\taHmad anta; -alá kitāb; min\naHmad anta.",
+      "secondPass": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوk+ً\tاَنتَ+قُُِِ\tقَهوَ بِي قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِي\nكِتاب يِلُّوْ\nبِي\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ."
+    },
+    "after": {
+      "output": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِ قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِ\nكِتاب يِلُّوْ\nبِ\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ.",
+      "roundTrip": "na-am+anta shaj' aHmad; jilluv uN; būk+aN\tanta+quiui\tqahva bi qahva+anta aN\nmā' aN\nshaj'\tsiti\nkitāb jilluv\nbi\tmin\nalSavt\taHmad anta; -alá kitāb; min\naHmad anta.",
+      "secondPass": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِ قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِ\nكِتاب يِلُّوْ\nبِ\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

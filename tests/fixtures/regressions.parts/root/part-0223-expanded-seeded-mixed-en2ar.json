@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0049",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "queue — anta? book, coffee? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — school في, قارئ/ghadaN, iN/عائشة, world قُوَّة\n\nمن? ",
+    "output": "قُُِِ — اَنتَ؟ بُوك، كُفِّي؟ مَرحَبَ، اَنا؟ مساءً، نَحنُ/فِي، غَدً/صوت — ستجُول في، قارئ/غَدً، ٍ/عائشة، وُرلد قُوَّة\n\nمن؟ ",
+    "roundTrip": "quiui — anta? būk, kuffī? marHaba, anā? msā'aN, naHnu/fī, ghadaN/Sūt — stJūl fī, qār'/ghadaN, iN/-ā'shat, vurld quvvāt\n\nmn? ",
+    "secondPass": "قُُِِ — اَنتَ؟ بُوك، كُفِّي؟ مَرحَبَ، اَنا؟ مساأً، نَحنُ/فِي، غَدً/صُوت — ستجُول فِي، قارء/غَدً، ٍ/عاءشة، وُرلد قُوّات\n\nمن؟ "
+  }
+]

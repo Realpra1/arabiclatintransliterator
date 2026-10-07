@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0011",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "E=mc^2\n\nحَيّ? هي, queue? book\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mc^2/rhythm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am ",
+    "output": "E=mc^2\n\nHajj? hī, queue? book\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mc^2/rhythm, l'n/līlá\n\naldhī 🙂 — Sūt 'ant — na-am ",
+    "roundTrip": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِيثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم ",
+    "secondPass": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhīthm, l'n/līlá\n\naldhī 🙂 — Sūt ant — na-am ",
+    "before": {
+      "output": "E=mc^2\n\nHajj? hī, queue? book\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mc^2/rhythm, l'n/līlá\n\naldhī 🙂 — Sūt 'ant — na-am ",
+      "roundTrip": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِيثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم ",
+      "secondPass": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhīthm, l'n/līlá\n\naldhī 🙂 — Sūt ant — na-am "
+    },
+    "after": {
+      "output": "E=mc^2\n\nHajj? hī, queue? book\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mc^2/rhythm, l'n/līlá\n\naldhī 🙂 — Sūt 'ant — na-am ",
+      "roundTrip": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم ",
+      "secondPass": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhithm, l'n/līlá\n\naldhī 🙂 — Sūt ant — na-am "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

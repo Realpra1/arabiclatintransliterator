@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0010",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "marHaba — uN? نحن — E=mc^2 مسؤول, uN? شاي, lajla? Hajj\n\nشَمْسٌ/satasma-, هي? نافذة\n\nاليوم/محمد\n\n-alá? E=mc^2 — كتاب ilá — iN ",
+    "output": "marHaba — uN? nHn — E=mc^2 ms'ūl, uN? shāj, lajla? Hajj\n\nshamsuN/satasma-, hī? nāfdhat\n\nalīvm/mHmd\n\n-alá? E=mc^2 — ktāb ilá — iN ",
+    "roundTrip": "مَرحَبَ — ٌ؟ نحن — E=مك^2 مسؤُول، ٌ؟ شايْ، لَيْلَ؟ حَيّ\n\nشَمسٌ/سَتَسمَع، هِي؟ نافذة\n\nاَلِيوْم/محمد\n\nعَلى؟ E=مك^2 — كتاب إِلى — ٍ ",
+    "secondPass": "marHaba — uN? nHn — E=mk^2 ms'ūl, uN? shāj, lajla? Hajj\n\nshamsuN/satasma-, hī? nāfdhat\n\nalīvm/mHmd\n\n-alá? E=mk^2 — ktāb ilá — iN "
+  }
+]

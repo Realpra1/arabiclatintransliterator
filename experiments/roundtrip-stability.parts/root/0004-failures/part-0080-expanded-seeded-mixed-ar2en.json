@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0047",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/",
+      "L1": "queue, n-m? alSawt\n\nanā hdhh\n\n'anā/ālīvm — min? lā — 'anā/nāfdhat — shāj? my — stsm- alSawt\n\nna-am/by — shamsuN/-alá — 'aHmd/",
+      "A2": "قُُِِ، نعم؟ اَلصَوْت\n\nاَنا هذه\n\nأَنا/الِيوْم — مِن؟ لا — أَنا/نافذة — شايْ؟ مِ — ستسمع اَلصَوْت\n\nنَعَم/بِ — شَمسٌ/عَلى — أَحمد/",
+      "L2": "quiui, n-m? alSavt\n\nanā hdhh\n\nanā/ālīvm — min? lā — anā/nāfdhat — shāj? mi — stsm- alSavt\n\nna-am/bi — shamsuN/-alá — aHmd/",
+      "A3": "قُُِِ، نعم؟ اَلصَوْت\n\nاَنا هذه\n\nاَنا/الِيوْم — مِن؟ لا — اَنا/نافذة — شايْ؟ مِ — ستسمع اَلصَوْت\n\nنَعَم/بِ — شَمسٌ/عَلى — اَحمد/",
+      "L3": "quiui, n-m? alSavt\n\nanā hdhh\n\nanā/ālīvm — min? lā — anā/nāfdhat — shāj? mi — stsm- alSavt\n\nna-am/bi — shamsuN/-alá — aHmd/"
+    }
+  }
+]

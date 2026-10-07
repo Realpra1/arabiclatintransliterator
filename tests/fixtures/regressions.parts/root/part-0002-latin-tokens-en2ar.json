@@ -1,0 +1,56 @@
+[
+  {
+    "id": "latin-tokens/en2ar/0050",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "y",
+    "output": "يْ",
+    "roundTrip": "j",
+    "secondPass": "يْ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0051",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "p",
+    "output": "ب",
+    "roundTrip": "b",
+    "secondPass": "ب"
+  },
+  {
+    "id": "latin-tokens/en2ar/0052",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "g",
+    "output": "ج",
+    "roundTrip": "J",
+    "secondPass": "ج"
+  },
+  {
+    "id": "latin-tokens/en2ar/0053",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "x",
+    "output": "إِكس",
+    "roundTrip": "iks",
+    "secondPass": "إِكس"
+  },
+  {
+    "id": "latin-tokens/en2ar/0054",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "e",
+    "output": "إِ",
+    "roundTrip": "i",
+    "secondPass": "إِ"
+  },
+  {
+    "id": "latin-tokens/en2ar/0055",
+    "group": "latin-tokens",
+    "direction": "en2ar",
+    "input": "o",
+    "output": "أُ",
+    "roundTrip": "u",
+    "secondPass": "أُ"
+  }
+]

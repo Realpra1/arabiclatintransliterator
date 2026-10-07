@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0037",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+    "output": "الذي، أمس؟ شيء، غَدً/شَمْسٌ\n\nسَتَسمَع عائشة — في؟ نافذة، هواء؟ لكن\n\nليلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ ",
+    "roundTrip": "aldhī, 'ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla ",
+    "secondPass": "اَلذِي، أَمس؟ شِيئ، غَدً/شَمسٌ\n\nسَتَسمَع عاءشة — فِي؟ نافذة، هوْاء؟ لكن\n\nلِيلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ "
+  }
+]

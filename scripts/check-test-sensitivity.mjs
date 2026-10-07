@@ -14,7 +14,7 @@ const mutations = [
 ];
 const temporary = mkdtempSync(join(tmpdir(), 'arabiclatin-regression-'));
 try {
-  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests']) {
+  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests', 'scripts/lib']) {
     cpSync(new URL(file, root), join(temporary, file), { recursive: true });
   }
   for (const mutation of mutations) {

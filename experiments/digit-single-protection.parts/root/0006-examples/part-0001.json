@@ -1,0 +1,444 @@
+[
+  {
+    "input": "CO2",
+    "before": {
+      "output": "كُ2",
+      "roundTrip": "ku2",
+      "secondPass": "كُ2"
+    },
+    "after": {
+      "output": "CO2",
+      "roundTrip": "CO2",
+      "secondPass": "CO2"
+    }
+  },
+  {
+    "input": "(CO2)",
+    "before": {
+      "output": "(كُ2)",
+      "roundTrip": "(ku2)",
+      "secondPass": "(كُ2)"
+    },
+    "after": {
+      "output": "(CO2)",
+      "roundTrip": "(CO2)",
+      "secondPass": "(CO2)"
+    }
+  },
+  {
+    "input": "KU2",
+    "before": {
+      "output": "كُ2",
+      "roundTrip": "ku2",
+      "secondPass": "كُ2"
+    },
+    "after": {
+      "output": "KU2",
+      "roundTrip": "KU2",
+      "secondPass": "KU2"
+    }
+  },
+  {
+    "input": "12CO",
+    "before": {
+      "output": "12كُ",
+      "roundTrip": "12ku",
+      "secondPass": "12كُ"
+    },
+    "after": {
+      "output": "12CO",
+      "roundTrip": "12CO",
+      "secondPass": "12CO"
+    }
+  },
+  {
+    "input": "CO2Na",
+    "before": {
+      "output": "كُ2Nاَ",
+      "roundTrip": "ku2Na",
+      "secondPass": "كُ2Nاَ"
+    },
+    "after": {
+      "output": "CO2Na",
+      "roundTrip": "CO2Na",
+      "secondPass": "CO2Na"
+    }
+  },
+  {
+    "input": "Na2CO3",
+    "before": {
+      "output": "Nاَ2كُ3",
+      "roundTrip": "Na2ku3",
+      "secondPass": "Nاَ2كُ3"
+    },
+    "after": {
+      "output": "Na2CO3",
+      "roundTrip": "Na2CO3",
+      "secondPass": "Na2CO3"
+    }
+  },
+  {
+    "input": "H2O",
+    "before": {
+      "output": "ح2أُ",
+      "roundTrip": "H2'u",
+      "secondPass": "ح2أُ"
+    },
+    "after": {
+      "output": "H2O",
+      "roundTrip": "H2O",
+      "secondPass": "H2O"
+    }
+  },
+  {
+    "input": "H2SO4",
+    "before": {
+      "output": "ح2صُ4",
+      "roundTrip": "H2Su4",
+      "secondPass": "ح2صُ4"
+    },
+    "after": {
+      "output": "H2SO4",
+      "roundTrip": "H2SO4",
+      "secondPass": "H2SO4"
+    }
+  },
+  {
+    "input": "O2",
+    "before": {
+      "output": "أُ2",
+      "roundTrip": "u2",
+      "secondPass": "أُ2"
+    },
+    "after": {
+      "output": "O2",
+      "roundTrip": "O2",
+      "secondPass": "O2"
+    }
+  },
+  {
+    "input": "P",
+    "before": {
+      "output": "ب",
+      "roundTrip": "b",
+      "secondPass": "ب"
+    },
+    "after": {
+      "output": "ب",
+      "roundTrip": "b",
+      "secondPass": "ب"
+    }
+  },
+  {
+    "input": "(P)",
+    "before": {
+      "output": "(P)",
+      "roundTrip": "(P)",
+      "secondPass": "(P)"
+    },
+    "after": {
+      "output": "(P)",
+      "roundTrip": "(P)",
+      "secondPass": "(P)"
+    }
+  },
+  {
+    "input": "(cat)",
+    "before": {
+      "output": "(كة)",
+      "roundTrip": "(kat)",
+      "secondPass": "(كة)"
+    },
+    "after": {
+      "output": "(كة)",
+      "roundTrip": "(kat)",
+      "secondPass": "(كة)"
+    }
+  },
+  {
+    "input": "(city)",
+    "before": {
+      "output": "(سِتِ)",
+      "roundTrip": "(siti)",
+      "secondPass": "(سِتِ)"
+    },
+    "after": {
+      "output": "(سِتِ)",
+      "roundTrip": "(siti)",
+      "secondPass": "(سِتِ)"
+    }
+  },
+  {
+    "input": "(school)",
+    "before": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُول)"
+    },
+    "after": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُول)"
+    }
+  },
+  {
+    "input": "(fī)",
+    "before": {
+      "output": "(فِي)",
+      "roundTrip": "(fī)",
+      "secondPass": "(فِي)"
+    },
+    "after": {
+      "output": "(فِي)",
+      "roundTrip": "(fī)",
+      "secondPass": "(فِي)"
+    }
+  },
+  {
+    "input": "/city",
+    "before": {
+      "output": "/سِتِ",
+      "roundTrip": "/siti",
+      "secondPass": "/سِتِ"
+    },
+    "after": {
+      "output": "/سِتِ",
+      "roundTrip": "/siti",
+      "secondPass": "/سِتِ"
+    }
+  },
+  {
+    "input": "city+cat",
+    "before": {
+      "output": "سِتِ+كة",
+      "roundTrip": "siti+kat",
+      "secondPass": "سِتِ+كة"
+    },
+    "after": {
+      "output": "سِتِ+كة",
+      "roundTrip": "siti+kat",
+      "secondPass": "سِتِ+كة"
+    }
+  },
+  {
+    "input": "city=cat",
+    "before": {
+      "output": "سِتِ=كة",
+      "roundTrip": "siti=kat",
+      "secondPass": "سِتِ=كة"
+    },
+    "after": {
+      "output": "سِتِ=كة",
+      "roundTrip": "siti=kat",
+      "secondPass": "سِتِ=كة"
+    }
+  },
+  {
+    "input": "cat2",
+    "before": {
+      "output": "كة2",
+      "roundTrip": "kat2",
+      "secondPass": "كة2"
+    },
+    "after": {
+      "output": "cat2",
+      "roundTrip": "cat2",
+      "secondPass": "cat2"
+    }
+  },
+  {
+    "input": "2cat",
+    "before": {
+      "output": "2كة",
+      "roundTrip": "2kat",
+      "secondPass": "2كة"
+    },
+    "after": {
+      "output": "2cat",
+      "roundTrip": "2cat",
+      "secondPass": "2cat"
+    }
+  },
+  {
+    "input": "cat 2",
+    "before": {
+      "output": "كة 2",
+      "roundTrip": "kat 2",
+      "secondPass": "كة 2"
+    },
+    "after": {
+      "output": "كة 2",
+      "roundTrip": "kat 2",
+      "secondPass": "كة 2"
+    }
+  },
+  {
+    "input": "2 cat",
+    "before": {
+      "output": "2 كة",
+      "roundTrip": "2 kat",
+      "secondPass": "2 كة"
+    },
+    "after": {
+      "output": "2 كة",
+      "roundTrip": "2 kat",
+      "secondPass": "2 كة"
+    }
+  },
+  {
+    "input": "cat+2",
+    "before": {
+      "output": "كة+2",
+      "roundTrip": "kat+2",
+      "secondPass": "كة+2"
+    },
+    "after": {
+      "output": "كة+2",
+      "roundTrip": "kat+2",
+      "secondPass": "كة+2"
+    }
+  },
+  {
+    "input": "cat(2)",
+    "before": {
+      "output": "كة(2)",
+      "roundTrip": "kat(2)",
+      "secondPass": "كة(2)"
+    },
+    "after": {
+      "output": "كة(2)",
+      "roundTrip": "kat(2)",
+      "secondPass": "كة(2)"
+    }
+  },
+  {
+    "input": "CO₂",
+    "before": {
+      "output": "كُ₂",
+      "roundTrip": "ku₂",
+      "secondPass": "كُ₂"
+    },
+    "after": {
+      "output": "كُ₂",
+      "roundTrip": "ku₂",
+      "secondPass": "كُ₂"
+    }
+  },
+  {
+    "input": "CO٢",
+    "before": {
+      "output": "كُ٢",
+      "roundTrip": "ku٢",
+      "secondPass": "كُ٢"
+    },
+    "after": {
+      "output": "كُ٢",
+      "roundTrip": "ku٢",
+      "secondPass": "كُ٢"
+    }
+  },
+  {
+    "input": "CO۲",
+    "before": {
+      "output": "كُ۲",
+      "roundTrip": "ku۲",
+      "secondPass": "كُ۲"
+    },
+    "after": {
+      "output": "كُ۲",
+      "roundTrip": "ku۲",
+      "secondPass": "كُ۲"
+    }
+  },
+  {
+    "input": "sīzjūm133",
+    "before": {
+      "output": "سِيزيُْوم133",
+      "roundTrip": "sīzjūm133",
+      "secondPass": "سِيزيُْوم133"
+    },
+    "after": {
+      "output": "sīzjūm133",
+      "roundTrip": "sīzjūm133",
+      "secondPass": "sīzjūm133"
+    }
+  },
+  {
+    "input": "sīzjūm-133",
+    "before": {
+      "output": "سِيزيُْومع133",
+      "roundTrip": "sīzjūm-133",
+      "secondPass": "سِيزيُْومع133"
+    },
+    "after": {
+      "output": "سِيزيُْومع133",
+      "roundTrip": "sīzjūm-133",
+      "secondPass": "سِيزيُْومع133"
+    }
+  },
+  {
+    "input": "sīzjūm 133",
+    "before": {
+      "output": "سِيزيُْوم 133",
+      "roundTrip": "sīzjūm 133",
+      "secondPass": "سِيزيُْوم 133"
+    },
+    "after": {
+      "output": "سِيزيُْوم 133",
+      "roundTrip": "sīzjūm 133",
+      "secondPass": "سِيزيُْوم 133"
+    }
+  },
+  {
+    "input": "sīzjūm–133",
+    "before": {
+      "output": "سِيزيُْوم–133",
+      "roundTrip": "sīzjūm–133",
+      "secondPass": "سِيزيُْوم–133"
+    },
+    "after": {
+      "output": "سِيزيُْوم–133",
+      "roundTrip": "sīzjūm–133",
+      "secondPass": "سِيزيُْوم–133"
+    }
+  },
+  {
+    "input": "sīzjūm−133",
+    "before": {
+      "output": "سِيزيُْوم−133",
+      "roundTrip": "sīzjūm−133",
+      "secondPass": "سِيزيُْوم−133"
+    },
+    "after": {
+      "output": "سِيزيُْوم−133",
+      "roundTrip": "sīzjūm−133",
+      "secondPass": "سِيزيُْوم−133"
+    }
+  },
+  {
+    "input": "(sīzjūm-133)",
+    "before": {
+      "output": "(سِيزيُْومع133)",
+      "roundTrip": "(sīzjūm-133)",
+      "secondPass": "(سِيزيُْومع133)"
+    },
+    "after": {
+      "output": "(سِيزيُْومع133)",
+      "roundTrip": "(sīzjūm-133)",
+      "secondPass": "(سِيزيُْومع133)"
+    }
+  },
+  {
+    "input": "v2",
+    "before": {
+      "output": "وْ2",
+      "roundTrip": "v2",
+      "secondPass": "وْ2"
+    },
+    "after": {
+      "output": "v2",
+      "roundTrip": "v2",
+      "secondPass": "v2"
+    }
+  }
+]

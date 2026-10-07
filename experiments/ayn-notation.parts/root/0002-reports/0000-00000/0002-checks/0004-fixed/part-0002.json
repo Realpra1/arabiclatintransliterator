@@ -1,0 +1,447 @@
+[
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0094",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0094",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0103",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0103",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0103",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0103",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0104",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0104",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0104",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0104",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0105",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0105",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0105",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0105",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0106",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0106",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0106",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0106",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0107",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0107",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0107",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0107",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0110",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0110",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0110",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0110",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0116",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0116",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0116",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0116",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0117",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0117",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0117",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0117",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0126",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0126",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0126",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0126",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0127",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0127",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0127",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0127",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0128",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0128",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0128",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0128",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0129",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0129",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0129",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0129",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0149",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0149",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0149",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0149",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0150",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0150",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0150",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0150",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0151",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0151",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0151",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0151",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0152",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0152",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0152",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0152",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0153",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0153",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0153",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0153",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0156",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0156",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0156",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  }
+]

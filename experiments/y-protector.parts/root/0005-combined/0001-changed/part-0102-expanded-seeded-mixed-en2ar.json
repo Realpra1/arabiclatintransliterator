@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0040",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "na-am\n\nā/by, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhythm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? ",
+    "output": "نَعَم\n\nا/بِي، ماء/lا\n\nً/اَحمَد\n\nلَيْلَ قهوة — هذه؟ نافذة — نَعَم؟ هو، رهِيثم أنا\n\nإلى/اَنتَ\n\nالذي/ٌ\n\nعائشة؟ ",
+    "roundTrip": "na-am\n\nā/bī, mā'/lā\n\naN/aHmad\n\nlajla qhūat — hdhh? nāfdhat — na-am? hū, rhīthm 'anā\n\n'ilá/anta\n\naldhī/uN\n\n-ā'shat? ",
+    "secondPass": "نَعَم\n\nا/bِي، ماء/lا\n\nً/اَحمَد\n\nلَيْلَ قهُوة — هذه؟ نافذة — نَعَم؟ هُو، رهِيثم أَنا\n\nإِلى/اَنتَ\n\nاَلذِي/ٌ\n\nعاءشة؟ ",
+    "before": {
+      "output": "نَعَم\n\nا/بِي، ماء/lا\n\nً/اَحمَد\n\nلَيْلَ قهوة — هذه؟ نافذة — نَعَم؟ هو، رهِيثم أنا\n\nإلى/اَنتَ\n\nالذي/ٌ\n\nعائشة؟ ",
+      "roundTrip": "na-am\n\nā/bī, mā'/lā\n\naN/aHmad\n\nlajla qhūat — hdhh? nāfdhat — na-am? hū, rhīthm 'anā\n\n'ilá/anta\n\naldhī/uN\n\n-ā'shat? ",
+      "secondPass": "نَعَم\n\nا/bِي، ماء/lا\n\nً/اَحمَد\n\nلَيْلَ قهُوة — هذه؟ نافذة — نَعَم؟ هُو، رهِيثم أَنا\n\nإِلى/اَنتَ\n\nاَلذِي/ٌ\n\nعاءشة؟ "
+    },
+    "after": {
+      "output": "نَعَم\n\nا/بِ، ماء/لا\n\nً/اَحمَد\n\nلَيْلَ قهوة — هذه؟ نافذة — نَعَم؟ هو، رهِثم أنا\n\nإلى/اَنتَ\n\nالذي/ٌ\n\nعائشة؟ ",
+      "roundTrip": "na-am\n\nā/bi, mā'/lā\n\naN/aHmad\n\nlajla qhūat — hdhh? nāfdhat — na-am? hū, rhithm 'anā\n\n'ilá/anta\n\naldhī/uN\n\n-ā'shat? ",
+      "secondPass": "نَعَم\n\nا/بِ، ماء/لا\n\nً/اَحمَد\n\nلَيْلَ قهُوة — هذه؟ نافذة — نَعَم؟ هُو، رهِثم أَنا\n\nإِلى/اَنتَ\n\nاَلذِي/ٌ\n\nعاءشة؟ "
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

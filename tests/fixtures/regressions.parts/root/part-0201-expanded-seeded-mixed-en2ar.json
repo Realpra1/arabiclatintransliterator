@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0038",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "اليوم\n\nمن/rhythm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhythm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nهي? ",
+    "output": "اليوم\n\nمن/رهِثم\n\nٱلْبَيْتُ؟ غَدً\n\nهذه/رهِثم، ‍/على\n\nصوت؟ سُؤال — مساءً؟ ا\n\nسِتِ قَهوَ — هَوْاء/قُوَّ — رهِثم؟ إِلى\n\nهي؟ ",
+    "roundTrip": "alīvm\n\nmn/rhithm\n\nalbajtu? ghadaN\n\nhdhh/rhithm, ‍/-lá\n\nSūt? su'āl — msā'aN? ā\n\nsiti qahva — havā'/quvva — rhithm? ilá\n\nhī? ",
+    "secondPass": "اَلِيوْم\n\nمن/رهِثم\n\nاَلبَيْتُ؟ غَدً\n\nهذه/رهِثم، ‍/على\n\nصُوت؟ سُؤال — مساأً؟ ا\n\nسِتِ قَهوَ — هَوْاء/قُوَّ — رهِثم؟ إِلى\n\nهِي؟ "
+  }
+]

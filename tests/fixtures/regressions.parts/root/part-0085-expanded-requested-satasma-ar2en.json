@@ -1,0 +1,92 @@
+[
+  {
+    "id": "expanded-requested-satasma/ar2en/0001",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "ستسمع",
+    "output": "stsm-",
+    "roundTrip": "ستسمع",
+    "secondPass": "stsm-"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0002",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "سَتَسْمَع",
+    "output": "satasma-",
+    "roundTrip": "سَتَسمَع",
+    "secondPass": "satasma-"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0003",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "سَتَسمَع",
+    "output": "satasma-",
+    "roundTrip": "سَتَسمَع",
+    "secondPass": "satasma-"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0004",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "سَتَسْمَعُ",
+    "output": "satasma-u",
+    "roundTrip": "سَتَسمَعُ",
+    "secondPass": "satasma-u"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0005",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "ستسمع؟",
+    "output": "stsm-?",
+    "roundTrip": "ستسمع؟",
+    "secondPass": "stsm-?"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0006",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "هل ستسمع الصوت؟",
+    "output": "hl stsm- alSūt?",
+    "roundTrip": "هل ستسمع اَلصُوت؟",
+    "secondPass": "hl stsm- alSūt?"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0007",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "غدًا ستسمع صوت المطر.",
+    "output": "ghdaNā stsm- Sūt almTr.",
+    "roundTrip": "غدًا ستسمع صُوت اَلمطر.",
+    "secondPass": "ghdaNā stsm- Sūt almTr."
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0008",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "ستسمع ستسمع",
+    "output": "stsm- stsm-",
+    "roundTrip": "ستسمع ستسمع",
+    "secondPass": "stsm- stsm-"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0009",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "سَتَسْمَعْ!",
+    "output": "satasma-!",
+    "roundTrip": "سَتَسمَع!",
+    "secondPass": "satasma-!"
+  },
+  {
+    "id": "expanded-requested-satasma/ar2en/0010",
+    "group": "expanded-requested-satasma",
+    "direction": "ar2en",
+    "input": "سَتَسْمَعُ أَصْوَاتًا جَدِيدَةً.",
+    "output": "satasma-u aSvātaNā JadīdataN.",
+    "roundTrip": "سَتَسمَعُ اَصوْاتًا جَدِيدةً.",
+    "secondPass": "satasma-u aSvātaNā JadīdataN."
+  }
+]

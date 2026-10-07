@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0148",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a+v+b",
+    "output": "a+v+b",
+    "roundTrip": "a+v+b",
+    "secondPass": "a+v+b"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0149",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a-v-b",
+    "output": "اَعوْعب",
+    "roundTrip": "a-v-b",
+    "secondPass": "اَعوْعب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0150",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a−v−b",
+    "output": "a−v−b",
+    "roundTrip": "a−v−b",
+    "secondPass": "a−v−b"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0151",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a،v؛b",
+    "output": "اَ،وْ؛ب",
+    "roundTrip": "a,v;b",
+    "secondPass": "اَ،وْ؛ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0152",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a‍v‍b",
+    "output": "اَ‍وْ‍ب",
+    "roundTrip": "a‍v‍b",
+    "secondPass": "اَ‍وْ‍ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0153",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a‌v‌b",
+    "output": "اَ‌وْ‌ب",
+    "roundTrip": "a‌v‌b",
+    "secondPass": "اَ‌وْ‌ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0154",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a⁧v⁩b",
+    "output": "اَ⁧وْ⁩ب",
+    "roundTrip": "a⁧v⁩b",
+    "secondPass": "اَ⁧وْ⁩ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0155",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "بvت",
+    "output": "بوْت",
+    "roundTrip": "bvt",
+    "secondPass": "بوْت"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0156",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "🙂v🙂",
+    "output": "🙂وْ🙂",
+    "roundTrip": "🙂v🙂",
+    "secondPass": "🙂وْ🙂"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0157",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "y",
+    "output": "يْ",
+    "roundTrip": "j",
+    "secondPass": "يْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0158",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": " y ",
+    "output": " يْ ",
+    "roundTrip": " j ",
+    "secondPass": " يْ "
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0159",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "baya",
+    "output": "بَيَ",
+    "roundTrip": "baja",
+    "secondPass": "بَيَ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0160",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "vay",
+    "output": "وَيْ",
+    "roundTrip": "vaj",
+    "secondPass": "وَيْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0161",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "fay",
+    "output": "فَيْ",
+    "roundTrip": "faj",
+    "secondPass": "فَيْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0162",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "liy",
+    "output": "لِيْ",
+    "roundTrip": "lij",
+    "secondPass": "لِيْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0163",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "aly",
+    "output": "اَلِ",
+    "roundTrip": "ali",
+    "secondPass": "اَلِ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0164",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "(y)",
+    "output": "(y)",
+    "roundTrip": "(y)",
+    "secondPass": "(y)"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0165",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "[y]",
+    "output": "[y]",
+    "roundTrip": "[y]",
+    "secondPass": "[y]"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0166",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "«y»",
+    "output": "«y»",
+    "roundTrip": "«y»",
+    "secondPass": "«y»"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0167",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "\"y\"",
+    "output": "\"y\"",
+    "roundTrip": "\"y\"",
+    "secondPass": "\"y\""
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0168",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a y i",
+    "output": "اَ يْ إِ",
+    "roundTrip": "a j i",
+    "secondPass": "اَ يْ إِ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0169",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a\ny\nu",
+    "output": "اَ\nيْ\nأُ",
+    "roundTrip": "a\nj\nu",
+    "secondPass": "اَ\nيْ\nأُ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0170",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a\ty\tb",
+    "output": "اَ\tيْ\tب",
+    "roundTrip": "a\tj\tb",
+    "secondPass": "اَ\tيْ\tب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0171",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a\r\ny\r\nb",
+    "output": "اَ\r\nيْ\r\nب",
+    "roundTrip": "a\r\nj\r\nb",
+    "secondPass": "اَ\r\nيْ\r\nب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0172",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a y b",
+    "output": "اَ يْ ب",
+    "roundTrip": "a j b",
+    "secondPass": "اَ يْ ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0173",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a/y/b",
+    "output": "a/y/b",
+    "roundTrip": "a/y/b",
+    "secondPass": "a/y/b"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0174",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a+y+b",
+    "output": "a+y+b",
+    "roundTrip": "a+y+b",
+    "secondPass": "a+y+b"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0175",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a-y-b",
+    "output": "اَعيْعب",
+    "roundTrip": "a-j-b",
+    "secondPass": "اَعيْعب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0176",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a−y−b",
+    "output": "a−y−b",
+    "roundTrip": "a−y−b",
+    "secondPass": "a−y−b"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0177",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a،y؛b",
+    "output": "اَ،يْ؛ب",
+    "roundTrip": "a,j;b",
+    "secondPass": "اَ،يْ؛ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0178",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a‍y‍b",
+    "output": "اَ‍يْ‍ب",
+    "roundTrip": "a‍j‍b",
+    "secondPass": "اَ‍يْ‍ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0179",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a‌y‌b",
+    "output": "اَ‌يْ‌ب",
+    "roundTrip": "a‌j‌b",
+    "secondPass": "اَ‌يْ‌ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0180",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a⁧y⁩b",
+    "output": "اَ⁧يْ⁩ب",
+    "roundTrip": "a⁧j⁩b",
+    "secondPass": "اَ⁧يْ⁩ب"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0181",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "بyت",
+    "output": "بيْت",
+    "roundTrip": "bjt",
+    "secondPass": "بيْت"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0182",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "🙂y🙂",
+    "output": "🙂يْ🙂",
+    "roundTrip": "🙂j🙂",
+    "secondPass": "🙂يْ🙂"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0183",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "w",
+    "output": "وْ",
+    "roundTrip": "v",
+    "secondPass": "وْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0184",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": " w ",
+    "output": " وْ ",
+    "roundTrip": " v ",
+    "secondPass": " وْ "
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0185",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "bawa",
+    "output": "بَوَ",
+    "roundTrip": "bava",
+    "secondPass": "بَوَ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0186",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "vaw",
+    "output": "وَوْ",
+    "roundTrip": "vav",
+    "secondPass": "وَوْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0187",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "faw",
+    "output": "فَوْ",
+    "roundTrip": "fav",
+    "secondPass": "فَوْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0188",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "liw",
+    "output": "لِوْ",
+    "roundTrip": "liv",
+    "secondPass": "لِوْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0189",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "alw",
+    "output": "اَلوْ",
+    "roundTrip": "alv",
+    "secondPass": "اَلوْ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0190",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "(w)",
+    "output": "(w)",
+    "roundTrip": "(w)",
+    "secondPass": "(w)"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0191",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "[w]",
+    "output": "[w]",
+    "roundTrip": "[w]",
+    "secondPass": "[w]"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0192",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "«w»",
+    "output": "«w»",
+    "roundTrip": "«w»",
+    "secondPass": "«w»"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0193",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "\"w\"",
+    "output": "\"w\"",
+    "roundTrip": "\"w\"",
+    "secondPass": "\"w\""
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0194",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a w i",
+    "output": "اَ وْ إِ",
+    "roundTrip": "a v i",
+    "secondPass": "اَ وْ إِ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0195",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a\nw\nu",
+    "output": "اَ\nوْ\nأُ",
+    "roundTrip": "a\nv\nu",
+    "secondPass": "اَ\nوْ\nأُ"
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0196",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a\tw\tb",
+    "output": "اَ\tوْ\tب",
+    "roundTrip": "a\tv\tb",
+    "secondPass": "اَ\tوْ\tب"
+  }
+]

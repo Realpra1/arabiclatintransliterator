@@ -1,0 +1,422 @@
+[
+  {
+    "id": "extended-vowel-run/e/16",
+    "direction": "en2ar",
+    "input": "aeeeeeeeeeeeeeeee",
+    "status": "stable",
+    "stableAfterRoundTrips": 8,
+    "confirmedAtRoundTrip": 9,
+    "finalFormFirstAtStep": {
+      "Latin": 16,
+      "Arabic": 17
+    },
+    "stablePairReachedAtConversion": 17,
+    "finalStates": [
+      {
+        "step": 16,
+        "language": "Latin",
+        "text": "ajjjjjjjj"
+      },
+      {
+        "step": 17,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّ"
+      },
+      {
+        "step": 18,
+        "language": "Latin",
+        "text": "ajjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/e/32",
+    "direction": "en2ar",
+    "input": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "status": "stable",
+    "stableAfterRoundTrips": 16,
+    "confirmedAtRoundTrip": 17,
+    "finalFormFirstAtStep": {
+      "Latin": 32,
+      "Arabic": 33
+    },
+    "stablePairReachedAtConversion": 33,
+    "finalStates": [
+      {
+        "step": 32,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 33,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 34,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/e/64",
+    "direction": "en2ar",
+    "input": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "status": "stable",
+    "stableAfterRoundTrips": 32,
+    "confirmedAtRoundTrip": 33,
+    "finalFormFirstAtStep": {
+      "Latin": 64,
+      "Arabic": 65
+    },
+    "stablePairReachedAtConversion": 65,
+    "finalStates": [
+      {
+        "step": 64,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 65,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 66,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/e/128",
+    "direction": "en2ar",
+    "input": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "status": "stable",
+    "stableAfterRoundTrips": 64,
+    "confirmedAtRoundTrip": 65,
+    "finalFormFirstAtStep": {
+      "Latin": 128,
+      "Arabic": 129
+    },
+    "stablePairReachedAtConversion": 129,
+    "finalStates": [
+      {
+        "step": 128,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 129,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 130,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/e/256",
+    "direction": "en2ar",
+    "input": "aeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "status": "stable",
+    "stableAfterRoundTrips": 128,
+    "confirmedAtRoundTrip": 129,
+    "finalFormFirstAtStep": {
+      "Latin": 256,
+      "Arabic": 257
+    },
+    "stablePairReachedAtConversion": 257,
+    "finalStates": [
+      {
+        "step": 256,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 257,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 258,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/i/16",
+    "direction": "en2ar",
+    "input": "aiiiiiiiiiiiiiiii",
+    "status": "stable",
+    "stableAfterRoundTrips": 8,
+    "confirmedAtRoundTrip": 9,
+    "finalFormFirstAtStep": {
+      "Latin": 16,
+      "Arabic": 17
+    },
+    "stablePairReachedAtConversion": 17,
+    "finalStates": [
+      {
+        "step": 16,
+        "language": "Latin",
+        "text": "ajjjjjjjj"
+      },
+      {
+        "step": 17,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّ"
+      },
+      {
+        "step": 18,
+        "language": "Latin",
+        "text": "ajjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/i/32",
+    "direction": "en2ar",
+    "input": "aiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+    "status": "stable",
+    "stableAfterRoundTrips": 16,
+    "confirmedAtRoundTrip": 17,
+    "finalFormFirstAtStep": {
+      "Latin": 32,
+      "Arabic": 33
+    },
+    "stablePairReachedAtConversion": 33,
+    "finalStates": [
+      {
+        "step": 32,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 33,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 34,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/i/64",
+    "direction": "en2ar",
+    "input": "aiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+    "status": "stable",
+    "stableAfterRoundTrips": 32,
+    "confirmedAtRoundTrip": 33,
+    "finalFormFirstAtStep": {
+      "Latin": 64,
+      "Arabic": 65
+    },
+    "stablePairReachedAtConversion": 65,
+    "finalStates": [
+      {
+        "step": 64,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 65,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 66,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/i/128",
+    "direction": "en2ar",
+    "input": "aiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+    "status": "stable",
+    "stableAfterRoundTrips": 64,
+    "confirmedAtRoundTrip": 65,
+    "finalFormFirstAtStep": {
+      "Latin": 128,
+      "Arabic": 129
+    },
+    "stablePairReachedAtConversion": 129,
+    "finalStates": [
+      {
+        "step": 128,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 129,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 130,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-vowel-run/i/256",
+    "direction": "en2ar",
+    "input": "aiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+    "status": "stable",
+    "stableAfterRoundTrips": 128,
+    "confirmedAtRoundTrip": 129,
+    "finalFormFirstAtStep": {
+      "Latin": 256,
+      "Arabic": 257
+    },
+    "stablePairReachedAtConversion": 257,
+    "finalStates": [
+      {
+        "step": 256,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 257,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 258,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      }
+    ]
+  },
+  {
+    "id": "extended-arabic-ya-run/8",
+    "direction": "ar2en",
+    "input": "اَِيِيِيِيِيِيِيِي",
+    "status": "stable",
+    "stableAfterRoundTrips": 8,
+    "confirmedAtRoundTrip": 9,
+    "finalFormFirstAtStep": {
+      "Latin": 15,
+      "Arabic": 16
+    },
+    "stablePairReachedAtConversion": 16,
+    "finalStates": [
+      {
+        "step": 16,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّ"
+      },
+      {
+        "step": 17,
+        "language": "Latin",
+        "text": "ajjjjjjjj"
+      },
+      {
+        "step": 18,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّ"
+      }
+    ]
+  },
+  {
+    "id": "extended-arabic-ya-run/16",
+    "direction": "ar2en",
+    "input": "اَِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِي",
+    "status": "stable",
+    "stableAfterRoundTrips": 16,
+    "confirmedAtRoundTrip": 17,
+    "finalFormFirstAtStep": {
+      "Latin": 31,
+      "Arabic": 32
+    },
+    "stablePairReachedAtConversion": 32,
+    "finalStates": [
+      {
+        "step": 32,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 33,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 34,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّ"
+      }
+    ]
+  },
+  {
+    "id": "extended-arabic-ya-run/32",
+    "direction": "ar2en",
+    "input": "اَِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِي",
+    "status": "stable",
+    "stableAfterRoundTrips": 32,
+    "confirmedAtRoundTrip": 33,
+    "finalFormFirstAtStep": {
+      "Latin": 63,
+      "Arabic": 64
+    },
+    "stablePairReachedAtConversion": 64,
+    "finalStates": [
+      {
+        "step": 64,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 65,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 66,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      }
+    ]
+  },
+  {
+    "id": "extended-arabic-ya-run/64",
+    "direction": "ar2en",
+    "input": "اَِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِيِي",
+    "status": "stable",
+    "stableAfterRoundTrips": 64,
+    "confirmedAtRoundTrip": 65,
+    "finalFormFirstAtStep": {
+      "Latin": 127,
+      "Arabic": 128
+    },
+    "stablePairReachedAtConversion": 128,
+    "finalStates": [
+      {
+        "step": 128,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      },
+      {
+        "step": 129,
+        "language": "Latin",
+        "text": "ajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      },
+      {
+        "step": 130,
+        "language": "Arabic",
+        "text": "اَيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّيّ"
+      }
+    ]
+  }
+]

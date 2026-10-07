@@ -1,0 +1,101 @@
+[
+  {
+    "id": "arabic-words/ar2en/0050",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أ إ ؤ ئ ء",
+    "output": "'a 'i ' ' '",
+    "roundTrip": "أَ إِ أ أ أ",
+    "secondPass": "a i 'a 'a 'a"
+  },
+  {
+    "id": "arabic-words/ar2en/0051",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "وعد",
+    "output": "v-d",
+    "roundTrip": "وْعد",
+    "secondPass": "v-d"
+  },
+  {
+    "id": "arabic-words/ar2en/0052",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "نور",
+    "output": "nūr",
+    "roundTrip": "نُور",
+    "secondPass": "nūr"
+  },
+  {
+    "id": "arabic-words/ar2en/0053",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "دور",
+    "output": "dūr",
+    "roundTrip": "دُور",
+    "secondPass": "dūr"
+  },
+  {
+    "id": "arabic-words/ar2en/0054",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "يوم",
+    "output": "īvm",
+    "roundTrip": "ِيوْم",
+    "secondPass": "īvm"
+  },
+  {
+    "id": "arabic-words/ar2en/0055",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بيت",
+    "output": "bīt",
+    "roundTrip": "بِيت",
+    "secondPass": "bīt"
+  },
+  {
+    "id": "arabic-words/ar2en/0056",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "دين",
+    "output": "dīn",
+    "roundTrip": "دِين",
+    "secondPass": "dīn"
+  },
+  {
+    "id": "arabic-words/ar2en/0057",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بُوُ",
+    "output": "bvu",
+    "roundTrip": "بوُ",
+    "secondPass": "bvu"
+  },
+  {
+    "id": "arabic-words/ar2en/0058",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بِيِ",
+    "output": "bji",
+    "roundTrip": "بيِ",
+    "secondPass": "bji"
+  },
+  {
+    "id": "arabic-words/ar2en/0059",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بُوُو",
+    "output": "būū",
+    "roundTrip": "بُوُو",
+    "secondPass": "būū"
+  },
+  {
+    "id": "arabic-words/ar2en/0060",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بِيِي",
+    "output": "bīj",
+    "roundTrip": "بِييْ",
+    "secondPass": "bīj"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0052",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? ",
+    "output": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/إلى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/نعم\n\nهذه؟ ",
+    "roundTrip": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bī/n-m\n\nhdhh? ",
+    "secondPass": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/nعم\n\nهذه؟ ",
+    "before": {
+      "output": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/إلى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/نعم\n\nهذه؟ ",
+      "roundTrip": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bī/n-m\n\nhdhh? ",
+      "secondPass": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/nعم\n\nهذه؟ "
+    },
+    "after": {
+      "output": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/إلى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِ/نعم\n\nهذه؟ ",
+      "roundTrip": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bi/n-m\n\nhdhh? ",
+      "secondPass": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِ/nعم\n\nهذه؟ "
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

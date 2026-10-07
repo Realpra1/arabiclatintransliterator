@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1259",
+    "input": "alaN",
+    "normalized": "alaN",
+    "collapsed": "alaN"
+  },
+  {
+    "id": "normalizer/1260",
+    "input": "[aN]",
+    "normalized": "[aN]",
+    "collapsed": "[aN]"
+  },
+  {
+    "id": "normalizer/1261",
+    "input": "«aN»",
+    "normalized": "«aN»",
+    "collapsed": "«aN»"
+  },
+  {
+    "id": "normalizer/1262",
+    "input": "\"aN\"",
+    "normalized": "\"aN\"",
+    "collapsed": "\"aN\""
+  },
+  {
+    "id": "normalizer/1263",
+    "input": "a aN i",
+    "normalized": "a aN i",
+    "collapsed": "a aN i"
+  },
+  {
+    "id": "normalizer/1264",
+    "input": "a\naN\nu",
+    "normalized": "a\naN\nu",
+    "collapsed": "a\naN\nu"
+  },
+  {
+    "id": "normalizer/1265",
+    "input": "a\taN\tb",
+    "normalized": "a\taN\tb",
+    "collapsed": "a\taN\tb"
+  },
+  {
+    "id": "normalizer/1266",
+    "input": "a\r\naN\r\nb",
+    "normalized": "a\r\naN\r\nb",
+    "collapsed": "a\r\naN\r\nb"
+  },
+  {
+    "id": "normalizer/1267",
+    "input": "a aN b",
+    "normalized": "a aN b",
+    "collapsed": "a aN b"
+  },
+  {
+    "id": "normalizer/1268",
+    "input": "a/aN/b",
+    "normalized": "a/aN/b",
+    "collapsed": "a/aN/b"
+  },
+  {
+    "id": "normalizer/1269",
+    "input": "a+aN+b",
+    "normalized": "a+aN+b",
+    "collapsed": "a+aN+b"
+  },
+  {
+    "id": "normalizer/1270",
+    "input": "a-aN-b",
+    "normalized": "a-aN-b",
+    "collapsed": "a-aN-b"
+  },
+  {
+    "id": "normalizer/1271",
+    "input": "a−aN−b",
+    "normalized": "a−aN−b",
+    "collapsed": "a−aN−b"
+  },
+  {
+    "id": "normalizer/1272",
+    "input": "a،aN؛b",
+    "normalized": "a،aN؛b",
+    "collapsed": "a،aN؛b"
+  },
+  {
+    "id": "normalizer/1273",
+    "input": "a‍aN‍b",
+    "normalized": "a‍aN‍b",
+    "collapsed": "a‍aN‍b"
+  },
+  {
+    "id": "normalizer/1274",
+    "input": "a‌aN‌b",
+    "normalized": "a‌aN‌b",
+    "collapsed": "a‌aN‌b"
+  },
+  {
+    "id": "normalizer/1275",
+    "input": "a⁧aN⁩b",
+    "normalized": "a⁧aN⁩b",
+    "collapsed": "a⁧aN⁩b"
+  },
+  {
+    "id": "normalizer/1276",
+    "input": "بaNت",
+    "normalized": "بaNت",
+    "collapsed": "بaNت"
+  },
+  {
+    "id": "normalizer/1277",
+    "input": "🙂aN🙂",
+    "normalized": "🙂aN🙂",
+    "collapsed": "🙂aN🙂"
+  },
+  {
+    "id": "normalizer/1278",
+    "input": " N ",
+    "normalized": " N ",
+    "collapsed": " N "
+  },
+  {
+    "id": "normalizer/1279",
+    "input": "baNa",
+    "normalized": "baNa",
+    "collapsed": "baNa"
+  },
+  {
+    "id": "normalizer/1280",
+    "input": "vaN",
+    "normalized": "vaN",
+    "collapsed": "vaN"
+  },
+  {
+    "id": "normalizer/1281",
+    "input": "faN",
+    "normalized": "faN",
+    "collapsed": "faN"
+  },
+  {
+    "id": "normalizer/1282",
+    "input": "liN",
+    "normalized": "liN",
+    "collapsed": "liN"
+  },
+  {
+    "id": "normalizer/1283",
+    "input": "alN",
+    "normalized": "alN",
+    "collapsed": "alN"
+  },
+  {
+    "id": "normalizer/1284",
+    "input": "(N)",
+    "normalized": "(N)",
+    "collapsed": "(N)"
+  },
+  {
+    "id": "normalizer/1285",
+    "input": "[N]",
+    "normalized": "[N]",
+    "collapsed": "[N]"
+  },
+  {
+    "id": "normalizer/1286",
+    "input": "«N»",
+    "normalized": "«N»",
+    "collapsed": "«N»"
+  },
+  {
+    "id": "normalizer/1287",
+    "input": "\"N\"",
+    "normalized": "\"N\"",
+    "collapsed": "\"N\""
+  },
+  {
+    "id": "normalizer/1288",
+    "input": "a N i",
+    "normalized": "a N i",
+    "collapsed": "a N i"
+  },
+  {
+    "id": "normalizer/1289",
+    "input": "a\nN\nu",
+    "normalized": "a\nN\nu",
+    "collapsed": "a\nN\nu"
+  },
+  {
+    "id": "normalizer/1290",
+    "input": "a\tN\tb",
+    "normalized": "a\tN\tb",
+    "collapsed": "a\tN\tb"
+  },
+  {
+    "id": "normalizer/1291",
+    "input": "a\r\nN\r\nb",
+    "normalized": "a\r\nN\r\nb",
+    "collapsed": "a\r\nN\r\nb"
+  },
+  {
+    "id": "normalizer/1292",
+    "input": "a N b",
+    "normalized": "a N b",
+    "collapsed": "a N b"
+  },
+  {
+    "id": "normalizer/1293",
+    "input": "a/N/b",
+    "normalized": "a/N/b",
+    "collapsed": "a/N/b"
+  },
+  {
+    "id": "normalizer/1294",
+    "input": "a+N+b",
+    "normalized": "a+N+b",
+    "collapsed": "a+N+b"
+  },
+  {
+    "id": "normalizer/1295",
+    "input": "a-N-b",
+    "normalized": "a-N-b",
+    "collapsed": "a-N-b"
+  },
+  {
+    "id": "normalizer/1296",
+    "input": "a−N−b",
+    "normalized": "a−N−b",
+    "collapsed": "a−N−b"
+  },
+  {
+    "id": "normalizer/1297",
+    "input": "a،N؛b",
+    "normalized": "a،N؛b",
+    "collapsed": "a،N؛b"
+  },
+  {
+    "id": "normalizer/1298",
+    "input": "a‍N‍b",
+    "normalized": "a‍N‍b",
+    "collapsed": "a‍N‍b"
+  },
+  {
+    "id": "normalizer/1299",
+    "input": "a‌N‌b",
+    "normalized": "a‌N‌b",
+    "collapsed": "a‌N‌b"
+  },
+  {
+    "id": "normalizer/1300",
+    "input": "a⁧N⁩b",
+    "normalized": "a⁧N⁩b",
+    "collapsed": "a⁧N⁩b"
+  },
+  {
+    "id": "normalizer/1301",
+    "input": "بNت",
+    "normalized": "بNت",
+    "collapsed": "بNت"
+  },
+  {
+    "id": "normalizer/1302",
+    "input": "🙂N🙂",
+    "normalized": "🙂N🙂",
+    "collapsed": "🙂N🙂"
+  },
+  {
+    "id": "normalizer/1303",
+    "input": " I ",
+    "normalized": " i ",
+    "collapsed": " I "
+  },
+  {
+    "id": "normalizer/1304",
+    "input": "baIa",
+    "normalized": "baia",
+    "collapsed": "baIa"
+  },
+  {
+    "id": "normalizer/1305",
+    "input": "vaI",
+    "normalized": "vai",
+    "collapsed": "vaI"
+  },
+  {
+    "id": "normalizer/1306",
+    "input": "faI",
+    "normalized": "fai",
+    "collapsed": "faI"
+  },
+  {
+    "id": "normalizer/1307",
+    "input": "liI",
+    "normalized": "lī",
+    "collapsed": "liI"
+  },
+  {
+    "id": "normalizer/1308",
+    "input": "alI",
+    "normalized": "ali",
+    "collapsed": "alI"
+  },
+  {
+    "id": "normalizer/1309",
+    "input": "(I)",
+    "normalized": "(I)",
+    "collapsed": "(I)"
+  },
+  {
+    "id": "normalizer/1310",
+    "input": "[I]",
+    "normalized": "[I]",
+    "collapsed": "[I]"
+  },
+  {
+    "id": "normalizer/1311",
+    "input": "«I»",
+    "normalized": "«I»",
+    "collapsed": "«I»"
+  },
+  {
+    "id": "normalizer/1312",
+    "input": "\"I\"",
+    "normalized": "\"I\"",
+    "collapsed": "\"I\""
+  },
+  {
+    "id": "normalizer/1313",
+    "input": "a I i",
+    "normalized": "a i i",
+    "collapsed": "a I i"
+  },
+  {
+    "id": "normalizer/1314",
+    "input": "a\nI\nu",
+    "normalized": "a\ni\nu",
+    "collapsed": "a\nI\nu"
+  },
+  {
+    "id": "normalizer/1315",
+    "input": "a\tI\tb",
+    "normalized": "a\ti\tb",
+    "collapsed": "a\tI\tb"
+  },
+  {
+    "id": "normalizer/1316",
+    "input": "a\r\nI\r\nb",
+    "normalized": "a\r\ni\r\nb",
+    "collapsed": "a\r\nI\r\nb"
+  },
+  {
+    "id": "normalizer/1317",
+    "input": "a I b",
+    "normalized": "a i b",
+    "collapsed": "a I b"
+  },
+  {
+    "id": "normalizer/1318",
+    "input": "a/I/b",
+    "normalized": "a/I/b",
+    "collapsed": "a/I/b"
+  },
+  {
+    "id": "normalizer/1319",
+    "input": "a+I+b",
+    "normalized": "a+I+b",
+    "collapsed": "a+I+b"
+  },
+  {
+    "id": "normalizer/1320",
+    "input": "a-I-b",
+    "normalized": "a-i-b",
+    "collapsed": "a-I-b"
+  },
+  {
+    "id": "normalizer/1321",
+    "input": "a−I−b",
+    "normalized": "a−I−b",
+    "collapsed": "a−I−b"
+  },
+  {
+    "id": "normalizer/1322",
+    "input": "a،I؛b",
+    "normalized": "a،i؛b",
+    "collapsed": "a،I؛b"
+  },
+  {
+    "id": "normalizer/1323",
+    "input": "a‍I‍b",
+    "normalized": "a‍i‍b",
+    "collapsed": "a‍I‍b"
+  },
+  {
+    "id": "normalizer/1324",
+    "input": "a‌I‌b",
+    "normalized": "a‌i‌b",
+    "collapsed": "a‌I‌b"
+  },
+  {
+    "id": "normalizer/1325",
+    "input": "a⁧I⁩b",
+    "normalized": "a⁧i⁩b",
+    "collapsed": "a⁧I⁩b"
+  },
+  {
+    "id": "normalizer/1326",
+    "input": "بIت",
+    "normalized": "بiت",
+    "collapsed": "بIت"
+  },
+  {
+    "id": "normalizer/1327",
+    "input": "🙂I🙂",
+    "normalized": "🙂i🙂",
+    "collapsed": "🙂I🙂"
+  },
+  {
+    "id": "normalizer/1328",
+    "input": " x ",
+    "normalized": " iks ",
+    "collapsed": " x "
+  },
+  {
+    "id": "normalizer/1329",
+    "input": "baxa",
+    "normalized": "baxa",
+    "collapsed": "baxa"
+  },
+  {
+    "id": "normalizer/1330",
+    "input": "vax",
+    "normalized": "vax",
+    "collapsed": "vax"
+  },
+  {
+    "id": "normalizer/1331",
+    "input": "fax",
+    "normalized": "fax",
+    "collapsed": "fax"
+  },
+  {
+    "id": "normalizer/1332",
+    "input": "lix",
+    "normalized": "lix",
+    "collapsed": "lix"
+  }
+]

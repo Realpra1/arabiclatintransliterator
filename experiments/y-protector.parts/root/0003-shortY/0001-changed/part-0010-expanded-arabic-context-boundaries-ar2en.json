@@ -1,0 +1,163 @@
+[
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0183",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xٱy",
+    "output": "xy",
+    "roundTrip": "سِي",
+    "secondPass": "sī",
+    "before": {
+      "output": "xy",
+      "roundTrip": "سِي",
+      "secondPass": "sī"
+    },
+    "after": {
+      "output": "xy",
+      "roundTrip": "سِ",
+      "secondPass": "si"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0206",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xٱلy",
+    "output": "xly",
+    "roundTrip": "سلِي",
+    "secondPass": "slī",
+    "before": {
+      "output": "xly",
+      "roundTrip": "سلِي",
+      "secondPass": "slī"
+    },
+    "after": {
+      "output": "xly",
+      "roundTrip": "سلِ",
+      "secondPass": "sli"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0229",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xوy",
+    "output": "xvy",
+    "roundTrip": "سوِْي",
+    "secondPass": "svī",
+    "before": {
+      "output": "xvy",
+      "roundTrip": "سوِْي",
+      "secondPass": "svī"
+    },
+    "after": {
+      "output": "xvy",
+      "roundTrip": "سوِ",
+      "secondPass": "svi"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0275",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xةy",
+    "output": "xaty",
+    "roundTrip": "سةِي",
+    "secondPass": "satī",
+    "before": {
+      "output": "xaty",
+      "roundTrip": "سةِي",
+      "secondPass": "satī"
+    },
+    "after": {
+      "output": "xaty",
+      "roundTrip": "سةِ",
+      "secondPass": "sati"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0321",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xًy",
+    "output": "xaNy",
+    "roundTrip": "سًِي",
+    "secondPass": "saNī",
+    "before": {
+      "output": "xaNy",
+      "roundTrip": "سًِي",
+      "secondPass": "saNī"
+    },
+    "after": {
+      "output": "xaNy",
+      "roundTrip": "سًِ",
+      "secondPass": "saNi"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0344",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xّy",
+    "output": "xxy",
+    "roundTrip": "سكسِي",
+    "secondPass": "sksī",
+    "before": {
+      "output": "xxy",
+      "roundTrip": "سكسِي",
+      "secondPass": "sksī"
+    },
+    "after": {
+      "output": "xxy",
+      "roundTrip": "سكسِ",
+      "secondPass": "sksi"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0367",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xـy",
+    "output": "xy",
+    "roundTrip": "سِي",
+    "secondPass": "sī",
+    "before": {
+      "output": "xy",
+      "roundTrip": "سِي",
+      "secondPass": "sī"
+    },
+    "after": {
+      "output": "xy",
+      "roundTrip": "سِ",
+      "secondPass": "si"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

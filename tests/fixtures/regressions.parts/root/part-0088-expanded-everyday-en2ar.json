@@ -1,0 +1,29 @@
+[
+  {
+    "id": "expanded-everyday/en2ar/0050",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Email user+tag@example.com; open https://example.com/a?x=1&y=2#section.",
+    "output": "إِمَِل أُسِر+تَج@إِكسَمبلِ.كُم؛ أُبِن هتّبس://إِكسَمبلِ.كُم/a؟x=1&y=2#سِكتُِن.",
+    "roundTrip": "imail usir+taJ@'iksambli.kum; ubin httbs://'iksambli.kum/a?x=1&y=2#siktiun.",
+    "secondPass": "إِمَِل أُسِر+تَج@إِكسَمبلِ.كُم؛ أُبِن هتّبس://إِكسَمبلِ.كُم/a؟x=1&y=2#سِكتُِن."
+  },
+  {
+    "id": "expanded-everyday/en2ar/0051",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt",
+    "output": "فِلِ_نَمِ.تكست /أُسر/لُكَل/بِن ك:\\أُسِرس\\اَلِ\\نُتِس.تكست",
+    "roundTrip": "fili_nami.tkst /'usr/lukal/bin k:\\'usirs\\ali\\nutis.tkst",
+    "secondPass": "فِلِ_نَمِ.تكست /أُسر/لُكَل/بِن ك:\\أُسِرس\\اَلِ\\نُتِس.تكست"
+  },
+  {
+    "id": "expanded-everyday/en2ar/0052",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "naïve façade coöperate piñata Straße Łódź déjà vu",
+    "output": "نَïوِ فَçاَدِ كُöبِرةِ بِñةَ صترَßإِ Łóدź دéيْà وُ",
+    "roundTrip": "naïvi façadi kuöbirati biñata Straß'i Łódź déjà vu",
+    "secondPass": "نَïوِ فَçاَدِ كُöبِرةِ بِñةَ صترَßإِ Łóدź دéيْà وُ"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0039",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "هذه\n\nالذي? ‍ — anā/quvva\n\nلأن شيء\n\nbook? ghadaN — na-am/alSawt\n\n🙂 هي — fī/شاي — في? school — كتاب عائشة, نافذة? ",
+    "output": "hdhh\n\naldhī? ‍ — anā/quvva\n\nl'n shī'\n\nbook? ghadaN — na-am/alSawt\n\n🙂 hī — fī/shāj — fī? school — ktāb -ā'shat, nāfdhat? ",
+    "roundTrip": "هذه\n\nاَلذِي؟ ‍ — اَنا/قُوَّ\n\nلأن شِيئ\n\nبُوك؟ غَدً — نَعَم/اَلصَوْت\n\n🙂 هِي — فِي/شايْ — فِي؟ ستجُول — كتاب عاءشة، نافذة؟ ",
+    "secondPass": "hdhh\n\naldhī? ‍ — anā/quvva\n\nl'n shī'\n\nbūk? ghadaN — na-am/alSavt\n\n🙂 hī — fī/shāj — fī? stJūl — ktāb -ā'shat, nāfdhat? "
+  }
+]

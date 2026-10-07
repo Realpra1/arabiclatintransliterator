@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0056",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "output": "with, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — queue ‍ — 'ilá world, ktāb quvvāt\n\nby/fī, 'ilá/iN\n\nyellow? qhūat, Hajj ",
+    "roundTrip": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِي/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+    "secondPass": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbī/fī, ilá/iN\n\njilluv? qhūat, Hajj ",
+    "before": {
+      "output": "with, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — queue ‍ — 'ilá world, ktāb quvvāt\n\nby/fī, 'ilá/iN\n\nyellow? qhūat, Hajj ",
+      "roundTrip": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِي/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+      "secondPass": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbī/fī, ilá/iN\n\njilluv? qhūat, Hajj "
+    },
+    "after": {
+      "output": "with, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — queue ‍ — 'ilá world, ktāb quvvāt\n\nby/fī, 'ilá/iN\n\nyellow? qhūat, Hajj ",
+      "roundTrip": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِ/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+      "secondPass": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbi/fī, ilá/iN\n\njilluv? qhūat, Hajj "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

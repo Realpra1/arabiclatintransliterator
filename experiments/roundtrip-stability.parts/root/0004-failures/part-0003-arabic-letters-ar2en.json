@@ -1,0 +1,73 @@
+[
+  {
+    "id": "arabic-letters/ar2en/0031",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ء",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ء",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-letters/ar2en/0032",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "أ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أ",
+      "L1": "'a",
+      "A2": "أَ",
+      "L2": "a",
+      "A3": "اَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-letters/ar2en/0034",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ؤ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ؤ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "arabic-letters/ar2en/0035",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ئ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  }
+]

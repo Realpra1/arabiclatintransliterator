@@ -1,0 +1,438 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0053",
+    "direction": "en2ar",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "changes": {
+      "output": {
+        "before": "نعم\n\nمدرسة؟ هِلُّ — قارئ؟ قارئ — اَلصَّباH/ً — 🙂/نافذة — سةَسمَع ٌ، رُبَّما/إلى\n\nستسمع؟ نَعَم\n\nمِي/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+        "after": "نعم\n\nمدرسة؟ هِلُّ — قارئ؟ قارئ — اَلصَّباH/ً — 🙂/نافذة — سةَسمَع ٌ، رُبَّما/إلى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ "
+      },
+      "roundTrip": {
+        "before": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmī/aHmad\n\n١٢/Hajj, 42? ",
+        "after": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+      },
+      "secondPass": {
+        "before": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِي/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+        "after": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0053",
+    "direction": "ar2en",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "changes": {
+      "roundTrip": {
+        "before": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِي/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+        "after": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ "
+      },
+      "secondPass": {
+        "before": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmī/aHmad\n\n١٢/Hajj, 42? ",
+        "after": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0055",
+    "direction": "en2ar",
+    "input": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/",
+    "changes": {
+      "output": {
+        "before": "كِتاب — شَيْء/شاي\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هو\n\nكُفِّي/اَنتَ — هي؟ مدرسة، الذي رُبَّما — بِي/مسؤول\n\nهِلُّ/وِث، ٱلْبَيْتُ/",
+        "after": "كِتاب — شَيْء/شاي\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هو\n\nكُفِّي/اَنتَ — هي؟ مدرسة، الذي رُبَّما — بِ/مسؤول\n\nهِلُّ/وِث، ٱلْبَيْتُ/"
+      },
+      "roundTrip": {
+        "before": "kitāb — shaj'/shāj\n\n🙂 ghadaN\n\nlā? havā'\n\n🙂 hū\n\nkuffī/anta — hī? mdrsat, aldhī rubbamā — bī/ms'ūl\n\nhillu/vith, albajtu/",
+        "after": "kitāb — shaj'/shāj\n\n🙂 ghadaN\n\nlā? havā'\n\n🙂 hū\n\nkuffī/anta — hī? mdrsat, aldhī rubbamā — bi/ms'ūl\n\nhillu/vith, albajtu/"
+      },
+      "secondPass": {
+        "before": "كِتاب — شَيْء/شايْ\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هُو\n\nكُفِّي/اَنتَ — هِي؟ مدرسة، اَلذِي رُبَّما — بِي/مسؤُول\n\nهِلُّ/وِث، اَلبَيْتُ/",
+        "after": "كِتاب — شَيْء/شايْ\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هُو\n\nكُفِّي/اَنتَ — هِي؟ مدرسة، اَلذِي رُبَّما — بِ/مسؤُول\n\nهِلُّ/وِث، اَلبَيْتُ/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0055",
+    "direction": "ar2en",
+    "input": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/",
+    "changes": {
+      "roundTrip": {
+        "before": "كِتاب — شَيْء/شايْ\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هُو\n\nكُفِّي/اَنتَ — هِي؟ مدرسة، اَلذِي رُبَّما — بِي/مسؤُول\n\nهِلُّ/وِث، اَلبَيْتُ/",
+        "after": "كِتاب — شَيْء/شايْ\n\n🙂 غَدً\n\nلا؟ هَوْاء\n\n🙂 هُو\n\nكُفِّي/اَنتَ — هِي؟ مدرسة، اَلذِي رُبَّما — بِ/مسؤُول\n\nهِلُّ/وِث، اَلبَيْتُ/"
+      },
+      "secondPass": {
+        "before": "kitāb — shaj'/shāj\n\n🙂 ghadaN\n\nlā? havā'\n\n🙂 hū\n\nkuffī/anta — hī? mdrsat, aldhī rubbamā — bī/ms'ūl\n\nhillu/vith, albajtu/",
+        "after": "kitāb — shaj'/shāj\n\n🙂 ghadaN\n\nlā? havā'\n\n🙂 hū\n\nkuffī/anta — hī? mdrsat, aldhī rubbamā — bi/ms'ūl\n\nhillu/vith, albajtu/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0056",
+    "direction": "en2ar",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "changes": {
+      "output": {
+        "before": "وِث، ستسمع؟ اَلصَّباح، شاي شَمْسٌ\n\n١٢/🙂 — قُُِِ ‍ — إلى وُرلد، كتاب قُوَّة\n\nبِي/fِي، إلى/ٍ\n\nيِلُّوْ؟ قهوة، حَيّ ",
+        "after": "وِث، ستسمع؟ اَلصَّباح، شاي شَمْسٌ\n\n١٢/🙂 — قُُِِ ‍ — إلى وُرلد، كتاب قُوَّة\n\nبِ/fِي، إلى/ٍ\n\nيِلُّوْ؟ قهوة، حَيّ "
+      },
+      "roundTrip": {
+        "before": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — 'ilá vurld, ktāb quvvāt\n\nbī/fī, 'ilá/iN\n\njilluv? qhūat, Hajj ",
+        "after": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — 'ilá vurld, ktāb quvvāt\n\nbi/fī, 'ilá/iN\n\njilluv? qhūat, Hajj "
+      },
+      "secondPass": {
+        "before": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِي/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+        "after": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِ/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0056",
+    "direction": "ar2en",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "changes": {
+      "roundTrip": {
+        "before": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِي/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+        "after": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِ/fِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ "
+      },
+      "secondPass": {
+        "before": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbī/fī, ilá/iN\n\njilluv? qhūat, Hajj ",
+        "after": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbi/fī, ilá/iN\n\njilluv? qhūat, Hajj "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0057",
+    "direction": "en2ar",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "changes": {
+      "output": {
+        "before": "فِي — قارئ؟ أحمد، عائشة الذي\n\nسةَسمَع اَلصَوْت — هواء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِي/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+        "after": "فِي — قارئ؟ أحمد، عائشة الذي\n\nسةَسمَع اَلصَوْت — هواء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء "
+      },
+      "roundTrip": {
+        "before": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — sitī/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+        "after": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' "
+      },
+      "secondPass": {
+        "before": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/bُوك — سِتِي/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+        "after": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/bُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0057",
+    "direction": "ar2en",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "changes": {
+      "roundTrip": {
+        "before": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/بُوك — سِتِي/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+        "after": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء "
+      },
+      "secondPass": {
+        "before": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — sitī/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+        "after": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0058",
+    "direction": "en2ar",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "changes": {
+      "output": {
+        "before": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِي؟ أحمد\n\nمحمد/بُوك، هي/ٱلْبَيْتُ، صباحًا؟ الذي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+        "after": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِ؟ أحمد\n\nمحمد/بُوك، هي/ٱلْبَيْتُ، صباحًا؟ الذي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/"
+      },
+      "roundTrip": {
+        "before": "quvva — n-m? ā — aHmad/su'āl, sitī? 'aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/",
+        "after": "quvva — n-m? ā — aHmad/su'āl, siti? 'aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/"
+      },
+      "secondPass": {
+        "before": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِي؟ أَحمد\n\nمحمد/bُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+        "after": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِ؟ أَحمد\n\nمحمد/bُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0058",
+    "direction": "ar2en",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "changes": {
+      "roundTrip": {
+        "before": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِي؟ أَحمد\n\nمحمد/بُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+        "after": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِ؟ أَحمد\n\nمحمد/بُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/"
+      },
+      "secondPass": {
+        "before": "quvva — n-m? ā — aHmad/su'āl, sitī? aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/",
+        "after": "quvva — n-m? ā — aHmad/su'āl, siti? aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0001",
+    "direction": "en2ar",
+    "input": "city",
+    "changes": {
+      "output": {
+        "before": "سِتِي",
+        "after": "سِتِ"
+      },
+      "roundTrip": {
+        "before": "sitī",
+        "after": "siti"
+      },
+      "secondPass": {
+        "before": "سِتِي",
+        "after": "سِتِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0002",
+    "direction": "en2ar",
+    "input": "xylophone",
+    "changes": {
+      "output": {
+        "before": "سِيلُفُنِ",
+        "after": "سِلُفُنِ"
+      },
+      "roundTrip": {
+        "before": "sīlufuni",
+        "after": "silufuni"
+      },
+      "secondPass": {
+        "before": "سِيلُفُنِ",
+        "after": "سِلُفُنِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0006",
+    "direction": "en2ar",
+    "input": "cycle",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      },
+      "roundTrip": {
+        "before": "sīkli",
+        "after": "sikli"
+      },
+      "secondPass": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0012",
+    "direction": "en2ar",
+    "input": "century",
+    "changes": {
+      "output": {
+        "before": "سِنتُرِي",
+        "after": "سِنتُرِ"
+      },
+      "roundTrip": {
+        "before": "sinturī",
+        "after": "sinturi"
+      },
+      "secondPass": {
+        "before": "سِنتُرِي",
+        "after": "سِنتُرِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0022",
+    "direction": "en2ar",
+    "input": "cylinder",
+    "changes": {
+      "output": {
+        "before": "سِيلِندِر",
+        "after": "سِلِندِر"
+      },
+      "roundTrip": {
+        "before": "sīlindir",
+        "after": "silindir"
+      },
+      "secondPass": {
+        "before": "سِيلِندِر",
+        "after": "سِلِندِر"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0023",
+    "direction": "en2ar",
+    "input": "cypress",
+    "changes": {
+      "output": {
+        "before": "سِيبرِسّ",
+        "after": "سِبرِسّ"
+      },
+      "roundTrip": {
+        "before": "sībriss",
+        "after": "sibriss"
+      },
+      "secondPass": {
+        "before": "سِيبرِسّ",
+        "after": "سِبرِسّ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0024",
+    "direction": "en2ar",
+    "input": "cyan",
+    "changes": {
+      "output": {
+        "before": "سِيَن",
+        "after": "سَِن"
+      },
+      "roundTrip": {
+        "before": "sijan",
+        "after": "sian"
+      },
+      "secondPass": {
+        "before": "سِيَن",
+        "after": "سَِن"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0025",
+    "direction": "en2ar",
+    "input": "cyber",
+    "changes": {
+      "output": {
+        "before": "سِيبِر",
+        "after": "سِبِر"
+      },
+      "roundTrip": {
+        "before": "sībir",
+        "after": "sibir"
+      },
+      "secondPass": {
+        "before": "سِيبِر",
+        "after": "سِبِر"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0026",
+    "direction": "en2ar",
+    "input": "bicycle",
+    "changes": {
+      "output": {
+        "before": "بِسِيكلِ",
+        "after": "بِسِكلِ"
+      },
+      "roundTrip": {
+        "before": "bisīkli",
+        "after": "bisikli"
+      },
+      "secondPass": {
+        "before": "بِسِيكلِ",
+        "after": "بِسِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0027",
+    "direction": "en2ar",
+    "input": "recycle",
+    "changes": {
+      "output": {
+        "before": "رِسِيكلِ",
+        "after": "رِسِكلِ"
+      },
+      "roundTrip": {
+        "before": "risīkli",
+        "after": "risikli"
+      },
+      "secondPass": {
+        "before": "رِسِيكلِ",
+        "after": "رِسِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0028",
+    "direction": "en2ar",
+    "input": "icy",
+    "changes": {
+      "output": {
+        "before": "إِسِي",
+        "after": "إِسِ"
+      },
+      "roundTrip": {
+        "before": "isī",
+        "after": "isi"
+      },
+      "secondPass": {
+        "before": "إِسِي",
+        "after": "إِسِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0029",
+    "direction": "en2ar",
+    "input": "mercy",
+    "changes": {
+      "output": {
+        "before": "مِرسِي",
+        "after": "مِرسِ"
+      },
+      "roundTrip": {
+        "before": "mirsī",
+        "after": "mirsi"
+      },
+      "secondPass": {
+        "before": "مِرسِي",
+        "after": "مِرسِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0065",
+    "direction": "en2ar",
+    "input": "chemistry",
+    "changes": {
+      "output": {
+        "before": "تجِمِسترِي",
+        "after": "تجِمِسترِ"
+      },
+      "roundTrip": {
+        "before": "tJimistrī",
+        "after": "tJimistri"
+      },
+      "secondPass": {
+        "before": "تجِمِسترِي",
+        "after": "تجِمِسترِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0077",
+    "direction": "en2ar",
+    "input": "xylem",
+    "changes": {
+      "output": {
+        "before": "سِيلِم",
+        "after": "سِلِم"
+      },
+      "roundTrip": {
+        "before": "sīlim",
+        "after": "silim"
+      },
+      "secondPass": {
+        "before": "سِيلِم",
+        "after": "سِلِم"
+      }
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0050",
+    "direction": "en2ar",
+    "input": "The city school has a xylophone. A cat watches me cycle past the cancer clinic.",
+    "changes": {
+      "output": {
+        "before": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك.",
+        "after": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وةتجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك."
+      },
+      "roundTrip": {
+        "before": "Thi sitī stJūl has a sīlufuni. a kat vattJis mi sīkli bast thi kansir klinik.",
+        "after": "Thi siti stJūl has a silufuni. a kat vattJis mi sikli bast thi kansir klinik."
+      },
+      "secondPass": {
+        "before": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك.",
+        "after": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وةتجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك."
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0051",
+    "direction": "en2ar",
+    "input": "city\nxylophone\ncat\ncancer\nschool\ncycle",
+    "changes": {
+      "output": {
+        "before": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ",
+        "after": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ"
+      },
+      "roundTrip": {
+        "before": "sitī\nsīlufuni\nkat\nkansir\nstJūl\nsīkli",
+        "after": "siti\nsilufuni\nkat\nkansir\nstJūl\nsikli"
+      },
+      "secondPass": {
+        "before": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ",
+        "after": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ"
+      }
+    }
+  }
+]

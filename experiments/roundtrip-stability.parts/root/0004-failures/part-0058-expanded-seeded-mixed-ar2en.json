@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0032",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hello\n\nqueue? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hello\n\nqueue? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? ",
+      "L1": "'anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hello\n\nqueue? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+      "A2": "أَنا — قَهوَ/اَنتَ — محمد/أنت — لأn/مساأً\n\nاَحمَد فِي، شايْ هِلُّ\n\nقُُِِ؟ اَلِيوْم — لكن/فِي — اَلصَّباح هذه، هُو شَيْء\n\nمن؟ ",
+      "L2": "anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hillu\n\nquiui? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+      "A3": "اَنا — قَهوَ/اَنتَ — محمد/أنت — لأn/مساأً\n\nاَحمَد فِي، شايْ هِلُّ\n\nقُُِِ؟ اَلِيوْم — لكن/فِي — اَلصَّباح هذه، هُو شَيْء\n\nمن؟ ",
+      "L3": "anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hillu\n\nquiui? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? "
+    }
+  }
+]

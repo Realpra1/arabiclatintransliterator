@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0024",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "هي\n\nghadaN أمس\n\nهي? by\n\nanta/‍, lā إلى — world/الذي — anā? world\n\ncity? لا — هواء أنا, Hajj/mā' — على ",
+    "output": "هي\n\nغَدً أمس\n\nهي؟ بِي\n\nاَنتَ/‍، لا إلى — وُرلد/الذي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هواء أنا، حَيّ/mاء — على ",
+    "roundTrip": "hī\n\nghadaN 'ams\n\nhī? bī\n\nanta/‍, lā 'ilá — vurld/āldhī — anā? vurld\n\nsitī? lā — hvā' 'anā, Hajj/mā' — -lá ",
+    "secondPass": "هِي\n\nغَدً أَمس\n\nهِي؟ بِي\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هوْاء أَنا، حَيّ/mاء — على ",
+    "before": {
+      "output": "هي\n\nغَدً أمس\n\nهي؟ بِي\n\nاَنتَ/‍، لا إلى — وُرلد/الذي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هواء أنا، حَيّ/mاء — على ",
+      "roundTrip": "hī\n\nghadaN 'ams\n\nhī? bī\n\nanta/‍, lā 'ilá — vurld/āldhī — anā? vurld\n\nsitī? lā — hvā' 'anā, Hajj/mā' — -lá ",
+      "secondPass": "هِي\n\nغَدً أَمس\n\nهِي؟ بِي\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هوْاء أَنا، حَيّ/mاء — على "
+    },
+    "after": {
+      "output": "هي\n\nغَدً أمس\n\nهي؟ بِ\n\nاَنتَ/‍، لا إلى — وُرلد/الذي — اَنا؟ وُرلد\n\nسِتِ؟ لا — هواء أنا، حَيّ/ماء — على ",
+      "roundTrip": "hī\n\nghadaN 'ams\n\nhī? bi\n\nanta/‍, lā 'ilá — vurld/āldhī — anā? vurld\n\nsiti? lā — hvā' 'anā, Hajj/mā' — -lá ",
+      "secondPass": "هِي\n\nغَدً أَمس\n\nهِي؟ بِ\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِ؟ لا — هوْاء أَنا، حَيّ/ماء — على "
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

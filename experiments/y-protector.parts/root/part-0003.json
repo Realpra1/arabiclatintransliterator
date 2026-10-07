@@ -1,0 +1,437 @@
+{
+  "combined": {
+    "summary": {
+      "cases": 5445,
+      "changedCases": 634,
+      "fields": {
+        "output": 413,
+        "roundTrip": 513,
+        "secondPass": 467
+      },
+      "normalizersChanged": 348,
+      "checks": 11022,
+      "beforeFailed": 572,
+      "afterFailed": 573,
+      "fixed": 5,
+      "newlyFailing": 6
+    },
+    "changed": {
+      "$jsonModules": "arabiclatin/v1",
+      "kind": "array",
+      "parts": [
+        "y-protector.parts/root/0005-combined/0001-changed/part-0001-latin-context-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0002-english-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0003-alias-runs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0004-technical-text-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0005-civilization-latin-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0006-civilization-latin-lines-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0007-civilization-latin-words-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0008-civilization-supplied-arabic-paragraphs-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0009-civilization-supplied-arabic-lines-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0010-civilization-supplied-arabic-words-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0011-civilization-canonical-latin-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0012-civilization-canonical-latin-lines-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0013-civilization-canonical-latin-words-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0014-expanded-everyday-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0015-expanded-continuous-text-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0016-expanded-latin-context-boundaries-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0017-expanded-arabic-context-boundaries-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0018-expanded-ambiguous-tokenization-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0019-expanded-mixed-script-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0020-expanded-mixed-script-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0021-expanded-seeded-paragraphs-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0022-expanded-seeded-paragraphs-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0023-expanded-seeded-paragraphs-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0024-expanded-seeded-paragraphs-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0025-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0026-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0027-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0028-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0029-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0030-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0031-expanded-seeded-paragraphs-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0032-expanded-seeded-fragments-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0033-expanded-seeded-fragments-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0034-expanded-seeded-fragments-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0035-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0036-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0037-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0038-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0039-expanded-seeded-fragments-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0040-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0041-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0042-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0043-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0044-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0045-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0046-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0047-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0048-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0049-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0050-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0051-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0052-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0053-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0054-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0055-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0056-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0057-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0058-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0059-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0060-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0061-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0062-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0063-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0064-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0065-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0066-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0067-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0068-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0069-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0070-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0071-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0072-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0073-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0074-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0075-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0076-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0077-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0078-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0079-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0080-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0081-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0082-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0083-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0084-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0085-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0086-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0087-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0088-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0089-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0090-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0091-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0092-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0093-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0094-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0095-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0096-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0097-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0098-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0099-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0100-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0101-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0102-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0103-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0104-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0105-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0106-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0107-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0108-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0109-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0110-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0111-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0112-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0113-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0114-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0115-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0116-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0117-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0118-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0119-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0120-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0121-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0122-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0123-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0124-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0125-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0126-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0127-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0128-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0129-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0130-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0131-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0132-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0133-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0134-expanded-seeded-mixed-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0135-expanded-seeded-mixed-ar2en.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0136-expanded-english-word-roundtrips-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0137-expanded-english-word-roundtrips-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0138-expanded-english-word-context-en2ar.json",
+        "y-protector.parts/root/0005-combined/0001-changed/part-0139-expanded-english-word-context-en2ar.json"
+      ]
+    },
+    "normalized": {
+      "$jsonModules": "arabiclatin/v1",
+      "kind": "array",
+      "parts": [
+        "y-protector.parts/root/0005-combined/0002-normalized/part-0001.json",
+        "y-protector.parts/root/0005-combined/0002-normalized/part-0002.json",
+        "y-protector.parts/root/0005-combined/0002-normalized/part-0003.json",
+        "y-protector.parts/root/0005-combined/0002-normalized/part-0004.json",
+        "y-protector.parts/root/0005-combined/0002-normalized/part-0005.json"
+      ]
+    },
+    "stability": {
+      "checks": 11022,
+      "beforeFailed": 572,
+      "afterFailed": 573,
+      "fixed": [
+        {
+          "id": "expanded-ambiguous-tokenization/en2ar/0016",
+          "group": "expanded-ambiguous-tokenization",
+          "direction": "en2ar",
+          "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+            "L2": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+            "A2": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ",
+            "L3": "bija bīja bīīija bījīja bijaN ajja ijja ujja",
+            "A3": "بِيَ بِييَ بِيِيِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ"
+          },
+          "after": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L2": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A2": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L3": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A3": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+          }
+        },
+        {
+          "id": "expanded-ambiguous-tokenization/en2ar/0016",
+          "group": "expanded-ambiguous-tokenization",
+          "direction": "en2ar",
+          "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+            "L2": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+            "A2": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ",
+            "L3": "bija bīja bīīija bījīja bijaN ajja ijja ujja",
+            "A3": "بِيَ بِييَ بِيِيِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ"
+          },
+          "after": {
+            "L1": "bya byya byyya byyyya byaN ayya iyya uyya",
+            "A1": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L2": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A2": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+            "L3": "bia bija bjia bīija biaN ajja ijja ujja",
+            "A3": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0018",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+            "A1": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيٍ)اِييْجٍثشععثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L2": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNijiN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A2": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍإِيٍْ)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L3": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiN'ijiN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A3": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍإِيٍْ)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو"
+          },
+          "after": {
+            "L1": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+            "A1": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)اِييْجٍثشععثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L2": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNīN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A2": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو",
+            "L3": "vī̄\nNks-aNj'/vN\ntJá(-iN+vbat+iNaNiNīN)ājjJiNthsh--thZJtJgh-aHauvashJsh'kh-(uN'uNāNiksū",
+            "A3": "وِي̄\nNكسعًيْء/وْN\nتجى(عٍ+وْبة+ًٍٍِيN)ايّجٍثشعّثظجتجغعَحَُوَشجشءخع(ٌأٌاًِكسُو"
+          }
+        },
+        {
+          "id": "expanded-seeded-mixed/ar2en/0003",
+          "group": "expanded-seeded-mixed",
+          "direction": "ar2en",
+          "input": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+          "rule": "Arabic input: Arabic A2 = A3",
+          "before": {
+            "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+            "L1": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+            "A2": "ً\n\nبِي/قُُِِ — عَلى ١٢ — هوْاء/بِي، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L2": "aN\n\nbī/quiui — -alá ١٢ — hvā'/bī, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? ",
+            "A3": "ً\n\nبِي/قُُِِ — عَلى ١٢ — هوْاء/bِي، ماء؟ E=مك^2 — شاj/lا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L3": "aN\n\nbī/quiui — -alá ١٢ — hvā'/bī, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+          },
+          "after": {
+            "A1": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+            "L1": "aN\n\nby/queue — -alá ١٢ — hvā'/by, mā'? E=mc^2 — shāj/lā\n\nwith? quvvāt\n\nE=mc^2/mHmd\n\nlā quvvāt — queue mā' — stsm-? ",
+            "A2": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L2": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? ",
+            "A3": "ً\n\nبِ/قُُِِ — عَلى ١٢ — هوْاء/بِ، ماء؟ E=مك^2 — شايْ/لا\n\nوِث؟ قُوّات\n\nE=مك^2/محمد\n\nلا قُوّات — قُُِِ ماء — ستسمع؟ ",
+            "L3": "aN\n\nbi/quiui — -alá ١٢ — hvā'/bi, mā'? E=mk^2 — shāj/lā\n\nvith? quvvāt\n\nE=mk^2/mHmd\n\nlā quvvāt — quiui mā' — stsm-? "
+          }
+        },
+        {
+          "id": "expanded-seeded-mixed/ar2en/0004",
+          "group": "expanded-seeded-mixed",
+          "direction": "ar2en",
+          "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+          "rule": "Arabic input: Arabic A2 = A3",
+          "before": {
+            "A1": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+            "L1": "yellow, hū? rbmā, ms'ūl? yellow, fī? alSawt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhello? 42 — rbmā/my — rubbamā yellow\n\nsatasma-/",
+            "A2": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L2": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+            "A3": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/mِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L3": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/"
+          },
+          "after": {
+            "A1": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+            "L1": "yellow, hū? rbmā, ms'ūl? yellow, fī? alSawt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhello? 42 — rbmā/my — rubbamā yellow\n\nsatasma-/",
+            "A2": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شايْ/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L2": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/",
+            "A3": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شايْ/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+            "L3": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/"
+          }
+        }
+      ],
+      "newlyFailing": [
+        {
+          "id": "alias-runs/en2ar/0164",
+          "group": "alias-runs",
+          "direction": "en2ar",
+          "input": "byyyyyyy",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "byyyyyyy",
+            "A1": "بِييِْييِْييِْي",
+            "L2": "bījījījī",
+            "A2": "بِييِْييِْييِْي",
+            "L3": "bījījījī",
+            "A3": "بِييِْييِْييِْي"
+          },
+          "after": {
+            "L1": "byyyyyyy",
+            "A1": "بِيِيِيِ",
+            "L2": "bīīji",
+            "A2": "بِيِييِ",
+            "L3": "bījji",
+            "A3": "بِييِّ"
+          }
+        },
+        {
+          "id": "alias-runs/en2ar/0164",
+          "group": "alias-runs",
+          "direction": "en2ar",
+          "input": "byyyyyyy",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "byyyyyyy",
+            "A1": "بِييِْييِْييِْي",
+            "L2": "bījījījī",
+            "A2": "بِييِْييِْييِْي",
+            "L3": "bījījījī",
+            "A3": "بِييِْييِْييِْي"
+          },
+          "after": {
+            "L1": "byyyyyyy",
+            "A1": "بِيِيِيِ",
+            "L2": "bīīji",
+            "A2": "بِيِييِ",
+            "L3": "bījji",
+            "A3": "بِييِّ"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0015",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+            "A1": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وْوة)wى/طة",
+            "L2": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)wá/Tat",
+            "A2": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+vُوة)wى/طة",
+            "L3": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)wá/Tat",
+            "A3": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+vُوة)wى/طة"
+          },
+          "after": {
+            "L1": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+            "A1": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وْوة)وْى/طة",
+            "L2": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)vá/Tat",
+            "A2": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وُوة)وْى/طة",
+            "L3": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+ūūat)vá/Tat",
+            "A3": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+ُوُوة)وْى/طة"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0015",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+            "A1": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وْوة)wى/طة",
+            "L2": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)wá/Tat",
+            "A2": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+vُوة)wى/طة",
+            "L3": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)wá/Tat",
+            "A3": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+vُوة)wى/طة"
+          },
+          "after": {
+            "L1": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+            "A1": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وْوة)وْى/طة",
+            "L2": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+vūat)vá/Tat",
+            "A2": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+وُوة)وْى/طة",
+            "L3": "Dghkthi'tJ+'aN'ī'JāvDSiNJj+ūūat)vá/Tat",
+            "A3": "ضغكثِئتج+أًئِيئجاوْضصٍجيْ+ُوُوة)وْى/طة"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0094",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+          "rule": "Latin input: Latin L2 = L3",
+          "before": {
+            "L1": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+            "A1": "ايْ̄ثشُكجكَح+Nِيظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/وْوأH+أ",
+            "L2": "āj̄thshukJkaH+NīZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'atī jvuN/o/vū'H+'",
+            "A2": "ايْ̄ثشُكجكَح+NِيZ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/vُوأH+أ",
+            "L3": "āj̄thshukJkaH+NīZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'atī jvuN/o/vū'H+'",
+            "A3": "ايْ̄ثشُكجكَح+NِيZ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/vُوأH+أ"
+          },
+          "after": {
+            "L1": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+            "A1": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/وْوأH+أ",
+            "L2": "āj̄thshukJkaH+N'iZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'ati jvuN/o/vū'H+'",
+            "A2": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/وُوأH+أ",
+            "L3": "āj̄thshukJkaH+N'iZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'ati jvuN/o/ūū'H+'",
+            "A3": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/ُوُوأH+أ"
+          }
+        },
+        {
+          "id": "expanded-seeded-fragments/en2ar/0094",
+          "group": "expanded-seeded-fragments",
+          "direction": "en2ar",
+          "input": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+          "rule": "Latin input: Arabic A2 = A3",
+          "before": {
+            "L1": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+            "A1": "ايْ̄ثشُكجكَح+Nِيظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/وْوأH+أ",
+            "L2": "āj̄thshukJkaH+NīZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'atī jvuN/o/vū'H+'",
+            "A2": "ايْ̄ثشُكجكَح+NِيZ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/vُوأH+أ",
+            "L3": "āj̄thshukJkaH+NīZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'atī jvuN/o/vū'H+'",
+            "A3": "ايْ̄ثشُكجكَح+NِيZ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِي يْوٌْ/o/vُوأH+أ"
+          },
+          "after": {
+            "L1": "āȳthshocJcaH+NyZ+ū+āph'och) oshʾ̄b'\nNSiNokhJkh+iNx(a'\ncSZgheghjbatʿ ácashʾaty ywuN/o/vwʾH+'",
+            "A1": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/وْوأH+أ",
+            "L2": "āj̄thshukJkaH+N'iZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'ati jvuN/o/vū'H+'",
+            "A2": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/وُوأH+أ",
+            "L3": "āj̄thshukJkaH+N'iZ+ū+āf'utJ) ush'̄b'\nNSiNukhJkh+iNks(a'\nkSZghighjbat- ákash'ati jvuN/o/ūū'H+'",
+            "A3": "ايْ̄ثشُكجكَح+Nإِظ+ُو+افأُتج) أُشؤ̄بؤ\nNصٍُخجخ+ٍكس(aأ\nكصظغِغيْبةع ىكَشءةِ يْوٌْ/o/ُوُوأH+أ"
+          }
+        }
+      ]
+    }
+  }
+}

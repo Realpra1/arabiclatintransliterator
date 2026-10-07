@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1037",
+    "input": "file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt",
+    "normalized": "fili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt",
+    "collapsed": "file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt"
+  },
+  {
+    "id": "normalizer/1038",
+    "input": "naïve façade coöperate piñata Straße Łódź déjà vu",
+    "normalized": "naïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "collapsed": "naïve façade coöperate piñata Straße Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1039",
+    "input": "fī alSSabāH, fataHat lajla alnnāfidha. kāna almaTar khafīfaN.\nqālat: «hal satasma- Sawt al-ajSāfīr?»\n\nakhadhat kitābaN va qalamaN, thumma dhahabat ila almaktaba. sā-at alfatH: 09:30; ahlaN bi alJamī-.\nC=6.242×10^18; mā' + havā' = ?",
+    "normalized": "fī alSSabāH, fataHat lajla alnnāfidha. kāna almaTar khafīfaN.\nqālat: «hal satasma- Sawt al-ajSāfīr?»\n\nakhadhat kitābaN va qalamaN, thumma dhahabat ila almaktaba. sā-at alfatH: 09:30; ahlaN bi alJamī-.\nC=6.242×10^18; mā' + havā' = ?",
+    "collapsed": "fī alSSabāH, fataHat lajla alnnāfidha. kāna almaTar khafīfaN.\nqālat: «hal satasma- Sawt al-ajSāfīr?»\n\nakhadhat kitābaN va qalamaN, thumma dhahabat ila almaktaba. sā-at alfatH: 09:30; ahlaN bi alJamī-.\nC=6.242×10^18; mā' + havā' = ?"
+  },
+  {
+    "id": "normalizer/1040",
+    "input": "At 8:30, I left my keys by the café door. 'Did you hear that?' asked May.\nA quiet yellow taxi passed the old school; three children waved.\n\nShopping: coffee, cheese, bread, apples. Total: €12.50.\nSend the receipt to ali@example.com, then write: shukraN!",
+    "normalized": "at 8:30, i lift mi kiys bi thi kafé dūr. 'Did yū hiar that?' askid may.\na quīt yilluw taxi passid thi uld schūl; thrī childrin wavid.\n\nShupping: kuffī, chīsi, briad, applis. Tutal: €12.50.\nSind thi risīpt tu ali@ixampli.kum, thin writi: shukraN!",
+    "collapsed": "At 8:30, I left my keys by the café door. 'Did you hear that?' asked May.\nA quiet yellow taxi passed the old school; three children waved.\n\nShopping: coffee, cheese, bread, apples. Total: €12.50.\nSend the receipt to ali@example.com, then write: shukraN!"
+  },
+  {
+    "id": "normalizer/1041",
+    "input": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kuubaN min almaa'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alQāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hello! How are you today? Good morning. Good evening. Good night. Please, thank you, and sorry. I'm fine. What's your name? Where's the station? One coffee without sugar, please. The meeting is at 08:30 on Wednesday. Call +44 20 1234 5678, extension 42. My address is 12 Church Street, apartment 3B. Bread, milk, eggs, cheese, apples, and tea. I paid $12.50, €8.99, and £3.00. She said, “Yes”; he replied, “Why?” O'Connor, D'Angelo, Anne-Marie, and Jean-Luc queue rhythm yacht choir thorough though tough a an the and or but if in on at to of for with Monday Tuesday Wednesday Thursday Friday January February March April May June July 0 zero 1 one 2 two 10 ten 100 hundred Email user+tag@example.com; open https://example.com/a?x=1&y=2#section. file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt naïve façade coöperate piñata Straße Łódź déjà vu",
+    "normalized": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kūbaN min almā'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alqāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hillu! Huw ari yū tuday? gūd murning. gūd ivining. gūd night. pliasi, thank yū, and surri. i'm fini. what's yūr nami? whiri's thi statiun? uni kuffī withūt sugar, pliasi. Thi mīting is at 08:30 un widnisday. kall +44 20 1234 5678, ixtinsiun 42. mi addriss is 12 church Strīt, apartmint 3B. briad, milk, iggs, chīsi, applis, and tia. i paid $12.50, €8.99, and £3.00. Shi said, “yis”; hi riplīd, “whi?” u'kunnur, D'angilu, anni-marī, and Jian-lus quiui rhithm yacht chuir thurūgh thūgh tūgh a an thi and ur but if in un at tu uf fur with munday Tuisday widnisday Thursday friday Januari fibruari march april may Juni Juli 0 ziru 1 uni 2 twu 10 tin 100 hundrid imail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun. fili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt naïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "collapsed": "marHaba ahlan va sahlan alssalāmu -alajkum va -alajkum alssalām SabāH alkhajr masā' alkhajr shukraN JazīlaN min faDlik kajfa Hāluk? anā bikhajr, va anta? mā ismuk? ismī lajlá. ajna taskun? lā afham. hal tatakallam al-arabijja? urid kūbaN min almā'. urīdu qahva bilā sukkar. kam alssā-a alān? ajna maHaTTat alqiTār? satasma- Sawt almaTar ghadaN. hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN. ashshams valqamar alshshams va alqamar allāh in shā' allāh mā shā' allāh -abd allāh aHmad va 'ibrāhīm fāTimat, -ā'ishat, va marjam alQāhira, bajrūt, dimashq, baghdād makka almukarrama mā', havā', shaj', su'āl, mas'ala Hello! How are you today? Good morning. Good evening. Good night. Please, thank you, and sorry. I'm fine. What's your name? Where's the station? One coffee without sugar, please. The meeting is at 08:30 on Wednesday. Call +44 20 1234 5678, extension 42. My address is 12 Church Street, apartment 3B. Bread, milk, eggs, cheese, apples, and tea. I paid $12.50, €8.99, and £3.00. She said, “Yes”; he replied, “Why?” O'Connor, D'Angelo, Anne-Marie, and Jean-Luc queue rhythm yacht choir thorough though tough a an the and or but if in on at to of for with Monday Tuesday Wednesday Thursday Friday January February March April May June July 0 zero 1 one 2 two 10 ten 100 hundred Email user+tag@example.com; open https://example.com/a?x=1&y=2#section. file_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt naïve façade coöperate piñata Straße Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1042",
+    "input": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kuubaN min almaa'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalQāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHello! How are you today?\nGood morning. Good evening. Good night.\nPlease, thank you, and sorry.\nI'm fine. What's your name? Where's the station?\nOne coffee without sugar, please.\nThe meeting is at 08:30 on Wednesday.\nCall +44 20 1234 5678, extension 42.\nMy address is 12 Church Street, apartment 3B.\nBread, milk, eggs, cheese, apples, and tea.\nI paid $12.50, €8.99, and £3.00.\nShe said, “Yes”; he replied, “Why?”\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\nqueue rhythm yacht choir thorough though tough\na an the and or but if in on at to of for with\nMonday Tuesday Wednesday Thursday Friday\nJanuary February March April May June July\n0 zero 1 one 2 two 10 ten 100 hundred\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\nnaïve façade coöperate piñata Straße Łódź déjà vu",
+    "normalized": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kūbaN min almā'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalqāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHillu! Huw ari yū tuday?\ngūd murning. gūd ivining. gūd night.\npliasi, thank yū, and surri.\ni'm fini. what's yūr nami? whiri's thi statiun?\nuni kuffī withūt sugar, pliasi.\nThi mīting is at 08:30 un widnisday.\nkall +44 20 1234 5678, ixtinsiun 42.\nmi addriss is 12 church Strīt, apartmint 3B.\nbriad, milk, iggs, chīsi, applis, and tia.\ni paid $12.50, €8.99, and £3.00.\nShi said, “yis”; hi riplīd, “whi?”\nu'kunnur, D'angilu, anni-marī, and Jian-lus\nquiui rhithm yacht chuir thurūgh thūgh tūgh\na an thi and ur but if in un at tu uf fur with\nmunday Tuisday widnisday Thursday friday\nJanuari fibruari march april may Juni Juli\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "collapsed": "marHaba\nahlan va sahlan\nalssalāmu -alajkum\nva -alajkum alssalām\nSabāH alkhajr\nmasā' alkhajr\nshukraN JazīlaN\nmin faDlik\nkajfa Hāluk?\nanā bikhajr, va anta?\nmā ismuk?\nismī lajlá.\najna taskun?\nlā afham.\nhal tatakallam al-arabijja?\nurid kūbaN min almā'.\nurīdu qahva bilā sukkar.\nkam alssā-a alān?\najna maHaTTat alqiTār?\nsatasma- Sawt almaTar ghadaN.\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\nashshams valqamar\nalshshams va alqamar\nallāh\nin shā' allāh\nmā shā' allāh\n-abd allāh\naHmad va 'ibrāhīm\nfāTimat, -ā'ishat, va marjam\nalQāhira, bajrūt, dimashq, baghdād\nmakka almukarrama\nmā', havā', shaj', su'āl, mas'ala\nHello! How are you today?\nGood morning. Good evening. Good night.\nPlease, thank you, and sorry.\nI'm fine. What's your name? Where's the station?\nOne coffee without sugar, please.\nThe meeting is at 08:30 on Wednesday.\nCall +44 20 1234 5678, extension 42.\nMy address is 12 Church Street, apartment 3B.\nBread, milk, eggs, cheese, apples, and tea.\nI paid $12.50, €8.99, and £3.00.\nShe said, “Yes”; he replied, “Why?”\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\nqueue rhythm yacht choir thorough though tough\na an the and or but if in on at to of for with\nMonday Tuesday Wednesday Thursday Friday\nJanuary February March April May June July\n0 zero 1 one 2 two 10 ten 100 hundred\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\nnaïve façade coöperate piñata Straße Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1043",
+    "input": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kuubaN min almaa'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalQāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHello! How are you today?\n\nGood morning. Good evening. Good night.\n\nPlease, thank you, and sorry.\n\nI'm fine. What's your name? Where's the station?\n\nOne coffee without sugar, please.\n\nThe meeting is at 08:30 on Wednesday.\n\nCall +44 20 1234 5678, extension 42.\n\nMy address is 12 Church Street, apartment 3B.\n\nBread, milk, eggs, cheese, apples, and tea.\n\nI paid $12.50, €8.99, and £3.00.\n\nShe said, “Yes”; he replied, “Why?”\n\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\n\nqueue rhythm yacht choir thorough though tough\n\na an the and or but if in on at to of for with\n\nMonday Tuesday Wednesday Thursday Friday\n\nJanuary February March April May June July\n\n0 zero 1 one 2 two 10 ten 100 hundred\n\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\n\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\n\nnaïve façade coöperate piñata Straße Łódź déjà vu",
+    "normalized": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kūbaN min almā'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalqāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHillu! Huw ari yū tuday?\n\ngūd murning. gūd ivining. gūd night.\n\npliasi, thank yū, and surri.\n\ni'm fini. what's yūr nami? whiri's thi statiun?\n\nuni kuffī withūt sugar, pliasi.\n\nThi mīting is at 08:30 un widnisday.\n\nkall +44 20 1234 5678, ixtinsiun 42.\n\nmi addriss is 12 church Strīt, apartmint 3B.\n\nbriad, milk, iggs, chīsi, applis, and tia.\n\ni paid $12.50, €8.99, and £3.00.\n\nShi said, “yis”; hi riplīd, “whi?”\n\nu'kunnur, D'angilu, anni-marī, and Jian-lus\n\nquiui rhithm yacht chuir thurūgh thūgh tūgh\n\na an thi and ur but if in un at tu uf fur with\n\nmunday Tuisday widnisday Thursday friday\n\nJanuari fibruari march april may Juni Juli\n\n0 ziru 1 uni 2 twu 10 tin 100 hundrid\n\nimail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.\n\nfili_nami.txt /usr/lukal/bin k:\\usirs\\ali\\nutis.txt\n\nnaïvi façadi kuöpirati piñata Straßi Łódź déjà vu",
+    "collapsed": "marHaba\n\nahlan va sahlan\n\nalssalāmu -alajkum\n\nva -alajkum alssalām\n\nSabāH alkhajr\n\nmasā' alkhajr\n\nshukraN JazīlaN\n\nmin faDlik\n\nkajfa Hāluk?\n\nanā bikhajr, va anta?\n\nmā ismuk?\n\nismī lajlá.\n\najna taskun?\n\nlā afham.\n\nhal tatakallam al-arabijja?\n\nurid kūbaN min almā'.\n\nurīdu qahva bilā sukkar.\n\nkam alssā-a alān?\n\najna maHaTTat alqiTār?\n\nsatasma- Sawt almaTar ghadaN.\n\nhādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.\n\nashshams valqamar\n\nalshshams va alqamar\n\nallāh\n\nin shā' allāh\n\nmā shā' allāh\n\n-abd allāh\n\naHmad va 'ibrāhīm\n\nfāTimat, -ā'ishat, va marjam\n\nalQāhira, bajrūt, dimashq, baghdād\n\nmakka almukarrama\n\nmā', havā', shaj', su'āl, mas'ala\n\nHello! How are you today?\n\nGood morning. Good evening. Good night.\n\nPlease, thank you, and sorry.\n\nI'm fine. What's your name? Where's the station?\n\nOne coffee without sugar, please.\n\nThe meeting is at 08:30 on Wednesday.\n\nCall +44 20 1234 5678, extension 42.\n\nMy address is 12 Church Street, apartment 3B.\n\nBread, milk, eggs, cheese, apples, and tea.\n\nI paid $12.50, €8.99, and £3.00.\n\nShe said, “Yes”; he replied, “Why?”\n\nO'Connor, D'Angelo, Anne-Marie, and Jean-Luc\n\nqueue rhythm yacht choir thorough though tough\n\na an the and or but if in on at to of for with\n\nMonday Tuesday Wednesday Thursday Friday\n\nJanuary February March April May June July\n\n0 zero 1 one 2 two 10 ten 100 hundred\n\nEmail user+tag@example.com; open https://example.com/a?x=1&y=2#section.\n\nfile_name.txt /usr/local/bin C:\\Users\\Ali\\notes.txt\n\nnaïve façade coöperate piñata Straße Łódź déjà vu"
+  },
+  {
+    "id": "normalizer/1044",
+    "input": " satasma- ",
+    "normalized": " satasma- ",
+    "collapsed": " satasma- "
+  },
+  {
+    "id": "normalizer/1045",
+    "input": "basatasma-a",
+    "normalized": "basatasma-a",
+    "collapsed": "basatasma-a"
+  },
+  {
+    "id": "normalizer/1046",
+    "input": "vasatasma-",
+    "normalized": "vasatasma-",
+    "collapsed": "vasatasma-"
+  },
+  {
+    "id": "normalizer/1047",
+    "input": "fasatasma-",
+    "normalized": "fasatasma-",
+    "collapsed": "fasatasma-"
+  },
+  {
+    "id": "normalizer/1048",
+    "input": "lisatasma-",
+    "normalized": "lisatasma-",
+    "collapsed": "lisatasma-"
+  },
+  {
+    "id": "normalizer/1049",
+    "input": "alsatasma-",
+    "normalized": "alsatasma-",
+    "collapsed": "alsatasma-"
+  },
+  {
+    "id": "normalizer/1050",
+    "input": "(satasma-)",
+    "normalized": "(satasma-)",
+    "collapsed": "(satasma-)"
+  },
+  {
+    "id": "normalizer/1051",
+    "input": "[satasma-]",
+    "normalized": "[satasma-]",
+    "collapsed": "[satasma-]"
+  },
+  {
+    "id": "normalizer/1052",
+    "input": "«satasma-»",
+    "normalized": "«satasma-»",
+    "collapsed": "«satasma-»"
+  },
+  {
+    "id": "normalizer/1053",
+    "input": "\"satasma-\"",
+    "normalized": "\"satasma-\"",
+    "collapsed": "\"satasma-\""
+  },
+  {
+    "id": "normalizer/1054",
+    "input": "a satasma- i",
+    "normalized": "a satasma- i",
+    "collapsed": "a satasma- i"
+  },
+  {
+    "id": "normalizer/1055",
+    "input": "a\nsatasma-\nu",
+    "normalized": "a\nsatasma-\nu",
+    "collapsed": "a\nsatasma-\nu"
+  },
+  {
+    "id": "normalizer/1056",
+    "input": "a\tsatasma-\tb",
+    "normalized": "a\tsatasma-\tb",
+    "collapsed": "a\tsatasma-\tb"
+  },
+  {
+    "id": "normalizer/1057",
+    "input": "a\r\nsatasma-\r\nb",
+    "normalized": "a\r\nsatasma-\r\nb",
+    "collapsed": "a\r\nsatasma-\r\nb"
+  },
+  {
+    "id": "normalizer/1058",
+    "input": "a satasma- b",
+    "normalized": "a satasma- b",
+    "collapsed": "a satasma- b"
+  },
+  {
+    "id": "normalizer/1059",
+    "input": "a/satasma-/b",
+    "normalized": "a/satasma-/b",
+    "collapsed": "a/satasma-/b"
+  },
+  {
+    "id": "normalizer/1060",
+    "input": "a+satasma-+b",
+    "normalized": "a+satasma-+b",
+    "collapsed": "a+satasma-+b"
+  },
+  {
+    "id": "normalizer/1061",
+    "input": "a-satasma--b",
+    "normalized": "a-satasma--b",
+    "collapsed": "a-satasma--b"
+  },
+  {
+    "id": "normalizer/1062",
+    "input": "a−satasma-−b",
+    "normalized": "a−satasma-−b",
+    "collapsed": "a−satasma-−b"
+  },
+  {
+    "id": "normalizer/1063",
+    "input": "a،satasma-؛b",
+    "normalized": "a،satasma-؛b",
+    "collapsed": "a،satasma-؛b"
+  },
+  {
+    "id": "normalizer/1064",
+    "input": "a‍satasma-‍b",
+    "normalized": "a‍satasma-‍b",
+    "collapsed": "a‍satasma-‍b"
+  },
+  {
+    "id": "normalizer/1065",
+    "input": "a‌satasma-‌b",
+    "normalized": "a‌satasma-‌b",
+    "collapsed": "a‌satasma-‌b"
+  },
+  {
+    "id": "normalizer/1066",
+    "input": "a⁧satasma-⁩b",
+    "normalized": "a⁧satasma-⁩b",
+    "collapsed": "a⁧satasma-⁩b"
+  },
+  {
+    "id": "normalizer/1067",
+    "input": "بsatasma-ت",
+    "normalized": "بsatasma-ت",
+    "collapsed": "بsatasma-ت"
+  },
+  {
+    "id": "normalizer/1068",
+    "input": "🙂satasma-🙂",
+    "normalized": "🙂satasma-🙂",
+    "collapsed": "🙂satasma-🙂"
+  },
+  {
+    "id": "normalizer/1069",
+    "input": " 'i ",
+    "normalized": " 'i ",
+    "collapsed": " 'i "
+  },
+  {
+    "id": "normalizer/1070",
+    "input": "ba'ia",
+    "normalized": "ba'ia",
+    "collapsed": "ba'ia"
+  },
+  {
+    "id": "normalizer/1071",
+    "input": "('i)",
+    "normalized": "('i)",
+    "collapsed": "('i)"
+  },
+  {
+    "id": "normalizer/1072",
+    "input": "['i]",
+    "normalized": "['i]",
+    "collapsed": "['i]"
+  },
+  {
+    "id": "normalizer/1073",
+    "input": "«'i»",
+    "normalized": "«'i»",
+    "collapsed": "«'i»"
+  },
+  {
+    "id": "normalizer/1074",
+    "input": "\"'i\"",
+    "normalized": "\"'i\"",
+    "collapsed": "\"'i\""
+  },
+  {
+    "id": "normalizer/1075",
+    "input": "a 'i i",
+    "normalized": "a 'i i",
+    "collapsed": "a 'i i"
+  },
+  {
+    "id": "normalizer/1076",
+    "input": "a\n'i\nu",
+    "normalized": "a\n'i\nu",
+    "collapsed": "a\n'i\nu"
+  },
+  {
+    "id": "normalizer/1077",
+    "input": "a\t'i\tb",
+    "normalized": "a\t'i\tb",
+    "collapsed": "a\t'i\tb"
+  },
+  {
+    "id": "normalizer/1078",
+    "input": "a\r\n'i\r\nb",
+    "normalized": "a\r\n'i\r\nb",
+    "collapsed": "a\r\n'i\r\nb"
+  },
+  {
+    "id": "normalizer/1079",
+    "input": "a 'i b",
+    "normalized": "a 'i b",
+    "collapsed": "a 'i b"
+  },
+  {
+    "id": "normalizer/1080",
+    "input": "a/'i/b",
+    "normalized": "a/'i/b",
+    "collapsed": "a/'i/b"
+  },
+  {
+    "id": "normalizer/1081",
+    "input": "a+'i+b",
+    "normalized": "a+'i+b",
+    "collapsed": "a+'i+b"
+  },
+  {
+    "id": "normalizer/1082",
+    "input": "a-'i-b",
+    "normalized": "a-'i-b",
+    "collapsed": "a-'i-b"
+  },
+  {
+    "id": "normalizer/1083",
+    "input": "a−'i−b",
+    "normalized": "a−'i−b",
+    "collapsed": "a−'i−b"
+  },
+  {
+    "id": "normalizer/1084",
+    "input": "a،'i؛b",
+    "normalized": "a،'i؛b",
+    "collapsed": "a،'i؛b"
+  },
+  {
+    "id": "normalizer/1085",
+    "input": "a‍'i‍b",
+    "normalized": "a‍'i‍b",
+    "collapsed": "a‍'i‍b"
+  },
+  {
+    "id": "normalizer/1086",
+    "input": "a‌'i‌b",
+    "normalized": "a‌'i‌b",
+    "collapsed": "a‌'i‌b"
+  },
+  {
+    "id": "normalizer/1087",
+    "input": "a⁧'i⁩b",
+    "normalized": "a⁧'i⁩b",
+    "collapsed": "a⁧'i⁩b"
+  },
+  {
+    "id": "normalizer/1088",
+    "input": "ب'iت",
+    "normalized": "ب'iت",
+    "collapsed": "ب'iت"
+  },
+  {
+    "id": "normalizer/1089",
+    "input": "🙂'i🙂",
+    "normalized": "🙂'i🙂",
+    "collapsed": "🙂'i🙂"
+  },
+  {
+    "id": "normalizer/1090",
+    "input": " 'ā ",
+    "normalized": " 'ā ",
+    "collapsed": " 'ā "
+  },
+  {
+    "id": "normalizer/1091",
+    "input": "ba'āa",
+    "normalized": "ba'āa",
+    "collapsed": "ba'āa"
+  },
+  {
+    "id": "normalizer/1092",
+    "input": "['ā]",
+    "normalized": "['ā]",
+    "collapsed": "['ā]"
+  },
+  {
+    "id": "normalizer/1093",
+    "input": "«'ā»",
+    "normalized": "«'ā»",
+    "collapsed": "«'ā»"
+  },
+  {
+    "id": "normalizer/1094",
+    "input": "\"'ā\"",
+    "normalized": "\"'ā\"",
+    "collapsed": "\"'ā\""
+  },
+  {
+    "id": "normalizer/1095",
+    "input": "a 'ā i",
+    "normalized": "a 'ā i",
+    "collapsed": "a 'ā i"
+  },
+  {
+    "id": "normalizer/1096",
+    "input": "a\n'ā\nu",
+    "normalized": "a\n'ā\nu",
+    "collapsed": "a\n'ā\nu"
+  },
+  {
+    "id": "normalizer/1097",
+    "input": "a\t'ā\tb",
+    "normalized": "a\t'ā\tb",
+    "collapsed": "a\t'ā\tb"
+  },
+  {
+    "id": "normalizer/1098",
+    "input": "a\r\n'ā\r\nb",
+    "normalized": "a\r\n'ā\r\nb",
+    "collapsed": "a\r\n'ā\r\nb"
+  },
+  {
+    "id": "normalizer/1099",
+    "input": "a 'ā b",
+    "normalized": "a 'ā b",
+    "collapsed": "a 'ā b"
+  },
+  {
+    "id": "normalizer/1100",
+    "input": "a/'ā/b",
+    "normalized": "a/'ā/b",
+    "collapsed": "a/'ā/b"
+  },
+  {
+    "id": "normalizer/1101",
+    "input": "a+'ā+b",
+    "normalized": "a+'ā+b",
+    "collapsed": "a+'ā+b"
+  },
+  {
+    "id": "normalizer/1102",
+    "input": "a-'ā-b",
+    "normalized": "a-'ā-b",
+    "collapsed": "a-'ā-b"
+  },
+  {
+    "id": "normalizer/1103",
+    "input": "a−'ā−b",
+    "normalized": "a−'ā−b",
+    "collapsed": "a−'ā−b"
+  },
+  {
+    "id": "normalizer/1104",
+    "input": "a،'ā؛b",
+    "normalized": "a،'ā؛b",
+    "collapsed": "a،'ā؛b"
+  },
+  {
+    "id": "normalizer/1105",
+    "input": "a‍'ā‍b",
+    "normalized": "a‍'ā‍b",
+    "collapsed": "a‍'ā‍b"
+  },
+  {
+    "id": "normalizer/1106",
+    "input": "a‌'ā‌b",
+    "normalized": "a‌'ā‌b",
+    "collapsed": "a‌'ā‌b"
+  },
+  {
+    "id": "normalizer/1107",
+    "input": "a⁧'ā⁩b",
+    "normalized": "a⁧'ā⁩b",
+    "collapsed": "a⁧'ā⁩b"
+  },
+  {
+    "id": "normalizer/1108",
+    "input": "ب'āت",
+    "normalized": "ب'āت",
+    "collapsed": "ب'āت"
+  },
+  {
+    "id": "normalizer/1109",
+    "input": "🙂'ā🙂",
+    "normalized": "🙂'ā🙂",
+    "collapsed": "🙂'ā🙂"
+  },
+  {
+    "id": "normalizer/1110",
+    "input": " mā'i ",
+    "normalized": " mā'i ",
+    "collapsed": " mā'i "
+  }
+]

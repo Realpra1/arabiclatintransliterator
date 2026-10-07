@@ -1,0 +1,332 @@
+[
+  {
+    "id": "normalizer/1999",
+    "input": "meet",
+    "normalized": "mīt",
+    "collapsed": "meet"
+  },
+  {
+    "id": "normalizer/2000",
+    "input": "feet",
+    "normalized": "fīt",
+    "collapsed": "feet"
+  },
+  {
+    "id": "normalizer/2001",
+    "input": "tree",
+    "normalized": "trī",
+    "collapsed": "tree"
+  },
+  {
+    "id": "normalizer/2002",
+    "input": "free",
+    "normalized": "frī",
+    "collapsed": "free"
+  },
+  {
+    "id": "normalizer/2003",
+    "input": "City",
+    "normalized": "siti",
+    "collapsed": "City"
+  },
+  {
+    "id": "normalizer/2004",
+    "input": "CITY",
+    "normalized": "siTi",
+    "collapsed": "CITY"
+  },
+  {
+    "id": "normalizer/2005",
+    "input": "city.",
+    "normalized": "siti.",
+    "collapsed": "city."
+  },
+  {
+    "id": "normalizer/2006",
+    "input": "city?",
+    "normalized": "siti?",
+    "collapsed": "city?"
+  },
+  {
+    "id": "normalizer/2007",
+    "input": "(city)",
+    "normalized": "(siti)",
+    "collapsed": "(city)"
+  },
+  {
+    "id": "normalizer/2008",
+    "input": "a city",
+    "normalized": "a siti",
+    "collapsed": "a city"
+  },
+  {
+    "id": "normalizer/2009",
+    "input": "the city",
+    "normalized": "thi siti",
+    "collapsed": "the city"
+  },
+  {
+    "id": "normalizer/2010",
+    "input": "city\ncity",
+    "normalized": "siti\nsiti",
+    "collapsed": "city\ncity"
+  },
+  {
+    "id": "normalizer/2011",
+    "input": "Xylophone",
+    "normalized": "siluphuni",
+    "collapsed": "Xylophone"
+  },
+  {
+    "id": "normalizer/2012",
+    "input": "XYLOPHONE",
+    "normalized": "silupHuNi",
+    "collapsed": "XYLOPHONE"
+  },
+  {
+    "id": "normalizer/2013",
+    "input": "xylophone.",
+    "normalized": "siluphuni.",
+    "collapsed": "xylophone."
+  },
+  {
+    "id": "normalizer/2014",
+    "input": "xylophone?",
+    "normalized": "siluphuni?",
+    "collapsed": "xylophone?"
+  },
+  {
+    "id": "normalizer/2015",
+    "input": "(xylophone)",
+    "normalized": "(siluphuni)",
+    "collapsed": "(xylophone)"
+  },
+  {
+    "id": "normalizer/2016",
+    "input": "a xylophone",
+    "normalized": "a siluphuni",
+    "collapsed": "a xylophone"
+  },
+  {
+    "id": "normalizer/2017",
+    "input": "the xylophone",
+    "normalized": "thi siluphuni",
+    "collapsed": "the xylophone"
+  },
+  {
+    "id": "normalizer/2018",
+    "input": "xylophone\nxylophone",
+    "normalized": "siluphuni\nsiluphuni",
+    "collapsed": "xylophone\nxylophone"
+  },
+  {
+    "id": "normalizer/2019",
+    "input": "Cat",
+    "normalized": "kat",
+    "collapsed": "Cat"
+  },
+  {
+    "id": "normalizer/2020",
+    "input": "CAT",
+    "normalized": "kaT",
+    "collapsed": "CAT"
+  },
+  {
+    "id": "normalizer/2021",
+    "input": "cat.",
+    "normalized": "kat.",
+    "collapsed": "cat."
+  },
+  {
+    "id": "normalizer/2022",
+    "input": "cat?",
+    "normalized": "kat?",
+    "collapsed": "cat?"
+  },
+  {
+    "id": "normalizer/2023",
+    "input": "(cat)",
+    "normalized": "(kat)",
+    "collapsed": "(cat)"
+  },
+  {
+    "id": "normalizer/2024",
+    "input": "a cat",
+    "normalized": "a kat",
+    "collapsed": "a cat"
+  },
+  {
+    "id": "normalizer/2025",
+    "input": "the cat",
+    "normalized": "thi kat",
+    "collapsed": "the cat"
+  },
+  {
+    "id": "normalizer/2026",
+    "input": "cat\ncat",
+    "normalized": "kat\nkat",
+    "collapsed": "cat\ncat"
+  },
+  {
+    "id": "normalizer/2027",
+    "input": "Cancer",
+    "normalized": "kansir",
+    "collapsed": "Cancer"
+  },
+  {
+    "id": "normalizer/2028",
+    "input": "CANCER",
+    "normalized": "kaNsir",
+    "collapsed": "CANCER"
+  },
+  {
+    "id": "normalizer/2029",
+    "input": "cancer.",
+    "normalized": "kansir.",
+    "collapsed": "cancer."
+  },
+  {
+    "id": "normalizer/2030",
+    "input": "cancer?",
+    "normalized": "kansir?",
+    "collapsed": "cancer?"
+  },
+  {
+    "id": "normalizer/2031",
+    "input": "(cancer)",
+    "normalized": "(kansir)",
+    "collapsed": "(cancer)"
+  },
+  {
+    "id": "normalizer/2032",
+    "input": "a cancer",
+    "normalized": "a kansir",
+    "collapsed": "a cancer"
+  },
+  {
+    "id": "normalizer/2033",
+    "input": "the cancer",
+    "normalized": "thi kansir",
+    "collapsed": "the cancer"
+  },
+  {
+    "id": "normalizer/2034",
+    "input": "cancer\ncancer",
+    "normalized": "kansir\nkansir",
+    "collapsed": "cancer\ncancer"
+  },
+  {
+    "id": "normalizer/2035",
+    "input": "School",
+    "normalized": "Schūl",
+    "collapsed": "School"
+  },
+  {
+    "id": "normalizer/2036",
+    "input": "SCHOOL",
+    "normalized": "SkHūl",
+    "collapsed": "SCHOOL"
+  },
+  {
+    "id": "normalizer/2037",
+    "input": "school.",
+    "normalized": "schūl.",
+    "collapsed": "school."
+  },
+  {
+    "id": "normalizer/2038",
+    "input": "school?",
+    "normalized": "schūl?",
+    "collapsed": "school?"
+  },
+  {
+    "id": "normalizer/2039",
+    "input": "(school)",
+    "normalized": "(schūl)",
+    "collapsed": "(school)"
+  },
+  {
+    "id": "normalizer/2040",
+    "input": "a school",
+    "normalized": "a schūl",
+    "collapsed": "a school"
+  },
+  {
+    "id": "normalizer/2041",
+    "input": "the school",
+    "normalized": "thi schūl",
+    "collapsed": "the school"
+  },
+  {
+    "id": "normalizer/2042",
+    "input": "school\nschool",
+    "normalized": "schūl\nschūl",
+    "collapsed": "school\nschool"
+  },
+  {
+    "id": "normalizer/2043",
+    "input": "Cycle",
+    "normalized": "sikli",
+    "collapsed": "Cycle"
+  },
+  {
+    "id": "normalizer/2044",
+    "input": "CYCLE",
+    "normalized": "sikli",
+    "collapsed": "CYCLE"
+  },
+  {
+    "id": "normalizer/2045",
+    "input": "cycle.",
+    "normalized": "sikli.",
+    "collapsed": "cycle."
+  },
+  {
+    "id": "normalizer/2046",
+    "input": "cycle?",
+    "normalized": "sikli?",
+    "collapsed": "cycle?"
+  },
+  {
+    "id": "normalizer/2047",
+    "input": "(cycle)",
+    "normalized": "(sikli)",
+    "collapsed": "(cycle)"
+  },
+  {
+    "id": "normalizer/2048",
+    "input": "a cycle",
+    "normalized": "a sikli",
+    "collapsed": "a cycle"
+  },
+  {
+    "id": "normalizer/2049",
+    "input": "the cycle",
+    "normalized": "thi sikli",
+    "collapsed": "the cycle"
+  },
+  {
+    "id": "normalizer/2050",
+    "input": "cycle\ncycle",
+    "normalized": "sikli\nsikli",
+    "collapsed": "cycle\ncycle"
+  },
+  {
+    "id": "normalizer/2051",
+    "input": "city xylophone cat cancer school cycle",
+    "normalized": "siti siluphuni kat kansir schūl sikli",
+    "collapsed": "city xylophone cat cancer school cycle"
+  },
+  {
+    "id": "normalizer/2052",
+    "input": "The city school has a xylophone. A cat watches me cycle past the cancer clinic.",
+    "normalized": "Thi siti schūl has a siluphuni. a kat watchis mi sikli past thi kansir klinik.",
+    "collapsed": "The city school has a xylophone. A cat watches me cycle past the cancer clinic."
+  },
+  {
+    "id": "normalizer/2053",
+    "input": "city\nxylophone\ncat\ncancer\nschool\ncycle",
+    "normalized": "siti\nsiluphuni\nkat\nkansir\nschūl\nsikli",
+    "collapsed": "city\nxylophone\ncat\ncancer\nschool\ncycle"
+  }
+]

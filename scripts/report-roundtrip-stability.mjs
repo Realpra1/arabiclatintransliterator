@@ -1,5 +1,6 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import { createHash } from 'node:crypto';
-import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, mkdirSync } from 'node:fs';
 import { loadTranslator, root, translatorFiles } from '../tests/helpers/load-translator.mjs';
 import { stabilityCases, traceRoundTrip, stabilityComparisons } from '../tests/helpers/roundtrip-stability.mjs';
 
@@ -27,10 +28,10 @@ summary.failingInputCases = failures.length;
 const sourceSha256 = Object.fromEntries(translatorFiles.map(file => [file, createHash('sha256').update(readFileSync(new URL(file, root))).digest('hex')]));
 mkdirSync(new URL('experiments/', root), { recursive: true });
 const report = new URL('experiments/roundtrip-stability.json', root);
-writeFileSync(report, JSON.stringify({
+writeJsonArtifact(report, {
   description: 'Exact stability checks. For Latin input: L1 → A1 → L2 → A2 → L3 → A3. For Arabic input: A1 → L1 → A2 → L2 → A3 → L3. Both starting directions require L2=L3 and A2=A3. Original inputs need not be recovered.',
   sourceSha256, summary, documents, failures,
-}, null, 2) + '\n');
+});
 console.log(JSON.stringify(summary, null, 2));
 console.log('Full traces: experiments/roundtrip-stability.json');
 // This is also usable as a check: generating a report does not mask failures.

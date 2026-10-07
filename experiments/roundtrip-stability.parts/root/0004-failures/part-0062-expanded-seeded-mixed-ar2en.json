@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0035",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+      "L1": "mā'\n\nsu'āl world, lā/queue, alSawt? 'anā — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nSbāHaNā? with, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+      "A2": "ماء\n\nسُؤال وُرلد، لا/قُُِِ، اَلصَوْت؟ أَنا — رهِثم بُوك — شايْ؟ مَدرَسة — كُفِّي/E=مك^2\n\nصباحًا؟ وِث، نحن/سُؤال\n\nقُوّات؟ غدًا، نحن/",
+      "L2": "mā'\n\nsu'āl vurld, lā/quiui, alSavt? anā — rhithm būk — shāj? madrasat — kuffī/E=mk^2\n\nSbāHaNā? vith, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+      "A3": "ماء\n\nسُؤال وُرلد، لا/قُُِِ، اَلصَوْت؟ اَنا — رهِثم بُوك — شايْ؟ مَدرَسة — كُفِّي/E=مك^2\n\nصباحًا؟ وِث، نحن/سُؤال\n\nقُوّات؟ غدًا، نحن/",
+      "L3": "mā'\n\nsu'āl vurld, lā/quiui, alSavt? anā — rhithm būk — shāj? madrasat — kuffī/E=mk^2\n\nSbāHaNā? vith, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/"
+    }
+  }
+]

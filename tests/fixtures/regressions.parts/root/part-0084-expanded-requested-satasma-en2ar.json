@@ -1,0 +1,236 @@
+[
+  {
+    "id": "expanded-requested-satasma/en2ar/0001",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-",
+    "output": "سَتَسمَع",
+    "roundTrip": "satasma-",
+    "secondPass": "سَتَسمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0002",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-?",
+    "output": "سَتَسمَع؟",
+    "roundTrip": "satasma-?",
+    "secondPass": "سَتَسمَع؟"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0003",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-.",
+    "output": "سَتَسمَع.",
+    "roundTrip": "satasma-.",
+    "secondPass": "سَتَسمَع."
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0004",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-!",
+    "output": "سَتَسمَع!",
+    "roundTrip": "satasma-!",
+    "secondPass": "سَتَسمَع!"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0005",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-\n",
+    "output": "سَتَسمَع\n",
+    "roundTrip": "satasma-\n",
+    "secondPass": "سَتَسمَع\n"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0006",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma- alSawt",
+    "output": "سَتَسمَع اَلصَوْت",
+    "roundTrip": "satasma- alSavt",
+    "secondPass": "سَتَسمَع اَلصَوْت"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0007",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "hal satasma- alSawt?",
+    "output": "هَل سَتَسمَع اَلصَوْت؟",
+    "roundTrip": "hal satasma- alSavt?",
+    "secondPass": "هَل سَتَسمَع اَلصَوْت؟"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0008",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "ghadaN satasma- alSawt.",
+    "output": "غَدً سَتَسمَع اَلصَوْت.",
+    "roundTrip": "ghadaN satasma- alSavt.",
+    "secondPass": "غَدً سَتَسمَع اَلصَوْت."
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0009",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma- satasma-",
+    "output": "سَتَسمَع سَتَسمَع",
+    "roundTrip": "satasma- satasma-",
+    "secondPass": "سَتَسمَع سَتَسمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0010",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-a",
+    "output": "سَتَسمَعَ",
+    "roundTrip": "satasma-a",
+    "secondPass": "سَتَسمَعَ"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0011",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-u",
+    "output": "سَتَسمَعُ",
+    "roundTrip": "satasma-u",
+    "secondPass": "سَتَسمَعُ"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0012",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-i",
+    "output": "سَتَسمَعِ",
+    "roundTrip": "satasma-i",
+    "secondPass": "سَتَسمَعِ"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0013",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-ū",
+    "output": "سَتَسمَعُو",
+    "roundTrip": "satasma-ū",
+    "secondPass": "سَتَسمَعُو"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0014",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-'",
+    "output": "سَتَسمَعء",
+    "roundTrip": "satasma-'",
+    "secondPass": "سَتَسمَعء"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0015",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma- al-",
+    "output": "سَتَسمَع اَلع",
+    "roundTrip": "satasma- al-",
+    "secondPass": "سَتَسمَع اَلع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0016",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "-satasma-",
+    "output": "عسَتَسمَع",
+    "roundTrip": "-satasma-",
+    "secondPass": "عسَتَسمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0017",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma--",
+    "output": "سَتَسمَعّ",
+    "roundTrip": "satasma--",
+    "secondPass": "سَتَسمَعّ"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0018",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasmaʿ",
+    "output": "سَتَسمَع",
+    "roundTrip": "satasma-",
+    "secondPass": "سَتَسمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0019",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma−",
+    "output": "سَتَسمَ−",
+    "roundTrip": "satasma−",
+    "secondPass": "سَتَسمَ−"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0020",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma–",
+    "output": "سَتَسمَ–",
+    "roundTrip": "satasma–",
+    "secondPass": "سَتَسمَ–"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0021",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma—",
+    "output": "سَتَسمَ—",
+    "roundTrip": "satasma—",
+    "secondPass": "سَتَسمَ—"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0022",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma‐",
+    "output": "سَتَسمَ‐",
+    "roundTrip": "satasma‐",
+    "secondPass": "سَتَسمَ‐"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0023",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma‑",
+    "output": "سَتَسمَ‑",
+    "roundTrip": "satasma‑",
+    "secondPass": "سَتَسمَ‑"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0024",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "Satasma-",
+    "output": "صَتَسمَع",
+    "roundTrip": "Satasma-",
+    "secondPass": "صَتَسمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0025",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "SATASMA-",
+    "output": "صَطَصمَع",
+    "roundTrip": "SaTaSma-",
+    "secondPass": "صَطَصمَع"
+  },
+  {
+    "id": "expanded-requested-satasma/en2ar/0026",
+    "group": "expanded-requested-satasma",
+    "direction": "en2ar",
+    "input": "satasma-  ",
+    "output": "سَتَسمَع  ",
+    "roundTrip": "satasma-  ",
+    "secondPass": "سَتَسمَع  "
+  }
+]

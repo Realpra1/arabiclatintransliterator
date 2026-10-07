@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0371",
+    "input": "b'u",
+    "normalized": "b'u",
+    "collapsed": "b'u"
+  },
+  {
+    "id": "normalizer/0372",
+    "input": "b'e",
+    "normalized": "b'i",
+    "collapsed": "b'e"
+  },
+  {
+    "id": "normalizer/0373",
+    "input": "b'o",
+    "normalized": "b'u",
+    "collapsed": "b'o"
+  },
+  {
+    "id": "normalizer/0374",
+    "input": "b'ā",
+    "normalized": "b'ā",
+    "collapsed": "b'ā"
+  },
+  {
+    "id": "normalizer/0375",
+    "input": "b'ī",
+    "normalized": "b'ī",
+    "collapsed": "b'ī"
+  },
+  {
+    "id": "normalizer/0376",
+    "input": "b'ū",
+    "normalized": "b'ū",
+    "collapsed": "b'ū"
+  },
+  {
+    "id": "normalizer/0377",
+    "input": "b'aN",
+    "normalized": "b'aN",
+    "collapsed": "b'aN"
+  },
+  {
+    "id": "normalizer/0378",
+    "input": "b'iN",
+    "normalized": "b'iN",
+    "collapsed": "b'iN"
+  },
+  {
+    "id": "normalizer/0379",
+    "input": "b'uN",
+    "normalized": "b'uN",
+    "collapsed": "b'uN"
+  },
+  {
+    "id": "normalizer/0380",
+    "input": "b'b",
+    "normalized": "b'b",
+    "collapsed": "b'b"
+  },
+  {
+    "id": "normalizer/0381",
+    "input": "ba'a",
+    "normalized": "ba'a",
+    "collapsed": "ba'a"
+  },
+  {
+    "id": "normalizer/0382",
+    "input": "ba'i",
+    "normalized": "ba'i",
+    "collapsed": "ba'i"
+  },
+  {
+    "id": "normalizer/0383",
+    "input": "ba'u",
+    "normalized": "ba'u",
+    "collapsed": "ba'u"
+  },
+  {
+    "id": "normalizer/0384",
+    "input": "ba'e",
+    "normalized": "ba'i",
+    "collapsed": "ba'e"
+  },
+  {
+    "id": "normalizer/0385",
+    "input": "ba'o",
+    "normalized": "ba'u",
+    "collapsed": "ba'o"
+  },
+  {
+    "id": "normalizer/0386",
+    "input": "ba'ā",
+    "normalized": "ba'ā",
+    "collapsed": "ba'ā"
+  },
+  {
+    "id": "normalizer/0387",
+    "input": "ba'ī",
+    "normalized": "ba'ī",
+    "collapsed": "ba'ī"
+  },
+  {
+    "id": "normalizer/0388",
+    "input": "ba'ū",
+    "normalized": "ba'ū",
+    "collapsed": "ba'ū"
+  },
+  {
+    "id": "normalizer/0389",
+    "input": "ba'aN",
+    "normalized": "ba'aN",
+    "collapsed": "ba'aN"
+  },
+  {
+    "id": "normalizer/0390",
+    "input": "ba'iN",
+    "normalized": "ba'iN",
+    "collapsed": "ba'iN"
+  },
+  {
+    "id": "normalizer/0391",
+    "input": "ba'uN",
+    "normalized": "ba'uN",
+    "collapsed": "ba'uN"
+  },
+  {
+    "id": "normalizer/0392",
+    "input": "ba'b",
+    "normalized": "ba'b",
+    "collapsed": "ba'b"
+  },
+  {
+    "id": "normalizer/0393",
+    "input": "bi'",
+    "normalized": "bi'",
+    "collapsed": "bi'"
+  },
+  {
+    "id": "normalizer/0394",
+    "input": "bi'a",
+    "normalized": "bi'a",
+    "collapsed": "bi'a"
+  },
+  {
+    "id": "normalizer/0395",
+    "input": "bi'i",
+    "normalized": "bi'i",
+    "collapsed": "bi'i"
+  },
+  {
+    "id": "normalizer/0396",
+    "input": "bi'u",
+    "normalized": "bi'u",
+    "collapsed": "bi'u"
+  },
+  {
+    "id": "normalizer/0397",
+    "input": "bi'e",
+    "normalized": "bi'i",
+    "collapsed": "bi'e"
+  },
+  {
+    "id": "normalizer/0398",
+    "input": "bi'o",
+    "normalized": "bi'u",
+    "collapsed": "bi'o"
+  },
+  {
+    "id": "normalizer/0399",
+    "input": "bi'ā",
+    "normalized": "bi'ā",
+    "collapsed": "bi'ā"
+  },
+  {
+    "id": "normalizer/0400",
+    "input": "bi'ī",
+    "normalized": "bi'ī",
+    "collapsed": "bi'ī"
+  },
+  {
+    "id": "normalizer/0401",
+    "input": "bi'ū",
+    "normalized": "bi'ū",
+    "collapsed": "bi'ū"
+  },
+  {
+    "id": "normalizer/0402",
+    "input": "bi'aN",
+    "normalized": "bi'aN",
+    "collapsed": "bi'aN"
+  },
+  {
+    "id": "normalizer/0403",
+    "input": "bi'iN",
+    "normalized": "bi'iN",
+    "collapsed": "bi'iN"
+  },
+  {
+    "id": "normalizer/0404",
+    "input": "bi'uN",
+    "normalized": "bi'uN",
+    "collapsed": "bi'uN"
+  },
+  {
+    "id": "normalizer/0405",
+    "input": "bi'b",
+    "normalized": "bi'b",
+    "collapsed": "bi'b"
+  },
+  {
+    "id": "normalizer/0406",
+    "input": "bu'",
+    "normalized": "bu'",
+    "collapsed": "bu'"
+  },
+  {
+    "id": "normalizer/0407",
+    "input": "bu'a",
+    "normalized": "bu'a",
+    "collapsed": "bu'a"
+  },
+  {
+    "id": "normalizer/0408",
+    "input": "bu'i",
+    "normalized": "bu'i",
+    "collapsed": "bu'i"
+  },
+  {
+    "id": "normalizer/0409",
+    "input": "bu'u",
+    "normalized": "bu'u",
+    "collapsed": "bu'u"
+  },
+  {
+    "id": "normalizer/0410",
+    "input": "bu'e",
+    "normalized": "bu'i",
+    "collapsed": "bu'e"
+  },
+  {
+    "id": "normalizer/0411",
+    "input": "bu'o",
+    "normalized": "bu'u",
+    "collapsed": "bu'o"
+  },
+  {
+    "id": "normalizer/0412",
+    "input": "bu'ā",
+    "normalized": "bu'ā",
+    "collapsed": "bu'ā"
+  },
+  {
+    "id": "normalizer/0413",
+    "input": "bu'ī",
+    "normalized": "bu'ī",
+    "collapsed": "bu'ī"
+  },
+  {
+    "id": "normalizer/0414",
+    "input": "bu'ū",
+    "normalized": "bu'ū",
+    "collapsed": "bu'ū"
+  },
+  {
+    "id": "normalizer/0415",
+    "input": "bu'aN",
+    "normalized": "bu'aN",
+    "collapsed": "bu'aN"
+  },
+  {
+    "id": "normalizer/0416",
+    "input": "bu'iN",
+    "normalized": "bu'iN",
+    "collapsed": "bu'iN"
+  },
+  {
+    "id": "normalizer/0417",
+    "input": "bu'uN",
+    "normalized": "bu'uN",
+    "collapsed": "bu'uN"
+  },
+  {
+    "id": "normalizer/0418",
+    "input": "bu'b",
+    "normalized": "bu'b",
+    "collapsed": "bu'b"
+  },
+  {
+    "id": "normalizer/0419",
+    "input": "bā'",
+    "normalized": "bā'",
+    "collapsed": "bā'"
+  },
+  {
+    "id": "normalizer/0420",
+    "input": "bā'a",
+    "normalized": "bā'a",
+    "collapsed": "bā'a"
+  },
+  {
+    "id": "normalizer/0421",
+    "input": "bā'i",
+    "normalized": "bā'i",
+    "collapsed": "bā'i"
+  },
+  {
+    "id": "normalizer/0422",
+    "input": "bā'u",
+    "normalized": "bā'u",
+    "collapsed": "bā'u"
+  },
+  {
+    "id": "normalizer/0423",
+    "input": "bā'e",
+    "normalized": "bā'i",
+    "collapsed": "bā'e"
+  },
+  {
+    "id": "normalizer/0424",
+    "input": "bā'o",
+    "normalized": "bā'u",
+    "collapsed": "bā'o"
+  },
+  {
+    "id": "normalizer/0425",
+    "input": "bā'ā",
+    "normalized": "bā'ā",
+    "collapsed": "bā'ā"
+  },
+  {
+    "id": "normalizer/0426",
+    "input": "bā'ī",
+    "normalized": "bā'ī",
+    "collapsed": "bā'ī"
+  },
+  {
+    "id": "normalizer/0427",
+    "input": "bā'ū",
+    "normalized": "bā'ū",
+    "collapsed": "bā'ū"
+  },
+  {
+    "id": "normalizer/0428",
+    "input": "bā'aN",
+    "normalized": "bā'aN",
+    "collapsed": "bā'aN"
+  },
+  {
+    "id": "normalizer/0429",
+    "input": "bā'iN",
+    "normalized": "bā'iN",
+    "collapsed": "bā'iN"
+  },
+  {
+    "id": "normalizer/0430",
+    "input": "bā'uN",
+    "normalized": "bā'uN",
+    "collapsed": "bā'uN"
+  },
+  {
+    "id": "normalizer/0431",
+    "input": "bā'b",
+    "normalized": "bā'b",
+    "collapsed": "bā'b"
+  },
+  {
+    "id": "normalizer/0432",
+    "input": "bī'",
+    "normalized": "bī'",
+    "collapsed": "bī'"
+  },
+  {
+    "id": "normalizer/0433",
+    "input": "bī'a",
+    "normalized": "bī'a",
+    "collapsed": "bī'a"
+  },
+  {
+    "id": "normalizer/0434",
+    "input": "bī'i",
+    "normalized": "bī'i",
+    "collapsed": "bī'i"
+  },
+  {
+    "id": "normalizer/0435",
+    "input": "bī'u",
+    "normalized": "bī'u",
+    "collapsed": "bī'u"
+  },
+  {
+    "id": "normalizer/0436",
+    "input": "bī'e",
+    "normalized": "bī'i",
+    "collapsed": "bī'e"
+  },
+  {
+    "id": "normalizer/0437",
+    "input": "bī'o",
+    "normalized": "bī'u",
+    "collapsed": "bī'o"
+  },
+  {
+    "id": "normalizer/0438",
+    "input": "bī'ā",
+    "normalized": "bī'ā",
+    "collapsed": "bī'ā"
+  },
+  {
+    "id": "normalizer/0439",
+    "input": "bī'ī",
+    "normalized": "bī'ī",
+    "collapsed": "bī'ī"
+  },
+  {
+    "id": "normalizer/0440",
+    "input": "bī'ū",
+    "normalized": "bī'ū",
+    "collapsed": "bī'ū"
+  },
+  {
+    "id": "normalizer/0441",
+    "input": "bī'aN",
+    "normalized": "bī'aN",
+    "collapsed": "bī'aN"
+  },
+  {
+    "id": "normalizer/0442",
+    "input": "bī'iN",
+    "normalized": "bī'iN",
+    "collapsed": "bī'iN"
+  },
+  {
+    "id": "normalizer/0443",
+    "input": "bī'uN",
+    "normalized": "bī'uN",
+    "collapsed": "bī'uN"
+  },
+  {
+    "id": "normalizer/0444",
+    "input": "bī'b",
+    "normalized": "bī'b",
+    "collapsed": "bī'b"
+  }
+]

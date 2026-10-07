@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0005",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+    "output": "في\n\n١٢ شَمْسٌ — بُوك/نعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ ليلى — غدًا لَيْلَ — في؟ أنا — قُوَّ/نَحنُ، ا ٱلْبَيْتُ — مساءً؟ ",
+    "roundTrip": "fī\n\n١٢ shamsuN — būk/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaNā lajla — fī? 'anā — quvva/naHnu, ā albajtu — msā'aN? ",
+    "secondPass": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَيْلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ "
+  }
+]

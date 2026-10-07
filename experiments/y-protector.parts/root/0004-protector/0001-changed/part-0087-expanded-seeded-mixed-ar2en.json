@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0053",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "output": "n-m\n\nmdrsat? hello — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "roundTrip": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِي/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+    "secondPass": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmī/aHmad\n\n١٢/Hajj, 42? ",
+    "before": {
+      "output": "n-m\n\nmdrsat? hello — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+      "roundTrip": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباH/ً — 🙂/nافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+      "secondPass": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+    },
+    "after": {
+      "output": "n-m\n\nmdrsat? hello — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+      "roundTrip": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباح/ً — 🙂/نافذة — سةَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+      "secondPass": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "alias-runs/en2ar/0146",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "by",
+    "output": "بِي",
+    "roundTrip": "bī",
+    "secondPass": "بِي",
+    "before": {
+      "output": "بِي",
+      "roundTrip": "bī",
+      "secondPass": "بِي"
+    },
+    "after": {
+      "output": "بِ",
+      "roundTrip": "bi",
+      "secondPass": "بِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0149",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byy",
+    "output": "بِييْ",
+    "roundTrip": "bīj",
+    "secondPass": "بِييْ",
+    "before": {
+      "output": "بِييْ",
+      "roundTrip": "bīj",
+      "secondPass": "بِييْ"
+    },
+    "after": {
+      "output": "بِيْ",
+      "roundTrip": "bij",
+      "secondPass": "بِيْ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0152",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyy",
+    "output": "بِييِْي",
+    "roundTrip": "bījī",
+    "secondPass": "بِييِْي",
+    "before": {
+      "output": "بِييِْي",
+      "roundTrip": "bījī",
+      "secondPass": "بِييِْي"
+    },
+    "after": {
+      "output": "بِيِ",
+      "roundTrip": "bji",
+      "secondPass": "بيِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0155",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyyy",
+    "output": "بِييِْييْ",
+    "roundTrip": "bījīj",
+    "secondPass": "بِييِْييْ",
+    "before": {
+      "output": "بِييِْييْ",
+      "roundTrip": "bījīj",
+      "secondPass": "بِييِْييْ"
+    },
+    "after": {
+      "output": "بِيِيْ",
+      "roundTrip": "bīij",
+      "secondPass": "بِيِيْ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0158",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyyyy",
+    "output": "بِييِْييِْي",
+    "roundTrip": "bījījī",
+    "secondPass": "بِييِْييِْي",
+    "before": {
+      "output": "بِييِْييِْي",
+      "roundTrip": "bījījī",
+      "secondPass": "بِييِْييِْي"
+    },
+    "after": {
+      "output": "بِيِيِ",
+      "roundTrip": "bīji",
+      "secondPass": "بِييِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0161",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyyyyy",
+    "output": "بِييِْييِْييْ",
+    "roundTrip": "bījījīj",
+    "secondPass": "بِييِْييِْييْ",
+    "before": {
+      "output": "بِييِْييِْييْ",
+      "roundTrip": "bījījīj",
+      "secondPass": "بِييِْييِْييْ"
+    },
+    "after": {
+      "output": "بِيِيِيْ",
+      "roundTrip": "bīīij",
+      "secondPass": "بِيِيِيْ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0164",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyyyyyy",
+    "output": "بِييِْييِْييِْي",
+    "roundTrip": "bījījījī",
+    "secondPass": "بِييِْييِْييِْي",
+    "before": {
+      "output": "بِييِْييِْييِْي",
+      "roundTrip": "bījījījī",
+      "secondPass": "بِييِْييِْييِْي"
+    },
+    "after": {
+      "output": "بِيِيِيِ",
+      "roundTrip": "bīīji",
+      "secondPass": "بِيِييِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "alias-runs/en2ar/0167",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "byyyyyyyy",
+    "output": "بِييِْييِْييِْييْ",
+    "roundTrip": "bījījījīj",
+    "secondPass": "بِييِْييِْييِْييْ",
+    "before": {
+      "output": "بِييِْييِْييِْييْ",
+      "roundTrip": "bījījījīj",
+      "secondPass": "بِييِْييِْييِْييْ"
+    },
+    "after": {
+      "output": "بِيِيِيِيْ",
+      "roundTrip": "bīīīij",
+      "secondPass": "بِيِيِيِيْ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

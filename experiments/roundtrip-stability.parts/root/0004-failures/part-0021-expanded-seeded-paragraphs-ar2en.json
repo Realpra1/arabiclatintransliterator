@@ -1,0 +1,444 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0001",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "حَيّ — نعم? ٱلْبَيْتُ — أنت/نافذة, لأن? هؤلاء, نعم أنت, شاي/لأن — هواء? ٱلْبَيْتُ — كتاب? هو — أمس? هؤلاء, هواء نعم, أنت/عائشة, على/شاي, اليوم/كتاب\n\nعائشة? نافذة — ستسمع",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حَيّ — نعم? ٱلْبَيْتُ — أنت/نافذة, لأن? هؤلاء, نعم أنت, شاي/لأن — هواء? ٱلْبَيْتُ — كتاب? هو — أمس? هؤلاء, هواء نعم, أنت/عائشة, على/شاي, اليوم/كتاب\n\nعائشة? نافذة — ستسمع",
+      "L1": "Hajj — n-m? albajtu — 'ant/nāfdhat, l'n? h'lā', n-m 'ant, shāj/l'n — hvā'? albajtu — ktāb? hū — 'ams? h'lā', hvā' n-m, 'ant/-ā'shat, -lá/shāj, alīvm/ktāb\n\n-ā'shat? nāfdhat — stsm-",
+      "A2": "حَيّ — نعم؟ اَلبَيْتُ — أَنت/نافذة، لأن؟ هءلاء، نعم أَنت، شايْ/lأن — هوْاء؟ اَلبَيْتُ — كتاب؟ هُو — أَمس؟ هءلاء، هوْاء نعم، أَنت/عاءشة، على/شايْ، اَلِيوْم/كتاب\n\nعاءشة؟ نافذة — ستسمع",
+      "L2": "Hajj — n-m? albajtu — ant/nāfdhat, l'n? h'lā', n-m ant, shāj/l'n — hvā'? albajtu — ktāb? hū — ams? h'lā', hvā' n-m, ant/-ā'shat, -lá/shāj, alīvm/ktāb\n\n-ā'shat? nāfdhat — stsm-",
+      "A3": "حَيّ — نعم؟ اَلبَيْتُ — اَنت/نافذة، لأن؟ هءلاء، نعم اَنت، شايْ/lأن — هوْاء؟ اَلبَيْتُ — كتاب؟ هُو — اَمس؟ هءلاء، هوْاء نعم، اَنت/عاءشة، على/شايْ، اَلِيوْم/كتاب\n\nعاءشة؟ نافذة — ستسمع",
+      "L3": "Hajj — n-m? albajtu — ant/nāfdhat, l'n? h'lā', n-m ant, shāj/l'n — hvā'? albajtu — ktāb? hū — ams? h'lā', hvā' n-m, ant/-ā'shat, -lá/shāj, alīvm/ktāb\n\n-ā'shat? nāfdhat — stsm-"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0002",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أنا مدرسة؛ مدرسة+لا صوت\nفي؛ قُوَّة\nمساءً؛ شيء+في؛ محمد+شَمْسٌ شَمْسٌ لكن\tمدرسة\nشيء غدًا في قارئ+في غدًا\nصوت قهوة\nهي هذه+مساءً؛ غدًا شيء؛ أحمد محمد\tقُوَّة؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أنا مدرسة؛ مدرسة+لا صوت\nفي؛ قُوَّة\nمساءً؛ شيء+في؛ محمد+شَمْسٌ شَمْسٌ لكن\tمدرسة\nشيء غدًا في قارئ+في غدًا\nصوت قهوة\nهي هذه+مساءً؛ غدًا شيء؛ أحمد محمد\tقُوَّة؟",
+      "L1": "'anā mdrsat; mdrsat+lā Sūt\nfī; quvvāt\nmsā'aN; shī'+fī; mHmd+shamsuN shamsuN lkn\tmdrsat\nshī' ghdaNā fī qār'+fī ghdaNā\nSūt qhūat\nhī hdhh+msā'aN; ghdaNā shī'; 'aHmd mHmd\tquvvāt?",
+      "A2": "أَنا مدرسة؛ مدرسة+لا صُوت\nفِي؛ قُوّات\nمساأً؛ شِيئ+فِي؛ محمد+شَمسٌ شَمسٌ لكن\tمدرسة\nشِيئ غدًا فِي قارء+فِي غدًا\nصُوت قهُوة\nهِي هذه+مساأً؛ غدًا شِيئ؛ أَحمد محمد\tقُوّات؟",
+      "L2": "anā mdrsat; mdrsat+lā Sūt\nfī; quvvāt\nmsā'aN; shī'+fī; mHmd+shamsuN shamsuN lkn\tmdrsat\nshī' ghdaNā fī qār'+fī ghdaNā\nSūt qhūat\nhī hdhh+msā'aN; ghdaNā shī'; aHmd mHmd\tquvvāt?",
+      "A3": "اَنا مدرسة؛ مدرسة+لا صُوت\nفِي؛ قُوّات\nمساأً؛ شِيئ+فِي؛ محمد+شَمسٌ شَمسٌ لكن\tمدرسة\nشِيئ غدًا فِي قارء+فِي غدًا\nصُوت قهُوة\nهِي هذه+مساأً؛ غدًا شِيئ؛ اَحمد محمد\tقُوّات؟",
+      "L3": "anā mdrsat; mdrsat+lā Sūt\nfī; quvvāt\nmsā'aN; shī'+fī; mHmd+shamsuN shamsuN lkn\tmdrsat\nshī' ghdaNā fī qār'+fī ghdaNā\nSūt qhūat\nhī hdhh+msā'aN; ghdaNā shī'; aHmd mHmd\tquvvāt?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0003",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أمس\n\nصباحًا شاي\n\nمن? شاي\n\nصباحًا أمس\n\nمسؤول",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أمس\n\nصباحًا شاي\n\nمن? شاي\n\nصباحًا أمس\n\nمسؤول",
+      "L1": "'ams\n\nSbāHaNā shāj\n\nmn? shāj\n\nSbāHaNā 'ams\n\nms'ūl",
+      "A2": "أَمس\n\nصباحًا شايْ\n\nمن؟ شايْ\n\nصباحًا أَمس\n\nمسؤُول",
+      "L2": "ams\n\nSbāHaNā shāj\n\nmn? shāj\n\nSbāHaNā ams\n\nms'ūl",
+      "A3": "اَمس\n\nصباحًا شايْ\n\nمن؟ شايْ\n\nصباحًا اَمس\n\nمسؤُول",
+      "L3": "ams\n\nSbāHaNā shāj\n\nmn? shāj\n\nSbāHaNā ams\n\nms'ūl"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0004",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "شيء\nصوت لا\nشيء\tماء+لكن\tهي صوت إلى+محمد ماء\nأنا\tغدًا ربما نحن مساءً\tهي\nغدًا قهوة+صوت شيء+أحمد؛ قُوَّة\nفي صوت قُوَّة؛ أحمد غدًا\tصوت قُوَّة في",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "شيء\nصوت لا\nشيء\tماء+لكن\tهي صوت إلى+محمد ماء\nأنا\tغدًا ربما نحن مساءً\tهي\nغدًا قهوة+صوت شيء+أحمد؛ قُوَّة\nفي صوت قُوَّة؛ أحمد غدًا\tصوت قُوَّة في",
+      "L1": "shī'\nSūt lā\nshī'\tmā'+lkn\thī Sūt 'ilá+mHmd mā'\n'anā\tghdaNā rbmā nHn msā'aN\thī\nghdaNā qhūat+Sūt shī'+'Hmd; quvvāt\nfī Sūt quvvāt; 'aHmd ghdaNā\tSūt quvvāt fī",
+      "A2": "شِيئ\nصُوت لا\nشِيئ\tماء+لكن\tهِي صُوت إِلى+محمد ماء\nأَنا\tغدًا ربما نحن مساأً\tهِي\nغدًا قهُوة+صُوت شِيئ+أحمد؛ قُوّات\nفِي صُوت قُوّات؛ أَحمد غدًا\tصُوت قُوّات فِي",
+      "L2": "shī'\nSūt lā\nshī'\tmā'+lkn\thī Sūt ilá+mHmd mā'\nanā\tghdaNā rbmā nHn msā'aN\thī\nghdaNā qhūat+Sūt shī'+'Hmd; quvvāt\nfī Sūt quvvāt; aHmd ghdaNā\tSūt quvvāt fī",
+      "A3": "شِيئ\nصُوت لا\nشِيئ\tماء+لكن\tهِي صُوت إِلى+محمد ماء\nاَنا\tغدًا ربما نحن مساأً\tهِي\nغدًا قهُوة+صُوت شِيئ+أحمد؛ قُوّات\nفِي صُوت قُوّات؛ اَحمد غدًا\tصُوت قُوّات فِي",
+      "L3": "shī'\nSūt lā\nshī'\tmā'+lkn\thī Sūt ilá+mHmd mā'\nanā\tghdaNā rbmā nHn msā'aN\thī\nghdaNā qhūat+Sūt shī'+'Hmd; quvvāt\nfī Sūt quvvāt; aHmd ghdaNā\tSūt quvvāt fī"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0006",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قُوَّة ماء؛ نحن\nشَمْسٌ؛ نحن+هذه\tماء\nنحن شيء لا شيء هذه\tنحن\nماء أحمد\nهي غدًا\nنحن لا\nمساءً\tمساءً مدرسة\tهذه\nغدًا\tأحمد شيء قارئ+نحن؛ نحن\nأنا في\nشيء قُوَّة\nقارئ؛ ماء\nغدًا؛ إلى+شيء؛ شيء+أحمد؛ ربما محمد\tشَمْسٌ.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قُوَّة ماء؛ نحن\nشَمْسٌ؛ نحن+هذه\tماء\nنحن شيء لا شيء هذه\tنحن\nماء أحمد\nهي غدًا\nنحن لا\nمساءً\tمساءً مدرسة\tهذه\nغدًا\tأحمد شيء قارئ+نحن؛ نحن\nأنا في\nشيء قُوَّة\nقارئ؛ ماء\nغدًا؛ إلى+شيء؛ شيء+أحمد؛ ربما محمد\tشَمْسٌ.",
+      "L1": "quvvāt mā'; nHn\nshamsuN; nHn+hdhh\tmā'\nnHn shī' lā shī' hdhh\tnHn\nmā' 'aHmd\nhī ghdaNā\nnHn lā\nmsā'aN\tmsā'aN mdrsat\thdhh\nghdaNā\t'aHmd shī' qār'+nHn; nHn\n'anā fī\nshī' quvvāt\nqār'; mā'\nghdaNā; 'ilá+shī'; shī'+'Hmd; rbmā mHmd\tshamsuN.",
+      "A2": "قُوّات ماء؛ نحن\nشَمسٌ؛ نحن+هذه\tماء\nنحن شِيئ لا شِيئ هذه\tنحن\nماء أَحمد\nهِي غدًا\nنحن لا\nمساأً\tمساأً مدرسة\tهذه\nغدًا\tأَحمد شِيئ قارء+نحن؛ نحن\nأَنا فِي\nشِيئ قُوّات\nقارء؛ ماء\nغدًا؛ إِلى+شِيئ؛ شِيئ+أحمد؛ ربما محمد\tشَمسٌ.",
+      "L2": "quvvāt mā'; nHn\nshamsuN; nHn+hdhh\tmā'\nnHn shī' lā shī' hdhh\tnHn\nmā' aHmd\nhī ghdaNā\nnHn lā\nmsā'aN\tmsā'aN mdrsat\thdhh\nghdaNā\taHmd shī' qār'+nHn; nHn\nanā fī\nshī' quvvāt\nqār'; mā'\nghdaNā; ilá+shī'; shī'+'Hmd; rbmā mHmd\tshamsuN.",
+      "A3": "قُوّات ماء؛ نحن\nشَمسٌ؛ نحن+هذه\tماء\nنحن شِيئ لا شِيئ هذه\tنحن\nماء اَحمد\nهِي غدًا\nنحن لا\nمساأً\tمساأً مدرسة\tهذه\nغدًا\tاَحمد شِيئ قارء+نحن؛ نحن\nاَنا فِي\nشِيئ قُوّات\nقارء؛ ماء\nغدًا؛ إِلى+شِيئ؛ شِيئ+أحمد؛ ربما محمد\tشَمسٌ.",
+      "L3": "quvvāt mā'; nHn\nshamsuN; nHn+hdhh\tmā'\nnHn shī' lā shī' hdhh\tnHn\nmā' aHmd\nhī ghdaNā\nnHn lā\nmsā'aN\tmsā'aN mdrsat\thdhh\nghdaNā\taHmd shī' qār'+nHn; nHn\nanā fī\nshī' quvvāt\nqār'; mā'\nghdaNā; ilá+shī'; shī'+'Hmd; rbmā mHmd\tshamsuN."
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0007",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "لأن, أمس/هؤلاء, مسؤول? الذي\n\nكتاب هؤلاء\n\nنعم من, مسؤول? ليلى\n\nأنت ستسمع\n\nالذي? ليلى, الذي/مسؤول\n\nهواء/هواء — ستسمع ستسمع\n\nهؤلاء أمس\n\nكتاب? من\n\nنعم? هواء — صباحًا\n",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "لأن, أمس/هؤلاء, مسؤول? الذي\n\nكتاب هؤلاء\n\nنعم من, مسؤول? ليلى\n\nأنت ستسمع\n\nالذي? ليلى, الذي/مسؤول\n\nهواء/هواء — ستسمع ستسمع\n\nهؤلاء أمس\n\nكتاب? من\n\nنعم? هواء — صباحًا\n",
+      "L1": "l'n, 'ams/h'lā', ms'ūl? aldhī\n\nktāb h'lā'\n\nn-m mn, ms'ūl? līlá\n\n'ant stsm-\n\naldhī? līlá, aldhī/ms'ūl\n\nhvā'/hvā' — stsm- stsm-\n\nh'lā' 'ams\n\nktāb? mn\n\nn-m? hvā' — SbāHaNā\n",
+      "A2": "لأن، أَمس/hألاء، مسؤُول؟ اَلذِي\n\nكتاب هءلاء\n\nنعم من، مسؤُول؟ لِيلى\n\nأَنت ستسمع\n\nاَلذِي؟ لِيلى، اَلذِي/مسؤُول\n\nهوْاء/هوْاء — ستسمع ستسمع\n\nهءلاء أَمس\n\nكتاب؟ من\n\nنعم؟ هوْاء — صباحًا\n",
+      "L2": "l'n, ams/h'lā', ms'ūl? aldhī\n\nktāb h'lā'\n\nn-m mn, ms'ūl? līlá\n\nant stsm-\n\naldhī? līlá, aldhī/ms'ūl\n\nhvā'/hvā' — stsm- stsm-\n\nh'lā' ams\n\nktāb? mn\n\nn-m? hvā' — SbāHaNā\n",
+      "A3": "لأن، اَمس/hألاء، مسؤُول؟ اَلذِي\n\nكتاب هءلاء\n\nنعم من، مسؤُول؟ لِيلى\n\nاَنت ستسمع\n\nاَلذِي؟ لِيلى، اَلذِي/مسؤُول\n\nهوْاء/هوْاء — ستسمع ستسمع\n\nهءلاء اَمس\n\nكتاب؟ من\n\nنعم؟ هوْاء — صباحًا\n",
+      "L3": "l'n, ams/h'lā', ms'ūl? aldhī\n\nktāb h'lā'\n\nn-m mn, ms'ūl? līlá\n\nant stsm-\n\naldhī? līlá, aldhī/ms'ūl\n\nhvā'/hvā' — stsm- stsm-\n\nh'lā' ams\n\nktāb? mn\n\nn-m? hvā' — SbāHaNā\n"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0008",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أحمد+هي؛ إلى+في؛ شيء هي؛ إلى قُوَّة أنا+إلى في\nقارئ؛ نحن+غدًا\tماء+نحن\tهذه+شَمْسٌ قُوَّة+في؛ ربما\nصوت\tربما+شيء هي لكن أحمد؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أحمد+هي؛ إلى+في؛ شيء هي؛ إلى قُوَّة أنا+إلى في\nقارئ؛ نحن+غدًا\tماء+نحن\tهذه+شَمْسٌ قُوَّة+في؛ ربما\nصوت\tربما+شيء هي لكن أحمد؟",
+      "L1": "'aHmd+hī; 'ilá+fī; shī' hī; 'ilá quvvāt 'anā+'lá fī\nqār'; nHn+ghdaNā\tmā'+nHn\thdhh+shamsuN quvvāt+fī; rbmā\nSūt\trbmā+shī' hī lkn 'aHmd?",
+      "A2": "أَحمد+هِي؛ إِلى+فِي؛ شِيئ هِي؛ إِلى قُوّات أَنا+ألى فِي\nقارء؛ نحن+غدًا\tماء+نحن\tهذه+شَمسٌ قُوّات+فِي؛ ربما\nصُوت\tربما+شِيئ هِي لكن أَحمد؟",
+      "L2": "aHmd+hī; ilá+fī; shī' hī; ilá quvvāt anā+'lá fī\nqār'; nHn+ghdaNā\tmā'+nHn\thdhh+shamsuN quvvāt+fī; rbmā\nSūt\trbmā+shī' hī lkn aHmd?",
+      "A3": "اَحمد+هِي؛ إِلى+فِي؛ شِيئ هِي؛ إِلى قُوّات اَنا+ألى فِي\nقارء؛ نحن+غدًا\tماء+نحن\tهذه+شَمسٌ قُوّات+فِي؛ ربما\nصُوت\tربما+شِيئ هِي لكن اَحمد؟",
+      "L3": "aHmd+hī; ilá+fī; shī' hī; ilá quvvāt anā+'lá fī\nqār'; nHn+ghdaNā\tmā'+nHn\thdhh+shamsuN quvvāt+fī; rbmā\nSūt\trbmā+shī' hī lkn aHmd?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0009",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "ليلى, الذي? اليوم — شاي مسؤول — عائشة/عائشة\n\nأنت أمس\n\nمسؤول شاي\n\nمسؤول/من, شاي أمس — أنت/ستسمع — أمس? لأن\n\nلأن? على — ليلى شاي — أمس? ٱلْبَيْتُ, أنت? ستسمع\n\nهؤلاء عائشة — لأن? شاي\n\nهؤلاء حَيّ\n\nهؤلاء عائشة, نافذة؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ليلى, الذي? اليوم — شاي مسؤول — عائشة/عائشة\n\nأنت أمس\n\nمسؤول شاي\n\nمسؤول/من, شاي أمس — أنت/ستسمع — أمس? لأن\n\nلأن? على — ليلى شاي — أمس? ٱلْبَيْتُ, أنت? ستسمع\n\nهؤلاء عائشة — لأن? شاي\n\nهؤلاء حَيّ\n\nهؤلاء عائشة, نافذة؟",
+      "L1": "līlá, aldhī? alīvm — shāj ms'ūl — -ā'shat/-ā'shat\n\n'ant 'ams\n\nms'ūl shāj\n\nms'ūl/mn, shāj 'ams — 'ant/stsm- — 'ams? l'n\n\nl'n? -lá — līlá shāj — 'ams? albajtu, 'ant? stsm-\n\nh'lā' -ā'shat — l'n? shāj\n\nh'lā' Hajj\n\nh'lā' -ā'shat, nāfdhat?",
+      "A2": "لِيلى، اَلذِي؟ اَلِيوْم — شايْ مسؤُول — عاءشة/عاءشة\n\nأَنت أَمس\n\nمسؤُول شايْ\n\nمسؤُول/من، شايْ أَمس — أَنت/ستسمع — أَمس؟ لأن\n\nلأن؟ على — لِيلى شايْ — أَمس؟ اَلبَيْتُ، أَنت؟ ستسمع\n\nهءلاء عاءشة — لأن؟ شايْ\n\nهءلاء حَيّ\n\nهءلاء عاءشة، نافذة؟",
+      "L2": "līlá, aldhī? alīvm — shāj ms'ūl — -ā'shat/-ā'shat\n\nant ams\n\nms'ūl shāj\n\nms'ūl/mn, shāj ams — ant/stsm- — ams? l'n\n\nl'n? -lá — līlá shāj — ams? albajtu, ant? stsm-\n\nh'lā' -ā'shat — l'n? shāj\n\nh'lā' Hajj\n\nh'lā' -ā'shat, nāfdhat?",
+      "A3": "لِيلى، اَلذِي؟ اَلِيوْم — شايْ مسؤُول — عاءشة/عاءشة\n\nاَنت اَمس\n\nمسؤُول شايْ\n\nمسؤُول/من، شايْ اَمس — اَنت/ستسمع — اَمس؟ لأن\n\nلأن؟ على — لِيلى شايْ — اَمس؟ اَلبَيْتُ، اَنت؟ ستسمع\n\nهءلاء عاءشة — لأن؟ شايْ\n\nهءلاء حَيّ\n\nهءلاء عاءشة، نافذة؟",
+      "L3": "līlá, aldhī? alīvm — shāj ms'ūl — -ā'shat/-ā'shat\n\nant ams\n\nms'ūl shāj\n\nms'ūl/mn, shāj ams — ant/stsm- — ams? l'n\n\nl'n? -lá — līlá shāj — ams? albajtu, ant? stsm-\n\nh'lā' -ā'shat — l'n? shāj\n\nh'lā' Hajj\n\nh'lā' -ā'shat, nāfdhat?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0010",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "مساءً\nلا؛ لا\nإلى قارئ ماء قهوة\nهي؛ في\nمحمد؛ أنا\nلا؛ إلى+مدرسة\tهذه+إلى ماء\nصوت\tغدًا+شيء قُوَّة لا؛ محمد+صوت في\nمدرسة؛ ربما مساءً نحن\nهي؛ لكن\nلا لا أنا غدًا+صوت\tقُوَّة+في\tقارئ؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "مساءً\nلا؛ لا\nإلى قارئ ماء قهوة\nهي؛ في\nمحمد؛ أنا\nلا؛ إلى+مدرسة\tهذه+إلى ماء\nصوت\tغدًا+شيء قُوَّة لا؛ محمد+صوت في\nمدرسة؛ ربما مساءً نحن\nهي؛ لكن\nلا لا أنا غدًا+صوت\tقُوَّة+في\tقارئ؟",
+      "L1": "msā'aN\nlā; lā\n'ilá qār' mā' qhūat\nhī; fī\nmHmd; 'anā\nlā; 'ilá+mdrsat\thdhh+'lá mā'\nSūt\tghdaNā+shī' quvvāt lā; mHmd+Sūt fī\nmdrsat; rbmā msā'aN nHn\nhī; lkn\nlā lā 'anā ghdaNā+Sūt\tquvvāt+fī\tqār'?",
+      "A2": "مساأً\nلا؛ لا\nإِلى قارء ماء قهُوة\nهِي؛ فِي\nمحمد؛ أَنا\nلا؛ إِلى+مدرسة\tهذه+ألى ماء\nصُوت\tغدًا+شِيئ قُوّات لا؛ محمد+صُوت فِي\nمدرسة؛ ربما مساأً نحن\nهِي؛ لكن\nلا لا أَنا غدًا+صُوت\tقُوّات+فِي\tقارء؟",
+      "L2": "msā'aN\nlā; lā\nilá qār' mā' qhūat\nhī; fī\nmHmd; anā\nlā; ilá+mdrsat\thdhh+'lá mā'\nSūt\tghdaNā+shī' quvvāt lā; mHmd+Sūt fī\nmdrsat; rbmā msā'aN nHn\nhī; lkn\nlā lā anā ghdaNā+Sūt\tquvvāt+fī\tqār'?",
+      "A3": "مساأً\nلا؛ لا\nإِلى قارء ماء قهُوة\nهِي؛ فِي\nمحمد؛ اَنا\nلا؛ إِلى+مدرسة\tهذه+ألى ماء\nصُوت\tغدًا+شِيئ قُوّات لا؛ محمد+صُوت فِي\nمدرسة؛ ربما مساأً نحن\nهِي؛ لكن\nلا لا اَنا غدًا+صُوت\tقُوّات+فِي\tقارء؟",
+      "L3": "msā'aN\nlā; lā\nilá qār' mā' qhūat\nhī; fī\nmHmd; anā\nlā; ilá+mdrsat\thdhh+'lá mā'\nSūt\tghdaNā+shī' quvvāt lā; mHmd+Sūt fī\nmdrsat; rbmā msā'aN nHn\nhī; lkn\nlā lā anā ghdaNā+Sūt\tquvvāt+fī\tqār'?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0011",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "اليوم — أمس شاي, ليلى? صباحًا — الذي على — عائشة? نافذة\n\nمسؤول شاي\n\nستسمع اليوم\n\nٱلْبَيْتُ نافذة\n\nحَيّ? حَيّ\n\nشاي? الذي\n\nصباحًا? أنت\n\nليلى/ليلى — أمس!",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "اليوم — أمس شاي, ليلى? صباحًا — الذي على — عائشة? نافذة\n\nمسؤول شاي\n\nستسمع اليوم\n\nٱلْبَيْتُ نافذة\n\nحَيّ? حَيّ\n\nشاي? الذي\n\nصباحًا? أنت\n\nليلى/ليلى — أمس!",
+      "L1": "alīvm — 'ams shāj, līlá? SbāHaNā — aldhī -lá — -ā'shat? nāfdhat\n\nms'ūl shāj\n\nstsm- alīvm\n\nalbajtu nāfdhat\n\nHajj? Hajj\n\nshāj? aldhī\n\nSbāHaNā? 'ant\n\nlīlá/līlá — 'ams!",
+      "A2": "اَلِيوْم — أَمس شايْ، لِيلى؟ صباحًا — اَلذِي على — عاءشة؟ نافذة\n\nمسؤُول شايْ\n\nستسمع اَلِيوْم\n\nاَلبَيْتُ نافذة\n\nحَيّ؟ حَيّ\n\nشايْ؟ اَلذِي\n\nصباحًا؟ أَنت\n\nلِيلى/لِيلى — أَمس!",
+      "L2": "alīvm — ams shāj, līlá? SbāHaNā — aldhī -lá — -ā'shat? nāfdhat\n\nms'ūl shāj\n\nstsm- alīvm\n\nalbajtu nāfdhat\n\nHajj? Hajj\n\nshāj? aldhī\n\nSbāHaNā? ant\n\nlīlá/līlá — ams!",
+      "A3": "اَلِيوْم — اَمس شايْ، لِيلى؟ صباحًا — اَلذِي على — عاءشة؟ نافذة\n\nمسؤُول شايْ\n\nستسمع اَلِيوْم\n\nاَلبَيْتُ نافذة\n\nحَيّ؟ حَيّ\n\nشايْ؟ اَلذِي\n\nصباحًا؟ اَنت\n\nلِيلى/لِيلى — اَمس!",
+      "L3": "alīvm — ams shāj, līlá? SbāHaNā — aldhī -lá — -ā'shat? nāfdhat\n\nms'ūl shāj\n\nstsm- alīvm\n\nalbajtu nāfdhat\n\nHajj? Hajj\n\nshāj? aldhī\n\nSbāHaNā? ant\n\nlīlá/līlá — ams!"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0012",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قهوة\nلا؛ لا\nأنا؛ لا شيء؛ لا+قُوَّة\tمساءً محمد\tإلى هي\tمدرسة نحن؛ هي قهوة\tهذه+شيء؛ في ماء؛ نحن+نحن\tشيء+ماء؛ غدًا قُوَّة\tقهوة+أنا إلى\nإلى؛ لكن ربما\tقارئ\nمساءً\tلكن أحمد\tصوت",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قهوة\nلا؛ لا\nأنا؛ لا شيء؛ لا+قُوَّة\tمساءً محمد\tإلى هي\tمدرسة نحن؛ هي قهوة\tهذه+شيء؛ في ماء؛ نحن+نحن\tشيء+ماء؛ غدًا قُوَّة\tقهوة+أنا إلى\nإلى؛ لكن ربما\tقارئ\nمساءً\tلكن أحمد\tصوت",
+      "L1": "qhūat\nlā; lā\n'anā; lā shī'; lā+quvvāt\tmsā'aN mHmd\t'ilá hī\tmdrsat nHn; hī qhūat\thdhh+shī'; fī mā'; nHn+nHn\tshī'+mā'; ghdaNā quvvāt\tqhūat+'nā 'ilá\n'ilá; lkn rbmā\tqār'\nmsā'aN\tlkn 'aHmd\tSūt",
+      "A2": "قهُوة\nلا؛ لا\nأَنا؛ لا شِيئ؛ لا+قُوّات\tمساأً محمد\tإِلى هِي\tمدرسة نحن؛ هِي قهُوة\tهذه+شِيئ؛ فِي ماء؛ نحن+نحن\tشِيئ+ماء؛ غدًا قُوّات\tقهُوة+أنا إِلى\nإِلى؛ لكن ربما\tقارء\nمساأً\tلكن أَحمد\tصُوت",
+      "L2": "qhūat\nlā; lā\nanā; lā shī'; lā+quvvāt\tmsā'aN mHmd\tilá hī\tmdrsat nHn; hī qhūat\thdhh+shī'; fī mā'; nHn+nHn\tshī'+mā'; ghdaNā quvvāt\tqhūat+'nā ilá\nilá; lkn rbmā\tqār'\nmsā'aN\tlkn aHmd\tSūt",
+      "A3": "قهُوة\nلا؛ لا\nاَنا؛ لا شِيئ؛ لا+قُوّات\tمساأً محمد\tإِلى هِي\tمدرسة نحن؛ هِي قهُوة\tهذه+شِيئ؛ فِي ماء؛ نحن+نحن\tشِيئ+ماء؛ غدًا قُوّات\tقهُوة+أنا إِلى\nإِلى؛ لكن ربما\tقارء\nمساأً\tلكن اَحمد\tصُوت",
+      "L3": "qhūat\nlā; lā\nanā; lā shī'; lā+quvvāt\tmsā'aN mHmd\tilá hī\tmdrsat nHn; hī qhūat\thdhh+shī'; fī mā'; nHn+nHn\tshī'+mā'; ghdaNā quvvāt\tqhūat+'nā ilá\nilá; lkn rbmā\tqār'\nmsā'aN\tlkn aHmd\tSūt"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0013",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "حَيّ\n\nأنت? لأن — نعم ستسمع — ٱلْبَيْتُ أنت\n\nٱلْبَيْتُ? ستسمع\n\nاليوم? نافذة — هواء/شاي\n\nمسؤول الذي, الذي? هو — هواء/عائشة, اليوم/شاي\n\nكتاب? من — عائشة? ستسمع\n\nمن/هؤلاء\n\nالذي/مسؤول, الذي",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حَيّ\n\nأنت? لأن — نعم ستسمع — ٱلْبَيْتُ أنت\n\nٱلْبَيْتُ? ستسمع\n\nاليوم? نافذة — هواء/شاي\n\nمسؤول الذي, الذي? هو — هواء/عائشة, اليوم/شاي\n\nكتاب? من — عائشة? ستسمع\n\nمن/هؤلاء\n\nالذي/مسؤول, الذي",
+      "L1": "Hajj\n\n'ant? l'n — n-m stsm- — albajtu 'ant\n\nalbajtu? stsm-\n\nalīvm? nāfdhat — hvā'/shāj\n\nms'ūl aldhī, aldhī? hū — hvā'/-ā'shat, alīvm/shāj\n\nktāb? mn — -ā'shat? stsm-\n\nmn/h'lā'\n\naldhī/ms'ūl, aldhī",
+      "A2": "حَيّ\n\nأَنت؟ لأن — نعم ستسمع — اَلبَيْتُ أَنت\n\nاَلبَيْتُ؟ ستسمع\n\nاَلِيوْم؟ نافذة — هوْاء/شايْ\n\nمسؤُول اَلذِي، اَلذِي؟ هُو — هوْاء/عاءشة، اَلِيوْم/شايْ\n\nكتاب؟ من — عاءشة؟ ستسمع\n\nمن/hألاء\n\nاَلذِي/مسؤُول، اَلذِي",
+      "L2": "Hajj\n\nant? l'n — n-m stsm- — albajtu ant\n\nalbajtu? stsm-\n\nalīvm? nāfdhat — hvā'/shāj\n\nms'ūl aldhī, aldhī? hū — hvā'/-ā'shat, alīvm/shāj\n\nktāb? mn — -ā'shat? stsm-\n\nmn/h'lā'\n\naldhī/ms'ūl, aldhī",
+      "A3": "حَيّ\n\nاَنت؟ لأن — نعم ستسمع — اَلبَيْتُ اَنت\n\nاَلبَيْتُ؟ ستسمع\n\nاَلِيوْم؟ نافذة — هوْاء/شايْ\n\nمسؤُول اَلذِي، اَلذِي؟ هُو — هوْاء/عاءشة، اَلِيوْم/شايْ\n\nكتاب؟ من — عاءشة؟ ستسمع\n\nمن/hألاء\n\nاَلذِي/مسؤُول، اَلذِي",
+      "L3": "Hajj\n\nant? l'n — n-m stsm- — albajtu ant\n\nalbajtu? stsm-\n\nalīvm? nāfdhat — hvā'/shāj\n\nms'ūl aldhī, aldhī? hū — hvā'/-ā'shat, alīvm/shāj\n\nktāb? mn — -ā'shat? stsm-\n\nmn/h'lā'\n\naldhī/ms'ūl, aldhī"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0014",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قهوة شَمْسٌ هذه+هي؛ مساءً\nماء\tفي+لكن؛ ماء+قارئ\tربما\nقهوة\tنحن قارئ\tماء قهوة إلى أنا قارئ\nربما\tصوت+في شيء\nأنا\tمحمد\nماء\tأحمد\nهذه\tمساءً مساءً\tلكن+قهوة قارئ!",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قهوة شَمْسٌ هذه+هي؛ مساءً\nماء\tفي+لكن؛ ماء+قارئ\tربما\nقهوة\tنحن قارئ\tماء قهوة إلى أنا قارئ\nربما\tصوت+في شيء\nأنا\tمحمد\nماء\tأحمد\nهذه\tمساءً مساءً\tلكن+قهوة قارئ!",
+      "L1": "qhūat shamsuN hdhh+hī; msā'aN\nmā'\tfī+lkn; mā'+qār'\trbmā\nqhūat\tnHn qār'\tmā' qhūat 'ilá 'anā qār'\nrbmā\tSūt+fī shī'\n'anā\tmHmd\nmā'\t'aHmd\nhdhh\tmsā'aN msā'aN\tlkn+qhūat qār'!",
+      "A2": "قهُوة شَمسٌ هذه+هِي؛ مساأً\nماء\tفِي+لكن؛ ماء+قارء\tربما\nقهُوة\tنحن قارء\tماء قهُوة إِلى أَنا قارء\nربما\tصُوت+فِي شِيئ\nأَنا\tمحمد\nماء\tأَحمد\nهذه\tمساأً مساأً\tلكن+قهُوة قارء!",
+      "L2": "qhūat shamsuN hdhh+hī; msā'aN\nmā'\tfī+lkn; mā'+qār'\trbmā\nqhūat\tnHn qār'\tmā' qhūat ilá anā qār'\nrbmā\tSūt+fī shī'\nanā\tmHmd\nmā'\taHmd\nhdhh\tmsā'aN msā'aN\tlkn+qhūat qār'!",
+      "A3": "قهُوة شَمسٌ هذه+هِي؛ مساأً\nماء\tفِي+لكن؛ ماء+قارء\tربما\nقهُوة\tنحن قارء\tماء قهُوة إِلى اَنا قارء\nربما\tصُوت+فِي شِيئ\nاَنا\tمحمد\nماء\tاَحمد\nهذه\tمساأً مساأً\tلكن+قهُوة قارء!",
+      "L3": "qhūat shamsuN hdhh+hī; msā'aN\nmā'\tfī+lkn; mā'+qār'\trbmā\nqhūat\tnHn qār'\tmā' qhūat ilá anā qār'\nrbmā\tSūt+fī shī'\nanā\tmHmd\nmā'\taHmd\nhdhh\tmsā'aN msā'aN\tlkn+qhūat qār'!"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0016",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "في\nمحمد قارئ هي\tماء\nشيء\tنحن\nماء\tهذه\nفي؛ لا+هذه\tمساءً إلى\tإلى+هي محمد لا هي شَمْسٌ في\nلا؛ قهوة أحمد هذه+شيء\tغدًا إلى؛ ماء\nصوت غدًا\nصوت؛ إلى!",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "في\nمحمد قارئ هي\tماء\nشيء\tنحن\nماء\tهذه\nفي؛ لا+هذه\tمساءً إلى\tإلى+هي محمد لا هي شَمْسٌ في\nلا؛ قهوة أحمد هذه+شيء\tغدًا إلى؛ ماء\nصوت غدًا\nصوت؛ إلى!",
+      "L1": "fī\nmHmd qār' hī\tmā'\nshī'\tnHn\nmā'\thdhh\nfī; lā+hdhh\tmsā'aN 'ilá\t'ilá+hī mHmd lā hī shamsuN fī\nlā; qhūat 'aHmd hdhh+shī'\tghdaNā 'ilá; mā'\nSūt ghdaNā\nSūt; 'ilá!",
+      "A2": "فِي\nمحمد قارء هِي\tماء\nشِيئ\tنحن\nماء\tهذه\nفِي؛ لا+هذه\tمساأً إِلى\tإِلى+هِي محمد لا هِي شَمسٌ فِي\nلا؛ قهُوة أَحمد هذه+شِيئ\tغدًا إِلى؛ ماء\nصُوت غدًا\nصُوت؛ إِلى!",
+      "L2": "fī\nmHmd qār' hī\tmā'\nshī'\tnHn\nmā'\thdhh\nfī; lā+hdhh\tmsā'aN ilá\tilá+hī mHmd lā hī shamsuN fī\nlā; qhūat aHmd hdhh+shī'\tghdaNā ilá; mā'\nSūt ghdaNā\nSūt; ilá!",
+      "A3": "فِي\nمحمد قارء هِي\tماء\nشِيئ\tنحن\nماء\tهذه\nفِي؛ لا+هذه\tمساأً إِلى\tإِلى+هِي محمد لا هِي شَمسٌ فِي\nلا؛ قهُوة اَحمد هذه+شِيئ\tغدًا إِلى؛ ماء\nصُوت غدًا\nصُوت؛ إِلى!",
+      "L3": "fī\nmHmd qār' hī\tmā'\nshī'\tnHn\nmā'\thdhh\nfī; lā+hdhh\tmsā'aN ilá\tilá+hī mHmd lā hī shamsuN fī\nlā; qhūat aHmd hdhh+shī'\tghdaNā ilá; mā'\nSūt ghdaNā\nSūt; ilá!"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0017",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "كتاب, لأن/هو — ستسمع عائشة\n\nكتاب/حَيّ — هو/اليوم\n\nأنت من — حَيّ/حَيّ — مسؤول? على\n\nلأن شاي, شاي/هواء — كتاب عائشة, شاي/حَيّ — نعم? ليلى — هؤلاء عائشة\n\nهؤلاء؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "كتاب, لأن/هو — ستسمع عائشة\n\nكتاب/حَيّ — هو/اليوم\n\nأنت من — حَيّ/حَيّ — مسؤول? على\n\nلأن شاي, شاي/هواء — كتاب عائشة, شاي/حَيّ — نعم? ليلى — هؤلاء عائشة\n\nهؤلاء؟",
+      "L1": "ktāb, l'n/hū — stsm- -ā'shat\n\nktāb/Hajj — hū/ālīvm\n\n'ant mn — Hajj/Hajj — ms'ūl? -lá\n\nl'n shāj, shāj/hvā' — ktāb -ā'shat, shāj/Hajj — n-m? līlá — h'lā' -ā'shat\n\nh'lā'?",
+      "A2": "كتاب، لأn/هُو — ستسمع عاءشة\n\nكتاب/حَيّ — هُو/الِيوْم\n\nأَنت من — حَيّ/حَيّ — مسؤُول؟ على\n\nلأن شايْ، شايْ/هوْاء — كتاب عاءشة، شايْ/حَيّ — نعم؟ لِيلى — هءلاء عاءشة\n\nهءلاء؟",
+      "L2": "ktāb, l'n/hū — stsm- -ā'shat\n\nktāb/Hajj — hū/ālīvm\n\nant mn — Hajj/Hajj — ms'ūl? -lá\n\nl'n shāj, shāj/hvā' — ktāb -ā'shat, shāj/Hajj — n-m? līlá — h'lā' -ā'shat\n\nh'lā'?",
+      "A3": "كتاب، لأn/هُو — ستسمع عاءشة\n\nكتاب/حَيّ — هُو/الِيوْم\n\nاَنت من — حَيّ/حَيّ — مسؤُول؟ على\n\nلأن شايْ، شايْ/هوْاء — كتاب عاءشة، شايْ/حَيّ — نعم؟ لِيلى — هءلاء عاءشة\n\nهءلاء؟",
+      "L3": "ktāb, l'n/hū — stsm- -ā'shat\n\nktāb/Hajj — hū/ālīvm\n\nant mn — Hajj/Hajj — ms'ūl? -lá\n\nl'n shāj, shāj/hvā' — ktāb -ā'shat, shāj/Hajj — n-m? līlá — h'lā' -ā'shat\n\nh'lā'?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0018",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "مساءً شيء\tشيء\nإلى؛ هذه+لكن\tربما\nمدرسة؛ محمد شيء\tماء مدرسة؛ أحمد هي مدرسة في؛ مساءً+غدًا\tمساءً+محمد في شيء\tمدرسة+مساءً قُوَّة قارئ في\nغدًا\tشيء\nصوت؛ قارئ+محمد\tصوت شيء\tشَمْسٌ قارئ محمد\nربما\tإلى.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "مساءً شيء\tشيء\nإلى؛ هذه+لكن\tربما\nمدرسة؛ محمد شيء\tماء مدرسة؛ أحمد هي مدرسة في؛ مساءً+غدًا\tمساءً+محمد في شيء\tمدرسة+مساءً قُوَّة قارئ في\nغدًا\tشيء\nصوت؛ قارئ+محمد\tصوت شيء\tشَمْسٌ قارئ محمد\nربما\tإلى.",
+      "L1": "msā'aN shī'\tshī'\n'ilá; hdhh+lkn\trbmā\nmdrsat; mHmd shī'\tmā' mdrsat; 'aHmd hī mdrsat fī; msā'aN+ghdaNā\tmsā'aN+mHmd fī shī'\tmdrsat+msā'aN quvvāt qār' fī\nghdaNā\tshī'\nSūt; qār'+mHmd\tSūt shī'\tshamsuN qār' mHmd\nrbmā\t'ilá.",
+      "A2": "مساأً شِيئ\tشِيئ\nإِلى؛ هذه+لكن\tربما\nمدرسة؛ محمد شِيئ\tماء مدرسة؛ أَحمد هِي مدرسة فِي؛ مساأً+غدًا\tمساأً+محمد فِي شِيئ\tمدرسة+مساأً قُوّات قارء فِي\nغدًا\tشِيئ\nصُوت؛ قارء+محمد\tصُوت شِيئ\tشَمسٌ قارء محمد\nربما\tإِلى.",
+      "L2": "msā'aN shī'\tshī'\nilá; hdhh+lkn\trbmā\nmdrsat; mHmd shī'\tmā' mdrsat; aHmd hī mdrsat fī; msā'aN+ghdaNā\tmsā'aN+mHmd fī shī'\tmdrsat+msā'aN quvvāt qār' fī\nghdaNā\tshī'\nSūt; qār'+mHmd\tSūt shī'\tshamsuN qār' mHmd\nrbmā\tilá.",
+      "A3": "مساأً شِيئ\tشِيئ\nإِلى؛ هذه+لكن\tربما\nمدرسة؛ محمد شِيئ\tماء مدرسة؛ اَحمد هِي مدرسة فِي؛ مساأً+غدًا\tمساأً+محمد فِي شِيئ\tمدرسة+مساأً قُوّات قارء فِي\nغدًا\tشِيئ\nصُوت؛ قارء+محمد\tصُوت شِيئ\tشَمسٌ قارء محمد\nربما\tإِلى.",
+      "L3": "msā'aN shī'\tshī'\nilá; hdhh+lkn\trbmā\nmdrsat; mHmd shī'\tmā' mdrsat; aHmd hī mdrsat fī; msā'aN+ghdaNā\tmsā'aN+mHmd fī shī'\tmdrsat+msā'aN quvvāt qār' fī\nghdaNā\tshī'\nSūt; qār'+mHmd\tSūt shī'\tshamsuN qār' mHmd\nrbmā\tilá."
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0019",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "كتاب — أنت? لأن — هواء/الذي, أمس/على — اليوم/أمس, هواء? هؤلاء\n\nحَيّ? عائشة, اليوم",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "كتاب — أنت? لأن — هواء/الذي, أمس/على — اليوم/أمس, هواء? هؤلاء\n\nحَيّ? عائشة, اليوم",
+      "L1": "ktāb — 'ant? l'n — hvā'/āldhī, 'ams/-lá — alīvm/'ms, hvā'? h'lā'\n\nHajj? -ā'shat, alīvm",
+      "A2": "كتاب — أَنت؟ لأن — هوْاء/الذِي، أَمس/على — اَلِيوْم/أمس، هوْاء؟ هءلاء\n\nحَيّ؟ عاءشة، اَلِيوْم",
+      "L2": "ktāb — ant? l'n — hvā'/āldhī, ams/-lá — alīvm/'ms, hvā'? h'lā'\n\nHajj? -ā'shat, alīvm",
+      "A3": "كتاب — اَنت؟ لأن — هوْاء/الذِي، اَمس/على — اَلِيوْم/أمس، هوْاء؟ هءلاء\n\nحَيّ؟ عاءشة، اَلِيوْم",
+      "L3": "ktāb — ant? l'n — hvā'/āldhī, ams/-lá — alīvm/'ms, hvā'? h'lā'\n\nHajj? -ā'shat, alīvm"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0021",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أمس\n\nهو هو, حَيّ أنت — أنت/نعم, صباحًا كتاب — نافذة? هواء, هؤلاء الذي — مسؤول/عائشة\n\nمن? نافذة, حَيّ هو\n\nعائشة حَيّ — هو/مسؤول — صباحًا? ستسمع\n\nنافذة على, على? ليلى\n\nهؤلاء/نافذة — هواء? الذي, ٱلْبَيْتُ!",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أمس\n\nهو هو, حَيّ أنت — أنت/نعم, صباحًا كتاب — نافذة? هواء, هؤلاء الذي — مسؤول/عائشة\n\nمن? نافذة, حَيّ هو\n\nعائشة حَيّ — هو/مسؤول — صباحًا? ستسمع\n\nنافذة على, على? ليلى\n\nهؤلاء/نافذة — هواء? الذي, ٱلْبَيْتُ!",
+      "L1": "'ams\n\nhū hū, Hajj 'ant — 'ant/n-m, SbāHaNā ktāb — nāfdhat? hvā', h'lā' aldhī — ms'ūl/-ā'shat\n\nmn? nāfdhat, Hajj hū\n\n-ā'shat Hajj — hū/ms'ūl — SbāHaNā? stsm-\n\nnāfdhat -lá, -lá? līlá\n\nh'lā'/nāfdhat — hvā'? aldhī, albajtu!",
+      "A2": "أَمس\n\nهُو هُو، حَيّ أَنت — أَنت/nعم، صباحًا كتاب — نافذة؟ هوْاء، هءلاء اَلذِي — مسؤُول/عاءشة\n\nمن؟ نافذة، حَيّ هُو\n\nعاءشة حَيّ — هُو/مسؤُول — صباحًا؟ ستسمع\n\nنافذة على، على؟ لِيلى\n\nهءلاء/نافذة — هوْاء؟ اَلذِي، اَلبَيْتُ!",
+      "L2": "ams\n\nhū hū, Hajj ant — ant/n-m, SbāHaNā ktāb — nāfdhat? hvā', h'lā' aldhī — ms'ūl/-ā'shat\n\nmn? nāfdhat, Hajj hū\n\n-ā'shat Hajj — hū/ms'ūl — SbāHaNā? stsm-\n\nnāfdhat -lá, -lá? līlá\n\nh'lā'/nāfdhat — hvā'? aldhī, albajtu!",
+      "A3": "اَمس\n\nهُو هُو، حَيّ اَنت — اَنت/nعم، صباحًا كتاب — نافذة؟ هوْاء، هءلاء اَلذِي — مسؤُول/عاءشة\n\nمن؟ نافذة، حَيّ هُو\n\nعاءشة حَيّ — هُو/مسؤُول — صباحًا؟ ستسمع\n\nنافذة على، على؟ لِيلى\n\nهءلاء/نافذة — هوْاء؟ اَلذِي، اَلبَيْتُ!",
+      "L3": "ams\n\nhū hū, Hajj ant — ant/n-m, SbāHaNā ktāb — nāfdhat? hvā', h'lā' aldhī — ms'ūl/-ā'shat\n\nmn? nāfdhat, Hajj hū\n\n-ā'shat Hajj — hū/ms'ūl — SbāHaNā? stsm-\n\nnāfdhat -lá, -lá? līlá\n\nh'lā'/nāfdhat — hvā'? aldhī, albajtu!"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0022",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "مدرسة أنا لا+مساءً؛ هي\nمدرسة نحن\nلكن مساءً",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "مدرسة أنا لا+مساءً؛ هي\nمدرسة نحن\nلكن مساءً",
+      "L1": "mdrsat 'anā lā+msā'aN; hī\nmdrsat nHn\nlkn msā'aN",
+      "A2": "مدرسة أَنا لا+مساأً؛ هِي\nمدرسة نحن\nلكن مساأً",
+      "L2": "mdrsat anā lā+msā'aN; hī\nmdrsat nHn\nlkn msā'aN",
+      "A3": "مدرسة اَنا لا+مساأً؛ هِي\nمدرسة نحن\nلكن مساأً",
+      "L3": "mdrsat anā lā+msā'aN; hī\nmdrsat nHn\nlkn msā'aN"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0023",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "عائشة, ستسمع? صباحًا\n\nٱلْبَيْتُ كتاب — أنت/ٱلْبَيْتُ, اليوم عائشة, حَيّ شاي\n\nعلى/نافذة\n\nاليوم? الذي\n\nاليوم? لأن\n\nعلى نعم, على نافذة\n\nالذي? شاي — هواء? حَيّ — ستسمع? أنت — على/هواء — ليلى مسؤول — ستسمع? الذي, الذي شاي\n\nستسمع/نعم\n\nاليوم/نافذة, هواء/هو — نافذة? الذي — أمس عائشة — هؤلاء/هواء — لأن? ستسمع, ستسمع",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "عائشة, ستسمع? صباحًا\n\nٱلْبَيْتُ كتاب — أنت/ٱلْبَيْتُ, اليوم عائشة, حَيّ شاي\n\nعلى/نافذة\n\nاليوم? الذي\n\nاليوم? لأن\n\nعلى نعم, على نافذة\n\nالذي? شاي — هواء? حَيّ — ستسمع? أنت — على/هواء — ليلى مسؤول — ستسمع? الذي, الذي شاي\n\nستسمع/نعم\n\nاليوم/نافذة, هواء/هو — نافذة? الذي — أمس عائشة — هؤلاء/هواء — لأن? ستسمع, ستسمع",
+      "L1": "-ā'shat, stsm-? SbāHaNā\n\nalbajtu ktāb — 'ant/lbajtu, alīvm -ā'shat, Hajj shāj\n\n-lá/nāfdhat\n\nalīvm? aldhī\n\nalīvm? l'n\n\n-lá n-m, -lá nāfdhat\n\naldhī? shāj — hvā'? Hajj — stsm-? 'ant — -lá/hvā' — līlá ms'ūl — stsm-? aldhī, aldhī shāj\n\nstsm-/n-m\n\nalīvm/nāfdhat, hvā'/hū — nāfdhat? aldhī — 'ams -ā'shat — h'lā'/hvā' — l'n? stsm-, stsm-",
+      "A2": "عاءشة، ستسمع؟ صباحًا\n\nاَلبَيْتُ كتاب — أَنت/لبَيْتُ، اَلِيوْم عاءشة، حَيّ شايْ\n\nعلى/نافذة\n\nاَلِيوْم؟ اَلذِي\n\nاَلِيوْم؟ لأن\n\nعلى نعم، على نافذة\n\nاَلذِي؟ شايْ — هوْاء؟ حَيّ — ستسمع؟ أَنت — على/هوْاء — لِيلى مسؤُول — ستسمع؟ اَلذِي، اَلذِي شايْ\n\nستسمع/nعم\n\nاَلِيوْم/نافذة، هوْاء/هُو — نافذة؟ اَلذِي — أَمس عاءشة — هءلاء/هوْاء — لأن؟ ستسمع، ستسمع",
+      "L2": "-ā'shat, stsm-? SbāHaNā\n\nalbajtu ktāb — ant/lbajtu, alīvm -ā'shat, Hajj shāj\n\n-lá/nāfdhat\n\nalīvm? aldhī\n\nalīvm? l'n\n\n-lá n-m, -lá nāfdhat\n\naldhī? shāj — hvā'? Hajj — stsm-? ant — -lá/hvā' — līlá ms'ūl — stsm-? aldhī, aldhī shāj\n\nstsm-/n-m\n\nalīvm/nāfdhat, hvā'/hū — nāfdhat? aldhī — ams -ā'shat — h'lā'/hvā' — l'n? stsm-, stsm-",
+      "A3": "عاءشة، ستسمع؟ صباحًا\n\nاَلبَيْتُ كتاب — اَنت/لبَيْتُ، اَلِيوْم عاءشة، حَيّ شايْ\n\nعلى/نافذة\n\nاَلِيوْم؟ اَلذِي\n\nاَلِيوْم؟ لأن\n\nعلى نعم، على نافذة\n\nاَلذِي؟ شايْ — هوْاء؟ حَيّ — ستسمع؟ اَنت — على/هوْاء — لِيلى مسؤُول — ستسمع؟ اَلذِي، اَلذِي شايْ\n\nستسمع/nعم\n\nاَلِيوْم/نافذة، هوْاء/هُو — نافذة؟ اَلذِي — اَمس عاءشة — هءلاء/هوْاء — لأن؟ ستسمع، ستسمع",
+      "L3": "-ā'shat, stsm-? SbāHaNā\n\nalbajtu ktāb — ant/lbajtu, alīvm -ā'shat, Hajj shāj\n\n-lá/nāfdhat\n\nalīvm? aldhī\n\nalīvm? l'n\n\n-lá n-m, -lá nāfdhat\n\naldhī? shāj — hvā'? Hajj — stsm-? ant — -lá/hvā' — līlá ms'ūl — stsm-? aldhī, aldhī shāj\n\nstsm-/n-m\n\nalīvm/nāfdhat, hvā'/hū — nāfdhat? aldhī — ams -ā'shat — h'lā'/hvā' — l'n? stsm-, stsm-"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0024",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قُوَّة+غدًا إلى قهوة\tقارئ\nقهوة أحمد+في؛ غدًا\nشَمْسٌ\tفي\nربما قارئ+إلى\tهذه صوت\tلكن+صوت؛ شَمْسٌ+هي صوت+أحمد؛ نحن\nقارئ؛ شَمْسٌ لا؛ قارئ\nنحن\tفي صوت ماء ربما؛ لكن+أنا\tهي+هي؛ قارئ\nربما شَمْسٌ شيء؛ في\nقارئ؛ صوت!",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قُوَّة+غدًا إلى قهوة\tقارئ\nقهوة أحمد+في؛ غدًا\nشَمْسٌ\tفي\nربما قارئ+إلى\tهذه صوت\tلكن+صوت؛ شَمْسٌ+هي صوت+أحمد؛ نحن\nقارئ؛ شَمْسٌ لا؛ قارئ\nنحن\tفي صوت ماء ربما؛ لكن+أنا\tهي+هي؛ قارئ\nربما شَمْسٌ شيء؛ في\nقارئ؛ صوت!",
+      "L1": "quvvāt+ghdaNā 'ilá qhūat\tqār'\nqhūat 'aHmd+fī; ghdaNā\nshamsuN\tfī\nrbmā qār'+'lá\thdhh Sūt\tlkn+Sūt; shamsuN+hī Sūt+'Hmd; nHn\nqār'; shamsuN lā; qār'\nnHn\tfī Sūt mā' rbmā; lkn+'nā\thī+hī; qār'\nrbmā shamsuN shī'; fī\nqār'; Sūt!",
+      "A2": "قُوّات+غدًا إِلى قهُوة\tقارء\nقهُوة أَحمد+فِي؛ غدًا\nشَمسٌ\tفِي\nربما قارء+ألى\tهذه صُوت\tلكن+صُوت؛ شَمسٌ+هِي صُوت+أحمد؛ نحن\nقارء؛ شَمسٌ لا؛ قارء\nنحن\tفِي صُوت ماء ربما؛ لكن+أنا\tهِي+هِي؛ قارء\nربما شَمسٌ شِيئ؛ فِي\nقارء؛ صُوت!",
+      "L2": "quvvāt+ghdaNā ilá qhūat\tqār'\nqhūat aHmd+fī; ghdaNā\nshamsuN\tfī\nrbmā qār'+'lá\thdhh Sūt\tlkn+Sūt; shamsuN+hī Sūt+'Hmd; nHn\nqār'; shamsuN lā; qār'\nnHn\tfī Sūt mā' rbmā; lkn+'nā\thī+hī; qār'\nrbmā shamsuN shī'; fī\nqār'; Sūt!",
+      "A3": "قُوّات+غدًا إِلى قهُوة\tقارء\nقهُوة اَحمد+فِي؛ غدًا\nشَمسٌ\tفِي\nربما قارء+ألى\tهذه صُوت\tلكن+صُوت؛ شَمسٌ+هِي صُوت+أحمد؛ نحن\nقارء؛ شَمسٌ لا؛ قارء\nنحن\tفِي صُوت ماء ربما؛ لكن+أنا\tهِي+هِي؛ قارء\nربما شَمسٌ شِيئ؛ فِي\nقارء؛ صُوت!",
+      "L3": "quvvāt+ghdaNā ilá qhūat\tqār'\nqhūat aHmd+fī; ghdaNā\nshamsuN\tfī\nrbmā qār'+'lá\thdhh Sūt\tlkn+Sūt; shamsuN+hī Sūt+'Hmd; nHn\nqār'; shamsuN lā; qār'\nnHn\tfī Sūt mā' rbmā; lkn+'nā\thī+hī; qār'\nrbmā shamsuN shī'; fī\nqār'; Sūt!"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0025",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "هو, نعم? هواء\n\nهو? ليلى\n\nٱلْبَيْتُ? أنت, أنت? من — عائشة لأن, ليلى? ليلى — نعم شاي\n\nصباحًا? نعم — ٱلْبَيْتُ? صباحًا, من? شاي — اليوم على\n\nمن",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هو, نعم? هواء\n\nهو? ليلى\n\nٱلْبَيْتُ? أنت, أنت? من — عائشة لأن, ليلى? ليلى — نعم شاي\n\nصباحًا? نعم — ٱلْبَيْتُ? صباحًا, من? شاي — اليوم على\n\nمن",
+      "L1": "hū, n-m? hvā'\n\nhū? līlá\n\nalbajtu? 'ant, 'ant? mn — -ā'shat l'n, līlá? līlá — n-m shāj\n\nSbāHaNā? n-m — albajtu? SbāHaNā, mn? shāj — alīvm -lá\n\nmn",
+      "A2": "هُو، نعم؟ هوْاء\n\nهُو؟ لِيلى\n\nاَلبَيْتُ؟ أَنت، أَنت؟ من — عاءشة لأن، لِيلى؟ لِيلى — نعم شايْ\n\nصباحًا؟ نعم — اَلبَيْتُ؟ صباحًا، من؟ شايْ — اَلِيوْم على\n\nمن",
+      "L2": "hū, n-m? hvā'\n\nhū? līlá\n\nalbajtu? ant, ant? mn — -ā'shat l'n, līlá? līlá — n-m shāj\n\nSbāHaNā? n-m — albajtu? SbāHaNā, mn? shāj — alīvm -lá\n\nmn",
+      "A3": "هُو، نعم؟ هوْاء\n\nهُو؟ لِيلى\n\nاَلبَيْتُ؟ اَنت، اَنت؟ من — عاءشة لأن، لِيلى؟ لِيلى — نعم شايْ\n\nصباحًا؟ نعم — اَلبَيْتُ؟ صباحًا، من؟ شايْ — اَلِيوْم على\n\nمن",
+      "L3": "hū, n-m? hvā'\n\nhū? līlá\n\nalbajtu? ant, ant? mn — -ā'shat l'n, līlá? līlá — n-m shāj\n\nSbāHaNā? n-m — albajtu? SbāHaNā, mn? shāj — alīvm -lá\n\nmn"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0026",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قهوة\nهذه نحن\nمساءً؛ شيء أنا؛ نحن.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قهوة\nهذه نحن\nمساءً؛ شيء أنا؛ نحن.",
+      "L1": "qhūat\nhdhh nHn\nmsā'aN; shī' 'anā; nHn.",
+      "A2": "قهُوة\nهذه نحن\nمساأً؛ شِيئ أَنا؛ نحن.",
+      "L2": "qhūat\nhdhh nHn\nmsā'aN; shī' anā; nHn.",
+      "A3": "قهُوة\nهذه نحن\nمساأً؛ شِيئ اَنا؛ نحن.",
+      "L3": "qhūat\nhdhh nHn\nmsā'aN; shī' anā; nHn."
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0027",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "هواء — ٱلْبَيْتُ شاي, الذي/هؤلاء — نعم? عائشة\n\nنعم/هؤلاء, لأن? أمس — لأن نعم — أنت/نافذة — صباحًا/صباحًا — عائشة هؤلاء — كتاب على\n\nصباحًا/ليلى, ليلى? أمس — أنت هواء — اليوم? الذي, عائشة هو\n\nالذي/كتاب\n\nٱلْبَيْتُ? كتاب\n\nكتاب/عائشة\n\nصباحًا/لأن, هؤلاء? ليلى\n\nليلى/شاي, اليوم صباحًا — شاي؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هواء — ٱلْبَيْتُ شاي, الذي/هؤلاء — نعم? عائشة\n\nنعم/هؤلاء, لأن? أمس — لأن نعم — أنت/نافذة — صباحًا/صباحًا — عائشة هؤلاء — كتاب على\n\nصباحًا/ليلى, ليلى? أمس — أنت هواء — اليوم? الذي, عائشة هو\n\nالذي/كتاب\n\nٱلْبَيْتُ? كتاب\n\nكتاب/عائشة\n\nصباحًا/لأن, هؤلاء? ليلى\n\nليلى/شاي, اليوم صباحًا — شاي؟",
+      "L1": "hvā' — albajtu shāj, aldhī/h'lā' — n-m? -ā'shat\n\nn-m/h'lā', l'n? 'ams — l'n n-m — 'ant/nāfdhat — SbāHaNā/SbāHaNā — -ā'shat h'lā' — ktāb -lá\n\nSbāHaNā/līlá, līlá? 'ams — 'ant hvā' — alīvm? aldhī, -ā'shat hū\n\naldhī/ktāb\n\nalbajtu? ktāb\n\nktāb/-ā'shat\n\nSbāHaNā/l'n, h'lā'? līlá\n\nlīlá/shāj, alīvm SbāHaNā — shāj?",
+      "A2": "هوْاء — اَلبَيْتُ شايْ، اَلذِي/hألاء — نعم؟ عاءشة\n\nنعm/hألاء، لأن؟ أَمس — لأن نعم — أَنت/نافذة — صباحًا/صباحًا — عاءشة هءلاء — كتاب على\n\nصباحًا/لِيلى، لِيلى؟ أَمس — أَنت هوْاء — اَلِيوْم؟ اَلذِي، عاءشة هُو\n\nاَلذِي/كتاب\n\nاَلبَيْتُ؟ كتاب\n\nكتاب/عاءشة\n\nصباحًا/lأن، هءلاء؟ لِيلى\n\nلِيلى/شايْ، اَلِيوْم صباحًا — شايْ؟",
+      "L2": "hvā' — albajtu shāj, aldhī/h'lā' — n-m? -ā'shat\n\nn-m/h'lā', l'n? ams — l'n n-m — ant/nāfdhat — SbāHaNā/SbāHaNā — -ā'shat h'lā' — ktāb -lá\n\nSbāHaNā/līlá, līlá? ams — ant hvā' — alīvm? aldhī, -ā'shat hū\n\naldhī/ktāb\n\nalbajtu? ktāb\n\nktāb/-ā'shat\n\nSbāHaNā/l'n, h'lā'? līlá\n\nlīlá/shāj, alīvm SbāHaNā — shāj?",
+      "A3": "هوْاء — اَلبَيْتُ شايْ، اَلذِي/hألاء — نعم؟ عاءشة\n\nنعm/hألاء، لأن؟ اَمس — لأن نعم — اَنت/نافذة — صباحًا/صباحًا — عاءشة هءلاء — كتاب على\n\nصباحًا/لِيلى، لِيلى؟ اَمس — اَنت هوْاء — اَلِيوْم؟ اَلذِي، عاءشة هُو\n\nاَلذِي/كتاب\n\nاَلبَيْتُ؟ كتاب\n\nكتاب/عاءشة\n\nصباحًا/lأن، هءلاء؟ لِيلى\n\nلِيلى/شايْ، اَلِيوْم صباحًا — شايْ؟",
+      "L3": "hvā' — albajtu shāj, aldhī/h'lā' — n-m? -ā'shat\n\nn-m/h'lā', l'n? ams — l'n n-m — ant/nāfdhat — SbāHaNā/SbāHaNā — -ā'shat h'lā' — ktāb -lá\n\nSbāHaNā/līlá, līlá? ams — ant hvā' — alīvm? aldhī, -ā'shat hū\n\naldhī/ktāb\n\nalbajtu? ktāb\n\nktāb/-ā'shat\n\nSbāHaNā/l'n, h'lā'? līlá\n\nlīlá/shāj, alīvm SbāHaNā — shāj?"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0028",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "شيء هذه؛ قهوة\nمحمد؛ إلى+نحن؛ محمد+قهوة؛ محمد+صوت قهوة قهوة\tقارئ+مدرسة\tقُوَّة\nمحمد\tفي+مدرسة؛ ماء\nمدرسة؛ قارئ\nمدرسة مساءً\nنحن\tشَمْسٌ+مدرسة؛ مساءً\nأنا؛ لكن+قُوَّة؛ قارئ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "شيء هذه؛ قهوة\nمحمد؛ إلى+نحن؛ محمد+قهوة؛ محمد+صوت قهوة قهوة\tقارئ+مدرسة\tقُوَّة\nمحمد\tفي+مدرسة؛ ماء\nمدرسة؛ قارئ\nمدرسة مساءً\nنحن\tشَمْسٌ+مدرسة؛ مساءً\nأنا؛ لكن+قُوَّة؛ قارئ",
+      "L1": "shī' hdhh; qhūat\nmHmd; 'ilá+nHn; mHmd+qhūat; mHmd+Sūt qhūat qhūat\tqār'+mdrsat\tquvvāt\nmHmd\tfī+mdrsat; mā'\nmdrsat; qār'\nmdrsat msā'aN\nnHn\tshamsuN+mdrsat; msā'aN\n'anā; lkn+quvvāt; qār'",
+      "A2": "شِيئ هذه؛ قهُوة\nمحمد؛ إِلى+نحن؛ محمد+قهُوة؛ محمد+صُوت قهُوة قهُوة\tقارء+مدرسة\tقُوّات\nمحمد\tفِي+مدرسة؛ ماء\nمدرسة؛ قارء\nمدرسة مساأً\nنحن\tشَمسٌ+مدرسة؛ مساأً\nأَنا؛ لكن+قُوّات؛ قارء",
+      "L2": "shī' hdhh; qhūat\nmHmd; ilá+nHn; mHmd+qhūat; mHmd+Sūt qhūat qhūat\tqār'+mdrsat\tquvvāt\nmHmd\tfī+mdrsat; mā'\nmdrsat; qār'\nmdrsat msā'aN\nnHn\tshamsuN+mdrsat; msā'aN\nanā; lkn+quvvāt; qār'",
+      "A3": "شِيئ هذه؛ قهُوة\nمحمد؛ إِلى+نحن؛ محمد+قهُوة؛ محمد+صُوت قهُوة قهُوة\tقارء+مدرسة\tقُوّات\nمحمد\tفِي+مدرسة؛ ماء\nمدرسة؛ قارء\nمدرسة مساأً\nنحن\tشَمسٌ+مدرسة؛ مساأً\nاَنا؛ لكن+قُوّات؛ قارء",
+      "L3": "shī' hdhh; qhūat\nmHmd; ilá+nHn; mHmd+qhūat; mHmd+Sūt qhūat qhūat\tqār'+mdrsat\tquvvāt\nmHmd\tfī+mdrsat; mā'\nmdrsat; qār'\nmdrsat msā'aN\nnHn\tshamsuN+mdrsat; msā'aN\nanā; lkn+quvvāt; qār'"
+    }
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0029",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "حَيّ, هواء نعم\n\nليلى? أنت\n\nهؤلاء? من, حَيّ حَيّ\n\nهؤلاء/ليلى — أنت ستسمع\n\nعائشة/ٱلْبَيْتُ — هو هواء\n\nٱلْبَيْتُ/أمس — من/هو — حَيّ/الذي\n\nعائشة? لأن\n\nنعم/عائشة — على? هؤلاء\n\nأمس شاي — هؤلاء/أنت — ستسمع? حَيّ, ٱلْبَيْتُ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حَيّ, هواء نعم\n\nليلى? أنت\n\nهؤلاء? من, حَيّ حَيّ\n\nهؤلاء/ليلى — أنت ستسمع\n\nعائشة/ٱلْبَيْتُ — هو هواء\n\nٱلْبَيْتُ/أمس — من/هو — حَيّ/الذي\n\nعائشة? لأن\n\nنعم/عائشة — على? هؤلاء\n\nأمس شاي — هؤلاء/أنت — ستسمع? حَيّ, ٱلْبَيْتُ",
+      "L1": "Hajj, hvā' n-m\n\nlīlá? 'ant\n\nh'lā'? mn, Hajj Hajj\n\nh'lā'/līlá — 'ant stsm-\n\n-ā'shat/lbajtu — hū hvā'\n\nalbajtu/'ms — mn/hū — Hajj/āldhī\n\n-ā'shat? l'n\n\nn-m/-ā'shat — -lá? h'lā'\n\n'ams shāj — h'lā'/'nt — stsm-? Hajj, albajtu",
+      "A2": "حَيّ، هوْاء نعم\n\nلِيلى؟ أَنت\n\nهءلاء؟ من، حَيّ حَيّ\n\nهءلاء/لِيلى — أَنت ستسمع\n\nعاءشة/لبَيْتُ — هُو هوْاء\n\nاَلبَيْتُ/أمس — من/هُو — حَيّ/الذِي\n\nعاءشة؟ لأن\n\nنعm/عاءشة — على؟ هءلاء\n\nأَمس شايْ — هءلاء/أنت — ستسمع؟ حَيّ، اَلبَيْتُ",
+      "L2": "Hajj, hvā' n-m\n\nlīlá? ant\n\nh'lā'? mn, Hajj Hajj\n\nh'lā'/līlá — ant stsm-\n\n-ā'shat/lbajtu — hū hvā'\n\nalbajtu/'ms — mn/hū — Hajj/āldhī\n\n-ā'shat? l'n\n\nn-m/-ā'shat — -lá? h'lā'\n\nams shāj — h'lā'/'nt — stsm-? Hajj, albajtu",
+      "A3": "حَيّ، هوْاء نعم\n\nلِيلى؟ اَنت\n\nهءلاء؟ من، حَيّ حَيّ\n\nهءلاء/لِيلى — اَنت ستسمع\n\nعاءشة/لبَيْتُ — هُو هوْاء\n\nاَلبَيْتُ/أمس — من/هُو — حَيّ/الذِي\n\nعاءشة؟ لأن\n\nنعm/عاءشة — على؟ هءلاء\n\nاَمس شايْ — هءلاء/أنت — ستسمع؟ حَيّ، اَلبَيْتُ",
+      "L3": "Hajj, hvā' n-m\n\nlīlá? ant\n\nh'lā'? mn, Hajj Hajj\n\nh'lā'/līlá — ant stsm-\n\n-ā'shat/lbajtu — hū hvā'\n\nalbajtu/'ms — mn/hū — Hajj/āldhī\n\n-ā'shat? l'n\n\nn-m/-ā'shat — -lá? h'lā'\n\nams shāj — h'lā'/'nt — stsm-? Hajj, albajtu"
+    }
+  }
+]

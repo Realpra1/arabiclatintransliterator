@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0815",
+    "input": "(x",
+    "normalized": "(x",
+    "collapsed": "(x"
+  },
+  {
+    "id": "normalizer/0816",
+    "input": "a ( b",
+    "normalized": "a ( b",
+    "collapsed": "a ( b"
+  },
+  {
+    "id": "normalizer/0817",
+    "input": "ab(cd",
+    "normalized": "ab(kd",
+    "collapsed": "ab(cd"
+  },
+  {
+    "id": "normalizer/0818",
+    "input": "C)",
+    "normalized": "C)",
+    "collapsed": "C)"
+  },
+  {
+    "id": "normalizer/0819",
+    "input": ")C",
+    "normalized": ")C",
+    "collapsed": ")C"
+  },
+  {
+    "id": "normalizer/0820",
+    "input": "x)",
+    "normalized": "x)",
+    "collapsed": "x)"
+  },
+  {
+    "id": "normalizer/0821",
+    "input": ")x",
+    "normalized": ")x",
+    "collapsed": ")x"
+  },
+  {
+    "id": "normalizer/0822",
+    "input": "a ) b",
+    "normalized": "a ) b",
+    "collapsed": "a ) b"
+  },
+  {
+    "id": "normalizer/0823",
+    "input": "ab)cd",
+    "normalized": "ab)kd",
+    "collapsed": "ab)cd"
+  },
+  {
+    "id": "normalizer/0824",
+    "input": "C[",
+    "normalized": "C[",
+    "collapsed": "C["
+  },
+  {
+    "id": "normalizer/0825",
+    "input": "[C",
+    "normalized": "[C",
+    "collapsed": "[C"
+  },
+  {
+    "id": "normalizer/0826",
+    "input": "x[",
+    "normalized": "x[",
+    "collapsed": "x["
+  },
+  {
+    "id": "normalizer/0827",
+    "input": "[x",
+    "normalized": "[x",
+    "collapsed": "[x"
+  },
+  {
+    "id": "normalizer/0828",
+    "input": "a [ b",
+    "normalized": "a [ b",
+    "collapsed": "a [ b"
+  },
+  {
+    "id": "normalizer/0829",
+    "input": "ab[cd",
+    "normalized": "ab[kd",
+    "collapsed": "ab[cd"
+  },
+  {
+    "id": "normalizer/0830",
+    "input": "C]",
+    "normalized": "C]",
+    "collapsed": "C]"
+  },
+  {
+    "id": "normalizer/0831",
+    "input": "]C",
+    "normalized": "]C",
+    "collapsed": "]C"
+  },
+  {
+    "id": "normalizer/0832",
+    "input": "x]",
+    "normalized": "x]",
+    "collapsed": "x]"
+  },
+  {
+    "id": "normalizer/0833",
+    "input": "]x",
+    "normalized": "]x",
+    "collapsed": "]x"
+  },
+  {
+    "id": "normalizer/0834",
+    "input": "a ] b",
+    "normalized": "a ] b",
+    "collapsed": "a ] b"
+  },
+  {
+    "id": "normalizer/0835",
+    "input": "ab]cd",
+    "normalized": "ab]kd",
+    "collapsed": "ab]cd"
+  },
+  {
+    "id": "normalizer/0836",
+    "input": "C{",
+    "normalized": "C{",
+    "collapsed": "C{"
+  },
+  {
+    "id": "normalizer/0837",
+    "input": "{C",
+    "normalized": "{C",
+    "collapsed": "{C"
+  },
+  {
+    "id": "normalizer/0838",
+    "input": "x{",
+    "normalized": "x{",
+    "collapsed": "x{"
+  },
+  {
+    "id": "normalizer/0839",
+    "input": "{x",
+    "normalized": "{x",
+    "collapsed": "{x"
+  },
+  {
+    "id": "normalizer/0840",
+    "input": "a { b",
+    "normalized": "a { b",
+    "collapsed": "a { b"
+  },
+  {
+    "id": "normalizer/0841",
+    "input": "ab{cd",
+    "normalized": "ab{kd",
+    "collapsed": "ab{cd"
+  },
+  {
+    "id": "normalizer/0842",
+    "input": "C}",
+    "normalized": "C}",
+    "collapsed": "C}"
+  },
+  {
+    "id": "normalizer/0843",
+    "input": "}C",
+    "normalized": "}C",
+    "collapsed": "}C"
+  },
+  {
+    "id": "normalizer/0844",
+    "input": "x}",
+    "normalized": "x}",
+    "collapsed": "x}"
+  },
+  {
+    "id": "normalizer/0845",
+    "input": "}x",
+    "normalized": "}x",
+    "collapsed": "}x"
+  },
+  {
+    "id": "normalizer/0846",
+    "input": "a } b",
+    "normalized": "a } b",
+    "collapsed": "a } b"
+  },
+  {
+    "id": "normalizer/0847",
+    "input": "ab}cd",
+    "normalized": "ab}kd",
+    "collapsed": "ab}cd"
+  },
+  {
+    "id": "normalizer/0848",
+    "input": "C<",
+    "normalized": "C<",
+    "collapsed": "C<"
+  },
+  {
+    "id": "normalizer/0849",
+    "input": "<C",
+    "normalized": "<C",
+    "collapsed": "<C"
+  },
+  {
+    "id": "normalizer/0850",
+    "input": "x<",
+    "normalized": "x<",
+    "collapsed": "x<"
+  },
+  {
+    "id": "normalizer/0851",
+    "input": "<x",
+    "normalized": "<x",
+    "collapsed": "<x"
+  },
+  {
+    "id": "normalizer/0852",
+    "input": "a < b",
+    "normalized": "a < b",
+    "collapsed": "a < b"
+  },
+  {
+    "id": "normalizer/0853",
+    "input": "ab<cd",
+    "normalized": "ab<kd",
+    "collapsed": "ab<cd"
+  },
+  {
+    "id": "normalizer/0854",
+    "input": "C>",
+    "normalized": "C>",
+    "collapsed": "C>"
+  },
+  {
+    "id": "normalizer/0855",
+    "input": ">C",
+    "normalized": ">C",
+    "collapsed": ">C"
+  },
+  {
+    "id": "normalizer/0856",
+    "input": "x>",
+    "normalized": "x>",
+    "collapsed": "x>"
+  },
+  {
+    "id": "normalizer/0857",
+    "input": ">x",
+    "normalized": ">x",
+    "collapsed": ">x"
+  },
+  {
+    "id": "normalizer/0858",
+    "input": "a > b",
+    "normalized": "a > b",
+    "collapsed": "a > b"
+  },
+  {
+    "id": "normalizer/0859",
+    "input": "ab>cd",
+    "normalized": "ab>kd",
+    "collapsed": "ab>cd"
+  },
+  {
+    "id": "normalizer/0860",
+    "input": "C\"",
+    "normalized": "C\"",
+    "collapsed": "C\""
+  },
+  {
+    "id": "normalizer/0861",
+    "input": "\"C",
+    "normalized": "\"C",
+    "collapsed": "\"C"
+  },
+  {
+    "id": "normalizer/0862",
+    "input": "x\"",
+    "normalized": "x\"",
+    "collapsed": "x\""
+  },
+  {
+    "id": "normalizer/0863",
+    "input": "\"x",
+    "normalized": "\"x",
+    "collapsed": "\"x"
+  },
+  {
+    "id": "normalizer/0864",
+    "input": "a \" b",
+    "normalized": "a \" b",
+    "collapsed": "a \" b"
+  },
+  {
+    "id": "normalizer/0865",
+    "input": "ab\"cd",
+    "normalized": "ab\"kd",
+    "collapsed": "ab\"cd"
+  },
+  {
+    "id": "normalizer/0866",
+    "input": "C“",
+    "normalized": "C“",
+    "collapsed": "C“"
+  },
+  {
+    "id": "normalizer/0867",
+    "input": "“C",
+    "normalized": "“C",
+    "collapsed": "“C"
+  },
+  {
+    "id": "normalizer/0868",
+    "input": "x“",
+    "normalized": "x“",
+    "collapsed": "x“"
+  },
+  {
+    "id": "normalizer/0869",
+    "input": "“x",
+    "normalized": "“x",
+    "collapsed": "“x"
+  },
+  {
+    "id": "normalizer/0870",
+    "input": "a “ b",
+    "normalized": "a “ b",
+    "collapsed": "a “ b"
+  },
+  {
+    "id": "normalizer/0871",
+    "input": "ab“cd",
+    "normalized": "ab“kd",
+    "collapsed": "ab“cd"
+  },
+  {
+    "id": "normalizer/0872",
+    "input": "C”",
+    "normalized": "C”",
+    "collapsed": "C”"
+  },
+  {
+    "id": "normalizer/0873",
+    "input": "”C",
+    "normalized": "”C",
+    "collapsed": "”C"
+  },
+  {
+    "id": "normalizer/0874",
+    "input": "x”",
+    "normalized": "x”",
+    "collapsed": "x”"
+  },
+  {
+    "id": "normalizer/0875",
+    "input": "”x",
+    "normalized": "”x",
+    "collapsed": "”x"
+  },
+  {
+    "id": "normalizer/0876",
+    "input": "a ” b",
+    "normalized": "a ” b",
+    "collapsed": "a ” b"
+  },
+  {
+    "id": "normalizer/0877",
+    "input": "ab”cd",
+    "normalized": "ab”kd",
+    "collapsed": "ab”cd"
+  },
+  {
+    "id": "normalizer/0878",
+    "input": "C«",
+    "normalized": "C«",
+    "collapsed": "C«"
+  },
+  {
+    "id": "normalizer/0879",
+    "input": "«C",
+    "normalized": "«C",
+    "collapsed": "«C"
+  },
+  {
+    "id": "normalizer/0880",
+    "input": "x«",
+    "normalized": "x«",
+    "collapsed": "x«"
+  },
+  {
+    "id": "normalizer/0881",
+    "input": "«x",
+    "normalized": "«x",
+    "collapsed": "«x"
+  },
+  {
+    "id": "normalizer/0882",
+    "input": "a « b",
+    "normalized": "a « b",
+    "collapsed": "a « b"
+  },
+  {
+    "id": "normalizer/0883",
+    "input": "ab«cd",
+    "normalized": "ab«kd",
+    "collapsed": "ab«cd"
+  },
+  {
+    "id": "normalizer/0884",
+    "input": "C»",
+    "normalized": "C»",
+    "collapsed": "C»"
+  },
+  {
+    "id": "normalizer/0885",
+    "input": "»C",
+    "normalized": "»C",
+    "collapsed": "»C"
+  },
+  {
+    "id": "normalizer/0886",
+    "input": "x»",
+    "normalized": "x»",
+    "collapsed": "x»"
+  },
+  {
+    "id": "normalizer/0887",
+    "input": "»x",
+    "normalized": "»x",
+    "collapsed": "»x"
+  },
+  {
+    "id": "normalizer/0888",
+    "input": "a » b",
+    "normalized": "a » b",
+    "collapsed": "a » b"
+  }
+]

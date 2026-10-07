@@ -1,0 +1,443 @@
+[
+  {
+    "id": "hamza-seating/en2ar/0099",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'ī",
+    "output": "بُوإِي",
+    "roundTrip": "bū'ī",
+    "secondPass": "بُوإِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0100",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'ū",
+    "output": "بُوأُو",
+    "roundTrip": "bū'ū",
+    "secondPass": "بُوأُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0101",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'aN",
+    "output": "بُوأً",
+    "roundTrip": "bū'aN",
+    "secondPass": "بُوأً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0102",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'iN",
+    "output": "بُوإٍ",
+    "roundTrip": "bū'iN",
+    "secondPass": "بُوإٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0103",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'uN",
+    "output": "بُوأٌ",
+    "roundTrip": "bū'uN",
+    "secondPass": "بُوأٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0104",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "bū'b",
+    "output": "بُوأب",
+    "roundTrip": "bū'b",
+    "secondPass": "بُوأب"
+  },
+  {
+    "id": "hamza-seating/en2ar/0105",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'",
+    "output": "وَأ",
+    "roundTrip": "va'",
+    "secondPass": "وَأ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0106",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'a",
+    "output": "وَأَ",
+    "roundTrip": "va'a",
+    "secondPass": "وَأَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0107",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'i",
+    "output": "وَإِ",
+    "roundTrip": "va'i",
+    "secondPass": "وَإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0108",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'u",
+    "output": "وَأُ",
+    "roundTrip": "va'u",
+    "secondPass": "وَأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0109",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'e",
+    "output": "وَإِ",
+    "roundTrip": "va'i",
+    "secondPass": "وَإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0110",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'o",
+    "output": "وَأُ",
+    "roundTrip": "va'u",
+    "secondPass": "وَأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0111",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'ā",
+    "output": "وَآ",
+    "roundTrip": "va'ā",
+    "secondPass": "وَآ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0112",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'ī",
+    "output": "وَإِي",
+    "roundTrip": "va'ī",
+    "secondPass": "وَإِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0113",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'ū",
+    "output": "وَأُو",
+    "roundTrip": "va'ū",
+    "secondPass": "وَأُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0114",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'aN",
+    "output": "وَأً",
+    "roundTrip": "va'aN",
+    "secondPass": "وَأً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0115",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'iN",
+    "output": "وَإٍ",
+    "roundTrip": "va'iN",
+    "secondPass": "وَإٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0116",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'uN",
+    "output": "وَأٌ",
+    "roundTrip": "va'uN",
+    "secondPass": "وَأٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0117",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "va'b",
+    "output": "وَأب",
+    "roundTrip": "va'b",
+    "secondPass": "وَأب"
+  },
+  {
+    "id": "hamza-seating/en2ar/0118",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'",
+    "output": "فَأ",
+    "roundTrip": "fa'",
+    "secondPass": "فَأ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0119",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'a",
+    "output": "فَأَ",
+    "roundTrip": "fa'a",
+    "secondPass": "فَأَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0120",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'i",
+    "output": "فَإِ",
+    "roundTrip": "fa'i",
+    "secondPass": "فَإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0121",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'u",
+    "output": "فَأُ",
+    "roundTrip": "fa'u",
+    "secondPass": "فَأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0122",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'e",
+    "output": "فَإِ",
+    "roundTrip": "fa'i",
+    "secondPass": "فَإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0123",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'o",
+    "output": "فَأُ",
+    "roundTrip": "fa'u",
+    "secondPass": "فَأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0124",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'ā",
+    "output": "فَآ",
+    "roundTrip": "fa'ā",
+    "secondPass": "فَآ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0125",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'ī",
+    "output": "فَإِي",
+    "roundTrip": "fa'ī",
+    "secondPass": "فَإِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0126",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'ū",
+    "output": "فَأُو",
+    "roundTrip": "fa'ū",
+    "secondPass": "فَأُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0127",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'aN",
+    "output": "فَأً",
+    "roundTrip": "fa'aN",
+    "secondPass": "فَأً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0128",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'iN",
+    "output": "فَإٍ",
+    "roundTrip": "fa'iN",
+    "secondPass": "فَإٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0129",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'uN",
+    "output": "فَأٌ",
+    "roundTrip": "fa'uN",
+    "secondPass": "فَأٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0130",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "fa'b",
+    "output": "فَأب",
+    "roundTrip": "fa'b",
+    "secondPass": "فَأب"
+  },
+  {
+    "id": "hamza-seating/en2ar/0131",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'",
+    "output": "لِأ",
+    "roundTrip": "li'",
+    "secondPass": "لِأ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0132",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'a",
+    "output": "لِأَ",
+    "roundTrip": "li'a",
+    "secondPass": "لِأَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0133",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'i",
+    "output": "لِإِ",
+    "roundTrip": "li'i",
+    "secondPass": "لِإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0134",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'u",
+    "output": "لِأُ",
+    "roundTrip": "li'u",
+    "secondPass": "لِأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0135",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'e",
+    "output": "لِإِ",
+    "roundTrip": "li'i",
+    "secondPass": "لِإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0136",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'o",
+    "output": "لِأُ",
+    "roundTrip": "li'u",
+    "secondPass": "لِأُ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0137",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'ā",
+    "output": "لِآ",
+    "roundTrip": "li'ā",
+    "secondPass": "لِآ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0138",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'ī",
+    "output": "لِإِي",
+    "roundTrip": "li'ī",
+    "secondPass": "لِإِي"
+  },
+  {
+    "id": "hamza-seating/en2ar/0139",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'ū",
+    "output": "لِأُو",
+    "roundTrip": "li'ū",
+    "secondPass": "لِأُو"
+  },
+  {
+    "id": "hamza-seating/en2ar/0140",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'aN",
+    "output": "لِأً",
+    "roundTrip": "li'aN",
+    "secondPass": "لِأً"
+  },
+  {
+    "id": "hamza-seating/en2ar/0141",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'iN",
+    "output": "لِإٍ",
+    "roundTrip": "li'iN",
+    "secondPass": "لِإٍ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0142",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'uN",
+    "output": "لِأٌ",
+    "roundTrip": "li'uN",
+    "secondPass": "لِأٌ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0143",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "li'b",
+    "output": "لِأب",
+    "roundTrip": "li'b",
+    "secondPass": "لِأب"
+  },
+  {
+    "id": "hamza-seating/en2ar/0144",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'",
+    "output": "اَلأ",
+    "roundTrip": "al'",
+    "secondPass": "اَلأ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0145",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'a",
+    "output": "اَلأَ",
+    "roundTrip": "al'a",
+    "secondPass": "اَلأَ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0146",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'i",
+    "output": "اَلإِ",
+    "roundTrip": "al'i",
+    "secondPass": "اَلإِ"
+  },
+  {
+    "id": "hamza-seating/en2ar/0147",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "al'u",
+    "output": "اَلأُ",
+    "roundTrip": "al'u",
+    "secondPass": "اَلأُ"
+  }
+]

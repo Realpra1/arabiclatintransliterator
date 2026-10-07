@@ -1,3 +1,4 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
@@ -77,7 +78,7 @@ const examples = ['city', 'cycle', 'xylophone', 'cat', 'cancer', 'school', 'sata
 const temporary = mkdtempSync(join(tmpdir(), 'arabiclatin-short-y-'));
 let testSummary;
 try {
-  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests']) cpSync(new URL(file, root), join(temporary, file), { recursive: true });
+  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests', 'scripts/lib']) cpSync(new URL(file, root), join(temporary, file), { recursive: true });
   writeFileSync(join(temporary, 'latin-normalizer.js'), candidateSource);
   const testFiles = readdirSync(new URL('tests/', root)).filter(file => file.endsWith('.test.mjs')).sort().map(file => `tests/${file}`);
   const result = spawnSync(process.execPath, ['--test', ...testFiles], {
@@ -95,8 +96,8 @@ try {
   rmSync(temporary, { recursive: true, force: true });
 }
 const sourceSha256 = Object.fromEntries(translatorFiles.map(file => [file, createHash('sha256').update(readFileSync(new URL(file, root))).digest('hex')]));
-writeFileSync(new URL('experiments/short-y.json', root), JSON.stringify({
+writeJsonArtifact(new URL('experiments/short-y.json', root), {
   description: 'Isolated experiment: change vowel-like y after an ASCII consonant from ī to i, including the vowel portions of repeated y runs. Preserve consonantal y at word start/after vowels, canonical j/ī, and protected symbols. Production source and fixtures unchanged.',
   sourceSha256, counts, testSummary, stability, documents, examples, changes,
-}, null, 2) + '\n');
+});
 console.log(JSON.stringify({ counts, testSummary, stability: { baselineFailed: stability.baselineFailed, candidateFailed: stability.candidateFailed, newlyFailing: stability.newlyFailing.length, fixed: stability.fixed.length }, documents: documents.map(d => ({ id: d.id, unchanged: d.unchanged })), examples }, null, 2));

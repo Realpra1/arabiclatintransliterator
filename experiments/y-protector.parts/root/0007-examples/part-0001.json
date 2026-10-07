@@ -1,0 +1,434 @@
+[
+  {
+    "input": "city",
+    "before": {
+      "output": "سِتِي",
+      "roundTrip": "sitī",
+      "secondPass": "سِتِي"
+    },
+    "shortY": {
+      "output": "سِتِ",
+      "roundTrip": "siti",
+      "secondPass": "سِتِ"
+    },
+    "combined": {
+      "output": "سِتِ",
+      "roundTrip": "siti",
+      "secondPass": "سِتِ"
+    }
+  },
+  {
+    "input": "cycle",
+    "before": {
+      "output": "سِيكلِ",
+      "roundTrip": "sīkli",
+      "secondPass": "سِيكلِ"
+    },
+    "shortY": {
+      "output": "سِكلِ",
+      "roundTrip": "sikli",
+      "secondPass": "سِكلِ"
+    },
+    "combined": {
+      "output": "سِكلِ",
+      "roundTrip": "sikli",
+      "secondPass": "سِكلِ"
+    }
+  },
+  {
+    "input": "xylophone",
+    "before": {
+      "output": "سِيلُفُنِ",
+      "roundTrip": "sīlufuni",
+      "secondPass": "سِيلُفُنِ"
+    },
+    "shortY": {
+      "output": "سِلُفُنِ",
+      "roundTrip": "silufuni",
+      "secondPass": "سِلُفُنِ"
+    },
+    "combined": {
+      "output": "سِلُفُنِ",
+      "roundTrip": "silufuni",
+      "secondPass": "سِلُفُنِ"
+    }
+  },
+  {
+    "input": "y",
+    "before": {
+      "output": "يْ",
+      "roundTrip": "j",
+      "secondPass": "يْ"
+    },
+    "shortY": {
+      "output": "يْ",
+      "roundTrip": "j",
+      "secondPass": "يْ"
+    },
+    "combined": {
+      "output": "يْ",
+      "roundTrip": "j",
+      "secondPass": "يْ"
+    }
+  },
+  {
+    "input": "ya",
+    "before": {
+      "output": "يَ",
+      "roundTrip": "ja",
+      "secondPass": "يَ"
+    },
+    "shortY": {
+      "output": "يَ",
+      "roundTrip": "ja",
+      "secondPass": "يَ"
+    },
+    "combined": {
+      "output": "يَ",
+      "roundTrip": "ja",
+      "secondPass": "يَ"
+    }
+  },
+  {
+    "input": "yes",
+    "before": {
+      "output": "يِس",
+      "roundTrip": "jis",
+      "secondPass": "يِس"
+    },
+    "shortY": {
+      "output": "يِس",
+      "roundTrip": "jis",
+      "secondPass": "يِس"
+    },
+    "combined": {
+      "output": "يِس",
+      "roundTrip": "jis",
+      "secondPass": "يِس"
+    }
+  },
+  {
+    "input": "yellow",
+    "before": {
+      "output": "يِلُّوْ",
+      "roundTrip": "jilluv",
+      "secondPass": "يِلُّوْ"
+    },
+    "shortY": {
+      "output": "يِلُّوْ",
+      "roundTrip": "jilluv",
+      "secondPass": "يِلُّوْ"
+    },
+    "combined": {
+      "output": "يِلُّوْ",
+      "roundTrip": "jilluv",
+      "secondPass": "يِلُّوْ"
+    }
+  },
+  {
+    "input": "day",
+    "before": {
+      "output": "دَيْ",
+      "roundTrip": "daj",
+      "secondPass": "دَيْ"
+    },
+    "shortY": {
+      "output": "دَيْ",
+      "roundTrip": "daj",
+      "secondPass": "دَيْ"
+    },
+    "combined": {
+      "output": "دَيْ",
+      "roundTrip": "daj",
+      "secondPass": "دَيْ"
+    }
+  },
+  {
+    "input": "boy",
+    "before": {
+      "output": "بُيْ",
+      "roundTrip": "buj",
+      "secondPass": "بُيْ"
+    },
+    "shortY": {
+      "output": "بُيْ",
+      "roundTrip": "buj",
+      "secondPass": "بُيْ"
+    },
+    "combined": {
+      "output": "بُيْ",
+      "roundTrip": "buj",
+      "secondPass": "بُيْ"
+    }
+  },
+  {
+    "input": "/by",
+    "before": {
+      "output": "/بِي",
+      "roundTrip": "/bī",
+      "secondPass": "/bِي"
+    },
+    "shortY": {
+      "output": "/بِ",
+      "roundTrip": "/bi",
+      "secondPass": "/بِ"
+    },
+    "combined": {
+      "output": "/بِ",
+      "roundTrip": "/bi",
+      "secondPass": "/بِ"
+    }
+  },
+  {
+    "input": "/bī",
+    "before": {
+      "output": "/bِي",
+      "roundTrip": "/bī",
+      "secondPass": "/bِي"
+    },
+    "shortY": {
+      "output": "/bِي",
+      "roundTrip": "/bī",
+      "secondPass": "/bِي"
+    },
+    "combined": {
+      "output": "/بِي",
+      "roundTrip": "/bī",
+      "secondPass": "/بِي"
+    }
+  },
+  {
+    "input": "/bā",
+    "before": {
+      "output": "/bا",
+      "roundTrip": "/bā",
+      "secondPass": "/bا"
+    },
+    "shortY": {
+      "output": "/bا",
+      "roundTrip": "/bā",
+      "secondPass": "/bا"
+    },
+    "combined": {
+      "output": "/با",
+      "roundTrip": "/bā",
+      "secondPass": "/با"
+    }
+  },
+  {
+    "input": "/bū",
+    "before": {
+      "output": "/bُو",
+      "roundTrip": "/bū",
+      "secondPass": "/bُو"
+    },
+    "shortY": {
+      "output": "/bُو",
+      "roundTrip": "/bū",
+      "secondPass": "/bُو"
+    },
+    "combined": {
+      "output": "/بُو",
+      "roundTrip": "/bū",
+      "secondPass": "/بُو"
+    }
+  },
+  {
+    "input": "/bá",
+    "before": {
+      "output": "/bى",
+      "roundTrip": "/bá",
+      "secondPass": "/bى"
+    },
+    "shortY": {
+      "output": "/bى",
+      "roundTrip": "/bá",
+      "secondPass": "/bى"
+    },
+    "combined": {
+      "output": "/بى",
+      "roundTrip": "/bá",
+      "secondPass": "/بى"
+    }
+  },
+  {
+    "input": "āb/",
+    "before": {
+      "output": "اb/",
+      "roundTrip": "āb/",
+      "secondPass": "اb/"
+    },
+    "shortY": {
+      "output": "اb/",
+      "roundTrip": "āb/",
+      "secondPass": "اb/"
+    },
+    "combined": {
+      "output": "اب/",
+      "roundTrip": "āb/",
+      "secondPass": "اب/"
+    }
+  },
+  {
+    "input": "īB/",
+    "before": {
+      "output": "ِيB/",
+      "roundTrip": "īB/",
+      "secondPass": "ِيB/"
+    },
+    "shortY": {
+      "output": "ِيB/",
+      "roundTrip": "īB/",
+      "secondPass": "ِيB/"
+    },
+    "combined": {
+      "output": "ِيب/",
+      "roundTrip": "īb/",
+      "secondPass": "ِيب/"
+    }
+  },
+  {
+    "input": "/ā",
+    "before": {
+      "output": "/ا",
+      "roundTrip": "/ā",
+      "secondPass": "/ا"
+    },
+    "shortY": {
+      "output": "/ا",
+      "roundTrip": "/ā",
+      "secondPass": "/ا"
+    },
+    "combined": {
+      "output": "/ا",
+      "roundTrip": "/ā",
+      "secondPass": "/ا"
+    }
+  },
+  {
+    "input": "C/s",
+    "before": {
+      "output": "C/s",
+      "roundTrip": "C/s",
+      "secondPass": "C/s"
+    },
+    "shortY": {
+      "output": "C/s",
+      "roundTrip": "C/s",
+      "secondPass": "C/s"
+    },
+    "combined": {
+      "output": "C/s",
+      "roundTrip": "C/s",
+      "secondPass": "C/s"
+    }
+  },
+  {
+    "input": "E=mc^2",
+    "before": {
+      "output": "E=مك^2",
+      "roundTrip": "E=mk^2",
+      "secondPass": "E=مك^2"
+    },
+    "shortY": {
+      "output": "E=مك^2",
+      "roundTrip": "E=mk^2",
+      "secondPass": "E=مك^2"
+    },
+    "combined": {
+      "output": "E=مك^2",
+      "roundTrip": "E=mk^2",
+      "secondPass": "E=مك^2"
+    }
+  },
+  {
+    "input": "(P)",
+    "before": {
+      "output": "(P)",
+      "roundTrip": "(P)",
+      "secondPass": "(P)"
+    },
+    "shortY": {
+      "output": "(P)",
+      "roundTrip": "(P)",
+      "secondPass": "(P)"
+    },
+    "combined": {
+      "output": "(P)",
+      "roundTrip": "(P)",
+      "secondPass": "(P)"
+    }
+  },
+  {
+    "input": "(N)",
+    "before": {
+      "output": "(N)",
+      "roundTrip": "(N)",
+      "secondPass": "(N)"
+    },
+    "shortY": {
+      "output": "(N)",
+      "roundTrip": "(N)",
+      "secondPass": "(N)"
+    },
+    "combined": {
+      "output": "(N)",
+      "roundTrip": "(N)",
+      "secondPass": "(N)"
+    }
+  },
+  {
+    "input": "/āN",
+    "before": {
+      "output": "/اً",
+      "roundTrip": "/āN",
+      "secondPass": "/اً"
+    },
+    "shortY": {
+      "output": "/اً",
+      "roundTrip": "/āN",
+      "secondPass": "/اً"
+    },
+    "combined": {
+      "output": "/اً",
+      "roundTrip": "/āN",
+      "secondPass": "/اً"
+    }
+  },
+  {
+    "input": "/īN",
+    "before": {
+      "output": "/ِيN",
+      "roundTrip": "/īN",
+      "secondPass": "/ِيN"
+    },
+    "shortY": {
+      "output": "/ِيN",
+      "roundTrip": "/īN",
+      "secondPass": "/ِيN"
+    },
+    "combined": {
+      "output": "/ِيN",
+      "roundTrip": "/īN",
+      "secondPass": "/ِيN"
+    }
+  },
+  {
+    "input": "/uN",
+    "before": {
+      "output": "/ٌ",
+      "roundTrip": "/uN",
+      "secondPass": "/ٌ"
+    },
+    "shortY": {
+      "output": "/ٌ",
+      "roundTrip": "/uN",
+      "secondPass": "/ٌ"
+    },
+    "combined": {
+      "output": "/ٌ",
+      "roundTrip": "/uN",
+      "secondPass": "/ٌ"
+    }
+  }
+]

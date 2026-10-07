@@ -1,0 +1,443 @@
+[
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0393",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "سَخِّن",
+    "output": "sakhkhin",
+    "roundTrip": "سَخِّن",
+    "secondPass": "sakhkhin"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0394",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "1700°C.",
+    "output": "1700°C.",
+    "roundTrip": "1700°C.",
+    "secondPass": "1700°C."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0395",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "عُيُْوn/عَدَسات",
+    "output": "-ujūn/-adasāt",
+    "roundTrip": "عُيُْون/عَدَسات",
+    "secondPass": "-ujūn/-adasāt"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0396",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "زُجاج",
+    "output": "zuJāJ",
+    "roundTrip": "زُجاج",
+    "secondPass": "zuJāJ"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0397",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "تُكَبِّر.",
+    "output": "tukabbir.",
+    "roundTrip": "تُكَبِّر.",
+    "secondPass": "tukabbir."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0398",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "صُودا",
+    "output": "Sūdā",
+    "roundTrip": "صُودا",
+    "secondPass": "Sūdā"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0399",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "كةهِير:",
+    "output": "kathīr:",
+    "roundTrip": "كَثِير:",
+    "secondPass": "kathīr:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0400",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "شَدِيد",
+    "output": "shadīd",
+    "roundTrip": "شَدِيد",
+    "secondPass": "shadīd"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0401",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "غاز",
+    "output": "ghāz",
+    "roundTrip": "غاز",
+    "secondPass": "ghāz"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0402",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "كُ2؛",
+    "output": "ku2;",
+    "roundTrip": "ku2؛",
+    "secondPass": "ku2;"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0403",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "تَهبِط.",
+    "output": "tahbiT.",
+    "roundTrip": "تَهبِط.",
+    "secondPass": "tahbiT."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0404",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "كِبرِيتِيك:",
+    "output": "kibrītīk:",
+    "roundTrip": "كِبرِيتِيك:",
+    "secondPass": "kibrītīk:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0405",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "إِخبِز",
+    "output": "ikhbiz",
+    "roundTrip": "إِخبِز",
+    "secondPass": "ikhbiz"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0406",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "ذَهَب",
+    "output": "dhahab",
+    "roundTrip": "ذَهَب",
+    "secondPass": "dhahab"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0407",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "مُغَفَّلِين",
+    "output": "mughaffalīn",
+    "roundTrip": "مُغَفَّلِين",
+    "secondPass": "mughaffalīn"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0408",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "لِإِخراج",
+    "output": "li'ikhrāJ",
+    "roundTrip": "لِإِخراج",
+    "secondPass": "li'ikhrāJ"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0409",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "كِبرِيت؛",
+    "output": "kibrīt;",
+    "roundTrip": "كِبرِيت؛",
+    "secondPass": "kibrīt;"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0410",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "فاعِلهُ",
+    "output": "fā-ilhu",
+    "roundTrip": "فاعِلهُ",
+    "secondPass": "fā-ilhu"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0411",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "كُلُور",
+    "output": "kulūr",
+    "roundTrip": "كُلُور",
+    "secondPass": "kulūr"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0412",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "تَحلِيل",
+    "output": "taHlīl",
+    "roundTrip": "تَحلِيل",
+    "secondPass": "taHlīl"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0413",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "مالِح",
+    "output": "māliH",
+    "roundTrip": "مالِح",
+    "secondPass": "māliH"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0414",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "جِدَّن",
+    "output": "Jiddan",
+    "roundTrip": "جِدَّن",
+    "secondPass": "Jiddan"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0415",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "فَحم/كَربُون",
+    "output": "faHm/karbūn",
+    "roundTrip": "فَحم/كَربُون",
+    "secondPass": "faHm/karbūn"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0416",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "مُحَفِّز.",
+    "output": "muHaffiz.",
+    "roundTrip": "مُحَفِّز.",
+    "secondPass": "muHaffiz."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0417",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "ماء،",
+    "output": "mā',",
+    "roundTrip": "ماء،",
+    "secondPass": "mā',"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0418",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "إِجمَع",
+    "output": "iJma-",
+    "roundTrip": "إِجمَع",
+    "secondPass": "iJma-"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0419",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "ناتِج",
+    "output": "nātiJ",
+    "roundTrip": "ناتِج",
+    "secondPass": "nātiJ"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0420",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "لِحَمض",
+    "output": "liHamD",
+    "roundTrip": "لِحَمض",
+    "secondPass": "liHamD"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0421",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "هِيدرُوكلُورِيك.",
+    "output": "hīdrūklūrīk.",
+    "roundTrip": "هِيدرُوكلُورِيك.",
+    "secondPass": "hīdrūklūrīk."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0422",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "تَعارِيفٌ:",
+    "output": "ta-ārīfuN:",
+    "roundTrip": "تَعارِيفٌ:",
+    "secondPass": "ta-ārīfuN:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0423",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "ثَوْابِتٌ:",
+    "output": "thavābituN:",
+    "roundTrip": "ثَوْابِتٌ:",
+    "secondPass": "thavābituN:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0424",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "قَوْانِينُ:",
+    "output": "qavānīnu:",
+    "roundTrip": "قَوْانِينُ:",
+    "secondPass": "qavānīnu:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0425",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "10.000.000",
+    "output": "10.000.000",
+    "roundTrip": "10.000.000",
+    "secondPass": "10.000.000"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0426",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "م",
+    "output": "m",
+    "roundTrip": "م",
+    "secondPass": "m"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0427",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "خَطّ",
+    "output": "khaTT",
+    "roundTrip": "خَطّ",
+    "secondPass": "khaTT"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0428",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "إِستِوْاء",
+    "output": "istivā'",
+    "roundTrip": "إِستِوْاء",
+    "secondPass": "istivā'"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0429",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "قُطب.",
+    "output": "quTb.",
+    "roundTrip": "قُطب.",
+    "secondPass": "quTb."
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0430",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "C=6.242×10^18",
+    "output": "C=6.242×10^18",
+    "roundTrip": "C=6.242×10^18",
+    "secondPass": "C=6.242×10^18"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0431",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "A(اَمبِيرٌ)=1",
+    "output": "A(ambīruN)=1",
+    "roundTrip": "A(اَمبِيرٌ)=1",
+    "secondPass": "A(ambīruN)=1"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0432",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "C/s",
+    "output": "C/s",
+    "roundTrip": "C/s",
+    "secondPass": "C/s"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0433",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "output": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "roundTrip": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "secondPass": "U(fūltuN/V)=muqāvama(Ω)×I(A)"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0434",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "قُدرَ(W)=E(J)",
+    "output": "qudra(W)=E(J)",
+    "roundTrip": "قُدرَ(W)=E(J)",
+    "secondPass": "qudra(W)=E(J)"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0435",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "/",
+    "output": "/",
+    "roundTrip": "/",
+    "secondPass": "/"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0436",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "t(s)=U×إِ",
+    "output": "t(s)=U×'i",
+    "roundTrip": "t(s)=U×إِ",
+    "secondPass": "t(s)=U×'i"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0437",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "بَندُول:",
+    "output": "bandūl:",
+    "roundTrip": "بَندُول:",
+    "secondPass": "bandūl:"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0438",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "خَيْط",
+    "output": "khajT",
+    "roundTrip": "خَيْط",
+    "secondPass": "khajT"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0439",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "0.994",
+    "output": "0.994",
+    "roundTrip": "0.994",
+    "secondPass": "0.994"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0440",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "م؛",
+    "output": "m;",
+    "roundTrip": "م؛",
+    "secondPass": "m;"
+  },
+  {
+    "id": "civilization-supplied-arabic-words/ar2en/0441",
+    "group": "civilization-supplied-arabic-words",
+    "direction": "ar2en",
+    "input": "ذِهاb+إِيْاb=2",
+    "output": "dhihāb+'ijāb=2",
+    "roundTrip": "ذِهاب+إِيْاب=2",
+    "secondPass": "dhihāb+'ijāb=2"
+  }
+]

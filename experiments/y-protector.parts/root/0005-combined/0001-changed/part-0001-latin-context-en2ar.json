@@ -1,0 +1,26 @@
+[
+  {
+    "id": "latin-context/en2ar/0250",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "alyāb",
+    "output": "اَلِياب",
+    "roundTrip": "aljāb",
+    "secondPass": "اَليْاب",
+    "before": {
+      "output": "اَلِياب",
+      "roundTrip": "aljāb",
+      "secondPass": "اَليْاب"
+    },
+    "after": {
+      "output": "اَلِاب",
+      "roundTrip": "aliāb",
+      "secondPass": "اَلِاب"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

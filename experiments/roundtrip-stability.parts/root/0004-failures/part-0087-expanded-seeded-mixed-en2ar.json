@@ -1,0 +1,37 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0056",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3"
+    ],
+    "trace": {
+      "L1": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+      "A1": "وِث، ستسمع؟ اَلصَّباح، شاي شَمْسٌ\n\n١٢/🙂 — قُُِِ ‍ — إلى وُرلد، كتاب قُوَّة\n\nبِ/فِي، إلى/ٍ\n\nيِلُّوْ؟ قهوة، حَيّ ",
+      "L2": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — 'ilá vurld, ktāb quvvāt\n\nbi/fī, 'ilá/iN\n\njilluv? qhūat, Hajj ",
+      "A2": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِ/فِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ ",
+      "L3": "vith, stsm-? alSSabāH, shāj shamsuN\n\n١٢/🙂 — quiui ‍ — ilá vurld, ktāb quvvāt\n\nbi/fī, ilá/iN\n\njilluv? qhūat, Hajj ",
+      "A3": "وِث، ستسمع؟ اَلصَّباح، شايْ شَمسٌ\n\n١٢/🙂 — قُُِِ ‍ — إِلى وُرلد، كتاب قُوّات\n\nبِ/فِي، إِلى/ٍ\n\nيِلُّوْ؟ قهُوة، حَيّ "
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0057",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+      "A1": "فِي — قارئ؟ أحمد، عائشة الذي\n\nسَتَسمَع اَلصَوْت — هواء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "L2": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+      "A2": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسَتَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "L3": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+      "A3": "فِي — قارء؟ اَحمد، عاءشة اَلذِي\n\nسَتَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء "
+    }
+  }
+]

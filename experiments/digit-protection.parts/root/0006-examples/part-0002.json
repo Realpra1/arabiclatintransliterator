@@ -1,0 +1,106 @@
+[
+  {
+    "input": "ā2",
+    "before": {
+      "output": "ا2",
+      "roundTrip": "ā2",
+      "secondPass": "ا2"
+    },
+    "after": {
+      "output": "ا2",
+      "roundTrip": "ā2",
+      "secondPass": "ا2"
+    }
+  },
+  {
+    "input": "H2CO3",
+    "before": {
+      "output": "ح2كُ3",
+      "roundTrip": "H2ku3",
+      "secondPass": "ح2كُ3"
+    },
+    "after": {
+      "output": "ح2CO3",
+      "roundTrip": "H2CO3",
+      "secondPass": "ح2CO3"
+    }
+  },
+  {
+    "input": "city2",
+    "before": {
+      "output": "سِتِ2",
+      "roundTrip": "siti2",
+      "secondPass": "سِتِ2"
+    },
+    "after": {
+      "output": "city2",
+      "roundTrip": "city2",
+      "secondPass": "city2"
+    }
+  },
+  {
+    "input": "ch2",
+    "before": {
+      "output": "تج2",
+      "roundTrip": "tJ2",
+      "secondPass": "تج2"
+    },
+    "after": {
+      "output": "ch2",
+      "roundTrip": "ch2",
+      "secondPass": "ch2"
+    }
+  },
+  {
+    "input": "see2",
+    "before": {
+      "output": "سِي2",
+      "roundTrip": "sī2",
+      "secondPass": "سِي2"
+    },
+    "after": {
+      "output": "see2",
+      "roundTrip": "see2",
+      "secondPass": "see2"
+    }
+  },
+  {
+    "input": "aa2",
+    "before": {
+      "output": "ا2",
+      "roundTrip": "ā2",
+      "secondPass": "ا2"
+    },
+    "after": {
+      "output": "aa2",
+      "roundTrip": "ā2",
+      "secondPass": "ا2"
+    }
+  },
+  {
+    "input": "ii2",
+    "before": {
+      "output": "ِي2",
+      "roundTrip": "ī2",
+      "secondPass": "ِي2"
+    },
+    "after": {
+      "output": "ii2",
+      "roundTrip": "ī2",
+      "secondPass": "ِي2"
+    }
+  },
+  {
+    "input": "uu2",
+    "before": {
+      "output": "ُو2",
+      "roundTrip": "ū2",
+      "secondPass": "ُو2"
+    },
+    "after": {
+      "output": "uu2",
+      "roundTrip": "ū2",
+      "secondPass": "ُو2"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0013",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "الذي\n\nrubbamā book — صباحًا/iN\n\nحَيّ 42, عائشة naHnu, كتاب havā'\n\ncoffee? havā'\n\nهذه? na-am — شيء/alSSabāH\n\n‍/E=mc^2 — مسؤول ",
+    "output": "الذي\n\nرُبَّما بُوك — صباحًا/ٍ\n\nحَيّ 42، عائشة نَحنُ، كتاب هَوْاء\n\nكُفِّي؟ هَوْاء\n\nهذه؟ نَعَم — شيء/اَلصَّباح\n\n‍/E=مك^2 — مسؤول ",
+    "roundTrip": "aldhī\n\nrubbamā būk — SbāHaNā/iN\n\nHajj 42, -ā'shat naHnu, ktāb havā'\n\nkuffī? havā'\n\nhdhh? na-am — shī'/alSSabāH\n\n‍/E=mk^2 — ms'ūl ",
+    "secondPass": "اَلذِي\n\nرُبَّما بُوك — صباحًا/ٍ\n\nحَيّ 42، عاءشة نَحنُ، كتاب هَوْاء\n\nكُفِّي؟ هَوْاء\n\nهذه؟ نَعَم — شِيئ/اَلصَّباح\n\n‍/E=مك^2 — مسؤُول "
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "id": "normalizer/1797",
+    "input": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/",
+    "before": "ilá, أحمد/الذي — أمس quiui — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, sitī/صوت, na-am/sitī\n\nsu'āl anta, قارئ/",
+    "after": "ilá, أحمد/الذي — أمس quiui — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, siti/صوت, na-am/siti\n\nsu'āl anta, قارئ/"
+  },
+  {
+    "id": "normalizer/1798",
+    "input": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? ",
+    "before": "١٢, E=mk^2/yilluw, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, kuffī schūl, bī/نعم\n\nهذه? ",
+    "after": "١٢, E=mk^2/yilluw, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, kuffī schūl, bi/نعم\n\nهذه? "
+  },
+  {
+    "id": "normalizer/1799",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "before": "نعم\n\nمدرسة? hillu — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmī/aHmad\n\n١٢/Hajj, 42? ",
+    "after": "نعم\n\nمدرسة? hillu — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+  },
+  {
+    "id": "normalizer/1801",
+    "input": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/",
+    "before": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\nkuffī/anta — هي? مدرسة, الذي rubbamā — bī/مسؤول\n\nhillu/with, ٱلْبَيْتُ/",
+    "after": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\nkuffī/anta — هي? مدرسة, الذي rubbamā — bi/مسؤول\n\nhillu/with, ٱلْبَيْتُ/"
+  },
+  {
+    "id": "normalizer/1802",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "before": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — quiui ‍ — إلى wurld, كتاب قُوَّة\n\nbī/fī, إلى/iN\n\nyilluw? قهوة, حَيّ ",
+    "after": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — quiui ‍ — إلى wurld, كتاب قُوَّة\n\nbi/fī, إلى/iN\n\nyilluw? قهوة, حَيّ "
+  },
+  {
+    "id": "normalizer/1803",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "before": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mk^2, كتاب/būk — sitī/naHnu — kitāb? naHnu, kuffī alSawt — shaj' ",
+    "after": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mk^2, كتاب/būk — siti/naHnu — kitāb? naHnu, kuffī alSawt — shaj' "
+  },
+  {
+    "id": "normalizer/1804",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "before": "quvva — نعم? ā — aHmad/su'āl, sitī? أحمد\n\nمحمد/būk, هي/ٱلْبَيْتُ, صباحًا? الذي — yilluw iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "after": "quvva — نعم? ā — aHmad/su'āl, siti? أحمد\n\nمحمد/būk, هي/ٱلْبَيْتُ, صباحًا? الذي — yilluw iN — حَيّ alSawt, ستسمع? iN, anta/"
+  },
+  {
+    "id": "normalizer/1807",
+    "input": "city",
+    "before": "sitī",
+    "after": "siti"
+  },
+  {
+    "id": "normalizer/1808",
+    "input": "xylophone",
+    "before": "sīluphuni",
+    "after": "siluphuni"
+  },
+  {
+    "id": "normalizer/1812",
+    "input": "cycle",
+    "before": "sīkli",
+    "after": "sikli"
+  },
+  {
+    "id": "normalizer/1818",
+    "input": "century",
+    "before": "sinturī",
+    "after": "sinturi"
+  },
+  {
+    "id": "normalizer/1828",
+    "input": "cylinder",
+    "before": "sīlindir",
+    "after": "silindir"
+  },
+  {
+    "id": "normalizer/1829",
+    "input": "cypress",
+    "before": "sīpriss",
+    "after": "sipriss"
+  },
+  {
+    "id": "normalizer/1830",
+    "input": "cyan",
+    "before": "sīan",
+    "after": "sian"
+  },
+  {
+    "id": "normalizer/1831",
+    "input": "cyber",
+    "before": "sībir",
+    "after": "sibir"
+  },
+  {
+    "id": "normalizer/1832",
+    "input": "bicycle",
+    "before": "bisīkli",
+    "after": "bisikli"
+  },
+  {
+    "id": "normalizer/1833",
+    "input": "recycle",
+    "before": "risīkli",
+    "after": "risikli"
+  },
+  {
+    "id": "normalizer/1834",
+    "input": "icy",
+    "before": "isī",
+    "after": "isi"
+  },
+  {
+    "id": "normalizer/1835",
+    "input": "mercy",
+    "before": "mirsī",
+    "after": "mirsi"
+  },
+  {
+    "id": "normalizer/1871",
+    "input": "chemistry",
+    "before": "chimistrī",
+    "after": "chimistri"
+  },
+  {
+    "id": "normalizer/1882",
+    "input": "xylem",
+    "before": "sīlim",
+    "after": "silim"
+  },
+  {
+    "id": "normalizer/1883",
+    "input": "xylitol",
+    "before": "sīlitul",
+    "after": "silitul"
+  },
+  {
+    "id": "normalizer/1899",
+    "input": "oxygen",
+    "before": "uxīgin",
+    "after": "uxigin"
+  },
+  {
+    "id": "normalizer/1914",
+    "input": "my",
+    "before": "mī",
+    "after": "mi"
+  },
+  {
+    "id": "normalizer/1915",
+    "input": "sky",
+    "before": "skī",
+    "after": "ski"
+  },
+  {
+    "id": "normalizer/1916",
+    "input": "try",
+    "before": "trī",
+    "after": "tri"
+  },
+  {
+    "id": "normalizer/1917",
+    "input": "cry",
+    "before": "krī",
+    "after": "kri"
+  },
+  {
+    "id": "normalizer/1918",
+    "input": "dry",
+    "before": "drī",
+    "after": "dri"
+  },
+  {
+    "id": "normalizer/1919",
+    "input": "fly",
+    "before": "flī",
+    "after": "fli"
+  },
+  {
+    "id": "normalizer/1920",
+    "input": "why",
+    "before": "whī",
+    "after": "whi"
+  },
+  {
+    "id": "normalizer/1921",
+    "input": "shy",
+    "before": "shī",
+    "after": "shi"
+  },
+  {
+    "id": "normalizer/1922",
+    "input": "rhythm",
+    "before": "rhīthm",
+    "after": "rhithm"
+  },
+  {
+    "id": "normalizer/1923",
+    "input": "happy",
+    "before": "happī",
+    "after": "happi"
+  },
+  {
+    "id": "normalizer/1924",
+    "input": "baby",
+    "before": "babī",
+    "after": "babi"
+  },
+  {
+    "id": "normalizer/1925",
+    "input": "family",
+    "before": "familī",
+    "after": "famili"
+  },
+  {
+    "id": "normalizer/1926",
+    "input": "story",
+    "before": "sturī",
+    "after": "sturi"
+  },
+  {
+    "id": "normalizer/1927",
+    "input": "mystery",
+    "before": "mīstirī",
+    "after": "mistiri"
+  },
+  {
+    "id": "normalizer/1928",
+    "input": "symbol",
+    "before": "sīmbul",
+    "after": "simbul"
+  },
+  {
+    "id": "normalizer/1929",
+    "input": "system",
+    "before": "sīstim",
+    "after": "sistim"
+  },
+  {
+    "id": "normalizer/1943",
+    "input": "philosophy",
+    "before": "philusuphī",
+    "after": "philusuphi"
+  },
+  {
+    "id": "normalizer/1944",
+    "input": "physics",
+    "before": "phīsiks",
+    "after": "phisiks"
+  },
+  {
+    "id": "normalizer/2003",
+    "input": "City",
+    "before": "sitī",
+    "after": "siti"
+  },
+  {
+    "id": "normalizer/2004",
+    "input": "CITY",
+    "before": "siTī",
+    "after": "siTi"
+  },
+  {
+    "id": "normalizer/2005",
+    "input": "city.",
+    "before": "sitī.",
+    "after": "siti."
+  },
+  {
+    "id": "normalizer/2006",
+    "input": "city?",
+    "before": "sitī?",
+    "after": "siti?"
+  },
+  {
+    "id": "normalizer/2007",
+    "input": "(city)",
+    "before": "(sitī)",
+    "after": "(siti)"
+  },
+  {
+    "id": "normalizer/2008",
+    "input": "a city",
+    "before": "a sitī",
+    "after": "a siti"
+  },
+  {
+    "id": "normalizer/2009",
+    "input": "the city",
+    "before": "thi sitī",
+    "after": "thi siti"
+  },
+  {
+    "id": "normalizer/2010",
+    "input": "city\ncity",
+    "before": "sitī\nsitī",
+    "after": "siti\nsiti"
+  },
+  {
+    "id": "normalizer/2011",
+    "input": "Xylophone",
+    "before": "sīluphuni",
+    "after": "siluphuni"
+  },
+  {
+    "id": "normalizer/2012",
+    "input": "XYLOPHONE",
+    "before": "sīlupHuNi",
+    "after": "silupHuNi"
+  },
+  {
+    "id": "normalizer/2013",
+    "input": "xylophone.",
+    "before": "sīluphuni.",
+    "after": "siluphuni."
+  },
+  {
+    "id": "normalizer/2014",
+    "input": "xylophone?",
+    "before": "sīluphuni?",
+    "after": "siluphuni?"
+  },
+  {
+    "id": "normalizer/2015",
+    "input": "(xylophone)",
+    "before": "(sīluphuni)",
+    "after": "(siluphuni)"
+  },
+  {
+    "id": "normalizer/2016",
+    "input": "a xylophone",
+    "before": "a sīluphuni",
+    "after": "a siluphuni"
+  },
+  {
+    "id": "normalizer/2017",
+    "input": "the xylophone",
+    "before": "thi sīluphuni",
+    "after": "thi siluphuni"
+  },
+  {
+    "id": "normalizer/2018",
+    "input": "xylophone\nxylophone",
+    "before": "sīluphuni\nsīluphuni",
+    "after": "siluphuni\nsiluphuni"
+  },
+  {
+    "id": "normalizer/2043",
+    "input": "Cycle",
+    "before": "sīkli",
+    "after": "sikli"
+  },
+  {
+    "id": "normalizer/2044",
+    "input": "CYCLE",
+    "before": "sīkli",
+    "after": "sikli"
+  },
+  {
+    "id": "normalizer/2045",
+    "input": "cycle.",
+    "before": "sīkli.",
+    "after": "sikli."
+  },
+  {
+    "id": "normalizer/2046",
+    "input": "cycle?",
+    "before": "sīkli?",
+    "after": "sikli?"
+  },
+  {
+    "id": "normalizer/2047",
+    "input": "(cycle)",
+    "before": "(sīkli)",
+    "after": "(sikli)"
+  },
+  {
+    "id": "normalizer/2048",
+    "input": "a cycle",
+    "before": "a sīkli",
+    "after": "a sikli"
+  },
+  {
+    "id": "normalizer/2049",
+    "input": "the cycle",
+    "before": "thi sīkli",
+    "after": "thi sikli"
+  },
+  {
+    "id": "normalizer/2050",
+    "input": "cycle\ncycle",
+    "before": "sīkli\nsīkli",
+    "after": "sikli\nsikli"
+  },
+  {
+    "id": "normalizer/2051",
+    "input": "city xylophone cat cancer school cycle",
+    "before": "sitī sīluphuni kat kansir schūl sīkli",
+    "after": "siti siluphuni kat kansir schūl sikli"
+  },
+  {
+    "id": "normalizer/2052",
+    "input": "The city school has a xylophone. A cat watches me cycle past the cancer clinic.",
+    "before": "Thi sitī schūl has a sīluphuni. a kat watchis mi sīkli past thi kansir klinik.",
+    "after": "Thi siti schūl has a siluphuni. a kat watchis mi sikli past thi kansir klinik."
+  },
+  {
+    "id": "normalizer/2053",
+    "input": "city\nxylophone\ncat\ncancer\nschool\ncycle",
+    "before": "sitī\nsīluphuni\nkat\nkansir\nschūl\nsīkli",
+    "after": "siti\nsiluphuni\nkat\nkansir\nschūl\nsikli"
+  }
+]

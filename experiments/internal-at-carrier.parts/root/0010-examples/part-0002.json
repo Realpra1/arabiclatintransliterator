@@ -1,0 +1,254 @@
+[
+  {
+    "direction": "en2ar",
+    "input": "bāatb",
+    "released": {
+      "L1": "bāatb",
+      "A1": "باةب",
+      "L2": "bāatb",
+      "A2": "باةب",
+      "L3": "bāatb",
+      "A3": "باةب"
+    },
+    "split": {
+      "L1": "bāatb",
+      "A1": "باَتب",
+      "L2": "batb",
+      "A2": "بَتب",
+      "L3": "batb",
+      "A3": "بَتب"
+    },
+    "carrier": {
+      "L1": "bāatb",
+      "A1": "بااَتب",
+      "L2": "bāatb",
+      "A2": "بااَتب",
+      "L3": "bāatb",
+      "A3": "بااَتب"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "cat2",
+    "released": {
+      "L1": "cat2",
+      "A1": "cat2",
+      "L2": "cat2",
+      "A2": "cat2",
+      "L3": "cat2",
+      "A3": "cat2"
+    },
+    "split": {
+      "L1": "cat2",
+      "A1": "cat2",
+      "L2": "cat2",
+      "A2": "cat2",
+      "L3": "cat2",
+      "A3": "cat2"
+    },
+    "carrier": {
+      "L1": "cat2",
+      "A1": "cat2",
+      "L2": "cat2",
+      "A2": "cat2",
+      "L3": "cat2",
+      "A3": "cat2"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "H2O",
+    "released": {
+      "L1": "H2O",
+      "A1": "H2O",
+      "L2": "H2O",
+      "A2": "H2O",
+      "L3": "H2O",
+      "A3": "H2O"
+    },
+    "split": {
+      "L1": "H2O",
+      "A1": "H2O",
+      "L2": "H2O",
+      "A2": "H2O",
+      "L3": "H2O",
+      "A3": "H2O"
+    },
+    "carrier": {
+      "L1": "H2O",
+      "A1": "H2O",
+      "L2": "H2O",
+      "A2": "H2O",
+      "L3": "H2O",
+      "A3": "H2O"
+    }
+  },
+  {
+    "direction": "en2ar",
+    "input": "CO2",
+    "released": {
+      "L1": "CO2",
+      "A1": "CO2",
+      "L2": "CO2",
+      "A2": "CO2",
+      "L3": "CO2",
+      "A3": "CO2"
+    },
+    "split": {
+      "L1": "CO2",
+      "A1": "CO2",
+      "L2": "CO2",
+      "A2": "CO2",
+      "L3": "CO2",
+      "A3": "CO2"
+    },
+    "carrier": {
+      "L1": "CO2",
+      "A1": "CO2",
+      "L2": "CO2",
+      "A2": "CO2",
+      "L3": "CO2",
+      "A3": "CO2"
+    }
+  },
+  {
+    "direction": "ar2en",
+    "input": "شآـةذ",
+    "released": {
+      "A1": "شآـةذ",
+      "L1": "sh'āatdh",
+      "A2": "شأاةذ",
+      "L2": "sh'āatdh",
+      "A3": "شأاةذ",
+      "L3": "sh'āatdh"
+    },
+    "split": {
+      "A1": "شآـةذ",
+      "L1": "sh'āatdh",
+      "A2": "شأاَتذ",
+      "L2": "sh'atdh",
+      "A3": "شأَتذ",
+      "L3": "sh'atdh"
+    },
+    "carrier": {
+      "A1": "شآـةذ",
+      "L1": "sh'āatdh",
+      "A2": "شأااَتذ",
+      "L2": "sh'āatdh",
+      "A3": "شأااَتذ",
+      "L3": "sh'āatdh"
+    }
+  },
+  {
+    "direction": "ar2en",
+    "input": "غئىآـةؤموّىسأصظطزئق",
+    "released": {
+      "A1": "غئىآـةؤموّىسأصظطزئق",
+      "L1": "gh'á'āat'mvvás'SZTz'q",
+      "A2": "غءىأاةءموّىسءصظطزءق",
+      "L2": "gh'á'āat'mvvás'SZTz'q",
+      "A3": "غءىأاةءموّىسءصظطزءق",
+      "L3": "gh'á'āat'mvvás'SZTz'q"
+    },
+    "split": {
+      "A1": "غئىآـةؤموّىسأصظطزئق",
+      "L1": "gh'á'āat'mvvás'SZTz'q",
+      "A2": "غءىأاَتءموّىسءصظطزءق",
+      "L2": "gh'á'at'mvvás'SZTz'q",
+      "A3": "غءىأَتءموّىسءصظطزءق",
+      "L3": "gh'á'at'mvvás'SZTz'q"
+    },
+    "carrier": {
+      "A1": "غئىآـةؤموّىسأصظطزئق",
+      "L1": "gh'á'āat'mvvás'SZTz'q",
+      "A2": "غءىأااَتءموّىسءصظطزءق",
+      "L2": "gh'á'āat'mvvás'SZTz'q",
+      "A3": "غءىأااَتءموّىسءصظطزءق",
+      "L3": "gh'á'āat'mvvás'SZTz'q"
+    }
+  },
+  {
+    "direction": "ar2en",
+    "input": "مَدْرَسَةٌ",
+    "released": {
+      "A1": "مَدْرَسَةٌ",
+      "L1": "madrasatuN",
+      "A2": "مَدرَسةٌ",
+      "L2": "madrasatuN",
+      "A3": "مَدرَسةٌ",
+      "L3": "madrasatuN"
+    },
+    "split": {
+      "A1": "مَدْرَسَةٌ",
+      "L1": "madrasatuN",
+      "A2": "مَدرَسةٌ",
+      "L2": "madrasatuN",
+      "A3": "مَدرَسةٌ",
+      "L3": "madrasatuN"
+    },
+    "carrier": {
+      "A1": "مَدْرَسَةٌ",
+      "L1": "madrasatuN",
+      "A2": "مَدرَسةٌ",
+      "L2": "madrasatuN",
+      "A3": "مَدرَسةٌ",
+      "L3": "madrasatuN"
+    }
+  },
+  {
+    "direction": "ar2en",
+    "input": "كَتَبَ",
+    "released": {
+      "A1": "كَتَبَ",
+      "L1": "kataba",
+      "A2": "كةَبَ",
+      "L2": "kataba",
+      "A3": "كةَبَ",
+      "L3": "kataba"
+    },
+    "split": {
+      "A1": "كَتَبَ",
+      "L1": "kataba",
+      "A2": "كَتَبَ",
+      "L2": "kataba",
+      "A3": "كَتَبَ",
+      "L3": "kataba"
+    },
+    "carrier": {
+      "A1": "كَتَبَ",
+      "L1": "kataba",
+      "A2": "كاَتَبَ",
+      "L2": "kataba",
+      "A3": "كاَتَبَ",
+      "L3": "kataba"
+    }
+  },
+  {
+    "direction": "ar2en",
+    "input": "قَتْل",
+    "released": {
+      "A1": "قَتْل",
+      "L1": "qatl",
+      "A2": "قةل",
+      "L2": "qatl",
+      "A3": "قةل",
+      "L3": "qatl"
+    },
+    "split": {
+      "A1": "قَتْل",
+      "L1": "qatl",
+      "A2": "قَتل",
+      "L2": "qatl",
+      "A3": "قَتل",
+      "L3": "qatl"
+    },
+    "carrier": {
+      "A1": "قَتْل",
+      "L1": "qatl",
+      "A2": "قاَتل",
+      "L2": "qatl",
+      "A3": "قاَتل",
+      "L3": "qatl"
+    }
+  }
+]

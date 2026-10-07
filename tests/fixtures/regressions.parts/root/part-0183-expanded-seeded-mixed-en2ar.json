@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0029",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "مساءً — mā'? uN\n\nكتاب/E=mc^2 — حَيّ? مدرسة, لكن? لكن, marHaba عائشة, صباحًا alSawt\n\n🙂 rubbamā, قهوة/محمد, لا/anta\n\nماء ",
+    "output": "مساءً — ماء؟ ٌ\n\nكتاب/E=مك^2 — حَيّ؟ مدرسة، لكن؟ لكن، مَرحَبَ عائشة، صباحًا اَلصَوْت\n\n🙂 رُبَّما، قهوة/محمد، لا/اَنتَ\n\nماء ",
+    "roundTrip": "msā'aN — mā'? uN\n\nktāb/E=mk^2 — Hajj? mdrsat, lkn? lkn, marHaba -ā'shat, SbāHaNā alSavt\n\n🙂 rubbamā, qhūat/mHmd, lā/anta\n\nmā' ",
+    "secondPass": "مساأً — ماء؟ ٌ\n\nكتاب/E=مك^2 — حَيّ؟ مدرسة، لكن؟ لكن، مَرحَبَ عاءشة، صباحًا اَلصَوْت\n\n🙂 رُبَّما، قهُوة/محمد، لا/اَنتَ\n\nماء "
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0050",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "output": "أمس — شَيْء/لا — ١٢؟ إلى، نحن قهوة، هَوْاء؟ ً\n\nستجُول لأن — غَدً نَحنُ\n\nهي حَيّ — أنا؟ هو — هؤلاء أمس — سُؤال/",
+    "roundTrip": "'ams — shaj'/lā — ١٢? 'ilá, nHn qhūat, havā'? aN\n\nstJūl l'n — ghadaN naHnu\n\nhī Hajj — 'anā? hū — h'lā' 'ams — su'āl/",
+    "secondPass": "أَمس — شَيْء/لا — ١٢؟ إِلى، نحن قهُوة، هَوْاء؟ ً\n\nستجُول لأن — غَدً نَحنُ\n\nهِي حَيّ — أَنا؟ هُو — هءلاء أَمس — سُؤال/"
+  }
+]

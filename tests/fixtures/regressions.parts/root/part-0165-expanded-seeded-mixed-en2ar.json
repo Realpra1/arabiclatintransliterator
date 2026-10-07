@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0020",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "عائشة, -alá 42\n\nنعم? ghadaN, لأن quvva, á? with, قهوة? في — لأن? هذه, ā/rubbamā\n\naHmad? shāj, غدًا? اليوم\n\nليلى ",
+    "output": "عائشة، عَلى 42\n\nنعم؟ غَدً، لأن قُوَّ، ى؟ وِث، قهوة؟ في — لأن؟ هذه، ا/رُبَّما\n\nاَحمَد؟ شايْ، غدًا؟ اليوم\n\nليلى ",
+    "roundTrip": "-ā'shat, -alá 42\n\nn-m? ghadaN, l'n quvva, á? vith, qhūat? fī — l'n? hdhh, ā/rubbamā\n\naHmad? shāj, ghdaNā? alīvm\n\nlīlá ",
+    "secondPass": "عاءشة، عَلى 42\n\nنعم؟ غَدً، لأن قُوَّ، ى؟ وِث، قهُوة؟ فِي — لأن؟ هذه، ا/رُبَّما\n\nاَحمَد؟ شايْ، غدًا؟ اَلِيوْم\n\nلِيلى "
+  }
+]

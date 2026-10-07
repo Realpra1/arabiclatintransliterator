@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0001",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "city",
+    "output": "سِتِ",
+    "roundTrip": "siti",
+    "secondPass": "سِتِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0002",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "xylophone",
+    "output": "سِلُفُنِ",
+    "roundTrip": "silufuni",
+    "secondPass": "سِلُفُنِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0003",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cat",
+    "output": "كة",
+    "roundTrip": "kat",
+    "secondPass": "كة"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0004",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cancer",
+    "output": "كَنسِر",
+    "roundTrip": "kansir",
+    "secondPass": "كَنسِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0005",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "school",
+    "output": "ستجُول",
+    "roundTrip": "stJūl",
+    "secondPass": "ستجُول"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0006",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cycle",
+    "output": "سِكلِ",
+    "roundTrip": "sikli",
+    "secondPass": "سِكلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0007",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "ceiling",
+    "output": "سِيلِنج",
+    "roundTrip": "sīlinJ",
+    "secondPass": "سِيلِنج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0008",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cell",
+    "output": "سِلّ",
+    "roundTrip": "sill",
+    "secondPass": "سِلّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0009",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cent",
+    "output": "سِنت",
+    "roundTrip": "sint",
+    "secondPass": "سِنت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0010",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "center",
+    "output": "سِنتِر",
+    "roundTrip": "sintir",
+    "secondPass": "سِنتِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0011",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "centre",
+    "output": "سِنترِ",
+    "roundTrip": "sintri",
+    "secondPass": "سِنترِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0012",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "century",
+    "output": "سِنتُرِ",
+    "roundTrip": "sinturi",
+    "secondPass": "سِنتُرِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0013",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cereal",
+    "output": "سِرَِل",
+    "roundTrip": "sirial",
+    "secondPass": "سِرَِل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0014",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "certain",
+    "output": "سِرتَِن",
+    "roundTrip": "sirtain",
+    "secondPass": "سِرتَِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0015",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "circle",
+    "output": "سِركلِ",
+    "roundTrip": "sirkli",
+    "secondPass": "سِركلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0016",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "circuit",
+    "output": "سِركُِت",
+    "roundTrip": "sirkuit",
+    "secondPass": "سِركُِت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0017",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "circus",
+    "output": "سِركُس",
+    "roundTrip": "sirkus",
+    "secondPass": "سِركُس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0018",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "citizen",
+    "output": "سِتِزِن",
+    "roundTrip": "sitizin",
+    "secondPass": "سِتِزِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0019",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "civil",
+    "output": "سِوِل",
+    "roundTrip": "sivil",
+    "secondPass": "سِوِل"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0020",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "civilization",
+    "output": "سِوِلِزَتُِن",
+    "roundTrip": "sivilizatiun",
+    "secondPass": "سِوِلِزَتُِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0021",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "civic",
+    "output": "سِوِس",
+    "roundTrip": "sivis",
+    "secondPass": "سِوِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0022",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cylinder",
+    "output": "سِلِندِر",
+    "roundTrip": "silindir",
+    "secondPass": "سِلِندِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0023",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cypress",
+    "output": "سِبرِسّ",
+    "roundTrip": "sibriss",
+    "secondPass": "سِبرِسّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0024",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cyan",
+    "output": "سَِن",
+    "roundTrip": "sian",
+    "secondPass": "سَِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0025",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cyber",
+    "output": "سِبِر",
+    "roundTrip": "sibir",
+    "secondPass": "سِبِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0026",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "bicycle",
+    "output": "بِسِكلِ",
+    "roundTrip": "bisikli",
+    "secondPass": "بِسِكلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0027",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "recycle",
+    "output": "رِسِكلِ",
+    "roundTrip": "risikli",
+    "secondPass": "رِسِكلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0028",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "icy",
+    "output": "إِسِ",
+    "roundTrip": "isi",
+    "secondPass": "إِسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0029",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "mercy",
+    "output": "مِرسِ",
+    "roundTrip": "mirsi",
+    "secondPass": "مِرسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0030",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "car",
+    "output": "كَر",
+    "roundTrip": "kar",
+    "secondPass": "كَر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0031",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cap",
+    "output": "كَب",
+    "roundTrip": "kab",
+    "secondPass": "كَب"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0032",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cake",
+    "output": "كَكِ",
+    "roundTrip": "kaki",
+    "secondPass": "كَكِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0033",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "can",
+    "output": "كَن",
+    "roundTrip": "kan",
+    "secondPass": "كَن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0034",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "candle",
+    "output": "كَندلِ",
+    "roundTrip": "kandli",
+    "secondPass": "كَندلِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0035",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "camera",
+    "output": "كَمِرَ",
+    "roundTrip": "kamira",
+    "secondPass": "كَمِرَ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0036",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "coconut",
+    "output": "كُكُنُت",
+    "roundTrip": "kukunut",
+    "secondPass": "كُكُنُت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0037",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "coffee",
+    "output": "كُفِّي",
+    "roundTrip": "kuffī",
+    "secondPass": "كُفِّي"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0038",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cut",
+    "output": "كُت",
+    "roundTrip": "kut",
+    "secondPass": "كُت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0039",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cup",
+    "output": "كُب",
+    "roundTrip": "kub",
+    "secondPass": "كُب"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0040",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cucumber",
+    "output": "كُكُمبِر",
+    "roundTrip": "kukumbir",
+    "secondPass": "كُكُمبِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0041",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "clay",
+    "output": "كلَيْ",
+    "roundTrip": "klaj",
+    "secondPass": "كلَيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0042",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "clock",
+    "output": "كلُكّ",
+    "roundTrip": "klukk",
+    "secondPass": "كلُكّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0043",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "crab",
+    "output": "كرَب",
+    "roundTrip": "krab",
+    "secondPass": "كرَب"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0044",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "scarf",
+    "output": "سكَرف",
+    "roundTrip": "skarf",
+    "secondPass": "سكَرف"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0045",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "scarce",
+    "output": "سكَرسِ",
+    "roundTrip": "skarsi",
+    "secondPass": "سكَرسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0046",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "science",
+    "output": "سِّينسِ",
+    "roundTrip": "ssīnsi",
+    "secondPass": "سِّينسِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0047",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "scene",
+    "output": "سِّنِ",
+    "roundTrip": "ssini",
+    "secondPass": "سِّنِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0048",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "scissors",
+    "output": "سِّسُّرس",
+    "roundTrip": "ssissurs",
+    "secondPass": "سِّسُّرس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0049",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "scent",
+    "output": "سِّنت",
+    "roundTrip": "ssint",
+    "secondPass": "سِّنت"
+  }
+]

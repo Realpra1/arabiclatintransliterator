@@ -1,7 +1,8 @@
+import { readJsonArtifact, writeJsonArtifact } from './lib/json-artifacts.mjs';
 // Compare an explicit alif+fatha carrier with the preceding terminal-at trial.
 // Production code and saved expectations are never changed.
 import assert from 'node:assert/strict';
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {createContext,runInContext} from 'node:vm';
 import {loadTranslator,translatorFiles,root} from '../tests/helpers/load-translator.mjs';
@@ -9,7 +10,7 @@ import {stabilityCases,traceRoundTrip,stabilityComparisons} from '../tests/helpe
 import {readFixture} from '../tests/corpus.mjs';
 const fingerprint=()=>Object.fromEntries(translatorFiles.map(f=>[f,createHash('sha256').update(readFileSync(new URL(f,root))).digest('hex')]));
 const sourceSha256=fingerprint();
-const previousReport=JSON.parse(readFileSync(new URL('experiments/terminal-at.json',root)));
+const previousReport=readJsonArtifact(new URL('experiments/terminal-at.json',root));
 assert.deepEqual(sourceSha256,previousReport.sourceSha256,'Re-run terminal-at trial against changed runtime source first');
 const previousSource=previousReport.reports.find(r=>r.mode==='latin-diacritics').candidateSource;
 let candidateSource=previousSource;
@@ -82,6 +83,6 @@ const seededCoreFailures=standardAgainstRelease.checks.newlyFailing.map(f=>{
 const reducedYaExamples=['شِيةف','ةِيةِح'].map(input=>({input,released:traceRoundTrip(core.released,{direction:'ar2en',input}),carrier:traceRoundTrip(core.carrier,{direction:'ar2en',input})}));
 assert.deepEqual(fingerprint(),sourceSha256);
 const report={description:'Internal at emits alif+fatha for a, then handles t normally (preserving th/tt). Terminal at including short-vowel/tanwin suffixes still emits ة. No production edits.',sourceSha256,candidateSource,counts,againstRelease:againstRelease.checks,againstSplit:againstSplit.checks,standardAgainstRelease:standardAgainstRelease.checks,standardAgainstSplit:standardAgainstSplit.checks,previousFailures,seededCoreFailures,reducedYaExamples,documents,examples,changedCaseIds:changed.map(c=>c.id),changedExamples:changed.slice(0,30)};
-writeFileSync(new URL('experiments/internal-at-carrier.json',root),JSON.stringify(report,null,2)+'\n');
+writeJsonArtifact(new URL('experiments/internal-at-carrier.json',root), report);
 const summarize=c=>({...c,newlyFailing:c.newlyFailing.length,fixed:c.fixed.length});
 console.log(JSON.stringify({counts,againstRelease:summarize(report.againstRelease),againstSplit:summarize(report.againstSplit),standardAgainstRelease:summarize(report.standardAgainstRelease),standardAgainstSplit:summarize(report.standardAgainstSplit),previousFailures,documents:documents.map(d=>({id:d.id,unchangedFromRelease:d.unchangedFromRelease,changedOutputWords:d.changedOutputWords})),examples},null,2));

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0030",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "في, عائشة -alá, إلى? أنت\n\nlajla 🙂 — -alá? ستسمع\n\nworld/aHmad — naHnu su'āl\n\nٱلْبَيْتُ? على\n\nنعم كتاب — world 42\n\nworld? ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "في, عائشة -alá, إلى? أنت\n\nlajla 🙂 — -alá? ستسمع\n\nworld/aHmad — naHnu su'āl\n\nٱلْبَيْتُ? على\n\nنعم كتاب — world 42\n\nworld? ",
+      "A1": "في، عائشة عَلى، إلى؟ أنت\n\nلَيْلَ 🙂 — عَلى؟ ستسمع\n\nوُرلد/اَحمَد — نَحنُ سُؤال\n\nٱلْبَيْتُ؟ على\n\nنعم كتاب — وُرلد 42\n\nوُرلد؟ ",
+      "L2": "fī, -ā'shat -alá, 'ilá? 'ant\n\nlajla 🙂 — -alá? stsm-\n\nvurld/aHmad — naHnu su'āl\n\nalbajtu? -lá\n\nn-m ktāb — vurld 42\n\nvurld? ",
+      "A2": "فِي، عاءشة عَلى، إِلى؟ أَنت\n\nلَيْلَ 🙂 — عَلى؟ ستسمع\n\nوُرلد/اَحمَد — نَحنُ سُؤال\n\nاَلبَيْتُ؟ على\n\nنعم كتاب — وُرلد 42\n\nوُرلد؟ ",
+      "L3": "fī, -ā'shat -alá, ilá? ant\n\nlajla 🙂 — -alá? stsm-\n\nvurld/aHmad — naHnu su'āl\n\nalbajtu? -lá\n\nn-m ktāb — vurld 42\n\nvurld? ",
+      "A3": "فِي، عاءشة عَلى، إِلى؟ اَنت\n\nلَيْلَ 🙂 — عَلى؟ ستسمع\n\nوُرلد/اَحمَد — نَحنُ سُؤال\n\nاَلبَيْتُ؟ على\n\nنعم كتاب — وُرلد 42\n\nوُرلد؟ "
+    }
+  }
+]

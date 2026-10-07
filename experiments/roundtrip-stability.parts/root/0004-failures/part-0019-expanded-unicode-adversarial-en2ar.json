@@ -1,0 +1,37 @@
+[
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0011",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "a ب  ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3"
+    ],
+    "trace": {
+      "L1": "a ب  ",
+      "A1": "a ب  uندِفِنِد",
+      "L2": "a b  undifinid",
+      "A2": "اَ ب  أُندِفِنِد",
+      "L3": "a b  undifinid",
+      "A3": "اَ ب  أُندِفِنِد"
+    }
+  },
+  {
+    "id": "expanded-unicode-adversarial/en2ar/0017",
+    "group": "expanded-unicode-adversarial",
+    "direction": "en2ar",
+    "input": "' ’ ‘ ʼ ʾ ʻ ء ` ´",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "' ’ ‘ ʼ ʾ ʻ ء ` ´",
+      "A1": "أ ’ ‘ ʼ أ ʻ ء ` ´",
+      "L2": "'a ’ ‘ ʼ 'a ʻ ' ` ´",
+      "A2": "أَ ’ ‘ ʼ أَ ʻ أ ` ´",
+      "L3": "a ’ ‘ ʼ a ʻ 'a ` ´",
+      "A3": "اَ ’ ‘ ʼ اَ ʻ أَ ` ´"
+    }
+  }
+]

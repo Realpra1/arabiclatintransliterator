@@ -1,0 +1,443 @@
+[
+  {
+    "id": "civilization-latin-words/en2ar/0197",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "mikhraTa:",
+    "output": "مِخرَطَ:",
+    "roundTrip": "mikhraTa:",
+    "secondPass": "مِخرَطَ:"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0198",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "davvar",
+    "output": "دَوَّر",
+    "roundTrip": "davvar",
+    "secondPass": "دَوَّر"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0199",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "qiTa-",
+    "output": "قِطَع",
+    "roundTrip": "qiTa-",
+    "secondPass": "قِطَع"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0200",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "-amal",
+    "output": "عَمَل",
+    "roundTrip": "-amal",
+    "secondPass": "عَمَل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0201",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "qurba",
+    "output": "قُربَ",
+    "roundTrip": "qurba",
+    "secondPass": "قُربَ"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0202",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "izmīl;",
+    "output": "إِزمِيل؛",
+    "roundTrip": "izmīl;",
+    "secondPass": "إِزمِيل؛"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0203",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "Harrik",
+    "output": "حَرِّك",
+    "roundTrip": "Harrik",
+    "secondPass": "حَرِّك"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0204",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "izmīl",
+    "output": "إِزمِيل",
+    "roundTrip": "izmīl",
+    "secondPass": "إِزمِيل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0205",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "lavlaba.",
+    "output": "لَوْلَبَ.",
+    "roundTrip": "lavlaba.",
+    "secondPass": "لَوْلَبَ."
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0206",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "muHarrik",
+    "output": "مُحَرِّك",
+    "roundTrip": "muHarrik",
+    "secondPass": "مُحَرِّك"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0207",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "4",
+    "output": "4",
+    "roundTrip": "4",
+    "secondPass": "4"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0208",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "ashvāT:",
+    "output": "اَشوْاط:",
+    "roundTrip": "ashvāT:",
+    "secondPass": "اَشوْاط:"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0209",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jasHab",
+    "output": "يَسحَب",
+    "roundTrip": "jasHab",
+    "secondPass": "يَسحَب"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0210",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "havā'+vaqūd,",
+    "output": "هَوْاء+وَقُود،",
+    "roundTrip": "havā'+vaqūd,",
+    "secondPass": "هَوْاء+وَقُود،"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0211",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jaDghaT,",
+    "output": "يَضغَط،",
+    "roundTrip": "jaDghaT,",
+    "secondPass": "يَضغَط،"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0212",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jush-il",
+    "output": "يُشعِل",
+    "roundTrip": "jush-il",
+    "secondPass": "يُشعِل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0213",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "sharāra,",
+    "output": "شَرارَ،",
+    "roundTrip": "sharāra,",
+    "secondPass": "شَرارَ،"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0214",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "tamaddud",
+    "output": "تَمَدُّد",
+    "roundTrip": "tamaddud",
+    "secondPass": "تَمَدُّد"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0215",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "juHavvil",
+    "output": "يُحَوِّل",
+    "roundTrip": "juHavvil",
+    "secondPass": "يُحَوِّل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0216",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "shughul",
+    "output": "شُغُل",
+    "roundTrip": "shughul",
+    "secondPass": "شُغُل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0217",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "mirfaq,",
+    "output": "مِرفَق،",
+    "roundTrip": "mirfaq,",
+    "secondPass": "مِرفَق،"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0218",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jaTrud",
+    "output": "يَطرُد",
+    "roundTrip": "jaTrud",
+    "secondPass": "يَطرُد"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0219",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "-ādim;",
+    "output": "عادِم؛",
+    "roundTrip": "-ādim;",
+    "secondPass": "عادِم؛"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0220",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "zāmin",
+    "output": "زامِن",
+    "roundTrip": "zāmin",
+    "secondPass": "زامِن"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0221",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "biSimām",
+    "output": "بِصِمام",
+    "roundTrip": "biSimām",
+    "secondPass": "بِصِمام"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0222",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "kām+-amūd+turs.",
+    "output": "كام+عَمُود+تُرس.",
+    "roundTrip": "kām+-amūd+turs.",
+    "secondPass": "كام+عَمُود+تُرس."
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0223",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "Safā'iH",
+    "output": "صَفاءِح",
+    "roundTrip": "Safā'iH",
+    "secondPass": "صَفاءِح"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0224",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "ma-din",
+    "output": "مَعدِن",
+    "roundTrip": "ma-din",
+    "secondPass": "مَعدِن"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0225",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "takhzan",
+    "output": "تَخزَن",
+    "roundTrip": "takhzan",
+    "secondPass": "تَخزَن"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0226",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "kahrabā'.",
+    "output": "كَهرَباء.",
+    "roundTrip": "kahrabā'.",
+    "secondPass": "كَهرَباء."
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0227",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "trānzistūr:",
+    "output": "ترانزِستُور:",
+    "roundTrip": "trānzistūr:",
+    "secondPass": "ترانزِستُور:"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0228",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jubaddil/juDakhkhim/juqavvim",
+    "output": "يُبَدِّل/يُضَخِّم/يُقَوِّم",
+    "roundTrip": "jubaddil/juDakhkhim/juqavvim",
+    "secondPass": "يُبَدِّل/يُضَخِّم/يُقَوِّم"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0229",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "tajjār;",
+    "output": "تَيّار؛",
+    "roundTrip": "tajjār;",
+    "secondPass": "تَيّار؛"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0230",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "Ta--im",
+    "output": "طَعِّم",
+    "roundTrip": "Ta--im",
+    "secondPass": "طَعِّم"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0231",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "sīlīkūn",
+    "output": "سِيلِيكُون",
+    "roundTrip": "sīlīkūn",
+    "secondPass": "سِيلِيكُون"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0232",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "naqī",
+    "output": "نَقِي",
+    "roundTrip": "naqī",
+    "secondPass": "نَقِي"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0233",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "ramal",
+    "output": "رَمَل",
+    "roundTrip": "ramal",
+    "secondPass": "رَمَل"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0234",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "bi",
+    "output": "بِ",
+    "roundTrip": "bi",
+    "secondPass": "بِ"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0235",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "būrūn",
+    "output": "بُورُون",
+    "roundTrip": "būrūn",
+    "secondPass": "بُورُون"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0236",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "(nav-",
+    "output": "(نَوْع",
+    "roundTrip": "(nav-",
+    "secondPass": "(نَوْع"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0237",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "P)",
+    "output": "P)",
+    "roundTrip": "P)",
+    "secondPass": "P)"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0238",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "fusfūr",
+    "output": "فُسفُور",
+    "roundTrip": "fusfūr",
+    "secondPass": "فُسفُور"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0239",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "N).",
+    "output": "N).",
+    "roundTrip": "N).",
+    "secondPass": "N)."
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0240",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "maSdar+maSrif",
+    "output": "مَصدَر+مَصرِف",
+    "roundTrip": "maSdar+maSrif",
+    "secondPass": "مَصدَر+مَصرِف"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0241",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "jalmisān",
+    "output": "يَلمِسان",
+    "roundTrip": "jalmisān",
+    "secondPass": "يَلمِسان"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0242",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "nav-aj",
+    "output": "نَوْعَيْ",
+    "roundTrip": "nav-aj",
+    "secondPass": "نَوْعَيْ"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0243",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "N;",
+    "output": "N؛",
+    "roundTrip": "N;",
+    "secondPass": "N؛"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0244",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "alvasaT",
+    "output": "اَلوَسَط",
+    "roundTrip": "alvasaT",
+    "secondPass": "اَلوَسَط"
+  },
+  {
+    "id": "civilization-latin-words/en2ar/0245",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "nav-",
+    "output": "نَوْع",
+    "roundTrip": "nav-",
+    "secondPass": "نَوْع"
+  }
+]

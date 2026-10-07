@@ -1,0 +1,432 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0001",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "City",
+    "output": "سِتِي",
+    "roundTrip": "sitī",
+    "secondPass": "سِتِي",
+    "before": {
+      "output": "سِتِي",
+      "roundTrip": "sitī",
+      "secondPass": "سِتِي"
+    },
+    "after": {
+      "output": "سِتِ",
+      "roundTrip": "siti",
+      "secondPass": "سِتِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0002",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "CITY",
+    "output": "سِطِي",
+    "roundTrip": "siTī",
+    "secondPass": "سِطِي",
+    "before": {
+      "output": "سِطِي",
+      "roundTrip": "siTī",
+      "secondPass": "سِطِي"
+    },
+    "after": {
+      "output": "سِطِ",
+      "roundTrip": "siTi",
+      "secondPass": "سِطِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0003",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city.",
+    "output": "سِتِي.",
+    "roundTrip": "sitī.",
+    "secondPass": "سِتِي.",
+    "before": {
+      "output": "سِتِي.",
+      "roundTrip": "sitī.",
+      "secondPass": "سِتِي."
+    },
+    "after": {
+      "output": "سِتِ.",
+      "roundTrip": "siti.",
+      "secondPass": "سِتِ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0004",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city?",
+    "output": "سِتِي؟",
+    "roundTrip": "sitī?",
+    "secondPass": "سِتِي؟",
+    "before": {
+      "output": "سِتِي؟",
+      "roundTrip": "sitī?",
+      "secondPass": "سِتِي؟"
+    },
+    "after": {
+      "output": "سِتِ؟",
+      "roundTrip": "siti?",
+      "secondPass": "سِتِ؟"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0005",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(city)",
+    "output": "(سِتِي)",
+    "roundTrip": "(sitī)",
+    "secondPass": "(سِتِي)",
+    "before": {
+      "output": "(سِتِي)",
+      "roundTrip": "(sitī)",
+      "secondPass": "(سِتِي)"
+    },
+    "after": {
+      "output": "(سِتِ)",
+      "roundTrip": "(siti)",
+      "secondPass": "(سِتِ)"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0006",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a city",
+    "output": "اَ سِتِي",
+    "roundTrip": "a sitī",
+    "secondPass": "اَ سِتِي",
+    "before": {
+      "output": "اَ سِتِي",
+      "roundTrip": "a sitī",
+      "secondPass": "اَ سِتِي"
+    },
+    "after": {
+      "output": "اَ سِتِ",
+      "roundTrip": "a siti",
+      "secondPass": "اَ سِتِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0007",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the city",
+    "output": "ثِ سِتِي",
+    "roundTrip": "thi sitī",
+    "secondPass": "ثِ سِتِي",
+    "before": {
+      "output": "ثِ سِتِي",
+      "roundTrip": "thi sitī",
+      "secondPass": "ثِ سِتِي"
+    },
+    "after": {
+      "output": "ثِ سِتِ",
+      "roundTrip": "thi siti",
+      "secondPass": "ثِ سِتِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0008",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city\ncity",
+    "output": "سِتِي\nسِتِي",
+    "roundTrip": "sitī\nsitī",
+    "secondPass": "سِتِي\nسِتِي",
+    "before": {
+      "output": "سِتِي\nسِتِي",
+      "roundTrip": "sitī\nsitī",
+      "secondPass": "سِتِي\nسِتِي"
+    },
+    "after": {
+      "output": "سِتِ\nسِتِ",
+      "roundTrip": "siti\nsiti",
+      "secondPass": "سِتِ\nسِتِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0009",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Xylophone",
+    "output": "سِيلُفُنِ",
+    "roundTrip": "sīlufuni",
+    "secondPass": "سِيلُفُنِ",
+    "before": {
+      "output": "سِيلُفُنِ",
+      "roundTrip": "sīlufuni",
+      "secondPass": "سِيلُفُنِ"
+    },
+    "after": {
+      "output": "سِلُفُنِ",
+      "roundTrip": "silufuni",
+      "secondPass": "سِلُفُنِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0010",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "XYLOPHONE",
+    "output": "سِيلُبحٌِ",
+    "roundTrip": "sīlubHuNi",
+    "secondPass": "سِيلُبحٌِ",
+    "before": {
+      "output": "سِيلُبحٌِ",
+      "roundTrip": "sīlubHuNi",
+      "secondPass": "سِيلُبحٌِ"
+    },
+    "after": {
+      "output": "سِلُبحٌِ",
+      "roundTrip": "silubHuNi",
+      "secondPass": "سِلُبحٌِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0011",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone.",
+    "output": "سِيلُفُنِ.",
+    "roundTrip": "sīlufuni.",
+    "secondPass": "سِيلُفُنِ.",
+    "before": {
+      "output": "سِيلُفُنِ.",
+      "roundTrip": "sīlufuni.",
+      "secondPass": "سِيلُفُنِ."
+    },
+    "after": {
+      "output": "سِلُفُنِ.",
+      "roundTrip": "silufuni.",
+      "secondPass": "سِلُفُنِ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0012",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone?",
+    "output": "سِيلُفُنِ؟",
+    "roundTrip": "sīlufuni?",
+    "secondPass": "سِيلُفُنِ؟",
+    "before": {
+      "output": "سِيلُفُنِ؟",
+      "roundTrip": "sīlufuni?",
+      "secondPass": "سِيلُفُنِ؟"
+    },
+    "after": {
+      "output": "سِلُفُنِ؟",
+      "roundTrip": "silufuni?",
+      "secondPass": "سِلُفُنِ؟"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0013",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(xylophone)",
+    "output": "(سِيلُفُنِ)",
+    "roundTrip": "(sīlufuni)",
+    "secondPass": "(sِيلُفُنِ)",
+    "before": {
+      "output": "(سِيلُفُنِ)",
+      "roundTrip": "(sīlufuni)",
+      "secondPass": "(sِيلُفُنِ)"
+    },
+    "after": {
+      "output": "(سِلُفُنِ)",
+      "roundTrip": "(silufuni)",
+      "secondPass": "(سِلُفُنِ)"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0014",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a xylophone",
+    "output": "اَ سِيلُفُنِ",
+    "roundTrip": "a sīlufuni",
+    "secondPass": "اَ سِيلُفُنِ",
+    "before": {
+      "output": "اَ سِيلُفُنِ",
+      "roundTrip": "a sīlufuni",
+      "secondPass": "اَ سِيلُفُنِ"
+    },
+    "after": {
+      "output": "اَ سِلُفُنِ",
+      "roundTrip": "a silufuni",
+      "secondPass": "اَ سِلُفُنِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0015",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the xylophone",
+    "output": "ثِ سِيلُفُنِ",
+    "roundTrip": "thi sīlufuni",
+    "secondPass": "ثِ سِيلُفُنِ",
+    "before": {
+      "output": "ثِ سِيلُفُنِ",
+      "roundTrip": "thi sīlufuni",
+      "secondPass": "ثِ سِيلُفُنِ"
+    },
+    "after": {
+      "output": "ثِ سِلُفُنِ",
+      "roundTrip": "thi silufuni",
+      "secondPass": "ثِ سِلُفُنِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0016",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone\nxylophone",
+    "output": "سِيلُفُنِ\nسِيلُفُنِ",
+    "roundTrip": "sīlufuni\nsīlufuni",
+    "secondPass": "سِيلُفُنِ\nسِيلُفُنِ",
+    "before": {
+      "output": "سِيلُفُنِ\nسِيلُفُنِ",
+      "roundTrip": "sīlufuni\nsīlufuni",
+      "secondPass": "سِيلُفُنِ\nسِيلُفُنِ"
+    },
+    "after": {
+      "output": "سِلُفُنِ\nسِلُفُنِ",
+      "roundTrip": "silufuni\nsilufuni",
+      "secondPass": "سِلُفُنِ\nسِلُفُنِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0037",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(school)",
+    "output": "(ستجُول)",
+    "roundTrip": "(stJūl)",
+    "secondPass": "(ستجُوl)",
+    "before": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُوl)"
+    },
+    "after": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُول)"
+    },
+    "stages": [
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0041",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Cycle",
+    "output": "سِيكلِ",
+    "roundTrip": "sīkli",
+    "secondPass": "سِيكلِ",
+    "before": {
+      "output": "سِيكلِ",
+      "roundTrip": "sīkli",
+      "secondPass": "سِيكلِ"
+    },
+    "after": {
+      "output": "سِكلِ",
+      "roundTrip": "sikli",
+      "secondPass": "سِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

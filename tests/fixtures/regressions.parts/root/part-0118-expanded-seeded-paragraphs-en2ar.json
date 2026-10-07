@@ -1,0 +1,200 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0099",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "anā — anā/with\n\nhello? su'āl\n\nschool/rhythm\n\nmadrasat/madrasat\n\ncoffee/naHnu\n\nnaHnu iN, Hajj? my, school/havā', fī rhythm, school/with, rhythm? with, coffee lā\n\nilá? ghadaN — hello؟",
+    "output": "اَنا — اَنا/وِث\n\nهِلُّ؟ سُؤال\n\nستجُول/رهِثم\n\nمَدرَسة/مَدرَسة\n\nكُفِّي/نَحنُ\n\nنَحنُ ٍ، حَيّ؟ مِ، ستجُول/هَوْاء، فِي رهِثم، ستجُول/وِث، رهِثم؟ وِث، كُفِّي لا\n\nإِلى؟ غَدً — هِلُّ؟",
+    "roundTrip": "anā — anā/vith\n\nhillu? su'āl\n\nstJūl/rhithm\n\nmadrasat/madrasat\n\nkuffī/naHnu\n\nnaHnu iN, Hajj? mi, stJūl/havā', fī rhithm, stJūl/vith, rhithm? vith, kuffī lā\n\nilá? ghadaN — hillu?",
+    "secondPass": "اَنا — اَنا/وِث\n\nهِلُّ؟ سُؤال\n\nستجُول/رهِثم\n\nمَدرَسة/مَدرَسة\n\nكُفِّي/نَحنُ\n\nنَحنُ ٍ، حَيّ؟ مِ، ستجُول/هَوْاء، فِي رهِثم، ستجُول/وِث، رهِثم؟ وِث، كُفِّي لا\n\nإِلى؟ غَدً — هِلُّ؟"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0100",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "mā'\nqueue by na-am\talSSabāH by\tna-am quvva\tkitāb\nqueue\talSawt+qahva\tshaj'.",
+    "output": "ماء\nقُُِِ بِ نَعَم\tاَلصَّباح بِ\tنَعَم قُوَّ\tكِتاب\nقُُِِ\tاَلصَوْت+قَهوَ\tشَيْء.",
+    "roundTrip": "mā'\nquiui bi na-am\talSSabāH bi\tna-am quvva\tkitāb\nquiui\talSavt+qahva\tshaj'.",
+    "secondPass": "ماء\nقُُِِ بِ نَعَم\tاَلصَّباح بِ\tنَعَم قُوَّ\tكِتاب\nقُُِِ\tاَلصَوْت+قَهوَ\tشَيْء."
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0101",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "hello\n\nmy hello\n\nmy ilá\n\ncoffee? ilá\n\nwith/hello, satasma-? shāj, fī/su'āl\n\nwith? lajla, anā/su'āl — naHnu? coffee — naHnu fī — my? school — madrasat? fī — rubbamā",
+    "output": "هِلُّ\n\nمِ هِلُّ\n\nمِ إِلى\n\nكُفِّي؟ إِلى\n\nوِث/هِلُّ، سَتَسمَع؟ شايْ، فِي/سُؤال\n\nوِث؟ لَيْلَ، اَنا/سُؤال — نَحنُ؟ كُفِّي — نَحنُ فِي — مِ؟ ستجُول — مَدرَسة؟ فِي — رُبَّما",
+    "roundTrip": "hillu\n\nmi hillu\n\nmi ilá\n\nkuffī? ilá\n\nvith/hillu, satasma-? shāj, fī/su'āl\n\nvith? lajla, anā/su'āl — naHnu? kuffī — naHnu fī — mi? stJūl — madrasat? fī — rubbamā",
+    "secondPass": "هِلُّ\n\nمِ هِلُّ\n\nمِ إِلى\n\nكُفِّي؟ إِلى\n\nوِث/هِلُّ، سَتَسمَع؟ شايْ، فِي/سُؤال\n\nوِث؟ لَيْلَ، اَنا/سُؤال — نَحنُ؟ كُفِّي — نَحنُ فِي — مِ؟ ستجُول — مَدرَسة؟ فِي — رُبَّما"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0102",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "book\nqueue\tyellow+marHaba\tmā'+queue؛ queue city\talSawt\nyellow\talSawt\nqahva؛ min shaj'؛ book+marHaba -alá aN alSawt shaj' alSSabāH\nuN؛ mā' na-am city\nuN city+by\tshaj'+na-am\tmin+book؛ by na-am\talSawt.",
+    "output": "بُوك\nقُُِِ\tيِلُّوْ+مَرحَبَ\tماء+قُُِِ؛ قُُِِ سِتِ\tاَلصَوْت\nيِلُّوْ\tاَلصَوْت\nقَهوَ؛ مِن شَيْء؛ بُوك+مَرحَبَ عَلى ً اَلصَوْت شَيْء اَلصَّباح\nٌ؛ ماء نَعَم سِتِ\nٌ سِتِ+بِ\tشَيْء+نَعَم\tمِن+بُوك؛ بِ نَعَم\tاَلصَوْت.",
+    "roundTrip": "būk\nquiui\tjilluv+marHaba\tmā'+quiui; quiui siti\talSavt\njilluv\talSavt\nqahva; min shaj'; būk+marHaba -alá aN alSavt shaj' alSSabāH\nuN; mā' na-am siti\nuN siti+bi\tshaj'+na-am\tmin+būk; bi na-am\talSavt.",
+    "secondPass": "بُوك\nقُُِِ\tيِلُّوْ+مَرحَبَ\tماء+قُُِِ؛ قُُِِ سِتِ\tاَلصَوْت\nيِلُّوْ\tاَلصَوْت\nقَهوَ؛ مِن شَيْء؛ بُوك+مَرحَبَ عَلى ً اَلصَوْت شَيْء اَلصَّباح\nٌ؛ ماء نَعَم سِتِ\nٌ سِتِ+بِ\tشَيْء+نَعَم\tمِن+بُوك؛ بِ نَعَم\tاَلصَوْت."
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0103",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "my, madrasat coffee — iN satasma-\n\nschool/Hajj, shāj/shāj — havā'? rubbamā\n\nfī? ghadaN — ghadaN? hello — rubbamā/naHnu — fī? lā — anā/fī, with with, naHnu fī, with/coffee, coffee/with, ghadaN/fī — satasma- rubbamā\n\nsatasma- lā — madrasat? naHnu — school/rubbamā\n\nhavā'/ilá\n\nsu'āl lajla, madrasat.",
+    "output": "مِ، مَدرَسة كُفِّي — ٍ سَتَسمَع\n\nستجُول/حَيّ، شايْ/شايْ — هَوْاء؟ رُبَّما\n\nفِي؟ غَدً — غَدً؟ هِلُّ — رُبَّما/نَحنُ — فِي؟ لا — اَنا/فِي، وِث وِث، نَحنُ فِي، وِث/كُفِّي، كُفِّي/وِث، غَدً/فِي — سَتَسمَع رُبَّما\n\nسَتَسمَع لا — مَدرَسة؟ نَحنُ — ستجُول/رُبَّما\n\nهَوْاء/إِلى\n\nسُؤال لَيْلَ، مَدرَسة.",
+    "roundTrip": "mi, madrasat kuffī — iN satasma-\n\nstJūl/Hajj, shāj/shāj — havā'? rubbamā\n\nfī? ghadaN — ghadaN? hillu — rubbamā/naHnu — fī? lā — anā/fī, vith vith, naHnu fī, vith/kuffī, kuffī/vith, ghadaN/fī — satasma- rubbamā\n\nsatasma- lā — madrasat? naHnu — stJūl/rubbamā\n\nhavā'/'ilá\n\nsu'āl lajla, madrasat.",
+    "secondPass": "مِ، مَدرَسة كُفِّي — ٍ سَتَسمَع\n\nستجُول/حَيّ، شايْ/شايْ — هَوْاء؟ رُبَّما\n\nفِي؟ غَدً — غَدً؟ هِلُّ — رُبَّما/نَحنُ — فِي؟ لا — اَنا/فِي، وِث وِث، نَحنُ فِي، وِث/كُفِّي، كُفِّي/وِث، غَدً/فِي — سَتَسمَع رُبَّما\n\nسَتَسمَع لا — مَدرَسة؟ نَحنُ — ستجُول/رُبَّما\n\nهَوْاء/إِلى\n\nسُؤال لَيْلَ، مَدرَسة."
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0104",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "marHaba+book؛ by mā' aHmad+marHaba\tquvva+anta\tna-am+anta؛ kitāb+book qahva\nmarHaba qahva!",
+    "output": "مَرحَبَ+بُوك؛ بِ ماء اَحمَد+مَرحَبَ\tقُوَّ+اَنتَ\tنَعَم+اَنتَ؛ كِتاب+بُوك قَهوَ\nمَرحَبَ قَهوَ!",
+    "roundTrip": "marHaba+būk; bi mā' aHmad+marHaba\tquvva+anta\tna-am+anta; kitāb+būk qahva\nmarHaba qahva!",
+    "secondPass": "مَرحَبَ+بُوك؛ بِ ماء اَحمَد+مَرحَبَ\tقُوَّ+اَنتَ\tنَعَم+اَنتَ؛ كِتاب+بُوك قَهوَ\nمَرحَبَ قَهوَ!"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0105",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "ghadaN, fī? madrasat — satasma-/su'āl, lajla/ilá\n\nghadaN? Hajj, lā my\n\nrhythm hello, hello/ghadaN — Hajj ghadaN, Hajj? fī — fī/madrasat — naHnu with — havā' school\n\nHajj/lajla\n\nsu'āl/my — my with, iN.",
+    "output": "غَدً، فِي؟ مَدرَسة — سَتَسمَع/سُؤال، لَيْلَ/إِلى\n\nغَدً؟ حَيّ، لا مِ\n\nرهِثم هِلُّ، هِلُّ/غَدً — حَيّ غَدً، حَيّ؟ فِي — فِي/مَدرَسة — نَحنُ وِث — هَوْاء ستجُول\n\nحَيّ/لَيْلَ\n\nسُؤال/مِ — مِ وِث، ٍ.",
+    "roundTrip": "ghadaN, fī? madrasat — satasma-/su'āl, lajla/'ilá\n\nghadaN? Hajj, lā mi\n\nrhithm hillu, hillu/ghadaN — Hajj ghadaN, Hajj? fī — fī/madrasat — naHnu vith — havā' stJūl\n\nHajj/lajla\n\nsu'āl/mi — mi vith, iN.",
+    "secondPass": "غَدً، فِي؟ مَدرَسة — سَتَسمَع/سُؤال، لَيْلَ/إِلى\n\nغَدً؟ حَيّ، لا مِ\n\nرهِثم هِلُّ، هِلُّ/غَدً — حَيّ غَدً، حَيّ؟ فِي — فِي/مَدرَسة — نَحنُ وِث — هَوْاء ستجُول\n\nحَيّ/لَيْلَ\n\nسُؤال/مِ — مِ وِث، ٍ."
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0106",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "aHmad\nbook -alá+anta\tuN\nyellow alSawt mā'؛ yellow+alSawt kitāb marHaba\tshaj' kitāb aN\nby\talSawt+alSawt marHaba -alá quvva+na-am mā' aHmad\tuN\nalSawt\taHmad city\talSawt min\tqueue kitāb؛ kitāb by quvva\n",
+    "output": "اَحمَد\nبُوك عَلى+اَنتَ\tٌ\nيِلُّوْ اَلصَوْت ماء؛ يِلُّوْ+اَلصَوْت كِتاب مَرحَبَ\tشَيْء كِتاب ً\nبِ\tاَلصَوْت+اَلصَوْت مَرحَبَ عَلى قُوَّ+نَعَم ماء اَحمَد\tٌ\nاَلصَوْت\tاَحمَد سِتِ\tاَلصَوْت مِن\tقُُِِ كِتاب؛ كِتاب بِ قُوَّ\n",
+    "roundTrip": "aHmad\nbūk -alá+anta\tuN\njilluv alSavt mā'; jilluv+alSavt kitāb marHaba\tshaj' kitāb aN\nbi\talSavt+alSavt marHaba -alá quvva+na-am mā' aHmad\tuN\nalSavt\taHmad siti\talSavt min\tquiui kitāb; kitāb bi quvva\n",
+    "secondPass": "اَحمَد\nبُوك عَلى+اَنتَ\tٌ\nيِلُّوْ اَلصَوْت ماء؛ يِلُّوْ+اَلصَوْت كِتاب مَرحَبَ\tشَيْء كِتاب ً\nبِ\tاَلصَوْت+اَلصَوْت مَرحَبَ عَلى قُوَّ+نَعَم ماء اَحمَد\tٌ\nاَلصَوْت\tاَحمَد سِتِ\tاَلصَوْت مِن\tقُُِِ كِتاب؛ كِتاب بِ قُوَّ\n"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0107",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "havā', anā fī\n\nhavā' shāj, rhythm coffee — lā naHnu, satasma- naHnu\n\nHajj madrasat\n\nilá anā\n\nlā/with, hello? rhythm\n\nsatasma-",
+    "output": "هَوْاء، اَنا فِي\n\nهَوْاء شايْ، رهِثم كُفِّي — لا نَحنُ، سَتَسمَع نَحنُ\n\nحَيّ مَدرَسة\n\nإِلى اَنا\n\nلا/وِث، هِلُّ؟ رهِثم\n\nسَتَسمَع",
+    "roundTrip": "havā', anā fī\n\nhavā' shāj, rhithm kuffī — lā naHnu, satasma- naHnu\n\nHajj madrasat\n\nilá anā\n\nlā/vith, hillu? rhithm\n\nsatasma-",
+    "secondPass": "هَوْاء، اَنا فِي\n\nهَوْاء شايْ، رهِثم كُفِّي — لا نَحنُ، سَتَسمَع نَحنُ\n\nحَيّ مَدرَسة\n\nإِلى اَنا\n\nلا/وِث، هِلُّ؟ رهِثم\n\nسَتَسمَع"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0108",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "min\nquvva\t-alá\nworld؛ shaj'\naHmad\tuN+uN\tanta+kitāb\taHmad\nmā'\tyellow+queue marHaba!",
+    "output": "مِن\nقُوَّ\tعَلى\nوُرلد؛ شَيْء\nاَحمَد\tٌ+ٌ\tاَنتَ+كِتاب\tاَحمَد\nماء\tيِلُّوْ+قُُِِ مَرحَبَ!",
+    "roundTrip": "min\nquvva\t-alá\nvurld; shaj'\naHmad\tuN+uN\tanta+kitāb\taHmad\nmā'\tjilluv+quiui marHaba!",
+    "secondPass": "مِن\nقُوَّ\tعَلى\nوُرلد؛ شَيْء\nاَحمَد\tٌ+ٌ\tاَنتَ+كِتاب\tاَحمَد\nماء\tيِلُّوْ+قُُِِ مَرحَبَ!"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0109",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "with, anā/shāj — with? hello, fī/my — iN!",
+    "output": "وِث، اَنا/شايْ — وِث؟ هِلُّ، فِي/مِ — ٍ!",
+    "roundTrip": "vith, anā/shāj — vith? hillu, fī/mi — iN!",
+    "secondPass": "وِث، اَنا/شايْ — وِث؟ هِلُّ، فِي/مِ — ٍ!"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0110",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "na-am\nyellow\tbook\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+queue\tworld\nuN\tcity world\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb book؟",
+    "output": "نَعَم\nيِلُّوْ\tبُوك\nنَعَم؛ كِتاب\nكِتاب ً+قَهوَ؛ مَرحَبَ+قُُِِ\tوُرلد\nٌ\tسِتِ وُرلد\tٌ\nقَهوَ؛ شَيْء عَلى\tاَلصَّباح+نَعَم ً+عَلى ٌ+ً؛ شَيْء+عَلى؛ عَلى\nكِتاب بُوك؟",
+    "roundTrip": "na-am\njilluv\tbūk\nna-am; kitāb\nkitāb aN+qahva; marHaba+quiui\tvurld\nuN\tsiti vurld\tuN\nqahva; shaj' -alá\talSSabāH+na-am aN+-alá uN+aN; shaj'+-alá; -alá\nkitāb būk?",
+    "secondPass": "نَعَم\nيِلُّوْ\tبُوك\nنَعَم؛ كِتاب\nكِتاب ً+قَهوَ؛ مَرحَبَ+قُُِِ\tوُرلد\nٌ\tسِتِ وُرلد\tٌ\nقَهوَ؛ شَيْء عَلى\tاَلصَّباح+نَعَم ً+عَلى ٌ+ً؛ شَيْء+عَلى؛ عَلى\nكِتاب بُوك؟"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0111",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "my, anā? lā, rhythm ghadaN — Hajj/rubbamā, coffee madrasat, iN",
+    "output": "مِ، اَنا؟ لا، رهِثم غَدً — حَيّ/رُبَّما، كُفِّي مَدرَسة، ٍ",
+    "roundTrip": "mi, anā? lā, rhithm ghadaN — Hajj/rubbamā, kuffī madrasat, iN",
+    "secondPass": "مِ، اَنا؟ لا، رهِثم غَدً — حَيّ/رُبَّما، كُفِّي مَدرَسة، ٍ"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0112",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "queue\nqueue by world yellow\nmā' quvva\nalSSabāH؛ na-am\nanta\tqueue+aHmad؛ qahva+na-am؛ shaj' yellow qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ by queue؛ queue+qahva؛ city+book؛ min shaj'؛ yellow!",
+    "output": "قُُِِ\nقُُِِ بِ وُرلد يِلُّوْ\nماء قُوَّ\nاَلصَّباح؛ نَعَم\nاَنتَ\tقُُِِ+اَحمَد؛ قَهوَ+نَعَم؛ شَيْء يِلُّوْ قَهوَ\nعَلى كِتاب عَلى؛ مِن+مَرحَبَ اَحمَد+قَهوَ\tعَلى+قَهوَ مَرحَبَ+ٌ؛ بِ قُُِِ؛ قُُِِ+قَهوَ؛ سِتِ+بُوك؛ مِن شَيْء؛ يِلُّوْ!",
+    "roundTrip": "quiui\nquiui bi vurld jilluv\nmā' quvva\nalSSabāH; na-am\nanta\tquiui+aHmad; qahva+na-am; shaj' jilluv qahva\n-alá kitāb -alá; min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN; bi quiui; quiui+qahva; siti+būk; min shaj'; jilluv!",
+    "secondPass": "قُُِِ\nقُُِِ بِ وُرلد يِلُّوْ\nماء قُوَّ\nاَلصَّباح؛ نَعَم\nاَنتَ\tقُُِِ+اَحمَد؛ قَهوَ+نَعَم؛ شَيْء يِلُّوْ قَهوَ\nعَلى كِتاب عَلى؛ مِن+مَرحَبَ اَحمَد+قَهوَ\tعَلى+قَهوَ مَرحَبَ+ٌ؛ بِ قُُِِ؛ قُُِِ+قَهوَ؛ سِتِ+بُوك؛ مِن شَيْء؛ يِلُّوْ!"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0113",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhythm — naHnu/lajla — havā'? rhythm — anā fī\n\nshāj/coffee — madrasat? naHnu — school/ilá, Hajj shāj\n\nsatasma-/school\n\niN? su'āl\n\nHajj؟",
+    "output": "حَيّ — نَحنُ/لا\n\nحَيّ/لا — إِلى/ٍ — رُبَّما/رهِثم — نَحنُ/لَيْلَ — هَوْاء؟ رهِثم — اَنا فِي\n\nشايْ/كُفِّي — مَدرَسة؟ نَحنُ — ستجُول/إِلى، حَيّ شايْ\n\nسَتَسمَع/ستجُول\n\nٍ؟ سُؤال\n\nحَيّ؟",
+    "roundTrip": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhithm — naHnu/lajla — havā'? rhithm — anā fī\n\nshāj/kuffī — madrasat? naHnu — stJūl/'ilá, Hajj shāj\n\nsatasma-/stJūl\n\niN? su'āl\n\nHajj?",
+    "secondPass": "حَيّ — نَحنُ/لا\n\nحَيّ/لا — إِلى/ٍ — رُبَّما/رهِثم — نَحنُ/لَيْلَ — هَوْاء؟ رهِثم — اَنا فِي\n\nشايْ/كُفِّي — مَدرَسة؟ نَحنُ — ستجُول/إِلى، حَيّ شايْ\n\nسَتَسمَع/ستجُول\n\nٍ؟ سُؤال\n\nحَيّ؟"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0114",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+by\tby shaj' kitāb+queue؛ kitāb\nquvva؛ city quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ by aHmad\tbook\nqueue shaj'+alSSabāH\tkitāb؟",
+    "output": "كِتاب كِتاب\tاَحمَد\nاَنتَ؛ شَيْء ٌ قَهوَ اَلصَّباح مَرحَبَ\nٌ ٌ مَرحَبَ؛ قُوَّ+بِ\tبِ شَيْء كِتاب+قُُِِ؛ كِتاب\nقُوَّ؛ سِتِ قُوَّ؛ مِن\nً؛ عَلى مَرحَبَ؛ كِتاب\nنَعَم؛ مِن\nمَرحَبَ؛ بِ اَحمَد\tبُوك\nقُُِِ شَيْء+اَلصَّباح\tكِتاب؟",
+    "roundTrip": "kitāb kitāb\taHmad\nanta; shaj' uN qahva alSSabāH marHaba\nuN uN marHaba; quvva+bi\tbi shaj' kitāb+quiui; kitāb\nquvva; siti quvva; min\naN; -alá marHaba; kitāb\nna-am; min\nmarHaba; bi aHmad\tbūk\nquiui shaj'+alSSabāH\tkitāb?",
+    "secondPass": "كِتاب كِتاب\tاَحمَد\nاَنتَ؛ شَيْء ٌ قَهوَ اَلصَّباح مَرحَبَ\nٌ ٌ مَرحَبَ؛ قُوَّ+بِ\tبِ شَيْء كِتاب+قُُِِ؛ كِتاب\nقُوَّ؛ سِتِ قُوَّ؛ مِن\nً؛ عَلى مَرحَبَ؛ كِتاب\nنَعَم؛ مِن\nمَرحَبَ؛ بِ اَحمَد\tبُوك\nقُُِِ شَيْء+اَلصَّباح\tكِتاب؟"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0115",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "school — coffee/my\n\nlajla with\n\nfī/madrasat, school.",
+    "output": "ستجُول — كُفِّي/مِ\n\nلَيْلَ وِث\n\nفِي/مَدرَسة، ستجُول.",
+    "roundTrip": "stJūl — kuffī/mi\n\nlajla vith\n\nfī/madrasat, stJūl.",
+    "secondPass": "ستجُول — كُفِّي/مِ\n\nلَيْلَ وِث\n\nفِي/مَدرَسة، ستجُول."
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0116",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "yellow+shaj'؛ yellow by؛ queue!",
+    "output": "يِلُّوْ+شَيْء؛ يِلُّوْ بِ؛ قُُِِ!",
+    "roundTrip": "jilluv+shaj'; jilluv bi; quiui!",
+    "secondPass": "يِلُّوْ+شَيْء؛ يِلُّوْ بِ؛ قُُِِ!"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0117",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "Hajj — lajla Hajj — coffee/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhythm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhythm, ghadaN/school — ilá/havā' — lajla? lā, my/hello, school/hello\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n",
+    "output": "حَيّ — لَيْلَ حَيّ — كُفِّي/اَنا، لَيْلَ؟ غَدً، سَتَسمَع سَتَسمَع — غَدً/نَحنُ\n\nغَدً/رهِثم، شايْ/حَيّ، ٍ؟ سَتَسمَع\n\nسُؤال سُؤال — مَدرَسة رُبَّما\n\nسُؤال غَدً\n\nسَتَسمَع لَيْلَ — لَيْلَ؟ رهِثم، غَدً/ستجُول — إِلى/هَوْاء — لَيْلَ؟ لا، مِ/هِلُّ، ستجُول/هِلُّ\n\nشايْ لا، غَدً/حَيّ، وِث اَنا\n\nنَحنُ\n",
+    "roundTrip": "Hajj — lajla Hajj — kuffī/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhithm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhithm, ghadaN/stJūl — ilá/havā' — lajla? lā, mi/hillu, stJūl/hillu\n\nshāj lā, ghadaN/Hajj, vith anā\n\nnaHnu\n",
+    "secondPass": "حَيّ — لَيْلَ حَيّ — كُفِّي/اَنا، لَيْلَ؟ غَدً، سَتَسمَع سَتَسمَع — غَدً/نَحنُ\n\nغَدً/رهِثم، شايْ/حَيّ، ٍ؟ سَتَسمَع\n\nسُؤال سُؤال — مَدرَسة رُبَّما\n\nسُؤال غَدً\n\nسَتَسمَع لَيْلَ — لَيْلَ؟ رهِثم، غَدً/ستجُول — إِلى/هَوْاء — لَيْلَ؟ لا، مِ/هِلُّ، ستجُول/هِلُّ\n\nشايْ لا، غَدً/حَيّ، وِث اَنا\n\nنَحنُ\n"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0118",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "na-am\nna-am؛ uN\nna-am\tmā' queue؛ alSSabāH+marHaba world\nalSawt\tby+na-am\tshaj' alSSabāH book\nbook\tcity\nqueue؛ alSawt+yellow quvva+by؛ quvva\nna-am\tworld\ncity؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+by\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nby؛ uN؟",
+    "output": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباح+مَرحَبَ وُرلد\nاَلصَوْت\tبِ+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِ\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِ؛ قُوَّ\nنَعَم\tوُرلد\nسِتِ؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِ\tشَيْء+ماء؛ كِتاب+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِ؛ ٌ؟",
+    "roundTrip": "na-am\nna-am; uN\nna-am\tmā' quiui; alSSabāH+marHaba vurld\nalSavt\tbi+na-am\tshaj' alSSabāH būk\nbūk\tsiti\nquiui; alSavt+jilluv quvva+bi; quvva\nna-am\tvurld\nsiti; alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bi\tshaj'+mā'; kitāb+-alá quvva min\tanta shaj'\tanta\nbi; uN?",
+    "secondPass": "نَعَم\nنَعَم؛ ٌ\nنَعَم\tماء قُُِِ؛ اَلصَّباح+مَرحَبَ وُرلد\nاَلصَوْت\tبِ+نَعَم\tشَيْء اَلصَّباح بُوك\nبُوك\tسِتِ\nقُُِِ؛ اَلصَوْت+يِلُّوْ قُوَّ+بِ؛ قُوَّ\nنَعَم\tوُرلد\nسِتِ؛ اَلصَّباح مِن\tمَرحَبَ قَهوَ شَيْء\nً\tماء+بِ\tشَيْء+ماء؛ كِتاب+عَلى قُوَّ مِن\tاَنتَ شَيْء\tاَنتَ\nبِ؛ ٌ؟"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0119",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "coffee, hello? rubbamā\n\nrubbamā? shāj, lā? ghadaN, coffee/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? my, rubbamā hello — with/su'āl, coffee? school\n\nwith lajla, ghadaN/satasma-, fī? iN, hello\n",
+    "output": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سَتَسمَع؟ رُبَّما، ٍ؟ مِ، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سَتَسمَع، فِي؟ ٍ، هِلُّ\n",
+    "roundTrip": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mi, rubbamā hillu — vith/su'āl, kuffī? stJūl\n\nvith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+    "secondPass": "كُفِّي، هِلُّ؟ رُبَّما\n\nرُبَّما؟ شايْ، لا؟ غَدً، كُفِّي/اَنا — نَحنُ؟ سُؤال، حَيّ/شايْ — سَتَسمَع؟ رُبَّما، ٍ؟ مِ، رُبَّما هِلُّ — وِث/سُؤال، كُفِّي؟ ستجُول\n\nوِث لَيْلَ، غَدً/سَتَسمَع، فِي؟ ٍ، هِلُّ\n"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/en2ar/0120",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "en2ar",
+    "input": "na-am+anta shaj' aHmad؛ yellow uN؛ book+aN\tanta+queue\tqahva by qahva+anta aN\nmā' aN\nshaj'\tcity\nkitāb yellow\nby\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "output": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِ قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِ\nكِتاب يِلُّوْ\nبِ\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ.",
+    "roundTrip": "na-am+anta shaj' aHmad; jilluv uN; būk+aN\tanta+quiui\tqahva bi qahva+anta aN\nmā' aN\nshaj'\tsiti\nkitāb jilluv\nbi\tmin\nalSavt\taHmad anta; -alá kitāb; min\naHmad anta.",
+    "secondPass": "نَعَم+اَنتَ شَيْء اَحمَد؛ يِلُّوْ ٌ؛ بُوك+ً\tاَنتَ+قُُِِ\tقَهوَ بِ قَهوَ+اَنتَ ً\nماء ً\nشَيْء\tسِتِ\nكِتاب يِلُّوْ\nبِ\tمِن\nاَلصَوْت\tاَحمَد اَنتَ؛ عَلى كِتاب؛ مِن\nاَحمَد اَنتَ."
+  }
+]

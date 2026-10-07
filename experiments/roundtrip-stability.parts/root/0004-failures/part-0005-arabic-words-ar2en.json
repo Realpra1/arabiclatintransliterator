@@ -1,0 +1,71 @@
+[
+  {
+    "id": "arabic-words/ar2en/0038",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أمر",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أمر",
+      "L1": "'amr",
+      "A2": "أَمر",
+      "L2": "amr",
+      "A3": "اَمر",
+      "L3": "amr"
+    }
+  },
+  {
+    "id": "arabic-words/ar2en/0046",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "هَٰذَا",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هَٰذَا",
+      "L1": "haādhā",
+      "A2": "هَاذا",
+      "L2": "hādhā",
+      "A3": "هاذا",
+      "L3": "hādhā"
+    }
+  },
+  {
+    "id": "arabic-words/ar2en/0047",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "الرَّحْمَٰن",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "الرَّحْمَٰن",
+      "L1": "alrraHmaān",
+      "A2": "اَلرَّحمَان",
+      "L2": "alrraHmān",
+      "A3": "اَلرَّحمان",
+      "L3": "alrraHmān"
+    }
+  },
+  {
+    "id": "arabic-words/ar2en/0050",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أ إ ؤ ئ ء",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أ إ ؤ ئ ء",
+      "L1": "'a 'i ' ' '",
+      "A2": "أَ إِ أ أ أ",
+      "L2": "a i 'a 'a 'a",
+      "A3": "اَ إِ أَ أَ أَ",
+      "L3": "a i a a a"
+    }
+  }
+]

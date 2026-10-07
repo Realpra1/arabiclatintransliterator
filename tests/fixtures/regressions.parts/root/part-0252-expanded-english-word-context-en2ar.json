@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0001",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "City",
+    "output": "سِتِ",
+    "roundTrip": "siti",
+    "secondPass": "سِتِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0002",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "CITY",
+    "output": "سِطِ",
+    "roundTrip": "siTi",
+    "secondPass": "سِطِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0003",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city.",
+    "output": "سِتِ.",
+    "roundTrip": "siti.",
+    "secondPass": "سِتِ."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0004",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city?",
+    "output": "سِتِ؟",
+    "roundTrip": "siti?",
+    "secondPass": "سِتِ؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0005",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(city)",
+    "output": "(سِتِ)",
+    "roundTrip": "(siti)",
+    "secondPass": "(سِتِ)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0006",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a city",
+    "output": "اَ سِتِ",
+    "roundTrip": "a siti",
+    "secondPass": "اَ سِتِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0007",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the city",
+    "output": "ثِ سِتِ",
+    "roundTrip": "thi siti",
+    "secondPass": "ثِ سِتِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0008",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city\ncity",
+    "output": "سِتِ\nسِتِ",
+    "roundTrip": "siti\nsiti",
+    "secondPass": "سِتِ\nسِتِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0009",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Xylophone",
+    "output": "سِلُفُنِ",
+    "roundTrip": "silufuni",
+    "secondPass": "سِلُفُنِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0010",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "XYLOPHONE",
+    "output": "سِلُبحٌِ",
+    "roundTrip": "silubHuNi",
+    "secondPass": "سِلُبحٌِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0011",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone.",
+    "output": "سِلُفُنِ.",
+    "roundTrip": "silufuni.",
+    "secondPass": "سِلُفُنِ."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0012",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone?",
+    "output": "سِلُفُنِ؟",
+    "roundTrip": "silufuni?",
+    "secondPass": "سِلُفُنِ؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0013",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(xylophone)",
+    "output": "(سِلُفُنِ)",
+    "roundTrip": "(silufuni)",
+    "secondPass": "(سِلُفُنِ)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0014",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a xylophone",
+    "output": "اَ سِلُفُنِ",
+    "roundTrip": "a silufuni",
+    "secondPass": "اَ سِلُفُنِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0015",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the xylophone",
+    "output": "ثِ سِلُفُنِ",
+    "roundTrip": "thi silufuni",
+    "secondPass": "ثِ سِلُفُنِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0016",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "xylophone\nxylophone",
+    "output": "سِلُفُنِ\nسِلُفُنِ",
+    "roundTrip": "silufuni\nsilufuni",
+    "secondPass": "سِلُفُنِ\nسِلُفُنِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0017",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Cat",
+    "output": "كة",
+    "roundTrip": "kat",
+    "secondPass": "كة"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0018",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "CAT",
+    "output": "كَط",
+    "roundTrip": "kaT",
+    "secondPass": "كَط"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0019",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cat.",
+    "output": "كة.",
+    "roundTrip": "kat.",
+    "secondPass": "كة."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0020",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cat?",
+    "output": "كة؟",
+    "roundTrip": "kat?",
+    "secondPass": "كة؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0021",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(cat)",
+    "output": "(كة)",
+    "roundTrip": "(kat)",
+    "secondPass": "(كة)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0022",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a cat",
+    "output": "اَ كة",
+    "roundTrip": "a kat",
+    "secondPass": "اَ كة"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0023",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the cat",
+    "output": "ثِ كة",
+    "roundTrip": "thi kat",
+    "secondPass": "ثِ كة"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0024",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cat\ncat",
+    "output": "كة\nكة",
+    "roundTrip": "kat\nkat",
+    "secondPass": "كة\nكة"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0025",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Cancer",
+    "output": "كَنسِر",
+    "roundTrip": "kansir",
+    "secondPass": "كَنسِر"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0026",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "CANCER",
+    "output": "كًسِر",
+    "roundTrip": "kaNsir",
+    "secondPass": "كًسِر"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0027",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cancer.",
+    "output": "كَنسِر.",
+    "roundTrip": "kansir.",
+    "secondPass": "كَنسِر."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0028",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cancer?",
+    "output": "كَنسِر؟",
+    "roundTrip": "kansir?",
+    "secondPass": "كَنسِر؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0029",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(cancer)",
+    "output": "(كَنسِر)",
+    "roundTrip": "(kansir)",
+    "secondPass": "(كَنسِر)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0030",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a cancer",
+    "output": "اَ كَنسِر",
+    "roundTrip": "a kansir",
+    "secondPass": "اَ كَنسِر"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0031",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the cancer",
+    "output": "ثِ كَنسِر",
+    "roundTrip": "thi kansir",
+    "secondPass": "ثِ كَنسِر"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0032",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cancer\ncancer",
+    "output": "كَنسِر\nكَنسِر",
+    "roundTrip": "kansir\nkansir",
+    "secondPass": "كَنسِر\nكَنسِر"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0033",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "School",
+    "output": "صتجُول",
+    "roundTrip": "StJūl",
+    "secondPass": "صتجُول"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0034",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "SCHOOL",
+    "output": "صكحُول",
+    "roundTrip": "SkHūl",
+    "secondPass": "صكحُول"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0035",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "school.",
+    "output": "ستجُول.",
+    "roundTrip": "stJūl.",
+    "secondPass": "ستجُول."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0036",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "school?",
+    "output": "ستجُول؟",
+    "roundTrip": "stJūl?",
+    "secondPass": "ستجُول؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0037",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(school)",
+    "output": "(ستجُول)",
+    "roundTrip": "(stJūl)",
+    "secondPass": "(ستجُول)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0038",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a school",
+    "output": "اَ ستجُول",
+    "roundTrip": "a stJūl",
+    "secondPass": "اَ ستجُول"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0039",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the school",
+    "output": "ثِ ستجُول",
+    "roundTrip": "thi stJūl",
+    "secondPass": "ثِ ستجُول"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0040",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "school\nschool",
+    "output": "ستجُول\nستجُول",
+    "roundTrip": "stJūl\nstJūl",
+    "secondPass": "ستجُول\nستجُول"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0041",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "Cycle",
+    "output": "سِكلِ",
+    "roundTrip": "sikli",
+    "secondPass": "سِكلِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0042",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "CYCLE",
+    "output": "سِكلِ",
+    "roundTrip": "sikli",
+    "secondPass": "سِكلِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0043",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle.",
+    "output": "سِكلِ.",
+    "roundTrip": "sikli.",
+    "secondPass": "سِكلِ."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0044",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle?",
+    "output": "سِكلِ؟",
+    "roundTrip": "sikli?",
+    "secondPass": "سِكلِ؟"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0045",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(cycle)",
+    "output": "(سِكلِ)",
+    "roundTrip": "(sikli)",
+    "secondPass": "(سِكلِ)"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0046",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a cycle",
+    "output": "اَ سِكلِ",
+    "roundTrip": "a sikli",
+    "secondPass": "اَ سِكلِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0047",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the cycle",
+    "output": "ثِ سِكلِ",
+    "roundTrip": "thi sikli",
+    "secondPass": "ثِ سِكلِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0048",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle\ncycle",
+    "output": "سِكلِ\nسِكلِ",
+    "roundTrip": "sikli\nsikli",
+    "secondPass": "سِكلِ\nسِكلِ"
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0049",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city xylophone cat cancer school cycle",
+    "output": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ",
+    "roundTrip": "siti silufuni kat kansir stJūl sikli",
+    "secondPass": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ"
+  }
+]

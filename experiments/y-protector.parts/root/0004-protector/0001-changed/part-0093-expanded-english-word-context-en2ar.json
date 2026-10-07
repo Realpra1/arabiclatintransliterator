@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0037",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(school)",
+    "output": "(ستجُول)",
+    "roundTrip": "(stJūl)",
+    "secondPass": "(ستجُوl)",
+    "before": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُوl)"
+    },
+    "after": {
+      "output": "(ستجُول)",
+      "roundTrip": "(stJūl)",
+      "secondPass": "(ستجُول)"
+    },
+    "stages": [
+      "secondPass"
+    ]
+  }
+]

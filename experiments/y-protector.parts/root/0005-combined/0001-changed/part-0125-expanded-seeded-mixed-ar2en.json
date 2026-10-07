@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0052",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? ",
+    "output": "١٢, E=mc^2/yellow, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, coffee school, by/n-m\n\nhdhh? ",
+    "roundTrip": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/nعم\n\nهذه؟ ",
+    "secondPass": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bī/n-m\n\nhdhh? ",
+    "before": {
+      "output": "١٢, E=mc^2/yellow, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, coffee school, by/n-m\n\nhdhh? ",
+      "roundTrip": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِي/nعم\n\nهذه؟ ",
+      "secondPass": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bī/n-m\n\nhdhh? "
+    },
+    "after": {
+      "output": "١٢, E=mc^2/yellow, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, coffee school, by/n-m\n\nhdhh? ",
+      "roundTrip": "١٢، E=مك^2/يِلُّوْ، ‍؟ من\n\nهَوْاء/ألى\n\nٌ نَحنُ — ١٢؟ 42 — إِلى؟ عَلى\n\nحَيّ مَدرَسة، كُفِّي ستجُول، بِ/nعم\n\nهذه؟ ",
+      "secondPass": "١٢, E=mk^2/jilluv, ‍? mn\n\nhavā'/'lá\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nHajj madrasat, kuffī stJūl, bi/n-m\n\nhdhh? "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

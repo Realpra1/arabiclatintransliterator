@@ -1,0 +1,92 @@
+[
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0034",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "('i)",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "('i)",
+      "A1": "(أi)",
+      "L2": "('ai)",
+      "A2": "(أَِ)",
+      "L3": "(ai)",
+      "A3": "(اَِ)"
+    }
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0035",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "['i]",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "['i]",
+      "A1": "[أi]",
+      "L2": "['ai]",
+      "A2": "[أَِ]",
+      "L3": "[ai]",
+      "A3": "[اَِ]"
+    }
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0036",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "«'i»",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "«'i»",
+      "A1": "«أi»",
+      "L2": "«'ai»",
+      "A2": "«أَِ»",
+      "L3": "«ai»",
+      "A3": "«اَِ»"
+    }
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0037",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "\"'i\"",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "\"'i\"",
+      "A1": "\"أi\"",
+      "L2": "\"'ai\"",
+      "A2": "\"أَِ\"",
+      "L3": "\"ai\"",
+      "A3": "\"اَِ\""
+    }
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0073",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a،'ā؛b",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "a،'ā؛b",
+      "A1": "اَ،أا؛ب",
+      "L2": "a,'aā;b",
+      "A2": "اَ،أَا؛ب",
+      "L3": "a,ā;b",
+      "A3": "اَ،ا؛ب"
+    }
+  }
+]

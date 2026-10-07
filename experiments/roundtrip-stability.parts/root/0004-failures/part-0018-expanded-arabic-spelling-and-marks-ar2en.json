@@ -1,0 +1,54 @@
+[
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0010",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "وعد وُعد وْعد ووعد وّعد",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "وعد وُعد وْعد ووعد وّعد",
+      "L1": "v-d vu-d v-d vū-d vv-d",
+      "A2": "وْعد وُعد وْعد وُوعد وّعد",
+      "L2": "v-d vu-d v-d ūū-d vv-d",
+      "A3": "وْعد وُعد وْعد ُوُوعد وّعد",
+      "L3": "v-d vu-d v-d ūū-d vv-d"
+    }
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0015",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "بَـّ بّـَ بُـو بِـي بَـا",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "بَـّ بّـَ بُـو بِـي بَـا",
+      "L1": "bab bba buv bij baā",
+      "A2": "بَب بَّ بُوْ بِيْ بَا",
+      "L2": "bab bba buv bij bā",
+      "A3": "بَب بَّ بُوْ بِيْ با",
+      "L3": "bab bba buv bij bā"
+    }
+  },
+  {
+    "id": "expanded-arabic-spelling-and-marks/ar2en/0017",
+    "group": "expanded-arabic-spelling-and-marks",
+    "direction": "ar2en",
+    "input": "أ إ آ أ إ آ ؤ ؤ ئ ئ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أ إ آ أ إ آ ؤ ؤ ئ ئ",
+      "L1": "'a 'i 'ā āٔ āٕ āٓ ' vٔ ' īٔ",
+      "A2": "أَ إِ آ أ إ آ أ ؤْ أ ِئ",
+      "L2": "a i 'ā āٔ āٕ āٓ 'a vٔ 'a īٔ",
+      "A3": "اَ إِ آ أ إ آ أَ ؤْ أَ ِئ",
+      "L3": "a i 'ā āٔ āٕ āٓ a vٔ a īٔ"
+    }
+  }
+]

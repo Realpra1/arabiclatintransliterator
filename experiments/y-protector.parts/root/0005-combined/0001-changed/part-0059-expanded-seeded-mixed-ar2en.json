@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0012",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yellow? quvva, lā? satasma- — هي قُوَّة, نعم? rhythm — نحن ",
+    "output": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — yellow? quvva, lā? satasma- — hī quvvāt, n-m? rhythm — nHn ",
+    "roundTrip": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِيثم — نحن ",
+    "secondPass": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhīthm — nHn ",
+    "before": {
+      "output": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — yellow? quvva, lā? satasma- — hī quvvāt, n-m? rhythm — nHn ",
+      "roundTrip": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِيثم — نحن ",
+      "secondPass": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhīthm — nHn "
+    },
+    "after": {
+      "output": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — yellow? quvva, lā? satasma- — hī quvvāt, n-m? rhythm — nHn ",
+      "roundTrip": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِثم — نحن ",
+      "secondPass": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhithm — nHn "
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

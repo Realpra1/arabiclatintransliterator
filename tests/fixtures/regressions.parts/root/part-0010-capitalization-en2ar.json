@@ -1,0 +1,83 @@
+[
+  {
+    "id": "capitalization/en2ar/0050",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "x",
+    "output": "إِكس",
+    "roundTrip": "iks",
+    "secondPass": "إِكس"
+  },
+  {
+    "id": "capitalization/en2ar/0051",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "y",
+    "output": "يْ",
+    "roundTrip": "j",
+    "secondPass": "يْ"
+  },
+  {
+    "id": "capitalization/en2ar/0052",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "z",
+    "output": "ز",
+    "roundTrip": "z",
+    "secondPass": "ز"
+  },
+  {
+    "id": "capitalization/en2ar/0053",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "Hello World",
+    "output": "حِلُّ وُرلد",
+    "roundTrip": "Hillu vurld",
+    "secondPass": "حِلُّ وُرلد"
+  },
+  {
+    "id": "capitalization/en2ar/0054",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "HELLO WORLD",
+    "output": "حِلُّ وُرلض",
+    "roundTrip": "Hillu vurlD",
+    "secondPass": "حِلُّ وُرلض"
+  },
+  {
+    "id": "capitalization/en2ar/0055",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "H S D T Z J N",
+    "output": "ح ص ض ط ظ ج N",
+    "roundTrip": "H S D T Z J N",
+    "secondPass": "ح ص ض ط ظ ج N"
+  },
+  {
+    "id": "capitalization/en2ar/0056",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "h s d t z j n",
+    "output": "ه س د ت ز يْ ن",
+    "roundTrip": "h s d t z j n",
+    "secondPass": "ه س د ت ز يْ ن"
+  },
+  {
+    "id": "capitalization/en2ar/0057",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "aN iN uN AN IN UN",
+    "output": "ً ٍ ٌ ً ٍ ٌ",
+    "roundTrip": "aN iN uN aN iN uN",
+    "secondPass": "ً ٍ ٌ ً ٍ ٌ"
+  },
+  {
+    "id": "capitalization/en2ar/0058",
+    "group": "capitalization",
+    "direction": "en2ar",
+    "input": "Arabic ARABIC arabic",
+    "output": "اَرَبِس اَرَبِس اَرَبِس",
+    "roundTrip": "arabis arabis arabis",
+    "secondPass": "اَرَبِس اَرَبِس اَرَبِس"
+  }
+]

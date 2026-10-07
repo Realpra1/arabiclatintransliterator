@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0018",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+      "L1": "hū, world/world\n\nlīlá min\n\nktāb shaj'\n\nilá book — lkn/uN\n\nshāj/nāfdhat, by 'ant, shaj'/Sūt\n\nghadaN/iN, world ",
+      "A2": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشايْ/نافذة، بِ أَنت، شَيْء/صُوت\n\nغَدً/ٍ، وُرلد ",
+      "L2": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bi ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+      "A3": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشايْ/نافذة، بِ اَنت، شَيْء/صُوت\n\nغَدً/ٍ، وُرلد ",
+      "L3": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bi ant, shaj'/Sūt\n\nghadaN/iN, vurld "
+    }
+  }
+]

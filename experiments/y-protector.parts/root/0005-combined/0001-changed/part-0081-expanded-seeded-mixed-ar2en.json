@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0025",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? queue\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/",
+    "output": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? queue\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSawt/shaj', lajla/hdhh\n\n'ant/",
+    "roundTrip": "هوْاء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/fِي، قهُوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/lأن — ‍/lِيلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nأَنت/",
+    "secondPass": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? quiui\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSavt/shaj', lajla/hdhh\n\nant/",
+    "before": {
+      "output": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? queue\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSawt/shaj', lajla/hdhh\n\n'ant/",
+      "roundTrip": "هوْاء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/fِي، قهُوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/lأن — ‍/lِيلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nأَنت/",
+      "secondPass": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? quiui\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSavt/shaj', lajla/hdhh\n\nant/"
+    },
+    "after": {
+      "output": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? queue\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSawt/shaj', lajla/hdhh\n\n'ant/",
+      "roundTrip": "هوْاء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/فِي، قهُوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/lأن — ‍/لِيلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nأَنت/",
+      "secondPass": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? quiui\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSavt/shaj', lajla/hdhh\n\nant/"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0018",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+    "output": "هو، وُرلد/وُرلد\n\nليلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاي/نافذة، بِي أنت، شَيْء/صوت\n\nغَدً/ٍ، وُرلد ",
+    "roundTrip": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bī 'ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+    "secondPass": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِي أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد ",
+    "before": {
+      "output": "هو، وُرلد/وُرلد\n\nليلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاي/نافذة، بِي أنت، شَيْء/صوت\n\nغَدً/ٍ، وُرلد ",
+      "roundTrip": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bī 'ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+      "secondPass": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِي أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد "
+    },
+    "after": {
+      "output": "هو، وُرلد/وُرلد\n\nليلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاي/نافذة، بِ أنت، شَيْء/صوت\n\nغَدً/ٍ، وُرلد ",
+      "roundTrip": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bi 'ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+      "secondPass": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِ أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد "
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

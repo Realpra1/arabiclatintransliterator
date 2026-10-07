@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-mixed-script/ar2en/0005",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "email: علي@example.com / https://مثال.اختبار/path?q=ماء",
+    "output": "email: -lī@example.com / https://mthāl.ākhtbār/path?q=mā'",
+    "roundTrip": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختباr/بةه؟q=mاء",
+    "secondPass": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'",
+    "before": {
+      "output": "email: -lī@example.com / https://mthāl.ākhtbār/path?q=mā'",
+      "roundTrip": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختباr/بةه؟q=mاء",
+      "secondPass": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'"
+    },
+    "after": {
+      "output": "email: -lī@example.com / https://mthāl.ākhtbār/path?q=mā'",
+      "roundTrip": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بةه؟q=ماء",
+      "secondPass": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

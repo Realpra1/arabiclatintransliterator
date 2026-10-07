@@ -1,0 +1,439 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0078",
+    "direction": "en2ar",
+    "input": "xylitol",
+    "changes": {
+      "output": {
+        "before": "سِيلِتُل",
+        "after": "سِلِتُل"
+      },
+      "roundTrip": {
+        "before": "sīlitul",
+        "after": "silitul"
+      },
+      "secondPass": {
+        "before": "سِيلِتُل",
+        "after": "سِلِتُل"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0094",
+    "direction": "en2ar",
+    "input": "oxygen",
+    "changes": {
+      "output": {
+        "before": "أُكسِيجِن",
+        "after": "أُكسِجِن"
+      },
+      "roundTrip": {
+        "before": "uksīJin",
+        "after": "uksiJin"
+      },
+      "secondPass": {
+        "before": "أُكسِيجِن",
+        "after": "أُكسِجِن"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0109",
+    "direction": "en2ar",
+    "input": "my",
+    "changes": {
+      "output": {
+        "before": "مِي",
+        "after": "مِ"
+      },
+      "roundTrip": {
+        "before": "mī",
+        "after": "mi"
+      },
+      "secondPass": {
+        "before": "مِي",
+        "after": "مِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0110",
+    "direction": "en2ar",
+    "input": "by",
+    "changes": {
+      "output": {
+        "before": "بِي",
+        "after": "بِ"
+      },
+      "roundTrip": {
+        "before": "bī",
+        "after": "bi"
+      },
+      "secondPass": {
+        "before": "بِي",
+        "after": "بِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0111",
+    "direction": "en2ar",
+    "input": "sky",
+    "changes": {
+      "output": {
+        "before": "سكِي",
+        "after": "سكِ"
+      },
+      "roundTrip": {
+        "before": "skī",
+        "after": "ski"
+      },
+      "secondPass": {
+        "before": "سكِي",
+        "after": "سكِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0112",
+    "direction": "en2ar",
+    "input": "try",
+    "changes": {
+      "output": {
+        "before": "ترِي",
+        "after": "ترِ"
+      },
+      "roundTrip": {
+        "before": "trī",
+        "after": "tri"
+      },
+      "secondPass": {
+        "before": "ترِي",
+        "after": "ترِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0113",
+    "direction": "en2ar",
+    "input": "cry",
+    "changes": {
+      "output": {
+        "before": "كرِي",
+        "after": "كرِ"
+      },
+      "roundTrip": {
+        "before": "krī",
+        "after": "kri"
+      },
+      "secondPass": {
+        "before": "كرِي",
+        "after": "كرِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0114",
+    "direction": "en2ar",
+    "input": "dry",
+    "changes": {
+      "output": {
+        "before": "درِي",
+        "after": "درِ"
+      },
+      "roundTrip": {
+        "before": "drī",
+        "after": "dri"
+      },
+      "secondPass": {
+        "before": "درِي",
+        "after": "درِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0115",
+    "direction": "en2ar",
+    "input": "fly",
+    "changes": {
+      "output": {
+        "before": "فلِي",
+        "after": "فلِ"
+      },
+      "roundTrip": {
+        "before": "flī",
+        "after": "fli"
+      },
+      "secondPass": {
+        "before": "فلِي",
+        "after": "فلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0116",
+    "direction": "en2ar",
+    "input": "why",
+    "changes": {
+      "output": {
+        "before": "وْهِي",
+        "after": "وْهِ"
+      },
+      "roundTrip": {
+        "before": "vhī",
+        "after": "vhi"
+      },
+      "secondPass": {
+        "before": "وْهِي",
+        "after": "وْهِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0117",
+    "direction": "en2ar",
+    "input": "shy",
+    "changes": {
+      "output": {
+        "before": "شِي",
+        "after": "شِ"
+      },
+      "roundTrip": {
+        "before": "shī",
+        "after": "shi"
+      },
+      "secondPass": {
+        "before": "شِي",
+        "after": "شِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0118",
+    "direction": "en2ar",
+    "input": "rhythm",
+    "changes": {
+      "output": {
+        "before": "رهِيثم",
+        "after": "رهِثم"
+      },
+      "roundTrip": {
+        "before": "rhīthm",
+        "after": "rhithm"
+      },
+      "secondPass": {
+        "before": "رهِيثم",
+        "after": "رهِثم"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0119",
+    "direction": "en2ar",
+    "input": "happy",
+    "changes": {
+      "output": {
+        "before": "هَبِّي",
+        "after": "هَبِّ"
+      },
+      "roundTrip": {
+        "before": "habbī",
+        "after": "habbi"
+      },
+      "secondPass": {
+        "before": "هَبِّي",
+        "after": "هَبِّ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0120",
+    "direction": "en2ar",
+    "input": "baby",
+    "changes": {
+      "output": {
+        "before": "بَبِي",
+        "after": "بَبِ"
+      },
+      "roundTrip": {
+        "before": "babī",
+        "after": "babi"
+      },
+      "secondPass": {
+        "before": "بَبِي",
+        "after": "بَبِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0121",
+    "direction": "en2ar",
+    "input": "family",
+    "changes": {
+      "output": {
+        "before": "فَمِلِي",
+        "after": "فَمِلِ"
+      },
+      "roundTrip": {
+        "before": "familī",
+        "after": "famili"
+      },
+      "secondPass": {
+        "before": "فَمِلِي",
+        "after": "فَمِلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0122",
+    "direction": "en2ar",
+    "input": "story",
+    "changes": {
+      "output": {
+        "before": "ستُرِي",
+        "after": "ستُرِ"
+      },
+      "roundTrip": {
+        "before": "sturī",
+        "after": "sturi"
+      },
+      "secondPass": {
+        "before": "ستُرِي",
+        "after": "ستُرِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0123",
+    "direction": "en2ar",
+    "input": "mystery",
+    "changes": {
+      "output": {
+        "before": "مِيستِرِي",
+        "after": "مِستِرِ"
+      },
+      "roundTrip": {
+        "before": "mīstirī",
+        "after": "mistiri"
+      },
+      "secondPass": {
+        "before": "مِيستِرِي",
+        "after": "مِستِرِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0124",
+    "direction": "en2ar",
+    "input": "symbol",
+    "changes": {
+      "output": {
+        "before": "سِيمبُل",
+        "after": "سِمبُل"
+      },
+      "roundTrip": {
+        "before": "sīmbul",
+        "after": "simbul"
+      },
+      "secondPass": {
+        "before": "سِيمبُل",
+        "after": "سِمبُل"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0125",
+    "direction": "en2ar",
+    "input": "system",
+    "changes": {
+      "output": {
+        "before": "سِيستِم",
+        "after": "سِستِم"
+      },
+      "roundTrip": {
+        "before": "sīstim",
+        "after": "sistim"
+      },
+      "secondPass": {
+        "before": "سِيستِم",
+        "after": "سِستِم"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0139",
+    "direction": "en2ar",
+    "input": "philosophy",
+    "changes": {
+      "output": {
+        "before": "فِلُسُفِي",
+        "after": "فِلُسُفِ"
+      },
+      "roundTrip": {
+        "before": "filusufī",
+        "after": "filusufi"
+      },
+      "secondPass": {
+        "before": "فِلُسُفِي",
+        "after": "فِلُسُفِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0140",
+    "direction": "en2ar",
+    "input": "physics",
+    "changes": {
+      "output": {
+        "before": "فِيسِكس",
+        "after": "فِسِكس"
+      },
+      "roundTrip": {
+        "before": "fīsiks",
+        "after": "fisiks"
+      },
+      "secondPass": {
+        "before": "فِيسِكس",
+        "after": "فِسِكس"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0001",
+    "direction": "en2ar",
+    "input": "City",
+    "changes": {
+      "output": {
+        "before": "سِتِي",
+        "after": "سِتِ"
+      },
+      "roundTrip": {
+        "before": "sitī",
+        "after": "siti"
+      },
+      "secondPass": {
+        "before": "سِتِي",
+        "after": "سِتِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0002",
+    "direction": "en2ar",
+    "input": "CITY",
+    "changes": {
+      "output": {
+        "before": "سِطِي",
+        "after": "سِطِ"
+      },
+      "roundTrip": {
+        "before": "siTī",
+        "after": "siTi"
+      },
+      "secondPass": {
+        "before": "سِطِي",
+        "after": "سِطِ"
+      }
+    }
+  }
+]

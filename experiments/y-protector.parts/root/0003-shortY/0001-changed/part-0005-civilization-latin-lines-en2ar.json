@@ -1,0 +1,26 @@
+[
+  {
+    "id": "civilization-latin-lines/en2ar/0005",
+    "group": "civilization-latin-lines",
+    "direction": "en2ar",
+    "input": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- alyāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+    "output": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِياف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+    "roundTrip": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- aljāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+    "secondPass": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَليْاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+    "before": {
+      "output": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِياف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+      "roundTrip": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- aljāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+      "secondPass": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَليْاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ."
+    },
+    "after": {
+      "output": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+      "roundTrip": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- aliāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+      "secondPass": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

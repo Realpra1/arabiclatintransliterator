@@ -1,0 +1,20 @@
+[
+  {
+    "id": "formatting-and-unicode/ar2en/0027",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "'’ʾ\"“”«»",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "'’ʾ\"“”«»",
+      "L1": "'’ʾ\"“”«»",
+      "A2": "أ’أ\"“”«»",
+      "L2": "'a’'\"“”«»",
+      "A3": "أَ’أ\"“”«»",
+      "L3": "a’'\"“”«»"
+    }
+  }
+]

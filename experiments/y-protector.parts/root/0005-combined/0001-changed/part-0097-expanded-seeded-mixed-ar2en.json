@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0035",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "output": "mā'\n\nsu'āl world, lā/queue, alSawt? 'anā — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nSbāHaNā? with, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+    "roundTrip": "ماء\n\nسُؤال وُرلد، لا/قُُِِ، اَلصَوْت؟ أَنا — رهِيثم بُوك — شايْ؟ مَدرَسة — كُفِّي/E=مك^2\n\nصباحًا؟ وِث، نحن/سُؤال\n\nقُوّات؟ غدًا، نحن/",
+    "secondPass": "mā'\n\nsu'āl vurld, lā/quiui, alSavt? anā — rhīthm būk — shāj? madrasat — kuffī/E=mk^2\n\nSbāHaNā? vith, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+    "before": {
+      "output": "mā'\n\nsu'āl world, lā/queue, alSawt? 'anā — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nSbāHaNā? with, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+      "roundTrip": "ماء\n\nسُؤال وُرلد، لا/قُُِِ، اَلصَوْت؟ أَنا — رهِيثم بُوك — شايْ؟ مَدرَسة — كُفِّي/E=مك^2\n\nصباحًا؟ وِث، نحن/سُؤال\n\nقُوّات؟ غدًا، نحن/",
+      "secondPass": "mā'\n\nsu'āl vurld, lā/quiui, alSavt? anā — rhīthm būk — shāj? madrasat — kuffī/E=mk^2\n\nSbāHaNā? vith, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/"
+    },
+    "after": {
+      "output": "mā'\n\nsu'āl world, lā/queue, alSawt? 'anā — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nSbāHaNā? with, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/",
+      "roundTrip": "ماء\n\nسُؤال وُرلد، لا/قُُِِ، اَلصَوْت؟ أَنا — رهِثم بُوك — شايْ؟ مَدرَسة — كُفِّي/E=مك^2\n\nصباحًا؟ وِث، نحن/سُؤال\n\nقُوّات؟ غدًا، نحن/",
+      "secondPass": "mā'\n\nsu'āl vurld, lā/quiui, alSavt? anā — rhithm būk — shāj? madrasat — kuffī/E=mk^2\n\nSbāHaNā? vith, nHn/su'āl\n\nquvvāt? ghdaNā, nHn/"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

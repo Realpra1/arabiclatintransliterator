@@ -1,0 +1,272 @@
+[
+  {
+    "id": "formatting-and-unicode/ar2en/0001",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "",
+    "output": "",
+    "roundTrip": "",
+    "secondPass": ""
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0002",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": " ",
+    "output": " ",
+    "roundTrip": " ",
+    "secondPass": " "
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0003",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "   ",
+    "output": "   ",
+    "roundTrip": "   ",
+    "secondPass": "   "
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0004",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "\t",
+    "output": "\t",
+    "roundTrip": "\t",
+    "secondPass": "\t"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0005",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "\n",
+    "output": "\n",
+    "roundTrip": "\n",
+    "secondPass": "\n"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0006",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "\n\n",
+    "output": "\n\n",
+    "roundTrip": "\n\n",
+    "secondPass": "\n\n"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0007",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "\r\n",
+    "output": "\r\n",
+    "roundTrip": "\r\n",
+    "secondPass": "\r\n"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0008",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "  a  b  ",
+    "output": "  a  b  ",
+    "roundTrip": "  اَ  ب  ",
+    "secondPass": "  a  b  "
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0009",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "a\tb\nc\r\nd",
+    "output": "a\tb\nc\r\nd",
+    "roundTrip": "اَ\tب\nس\r\nد",
+    "secondPass": "a\tb\ns\r\nd"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0010",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": ",;?",
+    "output": ",;?",
+    "roundTrip": "،؛؟",
+    "secondPass": ",;?"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0011",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "،؛؟",
+    "output": ",;?",
+    "roundTrip": "،؛؟",
+    "secondPass": ",;?"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0012",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": ".:!()[]{}<>/\\|+=*^~`_&%#@",
+    "output": ".:!()[]{}<>/\\|+=*^~`_&%#@",
+    "roundTrip": ".:!()[]{}<>/\\|+=*^~`_&%#@",
+    "secondPass": ".:!()[]{}<>/\\|+=*^~`_&%#@"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0013",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "0123456789",
+    "output": "0123456789",
+    "roundTrip": "0123456789",
+    "secondPass": "0123456789"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0014",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "٠١٢٣٤٥٦٧٨٩",
+    "output": "٠١٢٣٤٥٦٧٨٩",
+    "roundTrip": "٠١٢٣٤٥٦٧٨٩",
+    "secondPass": "٠١٢٣٤٥٦٧٨٩"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0015",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "۰۱۲۳۴۵۶۷۸۹",
+    "output": "۰۱۲۳۴۵۶۷۸۹",
+    "roundTrip": "۰۱۲۳۴۵۶۷۸۹",
+    "secondPass": "۰۱۲۳۴۵۶۷۸۹"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0016",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "🙂🌍🚀",
+    "output": "🙂🌍🚀",
+    "roundTrip": "🙂🌍🚀",
+    "secondPass": "🙂🌍🚀"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0017",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "中文 日本語 Ελληνικά кириллица",
+    "output": "中文 日本語 Ελληνικά кириллица",
+    "roundTrip": "中文 日本語 Ελληνικά кириллица",
+    "secondPass": "中文 日本語 Ελληνικά кириллица"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0018",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "café naïve résumé",
+    "output": "café naïve résumé",
+    "roundTrip": "كَفé نَïوِ رéسُمé",
+    "secondPass": "kafé naïvi résumé"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0019",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "ā ī ū á Ā Ī Ū",
+    "output": "ā ī ū á Ā Ī Ū",
+    "roundTrip": "ا ِي ُو ى Ā Ī Ū",
+    "secondPass": "ā ī ū á Ā Ī Ū"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0020",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "ā ī ū á",
+    "output": "ā ī ū á",
+    "roundTrip": "اَ̄ إِ̄ أُ̄ اَ́",
+    "secondPass": "ā ī ū á"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0021",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "ب‍ت‌ج",
+    "output": "b‍t‌J",
+    "roundTrip": "ب‍ت‌ج",
+    "secondPass": "b‍t‌J"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0022",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "‏العربية‎ Latin",
+    "output": "‏āl-rbīat‎ Latin",
+    "roundTrip": "‏العربِية‎ لَتِن",
+    "secondPass": "‏āl-rbīat‎ latin"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0023",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "Arabic العربية 123",
+    "output": "Arabic al-rbīat 123",
+    "roundTrip": "اَرَبِس اَلعربِية 123",
+    "secondPass": "arabis al-rbīat 123"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0024",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "سَلام Hello!",
+    "output": "salām Hello!",
+    "roundTrip": "سَلام حِلُّ!",
+    "secondPass": "salām Hillu!"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0025",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": " a b ",
+    "output": " a b ",
+    "roundTrip": " اَ ب ",
+    "secondPass": " a b "
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0026",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": " a b",
+    "output": " a b",
+    "roundTrip": " اَ ب",
+    "secondPass": " a b"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0027",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "'’ʾ\"“”«»",
+    "output": "'’ʾ\"“”«»",
+    "roundTrip": "أ’أ\"“”«»",
+    "secondPass": "'a’'\"“”«»"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0028",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "ًٌٍَُِّْٰـ",
+    "output": "aiuaNiNuNā",
+    "roundTrip": "اًٌٍَُِا",
+    "secondPass": "aiuaNiNuNā"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0029",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "،a؛i؟u",
+    "output": ",a;i?u",
+    "roundTrip": "،َ؛ِ؟ُ",
+    "secondPass": ",a;i?u"
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0030",
+    "group": "formatting-and-unicode",
+    "direction": "ar2en",
+    "input": "a\u0000b",
+    "output": "a\u0000b",
+    "roundTrip": "اَ\u0000ب",
+    "secondPass": "a\u0000b"
+  }
+]

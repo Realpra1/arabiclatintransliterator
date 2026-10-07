@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1851",
+    "input": "scarce",
+    "normalized": "skarsi",
+    "collapsed": "scarce"
+  },
+  {
+    "id": "normalizer/1852",
+    "input": "science",
+    "normalized": "ssīnsi",
+    "collapsed": "science"
+  },
+  {
+    "id": "normalizer/1853",
+    "input": "scene",
+    "normalized": "ssini",
+    "collapsed": "scene"
+  },
+  {
+    "id": "normalizer/1854",
+    "input": "scissors",
+    "normalized": "ssissurs",
+    "collapsed": "scissors"
+  },
+  {
+    "id": "normalizer/1855",
+    "input": "scent",
+    "normalized": "ssint",
+    "collapsed": "scent"
+  },
+  {
+    "id": "normalizer/1856",
+    "input": "accept",
+    "normalized": "aksipt",
+    "collapsed": "accept"
+  },
+  {
+    "id": "normalizer/1857",
+    "input": "accent",
+    "normalized": "aksint",
+    "collapsed": "accent"
+  },
+  {
+    "id": "normalizer/1858",
+    "input": "accident",
+    "normalized": "aksidint",
+    "collapsed": "accident"
+  },
+  {
+    "id": "normalizer/1859",
+    "input": "success",
+    "normalized": "suksiss",
+    "collapsed": "success"
+  },
+  {
+    "id": "normalizer/1860",
+    "input": "account",
+    "normalized": "akkūnt",
+    "collapsed": "account"
+  },
+  {
+    "id": "normalizer/1861",
+    "input": "chess",
+    "normalized": "chiss",
+    "collapsed": "chess"
+  },
+  {
+    "id": "normalizer/1862",
+    "input": "cheese",
+    "normalized": "chīsi",
+    "collapsed": "cheese"
+  },
+  {
+    "id": "normalizer/1863",
+    "input": "chair",
+    "normalized": "chair",
+    "collapsed": "chair"
+  },
+  {
+    "id": "normalizer/1864",
+    "input": "child",
+    "normalized": "child",
+    "collapsed": "child"
+  },
+  {
+    "id": "normalizer/1865",
+    "input": "church",
+    "normalized": "church",
+    "collapsed": "church"
+  },
+  {
+    "id": "normalizer/1866",
+    "input": "chocolate",
+    "normalized": "chukulati",
+    "collapsed": "chocolate"
+  },
+  {
+    "id": "normalizer/1867",
+    "input": "chicken",
+    "normalized": "chikkin",
+    "collapsed": "chicken"
+  },
+  {
+    "id": "normalizer/1868",
+    "input": "chorus",
+    "normalized": "churus",
+    "collapsed": "chorus"
+  },
+  {
+    "id": "normalizer/1869",
+    "input": "choir",
+    "normalized": "chuir",
+    "collapsed": "choir"
+  },
+  {
+    "id": "normalizer/1870",
+    "input": "chemical",
+    "normalized": "chimikal",
+    "collapsed": "chemical"
+  },
+  {
+    "id": "normalizer/1871",
+    "input": "chemistry",
+    "normalized": "chimistri",
+    "collapsed": "chemistry"
+  },
+  {
+    "id": "normalizer/1872",
+    "input": "character",
+    "normalized": "charaktir",
+    "collapsed": "character"
+  },
+  {
+    "id": "normalizer/1873",
+    "input": "chronic",
+    "normalized": "chrunis",
+    "collapsed": "chronic"
+  },
+  {
+    "id": "normalizer/1874",
+    "input": "chef",
+    "normalized": "chif",
+    "collapsed": "chef"
+  },
+  {
+    "id": "normalizer/1875",
+    "input": "machine",
+    "normalized": "machini",
+    "collapsed": "machine"
+  },
+  {
+    "id": "normalizer/1876",
+    "input": "schedule",
+    "normalized": "schiduli",
+    "collapsed": "schedule"
+  },
+  {
+    "id": "normalizer/1877",
+    "input": "stomach",
+    "normalized": "stumach",
+    "collapsed": "stomach"
+  },
+  {
+    "id": "normalizer/1878",
+    "input": "ache",
+    "normalized": "achi",
+    "collapsed": "ache"
+  },
+  {
+    "id": "normalizer/1879",
+    "input": "echo",
+    "normalized": "ichu",
+    "collapsed": "echo"
+  },
+  {
+    "id": "normalizer/1880",
+    "input": "technical",
+    "normalized": "tichnikal",
+    "collapsed": "technical"
+  },
+  {
+    "id": "normalizer/1881",
+    "input": "xenon",
+    "normalized": "sinun",
+    "collapsed": "xenon"
+  },
+  {
+    "id": "normalizer/1882",
+    "input": "xylem",
+    "normalized": "silim",
+    "collapsed": "xylem"
+  },
+  {
+    "id": "normalizer/1883",
+    "input": "xylitol",
+    "normalized": "silitul",
+    "collapsed": "xylitol"
+  },
+  {
+    "id": "normalizer/1884",
+    "input": "xenophobia",
+    "normalized": "sinuphubia",
+    "collapsed": "xenophobia"
+  },
+  {
+    "id": "normalizer/1885",
+    "input": "xerox",
+    "normalized": "sirux",
+    "collapsed": "xerox"
+  },
+  {
+    "id": "normalizer/1886",
+    "input": "Xerxes",
+    "normalized": "sirxis",
+    "collapsed": "Xerxes"
+  },
+  {
+    "id": "normalizer/1887",
+    "input": "x-ray",
+    "normalized": "iks-ray",
+    "collapsed": "x-ray"
+  },
+  {
+    "id": "normalizer/1888",
+    "input": "box",
+    "normalized": "bux",
+    "collapsed": "box"
+  },
+  {
+    "id": "normalizer/1889",
+    "input": "fox",
+    "normalized": "fux",
+    "collapsed": "fox"
+  },
+  {
+    "id": "normalizer/1890",
+    "input": "extra",
+    "normalized": "ixtra",
+    "collapsed": "extra"
+  },
+  {
+    "id": "normalizer/1891",
+    "input": "exit",
+    "normalized": "ixit",
+    "collapsed": "exit"
+  },
+  {
+    "id": "normalizer/1892",
+    "input": "exam",
+    "normalized": "ixam",
+    "collapsed": "exam"
+  },
+  {
+    "id": "normalizer/1893",
+    "input": "example",
+    "normalized": "ixampli",
+    "collapsed": "example"
+  },
+  {
+    "id": "normalizer/1894",
+    "input": "exact",
+    "normalized": "ixakt",
+    "collapsed": "exact"
+  },
+  {
+    "id": "normalizer/1895",
+    "input": "exist",
+    "normalized": "ixist",
+    "collapsed": "exist"
+  },
+  {
+    "id": "normalizer/1896",
+    "input": "six",
+    "normalized": "six",
+    "collapsed": "six"
+  },
+  {
+    "id": "normalizer/1897",
+    "input": "text",
+    "normalized": "tixt",
+    "collapsed": "text"
+  },
+  {
+    "id": "normalizer/1898",
+    "input": "taxi",
+    "normalized": "taxi",
+    "collapsed": "taxi"
+  },
+  {
+    "id": "normalizer/1899",
+    "input": "oxygen",
+    "normalized": "uxigin",
+    "collapsed": "oxygen"
+  },
+  {
+    "id": "normalizer/1900",
+    "input": "pixel",
+    "normalized": "pixil",
+    "collapsed": "pixel"
+  },
+  {
+    "id": "normalizer/1901",
+    "input": "complex",
+    "normalized": "kumplix",
+    "collapsed": "complex"
+  },
+  {
+    "id": "normalizer/1902",
+    "input": "next",
+    "normalized": "nixt",
+    "collapsed": "next"
+  },
+  {
+    "id": "normalizer/1903",
+    "input": "suffix",
+    "normalized": "suffix",
+    "collapsed": "suffix"
+  },
+  {
+    "id": "normalizer/1904",
+    "input": "fix",
+    "normalized": "fix",
+    "collapsed": "fix"
+  },
+  {
+    "id": "normalizer/1905",
+    "input": "mixture",
+    "normalized": "mixturi",
+    "collapsed": "mixture"
+  },
+  {
+    "id": "normalizer/1906",
+    "input": "yes",
+    "normalized": "yis",
+    "collapsed": "yes"
+  },
+  {
+    "id": "normalizer/1907",
+    "input": "yellow",
+    "normalized": "yilluw",
+    "collapsed": "yellow"
+  },
+  {
+    "id": "normalizer/1908",
+    "input": "young",
+    "normalized": "yūng",
+    "collapsed": "young"
+  },
+  {
+    "id": "normalizer/1909",
+    "input": "yacht",
+    "normalized": "yacht",
+    "collapsed": "yacht"
+  },
+  {
+    "id": "normalizer/1910",
+    "input": "year",
+    "normalized": "yiar",
+    "collapsed": "year"
+  },
+  {
+    "id": "normalizer/1911",
+    "input": "yield",
+    "normalized": "yīld",
+    "collapsed": "yield"
+  },
+  {
+    "id": "normalizer/1912",
+    "input": "yesterday",
+    "normalized": "yistirday",
+    "collapsed": "yesterday"
+  },
+  {
+    "id": "normalizer/1913",
+    "input": "yet",
+    "normalized": "yit",
+    "collapsed": "yet"
+  },
+  {
+    "id": "normalizer/1914",
+    "input": "my",
+    "normalized": "mi",
+    "collapsed": "my"
+  },
+  {
+    "id": "normalizer/1915",
+    "input": "sky",
+    "normalized": "ski",
+    "collapsed": "sky"
+  },
+  {
+    "id": "normalizer/1916",
+    "input": "try",
+    "normalized": "tri",
+    "collapsed": "try"
+  },
+  {
+    "id": "normalizer/1917",
+    "input": "cry",
+    "normalized": "kri",
+    "collapsed": "cry"
+  },
+  {
+    "id": "normalizer/1918",
+    "input": "dry",
+    "normalized": "dri",
+    "collapsed": "dry"
+  },
+  {
+    "id": "normalizer/1919",
+    "input": "fly",
+    "normalized": "fli",
+    "collapsed": "fly"
+  },
+  {
+    "id": "normalizer/1920",
+    "input": "why",
+    "normalized": "whi",
+    "collapsed": "why"
+  },
+  {
+    "id": "normalizer/1921",
+    "input": "shy",
+    "normalized": "shi",
+    "collapsed": "shy"
+  },
+  {
+    "id": "normalizer/1922",
+    "input": "rhythm",
+    "normalized": "rhithm",
+    "collapsed": "rhythm"
+  },
+  {
+    "id": "normalizer/1923",
+    "input": "happy",
+    "normalized": "happi",
+    "collapsed": "happy"
+  },
+  {
+    "id": "normalizer/1924",
+    "input": "baby",
+    "normalized": "babi",
+    "collapsed": "baby"
+  }
+]

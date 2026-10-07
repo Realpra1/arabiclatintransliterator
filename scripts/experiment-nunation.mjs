@@ -1,3 +1,4 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -40,6 +41,6 @@ const focused=dottedTanwin ? [['ن','n'],['نَ','na'],['بٌ','buṇ'],['بٍ',
 for(const [arabic,latin]of focused){assert.equal(candidate.ar2en(arabic),latin);assert.equal(candidate.ar2en(candidate.en2ar(latin)),latin);}
 for(const input of ['N2','n2','(n)','(N)','H2O','CO2'])assert.equal(candidate.en2ar(input),baseline.en2ar(input));
 const report={description:`Isolated alternate-notation trial: ${dottedTanwin ? 'nun ن → n; tanwin N → ṇ' : 'nun ن → ṇ; tanwin N → n'}. Existing short/long-vowel encodings unchanged. Production code and fixtures untouched.`,sourceSha256:Object.fromEntries(translatorFiles.map(f=>[f,createHash('sha256').update(readFileSync(new URL(f,root))).digest('hex')])),checks,changedArabic,examples,focusedChecks:focused.length};
-writeFileSync(new URL(`experiments/${experimentName}.json`,root),JSON.stringify(report,null,2)+'\n');
+writeJsonArtifact(new URL(`experiments/${experimentName}.json`,root), report);
 writeFileSync(`/tmp/arabiclatin-${experimentName}-view.js`,candidateSource);
 console.log(JSON.stringify({checks:{...checks,newlyFailing:checks.newlyFailing.length,fixed:checks.fixed.length},changedArabic:changedArabic.length,examples:examples.map(e=>({arabic:e.input,before:e.before.L1,after:e.after.L1,secondLatin:e.after.L2,thirdLatin:e.after.L3})),failures:checks.newlyFailing.slice(0,3)},null,2));

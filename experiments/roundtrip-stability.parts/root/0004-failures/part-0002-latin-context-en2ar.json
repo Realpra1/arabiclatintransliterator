@@ -1,0 +1,38 @@
+[
+  {
+    "id": "latin-context/en2ar/0154",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(')",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "(')",
+      "A1": "(أ)",
+      "L2": "('a)",
+      "A2": "(أa)",
+      "L3": "('ā)",
+      "A3": "(آ)"
+    }
+  },
+  {
+    "id": "latin-context/en2ar/0229",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(ʾ)",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "(ʾ)",
+      "A1": "(أ)",
+      "L2": "('a)",
+      "A2": "(أa)",
+      "L3": "('ā)",
+      "A3": "(آ)"
+    }
+  }
+]

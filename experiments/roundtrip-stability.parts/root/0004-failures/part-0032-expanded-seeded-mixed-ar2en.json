@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0005",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+      "L1": "fī\n\n١٢ shamsuN — book/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaNā lajla — fī? 'anā — quvva/naHnu, ā albajtu — msā'aN? ",
+      "A2": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَيْلَ — فِي؟ أَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+      "L2": "fī\n\n١٢ shamsuN — būk/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaNā lajla — fī? anā — quvva/naHnu, ā albajtu — msā'aN? ",
+      "A3": "فِي\n\n١٢ شَمسٌ — بُوك/nعم\n\nمدرسة/ماء، غَدً اَنتَ — اَلصَّباح؟ لِيلى — غدًا لَيْلَ — فِي؟ اَنا — قُوَّ/نَحنُ، ا اَلبَيْتُ — مساأً؟ ",
+      "L3": "fī\n\n١٢ shamsuN — būk/n-m\n\nmdrsat/mā', ghadaN anta — alSSabāH? līlá — ghdaNā lajla — fī? anā — quvva/naHnu, ā albajtu — msā'aN? "
+    }
+  }
+]

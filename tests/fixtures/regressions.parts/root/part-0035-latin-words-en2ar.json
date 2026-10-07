@@ -1,0 +1,380 @@
+[
+  {
+    "id": "latin-words/en2ar/0001",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "HaDāratuN fī SafHatiN vāHidatiN",
+    "output": "حَضارةٌ فِي صَفحةٍ واحِدةٍ",
+    "roundTrip": "HaDāratuN fī SafHatiN vāHidatiN",
+    "secondPass": "حَضارةٌ فِي صَفحةٍ واحِدةٍ"
+  },
+  {
+    "id": "latin-words/en2ar/0002",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "al-arabijja",
+    "output": "اَلعَرَبِيَّ",
+    "roundTrip": "al-arabijja",
+    "secondPass": "اَلعَرَبِيَّ"
+  },
+  {
+    "id": "latin-words/en2ar/0003",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "alSSiHHa",
+    "output": "اَلصِّحَّ",
+    "roundTrip": "alSSiHHa",
+    "secondPass": "اَلصِّحَّ"
+  },
+  {
+    "id": "latin-words/en2ar/0004",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "alTTāqa",
+    "output": "اَلطّاقَ",
+    "roundTrip": "alTTāqa",
+    "secondPass": "اَلطّاقَ"
+  },
+  {
+    "id": "latin-words/en2ar/0005",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "alHaDāra",
+    "output": "اَلحَضارَ",
+    "roundTrip": "alHaDāra",
+    "secondPass": "اَلحَضارَ"
+  },
+  {
+    "id": "latin-words/en2ar/0006",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "marHabaN",
+    "output": "مَرحَبً",
+    "roundTrip": "marHabaN",
+    "secondPass": "مَرحَبً"
+  },
+  {
+    "id": "latin-words/en2ar/0007",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "alssalāmu -alajkum",
+    "output": "اَلسَّلامُ عَلَيْكُم",
+    "roundTrip": "alssalāmu -alajkum",
+    "secondPass": "اَلسَّلامُ عَلَيْكُم"
+  },
+  {
+    "id": "latin-words/en2ar/0008",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "bismi allāh",
+    "output": "بِسمِ اَلّاه",
+    "roundTrip": "bismi allāh",
+    "secondPass": "بِسمِ اَلّاه"
+  },
+  {
+    "id": "latin-words/en2ar/0009",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "kitābuN",
+    "output": "كِتابٌ",
+    "roundTrip": "kitābuN",
+    "secondPass": "كِتابٌ"
+  },
+  {
+    "id": "latin-words/en2ar/0010",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "kitābiN",
+    "output": "كِتابٍ",
+    "roundTrip": "kitābiN",
+    "secondPass": "كِتابٍ"
+  },
+  {
+    "id": "latin-words/en2ar/0011",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "kitābaN",
+    "output": "كِتابً",
+    "roundTrip": "kitābaN",
+    "secondPass": "كِتابً"
+  },
+  {
+    "id": "latin-words/en2ar/0012",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "shadda",
+    "output": "شَدَّ",
+    "roundTrip": "shadda",
+    "secondPass": "شَدَّ"
+  },
+  {
+    "id": "latin-words/en2ar/0013",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "quvva",
+    "output": "قُوَّ",
+    "roundTrip": "quvva",
+    "secondPass": "قُوَّ"
+  },
+  {
+    "id": "latin-words/en2ar/0014",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "Hajj",
+    "output": "حَيّ",
+    "roundTrip": "Hajj",
+    "secondPass": "حَيّ"
+  },
+  {
+    "id": "latin-words/en2ar/0015",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "Haj",
+    "output": "حَيْ",
+    "roundTrip": "Haj",
+    "secondPass": "حَيْ"
+  },
+  {
+    "id": "latin-words/en2ar/0016",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "jaj",
+    "output": "يَيْ",
+    "roundTrip": "jaj",
+    "secondPass": "يَيْ"
+  },
+  {
+    "id": "latin-words/en2ar/0017",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vav",
+    "output": "وَوْ",
+    "roundTrip": "vav",
+    "secondPass": "وَوْ"
+  },
+  {
+    "id": "latin-words/en2ar/0018",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vv",
+    "output": "وّ",
+    "roundTrip": "vv",
+    "secondPass": "وّ"
+  },
+  {
+    "id": "latin-words/en2ar/0019",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "jj",
+    "output": "يّ",
+    "roundTrip": "jj",
+    "secondPass": "يّ"
+  },
+  {
+    "id": "latin-words/en2ar/0020",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "ww",
+    "output": "وّ",
+    "roundTrip": "vv",
+    "secondPass": "وّ"
+  },
+  {
+    "id": "latin-words/en2ar/0021",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "yy",
+    "output": "يّ",
+    "roundTrip": "jj",
+    "secondPass": "يّ"
+  },
+  {
+    "id": "latin-words/en2ar/0022",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vvv",
+    "output": "وّوْ",
+    "roundTrip": "vvv",
+    "secondPass": "وّوْ"
+  },
+  {
+    "id": "latin-words/en2ar/0023",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "jjj",
+    "output": "يّيْ",
+    "roundTrip": "jjj",
+    "secondPass": "يّيْ"
+  },
+  {
+    "id": "latin-words/en2ar/0024",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vat",
+    "output": "وة",
+    "roundTrip": "vat",
+    "secondPass": "وة"
+  },
+  {
+    "id": "latin-words/en2ar/0025",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "wat",
+    "output": "وة",
+    "roundTrip": "vat",
+    "secondPass": "وة"
+  },
+  {
+    "id": "latin-words/en2ar/0026",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vāt",
+    "output": "وات",
+    "roundTrip": "vāt",
+    "secondPass": "وات"
+  },
+  {
+    "id": "latin-words/en2ar/0027",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vā",
+    "output": "وا",
+    "roundTrip": "vā",
+    "secondPass": "وا"
+  },
+  {
+    "id": "latin-words/en2ar/0028",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "va",
+    "output": "وَ",
+    "roundTrip": "va",
+    "secondPass": "وَ"
+  },
+  {
+    "id": "latin-words/en2ar/0029",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vi",
+    "output": "وِ",
+    "roundTrip": "vi",
+    "secondPass": "وِ"
+  },
+  {
+    "id": "latin-words/en2ar/0030",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vu",
+    "output": "وُ",
+    "roundTrip": "vu",
+    "secondPass": "وُ"
+  },
+  {
+    "id": "latin-words/en2ar/0031",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "v'a",
+    "output": "وأَ",
+    "roundTrip": "v'a",
+    "secondPass": "وأَ"
+  },
+  {
+    "id": "latin-words/en2ar/0032",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "vba",
+    "output": "وْبَ",
+    "roundTrip": "vba",
+    "secondPass": "وْبَ"
+  },
+  {
+    "id": "latin-words/en2ar/0033",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "bva",
+    "output": "بوَ",
+    "roundTrip": "bva",
+    "secondPass": "بوَ"
+  },
+  {
+    "id": "latin-words/en2ar/0034",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "bvi",
+    "output": "بوِ",
+    "roundTrip": "bvi",
+    "secondPass": "بوِ"
+  },
+  {
+    "id": "latin-words/en2ar/0035",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "bvu",
+    "output": "بوُ",
+    "roundTrip": "bvu",
+    "secondPass": "بوُ"
+  },
+  {
+    "id": "latin-words/en2ar/0036",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "llkitāb",
+    "output": "لّكِتاب",
+    "roundTrip": "lilkitāb",
+    "secondPass": "لِلكِتاب"
+  },
+  {
+    "id": "latin-words/en2ar/0037",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "lilkitāb",
+    "output": "لِلكِتاب",
+    "roundTrip": "lilkitāb",
+    "secondPass": "لِلكِتاب"
+  },
+  {
+    "id": "latin-words/en2ar/0038",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "alālam",
+    "output": "اَلالَم",
+    "roundTrip": "alālam",
+    "secondPass": "اَلالَم"
+  },
+  {
+    "id": "latin-words/en2ar/0039",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "allatī",
+    "output": "اَلَّتِي",
+    "roundTrip": "allatī",
+    "secondPass": "اَلَّتِي"
+  },
+  {
+    "id": "latin-words/en2ar/0040",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "al'amr",
+    "output": "اَلأَمر",
+    "roundTrip": "al'amr",
+    "secondPass": "اَلأَمر"
+  },
+  {
+    "id": "latin-words/en2ar/0041",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "li'i-āda",
+    "output": "لِإِعادَ",
+    "roundTrip": "li'i-āda",
+    "secondPass": "لِإِعادَ"
+  },
+  {
+    "id": "latin-words/en2ar/0042",
+    "group": "latin-words",
+    "direction": "en2ar",
+    "input": "SafHatiN",
+    "output": "صَفحةٍ",
+    "roundTrip": "SafHatiN",
+    "secondPass": "صَفحةٍ"
+  }
+]

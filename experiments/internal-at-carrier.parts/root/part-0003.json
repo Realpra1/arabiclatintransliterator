@@ -1,0 +1,115 @@
+{
+  "changedExamples": {
+    "$jsonModules": "arabiclatin/v1",
+    "kind": "array",
+    "parts": [
+      "internal-at-carrier.parts/root/0012-changedExamples/part-0001.json",
+      "internal-at-carrier.parts/root/0012-changedExamples/part-0002.json"
+    ]
+  },
+  "seededCoreFailures": [
+    {
+      "id": "expanded-seeded-fragments/en2ar/0030",
+      "input": "اٌحثNثاُ(صخعء) \nةِيةِحغئ+(غيِْي +e)̄جعوْضطُو",
+      "released": {
+        "A1": "اٌحثNثاُ(صخعء) \nةِيةِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L1": "āuNHthNthāu(Skh-') \natīatiHgh'+(ghjī +e)̄J-vDTū",
+        "A2": "اٌحثNثاُ(صخعء) \nةِيةِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L2": "āuNHthNthāu(Skh-') \natīatiHgh'+(ghjī +e)̄J-vDTū",
+        "A3": "اٌحثNثاُ(صخعء) \nةِيةِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L3": "āuNHthNthāu(Skh-') \natīatiHgh'+(ghjī +e)̄J-vDTū"
+      },
+      "carrier": {
+        "A1": "اٌحثNثاُ(صخعء) \nةِيةِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L1": "āuNHthNthāu(Skh-') \natīatiHgh'+(ghjī +e)̄J-vDTū",
+        "A2": "اٌحثNثاُ(صخعء) \nاَتِياَتِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L2": "āuNHthNthāu(Skh-') \natjatiHgh'+(ghjī +e)̄J-vDTū",
+        "A3": "اٌحثNثاُ(صخعء) \nاَتيْاَتِحغئ+(غيِْي +e)̄جعوْضطُو",
+        "L3": "āuNHthNthāu(Skh-') \natjatiHgh'+(ghjī +e)̄J-vDTū"
+      },
+      "alsoFailsInMCB": true
+    },
+    {
+      "id": "expanded-seeded-fragments/en2ar/0032",
+      "input": "ظٌظث/)ةغوْغظكساُخى/\nتجغ/ىNِيحععغيْفةِيةوْ/طNفكغٍ\nكثتجُِ̄يُوصتجىش",
+      "released": {
+        "A1": "ظٌظث/)ةغوْغظكساُخى/\nتجغ/ىNِيحععغيْفةِيةوْ/طNفكغٍ\nكثتجُِ̄يُوصتجىش",
+        "L1": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatīatv/TNfkghiN\nkthtJūijūStJásh",
+        "A2": "ظٌظث/)ةغوْغظكساُخى/\nتجغ/ىNِيحعّغيْفةِيةوْ/طNفكغٍ\nكثتجُ̄إِيُْوصتجىش",
+        "L2": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatīatv/TNfkghiN\nkthtJū'ijūStJásh",
+        "A3": "ظٌظث/)ةغوْغظكساُخى/\nتجغ/ىNِيحعّغيْفةِيةوْ/طNفكغٍ\nكثتجُ̄إِيُْوصتجىش",
+        "L3": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatīatv/TNfkghiN\nkthtJū'ijūStJásh"
+      },
+      "carrier": {
+        "A1": "ظٌظث/)ةغوْغظكساُخى/\nتجغ/ىNِيحععغيْفةِيةوْ/طNفكغٍ\nكثتجُِ̄يُوصتجىش",
+        "L1": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatīatv/TNfkghiN\nkthtJūijūStJásh",
+        "A2": "ظٌظث/)اَتغوْغظكساُخى/\nتجغ/ىNِيحعّغيْفاَتِياَتوْ/طNفكغٍ\nكثتجُ̄إِيُْوصتجىش",
+        "L2": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatjatv/TNfkghiN\nkthtJū'ijūStJásh",
+        "A3": "ظٌظث/)اَتغوْغظكساُخى/\nتجغ/ىNِيحعّغيْفاَتيْاَتوْ/طNفكغٍ\nكثتجُ̄إِيُْوصتجىش",
+        "L3": "ZuNZth/)atghvghZksāukhá/\ntJgh/áNīH--ghjfatjatv/TNfkghiN\nkthtJū'ijūStJásh"
+      },
+      "alsoFailsInMCB": true
+    },
+    {
+      "id": "expanded-seeded-fragments/en2ar/0052",
+      "input": "كُ̄ثُِِ)شِيةفعطشطيُة+افوْ)تج\nيْبةُاى/)اصضصعغكُخط(اَخى(ِيٍ",
+      "released": {
+        "A1": "كُ̄ثُِِ)شِيةفعطشطيُة+افوْ)تج\nيْبةُاى/)اصضصعغكُخط(اَخى(ِيٍ",
+        "L1": "kūthiui)shīatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN",
+        "A2": "كُ̄ثُِِ)شِيةفعطشطيُة+افوْ)تج\nيْبةُاى/)اصضصعغكُخط(اَخى(إِيٍْ",
+        "L2": "kūthiui)shīatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN",
+        "A3": "كُ̄ثُِِ)شِيةفعطشطيُة+افوْ)تج\nيْبةُاى/)اصضصعغكُخط(اَخى(إِيٍْ",
+        "L3": "kūthiui)shīatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN"
+      },
+      "carrier": {
+        "A1": "كُ̄ثُِِ)شِيةفعطشطيُة+افوْ)تج\nيْبةُاى/)اصضصعغكُخط(اَخى(ِيٍ",
+        "L1": "kūthiui)shīatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN",
+        "A2": "كُ̄ثُِِ)شِياَتفعطشطيُة+افوْ)تج\nيْباَتُاى/)اصضصعغكُخط(اَخى(إِيٍْ",
+        "L2": "kūthiui)shjatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN",
+        "A3": "كُ̄ثُِِ)شيْاَتفعطشطيُة+افوْ)تج\nيْباَتُاى/)اصضصعغكُخط(اَخى(إِيٍْ",
+        "L3": "kūthiui)shjatf-TshTjuat+āfv)tJ\njbatuāá/)āSDS-ghkukhT(akhá(ijiN"
+      },
+      "alsoFailsInMCB": true
+    }
+  ],
+  "reducedYaExamples": [
+    {
+      "input": "شِيةف",
+      "released": {
+        "A1": "شِيةف",
+        "L1": "shīatf",
+        "A2": "شِيةف",
+        "L2": "shīatf",
+        "A3": "شِيةف",
+        "L3": "shīatf"
+      },
+      "carrier": {
+        "A1": "شِيةف",
+        "L1": "shīatf",
+        "A2": "شِياَتف",
+        "L2": "shjatf",
+        "A3": "شيْاَتف",
+        "L3": "shjatf"
+      }
+    },
+    {
+      "input": "ةِيةِح",
+      "released": {
+        "A1": "ةِيةِح",
+        "L1": "atīatiH",
+        "A2": "ةِيةِح",
+        "L2": "atīatiH",
+        "A3": "ةِيةِح",
+        "L3": "atīatiH"
+      },
+      "carrier": {
+        "A1": "ةِيةِح",
+        "L1": "atīatiH",
+        "A2": "اَتِياَتِح",
+        "L2": "atjatiH",
+        "A3": "اَتيْاَتِح",
+        "L3": "atjatiH"
+      }
+    }
+  ]
+}

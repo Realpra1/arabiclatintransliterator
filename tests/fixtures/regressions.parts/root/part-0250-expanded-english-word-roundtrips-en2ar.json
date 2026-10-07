@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0148",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cashier",
+    "output": "كَشِير",
+    "roundTrip": "kashīr",
+    "secondPass": "كَشِير"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0149",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "wish",
+    "output": "وِش",
+    "roundTrip": "vish",
+    "secondPass": "وِش"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0150",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "thin",
+    "output": "ثِن",
+    "roundTrip": "thin",
+    "secondPass": "ثِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0151",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "thing",
+    "output": "ثِنج",
+    "roundTrip": "thinJ",
+    "secondPass": "ثِنج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0152",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "thick",
+    "output": "ثِكّ",
+    "roundTrip": "thikk",
+    "secondPass": "ثِكّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0153",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "this",
+    "output": "ثِس",
+    "roundTrip": "this",
+    "secondPass": "ثِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0154",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "that",
+    "output": "ثة",
+    "roundTrip": "that",
+    "secondPass": "ثة"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0155",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "the",
+    "output": "ثِ",
+    "roundTrip": "thi",
+    "secondPass": "ثِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0156",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "other",
+    "output": "أُثِر",
+    "roundTrip": "uthir",
+    "secondPass": "أُثِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0157",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "mother",
+    "output": "مُثِر",
+    "roundTrip": "muthir",
+    "secondPass": "مُثِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0158",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "clothes",
+    "output": "كلُثِس",
+    "roundTrip": "kluthis",
+    "secondPass": "كلُثِس"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0159",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "ghost",
+    "output": "غُست",
+    "roundTrip": "ghust",
+    "secondPass": "غُست"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0160",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "night",
+    "output": "نِغت",
+    "roundTrip": "night",
+    "secondPass": "نِغت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0161",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "light",
+    "output": "لِغت",
+    "roundTrip": "light",
+    "secondPass": "لِغت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0162",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "daughter",
+    "output": "دَُغتِر",
+    "roundTrip": "daughtir",
+    "secondPass": "دَُغتِر"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0163",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "laugh",
+    "output": "لَُغ",
+    "roundTrip": "laugh",
+    "secondPass": "لَُغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0164",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "cough",
+    "output": "كُوغ",
+    "roundTrip": "kūgh",
+    "secondPass": "كُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0165",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "rough",
+    "output": "رُوغ",
+    "roundTrip": "rūgh",
+    "secondPass": "رُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0166",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "through",
+    "output": "ثرُوغ",
+    "roundTrip": "thrūgh",
+    "secondPass": "ثرُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0167",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "though",
+    "output": "ثُوغ",
+    "roundTrip": "thūgh",
+    "secondPass": "ثُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0168",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "thought",
+    "output": "ثُوغت",
+    "roundTrip": "thūght",
+    "secondPass": "ثُوغت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0169",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "thorough",
+    "output": "ثُرُوغ",
+    "roundTrip": "thurūgh",
+    "secondPass": "ثُرُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0170",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "bough",
+    "output": "بُوغ",
+    "roundTrip": "būgh",
+    "secondPass": "بُوغ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0171",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "knight",
+    "output": "كنِغت",
+    "roundTrip": "knight",
+    "secondPass": "كنِغت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0172",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "knife",
+    "output": "كنِفِ",
+    "roundTrip": "knifi",
+    "secondPass": "كنِفِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0173",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "write",
+    "output": "وْرِتِ",
+    "roundTrip": "vriti",
+    "secondPass": "وْرِتِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0174",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "wrong",
+    "output": "وْرُنج",
+    "roundTrip": "vrunJ",
+    "secondPass": "وْرُنج"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0175",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "queue",
+    "output": "قُُِِ",
+    "roundTrip": "quiui",
+    "secondPass": "قُُِِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0176",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "queen",
+    "output": "قُِين",
+    "roundTrip": "qujn",
+    "secondPass": "قُيْن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0177",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "quick",
+    "output": "قُِكّ",
+    "roundTrip": "quikk",
+    "secondPass": "قُِكّ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0178",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "quay",
+    "output": "قَُيْ",
+    "roundTrip": "quaj",
+    "secondPass": "قَُيْ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0179",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "quite",
+    "output": "قُِتِ",
+    "roundTrip": "quiti",
+    "secondPass": "قُِتِ"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0180",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "quiet",
+    "output": "قُِيت",
+    "roundTrip": "qujt",
+    "secondPass": "قُيْت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0181",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "quit",
+    "output": "قُِت",
+    "roundTrip": "quit",
+    "secondPass": "قُِت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0182",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "question",
+    "output": "قُِستُِن",
+    "roundTrip": "quistiun",
+    "secondPass": "قُِستُِن"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0183",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "book",
+    "output": "بُوك",
+    "roundTrip": "būk",
+    "secondPass": "بُوك"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0184",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "boot",
+    "output": "بُوت",
+    "roundTrip": "būt",
+    "secondPass": "بُوت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0185",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "food",
+    "output": "فُود",
+    "roundTrip": "fūd",
+    "secondPass": "فُود"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0186",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "good",
+    "output": "جُود",
+    "roundTrip": "Jūd",
+    "secondPass": "جُود"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0187",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "blood",
+    "output": "بلُود",
+    "roundTrip": "blūd",
+    "secondPass": "بلُود"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0188",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "flood",
+    "output": "فلُود",
+    "roundTrip": "flūd",
+    "secondPass": "فلُود"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0189",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "moon",
+    "output": "مُون",
+    "roundTrip": "mūn",
+    "secondPass": "مُون"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0190",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "room",
+    "output": "رُوم",
+    "roundTrip": "rūm",
+    "secondPass": "رُوم"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0191",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "wood",
+    "output": "وُود",
+    "roundTrip": "ūūd",
+    "secondPass": "ُوُود"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0192",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "see",
+    "output": "سِي",
+    "roundTrip": "sī",
+    "secondPass": "سِي"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0193",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "seed",
+    "output": "سِيد",
+    "roundTrip": "sīd",
+    "secondPass": "سِيد"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0194",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "green",
+    "output": "جرِين",
+    "roundTrip": "Jrīn",
+    "secondPass": "جرِين"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0195",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "meet",
+    "output": "مِيت",
+    "roundTrip": "mīt",
+    "secondPass": "مِيت"
+  },
+  {
+    "id": "expanded-english-word-roundtrips/en2ar/0196",
+    "group": "expanded-english-word-roundtrips",
+    "direction": "en2ar",
+    "input": "feet",
+    "output": "فِيت",
+    "roundTrip": "fīt",
+    "secondPass": "فِيت"
+  }
+]

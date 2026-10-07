@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0037",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+      "L1": "aldhī, 'ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla ",
+      "A2": "اَلذِي، أَمس؟ شِيئ، غَدً/شَمسٌ\n\nسَتَسمَع عاءشة — فِي؟ نافذة، هوْاء؟ لكن\n\nلِيلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ ",
+      "L2": "aldhī, ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla ",
+      "A3": "اَلذِي، اَمس؟ شِيئ، غَدً/شَمسٌ\n\nسَتَسمَع عاءشة — فِي؟ نافذة، هوْاء؟ لكن\n\nلِيلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ ",
+      "L3": "aldhī, ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla "
+    }
+  }
+]

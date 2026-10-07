@@ -1,5 +1,6 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import { createHash } from 'node:crypto';
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync } from 'node:fs';
 import { loadTranslator, root, translatorFiles } from '../tests/helpers/load-translator.mjs';
 import { stabilityCases } from '../tests/helpers/roundtrip-stability.mjs';
 
@@ -101,10 +102,10 @@ for (const length of [8, 16, 32, 64, 128]) {
   stressProbes.push({ ...c, ...result, finalStates: trace.slice(-3) });
 }
 mkdirSync(new URL('experiments/', root), { recursive: true });
-writeFileSync(new URL('experiments/convergence.json', root), JSON.stringify({
+writeJsonArtifact(new URL('experiments/convergence.json', root), {
   description: 'One round trip is source → other script → source. Round 0 is the original input. stableAfterRoundTrips identifies the first source state that repeats unchanged on the next round trip. A period greater than one proves nonconvergence. A resource limit is inconclusive, not proof of nonconvergence.',
   maxRounds, maxLength, sourceSha256, summary, longest, cycles, unresolved, stressProbes, results,
-}, null, 2) + '\n');
+});
 console.log(JSON.stringify(summary, null, 2));
 for (const c of stressProbes) console.log(`${c.id}: ${c.status}, stable after ${c.stableAfterRoundTrips ?? 'unknown'} round trips`);
 for (const c of [...cycles, ...unresolved]) console.log(`${c.status}: ${c.id} ${JSON.stringify(c.input.slice(0, 100))}`);

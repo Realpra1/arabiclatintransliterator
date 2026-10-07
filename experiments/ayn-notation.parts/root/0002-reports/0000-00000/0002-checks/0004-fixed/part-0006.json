@@ -1,0 +1,352 @@
+[
+  {
+    "id": "expanded-seeded-fragments/en2ar/0147",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0152",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0155",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0156",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0164",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0170",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/en2ar/0179",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0001",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0001",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0005",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0005",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0007",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0007",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0008",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0008",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0011",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0011",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0018",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0018",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0019",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0019",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0023",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0023",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0024",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0024",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0025",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0025",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0027",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0027",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0028",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0028",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0030",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0030",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0031",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0031",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0032",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0032",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0033",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0033",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0035",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0035",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0036",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0036",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0037",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0037",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0040",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0040",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0041",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0042",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0042",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0043",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0043",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0044",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0044",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0046",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0046",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0047",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0047",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0050",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0050",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0051",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0051",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0054",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0054",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0057",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0057",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0058",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0058",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0060",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0060",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  }
+]

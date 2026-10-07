@@ -1,0 +1,447 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0095",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0096",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0097",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0098",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0099",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0100",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0101",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0102",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0103",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0104",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0105",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0107",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0109",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0111",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0112",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0113",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0114",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0115",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0116",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0117",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0118",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0119",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0120",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0004",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0004",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0004",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0004",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0005",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0005",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0005",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0005",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0019",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0019",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0019",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0019",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0025",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0031",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0031",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0031",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0034",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0042",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0061",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0061",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0061",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0061",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0066",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0066",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0066",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0066",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0068",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0068",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0068",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0068",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0072",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0077",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0077",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0077",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0077",
+    "direction": "en2ar",
+    "rule": "Latin input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0078",
+    "direction": "ar2en",
+    "rule": "Arabic input: Latin L2 = L3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0078",
+    "direction": "ar2en",
+    "rule": "Arabic input: Arabic A2 = A3"
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0078",
+    "direction": "en2ar",
+    "rule": "Latin input: Latin L2 = L3"
+  }
+]

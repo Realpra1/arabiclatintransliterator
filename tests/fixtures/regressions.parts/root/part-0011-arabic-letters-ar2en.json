@@ -1,0 +1,344 @@
+[
+  {
+    "id": "arabic-letters/ar2en/0001",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ا",
+    "output": "ā",
+    "roundTrip": "ا",
+    "secondPass": "ā"
+  },
+  {
+    "id": "arabic-letters/ar2en/0002",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ى",
+    "output": "á",
+    "roundTrip": "ى",
+    "secondPass": "á"
+  },
+  {
+    "id": "arabic-letters/ar2en/0003",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ة",
+    "output": "at",
+    "roundTrip": "ة",
+    "secondPass": "at"
+  },
+  {
+    "id": "arabic-letters/ar2en/0004",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ب",
+    "output": "b",
+    "roundTrip": "ب",
+    "secondPass": "b"
+  },
+  {
+    "id": "arabic-letters/ar2en/0005",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ت",
+    "output": "t",
+    "roundTrip": "ت",
+    "secondPass": "t"
+  },
+  {
+    "id": "arabic-letters/ar2en/0006",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ث",
+    "output": "th",
+    "roundTrip": "ث",
+    "secondPass": "th"
+  },
+  {
+    "id": "arabic-letters/ar2en/0007",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ج",
+    "output": "J",
+    "roundTrip": "ج",
+    "secondPass": "J"
+  },
+  {
+    "id": "arabic-letters/ar2en/0008",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ح",
+    "output": "H",
+    "roundTrip": "ح",
+    "secondPass": "H"
+  },
+  {
+    "id": "arabic-letters/ar2en/0009",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "خ",
+    "output": "kh",
+    "roundTrip": "خ",
+    "secondPass": "kh"
+  },
+  {
+    "id": "arabic-letters/ar2en/0010",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "د",
+    "output": "d",
+    "roundTrip": "د",
+    "secondPass": "d"
+  },
+  {
+    "id": "arabic-letters/ar2en/0011",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ذ",
+    "output": "dh",
+    "roundTrip": "ذ",
+    "secondPass": "dh"
+  },
+  {
+    "id": "arabic-letters/ar2en/0012",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ر",
+    "output": "r",
+    "roundTrip": "ر",
+    "secondPass": "r"
+  },
+  {
+    "id": "arabic-letters/ar2en/0013",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ز",
+    "output": "z",
+    "roundTrip": "ز",
+    "secondPass": "z"
+  },
+  {
+    "id": "arabic-letters/ar2en/0014",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "س",
+    "output": "s",
+    "roundTrip": "س",
+    "secondPass": "s"
+  },
+  {
+    "id": "arabic-letters/ar2en/0015",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ش",
+    "output": "sh",
+    "roundTrip": "ش",
+    "secondPass": "sh"
+  },
+  {
+    "id": "arabic-letters/ar2en/0016",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ص",
+    "output": "S",
+    "roundTrip": "ص",
+    "secondPass": "S"
+  },
+  {
+    "id": "arabic-letters/ar2en/0017",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ض",
+    "output": "D",
+    "roundTrip": "ض",
+    "secondPass": "D"
+  },
+  {
+    "id": "arabic-letters/ar2en/0018",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ط",
+    "output": "T",
+    "roundTrip": "ط",
+    "secondPass": "T"
+  },
+  {
+    "id": "arabic-letters/ar2en/0019",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ظ",
+    "output": "Z",
+    "roundTrip": "ظ",
+    "secondPass": "Z"
+  },
+  {
+    "id": "arabic-letters/ar2en/0020",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ع",
+    "output": "-",
+    "roundTrip": "ع",
+    "secondPass": "-"
+  },
+  {
+    "id": "arabic-letters/ar2en/0021",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "غ",
+    "output": "gh",
+    "roundTrip": "غ",
+    "secondPass": "gh"
+  },
+  {
+    "id": "arabic-letters/ar2en/0022",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ف",
+    "output": "f",
+    "roundTrip": "ف",
+    "secondPass": "f"
+  },
+  {
+    "id": "arabic-letters/ar2en/0023",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ق",
+    "output": "q",
+    "roundTrip": "ق",
+    "secondPass": "q"
+  },
+  {
+    "id": "arabic-letters/ar2en/0024",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ك",
+    "output": "k",
+    "roundTrip": "ك",
+    "secondPass": "k"
+  },
+  {
+    "id": "arabic-letters/ar2en/0025",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ل",
+    "output": "l",
+    "roundTrip": "ل",
+    "secondPass": "l"
+  },
+  {
+    "id": "arabic-letters/ar2en/0026",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "م",
+    "output": "m",
+    "roundTrip": "م",
+    "secondPass": "m"
+  },
+  {
+    "id": "arabic-letters/ar2en/0027",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ن",
+    "output": "n",
+    "roundTrip": "ن",
+    "secondPass": "n"
+  },
+  {
+    "id": "arabic-letters/ar2en/0028",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ه",
+    "output": "h",
+    "roundTrip": "ه",
+    "secondPass": "h"
+  },
+  {
+    "id": "arabic-letters/ar2en/0029",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "و",
+    "output": "v",
+    "roundTrip": "وْ",
+    "secondPass": "v"
+  },
+  {
+    "id": "arabic-letters/ar2en/0030",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ي",
+    "output": "ī",
+    "roundTrip": "ِي",
+    "secondPass": "ī"
+  },
+  {
+    "id": "arabic-letters/ar2en/0031",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ء",
+    "output": "'",
+    "roundTrip": "أ",
+    "secondPass": "'a"
+  },
+  {
+    "id": "arabic-letters/ar2en/0032",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "أ",
+    "output": "'a",
+    "roundTrip": "أَ",
+    "secondPass": "a"
+  },
+  {
+    "id": "arabic-letters/ar2en/0033",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "إ",
+    "output": "'i",
+    "roundTrip": "إِ",
+    "secondPass": "i"
+  },
+  {
+    "id": "arabic-letters/ar2en/0034",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ؤ",
+    "output": "'",
+    "roundTrip": "أ",
+    "secondPass": "'a"
+  },
+  {
+    "id": "arabic-letters/ar2en/0035",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ئ",
+    "output": "'",
+    "roundTrip": "أ",
+    "secondPass": "'a"
+  },
+  {
+    "id": "arabic-letters/ar2en/0036",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "آ",
+    "output": "'ā",
+    "roundTrip": "آ",
+    "secondPass": "'ā"
+  },
+  {
+    "id": "arabic-letters/ar2en/0037",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ٱ",
+    "output": "i",
+    "roundTrip": "إِ",
+    "secondPass": "i"
+  },
+  {
+    "id": "arabic-letters/ar2en/0038",
+    "group": "arabic-letters",
+    "direction": "ar2en",
+    "input": "ٰ",
+    "output": "ā",
+    "roundTrip": "ا",
+    "secondPass": "ā"
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\tؤ\tنعم",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قال\tؤ\tنعم",
+      "L1": "qāl\t'\tn-m",
+      "A2": "قال\tأ\tنعم",
+      "L2": "qāl\t'a\tn-m",
+      "A3": "قال\tأَ\tنعم",
+      "L3": "qāl\ta\tn-m"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب ؤ ت",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ب ؤ ت",
+      "L1": "b ' t",
+      "A2": "ب أ ت",
+      "L2": "b 'a t",
+      "A3": "ب أَ ت",
+      "L3": "b a t"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ئ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئ",
+      "L1": "'",
+      "A2": "أ",
+      "L2": "'a",
+      "A3": "أَ",
+      "L3": "a"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": " ئ ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": " ئ ",
+      "L1": " ' ",
+      "A2": " أ ",
+      "L2": " 'a ",
+      "A3": " أَ ",
+      "L3": " a "
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0149",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "(ئ)",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "(ئ)",
+      "L1": "(')",
+      "A2": "(أ)",
+      "L2": "('a)",
+      "A3": "(أa)",
+      "L3": "('ā)"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0150",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "«ئ»",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "«ئ»",
+      "L1": "«'»",
+      "A2": "«أ»",
+      "L2": "«'a»",
+      "A3": "«أa»",
+      "L3": "«'ā»"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0151",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال ئ نعم",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قال ئ نعم",
+      "L1": "qāl ' n-m",
+      "A2": "قال أ نعم",
+      "L2": "qāl 'a n-m",
+      "A3": "قال أَ نعم",
+      "L3": "qāl a n-m"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0152",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\nئ\nنعم",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قال\nئ\nنعم",
+      "L1": "qāl\n'\nn-m",
+      "A2": "قال\nأ\nنعم",
+      "L2": "qāl\n'a\nn-m",
+      "A3": "قال\nأَ\nنعم",
+      "L3": "qāl\na\nn-m"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0153",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\tئ\tنعم",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "قال\tئ\tنعم",
+      "L1": "qāl\t'\tn-m",
+      "A2": "قال\tأ\tنعم",
+      "L2": "qāl\t'a\tn-m",
+      "A3": "قال\tأَ\tنعم",
+      "L3": "qāl\ta\tn-m"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0156",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب ئ ت",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ب ئ ت",
+      "L1": "b ' t",
+      "A2": "ب أ ت",
+      "L2": "b 'a t",
+      "A3": "ب أَ ت",
+      "L3": "b a t"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0165",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بَٱا",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "بَٱا",
+      "L1": "baā",
+      "A2": "بَا",
+      "L2": "bā",
+      "A3": "با",
+      "L3": "bā"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0326",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بَّا",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "بَّا",
+      "L1": "bbaā",
+      "A2": "بَّا",
+      "L2": "bbā",
+      "A3": "بّا",
+      "L3": "bbā"
+    }
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0349",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بَـا",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "بَـا",
+      "L1": "baā",
+      "A2": "بَا",
+      "L2": "bā",
+      "A3": "با",
+      "L3": "bā"
+    }
+  }
+]

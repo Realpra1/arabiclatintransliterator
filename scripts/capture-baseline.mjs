@@ -1,3 +1,4 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -11,7 +12,7 @@ if (process.argv.slice(2).join(' ') !== '--accept-current-behavior') {
 
 const { MapperTranslator: translator, MapperLatinNormalizer: normalizer } = loadTranslator();
 const fixtureUrl = file => new URL(`../tests/fixtures/${file}`, import.meta.url);
-const saveJSON = (file, value) => writeFileSync(fixtureUrl(file), JSON.stringify(value, null, 2) + '\n');
+const saveJSON = (file, value) => writeJsonArtifact(fixtureUrl(file), value);
 const opposite = direction => direction === 'en2ar' ? 'ar2en' : 'en2ar';
 const hash = text => createHash('sha256').update(text).digest('hex');
 

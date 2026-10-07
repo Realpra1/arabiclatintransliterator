@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0026",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhythm\n\nkitāb/من\n\nyellow شاي — alSawt على, هؤلاء/",
+    "output": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhythm\n\nkitāb/mn\n\nyellow shāj — alSawt -lá, h'lā'/",
+    "roundTrip": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِيثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/",
+    "secondPass": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhīthm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/",
+    "before": {
+      "output": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhythm\n\nkitāb/mn\n\nyellow shāj — alSawt -lá, h'lā'/",
+      "roundTrip": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/",
+      "secondPass": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhithm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/"
+    },
+    "after": {
+      "output": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhythm\n\nkitāb/mn\n\nyellow shāj — alSawt -lá, h'lā'/",
+      "roundTrip": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِثم\n\nكِتاب/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/",
+      "secondPass": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhithm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

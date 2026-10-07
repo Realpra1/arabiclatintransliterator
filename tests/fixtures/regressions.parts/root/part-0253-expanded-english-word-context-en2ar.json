@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0050",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "The city school has a xylophone. A cat watches me cycle past the cancer clinic.",
+    "output": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وَتتجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك.",
+    "roundTrip": "Thi siti stJūl has a silufuni. a kat vattJis mi sikli bast thi kansir klinik.",
+    "secondPass": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وَتّجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك."
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0051",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city\nxylophone\ncat\ncancer\nschool\ncycle",
+    "output": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ",
+    "roundTrip": "siti\nsilufuni\nkat\nkansir\nstJūl\nsikli",
+    "secondPass": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ"
+  }
+]

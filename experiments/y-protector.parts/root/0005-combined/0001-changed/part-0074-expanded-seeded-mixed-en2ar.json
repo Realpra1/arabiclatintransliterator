@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0022",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "quvva\n\nعائشة with\n\nفي/lā\n\nمحمد? lajla, مسؤول? غدًا, anta/qahva\n\nنعم/aHmad, ā ستسمع, á/على, su'āl? ماء, naHnu? ",
+    "output": "قُوَّ\n\nعائشة وِث\n\nفي/lا\n\nمحمد؟ لَيْلَ، مسؤول؟ غدًا، اَنتَ/قَهوَ\n\nنعم/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ ",
+    "roundTrip": "quvva\n\n-ā'shat vith\n\nfī/lā\n\nmHmd? lajla, ms'ūl? ghdaNā, anta/qahva\n\nn-m/aHmad, ā stsm-, á/-lá, su'āl? mā', naHnu? ",
+    "secondPass": "قُوَّ\n\nعاءشة وِث\n\nفِي/lا\n\nمحمد؟ لَيْلَ، مسؤُول؟ غدًا، اَنتَ/قَهوَ\n\nنعm/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ ",
+    "before": {
+      "output": "قُوَّ\n\nعائشة وِث\n\nفي/lا\n\nمحمد؟ لَيْلَ، مسؤول؟ غدًا، اَنتَ/قَهوَ\n\nنعم/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ ",
+      "roundTrip": "quvva\n\n-ā'shat vith\n\nfī/lā\n\nmHmd? lajla, ms'ūl? ghdaNā, anta/qahva\n\nn-m/aHmad, ā stsm-, á/-lá, su'āl? mā', naHnu? ",
+      "secondPass": "قُوَّ\n\nعاءشة وِث\n\nفِي/lا\n\nمحمد؟ لَيْلَ، مسؤُول؟ غدًا، اَنتَ/قَهوَ\n\nنعm/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ "
+    },
+    "after": {
+      "output": "قُوَّ\n\nعائشة وِث\n\nفي/لا\n\nمحمد؟ لَيْلَ، مسؤول؟ غدًا، اَنتَ/قَهوَ\n\nنعم/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ ",
+      "roundTrip": "quvva\n\n-ā'shat vith\n\nfī/lā\n\nmHmd? lajla, ms'ūl? ghdaNā, anta/qahva\n\nn-m/aHmad, ā stsm-, á/-lá, su'āl? mā', naHnu? ",
+      "secondPass": "قُوَّ\n\nعاءشة وِث\n\nفِي/لا\n\nمحمد؟ لَيْلَ، مسؤُول؟ غدًا، اَنتَ/قَهوَ\n\nنعm/اَحمَد، ا ستسمع، ى/على، سُؤال؟ ماء، نَحنُ؟ "
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

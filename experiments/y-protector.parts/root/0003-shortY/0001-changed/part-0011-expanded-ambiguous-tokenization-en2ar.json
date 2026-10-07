@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0016",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+    "output": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+    "roundTrip": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+    "secondPass": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ",
+    "before": {
+      "output": "بِيَ بِييَ بِييِْيَ بِييِْييَ بِيً اَيَّ إِيَّ أُيَّ",
+      "roundTrip": "bija bīja bījija bījīja bijaN ajja ijja ujja",
+      "secondPass": "بِيَ بِييَ بِييِيَ بِييِْييَ بِيًْ اَيَّ إِيَّ أُيَّ"
+    },
+    "after": {
+      "output": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+      "roundTrip": "bia bija bjia bīija biaN ajja ijja ujja",
+      "secondPass": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

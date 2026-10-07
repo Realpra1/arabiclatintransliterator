@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0045",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+    "output": "اَلصَوْت، شَمْسٌ/هذه — مدرسة اَحمَد، سِتِي؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِي\n\nصباحًا/الذي — غَدً يِلُّوْ\n\nإلى؟ كتاب\n\nرهِيثم/",
+    "roundTrip": "alSavt, shamsuN/hdhh — mdrsat aHmad, sitī? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? sitī\n\nSbāHaNā/āldhī — ghadaN jilluv\n\n'ilá? ktāb\n\nrhīthm/",
+    "secondPass": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِي؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِي\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِيثم/",
+    "before": {
+      "output": "اَلصَوْت، شَمْسٌ/هذه — مدرسة اَحمَد، سِتِي؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِي\n\nصباحًا/الذي — غَدً يِلُّوْ\n\nإلى؟ كتاب\n\nرهِيثم/",
+      "roundTrip": "alSavt, shamsuN/hdhh — mdrsat aHmad, sitī? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? sitī\n\nSbāHaNā/āldhī — ghadaN jilluv\n\n'ilá? ktāb\n\nrhīthm/",
+      "secondPass": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِي؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِي\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِيثم/"
+    },
+    "after": {
+      "output": "اَلصَوْت، شَمْسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذي — غَدً يِلُّوْ\n\nإلى؟ كتاب\n\nرهِثم/",
+      "roundTrip": "alSavt, shamsuN/hdhh — mdrsat aHmad, siti? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? siti\n\nSbāHaNā/āldhī — ghadaN jilluv\n\n'ilá? ktāb\n\nrhithm/",
+      "secondPass": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِثم/"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

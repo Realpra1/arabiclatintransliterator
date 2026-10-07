@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0002",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "لأن\n\nyellow? هي, هواء عائشة — غدًا? E=mc^2, madrasat? kitāb, الذي? anta\n\nā/aN, quvva lā — ليلى? قهوة — shāj? anta, city/",
+    "output": "l'n\n\nyellow? hī, hvā' -ā'shat — ghdaNā? E=mc^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, city/",
+    "roundTrip": "لأن\n\nيِلُّوْ؟ هِي، هوْاء عاءشة — غدًا؟ E=مك^2، مَدرَسة؟ كِتاب، اَلذِي؟ اَنتَ\n\nا/ً، قُوَّ لا — لِيلى؟ قهُوة — شايْ؟ اَنتَ، سِتِي/",
+    "secondPass": "l'n\n\njilluv? hī, hvā' -ā'shat — ghdaNā? E=mk^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, sitī/",
+    "before": {
+      "output": "l'n\n\nyellow? hī, hvā' -ā'shat — ghdaNā? E=mc^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, city/",
+      "roundTrip": "لأن\n\nيِلُّوْ؟ هِي، هوْاء عاءشة — غدًا؟ E=مك^2، مَدرَسة؟ كِتاب، اَلذِي؟ اَنتَ\n\nا/ً، قُوَّ لا — لِيلى؟ قهُوة — شايْ؟ اَنتَ، سِتِي/",
+      "secondPass": "l'n\n\njilluv? hī, hvā' -ā'shat — ghdaNā? E=mk^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, sitī/"
+    },
+    "after": {
+      "output": "l'n\n\nyellow? hī, hvā' -ā'shat — ghdaNā? E=mc^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, city/",
+      "roundTrip": "لأن\n\nيِلُّوْ؟ هِي، هوْاء عاءشة — غدًا؟ E=مك^2، مَدرَسة؟ كِتاب، اَلذِي؟ اَنتَ\n\nا/ً، قُوَّ لا — لِيلى؟ قهُوة — شايْ؟ اَنتَ، سِتِ/",
+      "secondPass": "l'n\n\njilluv? hī, hvā' -ā'shat — ghdaNā? E=mk^2, madrasat? kitāb, aldhī? anta\n\nā/aN, quvva lā — līlá? qhūat — shāj? anta, siti/"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

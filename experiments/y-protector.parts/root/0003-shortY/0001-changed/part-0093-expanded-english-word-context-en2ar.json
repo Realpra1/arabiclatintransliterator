@@ -1,0 +1,218 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0043",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle.",
+    "output": "سِيكلِ.",
+    "roundTrip": "sīkli.",
+    "secondPass": "سِيكلِ.",
+    "before": {
+      "output": "سِيكلِ.",
+      "roundTrip": "sīkli.",
+      "secondPass": "سِيكلِ."
+    },
+    "after": {
+      "output": "سِكلِ.",
+      "roundTrip": "sikli.",
+      "secondPass": "سِكلِ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0044",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle?",
+    "output": "سِيكلِ؟",
+    "roundTrip": "sīkli?",
+    "secondPass": "سِيكلِ؟",
+    "before": {
+      "output": "سِيكلِ؟",
+      "roundTrip": "sīkli?",
+      "secondPass": "سِيكلِ؟"
+    },
+    "after": {
+      "output": "سِكلِ؟",
+      "roundTrip": "sikli?",
+      "secondPass": "سِكلِ؟"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0045",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "(cycle)",
+    "output": "(سِيكلِ)",
+    "roundTrip": "(sīkli)",
+    "secondPass": "(sِيكلِ)",
+    "before": {
+      "output": "(سِيكلِ)",
+      "roundTrip": "(sīkli)",
+      "secondPass": "(sِيكلِ)"
+    },
+    "after": {
+      "output": "(سِكلِ)",
+      "roundTrip": "(sikli)",
+      "secondPass": "(سِكلِ)"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0046",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "a cycle",
+    "output": "اَ سِيكلِ",
+    "roundTrip": "a sīkli",
+    "secondPass": "اَ سِيكلِ",
+    "before": {
+      "output": "اَ سِيكلِ",
+      "roundTrip": "a sīkli",
+      "secondPass": "اَ سِيكلِ"
+    },
+    "after": {
+      "output": "اَ سِكلِ",
+      "roundTrip": "a sikli",
+      "secondPass": "اَ سِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0047",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "the cycle",
+    "output": "ثِ سِيكلِ",
+    "roundTrip": "thi sīkli",
+    "secondPass": "ثِ سِيكلِ",
+    "before": {
+      "output": "ثِ سِيكلِ",
+      "roundTrip": "thi sīkli",
+      "secondPass": "ثِ سِيكلِ"
+    },
+    "after": {
+      "output": "ثِ سِكلِ",
+      "roundTrip": "thi sikli",
+      "secondPass": "ثِ سِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0048",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "cycle\ncycle",
+    "output": "سِيكلِ\nسِيكلِ",
+    "roundTrip": "sīkli\nsīkli",
+    "secondPass": "سِيكلِ\nسِيكلِ",
+    "before": {
+      "output": "سِيكلِ\nسِيكلِ",
+      "roundTrip": "sīkli\nsīkli",
+      "secondPass": "سِيكلِ\nسِيكلِ"
+    },
+    "after": {
+      "output": "سِكلِ\nسِكلِ",
+      "roundTrip": "sikli\nsikli",
+      "secondPass": "سِكلِ\nسِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0049",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city xylophone cat cancer school cycle",
+    "output": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ",
+    "roundTrip": "sitī sīlufuni kat kansir stJūl sīkli",
+    "secondPass": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ",
+    "before": {
+      "output": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ",
+      "roundTrip": "sitī sīlufuni kat kansir stJūl sīkli",
+      "secondPass": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ"
+    },
+    "after": {
+      "output": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ",
+      "roundTrip": "siti silufuni kat kansir stJūl sikli",
+      "secondPass": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0050",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "The city school has a xylophone. A cat watches me cycle past the cancer clinic.",
+    "output": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك.",
+    "roundTrip": "Thi sitī stJūl has a sīlufuni. a kat vattJis mi sīkli bast thi kansir klinik.",
+    "secondPass": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك.",
+    "before": {
+      "output": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك.",
+      "roundTrip": "Thi sitī stJūl has a sīlufuni. a kat vattJis mi sīkli bast thi kansir klinik.",
+      "secondPass": "طهِ سِتِي ستجُول هَس اَ سِيلُفُنِ. اَ كة وةتجِس مِ سِيكلِ بَست ثِ كَنسِر كلِنِك."
+    },
+    "after": {
+      "output": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وةتجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك.",
+      "roundTrip": "Thi siti stJūl has a silufuni. a kat vattJis mi sikli bast thi kansir klinik.",
+      "secondPass": "طهِ سِتِ ستجُول هَس اَ سِلُفُنِ. اَ كة وةتجِس مِ سِكلِ بَست ثِ كَنسِر كلِنِك."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0051",
+    "group": "expanded-english-word-context",
+    "direction": "en2ar",
+    "input": "city\nxylophone\ncat\ncancer\nschool\ncycle",
+    "output": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ",
+    "roundTrip": "sitī\nsīlufuni\nkat\nkansir\nstJūl\nsīkli",
+    "secondPass": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ",
+    "before": {
+      "output": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ",
+      "roundTrip": "sitī\nsīlufuni\nkat\nkansir\nstJūl\nsīkli",
+      "secondPass": "سِتِي\nسِيلُفُنِ\nكة\nكَنسِر\nستجُول\nسِيكلِ"
+    },
+    "after": {
+      "output": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ",
+      "roundTrip": "siti\nsilufuni\nkat\nkansir\nstJūl\nsikli",
+      "secondPass": "سِتِ\nسِلُفُنِ\nكة\nكَنسِر\nستجُول\nسِكلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

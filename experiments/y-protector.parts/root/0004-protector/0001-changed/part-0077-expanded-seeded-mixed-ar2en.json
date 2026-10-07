@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0044",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+    "output": "alSawt\n\nilá/rhythm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/coffee — 'ams/my — my ā, stsm-? ",
+    "roundTrip": "اَلصَوْت\n\nإِلى/رهِيثم — اَنتَ/مساأً\n\nاَلصَّباH/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِي — مِي ا، ستسمع؟ ",
+    "secondPass": "alSavt\n\nilá/rhīthm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — ams/mī — mī ā, stsm-? ",
+    "before": {
+      "output": "alSawt\n\nilá/rhythm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/coffee — 'ams/my — my ā, stsm-? ",
+      "roundTrip": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباH/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِ — مِ ا، ستسمع؟ ",
+      "secondPass": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — ams/mi — mi ā, stsm-? "
+    },
+    "after": {
+      "output": "alSawt\n\nilá/rhythm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/coffee — 'ams/my — my ā, stsm-? ",
+      "roundTrip": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباح/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِ — مِ ا، ستسمع؟ ",
+      "secondPass": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — ams/mi — mi ā, stsm-? "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

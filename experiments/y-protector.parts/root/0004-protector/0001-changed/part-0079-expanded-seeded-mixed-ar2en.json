@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0047",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/",
+    "output": "queue, n-m? alSawt\n\nanā hdhh\n\n'anā/ālīvm — min? lā — 'anā/nāfdhat — shāj? my — stsm- alSawt\n\nna-am/by — shamsuN/-alá — 'aHmd/",
+    "roundTrip": "قُُِِ، نعم؟ اَلصَوْت\n\nاَنا هذه\n\nأَنا/الِيوْم — مِن؟ لا — أَنا/nافذة — شايْ؟ مِي — ستسمع اَلصَوْت\n\nنَعَم/بِي — شَمسٌ/عَلى — أَحمد/",
+    "secondPass": "quiui, n-m? alSavt\n\nanā hdhh\n\nanā/ālīvm — min? lā — anā/nāfdhat — shāj? mī — stsm- alSavt\n\nna-am/bī — shamsuN/-alá — aHmd/",
+    "before": {
+      "output": "queue, n-m? alSawt\n\nanā hdhh\n\n'anā/ālīvm — min? lā — 'anā/nāfdhat — shāj? my — stsm- alSawt\n\nna-am/by — shamsuN/-alá — 'aHmd/",
+      "roundTrip": "قُُِِ، نعم؟ اَلصَوْت\n\nاَنا هذه\n\nأَنا/الِيوْم — مِن؟ لا — أَنا/nافذة — شايْ؟ مِ — ستسمع اَلصَوْت\n\nنَعَم/بِ — شَمسٌ/عَلى — أَحمد/",
+      "secondPass": "quiui, n-m? alSavt\n\nanā hdhh\n\nanā/ālīvm — min? lā — anā/nāfdhat — shāj? mi — stsm- alSavt\n\nna-am/bi — shamsuN/-alá — aHmd/"
+    },
+    "after": {
+      "output": "queue, n-m? alSawt\n\nanā hdhh\n\n'anā/ālīvm — min? lā — 'anā/nāfdhat — shāj? my — stsm- alSawt\n\nna-am/by — shamsuN/-alá — 'aHmd/",
+      "roundTrip": "قُُِِ، نعم؟ اَلصَوْت\n\nاَنا هذه\n\nأَنا/الِيوْم — مِن؟ لا — أَنا/نافذة — شايْ؟ مِ — ستسمع اَلصَوْت\n\nنَعَم/بِ — شَمسٌ/عَلى — أَحمد/",
+      "secondPass": "quiui, n-m? alSavt\n\nanā hdhh\n\nanā/ālīvm — min? lā — anā/nāfdhat — shāj? mi — stsm- alSavt\n\nna-am/bi — shamsuN/-alá — aHmd/"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

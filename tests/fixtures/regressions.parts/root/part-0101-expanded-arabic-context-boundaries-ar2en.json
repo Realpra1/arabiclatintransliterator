@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0099",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "وَء",
+    "output": "va'",
+    "roundTrip": "وَأ",
+    "secondPass": "va'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0100",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "فَء",
+    "output": "fa'",
+    "roundTrip": "فَأ",
+    "secondPass": "fa'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0101",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "لِء",
+    "output": "li'",
+    "roundTrip": "لِأ",
+    "secondPass": "li'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0102",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "الء",
+    "output": "al'",
+    "roundTrip": "اَلأ",
+    "secondPass": "al'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0103",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "(ء)",
+    "output": "(')",
+    "roundTrip": "(أ)",
+    "secondPass": "('a)"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0104",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "«ء»",
+    "output": "«'»",
+    "roundTrip": "«أ»",
+    "secondPass": "«'a»"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0105",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال ء نعم",
+    "output": "qāl ' n-m",
+    "roundTrip": "قال أ نعم",
+    "secondPass": "qāl 'a n-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0106",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\nء\nنعم",
+    "output": "qāl\n'\nn-m",
+    "roundTrip": "قال\nأ\nنعم",
+    "secondPass": "qāl\n'a\nn-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0107",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\tء\tنعم",
+    "output": "qāl\t'\tn-m",
+    "roundTrip": "قال\tأ\tنعم",
+    "secondPass": "qāl\t'a\tn-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0108",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب،ء؛ت",
+    "output": "b,';t",
+    "roundTrip": "ب،ء؛ت",
+    "secondPass": "b,';t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0109",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب/ء/ت",
+    "output": "b/'/t",
+    "roundTrip": "b/أ/t",
+    "secondPass": "b/'/t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0110",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب ء ت",
+    "output": "b ' t",
+    "roundTrip": "ب أ ت",
+    "secondPass": "b 'a t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0111",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب‍ء‍ت",
+    "output": "b‍'‍t",
+    "roundTrip": "ب‍أ‍ت",
+    "secondPass": "b‍'‍t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0112",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب‌ء‌ت",
+    "output": "b‌'‌t",
+    "roundTrip": "ب‌أ‌ت",
+    "secondPass": "b‌'‌t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0113",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب⁧ء⁩ت",
+    "output": "b⁧'⁩t",
+    "roundTrip": "ب⁧أ⁩ت",
+    "secondPass": "b⁧'⁩t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0114",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xءy",
+    "output": "x'y",
+    "roundTrip": "إِكسئيْ",
+    "secondPass": "iks'j"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0115",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "🙂ء🙂",
+    "output": "🙂'🙂",
+    "roundTrip": "🙂أ🙂",
+    "secondPass": "🙂'🙂"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0116",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ؤ",
+    "output": "'",
+    "roundTrip": "أ",
+    "secondPass": "'a"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0117",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": " ؤ ",
+    "output": " ' ",
+    "roundTrip": " أ ",
+    "secondPass": " 'a "
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0118",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بؤت",
+    "output": "b't",
+    "roundTrip": "بءت",
+    "secondPass": "b't"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0119",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بَؤا",
+    "output": "ba'ā",
+    "roundTrip": "بَءا",
+    "secondPass": "ba'ā"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0120",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بِؤي",
+    "output": "bi'ī",
+    "roundTrip": "بِئِي",
+    "secondPass": "bi'ī"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0121",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بُؤو",
+    "output": "bu'ū",
+    "roundTrip": "بُؤُو",
+    "secondPass": "bu'ū"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0122",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "وَؤ",
+    "output": "va'",
+    "roundTrip": "وَأ",
+    "secondPass": "va'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0123",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "فَؤ",
+    "output": "fa'",
+    "roundTrip": "فَأ",
+    "secondPass": "fa'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0124",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "لِؤ",
+    "output": "li'",
+    "roundTrip": "لِأ",
+    "secondPass": "li'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0125",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "الؤ",
+    "output": "al'",
+    "roundTrip": "اَلأ",
+    "secondPass": "al'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0126",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "(ؤ)",
+    "output": "(')",
+    "roundTrip": "(أ)",
+    "secondPass": "('a)"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0127",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "«ؤ»",
+    "output": "«'»",
+    "roundTrip": "«أ»",
+    "secondPass": "«'a»"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0128",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال ؤ نعم",
+    "output": "qāl ' n-m",
+    "roundTrip": "قال أ نعم",
+    "secondPass": "qāl 'a n-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0129",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\nؤ\nنعم",
+    "output": "qāl\n'\nn-m",
+    "roundTrip": "قال\nأ\nنعم",
+    "secondPass": "qāl\n'a\nn-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0130",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "قال\tؤ\tنعم",
+    "output": "qāl\t'\tn-m",
+    "roundTrip": "قال\tأ\tنعم",
+    "secondPass": "qāl\t'a\tn-m"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0131",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب،ؤ؛ت",
+    "output": "b,';t",
+    "roundTrip": "ب،ء؛ت",
+    "secondPass": "b,';t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0132",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب/ؤ/ت",
+    "output": "b/'/t",
+    "roundTrip": "b/أ/t",
+    "secondPass": "b/'/t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0133",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب ؤ ت",
+    "output": "b ' t",
+    "roundTrip": "ب أ ت",
+    "secondPass": "b 'a t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0134",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب‍ؤ‍ت",
+    "output": "b‍'‍t",
+    "roundTrip": "ب‍أ‍ت",
+    "secondPass": "b‍'‍t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0135",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب‌ؤ‌ت",
+    "output": "b‌'‌t",
+    "roundTrip": "ب‌أ‌ت",
+    "secondPass": "b‌'‌t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0136",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ب⁧ؤ⁩ت",
+    "output": "b⁧'⁩t",
+    "roundTrip": "ب⁧أ⁩ت",
+    "secondPass": "b⁧'⁩t"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0137",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "xؤy",
+    "output": "x'y",
+    "roundTrip": "إِكسئيْ",
+    "secondPass": "iks'j"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0138",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "🙂ؤ🙂",
+    "output": "🙂'🙂",
+    "roundTrip": "🙂أ🙂",
+    "secondPass": "🙂'🙂"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0139",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "ئ",
+    "output": "'",
+    "roundTrip": "أ",
+    "secondPass": "'a"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0140",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": " ئ ",
+    "output": " ' ",
+    "roundTrip": " أ ",
+    "secondPass": " 'a "
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0141",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بئت",
+    "output": "b't",
+    "roundTrip": "بءت",
+    "secondPass": "b't"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0142",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بَئا",
+    "output": "ba'ā",
+    "roundTrip": "بَءا",
+    "secondPass": "ba'ā"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0143",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بِئي",
+    "output": "bi'ī",
+    "roundTrip": "بِئِي",
+    "secondPass": "bi'ī"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0144",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "بُئو",
+    "output": "bu'ū",
+    "roundTrip": "بُؤُو",
+    "secondPass": "bu'ū"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0145",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "وَئ",
+    "output": "va'",
+    "roundTrip": "وَأ",
+    "secondPass": "va'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0146",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "فَئ",
+    "output": "fa'",
+    "roundTrip": "فَأ",
+    "secondPass": "fa'"
+  },
+  {
+    "id": "expanded-arabic-context-boundaries/ar2en/0147",
+    "group": "expanded-arabic-context-boundaries",
+    "direction": "ar2en",
+    "input": "لِئ",
+    "output": "li'",
+    "roundTrip": "لِأ",
+    "secondPass": "li'"
+  }
+]

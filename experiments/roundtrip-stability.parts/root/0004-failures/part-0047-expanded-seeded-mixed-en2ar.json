@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0025",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? queue\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? queue\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/",
+      "A1": "هواء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/فِي، قهوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/لأن — ‍/ليلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nأنت/",
+      "L2": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? quiui\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSavt/shaj', lajla/hdhh\n\n'ant/",
+      "A2": "هوْاء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/فِي، قهُوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/lأن — ‍/لِيلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nأَنت/",
+      "L3": "hvā'\n\nsu'āl? mn\n\nmadrasat 42\n\nmā'/fī, qhūat? quiui\n\n-alá/havā'\n\n42/l'n — ‍/līlá\n\nalSavt/shaj', lajla/hdhh\n\nant/",
+      "A3": "هوْاء\n\nسُؤال؟ من\n\nمَدرَسة 42\n\nماء/فِي، قهُوة؟ قُُِِ\n\nعَلى/هَوْاء\n\n42/lأن — ‍/لِيلى\n\nاَلصَوْت/شَيْء، لَيْلَ/هذه\n\nاَنت/"
+    }
+  }
+]

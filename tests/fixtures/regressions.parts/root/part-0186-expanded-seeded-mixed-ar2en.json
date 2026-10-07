@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0030",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "في, عائشة -alá, إلى? أنت\n\nlajla 🙂 — -alá? ستسمع\n\nworld/aHmad — naHnu su'āl\n\nٱلْبَيْتُ? على\n\nنعم كتاب — world 42\n\nworld? ",
+    "output": "fī, -ā'shat -alá, 'ilá? 'ant\n\nlajla 🙂 — -alá? stsm-\n\nworld/aHmad — naHnu su'āl\n\nalbajtu? -lá\n\nn-m ktāb — world 42\n\nworld? ",
+    "roundTrip": "فِي، عاءشة عَلى، إِلى؟ أَنت\n\nلَيْلَ 🙂 — عَلى؟ ستسمع\n\nوُرلد/اَحمَد — نَحنُ سُؤال\n\nاَلبَيْتُ؟ على\n\nنعم كتاب — وُرلد 42\n\nوُرلد؟ ",
+    "secondPass": "fī, -ā'shat -alá, ilá? ant\n\nlajla 🙂 — -alá? stsm-\n\nvurld/aHmad — naHnu su'āl\n\nalbajtu? -lá\n\nn-m ktāb — vurld 42\n\nvurld? "
+  }
+]

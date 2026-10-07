@@ -1,0 +1,437 @@
+[
+  {
+    "id": "latin-context/en2ar/0013",
+    "direction": "en2ar",
+    "input": "atat",
+    "before": {
+      "output": "ةة",
+      "roundTrip": "atat",
+      "secondPass": "ةة"
+    },
+    "after": {
+      "output": "اَتة",
+      "roundTrip": "atat",
+      "secondPass": "اَتة"
+    }
+  },
+  {
+    "id": "latin-context/en2ar/0015",
+    "direction": "en2ar",
+    "input": "alatāb",
+    "before": {
+      "output": "اَلةاب",
+      "roundTrip": "alatāb",
+      "secondPass": "اَلةاب"
+    },
+    "after": {
+      "output": "اَلاَتاب",
+      "roundTrip": "alatāb",
+      "secondPass": "اَلاَتاب"
+    }
+  },
+  {
+    "id": "latin-context/en2ar/0027",
+    "direction": "en2ar",
+    "input": "bath",
+    "before": {
+      "output": "بةه",
+      "roundTrip": "bath",
+      "secondPass": "بةه"
+    },
+    "after": {
+      "output": "باَث",
+      "roundTrip": "bath",
+      "secondPass": "باَث"
+    }
+  },
+  {
+    "id": "latin-context/en2ar/0237",
+    "direction": "en2ar",
+    "input": "bach",
+    "before": {
+      "output": "بَتج",
+      "roundTrip": "batJ",
+      "secondPass": "بةج"
+    },
+    "after": {
+      "output": "بَتج",
+      "roundTrip": "batJ",
+      "secondPass": "باَتج"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0033",
+    "direction": "ar2en",
+    "input": "ةّ",
+    "before": {
+      "output": "atat",
+      "roundTrip": "ةة",
+      "secondPass": "atat"
+    },
+    "after": {
+      "output": "atat",
+      "roundTrip": "اَتة",
+      "secondPass": "atat"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0037",
+    "direction": "ar2en",
+    "input": "ةَّ",
+    "before": {
+      "output": "atata",
+      "roundTrip": "ةةَ",
+      "secondPass": "atata"
+    },
+    "after": {
+      "output": "atata",
+      "roundTrip": "اَتةَ",
+      "secondPass": "atata"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0038",
+    "direction": "ar2en",
+    "input": "ةَّ",
+    "before": {
+      "output": "atata",
+      "roundTrip": "ةةَ",
+      "secondPass": "atata"
+    },
+    "after": {
+      "output": "atata",
+      "roundTrip": "اَتةَ",
+      "secondPass": "atata"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0039",
+    "direction": "ar2en",
+    "input": "ةِّ",
+    "before": {
+      "output": "atati",
+      "roundTrip": "ةةِ",
+      "secondPass": "atati"
+    },
+    "after": {
+      "output": "atati",
+      "roundTrip": "اَتةِ",
+      "secondPass": "atati"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0040",
+    "direction": "ar2en",
+    "input": "ةِّ",
+    "before": {
+      "output": "atati",
+      "roundTrip": "ةةِ",
+      "secondPass": "atati"
+    },
+    "after": {
+      "output": "atati",
+      "roundTrip": "اَتةِ",
+      "secondPass": "atati"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0041",
+    "direction": "ar2en",
+    "input": "ةُّ",
+    "before": {
+      "output": "atatu",
+      "roundTrip": "ةةُ",
+      "secondPass": "atatu"
+    },
+    "after": {
+      "output": "atatu",
+      "roundTrip": "اَتةُ",
+      "secondPass": "atatu"
+    }
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0042",
+    "direction": "ar2en",
+    "input": "ةُّ",
+    "before": {
+      "output": "atatu",
+      "roundTrip": "ةةُ",
+      "secondPass": "atatu"
+    },
+    "after": {
+      "output": "atatu",
+      "roundTrip": "اَتةُ",
+      "secondPass": "atatu"
+    }
+  },
+  {
+    "id": "latin-words/en2ar/0039",
+    "direction": "en2ar",
+    "input": "allatī",
+    "before": {
+      "output": "اَلّةِي",
+      "roundTrip": "allatī",
+      "secondPass": "اَلّةِي"
+    },
+    "after": {
+      "output": "اَلّاَتِي",
+      "roundTrip": "allatī",
+      "secondPass": "اَلّاَتِي"
+    }
+  },
+  {
+    "id": "english/en2ar/0001",
+    "direction": "en2ar",
+    "input": "One page civilization",
+    "before": {
+      "output": "أُنِ بَجِ سِوِلِزةُِن",
+      "roundTrip": "uni baJi sivilizatiun",
+      "secondPass": "أُنِ بَجِ سِوِلِزةُِن"
+    },
+    "after": {
+      "output": "أُنِ بَجِ سِوِلِزاَتُِن",
+      "roundTrip": "uni baJi sivilizatiun",
+      "secondPass": "أُنِ بَجِ سِوِلِزاَتُِن"
+    }
+  },
+  {
+    "id": "english/en2ar/0002",
+    "direction": "en2ar",
+    "input": "one page civilization",
+    "before": {
+      "output": "أُنِ بَجِ سِوِلِزةُِن",
+      "roundTrip": "uni baJi sivilizatiun",
+      "secondPass": "أُنِ بَجِ سِوِلِزةُِن"
+    },
+    "after": {
+      "output": "أُنِ بَجِ سِوِلِزاَتُِن",
+      "roundTrip": "uni baJi sivilizatiun",
+      "secondPass": "أُنِ بَجِ سِوِلِزاَتُِن"
+    }
+  },
+  {
+    "id": "english/en2ar/0005",
+    "direction": "en2ar",
+    "input": "Energy & machines",
+    "before": {
+      "output": "إِنِرجِ & مَتجِنِس",
+      "roundTrip": "inirJi & matJinis",
+      "secondPass": "إِنِرجِ & مةجِنِس"
+    },
+    "after": {
+      "output": "إِنِرجِ & مَتجِنِس",
+      "roundTrip": "inirJi & matJinis",
+      "secondPass": "إِنِرجِ & ماَتجِنِس"
+    }
+  },
+  {
+    "id": "english/en2ar/0006",
+    "direction": "en2ar",
+    "input": "Knowledge preservation",
+    "before": {
+      "output": "كنُوْلِدجِ برِسِروْةُِن",
+      "roundTrip": "knuvlidJi brisirvatiun",
+      "secondPass": "كنُوْلِدجِ برِسِروْةُِن"
+    },
+    "after": {
+      "output": "كنُوْلِدجِ برِسِروْاَتُِن",
+      "roundTrip": "knuvlidJi brisirvatiun",
+      "secondPass": "كنُوْلِدجِ برِسِروْاَتُِن"
+    }
+  },
+  {
+    "id": "english/en2ar/0007",
+    "direction": "en2ar",
+    "input": "Civilization & scientific practice",
+    "before": {
+      "output": "سِوِلِزةُِن & سِّينتِفِس برَكتِسِ",
+      "roundTrip": "sivilizatiun & ssīntifis braktisi",
+      "secondPass": "سِوِلِزةُِن & سِّينتِفِس برَكتِسِ"
+    },
+    "after": {
+      "output": "سِوِلِزاَتُِن & سِّينتِفِس برَكتِسِ",
+      "roundTrip": "sivilizatiun & ssīntifis braktisi",
+      "secondPass": "سِوِلِزاَتُِن & سِّينتِفِس برَكتِسِ"
+    }
+  },
+  {
+    "id": "english/en2ar/0008",
+    "direction": "en2ar",
+    "input": "Scientific foundations",
+    "before": {
+      "output": "صسِينتِفِس فُوندةُِنس",
+      "roundTrip": "Ssīntifis fūndatiuns",
+      "secondPass": "صسِينتِفِس فُوندةُِنس"
+    },
+    "after": {
+      "output": "صسِينتِفِس فُونداَتُِنس",
+      "roundTrip": "Ssīntifis fūndatiuns",
+      "secondPass": "صسِينتِفِس فُونداَتُِنس"
+    }
+  },
+  {
+    "id": "english/en2ar/0013",
+    "direction": "en2ar",
+    "input": "Don't change what's already working.",
+    "before": {
+      "output": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج.",
+      "roundTrip": "Dun't tJanJi vhat's alriadi vurkinJ.",
+      "secondPass": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج."
+    },
+    "after": {
+      "output": "ضُنؤت تجَنجِ وْهاَتءس اَلرَِدِ وُركِنج.",
+      "roundTrip": "Dun't tJanJi vhat's alriadi vurkinJ.",
+      "secondPass": "ضُنؤت تجَنجِ وْهاَتءس اَلرَِدِ وُركِنج."
+    }
+  },
+  {
+    "id": "english/en2ar/0014",
+    "direction": "en2ar",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "before": {
+      "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مةجِنِ."
+    },
+    "after": {
+      "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ ماَتجِنِ."
+    }
+  },
+  {
+    "id": "english/en2ar/0017",
+    "direction": "en2ar",
+    "input": "Move cattle through 12 pasture plots.",
+    "before": {
+      "output": "مُوِ كةتلِ ثرُوغ 12 بَستُرِ بلُتس.",
+      "roundTrip": "muvi kattli thrūgh 12 basturi bluts.",
+      "secondPass": "مُوِ كةتلِ ثرُوغ 12 بَستُرِ بلُتس."
+    },
+    "after": {
+      "output": "مُوِ كاَتّلِ ثرُوغ 12 بَستُرِ بلُتس.",
+      "roundTrip": "muvi kattli thrūgh 12 basturi bluts.",
+      "secondPass": "مُوِ كاَتّلِ ثرُوغ 12 بَستُرِ بلُتس."
+    }
+  },
+  {
+    "id": "english/en2ar/0018",
+    "direction": "en2ar",
+    "input": "Filter water through sand & charcoal columns.",
+    "before": {
+      "output": "فِلتِر وةِر ثرُوغ سَند & تجَركَُل كُلُمنس.",
+      "roundTrip": "filtir vatir thrūgh sand & tJarkual kulumns.",
+      "secondPass": "فِلتِر وةِر ثرُوغ سَند & تجَركَُل كُلُمنس."
+    },
+    "after": {
+      "output": "فِلتِر واَتِر ثرُوغ سَند & تجَركَُل كُلُمنس.",
+      "roundTrip": "filtir vatir thrūgh sand & tJarkual kulumns.",
+      "secondPass": "فِلتِر واَتِر ثرُوغ سَند & تجَركَُل كُلُمنس."
+    }
+  },
+  {
+    "id": "formatting-and-unicode/en2ar/0022",
+    "direction": "en2ar",
+    "input": "‏العربية‎ Latin",
+    "before": {
+      "output": "‏العربية‎ لةِن",
+      "roundTrip": "‏āl-rbīat‎ latin",
+      "secondPass": "‏العربِية‎ لةِن"
+    },
+    "after": {
+      "output": "‏العربية‎ لاَتِن",
+      "roundTrip": "‏āl-rbīat‎ latin",
+      "secondPass": "‏العربِية‎ لاَتِن"
+    }
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0022",
+    "direction": "ar2en",
+    "input": "‏العربية‎ Latin",
+    "before": {
+      "output": "‏āl-rbīat‎ Latin",
+      "roundTrip": "‏العربِية‎ لةِن",
+      "secondPass": "‏āl-rbīat‎ latin"
+    },
+    "after": {
+      "output": "‏āl-rbīat‎ Latin",
+      "roundTrip": "‏العربِية‎ لاَتِن",
+      "secondPass": "‏āl-rbīat‎ latin"
+    }
+  },
+  {
+    "id": "civilization-latin-paragraphs/en2ar/0001",
+    "direction": "en2ar",
+    "input": "HaDāratuN fī SafHatiN vāHidatiN\nalghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/insān allatī tatakāthar taSīr akthar shujū-a.",
+    "before": {
+      "output": "حَضارةٌ فِي صَفحةٍ واحِدةٍ\nاَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقةل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّةِي تةَكاثَر تَصِير اَكثَر شُيُْوعَ.",
+      "roundTrip": "HaDāratuN fī SafHatiN vāHidatiN\nalghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/'insān allatī tatakāthar taSīr akthar shujū-a.",
+      "secondPass": "حَضارةٌ فِي صَفحةٍ واحِدةٍ\nاَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقةل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّةِي تةَكاثَر تَصِير اَكثَر شُيُْوعَ."
+    },
+    "after": {
+      "output": "حَضارةٌ فِي صَفحةٍ واحِدةٍ\nاَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقاَتل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّاَتِي تاَتَكاثَر تَصِير اَكثَر شُيُْوعَ.",
+      "roundTrip": "HaDāratuN fī SafHatiN vāHidatiN\nalghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/'insān allatī tatakāthar taSīr akthar shujū-a.",
+      "secondPass": "حَضارةٌ فِي صَفحةٍ واحِدةٍ\nاَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقاَتل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّاَتِي تاَتَكاثَر تَصِير اَكثَر شُيُْوعَ."
+    }
+  },
+  {
+    "id": "civilization-latin-paragraphs/en2ar/0003",
+    "direction": "en2ar",
+    "input": "alTTāqa vāl'ālāt: faHm nabātī: aHriq khashab bilā havā'. furn faHm ~1200°C jakhtazil khām Hadīd+Hajar Jīr ila kutla isfinJijja; iTruqhā ila Hadīd maTāvi-. fūlādh: marrir uksiJīn fī Hadīd, thumma aDif ~1% faHm Hajarī. muvallid/muHarrik: luff silk nuHās ma-zūl Havl lubb Hadīd; davarān mighnāTīs qarīb jadfa- iliktrūnāt. thabbit 3 milaffāt 120° litu-Tī tajjār mutanāvib 3 aTvār. i-kis alttajjār fata-mal alviHda muHarrik. rīsh mā'ila -ala miHvar; alrrīH tudīr al-amūd, turs jarfa- alsur-a, muvallid juvaffir qudra. -anafāt kabīra tu-Tī Tāqa lilSinā-a/SSahr. mikhraTa: davvar qiTa- -amal qurba izmīl; Harrik izmīl ma-a davarān liSun- lavlaba. muHarrik 4 ashvāT: jasHab havā'+vaqūd, jaDghaT, jush-il sharāra, tamaddud juHavvil ila shughul -ala mirfaq, jaTrud -ādim; zāmin biSimām kām+-amūd+turs. Safā'iH ma-din fī HamD takhzan kahrabā'. trānzistūr: jubaddil/juDakhkhim/juqavvim tajjār; Ta--im sīlīkūn naqī min ramal bi būrūn (nav- P) va fusfūr (nav- N). maSdar+maSrif jalmisān nav-aj N; alvasaT nav- P ma-a silk bavvāba fawq P, ma-zūl bi'uksīd sumk Juzaj'.",
+    "before": {
+      "output": "اَلطّاقَ والآلات: فَحم نَباتِي: اَحرِق خَشَب بِلا هَوْاء. فُرن فَحم ~1200°C يَختَزِل خام حَدِيد+حَيَر جِير إِلَ كُتلَ إِسفِنجِيَّ؛ إِطرُقها إِلَ حَدِيد مَطاوِع. فُولاذ: مَرِّر أُكسِجِين فِي حَدِيد، ثُمَّ اَضِف ~1% فَحم حَيَرِي. مُوَلِّد/مُحَرِّك: لُفّ سِلك نُحاس مَعزُول حَوْل لُبّ حَدِيد؛ دَوَران مِغناطِيس قَرِيب يَدفَع إِلِكترُونات. ثَبِّت 3 مِلَفّات 120° لِتُعطِي تَيّار مُتَناوِب 3 اَطوْار. إِعكِس اَلتَّيّار فةَعمَل اَلوِحدَ مُحَرِّك. رِيش ماءِلَ عَلَ مِحوَر؛ اَلرِّيح تُدِير اَلعَمُود، تُرس يَرفَع اَلسُرعَ، مُوَلِّد يُوَفِّر قُدرَ. عَنَفات كَبِيرَ تُعطِي طاقَ لِلصِناعa/صَّهر. مِخرَطَ: دَوَّر قِطَع عَمَل قُربَ إِزمِيل؛ حَرِّك إِزمِيل مَعَ دَوَران لِصُنع لَوْلَبَ. مُحَرِّك 4 اَشوْاط: يَسحَب هَوْاء+وَقُود، يَضغَط، يُشعِل شَرارَ، تَمَدُّد يُحَوِّل إِلَ شُغُل عَلَ مِرفَق، يَطرُد عادِم؛ زامِن بِصِمام كام+عَمُود+تُرس. صَفاءِح مَعدِن فِي حَمض تَخزَن كَهرَباء. ترانزِستُور: يُبَدِّل/يُضَخِّم/يُقَوِّم تَيّار؛ طَعِّم سِيلِيكُون نَقِي مِن رَمَل بِ بُورُون (نَوْع P) وَ فُسفُور (نَوْع N). مَصدَر+مَصرِف يَلمِسان نَوْعَيْ N؛ اَلوَسَط نَوْع ب مَعَ سِلك بَوّابَ فَوْق ب، مَعزُول بِئُكسِيد سُمك جُزَيْء.",
+      "roundTrip": "alTTāqa vāl'ālāt: faHm nabātī: aHriq khashab bilā havā'. furn faHm ~1200°C jakhtazil khām Hadīd+Hajar Jīr ila kutla isfinJijja; iTruqhā ila Hadīd maTāvi-. fūlādh: marrir uksiJīn fī Hadīd, thumma aDif ~1% faHm Hajarī. muvallid/muHarrik: luff silk nuHās ma-zūl Havl lubb Hadīd; davarān mighnāTīs qarīb jadfa- iliktrūnāt. thabbit 3 milaffāt 120° litu-Tī tajjār mutanāvib 3 aTvār. i-kis alttajjār fata-mal alviHda muHarrik. rīsh mā'ila -ala miHvar; alrrīH tudīr al-amūd, turs jarfa- alsur-a, muvallid juvaffir qudra. -anafāt kabīra tu-Tī Tāqa lilSinā-a/SSahr. mikhraTa: davvar qiTa- -amal qurba izmīl; Harrik izmīl ma-a davarān liSun- lavlaba. muHarrik 4 ashvāT: jasHab havā'+vaqūd, jaDghaT, jush-il sharāra, tamaddud juHavvil ila shughul -ala mirfaq, jaTrud -ādim; zāmin biSimām kām+-amūd+turs. Safā'iH ma-din fī HamD takhzan kahrabā'. trānzistūr: jubaddil/juDakhkhim/juqavvim tajjār; Ta--im sīlīkūn naqī min ramal bi būrūn (nav- P) va fusfūr (nav- N). maSdar+maSrif jalmisān nav-aj N; alvasaT nav- b ma-a silk bavvāba favq b, ma-zūl bi'uksīd sumk Juzaj'.",
+      "secondPass": "اَلطّاقَ والآلات: فَحم نَباتِي: اَحرِق خَشَب بِلا هَوْاء. فُرن فَحم ~1200°C يَختَزِل خام حَدِيد+حَيَر جِير إِلَ كُتلَ إِسفِنجِيَّ؛ إِطرُقها إِلَ حَدِيد مَطاوِع. فُولاذ: مَرِّر أُكسِجِين فِي حَدِيد، ثُمَّ اَضِف ~1% فَحم حَيَرِي. مُوَلِّد/مُحَرِّك: لُفّ سِلك نُحاس مَعزُول حَوْل لُبّ حَدِيد؛ دَوَران مِغناطِيس قَرِيب يَدفَع إِلِكترُونات. ثَبِّت 3 مِلَفّات 120° لِتُعطِي تَيّار مُتَناوِب 3 اَطوْار. إِعكِس اَلتَّيّار فةَعمَل اَلوِحدَ مُحَرِّك. رِيش ماءِلَ عَلَ مِحوَر؛ اَلرِّيح تُدِير اَلعَمُود، تُرس يَرفَع اَلسُرعَ، مُوَلِّد يُوَفِّر قُدرَ. عَنَفات كَبِيرَ تُعطِي طاقَ لِلصِناعa/صَّهر. مِخرَطَ: دَوَّر قِطَع عَمَل قُربَ إِزمِيل؛ حَرِّك إِزمِيل مَعَ دَوَران لِصُنع لَوْلَبَ. مُحَرِّك 4 اَشوْاط: يَسحَب هَوْاء+وَقُود، يَضغَط، يُشعِل شَرارَ، تَمَدُّد يُحَوِّل إِلَ شُغُل عَلَ مِرفَق، يَطرُد عادِم؛ زامِن بِصِمام كام+عَمُود+تُرس. صَفاءِح مَعدِن فِي حَمض تَخزَن كَهرَباء. ترانزِستُور: يُبَدِّل/يُضَخِّم/يُقَوِّم تَيّار؛ طَعِّم سِيلِيكُون نَقِي مِن رَمَل بِ بُورُون (نَوْع P) وَ فُسفُور (نَوْع N). مَصدَر+مَصرِف يَلمِسان نَوْعَيْ N؛ اَلوَسَط نَوْع ب مَعَ سِلك بَوّابَ فَوْق ب، مَعزُول بِئُكسِيد سُمك جُزَيْء."
+    },
+    "after": {
+      "output": "اَلطّاقَ والآلات: فَحم نَباتِي: اَحرِق خَشَب بِلا هَوْاء. فُرن فَحم ~1200°C يَختَزِل خام حَدِيد+حَيَر جِير إِلَ كُتلَ إِسفِنجِيَّ؛ إِطرُقها إِلَ حَدِيد مَطاوِع. فُولاذ: مَرِّر أُكسِجِين فِي حَدِيد، ثُمَّ اَضِف ~1% فَحم حَيَرِي. مُوَلِّد/مُحَرِّك: لُفّ سِلك نُحاس مَعزُول حَوْل لُبّ حَدِيد؛ دَوَران مِغناطِيس قَرِيب يَدفَع إِلِكترُونات. ثَبِّت 3 مِلَفّات 120° لِتُعطِي تَيّار مُتَناوِب 3 اَطوْار. إِعكِس اَلتَّيّار فاَتَعمَل اَلوِحدَ مُحَرِّك. رِيش ماءِلَ عَلَ مِحوَر؛ اَلرِّيح تُدِير اَلعَمُود، تُرس يَرفَع اَلسُرعَ، مُوَلِّد يُوَفِّر قُدرَ. عَنَفات كَبِيرَ تُعطِي طاقَ لِلصِناعa/صَّهر. مِخرَطَ: دَوَّر قِطَع عَمَل قُربَ إِزمِيل؛ حَرِّك إِزمِيل مَعَ دَوَران لِصُنع لَوْلَبَ. مُحَرِّك 4 اَشوْاط: يَسحَب هَوْاء+وَقُود، يَضغَط، يُشعِل شَرارَ، تَمَدُّد يُحَوِّل إِلَ شُغُل عَلَ مِرفَق، يَطرُد عادِم؛ زامِن بِصِمام كام+عَمُود+تُرس. صَفاءِح مَعدِن فِي حَمض تَخزَن كَهرَباء. ترانزِستُور: يُبَدِّل/يُضَخِّم/يُقَوِّم تَيّار؛ طَعِّم سِيلِيكُون نَقِي مِن رَمَل بِ بُورُون (نَوْع P) وَ فُسفُور (نَوْع N). مَصدَر+مَصرِف يَلمِسان نَوْعَيْ N؛ اَلوَسَط نَوْع ب مَعَ سِلك بَوّابَ فَوْق ب، مَعزُول بِئُكسِيد سُمك جُزَيْء.",
+      "roundTrip": "alTTāqa vāl'ālāt: faHm nabātī: aHriq khashab bilā havā'. furn faHm ~1200°C jakhtazil khām Hadīd+Hajar Jīr ila kutla isfinJijja; iTruqhā ila Hadīd maTāvi-. fūlādh: marrir uksiJīn fī Hadīd, thumma aDif ~1% faHm Hajarī. muvallid/muHarrik: luff silk nuHās ma-zūl Havl lubb Hadīd; davarān mighnāTīs qarīb jadfa- iliktrūnāt. thabbit 3 milaffāt 120° litu-Tī tajjār mutanāvib 3 aTvār. i-kis alttajjār fata-mal alviHda muHarrik. rīsh mā'ila -ala miHvar; alrrīH tudīr al-amūd, turs jarfa- alsur-a, muvallid juvaffir qudra. -anafāt kabīra tu-Tī Tāqa lilSinā-a/SSahr. mikhraTa: davvar qiTa- -amal qurba izmīl; Harrik izmīl ma-a davarān liSun- lavlaba. muHarrik 4 ashvāT: jasHab havā'+vaqūd, jaDghaT, jush-il sharāra, tamaddud juHavvil ila shughul -ala mirfaq, jaTrud -ādim; zāmin biSimām kām+-amūd+turs. Safā'iH ma-din fī HamD takhzan kahrabā'. trānzistūr: jubaddil/juDakhkhim/juqavvim tajjār; Ta--im sīlīkūn naqī min ramal bi būrūn (nav- P) va fusfūr (nav- N). maSdar+maSrif jalmisān nav-aj N; alvasaT nav- b ma-a silk bavvāba favq b, ma-zūl bi'uksīd sumk Juzaj'.",
+      "secondPass": "اَلطّاقَ والآلات: فَحم نَباتِي: اَحرِق خَشَب بِلا هَوْاء. فُرن فَحم ~1200°C يَختَزِل خام حَدِيد+حَيَر جِير إِلَ كُتلَ إِسفِنجِيَّ؛ إِطرُقها إِلَ حَدِيد مَطاوِع. فُولاذ: مَرِّر أُكسِجِين فِي حَدِيد، ثُمَّ اَضِف ~1% فَحم حَيَرِي. مُوَلِّد/مُحَرِّك: لُفّ سِلك نُحاس مَعزُول حَوْل لُبّ حَدِيد؛ دَوَران مِغناطِيس قَرِيب يَدفَع إِلِكترُونات. ثَبِّت 3 مِلَفّات 120° لِتُعطِي تَيّار مُتَناوِب 3 اَطوْار. إِعكِس اَلتَّيّار فاَتَعمَل اَلوِحدَ مُحَرِّك. رِيش ماءِلَ عَلَ مِحوَر؛ اَلرِّيح تُدِير اَلعَمُود، تُرس يَرفَع اَلسُرعَ، مُوَلِّد يُوَفِّر قُدرَ. عَنَفات كَبِيرَ تُعطِي طاقَ لِلصِناعa/صَّهر. مِخرَطَ: دَوَّر قِطَع عَمَل قُربَ إِزمِيل؛ حَرِّك إِزمِيل مَعَ دَوَران لِصُنع لَوْلَبَ. مُحَرِّك 4 اَشوْاط: يَسحَب هَوْاء+وَقُود، يَضغَط، يُشعِل شَرارَ، تَمَدُّد يُحَوِّل إِلَ شُغُل عَلَ مِرفَق، يَطرُد عادِم؛ زامِن بِصِمام كام+عَمُود+تُرس. صَفاءِح مَعدِن فِي حَمض تَخزَن كَهرَباء. ترانزِستُور: يُبَدِّل/يُضَخِّم/يُقَوِّم تَيّار؛ طَعِّم سِيلِيكُون نَقِي مِن رَمَل بِ بُورُون (نَوْع P) وَ فُسفُور (نَوْع N). مَصدَر+مَصرِف يَلمِسان نَوْعَيْ N؛ اَلوَسَط نَوْع ب مَعَ سِلك بَوّابَ فَوْق ب، مَعزُول بِئُكسِيد سُمك جُزَيْء."
+    }
+  },
+  {
+    "id": "civilization-latin-paragraphs/en2ar/0005",
+    "direction": "en2ar",
+    "input": "alHaDāra vāl-ilm: vaD-ijja: ibda' bi naZarijja, tanabba' bishaj', abqi alfikra faqaT idhā vāfaqat tajārib. taJrīb: faDDil qijās -ala sulTa, saJJil khuTvāt, ista-mil vaHadāt qijās litatakāmal natā'iJ. Hukm: lā tuwalli sulTa illā man juqātil av jadfa-; uktub qavānīn; iHtarim milk fard vaHurrijja; markazijja tufqir Hatta mulūk. aslāfunā a-Tav nisā' sulTān; la-alla bi'almuSādafa qalīl aTfāl vulidū va saqaTat imbirāTūrijjāt.",
+    "before": {
+      "output": "اَلحَضارَ والعِلم: وَضعِيَّ: إِبدَأ بِ نَظَرِيَّ، تَنَبَّأ بِشَيْء، اَبقِ اَلفِكرَ فَقَط إِذا وافَقة تَيْارِب. تَجرِيب: فَضِّل قِيْاس عَلَ سُلطَ، سَجِّل خُطوْات، إِستَعمِل وَحَدات قِيْاس لِتةَكامَل نةاءِج. حُكم: لا تُوَلِّ سُلطَ إِلّا مَن يُقاتِل اَوْ يَدفَع؛ أُكتُب قَوْانِين؛ إِحتَرِم مِلك فَرد وَحُرِّيَّ؛ مَركَزِيَّ تُفقِر حةتَ مُلُوك. اَسلافُنا اَعطَوْ نِساء سُلطان؛ لَعَلَّ بِئَلمُصادَفَ قَلِيل اَطفال وُلِدُو وَ سَقَطة إِمبِراطُورِيّات.",
+      "roundTrip": "alHaDāra vāl-ilm: vaD-ijja: ibda' bi naZarijja, tanabba' bishaj', abqi alfikra faqaT idhā vāfaqat tajārib. taJrīb: faDDil qijās -ala sulTa, saJJil khuTvāt, ista-mil vaHadāt qijās litatakāmal natā'iJ. Hukm: lā tuvalli sulTa illā man juqātil av jadfa-; uktub qavānīn; iHtarim milk fard vaHurrijja; markazijja tufqir Hatta mulūk. aslāfunā a-Tav nisā' sulTān; la-alla bi'almuSādafa qalīl aTfāl vulidū va saqaTat imbirāTūrijjāt.",
+      "secondPass": "اَلحَضارَ والعِلم: وَضعِيَّ: إِبدَأ بِ نَظَرِيَّ، تَنَبَّأ بِشَيْء، اَبقِ اَلفِكرَ فَقَط إِذا وافَقة تَيْارِب. تَجرِيب: فَضِّل قِيْاس عَلَ سُلطَ، سَجِّل خُطوْات، إِستَعمِل وَحَدات قِيْاس لِتةَكامَل نةاءِج. حُكم: لا تُوَلِّ سُلطَ إِلّا مَن يُقاتِل اَوْ يَدفَع؛ أُكتُب قَوْانِين؛ إِحتَرِم مِلك فَرد وَحُرِّيَّ؛ مَركَزِيَّ تُفقِر حةتَ مُلُوك. اَسلافُنا اَعطَوْ نِساء سُلطان؛ لَعَلَّ بِئَلمُصادَفَ قَلِيل اَطفال وُلِدُو وَ سَقَطة إِمبِراطُورِيّات."
+    },
+    "after": {
+      "output": "اَلحَضارَ والعِلم: وَضعِيَّ: إِبدَأ بِ نَظَرِيَّ، تَنَبَّأ بِشَيْء، اَبقِ اَلفِكرَ فَقَط إِذا وافَقة تَيْارِب. تَجرِيب: فَضِّل قِيْاس عَلَ سُلطَ، سَجِّل خُطوْات، إِستَعمِل وَحَدات قِيْاس لِتاَتَكامَل ناَتاءِج. حُكم: لا تُوَلِّ سُلطَ إِلّا مَن يُقاتِل اَوْ يَدفَع؛ أُكتُب قَوْانِين؛ إِحتَرِم مِلك فَرد وَحُرِّيَّ؛ مَركَزِيَّ تُفقِر حاَتَّ مُلُوك. اَسلافُنا اَعطَوْ نِساء سُلطان؛ لَعَلَّ بِئَلمُصادَفَ قَلِيل اَطفال وُلِدُو وَ سَقَطة إِمبِراطُورِيّات.",
+      "roundTrip": "alHaDāra vāl-ilm: vaD-ijja: ibda' bi naZarijja, tanabba' bishaj', abqi alfikra faqaT idhā vāfaqat tajārib. taJrīb: faDDil qijās -ala sulTa, saJJil khuTvāt, ista-mil vaHadāt qijās litatakāmal natā'iJ. Hukm: lā tuvalli sulTa illā man juqātil av jadfa-; uktub qavānīn; iHtarim milk fard vaHurrijja; markazijja tufqir Hatta mulūk. aslāfunā a-Tav nisā' sulTān; la-alla bi'almuSādafa qalīl aTfāl vulidū va saqaTat imbirāTūrijjāt.",
+      "secondPass": "اَلحَضارَ والعِلم: وَضعِيَّ: إِبدَأ بِ نَظَرِيَّ، تَنَبَّأ بِشَيْء، اَبقِ اَلفِكرَ فَقَط إِذا وافَقة تَيْارِب. تَجرِيب: فَضِّل قِيْاس عَلَ سُلطَ، سَجِّل خُطوْات، إِستَعمِل وَحَدات قِيْاس لِتاَتَكامَل ناَتاءِج. حُكم: لا تُوَلِّ سُلطَ إِلّا مَن يُقاتِل اَوْ يَدفَع؛ أُكتُب قَوْانِين؛ إِحتَرِم مِلك فَرد وَحُرِّيَّ؛ مَركَزِيَّ تُفقِر حاَتَّ مُلُوك. اَسلافُنا اَعطَوْ نِساء سُلطان؛ لَعَلَّ بِئَلمُصادَفَ قَلِيل اَطفال وُلِدُو وَ سَقَطة إِمبِراطُورِيّات."
+    }
+  },
+  {
+    "id": "civilization-latin-paragraphs/en2ar/0006",
+    "direction": "en2ar",
+    "input": "usus -ilm: al-ālam mukavvan min Jusajmāt (fī alghālib) lā tanqasim tusammā dharrāt. dharra: navā thaqīla min burūtūn mūJab; Havlahā iliktrūn khafīf sālib. kahrabā' qavijja: shuhna mithl tatanāfar, mukhtalif tataJādhab; kutla taJdhib kutla Da-īf biJādhibijja. tajjār mustamirr jafSil savā'il ila dharrāt mūJab/sālib; hīdrūJīn min shatr mā'/taHlīl kahrabī. ghalajān thumma tabrīd alghāz jafSil vajurakkiz savā'il dhāt ghalajān mukhtalif. zuJāJ: ramal+Jīr+ramād a-shāb baHr (Sūdā), sakhkhin 1700°C. -ujūn/-adasāt zuJāJ tukabbir. Sūdā kathīr: marrir mā' shadīd milH fī ghāz amūnjā thumma ghāz CO2; Sūdā tahbiT. HamD kibrītīk: ikhbiz dhahab mughaffalīn li'ikhrāJ ghāz kibrīt; fā-ilhu ma-a ghāz kulūr min taHlīl mā' māliH Jiddan -ala faHm/karbūn naqī muHaffiz. thumma aDif mā', iJma- ghāz nātiJ liHamD hīdrūklūrīk.",
+    "before": {
+      "output": "أُسُس عِلم: اَلعالَم مُكَوَّن مِن جُسَيْمات (فِي اَلغالِب) لا تَنقَسِم تُسَمّا ذَرّات. ذَرَّ: نَوْا ثَقِيلَ مِن بُرُوتُون مُوجَب؛ حَوْلَها إِلِكترُون خَفِيف سالِب. كَهرَباء قَوِيَّ: شُهنَ مِثل تةَنافَر، مُختَلِف تةَجاذَب؛ كُتلَ تَجذِب كُتلَ ضَعِيف بِجاذِبِيَّ. تَيّار مُستَمِرّ يَفصِل سَوْاءِل إِلَ ذَرّات مُوجَب/سالِب؛ هِيدرُوجِين مِن شةر ماء/تَحلِيل كَهرَبِي. غَلَيْان ثُمَّ تَبرِيد اَلغاز يَفصِل وَيُرَكِّز سَوْاءِل ذات غَلَيْان مُختَلِف. زُجاج: رَمَل+جِير+رَماد اَعشاب بَحر (صُودا)، سَخِّن 1700°C. عُيُْون/عَدَسات زُجاج تُكَبِّر. صُودا كةهِير: مَرِّر ماء شَدِيد مِلح فِي غاز اَمُونيْا ثُمَّ غاز CO2؛ صُودا تَهبِط. حَمض كِبرِيتِيك: إِخبِز ذَهَب مُغَفَّلِين لِإِخراج غاز كِبرِيت؛ فاعِلهُ مَعَ غاز كُلُور مِن تَحلِيل ماء مالِح جِدَّن عَلَ فَحم/كَربُون نَقِي مُحَفِّز. ثُمَّ اَضِف ماء، إِجمَع غاز ناتِج لِحَمض هِيدرُوكلُورِيك.",
+      "roundTrip": "usus -ilm: al-ālam mukavvan min Jusajmāt (fī alghālib) lā tanqasim tusammā dharrāt. dharra: navā thaqīla min burūtūn mūJab; Havlahā iliktrūn khafīf sālib. kahrabā' qavijja: shuhna mithl tatanāfar, mukhtalif tataJādhab; kutla taJdhib kutla Da-īf biJādhibijja. tajjār mustamirr jafSil savā'il ila dharrāt mūJab/sālib; hīdrūJīn min shatr mā'/taHlīl kahrabī. ghalajān thumma tabrīd alghāz jafSil vajurakkiz savā'il dhāt ghalajān mukhtalif. zuJāJ: ramal+Jīr+ramād a-shāb baHr (Sūdā), sakhkhin 1700°C. -ujūn/-adasāt zuJāJ tukabbir. Sūdā kathīr: marrir mā' shadīd milH fī ghāz amūnjā thumma ghāz CO2; Sūdā tahbiT. HamD kibrītīk: ikhbiz dhahab mughaffalīn li'ikhrāJ ghāz kibrīt; fā-ilhu ma-a ghāz kulūr min taHlīl mā' māliH Jiddan -ala faHm/karbūn naqī muHaffiz. thumma aDif mā', iJma- ghāz nātiJ liHamD hīdrūklūrīk.",
+      "secondPass": "أُسُس عِلم: اَلعالَم مُكَوَّن مِن جُسَيْمات (فِي اَلغالِب) لا تَنقَسِم تُسَمّا ذَرّات. ذَرَّ: نَوْا ثَقِيلَ مِن بُرُوتُون مُوجَب؛ حَوْلَها إِلِكترُون خَفِيف سالِب. كَهرَباء قَوِيَّ: شُهنَ مِثل تةَنافَر، مُختَلِف تةَجاذَب؛ كُتلَ تَجذِب كُتلَ ضَعِيف بِجاذِبِيَّ. تَيّار مُستَمِرّ يَفصِل سَوْاءِل إِلَ ذَرّات مُوجَب/سالِب؛ هِيدرُوجِين مِن شةر ماء/تَحلِيل كَهرَبِي. غَلَيْان ثُمَّ تَبرِيد اَلغاز يَفصِل وَيُرَكِّز سَوْاءِل ذات غَلَيْان مُختَلِف. زُجاج: رَمَل+جِير+رَماد اَعشاب بَحر (صُودا)، سَخِّن 1700°C. عُيُْون/عَدَسات زُجاج تُكَبِّر. صُودا كةهِير: مَرِّر ماء شَدِيد مِلح فِي غاز اَمُونيْا ثُمَّ غاز CO2؛ صُودا تَهبِط. حَمض كِبرِيتِيك: إِخبِز ذَهَب مُغَفَّلِين لِإِخراج غاز كِبرِيت؛ فاعِلهُ مَعَ غاز كُلُور مِن تَحلِيل ماء مالِح جِدَّن عَلَ فَحم/كَربُون نَقِي مُحَفِّز. ثُمَّ اَضِف ماء، إِجمَع غاز ناتِج لِحَمض هِيدرُوكلُورِيك."
+    },
+    "after": {
+      "output": "أُسُس عِلم: اَلعالَم مُكَوَّن مِن جُسَيْمات (فِي اَلغالِب) لا تَنقَسِم تُسَمّا ذَرّات. ذَرَّ: نَوْا ثَقِيلَ مِن بُرُوتُون مُوجَب؛ حَوْلَها إِلِكترُون خَفِيف سالِب. كَهرَباء قَوِيَّ: شُهنَ مِثل تاَتَنافَر، مُختَلِف تاَتَجاذَب؛ كُتلَ تَجذِب كُتلَ ضَعِيف بِجاذِبِيَّ. تَيّار مُستَمِرّ يَفصِل سَوْاءِل إِلَ ذَرّات مُوجَب/سالِب؛ هِيدرُوجِين مِن شاَتر ماء/تَحلِيل كَهرَبِي. غَلَيْان ثُمَّ تَبرِيد اَلغاز يَفصِل وَيُرَكِّز سَوْاءِل ذات غَلَيْان مُختَلِف. زُجاج: رَمَل+جِير+رَماد اَعشاب بَحر (صُودا)، سَخِّن 1700°C. عُيُْون/عَدَسات زُجاج تُكَبِّر. صُودا كاَثِير: مَرِّر ماء شَدِيد مِلح فِي غاز اَمُونيْا ثُمَّ غاز CO2؛ صُودا تَهبِط. حَمض كِبرِيتِيك: إِخبِز ذَهَب مُغَفَّلِين لِإِخراج غاز كِبرِيت؛ فاعِلهُ مَعَ غاز كُلُور مِن تَحلِيل ماء مالِح جِدَّن عَلَ فَحم/كَربُون نَقِي مُحَفِّز. ثُمَّ اَضِف ماء، إِجمَع غاز ناتِج لِحَمض هِيدرُوكلُورِيك.",
+      "roundTrip": "usus -ilm: al-ālam mukavvan min Jusajmāt (fī alghālib) lā tanqasim tusammā dharrāt. dharra: navā thaqīla min burūtūn mūJab; Havlahā iliktrūn khafīf sālib. kahrabā' qavijja: shuhna mithl tatanāfar, mukhtalif tataJādhab; kutla taJdhib kutla Da-īf biJādhibijja. tajjār mustamirr jafSil savā'il ila dharrāt mūJab/sālib; hīdrūJīn min shatr mā'/taHlīl kahrabī. ghalajān thumma tabrīd alghāz jafSil vajurakkiz savā'il dhāt ghalajān mukhtalif. zuJāJ: ramal+Jīr+ramād a-shāb baHr (Sūdā), sakhkhin 1700°C. -ujūn/-adasāt zuJāJ tukabbir. Sūdā kathīr: marrir mā' shadīd milH fī ghāz amūnjā thumma ghāz CO2; Sūdā tahbiT. HamD kibrītīk: ikhbiz dhahab mughaffalīn li'ikhrāJ ghāz kibrīt; fā-ilhu ma-a ghāz kulūr min taHlīl mā' māliH Jiddan -ala faHm/karbūn naqī muHaffiz. thumma aDif mā', iJma- ghāz nātiJ liHamD hīdrūklūrīk.",
+      "secondPass": "أُسُس عِلم: اَلعالَم مُكَوَّن مِن جُسَيْمات (فِي اَلغالِب) لا تَنقَسِم تُسَمّا ذَرّات. ذَرَّ: نَوْا ثَقِيلَ مِن بُرُوتُون مُوجَب؛ حَوْلَها إِلِكترُون خَفِيف سالِب. كَهرَباء قَوِيَّ: شُهنَ مِثل تاَتَنافَر، مُختَلِف تاَتَجاذَب؛ كُتلَ تَجذِب كُتلَ ضَعِيف بِجاذِبِيَّ. تَيّار مُستَمِرّ يَفصِل سَوْاءِل إِلَ ذَرّات مُوجَب/سالِب؛ هِيدرُوجِين مِن شاَتر ماء/تَحلِيل كَهرَبِي. غَلَيْان ثُمَّ تَبرِيد اَلغاز يَفصِل وَيُرَكِّز سَوْاءِل ذات غَلَيْان مُختَلِف. زُجاج: رَمَل+جِير+رَماد اَعشاب بَحر (صُودا)، سَخِّن 1700°C. عُيُْون/عَدَسات زُجاج تُكَبِّر. صُودا كاَثِير: مَرِّر ماء شَدِيد مِلح فِي غاز اَمُونيْا ثُمَّ غاز CO2؛ صُودا تَهبِط. حَمض كِبرِيتِيك: إِخبِز ذَهَب مُغَفَّلِين لِإِخراج غاز كِبرِيت؛ فاعِلهُ مَعَ غاز كُلُور مِن تَحلِيل ماء مالِح جِدَّن عَلَ فَحم/كَربُون نَقِي مُحَفِّز. ثُمَّ اَضِف ماء، إِجمَع غاز ناتِج لِحَمض هِيدرُوكلُورِيك."
+    }
+  },
+  {
+    "id": "civilization-latin-lines/en2ar/0002",
+    "direction": "en2ar",
+    "input": "alghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/insān allatī tatakāthar taSīr akthar shujū-a.",
+    "before": {
+      "output": "اَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقةل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّةِي تةَكاثَر تَصِير اَكثَر شُيُْوعَ.",
+      "roundTrip": "alghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/'insān allatī tatakāthar taSīr akthar shujū-a.",
+      "secondPass": "اَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقةل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّةِي تةَكاثَر تَصِير اَكثَر شُيُْوعَ."
+    },
+    "after": {
+      "output": "اَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقاَتل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّاَتِي تاَتَكاثَر تَصِير اَكثَر شُيُْوعَ.",
+      "roundTrip": "alghidhā' vāltturba: dāvil faSā'il alzzar- kulla sana. āinqul al'abqār bajna 12 mar-a: ir-ahā ~3 ajjām, thumma ariH almar-a 33 javm; al-ushb ja-ūd jannumū. khammir bilā havā' liSun- kuHūl lilshurb/vaqūd/kīmjā'. alnnītrūJīn Hadd alghalla. amūnjā hābirbūsh: fā-il hīdrūJīn ma-a nītrūJīn alhavā' -ind 200 bār va 500°C -ala Hadīd muHaffiz; barrid, isHab alssā'il samād. Havvil ghā'iT al'insān ila samād 3 sanavāt liqatl Tufajlijjāt muqāvima qabla alHuqūl. kull Haj jarith Sifāt min vālidajhi ma-a taghajjur -ashvā'ī nādir. anvā- nabāt/Hajavān/'insān allatī tatakāthar taSīr akthar shujū-a.",
+      "secondPass": "اَلغِذاء والتُّربَ: داوِل فَصاءِل اَلزَّرع كُلَّ سَنَ. اِنقُل اَلأَبقار بَيْنَ 12 مَرعَ: إِرعَها ~3 اَيّام، ثُمَّ اَرِح اَلمَرعَ 33 يَوْم؛ اَلعُشب يَعُود يَنُّمُو. خَمِّر بِلا هَوْاء لِصُنع كُحُول لِلشُرب/وَقُود/كِيميْاء. اَلنِّيترُوجِين حَدّ اَلغَلَّ. اَمُونيْا هابِربُوش: فاعِل هِيدرُوجِين مَعَ نِيترُوجِين اَلهَوْاء عِند 200 بار وَ 500°C عَلَ حَدِيد مُحَفِّز؛ بَرِّد، إِسحَب اَلسّاءِل سَماد. حَوِّل غاءِط اَلإِنسان إِلَ سَماد 3 سَنَوْات لِقاَتل طُفَيْلِيّات مُقاوِمَ قَبلَ اَلحُقُول. كُلّ حَيْ يَرِث صِفات مِن والِدَيْهِ مَعَ تَغَيُّر عَشوْاءِي نادِر. اَنوْاع نَبات/حَيَوْان/إِنسان اَلّاَتِي تاَتَكاثَر تَصِير اَكثَر شُيُْوعَ."
+    }
+  }
+]

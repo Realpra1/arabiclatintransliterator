@@ -1,0 +1,439 @@
+[
+  {
+    "id": "expanded-english-word-context/en2ar/0003",
+    "direction": "en2ar",
+    "input": "city.",
+    "changes": {
+      "output": {
+        "before": "سِتِي.",
+        "after": "سِتِ."
+      },
+      "roundTrip": {
+        "before": "sitī.",
+        "after": "siti."
+      },
+      "secondPass": {
+        "before": "سِتِي.",
+        "after": "سِتِ."
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0004",
+    "direction": "en2ar",
+    "input": "city?",
+    "changes": {
+      "output": {
+        "before": "سِتِي؟",
+        "after": "سِتِ؟"
+      },
+      "roundTrip": {
+        "before": "sitī?",
+        "after": "siti?"
+      },
+      "secondPass": {
+        "before": "سِتِي؟",
+        "after": "سِتِ؟"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0005",
+    "direction": "en2ar",
+    "input": "(city)",
+    "changes": {
+      "output": {
+        "before": "(سِتِي)",
+        "after": "(سِتِ)"
+      },
+      "roundTrip": {
+        "before": "(sitī)",
+        "after": "(siti)"
+      },
+      "secondPass": {
+        "before": "(سِتِي)",
+        "after": "(سِتِ)"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0006",
+    "direction": "en2ar",
+    "input": "a city",
+    "changes": {
+      "output": {
+        "before": "اَ سِتِي",
+        "after": "اَ سِتِ"
+      },
+      "roundTrip": {
+        "before": "a sitī",
+        "after": "a siti"
+      },
+      "secondPass": {
+        "before": "اَ سِتِي",
+        "after": "اَ سِتِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0007",
+    "direction": "en2ar",
+    "input": "the city",
+    "changes": {
+      "output": {
+        "before": "ثِ سِتِي",
+        "after": "ثِ سِتِ"
+      },
+      "roundTrip": {
+        "before": "thi sitī",
+        "after": "thi siti"
+      },
+      "secondPass": {
+        "before": "ثِ سِتِي",
+        "after": "ثِ سِتِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0008",
+    "direction": "en2ar",
+    "input": "city\ncity",
+    "changes": {
+      "output": {
+        "before": "سِتِي\nسِتِي",
+        "after": "سِتِ\nسِتِ"
+      },
+      "roundTrip": {
+        "before": "sitī\nsitī",
+        "after": "siti\nsiti"
+      },
+      "secondPass": {
+        "before": "سِتِي\nسِتِي",
+        "after": "سِتِ\nسِتِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0009",
+    "direction": "en2ar",
+    "input": "Xylophone",
+    "changes": {
+      "output": {
+        "before": "سِيلُفُنِ",
+        "after": "سِلُفُنِ"
+      },
+      "roundTrip": {
+        "before": "sīlufuni",
+        "after": "silufuni"
+      },
+      "secondPass": {
+        "before": "سِيلُفُنِ",
+        "after": "سِلُفُنِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0010",
+    "direction": "en2ar",
+    "input": "XYLOPHONE",
+    "changes": {
+      "output": {
+        "before": "سِيلُبحٌِ",
+        "after": "سِلُبحٌِ"
+      },
+      "roundTrip": {
+        "before": "sīlubHuNi",
+        "after": "silubHuNi"
+      },
+      "secondPass": {
+        "before": "سِيلُبحٌِ",
+        "after": "سِلُبحٌِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0011",
+    "direction": "en2ar",
+    "input": "xylophone.",
+    "changes": {
+      "output": {
+        "before": "سِيلُفُنِ.",
+        "after": "سِلُفُنِ."
+      },
+      "roundTrip": {
+        "before": "sīlufuni.",
+        "after": "silufuni."
+      },
+      "secondPass": {
+        "before": "سِيلُفُنِ.",
+        "after": "سِلُفُنِ."
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0012",
+    "direction": "en2ar",
+    "input": "xylophone?",
+    "changes": {
+      "output": {
+        "before": "سِيلُفُنِ؟",
+        "after": "سِلُفُنِ؟"
+      },
+      "roundTrip": {
+        "before": "sīlufuni?",
+        "after": "silufuni?"
+      },
+      "secondPass": {
+        "before": "سِيلُفُنِ؟",
+        "after": "سِلُفُنِ؟"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0013",
+    "direction": "en2ar",
+    "input": "(xylophone)",
+    "changes": {
+      "output": {
+        "before": "(سِيلُفُنِ)",
+        "after": "(سِلُفُنِ)"
+      },
+      "roundTrip": {
+        "before": "(sīlufuni)",
+        "after": "(silufuni)"
+      },
+      "secondPass": {
+        "before": "(sِيلُفُنِ)",
+        "after": "(سِلُفُنِ)"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0014",
+    "direction": "en2ar",
+    "input": "a xylophone",
+    "changes": {
+      "output": {
+        "before": "اَ سِيلُفُنِ",
+        "after": "اَ سِلُفُنِ"
+      },
+      "roundTrip": {
+        "before": "a sīlufuni",
+        "after": "a silufuni"
+      },
+      "secondPass": {
+        "before": "اَ سِيلُفُنِ",
+        "after": "اَ سِلُفُنِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0015",
+    "direction": "en2ar",
+    "input": "the xylophone",
+    "changes": {
+      "output": {
+        "before": "ثِ سِيلُفُنِ",
+        "after": "ثِ سِلُفُنِ"
+      },
+      "roundTrip": {
+        "before": "thi sīlufuni",
+        "after": "thi silufuni"
+      },
+      "secondPass": {
+        "before": "ثِ سِيلُفُنِ",
+        "after": "ثِ سِلُفُنِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0016",
+    "direction": "en2ar",
+    "input": "xylophone\nxylophone",
+    "changes": {
+      "output": {
+        "before": "سِيلُفُنِ\nسِيلُفُنِ",
+        "after": "سِلُفُنِ\nسِلُفُنِ"
+      },
+      "roundTrip": {
+        "before": "sīlufuni\nsīlufuni",
+        "after": "silufuni\nsilufuni"
+      },
+      "secondPass": {
+        "before": "سِيلُفُنِ\nسِيلُفُنِ",
+        "after": "سِلُفُنِ\nسِلُفُنِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0041",
+    "direction": "en2ar",
+    "input": "Cycle",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      },
+      "roundTrip": {
+        "before": "sīkli",
+        "after": "sikli"
+      },
+      "secondPass": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0042",
+    "direction": "en2ar",
+    "input": "CYCLE",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      },
+      "roundTrip": {
+        "before": "sīkli",
+        "after": "sikli"
+      },
+      "secondPass": {
+        "before": "سِيكلِ",
+        "after": "سِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0043",
+    "direction": "en2ar",
+    "input": "cycle.",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ.",
+        "after": "سِكلِ."
+      },
+      "roundTrip": {
+        "before": "sīkli.",
+        "after": "sikli."
+      },
+      "secondPass": {
+        "before": "سِيكلِ.",
+        "after": "سِكلِ."
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0044",
+    "direction": "en2ar",
+    "input": "cycle?",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ؟",
+        "after": "سِكلِ؟"
+      },
+      "roundTrip": {
+        "before": "sīkli?",
+        "after": "sikli?"
+      },
+      "secondPass": {
+        "before": "سِيكلِ؟",
+        "after": "سِكلِ؟"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0045",
+    "direction": "en2ar",
+    "input": "(cycle)",
+    "changes": {
+      "output": {
+        "before": "(سِيكلِ)",
+        "after": "(سِكلِ)"
+      },
+      "roundTrip": {
+        "before": "(sīkli)",
+        "after": "(sikli)"
+      },
+      "secondPass": {
+        "before": "(sِيكلِ)",
+        "after": "(سِكلِ)"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0046",
+    "direction": "en2ar",
+    "input": "a cycle",
+    "changes": {
+      "output": {
+        "before": "اَ سِيكلِ",
+        "after": "اَ سِكلِ"
+      },
+      "roundTrip": {
+        "before": "a sīkli",
+        "after": "a sikli"
+      },
+      "secondPass": {
+        "before": "اَ سِيكلِ",
+        "after": "اَ سِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0047",
+    "direction": "en2ar",
+    "input": "the cycle",
+    "changes": {
+      "output": {
+        "before": "ثِ سِيكلِ",
+        "after": "ثِ سِكلِ"
+      },
+      "roundTrip": {
+        "before": "thi sīkli",
+        "after": "thi sikli"
+      },
+      "secondPass": {
+        "before": "ثِ سِيكلِ",
+        "after": "ثِ سِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0048",
+    "direction": "en2ar",
+    "input": "cycle\ncycle",
+    "changes": {
+      "output": {
+        "before": "سِيكلِ\nسِيكلِ",
+        "after": "سِكلِ\nسِكلِ"
+      },
+      "roundTrip": {
+        "before": "sīkli\nsīkli",
+        "after": "sikli\nsikli"
+      },
+      "secondPass": {
+        "before": "سِيكلِ\nسِيكلِ",
+        "after": "سِكلِ\nسِكلِ"
+      }
+    }
+  },
+  {
+    "id": "expanded-english-word-context/en2ar/0049",
+    "direction": "en2ar",
+    "input": "city xylophone cat cancer school cycle",
+    "changes": {
+      "output": {
+        "before": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ",
+        "after": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ"
+      },
+      "roundTrip": {
+        "before": "sitī sīlufuni kat kansir stJūl sīkli",
+        "after": "siti silufuni kat kansir stJūl sikli"
+      },
+      "secondPass": {
+        "before": "سِتِي سِيلُفُنِ كة كَنسِر ستجُول سِيكلِ",
+        "after": "سِتِ سِلُفُنِ كة كَنسِر ستجُول سِكلِ"
+      }
+    }
+  }
+]

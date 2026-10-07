@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0009",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "ليلى\n\nشَمْسٌ ā, kitāb havā', عائشة/ليلى\n\naN الذي\n\nanta/anta — Hajj marHaba\n\nقهوة/على\n\nbook? anā — aN اليوم — -alá ",
+    "output": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbook? anā — aN alīvm — -alá ",
+    "roundTrip": "لِيلى\n\nشَمسٌ ا، كِتاب هَوْاء، عاءشة/lِيلى\n\nً اَلذِي\n\nاَنتَ/اَنتَ — حَيّ مَرحَبَ\n\nقهُوة/على\n\nبُوك؟ اَنا — ً اَلِيوْم — عَلى ",
+    "secondPass": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbūk? anā — aN alīvm — -alá ",
+    "before": {
+      "output": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbook? anā — aN alīvm — -alá ",
+      "roundTrip": "لِيلى\n\nشَمسٌ ا، كِتاب هَوْاء، عاءشة/lِيلى\n\nً اَلذِي\n\nاَنتَ/اَنتَ — حَيّ مَرحَبَ\n\nقهُوة/على\n\nبُوك؟ اَنا — ً اَلِيوْم — عَلى ",
+      "secondPass": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbūk? anā — aN alīvm — -alá "
+    },
+    "after": {
+      "output": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbook? anā — aN alīvm — -alá ",
+      "roundTrip": "لِيلى\n\nشَمسٌ ا، كِتاب هَوْاء، عاءشة/لِيلى\n\nً اَلذِي\n\nاَنتَ/اَنتَ — حَيّ مَرحَبَ\n\nقهُوة/على\n\nبُوك؟ اَنا — ً اَلِيوْم — عَلى ",
+      "secondPass": "līlá\n\nshamsuN ā, kitāb havā', -ā'shat/līlá\n\naN aldhī\n\nanta/anta — Hajj marHaba\n\nqhūat/-lá\n\nbūk? anā — aN alīvm — -alá "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

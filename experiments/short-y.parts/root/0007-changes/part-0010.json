@@ -1,0 +1,444 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0004",
+    "direction": "en2ar",
+    "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+    "changes": {
+      "output": {
+        "before": "يِلُّوْ، هو؟ ربما، مسؤول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاي/مساءً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+        "after": "يِلُّوْ، هو؟ ربما، مسؤول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاي/مساءً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/"
+      },
+      "roundTrip": {
+        "before": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+        "after": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/"
+      },
+      "secondPass": {
+        "before": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/mِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+        "after": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0004",
+    "direction": "ar2en",
+    "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+    "changes": {
+      "roundTrip": {
+        "before": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِي — رُبَّما يِلُّوْ\n\nسةَسمَع/",
+        "after": "يِلُّوْ، هُو؟ ربما، مسؤُول؟ يِلُّوْ، فِي؟ اَلصَوْت، شاj/مساأً — 42؟ ماء\n\n42 كتاب\n\nهِلُّ؟ 42 — ربما/مِ — رُبَّما يِلُّوْ\n\nسةَسمَع/"
+      },
+      "secondPass": {
+        "before": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mī — rubbamā jilluv\n\nsatasma-/",
+        "after": "jilluv, hū? rbmā, ms'ūl? jilluv, fī? alSavt, shāj/msā'aN — 42? mā'\n\n42 ktāb\n\nhillu? 42 — rbmā/mi — rubbamā jilluv\n\nsatasma-/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0007",
+    "direction": "en2ar",
+    "input": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "changes": {
+      "output": {
+        "before": "نَحنُ، أمس؟ 42 — نافذة بِي\n\nا أحمد، اَحمَد/وُرلد — أمس؟ هو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفي؟ ",
+        "after": "نَحنُ، أمس؟ 42 — نافذة بِ\n\nا أحمد، اَحمَد/وُرلد — أمس؟ هو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفي؟ "
+      },
+      "roundTrip": {
+        "before": "naHnu, 'ams? 42 — nāfdhat bī\n\nā 'aHmd, aHmad/vurld — 'ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? ",
+        "after": "naHnu, 'ams? 42 — nāfdhat bi\n\nā 'aHmd, aHmad/vurld — 'ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? "
+      },
+      "secondPass": {
+        "before": "نَحنُ، أَمس؟ 42 — نافذة بِي\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ ",
+        "after": "نَحنُ، أَمس؟ 42 — نافذة بِ\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0007",
+    "direction": "ar2en",
+    "input": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "changes": {
+      "roundTrip": {
+        "before": "نَحنُ، أَمس؟ 42 — نافذة بِي\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ ",
+        "after": "نَحنُ، أَمس؟ 42 — نافذة بِ\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ "
+      },
+      "secondPass": {
+        "before": "naHnu, ams? 42 — nāfdhat bī\n\nā aHmd, aHmad/vurld — ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? ",
+        "after": "naHnu, ams? 42 — nāfdhat bi\n\nā aHmd, aHmad/vurld — ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0008",
+    "direction": "en2ar",
+    "input": "havā' — مدرسة صوت, 42/by, my? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith my\n\nnaHnu/iN\n\nمسؤول/",
+    "changes": {
+      "output": {
+        "before": "هَوْاء — مدرسة صوت، 42/بِي، مِي؟ من، حَيّ/عائشة\n\nقُوَّة مدرسة\n\nمَدرَسة أنت، شَمْسٌ هواء\n\nوِث مِي\n\nنَحنُ/ٍ\n\nمسؤول/",
+        "after": "هَوْاء — مدرسة صوت، 42/بِ، مِ؟ من، حَيّ/عائشة\n\nقُوَّة مدرسة\n\nمَدرَسة أنت، شَمْسٌ هواء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤول/"
+      },
+      "roundTrip": {
+        "before": "havā' — mdrsat Sūt, 42/bī, mī? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat 'ant, shamsuN hvā'\n\nvith mī\n\nnaHnu/iN\n\nms'ūl/",
+        "after": "havā' — mdrsat Sūt, 42/bi, mi? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat 'ant, shamsuN hvā'\n\nvith mi\n\nnaHnu/iN\n\nms'ūl/"
+      },
+      "secondPass": {
+        "before": "هَوْاء — مدرسة صُوت، 42/bِي، مِي؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِي\n\nنَحنُ/ٍ\n\nمسؤُوl/",
+        "after": "هَوْاء — مدرسة صُوت، 42/بِ، مِ؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤُوl/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0008",
+    "direction": "ar2en",
+    "input": "havā' — مدرسة صوت, 42/by, my? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith my\n\nnaHnu/iN\n\nمسؤول/",
+    "changes": {
+      "roundTrip": {
+        "before": "هَوْاء — مدرسة صُوت، 42/بِي، مِي؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِي\n\nنَحنُ/ٍ\n\nمسؤُوl/",
+        "after": "هَوْاء — مدرسة صُوت، 42/بِ، مِ؟ من، حَيّ/عاءشة\n\nقُوّات مدرسة\n\nمَدرَسة أَنت، شَمسٌ هوْاء\n\nوِث مِ\n\nنَحنُ/ٍ\n\nمسؤُوl/"
+      },
+      "secondPass": {
+        "before": "havā' — mdrsat Sūt, 42/bī, mī? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat ant, shamsuN hvā'\n\nvith mī\n\nnaHnu/iN\n\nms'ūl/",
+        "after": "havā' — mdrsat Sūt, 42/bi, mi? mn, Hajj/-ā'shat\n\nquvvāt mdrsat\n\nmadrasat ant, shamsuN hvā'\n\nvith mi\n\nnaHnu/iN\n\nms'ūl/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0011",
+    "direction": "en2ar",
+    "input": "E=mc^2\n\nحَيّ? هي, queue? book\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mc^2/rhythm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am ",
+    "changes": {
+      "output": {
+        "before": "E=مك^2\n\nحَيّ؟ هي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِيثم، لأن/ليلى\n\nالذي 🙂 — صوت أنت — نَعَم ",
+        "after": "E=مك^2\n\nحَيّ؟ هي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِثم، لأن/ليلى\n\nالذي 🙂 — صوت أنت — نَعَم "
+      },
+      "roundTrip": {
+        "before": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhīthm, l'n/līlá\n\naldhī 🙂 — Sūt 'ant — na-am ",
+        "after": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhithm, l'n/līlá\n\naldhī 🙂 — Sūt 'ant — na-am "
+      },
+      "secondPass": {
+        "before": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِيثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم ",
+        "after": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0011",
+    "direction": "ar2en",
+    "input": "E=mc^2\n\nحَيّ? هي, queue? book\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mc^2/rhythm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am ",
+    "changes": {
+      "roundTrip": {
+        "before": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِيثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم ",
+        "after": "E=مك^2\n\nحَيّ؟ هِي، قُُِِ؟ بُوك\n\n🙂/محمد، ماء إِلى، اَحمَد؟ سةَسمَع، E=مك^2/رهِثم، لأn/lِيلى\n\nاَلذِي 🙂 — صُوت أَنت — نَعَم "
+      },
+      "secondPass": {
+        "before": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhīthm, l'n/līlá\n\naldhī 🙂 — Sūt ant — na-am ",
+        "after": "E=mk^2\n\nHajj? hī, quiui? būk\n\n🙂/mHmd, mā' ilá, aHmad? satasma-, E=mk^2/rhithm, l'n/līlá\n\naldhī 🙂 — Sūt ant — na-am "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0012",
+    "direction": "en2ar",
+    "input": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yellow? quvva, lā? satasma- — هي قُوَّة, نعم? rhythm — نحن ",
+    "changes": {
+      "output": {
+        "before": "مِن، قُوَّ شايْ — قارئ/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هي قُوَّة، نعم؟ رهِيثم — نحن ",
+        "after": "مِن، قُوَّ شايْ — قارئ/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هي قُوَّة، نعم؟ رهِثم — نحن "
+      },
+      "roundTrip": {
+        "before": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhīthm — nHn ",
+        "after": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhithm — nHn "
+      },
+      "secondPass": {
+        "before": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِيثم — نحن ",
+        "after": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِثم — نحن "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0012",
+    "direction": "ar2en",
+    "input": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yellow? quvva, lā? satasma- — هي قُوَّة, نعم? rhythm — نحن ",
+    "changes": {
+      "roundTrip": {
+        "before": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِيثم — نحن ",
+        "after": "مِن، قُوَّ شايْ — قارء/مَدرَسة، قُوَّ نحن — هذه/كتاب، من كتاب — يِلُّوْ؟ قُوَّ، لا؟ سةَسمَع — هِي قُوّات، نعم؟ رهِثم — نحن "
+      },
+      "secondPass": {
+        "before": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhīthm — nHn ",
+        "after": "min, quvva shāj — qār'/madrasat, quvva nHn — hdhh/ktāb, mn ktāb — jilluv? quvva, lā? satasma- — hī quvvāt, n-m? rhithm — nHn "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0015",
+    "direction": "en2ar",
+    "input": "su'āl, نافذة ماء\n\nshāj/أنا — city? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yellow ilá — shaj'/quvva — my/",
+    "changes": {
+      "output": {
+        "before": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِي؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِي/",
+        "after": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِ؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِ/"
+      },
+      "roundTrip": {
+        "before": "su'āl, nāfdhat mā'\n\nshāj/'nā — sitī? lā, á? lajla, Hajj/lajla, 'ilá kitāb — rubbamā? nHn, jilluv ilá — shaj'/quvva — mī/",
+        "after": "su'āl, nāfdhat mā'\n\nshāj/'nā — siti? lā, á? lajla, Hajj/lajla, 'ilá kitāb — rubbamā? nHn, jilluv ilá — shaj'/quvva — mi/"
+      },
+      "secondPass": {
+        "before": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِي؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إِلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِي/",
+        "after": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِ؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إِلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِ/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0015",
+    "direction": "ar2en",
+    "input": "su'āl, نافذة ماء\n\nshāj/أنا — city? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yellow ilá — shaj'/quvva — my/",
+    "changes": {
+      "roundTrip": {
+        "before": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِي؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إِلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِي/",
+        "after": "سُؤال، نافذة ماء\n\nشاj/أنا — سِتِ؟ لا، ى؟ لَيْلَ، حَيّ/لَيْلَ، إِلى كِتاب — رُبَّما؟ نحن، يِلُّوْ إِلى — شَيْء/قُوَّ — مِ/"
+      },
+      "secondPass": {
+        "before": "su'āl, nāfdhat mā'\n\nshāj/'nā — sitī? lā, á? lajla, Hajj/lajla, ilá kitāb — rubbamā? nHn, jilluv ilá — shaj'/quvva — mī/",
+        "after": "su'āl, nāfdhat mā'\n\nshāj/'nā — siti? lā, á? lajla, Hajj/lajla, ilá kitāb — rubbamā? nHn, jilluv ilá — shaj'/quvva — mi/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0018",
+    "direction": "en2ar",
+    "input": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+    "changes": {
+      "output": {
+        "before": "هو، وُرلد/وُرلد\n\nليلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاي/نافذة، بِي أنت، شَيْء/صوت\n\nغَدً/ٍ، وُرلد ",
+        "after": "هو، وُرلد/وُرلد\n\nليلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاي/نافذة، بِ أنت، شَيْء/صوت\n\nغَدً/ٍ، وُرلد "
+      },
+      "roundTrip": {
+        "before": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bī 'ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+        "after": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bi 'ant, shaj'/Sūt\n\nghadaN/iN, vurld "
+      },
+      "secondPass": {
+        "before": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِي أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد ",
+        "after": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِ أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0018",
+    "direction": "ar2en",
+    "input": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+    "changes": {
+      "roundTrip": {
+        "before": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِي أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد ",
+        "after": "هُو، وُرلد/وُرلد\n\nلِيلى مِن\n\nكتاب شَيْء\n\nإِلى بُوك — لكن/ٌ\n\nشاj/nافذة، بِ أَنت، شَيْء/Sُوت\n\nغَدً/ٍ، وُرلد "
+      },
+      "secondPass": {
+        "before": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bī ant, shaj'/Sūt\n\nghadaN/iN, vurld ",
+        "after": "hū, vurld/vurld\n\nlīlá min\n\nktāb shaj'\n\nilá būk — lkn/uN\n\nshāj/nāfdhat, bi ant, shaj'/Sūt\n\nghadaN/iN, vurld "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0019",
+    "direction": "en2ar",
+    "input": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "changes": {
+      "output": {
+        "before": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أمس\n\nأمس/نافذة — أحمد رهِيثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+        "after": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أمس\n\nأمس/نافذة — أحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/"
+      },
+      "roundTrip": {
+        "before": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhīthm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/",
+        "after": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/"
+      },
+      "secondPass": {
+        "before": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِيثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+        "after": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0019",
+    "direction": "ar2en",
+    "input": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "changes": {
+      "roundTrip": {
+        "before": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِيثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+        "after": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/"
+      },
+      "secondPass": {
+        "before": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhīthm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/",
+        "after": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0021",
+    "direction": "en2ar",
+    "input": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmy ",
+    "changes": {
+      "output": {
+        "before": "قُوَّ — نحن عائشة\n\nلا نافذة — ١٢؟ هؤلاء، سُؤال؟ الذي — في/‍ — شَمْسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِي ",
+        "after": "قُوَّ — نحن عائشة\n\nلا نافذة — ١٢؟ هؤلاء، سُؤال؟ الذي — في/‍ — شَمْسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِ "
+      },
+      "roundTrip": {
+        "before": "quvva — nHn -ā'shat\n\nlā nāfdhat — ١٢? h'lā', su'āl? aldhī — fī/‍ — shamsuN? alSSabāH, marHaba? nāfdhat\n\nSūt? ghdaNā, quvva? marHaba\n\nmī ",
+        "after": "quvva — nHn -ā'shat\n\nlā nāfdhat — ١٢? h'lā', su'āl? aldhī — fī/‍ — shamsuN? alSSabāH, marHaba? nāfdhat\n\nSūt? ghdaNā, quvva? marHaba\n\nmi "
+      },
+      "secondPass": {
+        "before": "قُوَّ — نحن عاءشة\n\nلا نافذة — ١٢؟ هءلاء، سُؤال؟ اَلذِي — فِي/‍ — شَمسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصُوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِي ",
+        "after": "قُوَّ — نحن عاءشة\n\nلا نافذة — ١٢؟ هءلاء، سُؤال؟ اَلذِي — فِي/‍ — شَمسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصُوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0021",
+    "direction": "ar2en",
+    "input": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmy ",
+    "changes": {
+      "roundTrip": {
+        "before": "قُوَّ — نحن عاءشة\n\nلا نافذة — ١٢؟ هءلاء، سُؤال؟ اَلذِي — فِي/‍ — شَمسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصُوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِي ",
+        "after": "قُوَّ — نحن عاءشة\n\nلا نافذة — ١٢؟ هءلاء، سُؤال؟ اَلذِي — فِي/‍ — شَمسٌ؟ اَلصَّباح، مَرحَبَ؟ نافذة\n\nصُوت؟ غدًا، قُوَّ؟ مَرحَبَ\n\nمِ "
+      },
+      "secondPass": {
+        "before": "quvva — nHn -ā'shat\n\nlā nāfdhat — ١٢? h'lā', su'āl? aldhī — fī/‍ — shamsuN? alSSabāH, marHaba? nāfdhat\n\nSūt? ghdaNā, quvva? marHaba\n\nmī ",
+        "after": "quvva — nHn -ā'shat\n\nlā nāfdhat — ١٢? h'lā', su'āl? aldhī — fī/‍ — shamsuN? alSSabāH, marHaba? nāfdhat\n\nSūt? ghdaNā, quvva? marHaba\n\nmi "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0023",
+    "direction": "en2ar",
+    "input": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "changes": {
+      "output": {
+        "before": "من\n\nهواء اَحمَد\n\nلكن؟ ماء، قارئ؟ لا\n\nشيء مِي، سِتِي/من — فِي مَدرَسة، ٍ أمس، E=مك^2/سةَسمَع\n\nستجُول/نَعَم — كِتاب؟ ",
+        "after": "من\n\nهواء اَحمَد\n\nلكن؟ ماء، قارئ؟ لا\n\nشيء مِ، سِتِ/من — فِي مَدرَسة، ٍ أمس، E=مك^2/سةَسمَع\n\nستجُول/نَعَم — كِتاب؟ "
+      },
+      "roundTrip": {
+        "before": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mī, sitī/mn — fī madrasat, iN 'ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? ",
+        "after": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mi, siti/mn — fī madrasat, iN 'ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? "
+      },
+      "secondPass": {
+        "before": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِي، سِتِي/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سةَسمَع\n\nستجُوl/نَعَم — كِتاب؟ ",
+        "after": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِ، سِتِ/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سةَسمَع\n\nستجُوl/نَعَم — كِتاب؟ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0023",
+    "direction": "ar2en",
+    "input": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "changes": {
+      "roundTrip": {
+        "before": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِي، سِتِي/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سةَسمَع\n\nستجُول/نَعَم — كِتاب؟ ",
+        "after": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِ، سِتِ/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سةَسمَع\n\nستجُول/نَعَم — كِتاب؟ "
+      },
+      "secondPass": {
+        "before": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mī, sitī/mn — fī madrasat, iN ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? ",
+        "after": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mi, siti/mn — fī madrasat, iN ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0024",
+    "direction": "en2ar",
+    "input": "هي\n\nghadaN أمس\n\nهي? by\n\nanta/‍, lā إلى — world/الذي — anā? world\n\ncity? لا — هواء أنا, Hajj/mā' — على ",
+    "changes": {
+      "output": {
+        "before": "هي\n\nغَدً أمس\n\nهي؟ بِي\n\nاَنتَ/‍، لا إلى — وُرلد/الذي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هواء أنا، حَيّ/mاء — على ",
+        "after": "هي\n\nغَدً أمس\n\nهي؟ بِ\n\nاَنتَ/‍، لا إلى — وُرلد/الذي — اَنا؟ وُرلد\n\nسِتِ؟ لا — هواء أنا، حَيّ/mاء — على "
+      },
+      "roundTrip": {
+        "before": "hī\n\nghadaN 'ams\n\nhī? bī\n\nanta/‍, lā 'ilá — vurld/āldhī — anā? vurld\n\nsitī? lā — hvā' 'anā, Hajj/mā' — -lá ",
+        "after": "hī\n\nghadaN 'ams\n\nhī? bi\n\nanta/‍, lā 'ilá — vurld/āldhī — anā? vurld\n\nsiti? lā — hvā' 'anā, Hajj/mā' — -lá "
+      },
+      "secondPass": {
+        "before": "هِي\n\nغَدً أَمس\n\nهِي؟ بِي\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هوْاء أَنا، حَيّ/mاء — على ",
+        "after": "هِي\n\nغَدً أَمس\n\nهِي؟ بِ\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِ؟ لا — هوْاء أَنا، حَيّ/mاء — على "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0024",
+    "direction": "ar2en",
+    "input": "هي\n\nghadaN أمس\n\nهي? by\n\nanta/‍, lā إلى — world/الذي — anā? world\n\ncity? لا — هواء أنا, Hajj/mā' — على ",
+    "changes": {
+      "roundTrip": {
+        "before": "هِي\n\nغَدً أَمس\n\nهِي؟ بِي\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِي؟ لا — هوْاء أَنا، حَيّ/mاء — على ",
+        "after": "هِي\n\nغَدً أَمس\n\nهِي؟ بِ\n\nاَنتَ/‍، لا إِلى — وُرلد/الذِي — اَنا؟ وُرلد\n\nسِتِ؟ لا — هوْاء أَنا، حَيّ/mاء — على "
+      },
+      "secondPass": {
+        "before": "hī\n\nghadaN ams\n\nhī? bī\n\nanta/‍, lā ilá — vurld/āldhī — anā? vurld\n\nsitī? lā — hvā' anā, Hajj/mā' — -lá ",
+        "after": "hī\n\nghadaN ams\n\nhī? bi\n\nanta/‍, lā ilá — vurld/āldhī — anā? vurld\n\nsiti? lā — hvā' anā, Hajj/mā' — -lá "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0026",
+    "direction": "en2ar",
+    "input": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhythm\n\nkitāb/من\n\nyellow شاي — alSawt على, هؤلاء/",
+    "changes": {
+      "output": {
+        "before": "لأن\n\nرُبَّما ى — مساءً ٌ، في/حَيّ — كتاب قارئ — 42/عَلى\n\nعائشة رهِيثم\n\nكِتاb/من\n\nيِلُّوْ شاي — اَلصَوْت على، هؤلاء/",
+        "after": "لأن\n\nرُبَّما ى — مساءً ٌ، في/حَيّ — كتاب قارئ — 42/عَلى\n\nعائشة رهِثم\n\nكِتاb/من\n\nيِلُّوْ شاي — اَلصَوْت على، هؤلاء/"
+      },
+      "roundTrip": {
+        "before": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhīthm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/",
+        "after": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhithm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/"
+      },
+      "secondPass": {
+        "before": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِيثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/",
+        "after": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0026",
+    "direction": "ar2en",
+    "input": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhythm\n\nkitāb/من\n\nyellow شاي — alSawt على, هؤلاء/",
+    "changes": {
+      "roundTrip": {
+        "before": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِيثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/",
+        "after": "لأن\n\nرُبَّما ى — مساأً ٌ، فِي/حَيّ — كتاب قارء — 42/عَلى\n\nعاءشة رهِثم\n\nكِتاb/من\n\nيِلُّوْ شايْ — اَلصَوْت على، هءلاء/"
+      },
+      "secondPass": {
+        "before": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhīthm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/",
+        "after": "l'n\n\nrubbamā á — msā'aN uN, fī/Hajj — ktāb qār' — 42/-alá\n\n-ā'shat rhithm\n\nkitāb/mn\n\njilluv shāj — alSavt -lá, h'lā'/"
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0027",
+    "direction": "en2ar",
+    "input": "ليلى — صباحًا/إلى — anā/city — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? world, hello lajla, world? ",
+    "changes": {
+      "output": {
+        "before": "ليلى — صباحًا/إلى — اَنا/سِتِي — ٱلْبَيْتُ؟ وِث\n\nأمس لَيْلَ — قُوَّة لا، ستسمع غدًا — فِي شيء\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ ",
+        "after": "ليلى — صباحًا/إلى — اَنا/سِتِ — ٱلْبَيْتُ؟ وِث\n\nأمس لَيْلَ — قُوَّة لا، ستسمع غدًا — فِي شيء\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ "
+      },
+      "roundTrip": {
+        "before": "līlá — SbāHaNā/'lá — anā/sitī — albajtu? vith\n\n'ams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? vurld, hillu lajla, vurld? ",
+        "after": "līlá — SbāHaNā/'lá — anā/siti — albajtu? vith\n\n'ams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? vurld, hillu lajla, vurld? "
+      },
+      "secondPass": {
+        "before": "لِيلى — صباحًا/ألى — اَنا/سِتِي — اَلبَيْتُ؟ وِث\n\nأَمس لَيْلَ — قُوّات لا، ستسمع غدًا — فِي شِيئ\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ ",
+        "after": "لِيلى — صباحًا/ألى — اَنا/سِتِ — اَلبَيْتُ؟ وِث\n\nأَمس لَيْلَ — قُوّات لا، ستسمع غدًا — فِي شِيئ\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ "
+      }
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/ar2en/0027",
+    "direction": "ar2en",
+    "input": "ليلى — صباحًا/إلى — anā/city — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? world, hello lajla, world? ",
+    "changes": {
+      "roundTrip": {
+        "before": "لِيلى — صباحًا/ألى — اَنا/سِتِي — اَلبَيْتُ؟ وِث\n\nأَمس لَيْلَ — قُوّات لا، ستسمع غدًا — فِي شِيئ\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ ",
+        "after": "لِيلى — صباحًا/ألى — اَنا/سِتِ — اَلبَيْتُ؟ وِث\n\nأَمس لَيْلَ — قُوّات لا، ستسمع غدًا — فِي شِيئ\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ "
+      },
+      "secondPass": {
+        "before": "līlá — SbāHaNā/'lá — anā/sitī — albajtu? vith\n\nams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? vurld, hillu lajla, vurld? ",
+        "after": "līlá — SbāHaNā/'lá — anā/siti — albajtu? vith\n\nams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? vurld, hillu lajla, vurld? "
+      }
+    }
+  }
+]

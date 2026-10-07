@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0023",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "output": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' my, city/mn — fī madrasat, iN 'ams, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "roundTrip": "من\n\nهوْاء اَحمَد\n\nلكن؟ ماء، قارء؟ لا\n\nشِيئ مِ، سِتِ/من — فِي مَدرَسة، ٍ أَمس، E=مك^2/سَتَسمَع\n\nستجُول/نَعَم — كِتاب؟ ",
+    "secondPass": "mn\n\nhvā' aHmad\n\nlkn? mā', qār'? lā\n\nshī' mi, siti/mn — fī madrasat, iN ams, E=mk^2/satasma-\n\nstJūl/na-am — kitāb? "
+  }
+]

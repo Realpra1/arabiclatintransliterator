@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0053",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "output": "نعم\n\nمدرسة؟ هِلُّ — قارئ؟ قارئ — اَلصَّباح/ً — 🙂/نافذة — سَتَسمَع ٌ، رُبَّما/إلى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ ",
+    "roundTrip": "n-m\n\nmdrsat? hillu — qār'? qār' — alSSabāH/aN — 🙂/nāfdhat — satasma- uN, rubbamā/'lá\n\nstsm-? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? ",
+    "secondPass": "نعم\n\nمدرسة؟ هِلُّ — قارء؟ قارء — اَلصَّباح/ً — 🙂/نافذة — سَتَسمَع ٌ، رُبَّما/ألى\n\nستسمع؟ نَعَم\n\nمِ/اَحمَد\n\n١٢/حَيّ، 42؟ "
+  }
+]

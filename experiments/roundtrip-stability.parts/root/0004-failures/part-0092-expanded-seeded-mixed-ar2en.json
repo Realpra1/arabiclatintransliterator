@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0060",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/coffee, uN alSawt, hello هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/coffee, uN alSawt, hello هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? ",
+      "L1": "Hajj, aHmad? quvva\n\nghadaN alSSabāH — 'ant? albajtu, min? na-am\n\nnāfdhat/coffee, uN alSawt, hello h'lā'\n\nHajj? shaj'\n\nqār'? na-am — marHaba? ",
+      "A2": "حَيّ، اَحمَد؟ قُوَّ\n\nغَدً اَلصَّباح — أَنت؟ اَلبَيْتُ، مِن؟ نَعَم\n\nنافذة/كُفِّي، ٌ اَلصَوْت، هِلُّ هءلاء\n\nحَيّ؟ شَيْء\n\nقارء؟ نَعَم — مَرحَبَ؟ ",
+      "L2": "Hajj, aHmad? quvva\n\nghadaN alSSabāH — ant? albajtu, min? na-am\n\nnāfdhat/kuffī, uN alSavt, hillu h'lā'\n\nHajj? shaj'\n\nqār'? na-am — marHaba? ",
+      "A3": "حَيّ، اَحمَد؟ قُوَّ\n\nغَدً اَلصَّباح — اَنت؟ اَلبَيْتُ، مِن؟ نَعَم\n\nنافذة/كُفِّي، ٌ اَلصَوْت، هِلُّ هءلاء\n\nحَيّ؟ شَيْء\n\nقارء؟ نَعَم — مَرحَبَ؟ ",
+      "L3": "Hajj, aHmad? quvva\n\nghadaN alSSabāH — ant? albajtu, min? na-am\n\nnāfdhat/kuffī, uN alSavt, hillu h'lā'\n\nHajj? shaj'\n\nqār'? na-am — marHaba? "
+    }
+  }
+]

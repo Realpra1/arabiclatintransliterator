@@ -1,6 +1,7 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 // Isolated notation trials; production scripts and saved expectations are unchanged.
 import assert from 'node:assert/strict';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { createContext, runInContext } from 'node:vm';
 import { loadTranslator, translatorFiles, root } from '../tests/helpers/load-translator.mjs';
@@ -94,5 +95,5 @@ const savedReport = { ...report, reports: reports.map(r => ({
   changedCaseIds: [...new Set(r.changes.map(c => c.id))],
   checks: { ...r.checks, fixed: r.checks.fixed.map(({ id, direction, rule }) => ({ id, direction, rule })) },
 })) };
-writeFileSync(new URL(distinctOnly ? 'experiments/ayn-standard.json' : 'experiments/ayn-notation.json', root), JSON.stringify(savedReport, null, 2) + '\n');
+writeJsonArtifact(new URL(distinctOnly ? 'experiments/ayn-standard.json' : 'experiments/ayn-notation.json', root), savedReport);
 console.log(JSON.stringify(reports.map(r => ({ name:r.name, focusedChecks:r.focusedChecks, checks:{ ...r.checks, newlyFailing:r.checks.newlyFailing.length, fixed:r.checks.fixed.length }, changedArabicTraces:r.changedArabicTraces, changedArabicInputCases:r.changedArabicInputCases, documents:r.documents.map(({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})=>({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})), examples:r.examples.map(e=>({input:e.input, oldLatin:e.before.L1, newLatin:e.after.L1, oldArabic:e.before.A2, newArabic:e.after.A2})) })), null, 2));

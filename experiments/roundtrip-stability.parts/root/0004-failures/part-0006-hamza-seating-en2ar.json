@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hamza-seating/en2ar/0001",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "'",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "'",
+      "A1": "أ",
+      "L2": "'a",
+      "A2": "أَ",
+      "L3": "a",
+      "A3": "اَ"
+    }
+  },
+  {
+    "id": "hamza-seating/en2ar/0013",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": "'b",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "'b",
+      "A1": "أب",
+      "L2": "'ab",
+      "A2": "أَب",
+      "L3": "ab",
+      "A3": "اَب"
+    }
+  },
+  {
+    "id": "hamza-seating/en2ar/0157",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " '",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": " '",
+      "A1": " أ",
+      "L2": " 'a",
+      "A2": " أَ",
+      "L3": " a",
+      "A3": " اَ"
+    }
+  },
+  {
+    "id": "hamza-seating/en2ar/0169",
+    "group": "hamza-seating",
+    "direction": "en2ar",
+    "input": " 'b",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": " 'b",
+      "A1": " أب",
+      "L2": " 'ab",
+      "A2": " أَب",
+      "L3": " ab",
+      "A3": " اَب"
+    }
+  }
+]

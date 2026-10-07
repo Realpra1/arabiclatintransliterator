@@ -1,0 +1,92 @@
+[
+  {
+    "id": "english/en2ar/0014",
+    "direction": "en2ar",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "before": {
+      "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مةجِنِ."
+    },
+    "after": {
+      "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ."
+    }
+  },
+  {
+    "id": "english/en2ar/0016",
+    "direction": "en2ar",
+    "input": "Rotate agricultural plant families yearly.",
+    "before": {
+      "output": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ.",
+      "roundTrip": "rutati aJrikultural blant familīs jiarli.",
+      "secondPass": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+    },
+    "after": {
+      "output": "رُتَتِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ.",
+      "roundTrip": "rutati aJrikultural blant familīs jiarli.",
+      "secondPass": "رُتَتِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+    }
+  },
+  {
+    "id": "english/en2ar/0017",
+    "direction": "en2ar",
+    "input": "Move cattle through 12 pasture plots.",
+    "before": {
+      "output": "مُوِ كةتلِ ثرُوغ 12 بَستُرِ بلُتس.",
+      "roundTrip": "muvi kattli thrūgh 12 basturi bluts.",
+      "secondPass": "مُوِ كةتلِ ثرُوغ 12 بَستُرِ بلُتس."
+    },
+    "after": {
+      "output": "مُوِ كَتّلِ ثرُوغ 12 بَستُرِ بلُتس.",
+      "roundTrip": "muvi kattli thrūgh 12 basturi bluts.",
+      "secondPass": "مُوِ كَتّلِ ثرُوغ 12 بَستُرِ بلُتس."
+    }
+  },
+  {
+    "id": "english/en2ar/0018",
+    "direction": "en2ar",
+    "input": "Filter water through sand & charcoal columns.",
+    "before": {
+      "output": "فِلتِر وةِر ثرُوغ سَند & تجَركَُل كُلُمنس.",
+      "roundTrip": "filtir vatir thrūgh sand & tJarkual kulumns.",
+      "secondPass": "فِلتِر وةِر ثرُوغ سَند & تجَركَُل كُلُمنس."
+    },
+    "after": {
+      "output": "فِلتِر وَتِر ثرُوغ سَند & تجَركَُل كُلُمنس.",
+      "roundTrip": "filtir vatir thrūgh sand & tJarkual kulumns.",
+      "secondPass": "فِلتِر وَتِر ثرُوغ سَند & تجَركَُل كُلُمنس."
+    }
+  },
+  {
+    "id": "formatting-and-unicode/en2ar/0022",
+    "direction": "en2ar",
+    "input": "‏العربية‎ Latin",
+    "before": {
+      "output": "‏العربية‎ لةِن",
+      "roundTrip": "‏āl-rbīat‎ latin",
+      "secondPass": "‏العربِية‎ لةِن"
+    },
+    "after": {
+      "output": "‏العربية‎ لَتِن",
+      "roundTrip": "‏āl-rbīat‎ latin",
+      "secondPass": "‏العربِية‎ لَتِن"
+    }
+  },
+  {
+    "id": "formatting-and-unicode/ar2en/0022",
+    "direction": "ar2en",
+    "input": "‏العربية‎ Latin",
+    "before": {
+      "output": "‏āl-rbīat‎ Latin",
+      "roundTrip": "‏العربِية‎ لةِن",
+      "secondPass": "‏āl-rbīat‎ latin"
+    },
+    "after": {
+      "output": "‏āl-rbīat‎ Latin",
+      "roundTrip": "‏العربِية‎ لَتِن",
+      "secondPass": "‏āl-rbīat‎ latin"
+    }
+  }
+]

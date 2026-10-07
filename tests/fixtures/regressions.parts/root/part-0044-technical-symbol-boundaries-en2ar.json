@@ -1,0 +1,443 @@
+[
+  {
+    "id": "technical-symbol-boundaries/en2ar/0099",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x“",
+    "output": "x“",
+    "roundTrip": "x“",
+    "secondPass": "x“"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0100",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "“x",
+    "output": "“x",
+    "roundTrip": "“x",
+    "secondPass": "“x"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0101",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a “ b",
+    "output": "اَ “ ب",
+    "roundTrip": "a “ b",
+    "secondPass": "اَ “ ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0102",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab“cd",
+    "output": "اَب“كد",
+    "roundTrip": "ab“kd",
+    "secondPass": "اَب“كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0103",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C”",
+    "output": "C”",
+    "roundTrip": "C”",
+    "secondPass": "C”"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0104",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "”C",
+    "output": "”C",
+    "roundTrip": "”C",
+    "secondPass": "”C"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0105",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x”",
+    "output": "x”",
+    "roundTrip": "x”",
+    "secondPass": "x”"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0106",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "”x",
+    "output": "”x",
+    "roundTrip": "”x",
+    "secondPass": "”x"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0107",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a ” b",
+    "output": "اَ ” ب",
+    "roundTrip": "a ” b",
+    "secondPass": "اَ ” ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0108",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab”cd",
+    "output": "اَب”كد",
+    "roundTrip": "ab”kd",
+    "secondPass": "اَب”كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0109",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C«",
+    "output": "C«",
+    "roundTrip": "C«",
+    "secondPass": "C«"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0110",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "«C",
+    "output": "«C",
+    "roundTrip": "«C",
+    "secondPass": "«C"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0111",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x«",
+    "output": "x«",
+    "roundTrip": "x«",
+    "secondPass": "x«"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0112",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "«x",
+    "output": "«x",
+    "roundTrip": "«x",
+    "secondPass": "«x"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0113",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a « b",
+    "output": "اَ « ب",
+    "roundTrip": "a « b",
+    "secondPass": "اَ « ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0114",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab«cd",
+    "output": "اَب«كد",
+    "roundTrip": "ab«kd",
+    "secondPass": "اَب«كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0115",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C»",
+    "output": "C»",
+    "roundTrip": "C»",
+    "secondPass": "C»"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0116",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "»C",
+    "output": "»C",
+    "roundTrip": "»C",
+    "secondPass": "»C"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0117",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x»",
+    "output": "x»",
+    "roundTrip": "x»",
+    "secondPass": "x»"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0118",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "»x",
+    "output": "»x",
+    "roundTrip": "»x",
+    "secondPass": "»x"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0119",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a » b",
+    "output": "اَ » ب",
+    "roundTrip": "a » b",
+    "secondPass": "اَ » ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0120",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab»cd",
+    "output": "اَب»كد",
+    "roundTrip": "ab»kd",
+    "secondPass": "اَب»كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0121",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C×",
+    "output": "ك×",
+    "roundTrip": "k×",
+    "secondPass": "ك×"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0122",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "×C",
+    "output": "×س",
+    "roundTrip": "×s",
+    "secondPass": "×س"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0123",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x×",
+    "output": "إِكس×",
+    "roundTrip": "iks×",
+    "secondPass": "إِكس×"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0124",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "×x",
+    "output": "×إِكس",
+    "roundTrip": "×'iks",
+    "secondPass": "×إِكس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0125",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a × b",
+    "output": "اَ × ب",
+    "roundTrip": "a × b",
+    "secondPass": "اَ × ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0126",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab×cd",
+    "output": "اَب×كد",
+    "roundTrip": "ab×kd",
+    "secondPass": "اَب×كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0127",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C-",
+    "output": "كع",
+    "roundTrip": "k-",
+    "secondPass": "كع"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0128",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "-C",
+    "output": "عس",
+    "roundTrip": "-s",
+    "secondPass": "عس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0129",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x-",
+    "output": "إِكسع",
+    "roundTrip": "iks-",
+    "secondPass": "إِكسع"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0130",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "-x",
+    "output": "عِكس",
+    "roundTrip": "-iks",
+    "secondPass": "عِكس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0131",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a - b",
+    "output": "اَ ع ب",
+    "roundTrip": "a - b",
+    "secondPass": "اَ ع ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0132",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab-cd",
+    "output": "اَبعكد",
+    "roundTrip": "ab-kd",
+    "secondPass": "اَبعكد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0133",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C:",
+    "output": "ك:",
+    "roundTrip": "k:",
+    "secondPass": "ك:"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0134",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ":C",
+    "output": ":س",
+    "roundTrip": ":s",
+    "secondPass": ":س"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0135",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x:",
+    "output": "إِكس:",
+    "roundTrip": "iks:",
+    "secondPass": "إِكس:"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0136",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ":x",
+    "output": ":إِكس",
+    "roundTrip": ":iks",
+    "secondPass": ":إِكس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0137",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a : b",
+    "output": "اَ : ب",
+    "roundTrip": "a : b",
+    "secondPass": "اَ : ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0138",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab:cd",
+    "output": "اَب:كد",
+    "roundTrip": "ab:kd",
+    "secondPass": "اَب:كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0139",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C,",
+    "output": "ك،",
+    "roundTrip": "k,",
+    "secondPass": "ك،"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0140",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ",C",
+    "output": "،س",
+    "roundTrip": ",s",
+    "secondPass": "،س"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0141",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x,",
+    "output": "إِكس،",
+    "roundTrip": "iks,",
+    "secondPass": "إِكس،"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0142",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ",x",
+    "output": "،ِكس",
+    "roundTrip": ",iks",
+    "secondPass": "،ِكس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0143",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a , b",
+    "output": "اَ ، ب",
+    "roundTrip": "a , b",
+    "secondPass": "اَ ، ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0144",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab,cd",
+    "output": "اَب،كد",
+    "roundTrip": "ab,kd",
+    "secondPass": "اَب،كد"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0145",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "C;",
+    "output": "ك؛",
+    "roundTrip": "k;",
+    "secondPass": "ك؛"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0146",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ";C",
+    "output": "؛س",
+    "roundTrip": ";s",
+    "secondPass": "؛س"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0147",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "x;",
+    "output": "إِكس؛",
+    "roundTrip": "iks;",
+    "secondPass": "إِكس؛"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0032",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hello\n\nqueue? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? ",
+    "output": "'anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hello\n\nqueue? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+    "roundTrip": "أَنا — قَهوَ/اَنتَ — محمد/أنت — لأn/مساأً\n\nاَحمَد فِي، شايْ هِلُّ\n\nقُُِِ؟ اَلِيوْم — لكن/fِي — اَلصَّباح هذه، هُو شَيْء\n\nمن؟ ",
+    "secondPass": "anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hillu\n\nquiui? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+    "before": {
+      "output": "'anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hello\n\nqueue? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+      "roundTrip": "أَنا — قَهوَ/اَنتَ — محمد/أنت — لأn/مساأً\n\nاَحمَد فِي، شايْ هِلُّ\n\nقُُِِ؟ اَلِيوْم — لكن/fِي — اَلصَّباح هذه، هُو شَيْء\n\nمن؟ ",
+      "secondPass": "anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hillu\n\nquiui? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? "
+    },
+    "after": {
+      "output": "'anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hello\n\nqueue? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? ",
+      "roundTrip": "أَنا — قَهوَ/اَنتَ — محمد/أنت — لأn/مساأً\n\nاَحمَد فِي، شايْ هِلُّ\n\nقُُِِ؟ اَلِيوْم — لكن/فِي — اَلصَّباح هذه، هُو شَيْء\n\nمن؟ ",
+      "secondPass": "anā — qahva/anta — mHmd/'nt — l'n/msā'aN\n\naHmad fī, shāj hillu\n\nquiui? alīvm — lkn/fī — alSSabāH hdhh, hū shaj'\n\nmn? "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0058",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "output": "quvva — n-m? ā — aHmad/su'āl, city? 'aHmd\n\nmHmd/book, hī/lbajtu, SbāHaNā? aldhī — yellow iN — Hajj alSawt, stsm-? iN, anta/",
+    "roundTrip": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِي؟ أَحمد\n\nمحمد/بُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+    "secondPass": "quvva — n-m? ā — aHmad/su'āl, sitī? aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/",
+    "before": {
+      "output": "quvva — n-m? ā — aHmad/su'āl, city? 'aHmd\n\nmHmd/book, hī/lbajtu, SbāHaNā? aldhī — yellow iN — Hajj alSawt, stsm-? iN, anta/",
+      "roundTrip": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِي؟ أَحمد\n\nمحمد/بُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+      "secondPass": "quvva — n-m? ā — aHmad/su'āl, sitī? aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/"
+    },
+    "after": {
+      "output": "quvva — n-m? ā — aHmad/su'āl, city? 'aHmd\n\nmHmd/book, hī/lbajtu, SbāHaNā? aldhī — yellow iN — Hajj alSawt, stsm-? iN, anta/",
+      "roundTrip": "قُوَّ — نعم؟ ا — اَحمَد/سُؤال، سِتِ؟ أَحمد\n\nمحمد/بُوك، هِي/لبَيْتُ، صباحًا؟ اَلذِي — يِلُّوْ ٍ — حَيّ اَلصَوْت، ستسمع؟ ٍ، اَنتَ/",
+      "secondPass": "quvva — n-m? ā — aHmad/su'āl, siti? aHmd\n\nmHmd/būk, hī/lbajtu, SbāHaNā? aldhī — jilluv iN — Hajj alSavt, stsm-? iN, anta/"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

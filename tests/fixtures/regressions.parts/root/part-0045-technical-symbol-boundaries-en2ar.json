@@ -1,0 +1,29 @@
+[
+  {
+    "id": "technical-symbol-boundaries/en2ar/0148",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": ";x",
+    "output": "؛ِكس",
+    "roundTrip": ";iks",
+    "secondPass": "؛ِكس"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0149",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "a ; b",
+    "output": "اَ ؛ ب",
+    "roundTrip": "a ; b",
+    "secondPass": "اَ ؛ ب"
+  },
+  {
+    "id": "technical-symbol-boundaries/en2ar/0150",
+    "group": "technical-symbol-boundaries",
+    "direction": "en2ar",
+    "input": "ab;cd",
+    "output": "اَب؛كد",
+    "roundTrip": "ab;kd",
+    "secondPass": "اَب؛كد"
+  }
+]

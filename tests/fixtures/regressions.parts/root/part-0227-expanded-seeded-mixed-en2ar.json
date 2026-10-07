@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0051",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/",
+    "output": "إِلى، أحمد/الذي — أمس قُُِِ — عائشة ً\n\nسَتَسمَع/قُوَّ\n\nلَيْلَ من\n\nماء؟ مسؤول، سِتِ/صوت، نَعَم/سِتِ\n\nسُؤال اَنتَ، قارئ/",
+    "roundTrip": "ilá, 'aHmd/āldhī — 'ams quiui — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, siti/Sūt, na-am/siti\n\nsu'āl anta, qār'/",
+    "secondPass": "إِلى، أَحمد/الذِي — أَمس قُُِِ — عاءشة ً\n\nسَتَسمَع/قُوَّ\n\nلَيْلَ من\n\nماء؟ مسؤُول، سِتِ/صُوت، نَعَم/سِتِ\n\nسُؤال اَنتَ، قارء/"
+  }
+]

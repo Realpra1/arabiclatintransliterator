@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1555",
+    "input": "with, anā/shāj — with? hello, fī/my — iN!",
+    "normalized": "with, anā/shāj — with? hillu, fī/mi — iN!",
+    "collapsed": "with, anā/shāj — with? hello, fī/my — iN!"
+  },
+  {
+    "id": "normalizer/1556",
+    "input": "na-am\nyellow\tbook\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+queue\tworld\nuN\tcity world\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb book؟",
+    "normalized": "na-am\nyilluw\tbūk\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+quiui\twurld\nuN\tsiti wurld\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb būk؟",
+    "collapsed": "na-am\nyellow\tbook\nna-am؛ kitāb\nkitāb aN+qahva؛ marHaba+queue\tworld\nuN\tcity world\tuN\nqahva؛ shaj' -alá\talSSabāH+na-am aN+-alá uN+aN؛ shaj'+-alá؛ -alá\nkitāb book؟"
+  },
+  {
+    "id": "normalizer/1557",
+    "input": "my, anā? lā, rhythm ghadaN — Hajj/rubbamā, coffee madrasat, iN",
+    "normalized": "mi, anā? lā, rhithm ghadaN — Hajj/rubbamā, kuffī madrasat, iN",
+    "collapsed": "my, anā? lā, rhythm ghadaN — Hajj/rubbamā, coffee madrasat, iN"
+  },
+  {
+    "id": "normalizer/1558",
+    "input": "queue\nqueue by world yellow\nmā' quvva\nalSSabāH؛ na-am\nanta\tqueue+aHmad؛ qahva+na-am؛ shaj' yellow qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ by queue؛ queue+qahva؛ city+book؛ min shaj'؛ yellow!",
+    "normalized": "quiui\nquiui bi wurld yilluw\nmā' quvva\nalSSabāH؛ na-am\nanta\tquiui+aHmad؛ qahva+na-am؛ shaj' yilluw qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ bi quiui؛ quiui+qahva؛ siti+būk؛ min shaj'؛ yilluw!",
+    "collapsed": "queue\nqueue by world yellow\nmā' quvva\nalSSabāH؛ na-am\nanta\tqueue+aHmad؛ qahva+na-am؛ shaj' yellow qahva\n-alá kitāb -alá؛ min+marHaba aHmad+qahva\t-alá+qahva marHaba+uN؛ by queue؛ queue+qahva؛ city+book؛ min shaj'؛ yellow!"
+  },
+  {
+    "id": "normalizer/1559",
+    "input": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhythm — naHnu/lajla — havā'? rhythm — anā fī\n\nshāj/coffee — madrasat? naHnu — school/ilá, Hajj shāj\n\nsatasma-/school\n\niN? su'āl\n\nHajj؟",
+    "normalized": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhithm — naHnu/lajla — havā'? rhithm — anā fī\n\nshāj/kuffī — madrasat? naHnu — schūl/ilá, Hajj shāj\n\nsatasma-/schūl\n\niN? su'āl\n\nHajj؟",
+    "collapsed": "Hajj — naHnu/lā\n\nHajj/lā — ilá/iN — rubbamā/rhythm — naHnu/lajla — havā'? rhythm — anā fī\n\nshāj/coffee — madrasat? naHnu — school/ilá, Hajj shāj\n\nsatasma-/school\n\niN? su'āl\n\nHajj؟"
+  },
+  {
+    "id": "normalizer/1560",
+    "input": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+by\tby shaj' kitāb+queue؛ kitāb\nquvva؛ city quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ by aHmad\tbook\nqueue shaj'+alSSabāH\tkitāb؟",
+    "normalized": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+bi\tbi shaj' kitāb+quiui؛ kitāb\nquvva؛ siti quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ bi aHmad\tbūk\nquiui shaj'+alSSabāH\tkitāb؟",
+    "collapsed": "kitāb kitāb\taHmad\nanta؛ shaj' uN qahva alSSabāH marHaba\nuN uN marHaba؛ quvva+by\tby shaj' kitāb+queue؛ kitāb\nquvva؛ city quvva؛ min\naN؛ -alá marHaba؛ kitāb\nna-am؛ min\nmarHaba؛ by aHmad\tbook\nqueue shaj'+alSSabāH\tkitāb؟"
+  },
+  {
+    "id": "normalizer/1561",
+    "input": "school — coffee/my\n\nlajla with\n\nfī/madrasat, school.",
+    "normalized": "schūl — kuffī/mi\n\nlajla with\n\nfī/madrasat, schūl.",
+    "collapsed": "school — coffee/my\n\nlajla with\n\nfī/madrasat, school."
+  },
+  {
+    "id": "normalizer/1562",
+    "input": "yellow+shaj'؛ yellow by؛ queue!",
+    "normalized": "yilluw+shaj'؛ yilluw bi؛ quiui!",
+    "collapsed": "yellow+shaj'؛ yellow by؛ queue!"
+  },
+  {
+    "id": "normalizer/1563",
+    "input": "Hajj — lajla Hajj — coffee/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhythm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhythm, ghadaN/school — ilá/havā' — lajla? lā, my/hello, school/hello\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n",
+    "normalized": "Hajj — lajla Hajj — kuffī/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhithm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhithm, ghadaN/schūl — ilá/havā' — lajla? lā, mi/hillu, schūl/hillu\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n",
+    "collapsed": "Hajj — lajla Hajj — coffee/anā, lajla? ghadaN, satasma- satasma- — ghadaN/naHnu\n\nghadaN/rhythm, shāj/Hajj, iN? satasma-\n\nsu'āl su'āl — madrasat rubbamā\n\nsu'āl ghadaN\n\nsatasma- lajla — lajla? rhythm, ghadaN/school — ilá/havā' — lajla? lā, my/hello, school/hello\n\nshāj lā, ghadaN/Hajj, with anā\n\nnaHnu\n"
+  },
+  {
+    "id": "normalizer/1564",
+    "input": "na-am\nna-am؛ uN\nna-am\tmā' queue؛ alSSabāH+marHaba world\nalSawt\tby+na-am\tshaj' alSSabāH book\nbook\tcity\nqueue؛ alSawt+yellow quvva+by؛ quvva\nna-am\tworld\ncity؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+by\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nby؛ uN؟",
+    "normalized": "na-am\nna-am؛ uN\nna-am\tmā' quiui؛ alSSabāH+marHaba wurld\nalSawt\tbi+na-am\tshaj' alSSabāH būk\nbūk\tsiti\nquiui؛ alSawt+yilluw quvva+bi؛ quvva\nna-am\twurld\nsiti؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+bi\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nbi؛ uN؟",
+    "collapsed": "na-am\nna-am؛ uN\nna-am\tmā' queue؛ alSSabāH+marHaba world\nalSawt\tby+na-am\tshaj' alSSabāH book\nbook\tcity\nqueue؛ alSawt+yellow quvva+by؛ quvva\nna-am\tworld\ncity؛ alSSabāH min\tmarHaba qahva shaj'\naN\tmā'+by\tshaj'+mā'؛ kitāb+-alá quvva min\tanta shaj'\tanta\nby؛ uN؟"
+  },
+  {
+    "id": "normalizer/1565",
+    "input": "coffee, hello? rubbamā\n\nrubbamā? shāj, lā? ghadaN, coffee/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? my, rubbamā hello — with/su'āl, coffee? school\n\nwith lajla, ghadaN/satasma-, fī? iN, hello\n",
+    "normalized": "kuffī, hillu? rubbamā\n\nrubbamā? shāj, lā? ghadaN, kuffī/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? mi, rubbamā hillu — with/su'āl, kuffī? schūl\n\nwith lajla, ghadaN/satasma-, fī? iN, hillu\n",
+    "collapsed": "coffee, hello? rubbamā\n\nrubbamā? shāj, lā? ghadaN, coffee/anā — naHnu? su'āl, Hajj/shāj — satasma-? rubbamā, iN? my, rubbamā hello — with/su'āl, coffee? school\n\nwith lajla, ghadaN/satasma-, fī? iN, hello\n"
+  },
+  {
+    "id": "normalizer/1566",
+    "input": "na-am+anta shaj' aHmad؛ yellow uN؛ book+aN\tanta+queue\tqahva by qahva+anta aN\nmā' aN\nshaj'\tcity\nkitāb yellow\nby\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "normalized": "na-am+anta shaj' aHmad؛ yilluw uN؛ būk+aN\tanta+quiui\tqahva bi qahva+anta aN\nmā' aN\nshaj'\tsiti\nkitāb yilluw\nbi\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta.",
+    "collapsed": "na-am+anta shaj' aHmad؛ yellow uN؛ book+aN\tanta+queue\tqahva by qahva+anta aN\nmā' aN\nshaj'\tcity\nkitāb yellow\nby\tmin\nalSawt\taHmad anta؛ -alá kitāb؛ min\naHmad anta."
+  },
+  {
+    "id": "normalizer/1567",
+    "input": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHy ",
+    "normalized": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHi ",
+    "collapsed": "(uNDʿatgh'b-phch)at)ū\n(uN-+āʾwʿHy "
+  },
+  {
+    "id": "normalizer/1568",
+    "input": "ūthiNJāghc+iNphZxatʿ yNbsh+()'áshyūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN theʾ̄SshycaiNb'ghū",
+    "normalized": "ūthiNJāghk+iNphZxatʿ yNbsh+()'áshiūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN thiʾ̄SshikaiNb'ghū",
+    "collapsed": "ūthiNJāghc+iNphZxatʿ yNbsh+()'áshyūJ y S(uNāthiNa/yū\n(viNaNkhghch+atʿw\n thchīatJ'aN theʾ̄SshycaiNb'ghū"
+  },
+  {
+    "id": "normalizer/1569",
+    "input": "shSū+-gh(+-JNá oHv(īiNvshth'á-o(thjuNū\nZth-S(TeJZʾcá')(Teyū)jSūokhxchʾkhaNZaatTwacuNDáe",
+    "normalized": "shSū+-gh(+-JNá uHv(īiNvshth'á-o(thjuNū\nZth-S(TiJZʾká')(Tiyū)jSūukhxchʾkhaNZātTwakuNDái",
+    "collapsed": "shSū+-gh(+-JNá oHv(īiNvshth'á-o(thjuNū\nZth-S(TeJZʾcá')(Teyū)jSūokhxchʾkhaNZātTwacuNDáe"
+  },
+  {
+    "id": "normalizer/1570",
+    "input": "āph/ʾ̄ajSwuN/īeʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHyHaNcá )'theáūJDxatTchSe\n'aNNvkh",
+    "normalized": "āph/ʾ̄ajSwuN/īiʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHiHaNká )'thiáūJDxatTchSi\n'aNNvkh",
+    "collapsed": "āph/ʾ̄ajSwuN/īeʿkh+HphHph/áūgh̄SchaNkh)ūT-J̄)HuNHyHaNcá )'theáūJDxatTchSe\n'aNNvkh"
+  },
+  {
+    "id": "normalizer/1571",
+    "input": "ZbHoDJ +atá̄xū)khbNphshʿūthā)̄\n Sj)H)̄JeaiNīch\nNʾ/ʿ-ʾ-TDaND",
+    "normalized": "ZbHuDJ +atá̄iksū)khbNphshʿūthā)̄\n Sj)H)̄JiaiNīch\nNʾ/ʿ-ʾ-TDaND",
+    "collapsed": "ZbHoDJ +atá̄xū)khbNphshʿūthā)̄\n Sj)H)̄JeaiNīch\nNʾ/ʿ-ʾ-TDaND"
+  },
+  {
+    "id": "normalizer/1572",
+    "input": "shʾ'ghcveth oāʾe)chá/īwJkhthū\nūuNHbū",
+    "normalized": "shʾ'ghkvith uāʾe)chá/īwJkhthū\nūuNHbū",
+    "collapsed": "shʾ'ghcveth oāʾe)chá/īwJkhthū\nūuNHbū"
+  },
+  {
+    "id": "normalizer/1573",
+    "input": "chb-TZáN+chgh̄phāī̄oūy'Tjawo(aNatychʿDTZ+āaNatxshʾkhaN()-ʾ/+ZoiN\nūxZy(á SchuNNáāakhghDS(á'gh(uNch",
+    "normalized": "chb-TZáN+chgh̄phāī̄uūy'Tjawu(aNatichʿDTZ+āaNatxshʾkhaN()-ʾ/+ZuiN\nūsZi(á SchuNNáāakhghDS(á'gh(uNch",
+    "collapsed": "chb-TZáN+chgh̄phāī̄oūy'Tjawo(aNatychʿDTZ+āaNatxshʾkhaN()-ʾ/+ZoiN\nūxZy(á SchuNNáāakhghDS(á'gh(uNch"
+  },
+  {
+    "id": "normalizer/1574",
+    "input": "atʿ(+ā",
+    "normalized": "atʿ(+ā",
+    "collapsed": "atʿ(+ā"
+  },
+  {
+    "id": "normalizer/1575",
+    "input": "Dth̄ychS(",
+    "normalized": "Dth̄ychS(",
+    "collapsed": "Dth̄ychS("
+  },
+  {
+    "id": "normalizer/1576",
+    "input": "khájph'T/gh-yjʿwy/ʿiNaH",
+    "normalized": "khájph'T/gh-yjʿwi/ʿiNaH",
+    "collapsed": "khájph'T/gh-yjʿwy/ʿiNaH"
+  },
+  {
+    "id": "normalizer/1577",
+    "input": "j\ncbāoHoūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDtheaN'oiNJDTjokhbNī/ʾcáat+cJHveachokhvNSū\niNy/thHaNN",
+    "normalized": "j\nkbāuHuūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDthiaN'uiNJDTjukhbNī/ʾkáat+kJHviachukhvNSū\niNi/thHaNN",
+    "collapsed": "j\ncbāoHoūáj\n̄b-\natuNjxZTchthHa'vāaNNuNZghDtheaN'oiNJDTjokhbNī/ʾcáat+cJHveachokhvNSū\niNy/thHaNN"
+  },
+  {
+    "id": "normalizer/1578",
+    "input": "ūʾZxchōSjȳyDpheghū+Nī'ʾDv-\n-aNNbNT'x-\nch\n̄",
+    "normalized": "ūʾZxchūSjīyDphighū+Nī'ʾDv-\n-aNNbNT'iks-\nch\n̄",
+    "collapsed": "ūʾZxchōSjȳyDpheghū+Nī'ʾDv-\n-aNNbNT'x-\nch\n̄"
+  },
+  {
+    "id": "normalizer/1579",
+    "input": "ā)cSH)cS() S'+Zīcīat)ūycJ̄gh-aNNuNchochghūʾat\nkhJ/SNTex á-gh-thatJatJ/x-bDīD",
+    "normalized": "ā)kSH)kS() S'+Zīkīat)ūykJ̄gh-aNNuNchuchghūʾat\nkhJ/SNTix á-gh-thatJatJ/x-bDīD",
+    "collapsed": "ā)cSH)cS() S'+Zīcīat)ūycJ̄gh-aNNuNchochghūʾat\nkhJ/SNTex á-gh-thatJatJ/x-bDīD"
+  },
+  {
+    "id": "normalizer/1580",
+    "input": "'JeyatS'TDthat\ne+shʿDghūȳáāxcxiNxeʿNxūaN̄xZph(xiN\neuNchuN-+ūa-gh(gh-thāo-uN̄xwae",
+    "normalized": "'JiyatS'TDthat\ne+shʿDghūȳáāskxiNxiʿNxūaN̄sZph(siN\niuNchuN-+ūa-gh(gh-thāu-uN̄swai",
+    "collapsed": "'JeyatS'TDthat\ne+shʿDghūȳáāxcxiNxeʿNxūaN̄xZph(xiN\neuNchuN-+ūa-gh(gh-thāo-uN̄xwae"
+  },
+  {
+    "id": "normalizer/1581",
+    "input": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+    "normalized": "Dghkthiʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat",
+    "collapsed": "Dghctheʾch+'aN'ī'JāvDSiNJj+wvat)wá/Tat"
+  },
+  {
+    "id": "normalizer/1582",
+    "input": "iNuNiNb-ʾsh+c",
+    "normalized": "iNuNiNb-ʾsh+c",
+    "collapsed": "iNuNiNb-ʾsh+c"
+  },
+  {
+    "id": "normalizer/1583",
+    "input": "khTiNī TūSūT phiNʾkhx(batykh",
+    "normalized": "khTiNī TūSūT phiNʾkhx(batikh",
+    "collapsed": "khTiNī TūSūT phiNʾkhx(batykh"
+  },
+  {
+    "id": "normalizer/1584",
+    "input": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū",
+    "normalized": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNīN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNixū",
+    "collapsed": "wī̄\nNx-aNjʾ/vN\nchá(ʿiN+wbat+iNaNiNyiN)āījJiNthshʿ-thZJchgh-aHaūashJshʾkhʿ(uN'uNāaNexū"
+  },
+  {
+    "id": "normalizer/1585",
+    "input": "'ʿūoZSūȳ)ZáeaNat)shv xDyHS'Teo-ʾj+ch+shJkhb-ʿHʿDoā",
+    "normalized": "'ʿūuZSūȳ)ZáiaNat)shv sDiHS'Tiu-ʾj+ch+shJkhb-ʿHʿDuā",
+    "collapsed": "'ʿūoZSūȳ)ZáeaNat)shv xDyHS'Teo-ʾj+ch+shJkhb-ʿHʿDoā"
+  },
+  {
+    "id": "normalizer/1586",
+    "input": "shuN̄SN",
+    "normalized": "shuN̄SN",
+    "collapsed": "shuN̄SN"
+  },
+  {
+    "id": "normalizer/1587",
+    "input": "Zy aN̄bkhuN̄\n/īchx(J-oiN+-+evwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N",
+    "normalized": "Zi aN̄bkhuN̄\n/īchx(J-uiN+-+ivwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N",
+    "collapsed": "Zy aN̄bkhuN̄\n/īchx(J-oiN+-+evwʾ(+/ʾZī(Jsh\nHSkh)'uNsh+N+N"
+  },
+  {
+    "id": "normalizer/1588",
+    "input": "(v̄īex̄xHīcoNaatyDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZoū",
+    "normalized": "(v̄īix̄sHīkuNātiDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZuū",
+    "collapsed": "(v̄īex̄xHīcoNātyDʾūuN(Tkhʿūv'ʾwʾZphwxiNaNZvNT a'ph'\nūʿiN\n'phZoū"
+  },
+  {
+    "id": "normalizer/1589",
+    "input": "e+chghZʿHxeuNāaiNvNáiNʿNvchth-oāTeuN-JHyc) īāx'bkhywvNv/būīchphkhph'á/T̄ʾeīDSsh",
+    "normalized": "e+chghZʿHxiuNāaiNvNáiNʿNvchth-uāTiuN-JHik) īāiks'bkhiwvNv/būīchphkhph'á/T̄ʾiīDSsh",
+    "collapsed": "e+chghZʿHxeuNāaiNvNáiNʿNvchth-oāTeuN-JHyc) īāx'bkhywvNv/būīchphkhph'á/T̄ʾeīDSsh"
+  },
+  {
+    "id": "normalizer/1590",
+    "input": "HuNchʾā",
+    "normalized": "HuNchʾā",
+    "collapsed": "HuNchʾā"
+  },
+  {
+    "id": "normalizer/1591",
+    "input": "āyāvūJshaNjT'thsháHbcghūphexūaiN+kh",
+    "normalized": "āyāvūJshaNjT'thsháHbkghūphixūaiN+kh",
+    "collapsed": "āyāvūJshaNjT'thsháHbcghūphexūaiN+kh"
+  },
+  {
+    "id": "normalizer/1592",
+    "input": "̄īiNīHa-b/TebcSZTZaNNSjyshgh(uN'aNchuNZ+ūákhajyDJkhyc",
+    "normalized": "̄īiNīHa-b/TibkSZTZaNNSjishgh(uN'aNchuNZ+ūákhajiDJkhis",
+    "collapsed": "̄īiNīHa-b/TebcSZTZaNNSjyshgh(uN'aNchuNZ+ūákhajyDJkhyc"
+  },
+  {
+    "id": "normalizer/1593",
+    "input": "̄yZysh+NáchT-xD+chʾNaNcxchashʾZvkhʿū)ūbNJshʿiN\nkhthDb SiNx-",
+    "normalized": "̄yZish+NáchT-sD+chʾNaNkxchashʾZvkhʿū)ūbNJshʿiN\nkhthDb SiNx-",
+    "collapsed": "̄yZysh+NáchT-xD+chʾNaNcxchashʾZvkhʿū)ūbNJshʿiN\nkhthDb SiNx-"
+  },
+  {
+    "id": "normalizer/1594",
+    "input": "cthjxāx'+(\ne+/",
+    "normalized": "kthjxāiks'+(\ne+/",
+    "collapsed": "cthjxāx'+(\ne+/"
+  },
+  {
+    "id": "normalizer/1595",
+    "input": "Dxjx/acīwSch)shbe+iNTcuNiNxNbāTjuN̄oatochvwī ʿ(xwʾHaN-ycháD",
+    "normalized": "Dxjx/akīwSch)shbi+iNTkuNiNxNbāTjuN̄uatuchvwī ʿ(swʾHaN-ycháD",
+    "collapsed": "Dxjx/acīwSch)shbe+iNTcuNiNxNbāTjuN̄oatochvwī ʿ(xwʾHaN-ycháD"
+  },
+  {
+    "id": "normalizer/1596",
+    "input": "āuNHthNthāo(Skhʿ') \natīatyHgh'+(ghjī +e)̄J-vDTū",
+    "normalized": "āuNHthNthāu(Skhʿ') \natīatiHgh'+(ghjī +e)̄J-vDTū",
+    "collapsed": "āuNHthNthāo(Skhʿ') \natīatyHgh'+(ghjī +e)̄J-vDTū"
+  },
+  {
+    "id": "normalizer/1597",
+    "input": "sh+/x'ʾatthiNthDx'th'T/TZJ/TatJiN+(v(biNʾZv-y'ʿchTHxjTāaN/ʿā+/vāTchī-ʿD",
+    "normalized": "sh+/x'ʾatthiNthDx'th'T/TZJ/TatJiN+(v(biNʾZv-y'ʿchTHxjTāaN/ʿā+/vāTchī-ʿD",
+    "collapsed": "sh+/x'ʾatthiNthDx'th'T/TZJ/TatJiN+(v(biNʾZv-y'ʿchTHxjTāaN/ʿā+/vāTchī-ʿD"
+  },
+  {
+    "id": "normalizer/1598",
+    "input": "ZuNZth/)atghwghZxāokhá/\nchgh/áNīHʿ-ghjphatīatv/TNphcghiN\ncthchōīūSchásh",
+    "normalized": "ZuNZth/)atghwghZxāukhá/\nchgh/áNīHʿ-ghjphatīatv/TNphkghiN\nkthchūīūSchásh",
+    "collapsed": "ZuNZth/)atghwghZxāokhá/\nchgh/áNīHʿ-ghjphatīatv/TNphcghiN\ncthchōīūSchásh"
+  },
+  {
+    "id": "normalizer/1599",
+    "input": "-v/ghshJc) thūʿ̄Tcá/yDScuNDaNw+̄a')kh+DTNSebHʾ/uN'Sat\nshaNDphatuNcJāxatoshxchJNīcJūyshʿā\nā",
+    "normalized": "-v/ghshJk) thūʿ̄Tká/yDSkuNDaNw+̄a')kh+DTNSibHʾ/uN'Sat\nshaNDphatuNkJāsatushxchJNīkJūyshʿā\nā",
+    "collapsed": "-v/ghshJc) thūʿ̄Tcá/yDScuNDaNw+̄a')kh+DTNSebHʾ/uN'Sat\nshaNDphatuNcJāxatoshxchJNīcJūyshʿā\nā"
+  },
+  {
+    "id": "normalizer/1600",
+    "input": "cá-ghD\n'gh(o/th̄)DTcb vkhTHī ʿ(T'būakhuN-Te",
+    "normalized": "ká-ghD\n'gh(o/th̄)DTkb vkhTHī ʿ(T'būakhuN-Ti",
+    "collapsed": "cá-ghD\n'gh(o/th̄)DTcb vkhTHī ʿ(T'būakhuN-Te"
+  },
+  {
+    "id": "normalizer/1601",
+    "input": "HvHph'yābHuNāJūS'á(+cʾ JshaNchphcSwaeth/ochaDth'ʾiNve",
+    "normalized": "HvHph'yābHuNāJūS'á(+cʾ JshaNchphkSwaith/uchaDth'ʾiNvi",
+    "collapsed": "HvHph'yābHuNāJūS'á(+cʾ JshaNchphcSwaeth/ochaDth'ʾiNve"
+  },
+  {
+    "id": "normalizer/1602",
+    "input": "iNuNjvjSe+(ashxD+euNūacháeychʾūJkha(aūthNvc",
+    "normalized": "iNuNjvjSi+(ashxD+iuNūacháiychʾūJkha(aūthNvs",
+    "collapsed": "iNuNjvjSe+(ashxD+euNūacháeychʾūJkha(aūthNvc"
+  },
+  {
+    "id": "normalizer/1603",
+    "input": "khvwoāphāajgheuNkhīūī-a'J-+khyiNphkhīūTshthH",
+    "normalized": "khvwuāphāajghiuNkhīūī-a'J-+khīNphkhīūTshthH",
+    "collapsed": "khvwoāphāajgheuNkhīūī-a'J-+khyiNphkhīūTshthH"
+  },
+  {
+    "id": "normalizer/1604",
+    "input": " vchSiN+̄ych+'ghD",
+    "normalized": " vchSiN+̄ych+'ghD",
+    "collapsed": " vchSiN+̄ych+'ghD"
+  },
+  {
+    "id": "normalizer/1605",
+    "input": "āth-SiNJZaN\nkhS ghe\nshʿiNoūxjghcych+-ʿatxcho aN/yHʿkhácthchbūuNNJZīwphchphiNo ʾkh+DxNáH",
+    "normalized": "āth-SiNJZaN\nkhS ghi\nshʿiNuūsjghsich+-ʿatxchu aN/yHʿkhákthchbūuNNJZīwphchphiNu ʾkh+DxNáH",
+    "collapsed": "āth-SiNJZaN\nkhS ghe\nshʿiNoūxjghcych+-ʿatxcho aN/yHʿkhácthchbūuNNJZīwphchphiNo ʾkh+DxNáH"
+  },
+  {
+    "id": "normalizer/1606",
+    "input": "eʿiNbcacvcʿ̄īā",
+    "normalized": "iʿiNbkakvkʿ̄īā",
+    "collapsed": "eʿiNbcacvcʿ̄īā"
+  },
+  {
+    "id": "normalizer/1607",
+    "input": "wīūxHo/x/J̄uNkhuNNʿ-ʿwT̄aNc\nwuN(oZbūá(thiN+(xHphiNaN+/akhʿ̄\nūv/+ZʿHáshbchphāīkha'beaāphe",
+    "normalized": "wīūsHu/x/J̄uNkhuNNʿ-ʿwT̄aNs\nwuN(uZbūá(thiN+(sHphiNaN+/akhʿ̄\nūv/+ZʿHáshbchphāīkha'biaāphi",
+    "collapsed": "wīūxHo/x/J̄uNkhuNNʿ-ʿwT̄aNc\nwuN(oZbūá(thiN+(xHphiNaN+/akhʿ̄\nūv/+ZʿHáshbchphāīkha'beaāphe"
+  },
+  {
+    "id": "normalizer/1608",
+    "input": "ZuNshʾ/J/á̄xjyāT/Teghā",
+    "normalized": "ZuNshʾ/J/á̄sjiāT/Tighā",
+    "collapsed": "ZuNshʾ/J/á̄xjyāT/Teghā"
+  },
+  {
+    "id": "normalizer/1609",
+    "input": "eaNcxshʿ̄ghcháNyiN)Zgh(ʾkhʿ̄\n(ʾeth/SkhxāʿeáHuNevHTsh",
+    "normalized": "iaNkxshʿ̄ghcháNīN)Zgh(ʾkhʿ̄\n(ʾith/SkhxāʿiáHuNivHTsh",
+    "collapsed": "eaNcxshʿ̄ghcháNyiN)Zgh(ʾkhʿ̄\n(ʾeth/SkhxāʿeáHuNevHTsh"
+  },
+  {
+    "id": "normalizer/1610",
+    "input": "c)-TZS(JDJHgh-SZashvZʿ̄ōʿshuNHSNT/\n'thū)-ásháNthataNshbū\n(T th')āáeycy'thHʾiNī/y aatʾD",
+    "normalized": "c)-TZS(JDJHgh-SZashvZʿ̄ūʿshuNHSNT/\n'thū)-ásháNthataNshbū\n(T th')āáiysi'thHʾiNī/y ātʾD",
+    "collapsed": "c)-TZS(JDJHgh-SZashvZʿ̄ōʿshuNHSNT/\n'thū)-ásháNthataNshbū\n(T th')āáeycy'thHʾiNī/y ātʾD"
+  },
+  {
+    "id": "normalizer/1611",
+    "input": "̄J̄xethiNS-a(īw)j",
+    "normalized": "̄J̄sithiNS-a(īw)j",
+    "collapsed": "̄J̄xethiNS-a(īw)j"
+  },
+  {
+    "id": "normalizer/1612",
+    "input": "āph'achxiN",
+    "normalized": "āph'achxiN",
+    "collapsed": "āph'achxiN"
+  },
+  {
+    "id": "normalizer/1613",
+    "input": "'ʿshbZph/īat\nZaNāʿHʾiNoNb(ʾat+shv'JcuNj+sha/ʿ'akhJcTcvc",
+    "normalized": "'ʿshbZph/īat\nZaNāʿHʾiNuNb(ʾat+shv'JkuNj+sha/ʿ'akhJkTkvs",
+    "collapsed": "'ʿshbZph/īat\nZaNāʿHʾiNoNb(ʾat+shv'JcuNj+sha/ʿ'akhJcTcvc"
+  },
+  {
+    "id": "normalizer/1614",
+    "input": "jʿwaatuNHS'Teʿ/)iNuNūSjTZJeōT aNZJDthiN)/th(ʿex JZ+chphatʾūī̄\n thkhīw)'ʿDphshbiNa/thāaNāaNkh",
+    "normalized": "jʿwātuNHS'Tiʿ/)iNuNūSjTZJiūT aNZJDthiN)/th(ʿix JZ+chphatʾūī̄\n thkhīw)'ʿDphshbiNa/thāaNāaNkh",
+    "collapsed": "jʿwātuNHS'Teʿ/)iNuNūSjTZJeōT aNZJDthiN)/th(ʿex JZ+chphatʾūī̄\n thkhīw)'ʿDphshbiNa/thāaNāaNkh"
+  },
+  {
+    "id": "normalizer/1615",
+    "input": "Z+NvūaN/v/+/+cīcʾshphe)eáD)iN\n-\nc",
+    "normalized": "Z+NvūaN/v/+/+kīkʾshphi)iáD)iN\n-\ns",
+    "collapsed": "Z+NvūaN/v/+/+cīcʾshphe)eáD)iN\n-\nc"
+  },
+  {
+    "id": "normalizer/1616",
+    "input": "-gh/SshuNkhá y'Tctheph(a'TiN+kh\niNoāb-vjJ(īchphZSāphwthwʾja-ghkh)iNph'ae+shxea'bN",
+    "normalized": "-gh/SshuNkhá y'Tkthiph(a'TiN+kh\niNuāb-vjJ(īchphZSāphwthwʾja-ghkh)iNph'ai+shxia'bN",
+    "collapsed": "-gh/SshuNkhá y'Tctheph(a'TiN+kh\niNoāb-vjJ(īchphZSāphwthwʾja-ghkh)iNph'ae+shxea'bN"
+  },
+  {
+    "id": "normalizer/1617",
+    "input": "ūachoN",
+    "normalized": "ūachuN",
+    "collapsed": "ūachoN"
+  },
+  {
+    "id": "normalizer/1618",
+    "input": "cōtheoe)shīatph-TshTjoat+āphw)ch\njbatoāá/)āSDS-ghcokhT(akhá(īiN",
+    "normalized": "kūthiui)shīatph-TshTjuat+āphw)ch\njbatuāá/)āSDS-ghkukhT(akhá(īiN",
+    "collapsed": "cōtheoe)shīatph-TshTjoat+āphw)ch\njbatoāá/)āSDS-ghcokhT(akhá(īiN"
+  },
+  {
+    "id": "normalizer/1619",
+    "input": "/JiNoūoūS(viNthiNīiNowb/)Z)ZtheuNDuNiNuNatbchīcxū\n gh'aNatuNāthūaiNT-īDT̄īcoZ)/yāʾH\njyshS̄uN̄aN \nD",
+    "normalized": "/JiNuūuūS(viNthiNīiNuwb/)Z)ZthiuNDuNiNuNatbchīkxū\n gh'aNatuNāthūaiNT-īDT̄īkuZ)/yāʾH\njishS̄uN̄aN \nD",
+    "collapsed": "/JiNoūoūS(viNthiNīiNowb/)Z)ZtheuNDuNiNuNatbchīcxū\n gh'aNatuNāthūaiNT-īDT̄īcoZ)/yāʾH\njyshS̄uN̄aN \nD"
+  },
+  {
+    "id": "normalizer/1620",
+    "input": "-ȳʿkhTwghD+-phshbZaeghcxeghcʿDxwuNNthZvNthū+jJiN",
+    "normalized": "-ȳʿkhTwghD+-phshbZaighkxighkʿDxwuNNthZvNthū+jJiN",
+    "collapsed": "-ȳʿkhTwghD+-phshbZaeghcxeghcʿDxwuNNthZvNthū+jJiN"
+  },
+  {
+    "id": "normalizer/1621",
+    "input": "̄phkhb'thshocuN-ásh\nwphDghDthkhphiNʿNbw",
+    "normalized": "̄phkhb'thshukuN-ásh\nwphDghDthkhphiNʿNbw",
+    "collapsed": "̄phkhb'thshocuN-ásh\nwphDghDthkhphiNʿNbw"
+  },
+  {
+    "id": "normalizer/1622",
+    "input": "/\nHJshbch\nDʾchīkhuN/ʾ(ʾkhyāyūTūyiNyūo TūS/áHth-ʾDT(JcJeʿatyāuNZʾiNȳ\nNTkh+wáat",
+    "normalized": "/\nHJshbch\nDʾchīkhuN/ʾ(ʾkhiāyūTūyiNiūu TūS/áHth-ʾDT(JkJiʿatiāuNZʾiNī\nNTkh+wáat",
+    "collapsed": "/\nHJshbch\nDʾchīkhuN/ʾ(ʾkhyāyūTūyiNyūo TūS/áHth-ʾDT(JcJeʿatyāuNZʾiNȳ\nNTkh+wáat"
+  },
+  {
+    "id": "normalizer/1623",
+    "input": "jbHaNHáNīZ)shīcxDīNōv-T(+'+DSjáN+khghsh+evūáiN+Z)j\nHuNwákhaNchJatTkho/ʾāphwáat\n̄īsh+iN) xZ+c",
+    "normalized": "jbHaNHáNīZ)shīkxDīNūv-T(+'+DSjáN+khghsh+ivūáiN+Z)j\nHuNwákhaNchJatTkhu/ʾāphwáat\n̄īsh+iN) sZ+c",
+    "collapsed": "jbHaNHáNīZ)shīcxDīNōv-T(+'+DSjáN+khghsh+evūáiN+Z)j\nHuNwákhaNchJatTkho/ʾāphwáat\n̄īsh+iN) xZ+c"
+  },
+  {
+    "id": "normalizer/1624",
+    "input": "chphchʾ/",
+    "normalized": "chphchʾ/",
+    "collapsed": "chphchʾ/"
+  },
+  {
+    "id": "normalizer/1625",
+    "input": "iNx-īiNT-+(bwth/ochʿkh)-ʾeaābwbDʾey(ʾ(aNiNbat",
+    "normalized": "iNx-īiNT-+(bwth/uchʿkh)-ʾiaābwbDʾiy(ʾ(aNiNbat",
+    "collapsed": "iNx-īiNT-+(bwth/ochʿkh)-ʾeaābwbDʾey(ʾ(aNiNbat"
+  },
+  {
+    "id": "normalizer/1626",
+    "input": "ZʾatʾZpheb-īshá()Nakhʾ(JZaN aNūTiNīwʿāyHvchoNJatghw+wá̄ph'\nH",
+    "normalized": "ZʾatʾZphib-īshá()Nakhʾ(JZaN aNūTiNīwʿāyHvchuNJatghw+wá̄ph'\nH",
+    "collapsed": "ZʾatʾZpheb-īshá()Nakhʾ(JZaN aNūTiNīwʿāyHvchoNJatghw+wá̄ph'\nH"
+  },
+  {
+    "id": "normalizer/1627",
+    "input": "cáNīHʿjuN-Schth(bjvshvchʿDxkhbe\nchoū",
+    "normalized": "káNīHʿjuN-Schth(bjvshvchʿDxkhbi\nchuū",
+    "collapsed": "cáNīHʿjuN-Schth(bjvshvchʿDxkhbe\nchoū"
+  },
+  {
+    "id": "normalizer/1628",
+    "input": "āuNwīeá/oDuNchgh/phāthNaNZph̄oshbeʾDaNūʿeuN ʾchgh/+/",
+    "normalized": "āuNwīiá/uDuNchgh/phāthNaNZph̄ushbiʾDaNūʿiuN ʾchgh/+/",
+    "collapsed": "āuNwīeá/oDuNchgh/phāthNaNZph̄oshbeʾDaNūʿeuN ʾchgh/+/"
+  }
+]

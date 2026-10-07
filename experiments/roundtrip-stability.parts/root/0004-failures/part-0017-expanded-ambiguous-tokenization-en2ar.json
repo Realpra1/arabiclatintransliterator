@@ -1,0 +1,38 @@
+[
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0013",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "' '' ''' '''' ʾ ʾʾ ’ ’’ ʻ ʻʻ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "' '' ''' '''' ʾ ʾʾ ’ ’’ ʻ ʻʻ",
+      "A1": "أ ءّ ءّء ءّءّ أ ءّ ’ ’’ ʻ ʻʻ",
+      "L2": "'a '' ''' '''' 'a '' ’ ’’ ʻ ʻʻ",
+      "A2": "أَ ءّ ءّء ءّءّ أَ ءّ ’ ’’ ʻ ʻʻ",
+      "L3": "a '' ''' '''' a '' ’ ’’ ʻ ʻʻ",
+      "A3": "اَ ءّ ءّء ءّءّ اَ ءّ ’ ’’ ʻ ʻʻ"
+    }
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0014",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+      "A1": "آ آا آَ آِ آُ أاً أً إٍ أٌ",
+      "L2": "'ā 'āā 'āa 'āi 'āu 'aāN 'aN 'iN 'uN",
+      "A2": "آ آا آَ آِ آُ أَاً أً إٍ أٌ",
+      "L3": "'ā 'āā 'āa 'āi 'āu āN 'aN 'iN 'uN",
+      "A3": "آ آا آَ آِ آُ اً أً إٍ أٌ"
+    }
+  }
+]

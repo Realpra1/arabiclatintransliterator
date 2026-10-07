@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0019",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "output": "ktāb\n\nE=mc^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhythm — l'n? nHn\n\nghdaNā/mdrsat, with ilá\n\nlā madrasat\n\n-alá/",
+    "roundTrip": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِيثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+    "secondPass": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhīthm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/",
+    "before": {
+      "output": "ktāb\n\nE=mc^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhythm — l'n? nHn\n\nghdaNā/mdrsat, with ilá\n\nlā madrasat\n\n-alá/",
+      "roundTrip": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/nافذة — أَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+      "secondPass": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/"
+    },
+    "after": {
+      "output": "ktāb\n\nE=mc^2 min, á/ktāb — alSSabāH 'ams\n\n'ams/nāfdhat — 'aHmd rhythm — l'n? nHn\n\nghdaNā/mdrsat, with ilá\n\nlā madrasat\n\n-alá/",
+      "roundTrip": "كتاب\n\nE=مك^2 مِن، ى/كتاب — اَلصَّباح أَمس\n\nأَمس/نافذة — أَحمد رهِثم — لأن؟ نحن\n\nغدًا/مدرسة، وِث إِلى\n\nلا مَدرَسة\n\nعَلى/",
+      "secondPass": "ktāb\n\nE=mk^2 min, á/ktāb — alSSabāH ams\n\nams/nāfdhat — aHmd rhithm — l'n? nHn\n\nghdaNā/mdrsat, vith ilá\n\nlā madrasat\n\n-alá/"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

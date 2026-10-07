@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0027",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "ليلى — صباحًا/إلى — anā/city — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? world, hello lajla, world? ",
+    "output": "līlá — SbāHaNā/'lá — anā/city — albajtu? with\n\n'ams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? world, hello lajla, world? ",
+    "roundTrip": "لِيلى — صباحًا/ألى — اَنا/سِتِ — اَلبَيْتُ؟ وِث\n\nأَمس لَيْلَ — قُوّات لا، ستسمع غدًا — فِي شِيئ\n\nمن؟ وُرلد، هِلُّ لَيْلَ، وُرلد؟ ",
+    "secondPass": "līlá — SbāHaNā/'lá — anā/siti — albajtu? vith\n\nams lajla — quvvāt lā, stsm- ghdaNā — fī shī'\n\nmn? vurld, hillu lajla, vurld? "
+  }
+]

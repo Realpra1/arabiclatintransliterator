@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0051",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/",
+    "output": "ilá, 'aHmd/āldhī — 'ams queue — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, city/Sūt, na-am/city\n\nsu'āl anta, qār'/",
+    "roundTrip": "إِلى، أَحمد/الذِي — أَمس قُُِِ — عاءشة ً\n\nسةَسمَع/قُوَّ\n\nلَيْلَ من\n\nماء؟ مسؤُول، سِتِي/Sُوت، نَعَم/سِتِي\n\nسُؤال اَنتَ، قارء/",
+    "secondPass": "ilá, aHmd/āldhī — ams quiui — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, sitī/Sūt, na-am/sitī\n\nsu'āl anta, qār'/",
+    "before": {
+      "output": "ilá, 'aHmd/āldhī — 'ams queue — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, city/Sūt, na-am/city\n\nsu'āl anta, qār'/",
+      "roundTrip": "إِلى، أَحمد/الذِي — أَمس قُُِِ — عاءشة ً\n\nسةَسمَع/قُوَّ\n\nلَيْلَ من\n\nماء؟ مسؤُول، سِتِي/Sُوت، نَعَم/سِتِي\n\nسُؤال اَنتَ، قارء/",
+      "secondPass": "ilá, aHmd/āldhī — ams quiui — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, sitī/Sūt, na-am/sitī\n\nsu'āl anta, qār'/"
+    },
+    "after": {
+      "output": "ilá, 'aHmd/āldhī — 'ams queue — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, city/Sūt, na-am/city\n\nsu'āl anta, qār'/",
+      "roundTrip": "إِلى، أَحمد/الذِي — أَمس قُُِِ — عاءشة ً\n\nسةَسمَع/قُوَّ\n\nلَيْلَ من\n\nماء؟ مسؤُول، سِتِ/Sُوت، نَعَم/سِتِ\n\nسُؤال اَنتَ، قارء/",
+      "secondPass": "ilá, aHmd/āldhī — ams quiui — -ā'shat aN\n\nsatasma-/quvva\n\nlajla mn\n\nmā'? ms'ūl, siti/Sūt, na-am/siti\n\nsu'āl anta, qār'/"
+    },
+    "stages": [
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0041",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/coffee — كتاب/yellow — havā'? school — world? ",
+    "output": "havā', 'ams/satasma-\n\nnāfdhat? shāj\n\nHajj/ilá, h'lā'/fī\n\nnaHnu nHn\n\n-alá -alá\n\nh'lā'/coffee — ktāb/yellow — havā'? school — world? ",
+    "roundTrip": "هَوْاء، أَمس/سَتَسمَع\n\nنافذة؟ شايْ\n\nحَيّ/إِلى، هءلاء/فِي\n\nنَحنُ نحن\n\nعَلى عَلى\n\nهءلاء/كُفِّي — كتاب/يِلُّوْ — هَوْاء؟ ستجُول — وُرلد؟ ",
+    "secondPass": "havā', ams/satasma-\n\nnāfdhat? shāj\n\nHajj/'ilá, h'lā'/fī\n\nnaHnu nHn\n\n-alá -alá\n\nh'lā'/kuffī — ktāb/jilluv — havā'? stJūl — vurld? "
+  }
+]

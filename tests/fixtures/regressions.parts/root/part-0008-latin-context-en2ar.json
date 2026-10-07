@@ -1,0 +1,272 @@
+[
+  {
+    "id": "latin-context/en2ar/0246",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "ya",
+    "output": "يَ",
+    "roundTrip": "ja",
+    "secondPass": "يَ"
+  },
+  {
+    "id": "latin-context/en2ar/0247",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bay",
+    "output": "بَيْ",
+    "roundTrip": "baj",
+    "secondPass": "بَيْ"
+  },
+  {
+    "id": "latin-context/en2ar/0248",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "yy",
+    "output": "يّ",
+    "roundTrip": "jj",
+    "secondPass": "يّ"
+  },
+  {
+    "id": "latin-context/en2ar/0249",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(y)",
+    "output": "(y)",
+    "roundTrip": "(y)",
+    "secondPass": "(y)"
+  },
+  {
+    "id": "latin-context/en2ar/0250",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "alyāb",
+    "output": "اَلِاب",
+    "roundTrip": "aliāb",
+    "secondPass": "اَلِاب"
+  },
+  {
+    "id": "latin-context/en2ar/0251",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "pa",
+    "output": "بَ",
+    "roundTrip": "ba",
+    "secondPass": "بَ"
+  },
+  {
+    "id": "latin-context/en2ar/0252",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bap",
+    "output": "بَب",
+    "roundTrip": "bab",
+    "secondPass": "بَب"
+  },
+  {
+    "id": "latin-context/en2ar/0253",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "pp",
+    "output": "بّ",
+    "roundTrip": "bb",
+    "secondPass": "بّ"
+  },
+  {
+    "id": "latin-context/en2ar/0254",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(p)",
+    "output": "(p)",
+    "roundTrip": "(p)",
+    "secondPass": "(p)"
+  },
+  {
+    "id": "latin-context/en2ar/0255",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "alpāb",
+    "output": "اَلباب",
+    "roundTrip": "albāb",
+    "secondPass": "اَلباب"
+  },
+  {
+    "id": "latin-context/en2ar/0256",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "ga",
+    "output": "جَ",
+    "roundTrip": "Ja",
+    "secondPass": "جَ"
+  },
+  {
+    "id": "latin-context/en2ar/0257",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bag",
+    "output": "بَج",
+    "roundTrip": "baJ",
+    "secondPass": "بَج"
+  },
+  {
+    "id": "latin-context/en2ar/0258",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "gg",
+    "output": "جّ",
+    "roundTrip": "JJ",
+    "secondPass": "جّ"
+  },
+  {
+    "id": "latin-context/en2ar/0259",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(g)",
+    "output": "(g)",
+    "roundTrip": "(g)",
+    "secondPass": "(g)"
+  },
+  {
+    "id": "latin-context/en2ar/0260",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "algāb",
+    "output": "اَلجاب",
+    "roundTrip": "alJāb",
+    "secondPass": "اَلجاب"
+  },
+  {
+    "id": "latin-context/en2ar/0261",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "xa",
+    "output": "سَ",
+    "roundTrip": "sa",
+    "secondPass": "سَ"
+  },
+  {
+    "id": "latin-context/en2ar/0262",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bax",
+    "output": "بَكس",
+    "roundTrip": "baks",
+    "secondPass": "بَكس"
+  },
+  {
+    "id": "latin-context/en2ar/0263",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "xx",
+    "output": "سكس",
+    "roundTrip": "sks",
+    "secondPass": "سكس"
+  },
+  {
+    "id": "latin-context/en2ar/0264",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(x)",
+    "output": "(x)",
+    "roundTrip": "(x)",
+    "secondPass": "(x)"
+  },
+  {
+    "id": "latin-context/en2ar/0265",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "alxāb",
+    "output": "اَلكساب",
+    "roundTrip": "alksāb",
+    "secondPass": "اَلكساب"
+  },
+  {
+    "id": "latin-context/en2ar/0266",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "ea",
+    "output": "إَِ",
+    "roundTrip": "ia",
+    "secondPass": "إَِ"
+  },
+  {
+    "id": "latin-context/en2ar/0267",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bae",
+    "output": "بَِ",
+    "roundTrip": "bai",
+    "secondPass": "بَِ"
+  },
+  {
+    "id": "latin-context/en2ar/0268",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "ee",
+    "output": "ِي",
+    "roundTrip": "ī",
+    "secondPass": "ِي"
+  },
+  {
+    "id": "latin-context/en2ar/0269",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(e)",
+    "output": "(e)",
+    "roundTrip": "(e)",
+    "secondPass": "(e)"
+  },
+  {
+    "id": "latin-context/en2ar/0270",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "aleāb",
+    "output": "اَلِاب",
+    "roundTrip": "aliāb",
+    "secondPass": "اَلِاب"
+  },
+  {
+    "id": "latin-context/en2ar/0271",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "oa",
+    "output": "أَُ",
+    "roundTrip": "ua",
+    "secondPass": "أَُ"
+  },
+  {
+    "id": "latin-context/en2ar/0272",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "bao",
+    "output": "بَُ",
+    "roundTrip": "bau",
+    "secondPass": "بَُ"
+  },
+  {
+    "id": "latin-context/en2ar/0273",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "oo",
+    "output": "ُو",
+    "roundTrip": "ū",
+    "secondPass": "ُو"
+  },
+  {
+    "id": "latin-context/en2ar/0274",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "(o)",
+    "output": "(o)",
+    "roundTrip": "(o)",
+    "secondPass": "(o)"
+  },
+  {
+    "id": "latin-context/en2ar/0275",
+    "group": "latin-context",
+    "direction": "en2ar",
+    "input": "aloāb",
+    "output": "اَلُاب",
+    "roundTrip": "aluāb",
+    "secondPass": "اَلُاب"
+  }
+]

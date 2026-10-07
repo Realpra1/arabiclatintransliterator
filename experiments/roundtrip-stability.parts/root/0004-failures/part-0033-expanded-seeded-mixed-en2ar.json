@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0007",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+      "A1": "نَحنُ، أمس؟ 42 — نافذة بِ\n\nا أحمد، اَحمَد/وُرلد — أمس؟ هو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفي؟ ",
+      "L2": "naHnu, 'ams? 42 — nāfdhat bi\n\nā 'aHmd, aHmad/vurld — 'ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? ",
+      "A2": "نَحنُ، أَمس؟ 42 — نافذة بِ\n\nا أَحمد، اَحمَد/وُرلد — أَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ ",
+      "L3": "naHnu, ams? 42 — nāfdhat bi\n\nā aHmd, aHmad/vurld — ams? hū — lā? qahva, mā' vith — aHmad lajla\n\naHmad su'āl\n\nfī? ",
+      "A3": "نَحنُ، اَمس؟ 42 — نافذة بِ\n\nا اَحمد، اَحمَد/وُرلد — اَمس؟ هُو — لا؟ قَهوَ، ماء وِث — اَحمَد لَيْلَ\n\nاَحمَد سُؤال\n\nفِي؟ "
+    }
+  }
+]

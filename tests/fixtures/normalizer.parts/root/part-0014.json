@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0963",
+    "input": "satasma-?",
+    "normalized": "satasma-?",
+    "collapsed": "satasma-?"
+  },
+  {
+    "id": "normalizer/0964",
+    "input": "satasma-.",
+    "normalized": "satasma-.",
+    "collapsed": "satasma-."
+  },
+  {
+    "id": "normalizer/0965",
+    "input": "satasma-!",
+    "normalized": "satasma-!",
+    "collapsed": "satasma-!"
+  },
+  {
+    "id": "normalizer/0966",
+    "input": "satasma-\n",
+    "normalized": "satasma-\n",
+    "collapsed": "satasma-\n"
+  },
+  {
+    "id": "normalizer/0967",
+    "input": "satasma- alSawt",
+    "normalized": "satasma- alSawt",
+    "collapsed": "satasma- alSawt"
+  },
+  {
+    "id": "normalizer/0968",
+    "input": "hal satasma- alSawt?",
+    "normalized": "hal satasma- alSawt?",
+    "collapsed": "hal satasma- alSawt?"
+  },
+  {
+    "id": "normalizer/0969",
+    "input": "ghadaN satasma- alSawt.",
+    "normalized": "ghadaN satasma- alSawt.",
+    "collapsed": "ghadaN satasma- alSawt."
+  },
+  {
+    "id": "normalizer/0970",
+    "input": "satasma- satasma-",
+    "normalized": "satasma- satasma-",
+    "collapsed": "satasma- satasma-"
+  },
+  {
+    "id": "normalizer/0971",
+    "input": "satasma-a",
+    "normalized": "satasma-a",
+    "collapsed": "satasma-a"
+  },
+  {
+    "id": "normalizer/0972",
+    "input": "satasma-u",
+    "normalized": "satasma-u",
+    "collapsed": "satasma-u"
+  },
+  {
+    "id": "normalizer/0973",
+    "input": "satasma-i",
+    "normalized": "satasma-i",
+    "collapsed": "satasma-i"
+  },
+  {
+    "id": "normalizer/0974",
+    "input": "satasma-ū",
+    "normalized": "satasma-ū",
+    "collapsed": "satasma-ū"
+  },
+  {
+    "id": "normalizer/0975",
+    "input": "satasma-'",
+    "normalized": "satasma-'",
+    "collapsed": "satasma-'"
+  },
+  {
+    "id": "normalizer/0976",
+    "input": "satasma- al-",
+    "normalized": "satasma- al-",
+    "collapsed": "satasma- al-"
+  },
+  {
+    "id": "normalizer/0977",
+    "input": "-satasma-",
+    "normalized": "-satasma-",
+    "collapsed": "-satasma-"
+  },
+  {
+    "id": "normalizer/0978",
+    "input": "satasma--",
+    "normalized": "satasma--",
+    "collapsed": "satasma--"
+  },
+  {
+    "id": "normalizer/0979",
+    "input": "satasmaʿ",
+    "normalized": "satasmaʿ",
+    "collapsed": "satasmaʿ"
+  },
+  {
+    "id": "normalizer/0980",
+    "input": "satasma−",
+    "normalized": "satasma−",
+    "collapsed": "satasma−"
+  },
+  {
+    "id": "normalizer/0981",
+    "input": "satasma–",
+    "normalized": "satasma–",
+    "collapsed": "satasma–"
+  },
+  {
+    "id": "normalizer/0982",
+    "input": "satasma—",
+    "normalized": "satasma—",
+    "collapsed": "satasma—"
+  },
+  {
+    "id": "normalizer/0983",
+    "input": "satasma‐",
+    "normalized": "satasma‐",
+    "collapsed": "satasma‐"
+  },
+  {
+    "id": "normalizer/0984",
+    "input": "satasma‑",
+    "normalized": "satasma‑",
+    "collapsed": "satasma‑"
+  },
+  {
+    "id": "normalizer/0985",
+    "input": "Satasma-",
+    "normalized": "Satasma-",
+    "collapsed": "Satasma-"
+  },
+  {
+    "id": "normalizer/0986",
+    "input": "SATASMA-",
+    "normalized": "SaTaSma-",
+    "collapsed": "SATASMA-"
+  },
+  {
+    "id": "normalizer/0987",
+    "input": "satasma-  ",
+    "normalized": "satasma-  ",
+    "collapsed": "satasma-  "
+  },
+  {
+    "id": "normalizer/0988",
+    "input": "marHaba",
+    "normalized": "marHaba",
+    "collapsed": "marHaba"
+  },
+  {
+    "id": "normalizer/0989",
+    "input": "ahlan va sahlan",
+    "normalized": "ahlan va sahlan",
+    "collapsed": "ahlan va sahlan"
+  },
+  {
+    "id": "normalizer/0990",
+    "input": "va -alajkum alssalām",
+    "normalized": "va -alajkum alssalām",
+    "collapsed": "va -alajkum alssalām"
+  },
+  {
+    "id": "normalizer/0991",
+    "input": "SabāH alkhajr",
+    "normalized": "SabāH alkhajr",
+    "collapsed": "SabāH alkhajr"
+  },
+  {
+    "id": "normalizer/0992",
+    "input": "masā' alkhajr",
+    "normalized": "masā' alkhajr",
+    "collapsed": "masā' alkhajr"
+  },
+  {
+    "id": "normalizer/0993",
+    "input": "shukraN JazīlaN",
+    "normalized": "shukraN JazīlaN",
+    "collapsed": "shukraN JazīlaN"
+  },
+  {
+    "id": "normalizer/0994",
+    "input": "min faDlik",
+    "normalized": "min faDlik",
+    "collapsed": "min faDlik"
+  },
+  {
+    "id": "normalizer/0995",
+    "input": "kajfa Hāluk?",
+    "normalized": "kajfa Hāluk?",
+    "collapsed": "kajfa Hāluk?"
+  },
+  {
+    "id": "normalizer/0996",
+    "input": "anā bikhajr, va anta?",
+    "normalized": "anā bikhajr, va anta?",
+    "collapsed": "anā bikhajr, va anta?"
+  },
+  {
+    "id": "normalizer/0997",
+    "input": "mā ismuk?",
+    "normalized": "mā ismuk?",
+    "collapsed": "mā ismuk?"
+  },
+  {
+    "id": "normalizer/0998",
+    "input": "ismī lajlá.",
+    "normalized": "ismī lajlá.",
+    "collapsed": "ismī lajlá."
+  },
+  {
+    "id": "normalizer/0999",
+    "input": "ajna taskun?",
+    "normalized": "ajna taskun?",
+    "collapsed": "ajna taskun?"
+  },
+  {
+    "id": "normalizer/1000",
+    "input": "lā afham.",
+    "normalized": "lā afham.",
+    "collapsed": "lā afham."
+  },
+  {
+    "id": "normalizer/1001",
+    "input": "hal tatakallam al-arabijja?",
+    "normalized": "hal tatakallam al-arabijja?",
+    "collapsed": "hal tatakallam al-arabijja?"
+  },
+  {
+    "id": "normalizer/1002",
+    "input": "urid kuubaN min almaa'.",
+    "normalized": "urid kūbaN min almā'.",
+    "collapsed": "urid kūbaN min almā'."
+  },
+  {
+    "id": "normalizer/1003",
+    "input": "urīdu qahva bilā sukkar.",
+    "normalized": "urīdu qahva bilā sukkar.",
+    "collapsed": "urīdu qahva bilā sukkar."
+  },
+  {
+    "id": "normalizer/1004",
+    "input": "kam alssā-a alān?",
+    "normalized": "kam alssā-a alān?",
+    "collapsed": "kam alssā-a alān?"
+  },
+  {
+    "id": "normalizer/1005",
+    "input": "ajna maHaTTat alqiTār?",
+    "normalized": "ajna maHaTTat alqiTār?",
+    "collapsed": "ajna maHaTTat alqiTār?"
+  },
+  {
+    "id": "normalizer/1006",
+    "input": "satasma- Sawt almaTar ghadaN.",
+    "normalized": "satasma- Sawt almaTar ghadaN.",
+    "collapsed": "satasma- Sawt almaTar ghadaN."
+  },
+  {
+    "id": "normalizer/1007",
+    "input": "hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.",
+    "normalized": "hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN.",
+    "collapsed": "hādhā kitābuN JadīduN, va tilka madrasatuN qadīmatuN."
+  },
+  {
+    "id": "normalizer/1008",
+    "input": "ashshams valqamar",
+    "normalized": "ashshams valqamar",
+    "collapsed": "ashshams valqamar"
+  },
+  {
+    "id": "normalizer/1009",
+    "input": "alshshams va alqamar",
+    "normalized": "alshshams va alqamar",
+    "collapsed": "alshshams va alqamar"
+  },
+  {
+    "id": "normalizer/1010",
+    "input": "allāh",
+    "normalized": "allāh",
+    "collapsed": "allāh"
+  },
+  {
+    "id": "normalizer/1011",
+    "input": "in shā' allāh",
+    "normalized": "in shā' allāh",
+    "collapsed": "in shā' allāh"
+  },
+  {
+    "id": "normalizer/1012",
+    "input": "mā shā' allāh",
+    "normalized": "mā shā' allāh",
+    "collapsed": "mā shā' allāh"
+  },
+  {
+    "id": "normalizer/1013",
+    "input": "-abd allāh",
+    "normalized": "-abd allāh",
+    "collapsed": "-abd allāh"
+  },
+  {
+    "id": "normalizer/1014",
+    "input": "aHmad va 'ibrāhīm",
+    "normalized": "aHmad va 'ibrāhīm",
+    "collapsed": "aHmad va 'ibrāhīm"
+  },
+  {
+    "id": "normalizer/1015",
+    "input": "fāTimat, -ā'ishat, va marjam",
+    "normalized": "fāTimat, -ā'ishat, va marjam",
+    "collapsed": "fāTimat, -ā'ishat, va marjam"
+  },
+  {
+    "id": "normalizer/1016",
+    "input": "alQāhira, bajrūt, dimashq, baghdād",
+    "normalized": "alqāhira, bajrūt, dimashq, baghdād",
+    "collapsed": "alQāhira, bajrūt, dimashq, baghdād"
+  },
+  {
+    "id": "normalizer/1017",
+    "input": "makka almukarrama",
+    "normalized": "makka almukarrama",
+    "collapsed": "makka almukarrama"
+  },
+  {
+    "id": "normalizer/1018",
+    "input": "mā', havā', shaj', su'āl, mas'ala",
+    "normalized": "mā', havā', shaj', su'āl, mas'ala",
+    "collapsed": "mā', havā', shaj', su'āl, mas'ala"
+  },
+  {
+    "id": "normalizer/1019",
+    "input": "Hello! How are you today?",
+    "normalized": "Hillu! Huw ari yū tuday?",
+    "collapsed": "Hello! How are you today?"
+  },
+  {
+    "id": "normalizer/1020",
+    "input": "Good morning. Good evening. Good night.",
+    "normalized": "gūd murning. gūd ivining. gūd night.",
+    "collapsed": "Good morning. Good evening. Good night."
+  },
+  {
+    "id": "normalizer/1021",
+    "input": "Please, thank you, and sorry.",
+    "normalized": "pliasi, thank yū, and surri.",
+    "collapsed": "Please, thank you, and sorry."
+  },
+  {
+    "id": "normalizer/1022",
+    "input": "I'm fine. What's your name? Where's the station?",
+    "normalized": "i'm fini. what's yūr nami? whiri's thi statiun?",
+    "collapsed": "I'm fine. What's your name? Where's the station?"
+  },
+  {
+    "id": "normalizer/1023",
+    "input": "One coffee without sugar, please.",
+    "normalized": "uni kuffī withūt sugar, pliasi.",
+    "collapsed": "One coffee without sugar, please."
+  },
+  {
+    "id": "normalizer/1024",
+    "input": "The meeting is at 08:30 on Wednesday.",
+    "normalized": "Thi mīting is at 08:30 un widnisday.",
+    "collapsed": "The meeting is at 08:30 on Wednesday."
+  },
+  {
+    "id": "normalizer/1025",
+    "input": "Call +44 20 1234 5678, extension 42.",
+    "normalized": "kall +44 20 1234 5678, ixtinsiun 42.",
+    "collapsed": "Call +44 20 1234 5678, extension 42."
+  },
+  {
+    "id": "normalizer/1026",
+    "input": "My address is 12 Church Street, apartment 3B.",
+    "normalized": "mi addriss is 12 church Strīt, apartmint 3B.",
+    "collapsed": "My address is 12 Church Street, apartment 3B."
+  },
+  {
+    "id": "normalizer/1027",
+    "input": "Bread, milk, eggs, cheese, apples, and tea.",
+    "normalized": "briad, milk, iggs, chīsi, applis, and tia.",
+    "collapsed": "Bread, milk, eggs, cheese, apples, and tea."
+  },
+  {
+    "id": "normalizer/1028",
+    "input": "I paid $12.50, €8.99, and £3.00.",
+    "normalized": "i paid $12.50, €8.99, and £3.00.",
+    "collapsed": "I paid $12.50, €8.99, and £3.00."
+  },
+  {
+    "id": "normalizer/1029",
+    "input": "She said, “Yes”; he replied, “Why?”",
+    "normalized": "Shi said, “yis”; hi riplīd, “whi?”",
+    "collapsed": "She said, “Yes”; he replied, “Why?”"
+  },
+  {
+    "id": "normalizer/1030",
+    "input": "O'Connor, D'Angelo, Anne-Marie, and Jean-Luc",
+    "normalized": "u'kunnur, D'angilu, anni-marī, and Jian-lus",
+    "collapsed": "O'Connor, D'Angelo, Anne-Marie, and Jean-Luc"
+  },
+  {
+    "id": "normalizer/1031",
+    "input": "queue rhythm yacht choir thorough though tough",
+    "normalized": "quiui rhithm yacht chuir thurūgh thūgh tūgh",
+    "collapsed": "queue rhythm yacht choir thorough though tough"
+  },
+  {
+    "id": "normalizer/1032",
+    "input": "a an the and or but if in on at to of for with",
+    "normalized": "a an thi and ur but if in un at tu uf fur with",
+    "collapsed": "a an the and or but if in on at to of for with"
+  },
+  {
+    "id": "normalizer/1033",
+    "input": "Monday Tuesday Wednesday Thursday Friday",
+    "normalized": "munday Tuisday widnisday Thursday friday",
+    "collapsed": "Monday Tuesday Wednesday Thursday Friday"
+  },
+  {
+    "id": "normalizer/1034",
+    "input": "January February March April May June July",
+    "normalized": "Januari fibruari march april may Juni Juli",
+    "collapsed": "January February March April May June July"
+  },
+  {
+    "id": "normalizer/1035",
+    "input": "0 zero 1 one 2 two 10 ten 100 hundred",
+    "normalized": "0 ziru 1 uni 2 twu 10 tin 100 hundrid",
+    "collapsed": "0 zero 1 one 2 two 10 ten 100 hundred"
+  },
+  {
+    "id": "normalizer/1036",
+    "input": "Email user+tag@example.com; open https://example.com/a?x=1&y=2#section.",
+    "normalized": "imail usir+tag@ixampli.kum; upin https://ixampli.kum/a?x=1&y=2#siktiun.",
+    "collapsed": "Email user+tag@example.com; open https://example.com/a?x=1&y=2#section."
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0033",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "محمد\n\nمحمد? min\n\naN? ghadaN\n\nfī/على\n\nصباحًا? شاي\n\nمن yellow, aN/‍\n\nاليوم/١٢ — صوت أنا\n\nنافذة نعم, hello ",
+    "output": "محمد\n\nمحمد؟ مِن\n\nً؟ غَدً\n\nفِي/على\n\nصباحًا؟ شاي\n\nمن يِلُّوْ، ً/‍\n\nاليوم/١٢ — صوت أنا\n\nنافذة نعم، هِلُّ ",
+    "roundTrip": "mHmd\n\nmHmd? min\n\naN? ghadaN\n\nfī/-lá\n\nSbāHaNā? shāj\n\nmn jilluv, aN/‍\n\nalīvm/١٢ — Sūt 'anā\n\nnāfdhat n-m, hillu ",
+    "secondPass": "محمد\n\nمحمد؟ مِن\n\nً؟ غَدً\n\nفِي/على\n\nصباحًا؟ شايْ\n\nمن يِلُّوْ، ً/‍\n\nاَلِيوْم/١٢ — صُوت أَنا\n\nنافذة نعم، هِلُّ "
+  }
+]

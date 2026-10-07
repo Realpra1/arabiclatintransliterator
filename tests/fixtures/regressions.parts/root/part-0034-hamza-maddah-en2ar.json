@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hamza-maddah/en2ar/0001",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'ā",
+    "output": "آ",
+    "roundTrip": "'ā",
+    "secondPass": "آ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0002",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'ādam",
+    "output": "آدَم",
+    "roundTrip": "'ādam",
+    "secondPass": "آدَم"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0003",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'āa",
+    "output": "آَ",
+    "roundTrip": "'āa",
+    "secondPass": "آَ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0004",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'āi",
+    "output": "آِ",
+    "roundTrip": "'āi",
+    "secondPass": "آِ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0005",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'āu",
+    "output": "آُ",
+    "roundTrip": "'āu",
+    "secondPass": "آُ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0006",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "'ā ",
+    "output": "آ ",
+    "roundTrip": "'ā ",
+    "secondPass": "آ "
+  },
+  {
+    "id": "hamza-maddah/en2ar/0007",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "('ā)",
+    "output": "(آ)",
+    "roundTrip": "('ā)",
+    "secondPass": "(آ)"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0008",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "b'ā",
+    "output": "بأا",
+    "roundTrip": "b'ā",
+    "secondPass": "بأا"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0009",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "ba'ā",
+    "output": "بَءا",
+    "roundTrip": "ba'ā",
+    "secondPass": "بَءا"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0010",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "ʾā",
+    "output": "آ",
+    "roundTrip": "'ā",
+    "secondPass": "آ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0011",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "ʾa ʾi ʾu",
+    "output": "أَ إِ أُ",
+    "roundTrip": "a i u",
+    "secondPass": "اَ إِ أُ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0012",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "mā'",
+    "output": "ماء",
+    "roundTrip": "mā'",
+    "secondPass": "ماء"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0013",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "mā'i",
+    "output": "ماءِ",
+    "roundTrip": "mā'i",
+    "secondPass": "ماءِ"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0014",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "su'āl",
+    "output": "سُؤال",
+    "roundTrip": "su'āl",
+    "secondPass": "سُؤال"
+  },
+  {
+    "id": "hamza-maddah/en2ar/0015",
+    "group": "hamza-maddah",
+    "direction": "en2ar",
+    "input": "bi'r",
+    "output": "بِئر",
+    "roundTrip": "bi'r",
+    "secondPass": "بِئر"
+  }
+]

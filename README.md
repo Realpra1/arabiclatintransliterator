@@ -185,3 +185,25 @@ To verify that the tests catch deliberately broken mappings in both directions
 and in English normalization, run `node scripts/check-test-sensitivity.mjs`.
 It runs each mutation in a temporary copy and requires assertion failures; it
 never changes the working project's code or fixtures.
+
+
+Large JSON fixtures and experiment reports use a small JSON index plus sibling
+`*.parts/` directories. Modules keep corpus groups together where available and
+are capped at 500 lines (the writer targets 450). To read the original logical
+JSON value, use `readJsonArtifact(path)` from `scripts/lib/json-artifacts.mjs`;
+`writeJsonArtifact(path, value)` writes the same structure and removes stale
+modules. Module paths resolve relative to the index directory. Text fixtures,
+including the complete supplied passages, are kept byte-for-byte.
+
+`node scripts/split-json-data.mjs` splits oversized JSON artifacts without changing
+their values. All baseline/report writers use the shared writer. Run
+`node scripts/check-file-length.mjs` to audit every non-ignored text file; CI also
+checks the 500-line limit. The browser app does not load these data modules.
+
+`node scripts/report-failure-kinds.mjs` classifies current failing inputs by corpus
+origin. The current failures include 21 curated natural-Arabic cases (three
+standalone words, 14 everyday phrases, and four continuous-text inputs), all
+failing only the Arabic `A2 === A3` comparison. Another 99 failing cases are
+random arrangements of real Arabic words. These are input-case counts, not
+unique dictionary words or independent linguistic defects. See
+`experiments/failure-kinds.json` for the examples and full category breakdown.

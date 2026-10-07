@@ -1,0 +1,200 @@
+[
+  {
+    "id": "technical-text/en2ar/0001",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "C=6.242×10^18",
+    "output": "C=6.242×10^18",
+    "roundTrip": "C=6.242×10^18",
+    "secondPass": "C=6.242×10^18"
+  },
+  {
+    "id": "technical-text/en2ar/0002",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "A(ambīruN)=1 C/s",
+    "output": "A(اَمبِيرٌ)=1 C/s",
+    "roundTrip": "A(ambīruN)=1 C/s",
+    "secondPass": "A(اَمبِيرٌ)=1 C/s"
+  },
+  {
+    "id": "technical-text/en2ar/0003",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "output": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "secondPass": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)"
+  },
+  {
+    "id": "technical-text/en2ar/0004",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "qudra(W)=E(J) / t(s)=U×I",
+    "output": "قُدرَ(W)=E(J) / t(s)=U×إِ",
+    "roundTrip": "qudra(W)=E(J) / t(s)=U×'i",
+    "secondPass": "قُدرَ(W)=E(J) / t(s)=U×إِ"
+  },
+  {
+    "id": "technical-text/en2ar/0005",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "1 Hz=1/s",
+    "output": "1 حز=1/s",
+    "roundTrip": "1 Hz=1/s",
+    "secondPass": "1 حز=1/s"
+  },
+  {
+    "id": "technical-text/en2ar/0006",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "E=kutla×c^2",
+    "output": "E=كُتلَ×c^2",
+    "roundTrip": "E=kutla×c^2",
+    "secondPass": "E=كُتلَ×c^2"
+  },
+  {
+    "id": "technical-text/en2ar/0007",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "E=hp×f",
+    "output": "E=هب×ف",
+    "roundTrip": "E=hb×f",
+    "secondPass": "E=هب×ف"
+  },
+  {
+    "id": "technical-text/en2ar/0008",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "G=6.6743×10^-11×m^3/(kg×s^2)",
+    "output": "G=6.6743×10^ع11×m^3/(كج×s^2)",
+    "roundTrip": "G=6.6743×10^-11×m^3/(kJ×s^2)",
+    "secondPass": "G=6.6743×10^ع11×m^3/(كج×s^2)"
+  },
+  {
+    "id": "technical-text/en2ar/0009",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "kb=1.380649×10^-23 J/K",
+    "output": "كب=1.380649×10^ع23 J/K",
+    "roundTrip": "kb=1.380649×10^-23 J/K",
+    "secondPass": "كب=1.380649×10^ع23 J/K"
+  },
+  {
+    "id": "technical-text/en2ar/0010",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "hp=6.626×10^-34 J×s",
+    "output": "هب=6.626×10^ع34 ج×س",
+    "roundTrip": "hb=6.626×10^-34 J×s",
+    "secondPass": "هب=6.626×10^ع34 ج×س"
+  },
+  {
+    "id": "technical-text/en2ar/0011",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "K=°C+273.15",
+    "output": "K=°C+273.15",
+    "roundTrip": "K=°C+273.15",
+    "secondPass": "K=°C+273.15"
+  },
+  {
+    "id": "technical-text/en2ar/0012",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "N=kg×tasāru-",
+    "output": "N=كج×تَسارُع",
+    "roundTrip": "N=kJ×tasāru-",
+    "secondPass": "N=كج×تَسارُع"
+  },
+  {
+    "id": "technical-text/en2ar/0013",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "CO2 H2O O2 N2 NH3",
+    "output": "CO2 H2O O2 N2 NH3",
+    "roundTrip": "CO2 H2O O2 N2 NH3",
+    "secondPass": "CO2 H2O O2 N2 NH3"
+  },
+  {
+    "id": "technical-text/en2ar/0014",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "500°C 1200°C 1700°C",
+    "output": "500°C 1200°C 1700°C",
+    "roundTrip": "500°C 1200°C 1700°C",
+    "secondPass": "500°C 1200°C 1700°C"
+  },
+  {
+    "id": "technical-text/en2ar/0015",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "−23 -23 –23 —23",
+    "output": "−23 ع23 –23 —23",
+    "roundTrip": "−23 -23 –23 —23",
+    "secondPass": "−23 ع23 –23 —23"
+  },
+  {
+    "id": "technical-text/en2ar/0016",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "0.994 m",
+    "output": "0.994 م",
+    "roundTrip": "0.994 m",
+    "secondPass": "0.994 م"
+  },
+  {
+    "id": "technical-text/en2ar/0017",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "0.1 m",
+    "output": "0.1 م",
+    "roundTrip": "0.1 m",
+    "secondPass": "0.1 م"
+  },
+  {
+    "id": "technical-text/en2ar/0018",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "120° ~1% 101 kPa/1 bār",
+    "output": "120° ~1% 101 كبَ/1 بار",
+    "roundTrip": "120° ~1% 101 kba/1 bār",
+    "secondPass": "120° ~1% 101 كبَ/1 بار"
+  },
+  {
+    "id": "technical-text/en2ar/0019",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "10.000.000",
+    "output": "10.000.000",
+    "roundTrip": "10.000.000",
+    "secondPass": "10.000.000"
+  },
+  {
+    "id": "technical-text/en2ar/0020",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "9.192.631.770 Hz",
+    "output": "9.192.631.770 حز",
+    "roundTrip": "9.192.631.770 Hz",
+    "secondPass": "9.192.631.770 حز"
+  },
+  {
+    "id": "technical-text/en2ar/0021",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "c=299.792.458 m/s",
+    "output": "c=299.792.458 m/s",
+    "roundTrip": "c=299.792.458 m/s",
+    "secondPass": "c=299.792.458 m/s"
+  },
+  {
+    "id": "technical-text/en2ar/0022",
+    "group": "technical-text",
+    "direction": "en2ar",
+    "input": "n_Juzaj'āt×kb×Harāra",
+    "output": "ن_جُزَيْأات×كب×حَرارَ",
+    "roundTrip": "n_Juzaj'āt×kb×Harāra",
+    "secondPass": "ن_جُزَيْأات×كب×حَرارَ"
+  }
+]

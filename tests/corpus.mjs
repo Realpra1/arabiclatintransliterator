@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { readJsonArtifact } from '../scripts/lib/json-artifacts.mjs';
 import { buildAdditionalCorpus } from './additional-corpus.mjs';
 
 export const documents = [
@@ -7,7 +8,10 @@ export const documents = [
   { id: 'civilization-canonical-latin', file: 'civilization.canonical-latin.txt', direction: 'en2ar' },
 ];
 
-export const readFixture = (file) => readFileSync(new URL(`./fixtures/${file}`, import.meta.url), 'utf8');
+export function readFixture(file) {
+  const path = new URL(`./fixtures/${file}`, import.meta.url);
+  return file.endsWith('.json') ? JSON.stringify(readJsonArtifact(path)) : readFileSync(path, 'utf8');
+}
 
 // Inputs are deliberately independent of the implementation's mapping tables.
 // This ensures deleting a production token cannot also delete its test case.

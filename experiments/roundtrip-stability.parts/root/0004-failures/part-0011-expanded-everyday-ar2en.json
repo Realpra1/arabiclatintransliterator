@@ -1,0 +1,240 @@
+[
+  {
+    "id": "expanded-everyday/ar2en/0002",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أهلاً وسهلاً",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أهلاً وسهلاً",
+      "L1": "'ahlāN vshlāN",
+      "A2": "أَهلاً وْشلاً",
+      "L2": "ahlāN vshlāN",
+      "A3": "اَهلاً وْشلاً",
+      "L3": "ahlāN vshlāN"
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0012",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أنا بخير، وأنت؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أنا بخير، وأنت؟",
+      "L1": "'anā bkhīr, v'nt?",
+      "A2": "أَنا بخِير، وأنت؟",
+      "L2": "anā bkhīr, v'nt?",
+      "A3": "اَنا بخِير، وأنت؟",
+      "L3": "anā bkhīr, v'nt?"
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0015",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أين تسكن؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أين تسكن؟",
+      "L1": "'aīn tskn?",
+      "A2": "أَِين تسكن؟",
+      "L2": "ajn tskn?",
+      "A3": "اَيْن تسكن؟",
+      "L3": "ajn tskn?"
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0016",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "لا أفهم.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "لا أفهم.",
+      "L1": "lā 'afhm.",
+      "A2": "لا أَفهم.",
+      "L2": "lā afhm.",
+      "A3": "لا اَفهم.",
+      "L3": "lā afhm."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0018",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أعد الكلام ببطء، من فضلك.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أعد الكلام ببطء، من فضلك.",
+      "L1": "'a-d alklām bbT', mn fDlk.",
+      "A2": "أَعد اَلكلام بّطء، من فضلك.",
+      "L2": "a-d alklām bbT', mn fDlk.",
+      "A3": "اَعد اَلكلام بّطء، من فضلك.",
+      "L3": "a-d alklām bbT', mn fDlk."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0020",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أريد كوبًا من الماء.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أريد كوبًا من الماء.",
+      "L1": "'arīd kūbaNā mn almā'.",
+      "A2": "أَرِيد كُوبًا من اَلماء.",
+      "L2": "arīd kūbaNā mn almā'.",
+      "A3": "اَرِيد كُوبًا من اَلماء.",
+      "L3": "arīd kūbaNā mn almā'."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0023",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أين محطة القطار؟",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أين محطة القطار؟",
+      "L1": "'aīn mHTat alqTār?",
+      "A2": "أَِين محطة اَلقطار؟",
+      "L2": "ajn mHTat alqTār?",
+      "A3": "اَيْن محطة اَلقطار؟",
+      "L3": "ajn mHTat alqTār?"
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0028",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "ذهبت أمي إلى المستشفى صباحًا.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ذهبت أمي إلى المستشفى صباحًا.",
+      "L1": "dhhbt 'amī 'ilá almstshfá SbāHaNā.",
+      "A2": "ذهبت أَمِي إِلى اَلمستشفى صباحًا.",
+      "L2": "dhhbt amī ilá almstshfá SbāHaNā.",
+      "A3": "ذهبت اَمِي إِلى اَلمستشفى صباحًا.",
+      "L3": "dhhbt amī ilá almstshfá SbāHaNā."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0030",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أحب القراءة والموسيقى والسفر.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أحب القراءة والموسيقى والسفر.",
+      "L1": "'aHb alqrā'at vālmūsīqá vālsfr.",
+      "A2": "أَحب اَلقراءة والمُوسِيقى والسفر.",
+      "L2": "aHb alqrā'at vālmūsīqá vālsfr.",
+      "A3": "اَحب اَلقراءة والمُوسِيقى والسفر.",
+      "L3": "aHb alqrā'at vālmūsīqá vālsfr."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0031",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "رجاءً أغلق الباب وافتح النافذة.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "رجاءً أغلق الباب وافتح النافذة.",
+      "L1": "rJā'aN 'aghlq albāb vāftH alnāfdhat.",
+      "A2": "رجاأً أَغلق اَلباب وافتح اَلنافذة.",
+      "L2": "rJā'aN aghlq albāb vāftH alnāfdhat.",
+      "A3": "رجاأً اَغلق اَلباب وافتح اَلنافذة.",
+      "L3": "rJā'aN aghlq albāb vāftH alnāfdhat."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0037",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أحمد وإبراهيم وإسماعيل",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أحمد وإبراهيم وإسماعيل",
+      "L1": "'aHmd v'brāhīm v'smā-īl",
+      "A2": "أَحمد وأبراهِيم وأسماعِيل",
+      "L2": "aHmd v'brāhīm v'smā-īl",
+      "A3": "اَحمد وأبراهِيم وأسماعِيل",
+      "L3": "aHmd v'brāhīm v'smā-īl"
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0046",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "إِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "إِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.",
+      "L1": "inna alTTaāliba jaqra'u bihudū'iN.",
+      "A2": "إِنَّ اَلطَّالِبَ يَقرَؤُ بِهُدُوإٍ.",
+      "L2": "inna alTTāliba jaqra'u bihudū'iN.",
+      "A3": "إِنَّ اَلطّالِبَ يَقرَؤُ بِهُدُوإٍ.",
+      "L3": "inna alTTāliba jaqra'u bihudū'iN."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0048",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "لا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "لا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.",
+      "L1": "lā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh.",
+      "A2": "لا، لم أَقرءه بعد؛ سءقرءه غدًا إِن شاء اَلّه.",
+      "L2": "lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.",
+      "A3": "لا، لم اَقرءه بعد؛ سءقرءه غدًا إِن شاء اَلّه.",
+      "L3": "lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh."
+    }
+  },
+  {
+    "id": "expanded-everyday/ar2en/0049",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أمس، اليوم، غدًا، وبعد غد.",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "أمس، اليوم، غدًا، وبعد غد.",
+      "L1": "'ams, alīvm, ghdaNā, vb-d ghd.",
+      "A2": "أَمس، اَلِيوْم، غدًا، وْبعد غد.",
+      "L2": "ams, alīvm, ghdaNā, vb-d ghd.",
+      "A3": "اَمس، اَلِيوْم، غدًا، وْبعد غد.",
+      "L3": "ams, alīvm, ghdaNā, vb-d ghd."
+    }
+  }
+]

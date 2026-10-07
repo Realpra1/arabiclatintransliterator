@@ -1,0 +1,446 @@
+[
+  {
+    "id": "expanded-seeded-fragments/ar2en/0004",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "دً،/؟ضكظطًئ/؟ضٰؤإغ،ىسـ+ؤمزهقٍِةن)وعشآأحامزئشيلصْ)ءهىآضصؤم",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "دً،/؟ضكظطًئ/؟ضٰؤإغ،ىسـ+ؤمزهقٍِةن)وعشآأحامزئشيلصْ)ءهىآضصؤم",
+      "L1": "daN,/?DkZTaN'/?Dā''gh,ás+'mzhqiNiatn)v-sh'ā'Hāmz'shīlS)'há'āDS'm",
+      "A2": "دً،/؟ضكظطًء/؟ضاءّغ،ىس+أمزهقٍَِتن)vعشأاءحامزءشِيلص)أهىأاضصءم",
+      "L2": "daN,/?DkZTaN'/?Dā''gh,ás+'mzhqiNiatn)v-sh'ā'Hāmz'shīlS)'ahá'āDS'm",
+      "A3": "دً،/؟ضكظطًء/؟ضاءّغ،ىس+أمزهقٍَِتن)vعشأاءحامزءشِيلص)أَهىأاضصءم",
+      "L3": "daN,/?DkZTaN'/?Dā''gh,ás+'mzhqiNiatn)v-sh'ā'Hāmz'shīlS)ahá'āDS'm"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0005",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ئ/؟ض+\nدغعجٍِٰن وئٱس(ٰنُزهقس(صاط؛هقسـ+ْ ًهقيأصظدزئىس(ةذ)غع",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئ/؟ض+\nدغعجٍِٰن وئٱس(ٰنُزهقس(صاط؛هقسـ+ْ ًهقيأصظدزئىس(ةذ)غع",
+      "L1": "'/?D+\ndgh-JiNiān v's(ānuzhqs(SāT;hqs+ aNhqī'SZdz'ás(atdh)gh-",
+      "A2": "أ/؟D+\nدغعجٍِان وأs(انُزهقس(صاط؛هقس+ ًهقِيئصظدزئىس(اَتذ)غع",
+      "L2": "'a/?D+\ndgh-JiNiān v's(ānuzhqs(SāT;hqs+ aNhqī'SZdz'ás(atdh)gh-",
+      "A3": "أa/؟D+\nدغعجٍِان وأs(انُزهقس(صاط؛هقس+ ًهقِيئصظدزئىس(اَتذ)غع",
+      "L3": "'ā/?D+\ndgh-JiNiān v's(ānuzhqs(SāT;hqs+ aNhqī'SZdz'ás(atdh)gh-"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0019",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": " ء،جفـح\nُغبشيخةاُغرقيـةاط",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": " ء،جفـح\nُغبشيخةاُغرقيـةاط",
+      "L1": " ',JfH\nughbshīkhatāughrqjatāT",
+      "A2": " أ،جفح\nأُغبشِيخَتاُغرقيَتاط",
+      "L2": " 'a,JfH\nughbshīkhatāughrqjatāT",
+      "A3": " أَ،جفح\nأُغبشِيخَتاُغرقيَتاط",
+      "L3": " a,JfH\nughbshīkhatāughrqjatāT"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0025",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ر/؟أَؤمغبقآ(حا ًّ/سضٰامًهجيِةْمغرىسخٰا و،جٍـةذطزر/س",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ر/؟أَؤمغبقآ(حا ًّ/سضٰامًهجيِةْمغرىسخٰا و،جٍـةذطزر/س",
+      "L1": "r/?a'mghbq'ā(Hā aN /sDāāmaNhJjiatmghráskhāā v,JiNatdhTzr/s",
+      "A2": "r/؟َأمغبقأا(حا ً /سضاامًهجيَِتمغرىسخاا وْ،جٍَتذطزر/s",
+      "L2": "r/?a'amghbq'ā(Hā aN /sDāāmaNhJjiatmghráskhāā v,JiNatdhTzr/s",
+      "A3": "r/؟َءَمغبقأا(حا ً /سضاامًهجيَِتمغرىسخاا وْ،جٍَتذطزر/s",
+      "L3": "r/?a'amghbq'ā(Hā aN /sDāāmaNhJjiatmghráskhāā v,JiNatdhTzr/s"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0027",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": ")ًئ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": ")ًئ",
+      "L1": ")aN'",
+      "A2": ")ًأ",
+      "L2": ")aN'a",
+      "A3": ")ًأَ",
+      "L3": ")aNa"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0029",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ئقسضحذموبقٍ(كؤًُئجيل+ظُزبجفخص\n ًبٱ؟ض+ظدز،ٌسأح\nدو،ىٍ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئقسضحذموبقٍ(كؤًُئجيل+ظُزبجفخص\n ًبٱ؟ض+ظدز،ٌسأح\nدو،ىٍ",
+      "L1": "'qsDHdhmūbqiN(k'uaN'Jīl+ZuzbJfkhS\n aNb?D+Zdz,uNs'H\ndū,áiN",
+      "A2": "أقسضحذمُوبقٍ(kأًُؤجِيل+ظُزبجفخص\n ًب؟D+ظدز،ٌسؤح\nدُو،ىٍ",
+      "L2": "'aqsDHdhmūbqiN(k'uaN'Jīl+ZuzbJfkhS\n aNb?D+Zdz,uNs'H\ndū,áiN",
+      "A3": "أَقسضحذمُوبقٍ(kأًُؤجِيل+ظُزبجفخص\n ًب؟D+ظدز،ٌسؤح\nدُو،ىٍ",
+      "L3": "aqsDHdhmūbqiN(k'uaN'Jīl+ZuzbJfkhS\n aNb?D+Zdz,uNs'H\ndū,áiN"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0031",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": ")ترجآخ+ُْزئٌٍ(َاُتر/يلكذ)وبجآضَذدتبق؟أٰا)ءع",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": ")ترجآخ+ُْزئٌٍ(َاُتر/يلكذ)وبجآضَذدتبق؟أٰا)ءع",
+      "L1": ")trJ'ākh+uz'uNiN(āutr/īlkdh)vbJ'āDadhdtbq?'aāā)'-",
+      "A2": ")ترجأاخ+أُزؤٌٍ(اُتر/ِيلكذ)وْبجأاضَذدتبق؟أَاا)أع",
+      "L2": ")trJ'ākh+'uz'uNiN(āutr/īlkdh)vbJ'āDadhdtbq?āā)'a-",
+      "A3": ")ترجأاخ+أُزؤٌٍ(اُتر/ِيلكذ)وْبجأاضَذدتبق؟اا)أَع",
+      "L3": ")trJ'ākh+'uz'uNiN(āutr/īlkdh)vbJ'āDadhdtbq?āā)a-"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0034",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "يخكؤًُهجآخَْطءبقفأحظمًعش؟أصؤ)ءئجسـٰندته/ثِصاُغئٌي(صْ غّقٍأ+نإًعىآ(ح",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "يخكؤًُهجآخَْطءبقفأحظمًعش؟أصؤ)ءئجسـٰندته/ثِصاُغئٌي(صْ غّقٍأ+نإًعىآ(ح",
+      "L1": "īkhk'uaNhJ'ākhaT'bqf'HZmaN-sh?'aS')''Jsāndth/thiSāugh'uNī(S ghghqiN'+n'aN-á'ā(H",
+      "A2": "ِيخكئًُهجأاخَطءبقفأحظمًعش؟أَصء)ءّجساندث/ثِصاُغؤٌِي(S غّقٍئ+nأًعىأا(H",
+      "L2": "īkhk'uaNhJ'ākhaT'bqf'HZmaN-sh?aS')''Jsāndth/thiSāugh'uNī(S ghghqiN'+n'aN-á'ā(H",
+      "A3": "ِيخكئًُهجأاخَطءبقفأحظمًعش؟َصء)ءّجساندث/ثِصاُغؤٌِي(S غّقٍئ+nأًعىأا(H",
+      "L3": "īkhk'uaNhJ'ākhaT'bqf'HZmaN-sh?aS')''Jsāndth/thiSāugh'uNī(S ghghqiN'+n'aN-á'ā(H"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0036",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "َن ءعقسـْٰموئش؟ـةا)غ،ٌسأصاإغئش؟أة\nطت،ج؟(ح\n ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "َن ءعقسـْٰموئش؟ـةا)غ،ٌسأصاإغئش؟أة\nطت،ج؟(ح\n ",
+      "L1": "an '-qsāmū'sh?atā)gh,uNs'Sā'gh'sh?'āt\nTt,J?(H\n ",
+      "A2": "اَن أعقسامُوأش؟َتا)غ،ٌسؤصاءغءش؟أات\nطت،ج؟(H\n ",
+      "L2": "an 'a-qsāmū'sh?atā)gh,uNs'Sā'gh'sh?'aāt\nTt,J?(H\n ",
+      "A3": "اَن أَعقسامُوأش؟َتا)غ،ٌسؤصاءغءش؟أَات\nطت،ج؟(H\n ",
+      "L3": "an a-qsāmū'sh?atā)gh,uNs'Sā'gh'sh?āt\nTt,J?(H\n "
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0040",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "طغئقسـصْطغبج؟ِ+ظ ؛بشآخَؤطترٱفضَاد؛ئجفخ+ؤطزرىآـصؤ)ءرجآِكاُءّش؟ـَ\n ؛رشس(ك",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "طغئقسـصْطغبج؟ِ+ظ ؛بشآخَؤطترٱفضَاد؛ئجفخ+ؤطزرىآـصؤ)ءرجآِكاُءّش؟ـَ\n ؛رشس(ك",
+      "L1": "Tgh'qsSTghbJ?i+Z ;bsh'ākha'TtrfDād;'Jfkh+'Tzrá'āS')'rJ'āikāu''sh?a\n ;rshs(k",
+      "A2": "طغءقسصطغبج؟i+Z ؛بشأاخَأطترفضاد؛ءجفخ+أطزرىأاصء)أرجأاِكاُءّش؟َ\n ؛رشس(k",
+      "L2": "Tgh'qsSTghbJ?i+Z ;bsh'ākha'TtrfDād;'Jfkh+'Tzrá'āS')'arJ'āikāu''sh?a\n ;rshs(k",
+      "A3": "طغءقسصطغبج؟i+Z ؛بشأاخَأطترفضاد؛ءجفخ+أطزرىأاصء)أَرجأاِكاُءّش؟َ\n ؛رشس(k",
+      "L3": "Tgh'qsSTghbJ?i+Z ;bsh'ākha'TtrfDād;'Jfkh+'Tzrá'āS')arJ'āikāu''sh?a\n ;rshs(k"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0042",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "هجآلكظطتئش؟ِح\nُت،قثخكظإ؛ه/يأح\nدورىآضكذطءبق؟أحذإ؛عجيـَؤإ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هجآلكظطتئش؟ِح\nُت،قثخكظإ؛ه/يأح\nدورىآضكذطءبق؟أحذإ؛عجيـَؤإ",
+      "L1": "hJ'ālkZTt'sh?iH\nut,qthkhkZ';h/ī'H\ndūrá'āDkdhT'bq?'aHdh';-Jja''",
+      "A2": "هجأالكظطتءش؟ِح\nأُت،قثخكظء؛h/ِيئح\nدُورىؤاضكذطءبق؟أَحذء؛عجيَءّ",
+      "L2": "hJ'ālkZTt'sh?iH\nut,qthkhkZ';h/ī'H\ndūrá'āDkdhT'bq?aHdh';-Jja''",
+      "A3": "هجأالكظطتءش؟ِح\nأُت،قثخكظء؛h/ِيئح\nدُورىؤاضكذطءبق؟َحذء؛عجيَءّ",
+      "L3": "hJ'ālkZTt'sh?iH\nut,qthkhkZ';h/ī'H\ndūrá'āDkdhT'bq?aHdh';-Jja''"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0043",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "عىسأصظط؛ع/آضحذ غّجآـْٰ)ً،شث(ح\nُزعجٍ(كذإتعشٍـ+ْ)ءهشثخحندءهقف",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "عىسأصظط؛ع/آضحذ غّجآـْٰ)ً،شث(ح\nُزعجٍ(كذإتعشٍـ+ْ)ءهشثخحندءهقف",
+      "L1": "-ás'SZT;-/'āDHdh ghghJ'āā)aN,shth(H\nuz-JiN(kdh't-shiN+)'hshthkhHnd'hqf",
+      "A2": "عىسءصظط؛ع/آضحذ غّجأاا)ً،شث(H\nأُزعجٍ(كذءتعشٍ+)أهشثخحندءهقف",
+      "L2": "-ás'SZT;-/'āDHdh ghghJ'āā)aN,shth(H\nuz-JiN(kdh't-shiN+)'ahshthkhHnd'hqf",
+      "A3": "عىسءصظط؛ع/آضحذ غّجأاا)ً،شث(H\nأُزعجٍ(كذءتعشٍ+)أَهشثخحندءهقف",
+      "L3": "-ás'SZT;-/'āDHdh ghghJ'āā)aN,shth(H\nuz-JiN(kdh't-shiN+)ahshthkhHnd'hqf"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0048",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "حذ ءع/آ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حذ ءع/آ",
+      "L1": "Hdh '-/'ā",
+      "A2": "حذ أع/آ",
+      "L2": "Hdh 'a-/'ā",
+      "A3": "حذ أَع/آ",
+      "L3": "Hdh a-/'ā"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0055",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "رقثخَظطوعٱٍضكْ)ءر/ٍ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "رقثخَظطوعٱٍضكْ)ءر/ٍ",
+      "L1": "rqthkhaZTū-iNDk)'r/iN",
+      "A2": "رقثخَظطُوعٍضك)أr/ٍ",
+      "L2": "rqthkhaZTū-iNDk)'ar/iN",
+      "A3": "رقثخَظطُوعٍضك)أَر/ٍ",
+      "L3": "rqthkhaZTū-iNDk)ar/iN"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0061",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ي(حنُت،قآ(صا)ءئشف(حؤط؛بجسِصظطًّٱفِ+ن)ء،شثخصن و،ٌٍخصُْزّ/ٍ(َذ تئىف",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ي(حنُت،قآ(صا)ءئشف(حؤط؛بجسِصظطًّٱفِ+ن)ء،شثخصن و،ٌٍخصُْزّ/ٍ(َذ تئىف",
+      "L1": "ī(Hnut,q'ā(Sā)''shf(H'T;bJsiSZTaNTfi+n)',shthkhSn v,uNiNkhSuzz/iN(adh t'áf",
+      "A2": "ِي(حنُت،قأا(صا)ءّشف(Hأط؛بجسِصظطًطفِ+n)أ،شثخصن وْ،ٌٍخصُزّ/ٍ(اَذ تءىف",
+      "L2": "ī(Hnut,q'ā(Sā)''shf(H'T;bJsiSZTaNTfi+n)'a,shthkhSn v,uNiNkhSuzz/iN(adh t'áf",
+      "A3": "ِي(حنُت،قأا(صا)ءّشف(Hأط؛بجسِصظطًطفِ+n)أَ،شثخصن وْ،ٌٍخصُزّ/ٍ(اَذ تءىف",
+      "L3": "ī(Hnut,q'ā(Sā)''shf(H'T;bJsiSZTaNTfi+n)a,shthkhSn v,uNiNkhSuzz/iN(adh t'áf"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0066",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "هق؟أة\nإتهٱ؟ل+ظ ؛،ٌفلٰ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "هق؟أة\nإتهٱ؟ل+ظ ؛،ٌفلٰ",
+      "L1": "hq?'āt\n'ith?l+Z ;,uNflā",
+      "A2": "هق؟أات\nإِث؟l+Z ؛،ٌفلا",
+      "L2": "hq?'aāt\nith?l+Z ;,uNflā",
+      "A3": "هق؟أَات\nإِث؟l+Z ؛،ٌفلا",
+      "L3": "hq?āt\nith?l+Z ;,uNflā"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0068",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ئ/يلٰظُت،قفأص\nإتٌّفـٰن)ًه/؟(َ\nدتبى؟لصْ ",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ئ/يلٰظُت،قفأص\nإتٌّفـٰن)ًه/؟(َ\nدتبى؟لصْ ",
+      "L1": "'/īlāZut,qf'S\n'ittuNfān)aNh/?(a\ndtbá?lS ",
+      "A2": "أ/ِيلاظُت،قفأص\nإِتٌّفان)ًه/؟(a\nدتبى؟لص ",
+      "L2": "'a/īlāZut,qf'S\nittuNfān)aNh/?(a\ndtbá?lS ",
+      "A3": "أa/ِيلاظُت،قفأص\nإِتٌّفان)ًه/؟(a\nدتبى؟لص ",
+      "L3": "'ā/īlāZut,qf'S\nittuNfān)aNh/?(a\ndtbá?lS "
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0072",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "ةذطغئىسأحظإتئٌفـةْط؛بشي(صذ زرجٍـصاُزعٌ؟ـَؤ وّىثخ+ا تّ/يـحْطترٌفخص\nمغّشيخةؤًُه",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "ةذطغئىسأحظإتئٌفـةْط؛بشي(صذ زرجٍـصاُزعٌ؟ـَؤ وّىثخ+ا تّ/يـحْطترٌفخص\nمغّشيخةؤًُه",
+      "L1": "atdhTgh'ás'HZ't'uNfatT;bshī(Sdh zrJiNSāuz-uN?a' vváthkh+ā tt/jHTtruNfkhS\nmghghshīkhat'uaNh",
+      "A2": "اَتذطغءىسءحظءتؤٌفَتط؛بشِي(صذ زرجٍصاُزعٌ؟َأ وّىثخ+ا تّ/يْحطترٌفخص\nمغّشِيخَتؤًُه",
+      "L2": "atdhTgh'ás'HZ't'uNfatT;bshī(Sdh zrJiNSāuz-uN?a'a vváthkh+ā tt/jHTtruNfkhS\nmghghshīkhat'uaNh",
+      "A3": "اَتذطغءىسءحظءتؤٌفَتط؛بشِي(صذ زرجٍصاُزعٌ؟َءَ وّىثخ+ا تّ/يْحطترٌفخص\nمغّشِيخَتؤًُه",
+      "L3": "atdhTgh'ás'HZ't'uNfatT;bshī(Sdh zrJiNSāuz-uN?a'a vváthkh+ā tt/jHTtruNfkhS\nmghghshīkhat'uaNh"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0075",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "َ\nُ؛هٱآِ+ْدغ،قآخةظُءئ/س(ٰؤ غئىآـةؤموّىسأصظطزئق؟(َ\nُ؛بجثلَُْغرجسلك\nُت،",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "َ\nُ؛هٱآِ+ْدغ،قآخةظُءئ/س(ٰؤ غئىآـةؤموّىسأصظطزئق؟(َ\nُ؛بجثلَُْغرجسلك\nُت،",
+      "L1": "a\nu;h'āi+dgh,q'ākhatZu''/s(ā' gh'á'āat'mvvás'SZTz'q?(a\nu;bJthlaughrJslk\nut,",
+      "A2": "اَ\nأُ؛هأاِ+دغ،قأاخَتظُءّ/s(اء غءىأاَتءموّىسءصظطزءق؟(a\nأُ؛بجثلَُغرجسلك\nأُت،",
+      "L2": "a\nu;h'āi+dgh,q'ākhatZu''/s(ā' gh'á'at'mvvás'SZTz'q?(a\nu;bJthlaughrJslk\nut,",
+      "A3": "اَ\nأُ؛هأاِ+دغ،قأاخَتظُءّ/s(اء غءىأَتءموّىسءصظطزءق؟(a\nأُ؛بجثلَُغرجسلك\nأُت،",
+      "L3": "a\nu;h'āi+dgh,q'ākhatZu''/s(ā' gh'á'at'mvvás'SZTz'q?(a\nu;bJthlaughrJslk\nut,"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0077",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "يخَْم؛هٱثخ+ن)تعٱ؟ض+ذًُب/سخكا ًعجٍأٰؤُءعقآخ+ْ)ءعقفلةؤ)وئشسأَؤطته",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "يخَْم؛هٱثخ+ن)تعٱ؟ض+ذًُب/سخكا ًعجٍأٰؤُءعقآخ+ْ)ءعقفلةؤ)وئشسأَؤطته",
+      "L1": "īkham;hthkh+n)t-?D+dhuaNb/skhkā aN-JiN'ā'u'-q'ākh+)'-qflat')v'shs'a'Tth",
+      "A2": "ِيخَم؛هثخ+n)tع؟D+ذًُب/سخكا ًعجٍئاؤُؤعقأاخ+)أعقفلَتء)vأشسأَأطث",
+      "L2": "īkham;hthkh+n)t-?D+dhuaNb/skhkā aN-JiN'ā'u'-q'ākh+)'a-qflat')v'shs'a'Tth",
+      "A3": "ِيخَم؛هثخ+n)tع؟D+ذًُب/سخكا ًعجٍئاؤُؤعقأاخ+)أَعقفلَتء)vأشسأَأطث",
+      "L3": "īkham;hthkh+n)t-?D+dhuaNb/skhkā aN-JiN'ā'u'-q'ākh+)a-qflat')v'shs'a'Tth"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0078",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "سضحؤُءعقثلَذ غّقفضةنمزئٌيخصؤ ءرج؟(َذدغبٱث(+ن ءعقسخحاد؛عٱث(َذُ؛ع/ث(حْإغرجث",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "سضحؤُءعقثلَذ غّقفضةنمزئٌيخصؤ ءرج؟(َذدغبٱث(+ن ءعقسخحاد؛عٱث(َذُ؛ع/ث(حْإغرجث",
+      "L1": "sDH'u'-qthladh ghghqfDatnmz'uNīkhS' 'rJ?(adhdghbth(+n '-qskhHād;-th(adhu;-/th(H'ghrJth",
+      "A2": "سضحؤُؤعقثلَذ غّقفضَتنمزؤٌِيخصئ أرج؟(اَذدغبث(+n أعقسخحاد؛عث(اَذُ؛ع/ث(Hأغرجث",
+      "L2": "sDH'u'-qthladh ghghqfDatnmz'uNīkhS' 'arJ?(adhdghbth(+n 'a-qskhHād;-th(adhu;-/th(H'ghrJth",
+      "A3": "سضحؤُؤعقثلَذ غّقفضَتنمزؤٌِيخصئ أَرج؟(اَذدغبث(+n أَعقسخحاد؛عث(اَذُ؛ع/ث(Hأغرجث",
+      "L3": "sDH'u'-qthladh ghghqfDatnmz'uNīkhS' arJ?(adhdghbth(+n a-qskhHād;-th(adhu;-/th(H'ghrJth"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0080",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "آـكؤدغ،قآـَ\n غر",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "آـكؤدغ،قآـَ\n غر",
+      "L1": "'āk'dgh,q'āa\n ghr",
+      "A2": "آكءدغ،قأاَ\n غر",
+      "L2": "'āk'dgh,q'a\n ghr",
+      "A3": "آكءدغ،قأَ\n غر",
+      "L3": "'āk'dgh,q'a\n ghr"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0090",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": ")زعٌيأكامءرشفلَْإز،قفخحظًُرشآضة\n)ءعجيأَْدًرىفلَؤطغئجي(ٰظ زئ/فـكا)وئجسلة",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": ")زعٌيأكامءرشفلَْإز،قفخحظًُرشآضة\n)ءعجيأَْدًرىفلَؤطغئجي(ٰظ زئ/فـكا)وئجسلة",
+      "L1": ")z-uNī'kām'rshfla'z,qfkhHZuaNrsh'āDat\n)'-Jī'adaNráfla'Tgh'Jī(āZ z'/fkā)v'Jslat",
+      "A2": ")zعٌِيئكامءرشفلَأز،قفخحظًُرشأاضة\n)أعجِيئَدًرىفلَأطغءجِي(اظ زء/فكا)vأجسلة",
+      "L2": ")z-uNī'kām'rshfla'z,qfkhHZuaNrsh'āDat\n)'a-Jī'adaNráfla'Tgh'Jī(āZ z'/fkā)v'Jslat",
+      "A3": ")zعٌِيئكامءرشفلَأز،قفخحظًُرشأاضة\n)أَعجِيئَدًرىفلَأطغءجِي(اظ زء/فكا)vأجسلة",
+      "L3": ")z-uNī'kām'rshfla'z,qfkhHZuaNrsh'āDat\n)a-Jī'adaNráfla'Tgh'Jī(āZ z'/fkā)v'Jslat"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0098",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "حذدً،قسخصظُو،جٍِةظ)وّجسِ+ْمءعٌسخةْ ءهٌ؟",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "حذدً،قسخصظُو،جٍِةظ)وّجسِ+ْمءعٌسخةْ ءهٌ؟",
+      "L1": "HdhdaN,qskhSZū,JiNiatZ)vvJsi+m'-uNskhat 'huN?",
+      "A2": "حذدً،قسخصظُو،جٍَِتظ)وّجسِ+mأعٌسخة أهٌ؟",
+      "L2": "HdhdaN,qskhSZū,JiNiatZ)vvJsi+m'-uNskhat 'ahuN?",
+      "A3": "حذدً،قسخصظُو،جٍَِتظ)وّجسِ+mأعٌسخة أَهٌ؟",
+      "L3": "HdhdaN,qskhSZū,JiNiatZ)vvJsi+m'-uNskhat ahuN?"
+    }
+  },
+  {
+    "id": "expanded-seeded-fragments/ar2en/0099",
+    "group": "expanded-seeded-fragments",
+    "direction": "ar2en",
+    "input": "+\n ء،/ٍلصُْغر/ثخكؤ ءّىٍضَ\nطت،ٱآخ+ْدزّٱيـحْدغرىسِح\n و،/آأٰؤمتّج؟(ص",
+    "failedRules": [
+      "Arabic input: Latin L2 = L3",
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "+\n ء،/ٍلصُْغر/ثخكؤ ءّىٍضَ\nطت،ٱآخ+ْدزّٱيـحْدغرىسِح\n و،/آأٰؤمتّج؟(ص",
+      "L1": "+\n ',/iNlSughr/thkhk' ''áiNDa\nTt,i'ākh+dzzjHdghrásiH\n v,/'ā'ā'mttJ?(S",
+      "A2": "+\n أ،/ٍلصُغر/ثخكء ءّىٍضَ\nطت،ِئاخ+دزّيْحدغرىسِح\n وْ،/آأاءمتّج؟(S",
+      "L2": "+\n 'a,/iNlSughr/thkhk' ''áiNDa\nTt,i'ākh+dzzjHdghrásiH\n v,/'ā'ā'mttJ?(S",
+      "A3": "+\n أَ،/ٍلصُغر/ثخكء ءّىٍضَ\nطت،ِئاخ+دزّيْحدغرىسِح\n وْ،/آأاءمتّج؟(S",
+      "L3": "+\n a,/iNlSughr/thkhk' ''áiNDa\nTt,i'ākh+dzzjHdghrásiH\n v,/'ā'ā'mttJ?(S"
+    }
+  }
+]

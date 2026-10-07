@@ -1,6 +1,7 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 // Isolated trials: never edit runtime files or approve new snapshot expectations.
 import assert from 'node:assert/strict';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { createContext, runInContext } from 'node:vm';
 import { loadTranslator, translatorFiles, root } from '../tests/helpers/load-translator.mjs';
@@ -101,5 +102,5 @@ for (const mode of ['literal-marks', 'latin-diacritics']) {
 }
 assert.deepEqual(fingerprint(),sourceSha256,'Runtime source must remain unchanged');
 const report = {selectedMode:'latin-diacritics',description:"Word-final-only at→ة trial, following the user's clarification. Two interpretations of diacritics: literal Unicode combining marks only; or those marks plus Latin short vowels a/i/u/e/o and tanwin aN/iN/uN. Hyphen/ain and apostrophe/hamza count as word letters. Long vowels are letters, not skipped marks. Production source and snapshots unchanged.",sourceSha256,reports};
-writeFileSync(new URL('experiments/terminal-at.json',root),JSON.stringify(report,null,2)+'\n');
+writeJsonArtifact(new URL('experiments/terminal-at.json',root), report);
 console.log(JSON.stringify(reports.map(r=>({mode:r.mode,standardStability:{...r.standardStability,newlyFailing:r.standardStability.newlyFailing.length,fixed:r.standardStability.fixed.length},snapshotCounts:r.snapshotCounts,stability:{...r.stability,newlyFailing:r.stability.newlyFailing.length,fixed:r.stability.fixed.length},documents:r.documents.map(d=>({id:d.id,unchanged:d.unchanged,changedOutputWords:d.changedOutputWords})),examples:r.examples.map(e=>({input:e.input,direction:e.direction,before:e.before,after:e.after})),newFailures:r.stability.newlyFailing.slice(0,4)})),null,2));

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "alias-runs/en2ar/0001",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "a",
+    "output": "اَ",
+    "roundTrip": "a",
+    "secondPass": "اَ"
+  },
+  {
+    "id": "alias-runs/en2ar/0002",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "ba",
+    "output": "بَ",
+    "roundTrip": "ba",
+    "secondPass": "بَ"
+  },
+  {
+    "id": "alias-runs/en2ar/0003",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aa",
+    "output": "ا",
+    "roundTrip": "ā",
+    "secondPass": "ا"
+  },
+  {
+    "id": "alias-runs/en2ar/0004",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aa",
+    "output": "ا",
+    "roundTrip": "ā",
+    "secondPass": "ا"
+  },
+  {
+    "id": "alias-runs/en2ar/0005",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baa",
+    "output": "با",
+    "roundTrip": "bā",
+    "secondPass": "با"
+  },
+  {
+    "id": "alias-runs/en2ar/0006",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaa",
+    "output": "اا",
+    "roundTrip": "āā",
+    "secondPass": "اا"
+  },
+  {
+    "id": "alias-runs/en2ar/0007",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaa",
+    "output": "اا",
+    "roundTrip": "āā",
+    "secondPass": "اا"
+  },
+  {
+    "id": "alias-runs/en2ar/0008",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaa",
+    "output": "باا",
+    "roundTrip": "bāā",
+    "secondPass": "باا"
+  },
+  {
+    "id": "alias-runs/en2ar/0009",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaa",
+    "output": "اا",
+    "roundTrip": "āā",
+    "secondPass": "اا"
+  },
+  {
+    "id": "alias-runs/en2ar/0010",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaa",
+    "output": "اا",
+    "roundTrip": "āā",
+    "secondPass": "اا"
+  },
+  {
+    "id": "alias-runs/en2ar/0011",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaaa",
+    "output": "باا",
+    "roundTrip": "bāā",
+    "secondPass": "باا"
+  },
+  {
+    "id": "alias-runs/en2ar/0012",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaa",
+    "output": "ااا",
+    "roundTrip": "āāā",
+    "secondPass": "ااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0013",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaa",
+    "output": "ااا",
+    "roundTrip": "āāā",
+    "secondPass": "ااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0014",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaaaa",
+    "output": "بااا",
+    "roundTrip": "bāāā",
+    "secondPass": "بااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0015",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaa",
+    "output": "ااا",
+    "roundTrip": "āāā",
+    "secondPass": "ااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0016",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaa",
+    "output": "ااا",
+    "roundTrip": "āāā",
+    "secondPass": "ااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0017",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaaaaa",
+    "output": "بااا",
+    "roundTrip": "bāāā",
+    "secondPass": "بااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0018",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaaa",
+    "output": "اااا",
+    "roundTrip": "āāāā",
+    "secondPass": "اااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0019",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaaa",
+    "output": "اااا",
+    "roundTrip": "āāāā",
+    "secondPass": "اااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0020",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaaaaaa",
+    "output": "باااا",
+    "roundTrip": "bāāāā",
+    "secondPass": "باااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0021",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaaaa",
+    "output": "اااا",
+    "roundTrip": "āāāā",
+    "secondPass": "اااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0022",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaaaa",
+    "output": "اااا",
+    "roundTrip": "āāāā",
+    "secondPass": "اااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0023",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "baaaaaaaa",
+    "output": "باااا",
+    "roundTrip": "bāāāā",
+    "secondPass": "باااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0024",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aaaaaaaaa",
+    "output": "ااااا",
+    "roundTrip": "āāāāā",
+    "secondPass": "ااااا"
+  },
+  {
+    "id": "alias-runs/en2ar/0025",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "e",
+    "output": "إِ",
+    "roundTrip": "i",
+    "secondPass": "إِ"
+  },
+  {
+    "id": "alias-runs/en2ar/0026",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "be",
+    "output": "بِ",
+    "roundTrip": "bi",
+    "secondPass": "بِ"
+  },
+  {
+    "id": "alias-runs/en2ar/0027",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "ae",
+    "output": "اَِ",
+    "roundTrip": "ai",
+    "secondPass": "اَِ"
+  },
+  {
+    "id": "alias-runs/en2ar/0028",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "ee",
+    "output": "ِي",
+    "roundTrip": "ī",
+    "secondPass": "ِي"
+  },
+  {
+    "id": "alias-runs/en2ar/0029",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "bee",
+    "output": "بِي",
+    "roundTrip": "bī",
+    "secondPass": "بِي"
+  },
+  {
+    "id": "alias-runs/en2ar/0030",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aee",
+    "output": "اَِي",
+    "roundTrip": "aj",
+    "secondPass": "اَيْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0031",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eee",
+    "output": "ِيِي",
+    "roundTrip": "īj",
+    "secondPass": "ِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0032",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beee",
+    "output": "بِيِي",
+    "roundTrip": "bīj",
+    "secondPass": "بِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0033",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeee",
+    "output": "اَِيِي",
+    "roundTrip": "aīj",
+    "secondPass": "اَِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0034",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeee",
+    "output": "ِيِي",
+    "roundTrip": "īj",
+    "secondPass": "ِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0035",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeee",
+    "output": "بِيِي",
+    "roundTrip": "bīj",
+    "secondPass": "بِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0036",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeee",
+    "output": "اَِيِي",
+    "roundTrip": "aīj",
+    "secondPass": "اَِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0037",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeee",
+    "output": "ِيِيِي",
+    "roundTrip": "īīj",
+    "secondPass": "ِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0038",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeee",
+    "output": "بِيِيِي",
+    "roundTrip": "bīīj",
+    "secondPass": "بِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0039",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeee",
+    "output": "اَِيِيِي",
+    "roundTrip": "aīīj",
+    "secondPass": "اَِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0040",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeee",
+    "output": "ِيِيِي",
+    "roundTrip": "īīj",
+    "secondPass": "ِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0041",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeee",
+    "output": "بِيِيِي",
+    "roundTrip": "bīīj",
+    "secondPass": "بِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0042",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeee",
+    "output": "اَِيِيِي",
+    "roundTrip": "aīīj",
+    "secondPass": "اَِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0043",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeeee",
+    "output": "ِيِيِيِي",
+    "roundTrip": "īīīj",
+    "secondPass": "ِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0044",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeeee",
+    "output": "بِيِيِيِي",
+    "roundTrip": "bīīīj",
+    "secondPass": "بِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0045",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeeee",
+    "output": "اَِيِيِيِي",
+    "roundTrip": "aīīīj",
+    "secondPass": "اَِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0046",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "eeeeeeee",
+    "output": "ِيِيِيِي",
+    "roundTrip": "īīīj",
+    "secondPass": "ِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0047",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "beeeeeeee",
+    "output": "بِيِيِيِي",
+    "roundTrip": "bīīīj",
+    "secondPass": "بِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0048",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "aeeeeeeee",
+    "output": "اَِيِيِيِي",
+    "roundTrip": "aīīīj",
+    "secondPass": "اَِيِيِييْ"
+  },
+  {
+    "id": "alias-runs/en2ar/0049",
+    "group": "alias-runs",
+    "direction": "en2ar",
+    "input": "i",
+    "output": "إِ",
+    "roundTrip": "i",
+    "secondPass": "إِ"
+  }
+]

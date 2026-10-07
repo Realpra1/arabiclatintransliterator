@@ -1,0 +1,26 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0031",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/",
+    "output": "شيء — مدرسة/اَنا\n\nأمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِي/سِتِي، في/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمْسٌ/",
+    "roundTrip": "shī' — mdrsat/anā\n\n'ams mdrsat — nHn? būk\n\nmHmd marHaba, mī/sitī, fī/-alá — madrasat -lá\n\nvurld? ilá, Hajj ā, shamsuN/",
+    "secondPass": "شِيئ — مدرسة/اَنا\n\nأَمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِي/سِتِي، فِي/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمسٌ/",
+    "before": {
+      "output": "شيء — مدرسة/اَنا\n\nأمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِي/سِتِي، في/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمْسٌ/",
+      "roundTrip": "shī' — mdrsat/anā\n\n'ams mdrsat — nHn? būk\n\nmHmd marHaba, mī/sitī, fī/-alá — madrasat -lá\n\nvurld? ilá, Hajj ā, shamsuN/",
+      "secondPass": "شِيئ — مدرسة/اَنا\n\nأَمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِي/سِتِي، فِي/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمسٌ/"
+    },
+    "after": {
+      "output": "شيء — مدرسة/اَنا\n\nأمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِ/سِتِ، في/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمْسٌ/",
+      "roundTrip": "shī' — mdrsat/anā\n\n'ams mdrsat — nHn? būk\n\nmHmd marHaba, mi/siti, fī/-alá — madrasat -lá\n\nvurld? ilá, Hajj ā, shamsuN/",
+      "secondPass": "شِيئ — مدرسة/اَنا\n\nأَمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِ/سِتِ، فِي/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمسٌ/"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

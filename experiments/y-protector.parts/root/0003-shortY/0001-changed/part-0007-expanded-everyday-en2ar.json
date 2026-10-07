@@ -1,0 +1,122 @@
+[
+  {
+    "id": "expanded-everyday/en2ar/0035",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "Please, thank you, and sorry.",
+    "output": "بلَِسِ، ثَنك يُْو، اَند سُرِّي.",
+    "roundTrip": "bliasi, thank jū, and surrī.",
+    "secondPass": "بلَِسِ، ثَنك يُْو، اَند سُرِّي.",
+    "before": {
+      "output": "بلَِسِ، ثَنك يُْو، اَند سُرِّي.",
+      "roundTrip": "bliasi, thank jū, and surrī.",
+      "secondPass": "بلَِسِ، ثَنك يُْو، اَند سُرِّي."
+    },
+    "after": {
+      "output": "بلَِسِ، ثَنك يُْو، اَند سُرِّ.",
+      "roundTrip": "bliasi, thank jū, and surri.",
+      "secondPass": "بلَِسِ، ثَنك يُْو، اَند سُرِّ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-everyday/en2ar/0040",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "My address is 12 Church Street, apartment 3B.",
+    "output": "مِي اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب.",
+    "roundTrip": "mī addriss is 12 tJurtJ Strīt, abartmint 3b.",
+    "secondPass": "مِي اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب.",
+    "before": {
+      "output": "مِي اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب.",
+      "roundTrip": "mī addriss is 12 tJurtJ Strīt, abartmint 3b.",
+      "secondPass": "مِي اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب."
+    },
+    "after": {
+      "output": "مِ اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب.",
+      "roundTrip": "mi addriss is 12 tJurtJ Strīt, abartmint 3b.",
+      "secondPass": "مِ اَدّرِسّ إِس 12 تجُرتج صترِيت، اَبَرتمِنت 3ب."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-everyday/en2ar/0043",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "She said, “Yes”; he replied, “Why?”",
+    "output": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِي؟”",
+    "roundTrip": "Shi said, “jis”; hi riblīd, “vhī?”",
+    "secondPass": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِي؟”",
+    "before": {
+      "output": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِي؟”",
+      "roundTrip": "Shi said, “jis”; hi riblīd, “vhī?”",
+      "secondPass": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِي؟”"
+    },
+    "after": {
+      "output": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِ؟”",
+      "roundTrip": "Shi said, “jis”; hi riblīd, “vhi?”",
+      "secondPass": "صهِ سَِد، “يِس”؛ هِ رِبلِيد، “وْهِ؟”"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-everyday/en2ar/0045",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "queue rhythm yacht choir thorough though tough",
+    "output": "قُُِِ رهِيثم يَتجت تجُِر ثُرُوغ ثُوغ تُوغ",
+    "roundTrip": "quiui rhīthm jatJt tJuir thurūgh thūgh tūgh",
+    "secondPass": "قُُِِ رهِيثم يْةجت تجُِر ثُرُوغ ثُوغ تُوغ",
+    "before": {
+      "output": "قُُِِ رهِيثم يَتجت تجُِر ثُرُوغ ثُوغ تُوغ",
+      "roundTrip": "quiui rhīthm jatJt tJuir thurūgh thūgh tūgh",
+      "secondPass": "قُُِِ رهِيثم يْةجت تجُِر ثُرُوغ ثُوغ تُوغ"
+    },
+    "after": {
+      "output": "قُُِِ رهِثم يَتجت تجُِر ثُرُوغ ثُوغ تُوغ",
+      "roundTrip": "quiui rhithm jatJt tJuir thurūgh thūgh tūgh",
+      "secondPass": "قُُِِ رهِثم يْةجت تجُِر ثُرُوغ ثُوغ تُوغ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-everyday/en2ar/0048",
+    "group": "expanded-everyday",
+    "direction": "en2ar",
+    "input": "January February March April May June July",
+    "output": "جَنَُرِي فِبرَُرِي مَرتج اَبرِل مَيْ جُنِ جُلِي",
+    "roundTrip": "Januarī fibruarī martJ abril maj Juni Julī",
+    "secondPass": "جَنَُرِي فِبرَُرِي مَرتج اَبرِل مَيْ جُنِ جُلِي",
+    "before": {
+      "output": "جَنَُرِي فِبرَُرِي مَرتج اَبرِل مَيْ جُنِ جُلِي",
+      "roundTrip": "Januarī fibruarī martJ abril maj Juni Julī",
+      "secondPass": "جَنَُرِي فِبرَُرِي مَرتج اَبرِل مَيْ جُنِ جُلِي"
+    },
+    "after": {
+      "output": "جَنَُرِ فِبرَُرِ مَرتج اَبرِل مَيْ جُنِ جُلِ",
+      "roundTrip": "Januari fibruari martJ abril maj Juni Juli",
+      "secondPass": "جَنَُرِ فِبرَُرِ مَرتج اَبرِل مَيْ جُنِ جُلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

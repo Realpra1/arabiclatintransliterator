@@ -1,0 +1,19 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0057",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "failedRules": [
+      "Arabic input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "A1": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+      "L1": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSawt — hvā' min\n\nsu'āl? E=mc^2, ktāb/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+      "A2": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسَتَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "L2": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+      "A3": "فِي — قارء؟ اَحمد، عاءشة اَلذِي\n\nسَتَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "L3": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' "
+    }
+  }
+]

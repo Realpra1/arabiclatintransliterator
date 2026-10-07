@@ -1,0 +1,348 @@
+[
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0086",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "(mā'i)",
+    "output": "(mاءi)",
+    "roundTrip": "(mā'i)",
+    "secondPass": "(mاءi)",
+    "before": {
+      "output": "(mاءi)",
+      "roundTrip": "(mā'i)",
+      "secondPass": "(mاءi)"
+    },
+    "after": {
+      "output": "(ماءi)",
+      "roundTrip": "(mā'i)",
+      "secondPass": "(ماءi)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0087",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "[mā'i]",
+    "output": "[mاءi]",
+    "roundTrip": "[mā'i]",
+    "secondPass": "[mاءi]",
+    "before": {
+      "output": "[mاءi]",
+      "roundTrip": "[mā'i]",
+      "secondPass": "[mاءi]"
+    },
+    "after": {
+      "output": "[ماءi]",
+      "roundTrip": "[mā'i]",
+      "secondPass": "[ماءi]"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0088",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "«mā'i»",
+    "output": "«mاءi»",
+    "roundTrip": "«mā'i»",
+    "secondPass": "«mاءi»",
+    "before": {
+      "output": "«mاءi»",
+      "roundTrip": "«mā'i»",
+      "secondPass": "«mاءi»"
+    },
+    "after": {
+      "output": "«ماءi»",
+      "roundTrip": "«mā'i»",
+      "secondPass": "«ماءi»"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0089",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "\"mā'i\"",
+    "output": "\"mاءi\"",
+    "roundTrip": "\"mā'i\"",
+    "secondPass": "\"mاءi\"",
+    "before": {
+      "output": "\"mاءi\"",
+      "roundTrip": "\"mā'i\"",
+      "secondPass": "\"mاءi\""
+    },
+    "after": {
+      "output": "\"ماءi\"",
+      "roundTrip": "\"mā'i\"",
+      "secondPass": "\"ماءi\""
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0095",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a/mā'i/b",
+    "output": "a/mاءi/b",
+    "roundTrip": "a/mā'i/b",
+    "secondPass": "a/mاءi/b",
+    "before": {
+      "output": "a/mاءi/b",
+      "roundTrip": "a/mā'i/b",
+      "secondPass": "a/mاءi/b"
+    },
+    "after": {
+      "output": "a/ماءi/b",
+      "roundTrip": "a/mā'i/b",
+      "secondPass": "a/ماءi/b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0096",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a+mā'i+b",
+    "output": "a+mاءi+b",
+    "roundTrip": "a+mā'i+b",
+    "secondPass": "a+mاءi+b",
+    "before": {
+      "output": "a+mاءi+b",
+      "roundTrip": "a+mā'i+b",
+      "secondPass": "a+mاءi+b"
+    },
+    "after": {
+      "output": "a+ماءi+b",
+      "roundTrip": "a+mā'i+b",
+      "secondPass": "a+ماءi+b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0098",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a−mā'i−b",
+    "output": "a−mاءi−b",
+    "roundTrip": "a−mā'i−b",
+    "secondPass": "a−mاءi−b",
+    "before": {
+      "output": "a−mاءi−b",
+      "roundTrip": "a−mā'i−b",
+      "secondPass": "a−mاءi−b"
+    },
+    "after": {
+      "output": "a−ماءi−b",
+      "roundTrip": "a−mā'i−b",
+      "secondPass": "a−ماءi−b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0163",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "aly",
+    "output": "اَلِي",
+    "roundTrip": "alī",
+    "secondPass": "اَلِي",
+    "before": {
+      "output": "اَلِي",
+      "roundTrip": "alī",
+      "secondPass": "اَلِي"
+    },
+    "after": {
+      "output": "اَلِ",
+      "roundTrip": "ali",
+      "secondPass": "اَلِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0372",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "(llkitāb)",
+    "output": "(لّكِتاb)",
+    "roundTrip": "(lilkitāb)",
+    "secondPass": "(لِلكِتاb)",
+    "before": {
+      "output": "(لّكِتاb)",
+      "roundTrip": "(lilkitāb)",
+      "secondPass": "(لِلكِتاb)"
+    },
+    "after": {
+      "output": "(لّكِتاب)",
+      "roundTrip": "(lilkitāb)",
+      "secondPass": "(لِلكِتاب)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0373",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "[llkitāb]",
+    "output": "[لّكِتاb]",
+    "roundTrip": "[lilkitāb]",
+    "secondPass": "[لِلكِتاb]",
+    "before": {
+      "output": "[لّكِتاb]",
+      "roundTrip": "[lilkitāb]",
+      "secondPass": "[لِلكِتاb]"
+    },
+    "after": {
+      "output": "[لّكِتاب]",
+      "roundTrip": "[lilkitāb]",
+      "secondPass": "[لِلكِتاب]"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0374",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "«llkitāb»",
+    "output": "«لّكِتاb»",
+    "roundTrip": "«lilkitāb»",
+    "secondPass": "«لِلكِتاb»",
+    "before": {
+      "output": "«لّكِتاb»",
+      "roundTrip": "«lilkitāb»",
+      "secondPass": "«لِلكِتاb»"
+    },
+    "after": {
+      "output": "«لّكِتاب»",
+      "roundTrip": "«lilkitāb»",
+      "secondPass": "«لِلكِتاب»"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0375",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "\"llkitāb\"",
+    "output": "\"لّكِتاb\"",
+    "roundTrip": "\"lilkitāb\"",
+    "secondPass": "\"لِلكِتاb\"",
+    "before": {
+      "output": "\"لّكِتاb\"",
+      "roundTrip": "\"lilkitāb\"",
+      "secondPass": "\"لِلكِتاb\""
+    },
+    "after": {
+      "output": "\"لّكِتاب\"",
+      "roundTrip": "\"lilkitāb\"",
+      "secondPass": "\"لِلكِتاب\""
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0381",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a/llkitāb/b",
+    "output": "a/لّكِتاb/b",
+    "roundTrip": "a/llkitāb/b",
+    "secondPass": "a/لّكِتاb/b",
+    "before": {
+      "output": "a/لّكِتاb/b",
+      "roundTrip": "a/llkitāb/b",
+      "secondPass": "a/لّكِتاb/b"
+    },
+    "after": {
+      "output": "a/لّكِتاب/b",
+      "roundTrip": "a/llkitāb/b",
+      "secondPass": "a/لّكِتاب/b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0382",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a+llkitāb+b",
+    "output": "a+لّكِتاb+b",
+    "roundTrip": "a+llkitāb+b",
+    "secondPass": "a+لّكِتاb+b",
+    "before": {
+      "output": "a+لّكِتاb+b",
+      "roundTrip": "a+llkitāb+b",
+      "secondPass": "a+لّكِتاb+b"
+    },
+    "after": {
+      "output": "a+لّكِتاب+b",
+      "roundTrip": "a+llkitāb+b",
+      "secondPass": "a+لّكِتاب+b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "expanded-latin-context-boundaries/en2ar/0384",
+    "group": "expanded-latin-context-boundaries",
+    "direction": "en2ar",
+    "input": "a−llkitāb−b",
+    "output": "a−لّكِتاb−b",
+    "roundTrip": "a−llkitāb−b",
+    "secondPass": "a−لّكِتاb−b",
+    "before": {
+      "output": "a−لّكِتاb−b",
+      "roundTrip": "a−llkitāb−b",
+      "secondPass": "a−لّكِتاb−b"
+    },
+    "after": {
+      "output": "a−لّكِتاب−b",
+      "roundTrip": "a−llkitāb−b",
+      "secondPass": "a−لّكِتاب−b"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

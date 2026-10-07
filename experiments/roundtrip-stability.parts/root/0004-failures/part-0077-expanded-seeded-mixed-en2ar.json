@@ -1,0 +1,37 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0045",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+    "failedRules": [
+      "Latin input: Latin L2 = L3"
+    ],
+    "trace": {
+      "L1": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+      "A1": "اَلصَوْت، شَمْسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذي — غَدً يِلُّوْ\n\nإلى؟ كتاب\n\nرهِثم/",
+      "L2": "alSavt, shamsuN/hdhh — mdrsat aHmad, siti? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? siti\n\nSbāHaNā/āldhī — ghadaN jilluv\n\n'ilá? ktāb\n\nrhithm/",
+      "A2": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِثم/",
+      "L3": "alSavt, shamsuN/hdhh — mdrsat aHmad, siti? ghdaNā — alSSabāH? qahva\n\nghadaN alSavt\n\nSbāHaNā? siti\n\nSbāHaNā/āldhī — ghadaN jilluv\n\nilá? ktāb\n\nrhithm/",
+      "A3": "اَلصَوْت، شَمسٌ/هذه — مدرسة اَحمَد، سِتِ؟ غدًا — اَلصَّباح؟ قَهوَ\n\nغَدً اَلصَوْت\n\nصباحًا؟ سِتِ\n\nصباحًا/الذِي — غَدً يِلُّوْ\n\nإِلى؟ كتاب\n\nرهِثم/"
+    }
+  },
+  {
+    "id": "expanded-seeded-mixed/en2ar/0046",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+      "A1": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤول، كِتاب اَحمَد، إِلى؟ أمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ ",
+      "L2": "lā\n\njilluv? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? 'ams\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? rbmā, lā alSavt\n\nlā? ",
+      "A2": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤُول، كِتاب اَحمَد، إِلى؟ أَمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ ",
+      "L3": "lā\n\njilluv? aHmad\n\n-lá? ms'ūl, kitāb aHmad, ilá? ams\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? rbmā, lā alSavt\n\nlā? ",
+      "A3": "لا\n\nيِلُّوْ؟ اَحمَد\n\nعلى؟ مسؤُول، كِتاب اَحمَد، إِلى؟ اَمس\n\nسِتِ/ٌ\n\nهَوْاء؟ كُفِّي\n\nمَرحَبَ بِ — 42؟ ربما، لا اَلصَوْت\n\nلا؟ "
+    }
+  }
+]

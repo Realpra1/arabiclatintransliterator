@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0593",
+    "input": "electric current resistance voltage power",
+    "normalized": "iliktris kurrint risistansi vultagi puwir",
+    "collapsed": "electric current resistance voltage power"
+  },
+  {
+    "id": "normalizer/0594",
+    "input": "x X x-ray xenon extra box exit",
+    "normalized": "iks iks iks-ray sinun ixtra bux ixit",
+    "collapsed": "x X x-ray xenon extra box exit"
+  },
+  {
+    "id": "normalizer/0595",
+    "input": "c C ce ci cy ca co cu ch school science",
+    "normalized": "s s si si si ka ku ku ch schūl ssīnsi",
+    "collapsed": "c C ce ci cy ca co cu ch school science"
+  },
+  {
+    "id": "normalizer/0596",
+    "input": "yellow yes happy sky rhythm my by toy boy",
+    "normalized": "yilluw yis happi ski rhithm mi bi tuy buy",
+    "collapsed": "yellow yes happy sky rhythm my by toy boy"
+  },
+  {
+    "id": "normalizer/0597",
+    "input": "book moon food see green tree meet seed",
+    "normalized": "būk mūn fūd sī grīn trī mīt sīd",
+    "collapsed": "book moon food see green tree meet seed"
+  },
+  {
+    "id": "normalizer/0598",
+    "input": "what where who wood wool wow new law",
+    "normalized": "what whiri whu wūd wūl wuw niw law",
+    "collapsed": "what where who wood wool wow new law"
+  },
+  {
+    "id": "normalizer/0599",
+    "input": "letter little coffee add success buzz miss hill",
+    "normalized": "littir littli kuffī add suksiss buzz miss hill",
+    "collapsed": "letter little coffee add success buzz miss hill"
+  },
+  {
+    "id": "normalizer/0600",
+    "input": "apple elephant ink orange umbrella",
+    "normalized": "appli iliphant ink urangi umbrilla",
+    "collapsed": "apple elephant ink orange umbrella"
+  },
+  {
+    "id": "normalizer/0601",
+    "input": "lowercase UPPERCASE MiXeD CaSe",
+    "normalized": "luwirkasi uppirkaSi mixiD kaSi",
+    "collapsed": "lowercase UPPERCASE MiXeD CaSe"
+  },
+  {
+    "id": "normalizer/0602",
+    "input": "pneumonia psychology philosophy photograph phone",
+    "normalized": "pniumunia psichulugi philusuphi phutugraph phuni",
+    "collapsed": "pneumonia psychology philosophy photograph phone"
+  },
+  {
+    "id": "normalizer/0603",
+    "input": "aaa",
+    "normalized": "āā",
+    "collapsed": "āā"
+  },
+  {
+    "id": "normalizer/0604",
+    "input": "baaa",
+    "normalized": "bāā",
+    "collapsed": "bāā"
+  },
+  {
+    "id": "normalizer/0605",
+    "input": "aaaa",
+    "normalized": "āā",
+    "collapsed": "āā"
+  },
+  {
+    "id": "normalizer/0606",
+    "input": "baaaa",
+    "normalized": "bāā",
+    "collapsed": "bāā"
+  },
+  {
+    "id": "normalizer/0607",
+    "input": "aaaaa",
+    "normalized": "āāā",
+    "collapsed": "āāā"
+  },
+  {
+    "id": "normalizer/0608",
+    "input": "baaaaa",
+    "normalized": "bāāā",
+    "collapsed": "bāāā"
+  },
+  {
+    "id": "normalizer/0609",
+    "input": "aaaaaa",
+    "normalized": "āāā",
+    "collapsed": "āāā"
+  },
+  {
+    "id": "normalizer/0610",
+    "input": "baaaaaa",
+    "normalized": "bāāā",
+    "collapsed": "bāāā"
+  },
+  {
+    "id": "normalizer/0611",
+    "input": "aaaaaaa",
+    "normalized": "āāāā",
+    "collapsed": "āāāā"
+  },
+  {
+    "id": "normalizer/0612",
+    "input": "baaaaaaa",
+    "normalized": "bāāāā",
+    "collapsed": "bāāāā"
+  },
+  {
+    "id": "normalizer/0613",
+    "input": "aaaaaaaa",
+    "normalized": "āāāā",
+    "collapsed": "āāāā"
+  },
+  {
+    "id": "normalizer/0614",
+    "input": "baaaaaaaa",
+    "normalized": "bāāāā",
+    "collapsed": "bāāāā"
+  },
+  {
+    "id": "normalizer/0615",
+    "input": "aaaaaaaaa",
+    "normalized": "āāāāā",
+    "collapsed": "āāāāā"
+  },
+  {
+    "id": "normalizer/0616",
+    "input": "be",
+    "normalized": "bi",
+    "collapsed": "be"
+  },
+  {
+    "id": "normalizer/0617",
+    "input": "ae",
+    "normalized": "ai",
+    "collapsed": "ae"
+  },
+  {
+    "id": "normalizer/0618",
+    "input": "bee",
+    "normalized": "bī",
+    "collapsed": "bee"
+  },
+  {
+    "id": "normalizer/0619",
+    "input": "aee",
+    "normalized": "aī",
+    "collapsed": "aee"
+  },
+  {
+    "id": "normalizer/0620",
+    "input": "eee",
+    "normalized": "īī",
+    "collapsed": "eee"
+  },
+  {
+    "id": "normalizer/0621",
+    "input": "beee",
+    "normalized": "bīī",
+    "collapsed": "beee"
+  },
+  {
+    "id": "normalizer/0622",
+    "input": "aeee",
+    "normalized": "aīī",
+    "collapsed": "aeee"
+  },
+  {
+    "id": "normalizer/0623",
+    "input": "eeee",
+    "normalized": "īī",
+    "collapsed": "eeee"
+  },
+  {
+    "id": "normalizer/0624",
+    "input": "beeee",
+    "normalized": "bīī",
+    "collapsed": "beeee"
+  },
+  {
+    "id": "normalizer/0625",
+    "input": "aeeee",
+    "normalized": "aīī",
+    "collapsed": "aeeee"
+  },
+  {
+    "id": "normalizer/0626",
+    "input": "eeeee",
+    "normalized": "īīī",
+    "collapsed": "eeeee"
+  },
+  {
+    "id": "normalizer/0627",
+    "input": "beeeee",
+    "normalized": "bīīī",
+    "collapsed": "beeeee"
+  },
+  {
+    "id": "normalizer/0628",
+    "input": "aeeeee",
+    "normalized": "aīīī",
+    "collapsed": "aeeeee"
+  },
+  {
+    "id": "normalizer/0629",
+    "input": "eeeeee",
+    "normalized": "īīī",
+    "collapsed": "eeeeee"
+  },
+  {
+    "id": "normalizer/0630",
+    "input": "beeeeee",
+    "normalized": "bīīī",
+    "collapsed": "beeeeee"
+  },
+  {
+    "id": "normalizer/0631",
+    "input": "aeeeeee",
+    "normalized": "aīīī",
+    "collapsed": "aeeeeee"
+  },
+  {
+    "id": "normalizer/0632",
+    "input": "eeeeeee",
+    "normalized": "īīīī",
+    "collapsed": "eeeeeee"
+  },
+  {
+    "id": "normalizer/0633",
+    "input": "beeeeeee",
+    "normalized": "bīīīī",
+    "collapsed": "beeeeeee"
+  },
+  {
+    "id": "normalizer/0634",
+    "input": "aeeeeeee",
+    "normalized": "aīīīī",
+    "collapsed": "aeeeeeee"
+  },
+  {
+    "id": "normalizer/0635",
+    "input": "eeeeeeee",
+    "normalized": "īīīī",
+    "collapsed": "eeeeeeee"
+  },
+  {
+    "id": "normalizer/0636",
+    "input": "beeeeeeee",
+    "normalized": "bīīīī",
+    "collapsed": "beeeeeeee"
+  },
+  {
+    "id": "normalizer/0637",
+    "input": "aeeeeeeee",
+    "normalized": "aīīīī",
+    "collapsed": "aeeeeeeee"
+  },
+  {
+    "id": "normalizer/0638",
+    "input": "bi",
+    "normalized": "bi",
+    "collapsed": "bi"
+  },
+  {
+    "id": "normalizer/0639",
+    "input": "ai",
+    "normalized": "ai",
+    "collapsed": "ai"
+  },
+  {
+    "id": "normalizer/0640",
+    "input": "bii",
+    "normalized": "bī",
+    "collapsed": "bī"
+  },
+  {
+    "id": "normalizer/0641",
+    "input": "aii",
+    "normalized": "aī",
+    "collapsed": "aī"
+  },
+  {
+    "id": "normalizer/0642",
+    "input": "iii",
+    "normalized": "īī",
+    "collapsed": "īī"
+  },
+  {
+    "id": "normalizer/0643",
+    "input": "biii",
+    "normalized": "bīī",
+    "collapsed": "bīī"
+  },
+  {
+    "id": "normalizer/0644",
+    "input": "aiii",
+    "normalized": "aīī",
+    "collapsed": "aīī"
+  },
+  {
+    "id": "normalizer/0645",
+    "input": "iiii",
+    "normalized": "īī",
+    "collapsed": "īī"
+  },
+  {
+    "id": "normalizer/0646",
+    "input": "biiii",
+    "normalized": "bīī",
+    "collapsed": "bīī"
+  },
+  {
+    "id": "normalizer/0647",
+    "input": "aiiii",
+    "normalized": "aīī",
+    "collapsed": "aīī"
+  },
+  {
+    "id": "normalizer/0648",
+    "input": "iiiii",
+    "normalized": "īīī",
+    "collapsed": "īīī"
+  },
+  {
+    "id": "normalizer/0649",
+    "input": "biiiii",
+    "normalized": "bīīī",
+    "collapsed": "bīīī"
+  },
+  {
+    "id": "normalizer/0650",
+    "input": "aiiiii",
+    "normalized": "aīīī",
+    "collapsed": "aīīī"
+  },
+  {
+    "id": "normalizer/0651",
+    "input": "iiiiii",
+    "normalized": "īīī",
+    "collapsed": "īīī"
+  },
+  {
+    "id": "normalizer/0652",
+    "input": "biiiiii",
+    "normalized": "bīīī",
+    "collapsed": "bīīī"
+  },
+  {
+    "id": "normalizer/0653",
+    "input": "aiiiiii",
+    "normalized": "aīīī",
+    "collapsed": "aīīī"
+  },
+  {
+    "id": "normalizer/0654",
+    "input": "iiiiiii",
+    "normalized": "īīīī",
+    "collapsed": "īīīī"
+  },
+  {
+    "id": "normalizer/0655",
+    "input": "biiiiiii",
+    "normalized": "bīīīī",
+    "collapsed": "bīīīī"
+  },
+  {
+    "id": "normalizer/0656",
+    "input": "aiiiiiii",
+    "normalized": "aīīīī",
+    "collapsed": "aīīīī"
+  },
+  {
+    "id": "normalizer/0657",
+    "input": "iiiiiiii",
+    "normalized": "īīīī",
+    "collapsed": "īīīī"
+  },
+  {
+    "id": "normalizer/0658",
+    "input": "biiiiiiii",
+    "normalized": "bīīīī",
+    "collapsed": "bīīīī"
+  },
+  {
+    "id": "normalizer/0659",
+    "input": "aiiiiiiii",
+    "normalized": "aīīīī",
+    "collapsed": "aīīīī"
+  },
+  {
+    "id": "normalizer/0660",
+    "input": "bo",
+    "normalized": "bu",
+    "collapsed": "bo"
+  },
+  {
+    "id": "normalizer/0661",
+    "input": "ao",
+    "normalized": "au",
+    "collapsed": "ao"
+  },
+  {
+    "id": "normalizer/0662",
+    "input": "boo",
+    "normalized": "bū",
+    "collapsed": "boo"
+  },
+  {
+    "id": "normalizer/0663",
+    "input": "aoo",
+    "normalized": "aū",
+    "collapsed": "aoo"
+  },
+  {
+    "id": "normalizer/0664",
+    "input": "ooo",
+    "normalized": "ūū",
+    "collapsed": "ooo"
+  },
+  {
+    "id": "normalizer/0665",
+    "input": "booo",
+    "normalized": "būū",
+    "collapsed": "booo"
+  },
+  {
+    "id": "normalizer/0666",
+    "input": "aooo",
+    "normalized": "aūū",
+    "collapsed": "aooo"
+  }
+]

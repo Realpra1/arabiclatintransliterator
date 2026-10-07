@@ -1,0 +1,439 @@
+[
+  {
+    "id": "latin-context/en2ar/0250",
+    "direction": "en2ar",
+    "input": "alyāb",
+    "changes": {
+      "output": {
+        "before": "اَلِياب",
+        "after": "اَلِاب"
+      },
+      "roundTrip": {
+        "before": "aljāb",
+        "after": "aliāb"
+      },
+      "secondPass": {
+        "before": "اَليْاب",
+        "after": "اَلِاب"
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0005",
+    "direction": "en2ar",
+    "input": "Energy & machines",
+    "changes": {
+      "output": {
+        "before": "إِنِرجِي & مَتجِنِس",
+        "after": "إِنِرجِ & مَتجِنِس"
+      },
+      "roundTrip": {
+        "before": "inirJī & matJinis",
+        "after": "inirJi & matJinis"
+      },
+      "secondPass": {
+        "before": "إِنِرجِي & مةجِنِس",
+        "after": "إِنِرجِ & مةجِنِس"
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0010",
+    "direction": "en2ar",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "changes": {
+      "output": {
+        "before": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج.",
+        "after": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج."
+      },
+      "roundTrip": {
+        "before": "Thi quikk bruvn fuks jumbs uvir thi lazī duJ.",
+        "after": "Thi quikk bruvn fuks jumbs uvir thi lazi duJ."
+      },
+      "secondPass": {
+        "before": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج.",
+        "after": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0011",
+    "direction": "en2ar",
+    "input": "Pack my box with five dozen liquor jugs.",
+    "changes": {
+      "output": {
+        "before": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+        "after": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس."
+      },
+      "roundTrip": {
+        "before": "bakk mī buks vith fivi duzin liqūr juJs.",
+        "after": "bakk mi buks vith fivi duzin liqūr juJs."
+      },
+      "secondPass": {
+        "before": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+        "after": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0012",
+    "direction": "en2ar",
+    "input": "Sphinx of black quartz, judge my vow.",
+    "changes": {
+      "output": {
+        "before": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي وُوْ.",
+        "after": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ وُوْ."
+      },
+      "roundTrip": {
+        "before": "Sfinks uf blakk quartz, judJi mī ūuv.",
+        "after": "Sfinks uf blakk quartz, judJi mi ūuv."
+      },
+      "secondPass": {
+        "before": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي ُوُوْ.",
+        "after": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ ُوُوْ."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0013",
+    "direction": "en2ar",
+    "input": "Don't change what's already working.",
+    "changes": {
+      "output": {
+        "before": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج.",
+        "after": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج."
+      },
+      "roundTrip": {
+        "before": "Dun't tJanJi vhat's alriadī vurkinJ.",
+        "after": "Dun't tJanJi vhat's alriadi vurkinJ."
+      },
+      "secondPass": {
+        "before": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج.",
+        "after": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0014",
+    "direction": "en2ar",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "changes": {
+      "output": {
+        "before": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+        "after": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ."
+      },
+      "roundTrip": {
+        "before": "a kat, a sitī, a sīkli, a stJūl, and a matJini.",
+        "after": "a kat, a siti, a sikli, a stJūl, and a matJini."
+      },
+      "secondPass": {
+        "before": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مةجِنِ.",
+        "after": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مةجِنِ."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0015",
+    "direction": "en2ar",
+    "input": "Chemistry: chlorine, charcoal, copper, calcium, carbon.",
+    "changes": {
+      "output": {
+        "before": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+        "after": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن."
+      },
+      "roundTrip": {
+        "before": "tJimistrī: tJlurini, tJarkual, kubbir, kalsium, karbun.",
+        "after": "tJimistri: tJlurini, tJarkual, kubbir, kalsium, karbun."
+      },
+      "secondPass": {
+        "before": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+        "after": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0016",
+    "direction": "en2ar",
+    "input": "Rotate agricultural plant families yearly.",
+    "changes": {
+      "output": {
+        "before": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي.",
+        "after": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+      },
+      "roundTrip": {
+        "before": "rutati aJrikultural blant familīs jiarlī.",
+        "after": "rutati aJrikultural blant familīs jiarli."
+      },
+      "secondPass": {
+        "before": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي.",
+        "after": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0019",
+    "direction": "en2ar",
+    "input": "Store books cool, dry & dark.",
+    "changes": {
+      "output": {
+        "before": "صتُرِ بُوكس كُول، درِي & دَرك.",
+        "after": "صتُرِ بُوكس كُول، درِ & دَرك."
+      },
+      "roundTrip": {
+        "before": "Sturi būks kūl, drī & dark.",
+        "after": "Sturi būks kūl, dri & dark."
+      },
+      "secondPass": {
+        "before": "صتُرِ بُوكس كُول، درِي & دَرك.",
+        "after": "صتُرِ بُوكس كُول، درِ & دَرك."
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0021",
+    "direction": "en2ar",
+    "input": "Hydrogen oxygen nitrogen ammonia",
+    "changes": {
+      "output": {
+        "before": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ",
+        "after": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ"
+      },
+      "roundTrip": {
+        "before": "HīdruJin uksīJin nitruJin ammunia",
+        "after": "HidruJin uksiJin nitruJin ammunia"
+      },
+      "secondPass": {
+        "before": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ",
+        "after": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ"
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0024",
+    "direction": "en2ar",
+    "input": "c C ce ci cy ca co cu ch school science",
+    "changes": {
+      "output": {
+        "before": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ",
+        "after": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ"
+      },
+      "roundTrip": {
+        "before": "s s si si sī ka ku ku tJ stJūl ssīnsi",
+        "after": "s s si si si ka ku ku tJ stJūl ssīnsi"
+      },
+      "secondPass": {
+        "before": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ",
+        "after": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ"
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0025",
+    "direction": "en2ar",
+    "input": "yellow yes happy sky rhythm my by toy boy",
+    "changes": {
+      "output": {
+        "before": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ",
+        "after": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ"
+      },
+      "roundTrip": {
+        "before": "jilluv jis habbī skī rhīthm mī bī tuj buj",
+        "after": "jilluv jis habbi ski rhithm mi bi tuj buj"
+      },
+      "secondPass": {
+        "before": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ",
+        "after": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ"
+      }
+    }
+  },
+  {
+    "id": "english/en2ar/0031",
+    "direction": "en2ar",
+    "input": "pneumonia psychology philosophy photograph phone",
+    "changes": {
+      "output": {
+        "before": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ",
+        "after": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ"
+      },
+      "roundTrip": {
+        "before": "bniumunia bsītJuluJī filusufī futuJraf funi",
+        "after": "bniumunia bsitJuluJi filusufi futuJraf funi"
+      },
+      "secondPass": {
+        "before": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ",
+        "after": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0146",
+    "direction": "en2ar",
+    "input": "by",
+    "changes": {
+      "output": {
+        "before": "بِي",
+        "after": "بِ"
+      },
+      "roundTrip": {
+        "before": "bī",
+        "after": "bi"
+      },
+      "secondPass": {
+        "before": "بِي",
+        "after": "بِ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0149",
+    "direction": "en2ar",
+    "input": "byy",
+    "changes": {
+      "output": {
+        "before": "بِييْ",
+        "after": "بِيْ"
+      },
+      "roundTrip": {
+        "before": "bīj",
+        "after": "bij"
+      },
+      "secondPass": {
+        "before": "بِييْ",
+        "after": "بِيْ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0152",
+    "direction": "en2ar",
+    "input": "byyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْي",
+        "after": "بِيِ"
+      },
+      "roundTrip": {
+        "before": "bījī",
+        "after": "bji"
+      },
+      "secondPass": {
+        "before": "بِييِْي",
+        "after": "بيِ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0155",
+    "direction": "en2ar",
+    "input": "byyyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْييْ",
+        "after": "بِيِيْ"
+      },
+      "roundTrip": {
+        "before": "bījīj",
+        "after": "bīij"
+      },
+      "secondPass": {
+        "before": "بِييِْييْ",
+        "after": "بِيِيْ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0158",
+    "direction": "en2ar",
+    "input": "byyyyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْييِْي",
+        "after": "بِيِيِ"
+      },
+      "roundTrip": {
+        "before": "bījījī",
+        "after": "bīji"
+      },
+      "secondPass": {
+        "before": "بِييِْييِْي",
+        "after": "بِييِ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0161",
+    "direction": "en2ar",
+    "input": "byyyyyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْييِْييْ",
+        "after": "بِيِيِيْ"
+      },
+      "roundTrip": {
+        "before": "bījījīj",
+        "after": "bīīij"
+      },
+      "secondPass": {
+        "before": "بِييِْييِْييْ",
+        "after": "بِيِيِيْ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0164",
+    "direction": "en2ar",
+    "input": "byyyyyyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْييِْييِْي",
+        "after": "بِيِيِيِ"
+      },
+      "roundTrip": {
+        "before": "bījījījī",
+        "after": "bīīji"
+      },
+      "secondPass": {
+        "before": "بِييِْييِْييِْي",
+        "after": "بِيِييِ"
+      }
+    }
+  },
+  {
+    "id": "alias-runs/en2ar/0167",
+    "direction": "en2ar",
+    "input": "byyyyyyyy",
+    "changes": {
+      "output": {
+        "before": "بِييِْييِْييِْييْ",
+        "after": "بِيِيِيِيْ"
+      },
+      "roundTrip": {
+        "before": "bījījījīj",
+        "after": "bīīīij"
+      },
+      "secondPass": {
+        "before": "بِييِْييِْييِْييْ",
+        "after": "بِيِيِيِيْ"
+      }
+    }
+  },
+  {
+    "id": "civilization-latin-paragraphs/en2ar/0004",
+    "direction": "en2ar",
+    "input": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- alyāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+    "changes": {
+      "output": {
+        "before": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِياف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+        "after": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ."
+      },
+      "roundTrip": {
+        "before": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- aljāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima.",
+        "after": "HifZ alma-rifa: uktub -ala alTTīn thumma aHriq. varaq: inqa- aliāf nabāt ma-a Jīr, iDrib ila lubb, ighmis qālab shabakī, iDghaT, Jaffif fī shams. Hibr: sukhām dukhān/miSbāH + zajt budhūr. Hurūf: isbik raSāS+qaSdīr; shudd kutal mutaHarrika qābila li'i-āda, marrir -alajhā Hibr biusTuvāna, iDghaT varaq = mi'āt SafaHāt/javm. khazzin kutub bārida Jāffa muZlima."
+      },
+      "secondPass": {
+        "before": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَليْاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ.",
+        "after": "حِفظ اَلمَعرِفَ: أُكتُب عَلَ اَلطِّين ثُمَّ اَحرِق. وَرَق: إِنقَع اَلِاف نَبات مَعَ جِير، إِضرِب إِلَ لُبّ، إِغمِس قالَب شَبَكِي، إِضغَط، جَفِّف فِي شَمس. حِبر: سُخام دُخاn/مِصباح + زَيْت بُذُور. حُرُوف: إِسبِك رَصاS+قَصدِير؛ شُدّ كُتَل مُتَحَرِّكَ قابِلَ لِإِعادَ، مَرِّر عَلَيْها حِبر بُِسطُوْانَ، إِضغَط وَرَق = مِئات صَفَحاt/يَوْم. خَزِّن كُتُب بارِدَ جافَّ مُظلِمَ."
+      }
+    }
+  }
+]

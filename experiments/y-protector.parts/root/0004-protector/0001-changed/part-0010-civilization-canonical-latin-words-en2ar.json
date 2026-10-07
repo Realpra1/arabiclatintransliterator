@@ -1,0 +1,393 @@
+[
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0033",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "lilshurb/vaqūd/kīmjā'.",
+    "output": "لِلشُرب/وَقُوd/kِيميْاء.",
+    "roundTrip": "lilshurb/vaqūd/kīmjā'.",
+    "secondPass": "لِلشُرب/وَقُوd/kِيميْاء.",
+    "before": {
+      "output": "لِلشُرب/وَقُوd/kِيميْاء.",
+      "roundTrip": "lilshurb/vaqūd/kīmjā'.",
+      "secondPass": "لِلشُرب/وَقُوd/kِيميْاء."
+    },
+    "after": {
+      "output": "لِلشُرب/وَقُود/كِيميْاء.",
+      "roundTrip": "lilshurb/vaqūd/kīmjā'.",
+      "secondPass": "لِلشُرب/وَقُود/كِيميْاء."
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0078",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "nabāt/Hajavān/insān",
+    "output": "نَباt/حَيَوْاn/إِنسان",
+    "roundTrip": "nabāt/Hajavān/'insān",
+    "secondPass": "نَباt/حَيَوْاn/إِنسان",
+    "before": {
+      "output": "نَباt/حَيَوْاn/إِنسان",
+      "roundTrip": "nabāt/Hajavān/'insān",
+      "secondPass": "نَباt/حَيَوْاn/إِنسان"
+    },
+    "after": {
+      "output": "نَبات/حَيَوْان/إِنسان",
+      "roundTrip": "nabāt/Hajavān/'insān",
+      "secondPass": "نَبات/حَيَوْان/إِنسان"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0086",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "daqīqa/mīkrūbāt",
+    "output": "دَقِيقَ/mِيكرُوبات",
+    "roundTrip": "daqīqa/mīkrūbāt",
+    "secondPass": "دَقِيقَ/mِيكرُوبات",
+    "before": {
+      "output": "دَقِيقَ/mِيكرُوبات",
+      "roundTrip": "daqīqa/mīkrūbāt",
+      "secondPass": "دَقِيقَ/mِيكرُوبات"
+    },
+    "after": {
+      "output": "دَقِيقَ/مِيكرُوبات",
+      "roundTrip": "daqīqa/mīkrūbāt",
+      "secondPass": "دَقِيقَ/مِيكرُوبات"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0143",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "Hadīd+Hajar",
+    "output": "حَدِيd+حَيَر",
+    "roundTrip": "Hadīd+Hajar",
+    "secondPass": "حَدِيd+حَيَر",
+    "before": {
+      "output": "حَدِيd+حَيَر",
+      "roundTrip": "Hadīd+Hajar",
+      "secondPass": "حَدِيd+حَيَر"
+    },
+    "after": {
+      "output": "حَدِيد+حَيَر",
+      "roundTrip": "Hadīd+Hajar",
+      "secondPass": "حَدِيد+حَيَر"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0222",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "kām+-amūd+turs.",
+    "output": "كاm+عَمُوd+تُرس.",
+    "roundTrip": "kām+-amūd+turs.",
+    "secondPass": "كاm+عَمُوd+تُرس.",
+    "before": {
+      "output": "كاm+عَمُوd+تُرس.",
+      "roundTrip": "kām+-amūd+turs.",
+      "secondPass": "كاm+عَمُوd+تُرس."
+    },
+    "after": {
+      "output": "كام+عَمُود+تُرس.",
+      "roundTrip": "kām+-amūd+turs.",
+      "secondPass": "كام+عَمُود+تُرس."
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0273",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "dukhān/miSbāH",
+    "output": "دُخاn/مِصباح",
+    "roundTrip": "dukhān/miSbāH",
+    "secondPass": "دُخاn/مِصباح",
+    "before": {
+      "output": "دُخاn/مِصباح",
+      "roundTrip": "dukhān/miSbāH",
+      "secondPass": "دُخاn/مِصباح"
+    },
+    "after": {
+      "output": "دُخان/مِصباح",
+      "roundTrip": "dukhān/miSbāH",
+      "secondPass": "دُخان/مِصباح"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0278",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "raSāS+qaSdīr;",
+    "output": "رَصاS+قَصدِير؛",
+    "roundTrip": "raSāS+qaSdīr;",
+    "secondPass": "رَصاS+قَصدِير؛",
+    "before": {
+      "output": "رَصاS+قَصدِير؛",
+      "roundTrip": "raSāS+qaSdīr;",
+      "secondPass": "رَصاS+قَصدِير؛"
+    },
+    "after": {
+      "output": "رَصاص+قَصدِير؛",
+      "roundTrip": "raSāS+qaSdīr;",
+      "secondPass": "رَصاص+قَصدِير؛"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0291",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "SafaHāt/javm.",
+    "output": "صَفَحاt/يَوْم.",
+    "roundTrip": "SafaHāt/javm.",
+    "secondPass": "صَفَحاt/يَوْم.",
+    "before": {
+      "output": "صَفَحاt/يَوْم.",
+      "roundTrip": "SafaHāt/javm.",
+      "secondPass": "صَفَحاt/يَوْم."
+    },
+    "after": {
+      "output": "صَفَحات/يَوْم.",
+      "roundTrip": "SafaHāt/javm.",
+      "secondPass": "صَفَحات/يَوْم."
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0352",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(fī",
+    "output": "(fِي",
+    "roundTrip": "(fī",
+    "secondPass": "(fِي",
+    "before": {
+      "output": "(fِي",
+      "roundTrip": "(fī",
+      "secondPass": "(fِي"
+    },
+    "after": {
+      "output": "(فِي",
+      "roundTrip": "(fī",
+      "secondPass": "(فِي"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0379",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "mūJab/sālib;",
+    "output": "مُوجَب/sالِب؛",
+    "roundTrip": "mūJab/sālib;",
+    "secondPass": "مُوجَب/sالِب؛",
+    "before": {
+      "output": "مُوجَب/sالِب؛",
+      "roundTrip": "mūJab/sālib;",
+      "secondPass": "مُوجَب/sالِب؛"
+    },
+    "after": {
+      "output": "مُوجَب/سالِب؛",
+      "roundTrip": "mūJab/sālib;",
+      "secondPass": "مُوجَب/سالِب؛"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0390",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "ramal+Jīr+ramād",
+    "output": "رَمَل+Jِيr+رَماد",
+    "roundTrip": "ramal+Jīr+ramād",
+    "secondPass": "رَمَل+Jِيr+رَماد",
+    "before": {
+      "output": "رَمَل+Jِيr+رَماد",
+      "roundTrip": "ramal+Jīr+ramād",
+      "secondPass": "رَمَل+Jِيr+رَماد"
+    },
+    "after": {
+      "output": "رَمَل+جِير+رَماد",
+      "roundTrip": "ramal+Jīr+ramād",
+      "secondPass": "رَمَل+جِير+رَماد"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0392",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(Sūdā),",
+    "output": "(Sُودا)،",
+    "roundTrip": "(Sūdā),",
+    "secondPass": "(Sُودا)،",
+    "before": {
+      "output": "(Sُودا)،",
+      "roundTrip": "(Sūdā),",
+      "secondPass": "(Sُودا)،"
+    },
+    "after": {
+      "output": "(صُودا)،",
+      "roundTrip": "(Sūdā),",
+      "secondPass": "(صُودا)،"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0395",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "-ujūn/-adasāt",
+    "output": "عُيُْوn/عَدَسات",
+    "roundTrip": "-ujūn/-adasāt",
+    "secondPass": "عُيُْوn/عَدَسات",
+    "before": {
+      "output": "عُيُْوn/عَدَسات",
+      "roundTrip": "-ujūn/-adasāt",
+      "secondPass": "عُيُْوn/عَدَسات"
+    },
+    "after": {
+      "output": "عُيُْون/عَدَسات",
+      "roundTrip": "-ujūn/-adasāt",
+      "secondPass": "عُيُْون/عَدَسات"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0433",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "output": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+    "secondPass": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+    "before": {
+      "output": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+      "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+      "secondPass": "U(fُولتٌ/V)=مُقاوَمَ(Ω)×I(A)"
+    },
+    "after": {
+      "output": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)",
+      "roundTrip": "U(fūltuN/V)=muqāvama(Ω)×I(A)",
+      "secondPass": "U(فُولتٌ/V)=مُقاوَمَ(Ω)×I(A)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0441",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "dhihāb+ijāb=2",
+    "output": "ذِهاb+إِيْاb=2",
+    "roundTrip": "dhihāb+'ijāb=2",
+    "secondPass": "ذِهاb+إِيْاb=2",
+    "before": {
+      "output": "ذِهاb+إِيْاb=2",
+      "roundTrip": "dhihāb+'ijāb=2",
+      "secondPass": "ذِهاb+إِيْاb=2"
+    },
+    "after": {
+      "output": "ذِهاب+إِيْاب=2",
+      "roundTrip": "dhihāb+'ijāb=2",
+      "secondPass": "ذِهاب+إِيْاب=2"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0448",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "burūtūn)",
+    "output": "بُرُوتُوn)",
+    "roundTrip": "burūtūn)",
+    "secondPass": "بُرُوتُوn)",
+    "before": {
+      "output": "بُرُوتُوn)",
+      "roundTrip": "burūtūn)",
+      "secondPass": "بُرُوتُوn)"
+    },
+    "after": {
+      "output": "بُرُوتُون)",
+      "roundTrip": "burūtūn)",
+      "secondPass": "بُرُوتُون)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "civilization-canonical-latin-words/en2ar/0472",
+    "group": "civilization-canonical-latin-words",
+    "direction": "en2ar",
+    "input": "(būltsmān)",
+    "output": "(bُولتسماn)",
+    "roundTrip": "(būltsmān)",
+    "secondPass": "(bُولتسماn)",
+    "before": {
+      "output": "(bُولتسماn)",
+      "roundTrip": "(būltsmān)",
+      "secondPass": "(bُولتسماn)"
+    },
+    "after": {
+      "output": "(بُولتسمان)",
+      "roundTrip": "(būltsmān)",
+      "secondPass": "(بُولتسمان)"
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

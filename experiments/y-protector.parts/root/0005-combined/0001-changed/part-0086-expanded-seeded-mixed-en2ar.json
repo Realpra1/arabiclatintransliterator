@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0028",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "anta, أنت/ماء — satasma-? من, إلى? lajla — 42 satasma-, kitāb shāj — شَمْسٌ/havā', شَمْسٌ غدًا\n\nrubbamā/á\n\nuN عائشة — min ",
+    "output": "اَنتَ، أنت/ماء — سةَسمَع؟ من، إلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمْسٌ/هَوْاء، شَمْسٌ غدًا\n\nرُبَّما/ى\n\nٌ عائشة — مِن ",
+    "roundTrip": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+    "secondPass": "اَنتَ، أَنت/mاء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن ",
+    "before": {
+      "output": "اَنتَ، أنت/ماء — سةَسمَع؟ من، إلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمْسٌ/هَوْاء، شَمْسٌ غدًا\n\nرُبَّما/ى\n\nٌ عائشة — مِن ",
+      "roundTrip": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+      "secondPass": "اَنتَ، أَنت/mاء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن "
+    },
+    "after": {
+      "output": "اَنتَ، أنت/ماء — سةَسمَع؟ من، إلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمْسٌ/هَوْاء، شَمْسٌ غدًا\n\nرُبَّما/ى\n\nٌ عائشة — مِن ",
+      "roundTrip": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+      "secondPass": "اَنتَ، أَنت/ماء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن "
+    },
+    "stages": [
+      "secondPass"
+    ]
+  }
+]

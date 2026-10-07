@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0034",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, book? iN — city/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/",
+    "output": "alīvm, rubbamā satasma-, shamsuN/qhūat, aN hū, book? iN — city/uN\n\nl'n naHnu\n\nhū 🙂, shamsuN? shī'\n\naHmad? SbāHaNā\n\nnHn/",
+    "roundTrip": "اَلِيوْم، رُبَّما سَتَسمَع، شَمسٌ/قهُوة، ً هُو، بُوك؟ ٍ — سِتِ/ٌ\n\nلأن نَحنُ\n\nهُو 🙂، شَمسٌ؟ شِيئ\n\nاَحمَد؟ صباحًا\n\nنحن/",
+    "secondPass": "alīvm, rubbamā satasma-, shamsuN/qhūat, aN hū, būk? iN — siti/uN\n\nl'n naHnu\n\nhū 🙂, shamsuN? shī'\n\naHmad? SbāHaNā\n\nnHn/"
+  }
+]

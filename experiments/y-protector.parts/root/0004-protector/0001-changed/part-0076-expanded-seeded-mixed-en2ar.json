@@ -1,0 +1,25 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0044",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+    "output": "اَلصَوْت\n\nإِلى/رهِيثم — اَنتَ/مساءً\n\nاَلصَّباH/ٱلْبَيْتُ — عَلى؟ عائشة\n\nلا؟ هو — شَيْء؟ شايْ\n\nقهوة/كُفِّي — أمس/مِي — مِي ا، ستسمع؟ ",
+    "roundTrip": "alSavt\n\nilá/rhīthm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — 'ams/mī — mī ā, stsm-? ",
+    "secondPass": "اَلصَوْت\n\nإِلى/رهِيثم — اَنتَ/مساأً\n\nاَلصَّباH/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/mِي — مِي ا، ستسمع؟ ",
+    "before": {
+      "output": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساءً\n\nاَلصَّباH/ٱلْبَيْتُ — عَلى؟ عائشة\n\nلا؟ هو — شَيْء؟ شايْ\n\nقهوة/كُفِّي — أمس/مِ — مِ ا، ستسمع؟ ",
+      "roundTrip": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — 'ams/mi — mi ā, stsm-? ",
+      "secondPass": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباH/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِ — مِ ا، ستسمع؟ "
+    },
+    "after": {
+      "output": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساءً\n\nاَلصَّباح/ٱلْبَيْتُ — عَلى؟ عائشة\n\nلا؟ هو — شَيْء؟ شايْ\n\nقهوة/كُفِّي — أمس/مِ — مِ ا، ستسمع؟ ",
+      "roundTrip": "alSavt\n\nilá/rhithm — anta/msā'aN\n\nalSSabāH/lbajtu — -alá? -ā'shat\n\nlā? hū — shaj'? shāj\n\nqhūat/kuffī — 'ams/mi — mi ā, stsm-? ",
+      "secondPass": "اَلصَوْت\n\nإِلى/رهِثم — اَنتَ/مساأً\n\nاَلصَّباح/لبَيْتُ — عَلى؟ عاءشة\n\nلا؟ هُو — شَيْء؟ شايْ\n\nقهُوة/كُفِّي — أَمس/مِ — مِ ا، ستسمع؟ "
+    },
+    "stages": [
+      "output",
+      "secondPass"
+    ]
+  }
+]

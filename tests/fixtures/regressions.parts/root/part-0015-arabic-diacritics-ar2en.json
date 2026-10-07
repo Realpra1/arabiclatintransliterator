@@ -1,0 +1,443 @@
+[
+  {
+    "id": "arabic-diacritics/ar2en/0148",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذٌ",
+    "output": "dhuN",
+    "roundTrip": "ذٌ",
+    "secondPass": "dhuN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0149",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذَّ",
+    "output": "dhdha",
+    "roundTrip": "ذَّ",
+    "secondPass": "dhdha"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0150",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذَّ",
+    "output": "dhdha",
+    "roundTrip": "ذَّ",
+    "secondPass": "dhdha"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0151",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذِّ",
+    "output": "dhdhi",
+    "roundTrip": "ذِّ",
+    "secondPass": "dhdhi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0152",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذِّ",
+    "output": "dhdhi",
+    "roundTrip": "ذِّ",
+    "secondPass": "dhdhi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0153",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذُّ",
+    "output": "dhdhu",
+    "roundTrip": "ذُّ",
+    "secondPass": "dhdhu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0154",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "ذُّ",
+    "output": "dhdhu",
+    "roundTrip": "ذُّ",
+    "secondPass": "dhdhu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0155",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رَ",
+    "output": "ra",
+    "roundTrip": "رَ",
+    "secondPass": "ra"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0156",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رِ",
+    "output": "ri",
+    "roundTrip": "رِ",
+    "secondPass": "ri"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0157",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رُ",
+    "output": "ru",
+    "roundTrip": "رُ",
+    "secondPass": "ru"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0158",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رْ",
+    "output": "r",
+    "roundTrip": "ر",
+    "secondPass": "r"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0159",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رّ",
+    "output": "rr",
+    "roundTrip": "رّ",
+    "secondPass": "rr"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0160",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رً",
+    "output": "raN",
+    "roundTrip": "رً",
+    "secondPass": "raN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0161",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رٍ",
+    "output": "riN",
+    "roundTrip": "رٍ",
+    "secondPass": "riN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0162",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رٌ",
+    "output": "ruN",
+    "roundTrip": "رٌ",
+    "secondPass": "ruN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0163",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رَّ",
+    "output": "rra",
+    "roundTrip": "رَّ",
+    "secondPass": "rra"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0164",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رَّ",
+    "output": "rra",
+    "roundTrip": "رَّ",
+    "secondPass": "rra"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0165",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رِّ",
+    "output": "rri",
+    "roundTrip": "رِّ",
+    "secondPass": "rri"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0166",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رِّ",
+    "output": "rri",
+    "roundTrip": "رِّ",
+    "secondPass": "rri"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0167",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رُّ",
+    "output": "rru",
+    "roundTrip": "رُّ",
+    "secondPass": "rru"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0168",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "رُّ",
+    "output": "rru",
+    "roundTrip": "رُّ",
+    "secondPass": "rru"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0169",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زَ",
+    "output": "za",
+    "roundTrip": "زَ",
+    "secondPass": "za"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0170",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زِ",
+    "output": "zi",
+    "roundTrip": "زِ",
+    "secondPass": "zi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0171",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زُ",
+    "output": "zu",
+    "roundTrip": "زُ",
+    "secondPass": "zu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0172",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زْ",
+    "output": "z",
+    "roundTrip": "ز",
+    "secondPass": "z"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0173",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زّ",
+    "output": "zz",
+    "roundTrip": "زّ",
+    "secondPass": "zz"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0174",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زً",
+    "output": "zaN",
+    "roundTrip": "زً",
+    "secondPass": "zaN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0175",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زٍ",
+    "output": "ziN",
+    "roundTrip": "زٍ",
+    "secondPass": "ziN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0176",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زٌ",
+    "output": "zuN",
+    "roundTrip": "زٌ",
+    "secondPass": "zuN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0177",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زَّ",
+    "output": "zza",
+    "roundTrip": "زَّ",
+    "secondPass": "zza"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0178",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زَّ",
+    "output": "zza",
+    "roundTrip": "زَّ",
+    "secondPass": "zza"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0179",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زِّ",
+    "output": "zzi",
+    "roundTrip": "زِّ",
+    "secondPass": "zzi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0180",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زِّ",
+    "output": "zzi",
+    "roundTrip": "زِّ",
+    "secondPass": "zzi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0181",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زُّ",
+    "output": "zzu",
+    "roundTrip": "زُّ",
+    "secondPass": "zzu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0182",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "زُّ",
+    "output": "zzu",
+    "roundTrip": "زُّ",
+    "secondPass": "zzu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0183",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سَ",
+    "output": "sa",
+    "roundTrip": "سَ",
+    "secondPass": "sa"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0184",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سِ",
+    "output": "si",
+    "roundTrip": "سِ",
+    "secondPass": "si"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0185",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سُ",
+    "output": "su",
+    "roundTrip": "سُ",
+    "secondPass": "su"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0186",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سْ",
+    "output": "s",
+    "roundTrip": "س",
+    "secondPass": "s"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0187",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سّ",
+    "output": "ss",
+    "roundTrip": "سّ",
+    "secondPass": "ss"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0188",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سً",
+    "output": "saN",
+    "roundTrip": "سً",
+    "secondPass": "saN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0189",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سٍ",
+    "output": "siN",
+    "roundTrip": "سٍ",
+    "secondPass": "siN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0190",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سٌ",
+    "output": "suN",
+    "roundTrip": "سٌ",
+    "secondPass": "suN"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0191",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سَّ",
+    "output": "ssa",
+    "roundTrip": "سَّ",
+    "secondPass": "ssa"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0192",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سَّ",
+    "output": "ssa",
+    "roundTrip": "سَّ",
+    "secondPass": "ssa"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0193",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سِّ",
+    "output": "ssi",
+    "roundTrip": "سِّ",
+    "secondPass": "ssi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0194",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سِّ",
+    "output": "ssi",
+    "roundTrip": "سِّ",
+    "secondPass": "ssi"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0195",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سُّ",
+    "output": "ssu",
+    "roundTrip": "سُّ",
+    "secondPass": "ssu"
+  },
+  {
+    "id": "arabic-diacritics/ar2en/0196",
+    "group": "arabic-diacritics",
+    "direction": "ar2en",
+    "input": "سُّ",
+    "output": "ssu",
+    "roundTrip": "سُّ",
+    "secondPass": "ssu"
+  }
+]

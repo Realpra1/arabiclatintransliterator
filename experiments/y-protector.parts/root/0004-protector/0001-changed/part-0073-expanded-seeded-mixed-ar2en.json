@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0042",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — school? hello, نحن? rhythm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن ",
+    "output": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, 'ams á — school? hello, nHn? rhythm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn ",
+    "roundTrip": "لأن — صُوت؟ مَدرَسة\n\nنعم؟ نَعَم\n\nمَرحَبَ اَلِيوْم — غدًا؟ ستسمع، أَمس ى — ستجُول؟ هِلُّ، نحن؟ رهِيثم\n\nربما؟ سةَسمَع\n\nاَحمَد/Sُوت\n\nنحن ",
+    "secondPass": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, ams á — stJūl? hillu, nHn? rhīthm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn ",
+    "before": {
+      "output": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, 'ams á — school? hello, nHn? rhythm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn ",
+      "roundTrip": "لأن — صُوت؟ مَدرَسة\n\nنعم؟ نَعَم\n\nمَرحَبَ اَلِيوْم — غدًا؟ ستسمع، أَمس ى — ستجُول؟ هِلُّ، نحن؟ رهِثم\n\nربما؟ سةَسمَع\n\nاَحمَد/Sُوت\n\nنحن ",
+      "secondPass": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, ams á — stJūl? hillu, nHn? rhithm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn "
+    },
+    "after": {
+      "output": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, 'ams á — school? hello, nHn? rhythm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn ",
+      "roundTrip": "لأن — صُوت؟ مَدرَسة\n\nنعم؟ نَعَم\n\nمَرحَبَ اَلِيوْم — غدًا؟ ستسمع، أَمس ى — ستجُول؟ هِلُّ، نحن؟ رهِثم\n\nربما؟ سةَسمَع\n\nاَحمَد/صُوت\n\nنحن ",
+      "secondPass": "l'n — Sūt? madrasat\n\nn-m? na-am\n\nmarHaba alīvm — ghdaNā? stsm-, ams á — stJūl? hillu, nHn? rhithm\n\nrbmā? satasma-\n\naHmad/Sūt\n\nnHn "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

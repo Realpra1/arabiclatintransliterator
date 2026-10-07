@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0001",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+      "A1": "نعم — قهوة/اليوم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، أمس ستجُول — ستجُول؟ شَمْسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+      "L2": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhithm? á\n\n🙂 mā', 'ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn ",
+      "A2": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، أَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من ",
+      "L3": "n-m — qhūat/ālīvm, mā'/aN, vurld shaj' — rhithm? á\n\n🙂 mā', ams stJūl — stJūl? shamsuN, na-am/hillu — stsm- SbāHaNā — mn ",
+      "A3": "نعم — قهُوة/الِيوْم، ماء/ً، وُرلد شَيْء — رهِثم؟ ى\n\n🙂 ماء، اَمس ستجُول — ستجُول؟ شَمسٌ، نَعَم/هِلُّ — ستسمع صباحًا — من "
+    }
+  }
+]

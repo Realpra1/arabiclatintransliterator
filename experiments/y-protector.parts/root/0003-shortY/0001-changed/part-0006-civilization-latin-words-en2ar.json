@@ -1,0 +1,26 @@
+[
+  {
+    "id": "civilization-latin-words/en2ar/0260",
+    "group": "civilization-latin-words",
+    "direction": "en2ar",
+    "input": "alyāf",
+    "output": "اَلِياف",
+    "roundTrip": "aljāf",
+    "secondPass": "اَليْاف",
+    "before": {
+      "output": "اَلِياف",
+      "roundTrip": "aljāf",
+      "secondPass": "اَليْاف"
+    },
+    "after": {
+      "output": "اَلِاف",
+      "roundTrip": "aliāf",
+      "secondPass": "اَلِاف"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

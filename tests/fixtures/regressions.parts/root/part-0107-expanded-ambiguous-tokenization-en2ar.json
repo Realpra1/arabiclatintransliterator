@@ -1,0 +1,191 @@
+[
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0001",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "s h sh s-h s h",
+    "output": "س ه ش سعه س ه",
+    "roundTrip": "s h sh s-h s h",
+    "secondPass": "س ه ش سعه س ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0002",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "t h th t-h t h",
+    "output": "ت ه ث تعه ت ه",
+    "roundTrip": "t h th t-h t h",
+    "secondPass": "ت ه ث تعه ت ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0003",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "d h dh d-h d h",
+    "output": "د ه ذ دعه د ه",
+    "roundTrip": "d h dh d-h d h",
+    "secondPass": "د ه ذ دعه د ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0004",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "k h kh k-h k h",
+    "output": "ك ه خ كعه ك ه",
+    "roundTrip": "k h kh k-h k h",
+    "secondPass": "ك ه خ كعه ك ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0005",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "g h gh g-h g h",
+    "output": "ج ه غ جعه ج ه",
+    "roundTrip": "J h gh J-h J h",
+    "secondPass": "ج ه غ جعه ج ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0006",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "p h ph p-h p h",
+    "output": "ب ه ف بعه ب ه",
+    "roundTrip": "b h f b-h b h",
+    "secondPass": "ب ه ف بعه ب ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0007",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "c h ch c-h c h",
+    "output": "س ه تج كعه س ه",
+    "roundTrip": "s h tJ k-h s h",
+    "secondPass": "س ه تج كعه س ه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0008",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "at a t a-t aat aaat aatat",
+    "output": "ة اَ ت اَعت ات اات اتة",
+    "roundTrip": "at a t a-t āt āāt ātat",
+    "secondPass": "ة اَ ت اَعت ات اات اتة"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0009",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "an aN AN a n a N anN aNN",
+    "output": "اَن ً ً اَ ن اَ N اَنN ًN",
+    "roundTrip": "an aN aN a n a N anN aNN",
+    "secondPass": "اَن ً ً اَ ن اَ N اَنN ًN"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0010",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "shsh shh ssh shshsh",
+    "output": "شّ شه سش شّش",
+    "roundTrip": "shsh shh ssh shshsh",
+    "secondPass": "شّ شه سش شّش"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0011",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "thth tth thh dhdh ddh dhh",
+    "output": "ثّ تث ثه ذّ دذ ذه",
+    "roundTrip": "thth tth thh dhdh ddh dhh",
+    "secondPass": "ثّ تث ثه ذّ دذ ذه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0012",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "khkh kkh khh ghgh ggh ghh chch cch chh phph pph phh",
+    "output": "خّ كخ خه غّ جغ غه تجتج كتج تجه فّ بف فه",
+    "roundTrip": "khkh kkh khh ghgh Jgh ghh tJtJ ktJ tJh ff bf fh",
+    "secondPass": "خّ كخ خه غّ جغ غه تجتج كتج تجه فّ بف فه"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0013",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "' '' ''' '''' ʾ ʾʾ ’ ’’ ʻ ʻʻ",
+    "output": "أ ءّ ءّء ءّءّ أ ءّ ’ ’’ ʻ ʻʻ",
+    "roundTrip": "'a '' ''' '''' 'a '' ’ ’’ ʻ ʻʻ",
+    "secondPass": "أَ ءّ ءّء ءّءّ أَ ءّ ’ ’’ ʻ ʻʻ"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0014",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+    "output": "آ آا آَ آِ آُ أاً أً إٍ أٌ",
+    "roundTrip": "'ā 'āā 'āa 'āi 'āu 'aāN 'aN 'iN 'uN",
+    "secondPass": "آ آا آَ آِ آُ أَاً أً إٍ أٌ"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0015",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "j jj jjj jjjj y yy yyy yyyy v vv vvv vvvv w ww www wwww",
+    "output": "يْ يّ يّيْ يّيّ يْ يّ يّيْ يّيّ وْ وّ وّوْ وّوّ وْ وّ وّوْ وّوّ",
+    "roundTrip": "j jj jjj jjjj j jj jjj jjjj v vv vvv vvvv v vv vvv vvvv",
+    "secondPass": "يْ يّ يّيْ يّيّ يْ يّ يّيْ يّيّ وْ وّ وّوْ وّوّ وْ وّ وّوْ وّوّ"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0016",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "bya byya byyya byyyya byaN ayya iyya uyya",
+    "output": "بَِ بِيَ بِيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ",
+    "roundTrip": "bia bija bjia bīija biaN ajja ijja ujja",
+    "secondPass": "بَِ بِيَ بيَِ بِيِيَ بًِ اَيَّ إِيَّ أُيَّ"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0017",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "āa aā īi iī ūu uū",
+    "output": "اَ اَا ِيِ إِِي ُوُ أُُو",
+    "roundTrip": "a aā ji ij vu uū",
+    "secondPass": "اَ اَا يِ إِيْ وُ أُُو"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0018",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "aNaN iNiN uNuN aNiNuN atat atatat",
+    "output": "ًً ٍٍ ٌٌ ًٌٍ اَتة اَتَتة",
+    "roundTrip": "aNaN iNiN uNuN aNiNuN atat atatat",
+    "secondPass": "ًً ٍٍ ٌٌ ًٌٍ اَتة اَتَتة"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0019",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "HH SS DD TT ZZ JJ NN hh ss dd tt zz jj nn",
+    "output": "حّ صّ ضّ طّ ظّ جّ NN هّ سّ دّ تّ زّ يّ نّ",
+    "roundTrip": "HH SS DD TT ZZ JJ NN hh ss dd tt zz jj nn",
+    "secondPass": "حّ صّ ضّ طّ ظّ جّ NN هّ سّ دّ تّ زّ يّ نّ"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0020",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "llll lllil alll lilal valll falll",
+    "output": "لّلّ لّلِل اَلّل لِلَل وَلّل فَلّل",
+    "roundTrip": "lilll lillil alll lilal valll falll",
+    "secondPass": "لِلّل لِلِّل اَلّل لِلَل وَلّل فَلّل"
+  },
+  {
+    "id": "expanded-ambiguous-tokenization/en2ar/0021",
+    "group": "expanded-ambiguous-tokenization",
+    "direction": "en2ar",
+    "input": "P p V v Y y G g J j X x C c",
+    "output": "ب ب وْ وْ يْ يْ ج ج ج يْ إِكس إِكس س س",
+    "roundTrip": "b b v v j j J J J j iks iks s s",
+    "secondPass": "ب ب وْ وْ يْ يْ ج ج ج يْ إِكس إِكس س س"
+  }
+]

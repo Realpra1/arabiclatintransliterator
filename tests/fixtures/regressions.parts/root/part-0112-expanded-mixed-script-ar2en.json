@@ -1,0 +1,65 @@
+[
+  {
+    "id": "expanded-mixed-script/ar2en/0001",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "Hello يا صديقي! satasma- الصوت الآن؟",
+    "output": "Hello jā Sdīqī! satasma- alSūt al'ān?",
+    "roundTrip": "حِلُّ يْا صدِيقِي! سَتَسمَع اَلصُوت اَلآن؟",
+    "secondPass": "Hillu jā Sdīqī! satasma- alSūt al'ān?"
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0002",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "مَرْحَبًا world, وَhello again.",
+    "output": "marHabaNā world, vahello again.",
+    "roundTrip": "مَرحَبًا وُرلد، وَهِلُّ اَجَِن.",
+    "secondPass": "marHabaNā vurld, vahillu aJain."
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0003",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "اكتب E=mc^2 ثم قل: alssalāmu -alajkum.",
+    "output": "āktb E=mc^2 thm ql: alssalāmu -alajkum.",
+    "roundTrip": "اكتب E=مك^2 ثم قل: اَلسَّلامُ عَلَيْكُم.",
+    "secondPass": "āktb E=mk^2 thm ql: alssalāmu -alajkum."
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0004",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "ArabicعربيLatinلاتيني123١٢٣",
+    "output": "Arabic-rbīLatinlātīnī123١٢٣",
+    "roundTrip": "اَرَبِكعrbīLatinlātīnī123١٢٣",
+    "secondPass": "arabik-rbīLatinlātīnī123١٢٣"
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0005",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "email: علي@example.com / https://مثال.اختبار/path?q=ماء",
+    "output": "email: -lī@example.com / https://mthāl.ākhtbār/path?q=mā'",
+    "roundTrip": "إِمَِل: علِي@إِكسَمبلِ.كُم / هتّبس://مثال.اختبار/بَث؟q=ماء",
+    "secondPass": "imail: -lī@'iksambli.kum / httbs://mthāl.ākhtbār/bath?q=mā'"
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0006",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "قالت: \"satasma-\", then added: «سَتَسْمَعُ».\n\nNext: mā' + ماء.",
+    "output": "qālt: \"satasma-\", then added: «satasma-u».\n\nNext: mā' + mā'.",
+    "roundTrip": "قالت: \"سَتَسمَع\"، ثِن اَدِّد: «سَتَسمَعu».\n\nNإِكست: ماء + ماء.",
+    "secondPass": "qālt: \"satasma-\", thin addid: «satasma-u».\n\nN'ikst: mā' + mā'."
+  },
+  {
+    "id": "expanded-mixed-script/ar2en/0007",
+    "group": "expanded-mixed-script",
+    "direction": "ar2en",
+    "input": "x=س; y=ص; H=ح; J=ج; N=ن; 500°C; ٣ kg; 25٪",
+    "output": "x=s; y=S; H=H; J=J; N=n; 500°C; ٣ kg; 25٪",
+    "roundTrip": "x=s؛ y=S؛ H=H؛ J=J؛ N=n؛ 500°C؛ ٣ كج؛ 25٪",
+    "secondPass": "x=s; y=S; H=H; J=J; N=n; 500°C; ٣ kJ; 25٪"
+  }
+]

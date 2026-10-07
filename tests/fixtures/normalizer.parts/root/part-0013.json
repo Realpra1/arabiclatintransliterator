@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/0889",
+    "input": "ab»cd",
+    "normalized": "ab»kd",
+    "collapsed": "ab»cd"
+  },
+  {
+    "id": "normalizer/0890",
+    "input": "C×",
+    "normalized": "k×",
+    "collapsed": "C×"
+  },
+  {
+    "id": "normalizer/0891",
+    "input": "×C",
+    "normalized": "×s",
+    "collapsed": "×C"
+  },
+  {
+    "id": "normalizer/0892",
+    "input": "x×",
+    "normalized": "iks×",
+    "collapsed": "x×"
+  },
+  {
+    "id": "normalizer/0893",
+    "input": "×x",
+    "normalized": "×iks",
+    "collapsed": "×x"
+  },
+  {
+    "id": "normalizer/0894",
+    "input": "a × b",
+    "normalized": "a × b",
+    "collapsed": "a × b"
+  },
+  {
+    "id": "normalizer/0895",
+    "input": "ab×cd",
+    "normalized": "ab×kd",
+    "collapsed": "ab×cd"
+  },
+  {
+    "id": "normalizer/0896",
+    "input": "C-",
+    "normalized": "k-",
+    "collapsed": "C-"
+  },
+  {
+    "id": "normalizer/0897",
+    "input": "-C",
+    "normalized": "-s",
+    "collapsed": "-C"
+  },
+  {
+    "id": "normalizer/0898",
+    "input": "x-",
+    "normalized": "iks-",
+    "collapsed": "x-"
+  },
+  {
+    "id": "normalizer/0899",
+    "input": "-x",
+    "normalized": "-iks",
+    "collapsed": "-x"
+  },
+  {
+    "id": "normalizer/0900",
+    "input": "a - b",
+    "normalized": "a - b",
+    "collapsed": "a - b"
+  },
+  {
+    "id": "normalizer/0901",
+    "input": "ab-cd",
+    "normalized": "ab-kd",
+    "collapsed": "ab-cd"
+  },
+  {
+    "id": "normalizer/0902",
+    "input": "C:",
+    "normalized": "k:",
+    "collapsed": "C:"
+  },
+  {
+    "id": "normalizer/0903",
+    "input": ":C",
+    "normalized": ":s",
+    "collapsed": ":C"
+  },
+  {
+    "id": "normalizer/0904",
+    "input": "x:",
+    "normalized": "iks:",
+    "collapsed": "x:"
+  },
+  {
+    "id": "normalizer/0905",
+    "input": ":x",
+    "normalized": ":iks",
+    "collapsed": ":x"
+  },
+  {
+    "id": "normalizer/0906",
+    "input": "a : b",
+    "normalized": "a : b",
+    "collapsed": "a : b"
+  },
+  {
+    "id": "normalizer/0907",
+    "input": "ab:cd",
+    "normalized": "ab:kd",
+    "collapsed": "ab:cd"
+  },
+  {
+    "id": "normalizer/0908",
+    "input": "C,",
+    "normalized": "k,",
+    "collapsed": "C,"
+  },
+  {
+    "id": "normalizer/0909",
+    "input": ",C",
+    "normalized": ",s",
+    "collapsed": ",C"
+  },
+  {
+    "id": "normalizer/0910",
+    "input": "x,",
+    "normalized": "iks,",
+    "collapsed": "x,"
+  },
+  {
+    "id": "normalizer/0911",
+    "input": ",x",
+    "normalized": ",iks",
+    "collapsed": ",x"
+  },
+  {
+    "id": "normalizer/0912",
+    "input": "a , b",
+    "normalized": "a , b",
+    "collapsed": "a , b"
+  },
+  {
+    "id": "normalizer/0913",
+    "input": "ab,cd",
+    "normalized": "ab,kd",
+    "collapsed": "ab,cd"
+  },
+  {
+    "id": "normalizer/0914",
+    "input": "C;",
+    "normalized": "k;",
+    "collapsed": "C;"
+  },
+  {
+    "id": "normalizer/0915",
+    "input": ";C",
+    "normalized": ";s",
+    "collapsed": ";C"
+  },
+  {
+    "id": "normalizer/0916",
+    "input": "x;",
+    "normalized": "iks;",
+    "collapsed": "x;"
+  },
+  {
+    "id": "normalizer/0917",
+    "input": ";x",
+    "normalized": ";iks",
+    "collapsed": ";x"
+  },
+  {
+    "id": "normalizer/0918",
+    "input": "a ; b",
+    "normalized": "a ; b",
+    "collapsed": "a ; b"
+  },
+  {
+    "id": "normalizer/0919",
+    "input": "ab;cd",
+    "normalized": "ab;kd",
+    "collapsed": "ab;cd"
+  },
+  {
+    "id": "normalizer/0920",
+    "input": "",
+    "normalized": "",
+    "collapsed": ""
+  },
+  {
+    "id": "normalizer/0921",
+    "input": " ",
+    "normalized": " ",
+    "collapsed": " "
+  },
+  {
+    "id": "normalizer/0922",
+    "input": "   ",
+    "normalized": "   ",
+    "collapsed": "   "
+  },
+  {
+    "id": "normalizer/0923",
+    "input": "\t",
+    "normalized": "\t",
+    "collapsed": "\t"
+  },
+  {
+    "id": "normalizer/0924",
+    "input": "\n",
+    "normalized": "\n",
+    "collapsed": "\n"
+  },
+  {
+    "id": "normalizer/0925",
+    "input": "\n\n",
+    "normalized": "\n\n",
+    "collapsed": "\n\n"
+  },
+  {
+    "id": "normalizer/0926",
+    "input": "\r\n",
+    "normalized": "\r\n",
+    "collapsed": "\r\n"
+  },
+  {
+    "id": "normalizer/0927",
+    "input": "  a  b  ",
+    "normalized": "  a  b  ",
+    "collapsed": "  a  b  "
+  },
+  {
+    "id": "normalizer/0928",
+    "input": "a\tb\nc\r\nd",
+    "normalized": "a\tb\ns\r\nd",
+    "collapsed": "a\tb\nc\r\nd"
+  },
+  {
+    "id": "normalizer/0929",
+    "input": ",;?",
+    "normalized": ",;?",
+    "collapsed": ",;?"
+  },
+  {
+    "id": "normalizer/0930",
+    "input": "،؛؟",
+    "normalized": "،؛؟",
+    "collapsed": "،؛؟"
+  },
+  {
+    "id": "normalizer/0931",
+    "input": ".:!()[]{}<>/\\|+=*^~`_&%#@",
+    "normalized": ".:!()[]{}<>/\\|+=*^~`_&%#@",
+    "collapsed": ".:!()[]{}<>/\\|+=*^~`_&%#@"
+  },
+  {
+    "id": "normalizer/0932",
+    "input": "0123456789",
+    "normalized": "0123456789",
+    "collapsed": "0123456789"
+  },
+  {
+    "id": "normalizer/0933",
+    "input": "٠١٢٣٤٥٦٧٨٩",
+    "normalized": "٠١٢٣٤٥٦٧٨٩",
+    "collapsed": "٠١٢٣٤٥٦٧٨٩"
+  },
+  {
+    "id": "normalizer/0934",
+    "input": "۰۱۲۳۴۵۶۷۸۹",
+    "normalized": "۰۱۲۳۴۵۶۷۸۹",
+    "collapsed": "۰۱۲۳۴۵۶۷۸۹"
+  },
+  {
+    "id": "normalizer/0935",
+    "input": "🙂🌍🚀",
+    "normalized": "🙂🌍🚀",
+    "collapsed": "🙂🌍🚀"
+  },
+  {
+    "id": "normalizer/0936",
+    "input": "中文 日本語 Ελληνικά кириллица",
+    "normalized": "中文 日本語 Ελληνικά кириллица",
+    "collapsed": "中文 日本語 Ελληνικά кириллица"
+  },
+  {
+    "id": "normalizer/0937",
+    "input": "café naïve résumé",
+    "normalized": "kafé naïvi résumé",
+    "collapsed": "café naïve résumé"
+  },
+  {
+    "id": "normalizer/0938",
+    "input": "ā ī ū á Ā Ī Ū",
+    "normalized": "ā ī ū á Ā Ī Ū",
+    "collapsed": "ā ī ū á Ā Ī Ū"
+  },
+  {
+    "id": "normalizer/0939",
+    "input": "ā ī ū á",
+    "normalized": "ā ī ū á",
+    "collapsed": "ā ī ū á"
+  },
+  {
+    "id": "normalizer/0940",
+    "input": "ب‍ت‌ج",
+    "normalized": "ب‍ت‌ج",
+    "collapsed": "ب‍ت‌ج"
+  },
+  {
+    "id": "normalizer/0941",
+    "input": "‏العربية‎ Latin",
+    "normalized": "‏العربية‎ latin",
+    "collapsed": "‏العربية‎ Latin"
+  },
+  {
+    "id": "normalizer/0942",
+    "input": "Arabic العربية 123",
+    "normalized": "arabis العربية 123",
+    "collapsed": "Arabic العربية 123"
+  },
+  {
+    "id": "normalizer/0943",
+    "input": "سَلام Hello!",
+    "normalized": "سَلام Hillu!",
+    "collapsed": "سَلام Hello!"
+  },
+  {
+    "id": "normalizer/0944",
+    "input": " a b ",
+    "normalized": " a b ",
+    "collapsed": " a b "
+  },
+  {
+    "id": "normalizer/0945",
+    "input": " a b",
+    "normalized": " a b",
+    "collapsed": " a b"
+  },
+  {
+    "id": "normalizer/0946",
+    "input": "'’ʾ\"“”«»",
+    "normalized": "'’ʾ\"“”«»",
+    "collapsed": "'’ʾ\"“”«»"
+  },
+  {
+    "id": "normalizer/0947",
+    "input": "ًٌٍَُِّْٰـ",
+    "normalized": "ًٌٍَُِّْٰـ",
+    "collapsed": "ًٌٍَُِّْٰـ"
+  },
+  {
+    "id": "normalizer/0948",
+    "input": "،a؛i؟u",
+    "normalized": "،a؛i؟u",
+    "collapsed": "،a؛i؟u"
+  },
+  {
+    "id": "normalizer/0949",
+    "input": "a\u0000b",
+    "normalized": "a\u0000b",
+    "collapsed": "a\u0000b"
+  },
+  {
+    "id": "normalizer/0950",
+    "input": "a",
+    "normalized": "a",
+    "collapsed": "a"
+  },
+  {
+    "id": "normalizer/0951",
+    "input": "Caa",
+    "normalized": "kā",
+    "collapsed": "Cā"
+  },
+  {
+    "id": "normalizer/0952",
+    "input": "",
+    "normalized": "undefined",
+    "collapsed": "undefined"
+  },
+  {
+    "id": "normalizer/0953",
+    "input": "c.",
+    "normalized": "k.",
+    "collapsed": "c."
+  },
+  {
+    "id": "normalizer/0954",
+    "input": "c ",
+    "normalized": "s ",
+    "collapsed": "c "
+  },
+  {
+    "id": "normalizer/0955",
+    "input": "c\n",
+    "normalized": "s\n",
+    "collapsed": "c\n"
+  },
+  {
+    "id": "normalizer/0956",
+    "input": "x2",
+    "normalized": "x2",
+    "collapsed": "x2"
+  },
+  {
+    "id": "normalizer/0957",
+    "input": "2x",
+    "normalized": "2x",
+    "collapsed": "2x"
+  },
+  {
+    "id": "normalizer/0958",
+    "input": "xy",
+    "normalized": "si",
+    "collapsed": "xy"
+  },
+  {
+    "id": "normalizer/0959",
+    "input": "āy",
+    "normalized": "āy",
+    "collapsed": "āy"
+  },
+  {
+    "id": "normalizer/0960",
+    "input": "īy",
+    "normalized": "īy",
+    "collapsed": "īy"
+  },
+  {
+    "id": "normalizer/0961",
+    "input": "ūy",
+    "normalized": "ūy",
+    "collapsed": "ūy"
+  },
+  {
+    "id": "normalizer/0962",
+    "input": "satasma-",
+    "normalized": "satasma-",
+    "collapsed": "satasma-"
+  }
+]

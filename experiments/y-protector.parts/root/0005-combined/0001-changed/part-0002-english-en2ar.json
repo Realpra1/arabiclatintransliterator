@@ -1,0 +1,314 @@
+[
+  {
+    "id": "english/en2ar/0005",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Energy & machines",
+    "output": "إِنِرجِي & مَتجِنِس",
+    "roundTrip": "inirJī & matJinis",
+    "secondPass": "إِنِرجِي & مةجِنِس",
+    "before": {
+      "output": "إِنِرجِي & مَتجِنِس",
+      "roundTrip": "inirJī & matJinis",
+      "secondPass": "إِنِرجِي & مةجِنِس"
+    },
+    "after": {
+      "output": "إِنِرجِ & مَتجِنِس",
+      "roundTrip": "inirJi & matJinis",
+      "secondPass": "إِنِرجِ & مةجِنِس"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0010",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "The quick brown fox jumps over the lazy dog.",
+    "output": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج.",
+    "roundTrip": "Thi quikk bruvn fuks jumbs uvir thi lazī duJ.",
+    "secondPass": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج.",
+    "before": {
+      "output": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج.",
+      "roundTrip": "Thi quikk bruvn fuks jumbs uvir thi lazī duJ.",
+      "secondPass": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِي دُج."
+    },
+    "after": {
+      "output": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج.",
+      "roundTrip": "Thi quikk bruvn fuks jumbs uvir thi lazi duJ.",
+      "secondPass": "طهِ قُِكّ برُوْن فُكس يُمبس أُوِر ثِ لَزِ دُج."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0011",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Pack my box with five dozen liquor jugs.",
+    "output": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+    "roundTrip": "bakk mī buks vith fivi duzin liqūr juJs.",
+    "secondPass": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+    "before": {
+      "output": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+      "roundTrip": "bakk mī buks vith fivi duzin liqūr juJs.",
+      "secondPass": "بَكّ مِي بُكس وِث فِوِ دُزِن لِقُور يُجس."
+    },
+    "after": {
+      "output": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس.",
+      "roundTrip": "bakk mi buks vith fivi duzin liqūr juJs.",
+      "secondPass": "بَكّ مِ بُكس وِث فِوِ دُزِن لِقُور يُجس."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0012",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Sphinx of black quartz, judge my vow.",
+    "output": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي وُوْ.",
+    "roundTrip": "Sfinks uf blakk quartz, judJi mī ūuv.",
+    "secondPass": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي ُوُوْ.",
+    "before": {
+      "output": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي وُوْ.",
+      "roundTrip": "Sfinks uf blakk quartz, judJi mī ūuv.",
+      "secondPass": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِي ُوُوْ."
+    },
+    "after": {
+      "output": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ وُوْ.",
+      "roundTrip": "Sfinks uf blakk quartz, judJi mi ūuv.",
+      "secondPass": "صفِنكس أُف بلَكّ قَُرتز، يُدجِ مِ ُوُوْ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0013",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Don't change what's already working.",
+    "output": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج.",
+    "roundTrip": "Dun't tJanJi vhat's alriadī vurkinJ.",
+    "secondPass": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج.",
+    "before": {
+      "output": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج.",
+      "roundTrip": "Dun't tJanJi vhat's alriadī vurkinJ.",
+      "secondPass": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِي وُركِنج."
+    },
+    "after": {
+      "output": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج.",
+      "roundTrip": "Dun't tJanJi vhat's alriadi vurkinJ.",
+      "secondPass": "ضُنؤت تجَنجِ وْهةءس اَلرَِدِ وُركِنج."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0014",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "A cat, a city, a cycle, a school, and a machine.",
+    "output": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+    "roundTrip": "a kat, a sitī, a sīkli, a stJūl, and a matJini.",
+    "secondPass": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مةجِنِ.",
+    "before": {
+      "output": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a sitī, a sīkli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِي، اَ سِيكلِ، اَ ستجُول، اَند اَ مةجِنِ."
+    },
+    "after": {
+      "output": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مَتجِنِ.",
+      "roundTrip": "a kat, a siti, a sikli, a stJūl, and a matJini.",
+      "secondPass": "اَ كة، اَ سِتِ، اَ سِكلِ، اَ ستجُول، اَند اَ مةجِنِ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0015",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Chemistry: chlorine, charcoal, copper, calcium, carbon.",
+    "output": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+    "roundTrip": "tJimistrī: tJlurini, tJarkual, kubbir, kalsium, karbun.",
+    "secondPass": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+    "before": {
+      "output": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+      "roundTrip": "tJimistrī: tJlurini, tJarkual, kubbir, kalsium, karbun.",
+      "secondPass": "تجِمِسترِي: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن."
+    },
+    "after": {
+      "output": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن.",
+      "roundTrip": "tJimistri: tJlurini, tJarkual, kubbir, kalsium, karbun.",
+      "secondPass": "تجِمِسترِ: تجلُرِنِ، تجَركَُل، كُبِّر، كَلسُِم، كَربُن."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0016",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Rotate agricultural plant families yearly.",
+    "output": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي.",
+    "roundTrip": "rutati aJrikultural blant familīs jiarlī.",
+    "secondPass": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي.",
+    "before": {
+      "output": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي.",
+      "roundTrip": "rutati aJrikultural blant familīs jiarlī.",
+      "secondPass": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِي."
+    },
+    "after": {
+      "output": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ.",
+      "roundTrip": "rutati aJrikultural blant familīs jiarli.",
+      "secondPass": "رُتةِ اَجرِكُلتُرَل بلَنت فَمِلِيس يَِرلِ."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0019",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Store books cool, dry & dark.",
+    "output": "صتُرِ بُوكس كُول، درِي & دَرك.",
+    "roundTrip": "Sturi būks kūl, drī & dark.",
+    "secondPass": "صتُرِ بُوكس كُول، درِي & دَرك.",
+    "before": {
+      "output": "صتُرِ بُوكس كُول، درِي & دَرك.",
+      "roundTrip": "Sturi būks kūl, drī & dark.",
+      "secondPass": "صتُرِ بُوكس كُول، درِي & دَرك."
+    },
+    "after": {
+      "output": "صتُرِ بُوكس كُول، درِ & دَرك.",
+      "roundTrip": "Sturi būks kūl, dri & dark.",
+      "secondPass": "صتُرِ بُوكس كُول، درِ & دَرك."
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0021",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "Hydrogen oxygen nitrogen ammonia",
+    "output": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ",
+    "roundTrip": "HīdruJin uksīJin nitruJin ammunia",
+    "secondPass": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ",
+    "before": {
+      "output": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ",
+      "roundTrip": "HīdruJin uksīJin nitruJin ammunia",
+      "secondPass": "حِيدرُجِن أُكسِيجِن نِترُجِن اَمُّنَِ"
+    },
+    "after": {
+      "output": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ",
+      "roundTrip": "HidruJin uksiJin nitruJin ammunia",
+      "secondPass": "حِدرُجِن أُكسِجِن نِترُجِن اَمُّنَِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0024",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "c C ce ci cy ca co cu ch school science",
+    "output": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ",
+    "roundTrip": "s s si si sī ka ku ku tJ stJūl ssīnsi",
+    "secondPass": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ",
+    "before": {
+      "output": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ",
+      "roundTrip": "s s si si sī ka ku ku tJ stJūl ssīnsi",
+      "secondPass": "س س سِ سِ سِي كَ كُ كُ تج ستجُول سِّينسِ"
+    },
+    "after": {
+      "output": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ",
+      "roundTrip": "s s si si si ka ku ku tJ stJūl ssīnsi",
+      "secondPass": "س س سِ سِ سِ كَ كُ كُ تج ستجُول سِّينسِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0025",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "yellow yes happy sky rhythm my by toy boy",
+    "output": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ",
+    "roundTrip": "jilluv jis habbī skī rhīthm mī bī tuj buj",
+    "secondPass": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ",
+    "before": {
+      "output": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ",
+      "roundTrip": "jilluv jis habbī skī rhīthm mī bī tuj buj",
+      "secondPass": "يِلُّوْ يِس هَبِّي سكِي رهِيثم مِي بِي تُيْ بُيْ"
+    },
+    "after": {
+      "output": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ",
+      "roundTrip": "jilluv jis habbi ski rhithm mi bi tuj buj",
+      "secondPass": "يِلُّوْ يِس هَبِّ سكِ رهِثم مِ بِ تُيْ بُيْ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  },
+  {
+    "id": "english/en2ar/0031",
+    "group": "english",
+    "direction": "en2ar",
+    "input": "pneumonia psychology philosophy photograph phone",
+    "output": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ",
+    "roundTrip": "bniumunia bsītJuluJī filusufī futuJraf funi",
+    "secondPass": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ",
+    "before": {
+      "output": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ",
+      "roundTrip": "bniumunia bsītJuluJī filusufī futuJraf funi",
+      "secondPass": "بنُِمُنَِ بسِيتجُلُجِي فِلُسُفِي فُتُجرَف فُنِ"
+    },
+    "after": {
+      "output": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ",
+      "roundTrip": "bniumunia bsitJuluJi filusufi futuJraf funi",
+      "secondPass": "بنُِمُنَِ بسِتجُلُجِ فِلُسُفِ فُتُجرَف فُنِ"
+    },
+    "stages": [
+      "output",
+      "roundTrip",
+      "secondPass"
+    ]
+  }
+]

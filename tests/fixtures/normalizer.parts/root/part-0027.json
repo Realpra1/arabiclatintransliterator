@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1925",
+    "input": "family",
+    "normalized": "famili",
+    "collapsed": "family"
+  },
+  {
+    "id": "normalizer/1926",
+    "input": "story",
+    "normalized": "sturi",
+    "collapsed": "story"
+  },
+  {
+    "id": "normalizer/1927",
+    "input": "mystery",
+    "normalized": "mistiri",
+    "collapsed": "mystery"
+  },
+  {
+    "id": "normalizer/1928",
+    "input": "symbol",
+    "normalized": "simbul",
+    "collapsed": "symbol"
+  },
+  {
+    "id": "normalizer/1929",
+    "input": "system",
+    "normalized": "sistim",
+    "collapsed": "system"
+  },
+  {
+    "id": "normalizer/1930",
+    "input": "boy",
+    "normalized": "buy",
+    "collapsed": "boy"
+  },
+  {
+    "id": "normalizer/1931",
+    "input": "toy",
+    "normalized": "tuy",
+    "collapsed": "toy"
+  },
+  {
+    "id": "normalizer/1932",
+    "input": "day",
+    "normalized": "day",
+    "collapsed": "day"
+  },
+  {
+    "id": "normalizer/1933",
+    "input": "say",
+    "normalized": "say",
+    "collapsed": "say"
+  },
+  {
+    "id": "normalizer/1934",
+    "input": "way",
+    "normalized": "way",
+    "collapsed": "way"
+  },
+  {
+    "id": "normalizer/1935",
+    "input": "key",
+    "normalized": "kiy",
+    "collapsed": "key"
+  },
+  {
+    "id": "normalizer/1936",
+    "input": "buy",
+    "normalized": "buy",
+    "collapsed": "buy"
+  },
+  {
+    "id": "normalizer/1937",
+    "input": "eye",
+    "normalized": "iyi",
+    "collapsed": "eye"
+  },
+  {
+    "id": "normalizer/1938",
+    "input": "layer",
+    "normalized": "layir",
+    "collapsed": "layer"
+  },
+  {
+    "id": "normalizer/1939",
+    "input": "player",
+    "normalized": "playir",
+    "collapsed": "player"
+  },
+  {
+    "id": "normalizer/1940",
+    "input": "phone",
+    "normalized": "phuni",
+    "collapsed": "phone"
+  },
+  {
+    "id": "normalizer/1941",
+    "input": "photo",
+    "normalized": "phutu",
+    "collapsed": "photo"
+  },
+  {
+    "id": "normalizer/1942",
+    "input": "photograph",
+    "normalized": "phutugraph",
+    "collapsed": "photograph"
+  },
+  {
+    "id": "normalizer/1943",
+    "input": "philosophy",
+    "normalized": "philusuphi",
+    "collapsed": "philosophy"
+  },
+  {
+    "id": "normalizer/1944",
+    "input": "physics",
+    "normalized": "phisiks",
+    "collapsed": "physics"
+  },
+  {
+    "id": "normalizer/1945",
+    "input": "graph",
+    "normalized": "graph",
+    "collapsed": "graph"
+  },
+  {
+    "id": "normalizer/1946",
+    "input": "elephant",
+    "normalized": "iliphant",
+    "collapsed": "elephant"
+  },
+  {
+    "id": "normalizer/1947",
+    "input": "ship",
+    "normalized": "ship",
+    "collapsed": "ship"
+  },
+  {
+    "id": "normalizer/1948",
+    "input": "sheep",
+    "normalized": "shīp",
+    "collapsed": "sheep"
+  },
+  {
+    "id": "normalizer/1949",
+    "input": "fish",
+    "normalized": "fish",
+    "collapsed": "fish"
+  },
+  {
+    "id": "normalizer/1950",
+    "input": "dish",
+    "normalized": "dish",
+    "collapsed": "dish"
+  },
+  {
+    "id": "normalizer/1951",
+    "input": "fashion",
+    "normalized": "fashiun",
+    "collapsed": "fashion"
+  },
+  {
+    "id": "normalizer/1952",
+    "input": "cashier",
+    "normalized": "kashīr",
+    "collapsed": "cashier"
+  },
+  {
+    "id": "normalizer/1953",
+    "input": "wish",
+    "normalized": "wish",
+    "collapsed": "wish"
+  },
+  {
+    "id": "normalizer/1954",
+    "input": "thin",
+    "normalized": "thin",
+    "collapsed": "thin"
+  },
+  {
+    "id": "normalizer/1955",
+    "input": "thing",
+    "normalized": "thing",
+    "collapsed": "thing"
+  },
+  {
+    "id": "normalizer/1956",
+    "input": "thick",
+    "normalized": "thikk",
+    "collapsed": "thick"
+  },
+  {
+    "id": "normalizer/1957",
+    "input": "this",
+    "normalized": "this",
+    "collapsed": "this"
+  },
+  {
+    "id": "normalizer/1958",
+    "input": "that",
+    "normalized": "that",
+    "collapsed": "that"
+  },
+  {
+    "id": "normalizer/1959",
+    "input": "the",
+    "normalized": "thi",
+    "collapsed": "the"
+  },
+  {
+    "id": "normalizer/1960",
+    "input": "other",
+    "normalized": "uthir",
+    "collapsed": "other"
+  },
+  {
+    "id": "normalizer/1961",
+    "input": "mother",
+    "normalized": "muthir",
+    "collapsed": "mother"
+  },
+  {
+    "id": "normalizer/1962",
+    "input": "clothes",
+    "normalized": "kluthis",
+    "collapsed": "clothes"
+  },
+  {
+    "id": "normalizer/1963",
+    "input": "ghost",
+    "normalized": "ghust",
+    "collapsed": "ghost"
+  },
+  {
+    "id": "normalizer/1964",
+    "input": "night",
+    "normalized": "night",
+    "collapsed": "night"
+  },
+  {
+    "id": "normalizer/1965",
+    "input": "light",
+    "normalized": "light",
+    "collapsed": "light"
+  },
+  {
+    "id": "normalizer/1966",
+    "input": "daughter",
+    "normalized": "daughtir",
+    "collapsed": "daughter"
+  },
+  {
+    "id": "normalizer/1967",
+    "input": "laugh",
+    "normalized": "laugh",
+    "collapsed": "laugh"
+  },
+  {
+    "id": "normalizer/1968",
+    "input": "cough",
+    "normalized": "kūgh",
+    "collapsed": "cough"
+  },
+  {
+    "id": "normalizer/1969",
+    "input": "rough",
+    "normalized": "rūgh",
+    "collapsed": "rough"
+  },
+  {
+    "id": "normalizer/1970",
+    "input": "through",
+    "normalized": "thrūgh",
+    "collapsed": "through"
+  },
+  {
+    "id": "normalizer/1971",
+    "input": "though",
+    "normalized": "thūgh",
+    "collapsed": "though"
+  },
+  {
+    "id": "normalizer/1972",
+    "input": "thought",
+    "normalized": "thūght",
+    "collapsed": "thought"
+  },
+  {
+    "id": "normalizer/1973",
+    "input": "thorough",
+    "normalized": "thurūgh",
+    "collapsed": "thorough"
+  },
+  {
+    "id": "normalizer/1974",
+    "input": "bough",
+    "normalized": "būgh",
+    "collapsed": "bough"
+  },
+  {
+    "id": "normalizer/1975",
+    "input": "knight",
+    "normalized": "knight",
+    "collapsed": "knight"
+  },
+  {
+    "id": "normalizer/1976",
+    "input": "knife",
+    "normalized": "knifi",
+    "collapsed": "knife"
+  },
+  {
+    "id": "normalizer/1977",
+    "input": "write",
+    "normalized": "writi",
+    "collapsed": "write"
+  },
+  {
+    "id": "normalizer/1978",
+    "input": "wrong",
+    "normalized": "wrung",
+    "collapsed": "wrong"
+  },
+  {
+    "id": "normalizer/1979",
+    "input": "queue",
+    "normalized": "quiui",
+    "collapsed": "queue"
+  },
+  {
+    "id": "normalizer/1980",
+    "input": "queen",
+    "normalized": "quīn",
+    "collapsed": "queen"
+  },
+  {
+    "id": "normalizer/1981",
+    "input": "quick",
+    "normalized": "quikk",
+    "collapsed": "quick"
+  },
+  {
+    "id": "normalizer/1982",
+    "input": "quay",
+    "normalized": "quay",
+    "collapsed": "quay"
+  },
+  {
+    "id": "normalizer/1983",
+    "input": "quite",
+    "normalized": "quiti",
+    "collapsed": "quite"
+  },
+  {
+    "id": "normalizer/1984",
+    "input": "quiet",
+    "normalized": "quīt",
+    "collapsed": "quiet"
+  },
+  {
+    "id": "normalizer/1985",
+    "input": "quit",
+    "normalized": "quit",
+    "collapsed": "quit"
+  },
+  {
+    "id": "normalizer/1986",
+    "input": "question",
+    "normalized": "quistiun",
+    "collapsed": "question"
+  },
+  {
+    "id": "normalizer/1987",
+    "input": "book",
+    "normalized": "būk",
+    "collapsed": "book"
+  },
+  {
+    "id": "normalizer/1988",
+    "input": "boot",
+    "normalized": "būt",
+    "collapsed": "boot"
+  },
+  {
+    "id": "normalizer/1989",
+    "input": "food",
+    "normalized": "fūd",
+    "collapsed": "food"
+  },
+  {
+    "id": "normalizer/1990",
+    "input": "good",
+    "normalized": "gūd",
+    "collapsed": "good"
+  },
+  {
+    "id": "normalizer/1991",
+    "input": "blood",
+    "normalized": "blūd",
+    "collapsed": "blood"
+  },
+  {
+    "id": "normalizer/1992",
+    "input": "flood",
+    "normalized": "flūd",
+    "collapsed": "flood"
+  },
+  {
+    "id": "normalizer/1993",
+    "input": "moon",
+    "normalized": "mūn",
+    "collapsed": "moon"
+  },
+  {
+    "id": "normalizer/1994",
+    "input": "room",
+    "normalized": "rūm",
+    "collapsed": "room"
+  },
+  {
+    "id": "normalizer/1995",
+    "input": "wood",
+    "normalized": "wūd",
+    "collapsed": "wood"
+  },
+  {
+    "id": "normalizer/1996",
+    "input": "see",
+    "normalized": "sī",
+    "collapsed": "see"
+  },
+  {
+    "id": "normalizer/1997",
+    "input": "seed",
+    "normalized": "sīd",
+    "collapsed": "seed"
+  },
+  {
+    "id": "normalizer/1998",
+    "input": "green",
+    "normalized": "grīn",
+    "collapsed": "green"
+  }
+]

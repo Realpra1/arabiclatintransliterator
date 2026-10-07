@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0028",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "anta, أنت/ماء — satasma-? من, إلى? lajla — 42 satasma-, kitāb shāj — شَمْسٌ/havā', شَمْسٌ غدًا\n\nrubbamā/á\n\nuN عائشة — min ",
+    "output": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+    "roundTrip": "اَنتَ، أَنت/mاء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن ",
+    "secondPass": "anta, ant/mā' — satasma-? mn, ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+    "before": {
+      "output": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+      "roundTrip": "اَنتَ، أَنت/mاء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن ",
+      "secondPass": "anta, ant/mā' — satasma-? mn, ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min "
+    },
+    "after": {
+      "output": "anta, 'ant/mā' — satasma-? mn, 'ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min ",
+      "roundTrip": "اَنتَ، أَنت/ماء — سةَسمَع؟ من، إِلى؟ لَيْلَ — 42 سةَسمَع، كِتاب شايْ — شَمسٌ/هَوْاء، شَمسٌ غدًا\n\nرُبَّما/ى\n\nٌ عاءشة — مِن ",
+      "secondPass": "anta, ant/mā' — satasma-? mn, ilá? lajla — 42 satasma-, kitāb shāj — shamsuN/havā', shamsuN ghdaNā\n\nrubbamā/á\n\nuN -ā'shat — min "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

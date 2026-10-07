@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0006",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "صباحًا, مدرسة? ستسمع, anta rubbamā — الذي? min — ā من — ٱلْبَيْتُ/uN — محمد? qahva, qahva/shaj', ستسمع/ghadaN\n\nشَمْسٌ/á\n\n‍/",
+    "output": "SbāHaNā, mdrsat? stsm-, anta rubbamā — aldhī? min — ā mn — albajtu/uN — mHmd? qahva, qahva/shaj', stsm-/ghadaN\n\nshamsuN/á\n\n‍/",
+    "roundTrip": "صباحًا، مدرسة؟ ستسمع، اَنتَ رُبَّما — اَلذِي؟ مِن — ا من — اَلبَيْتُ/ٌ — محمد؟ قَهوَ، قَهوَ/شَيْء، ستسمع/غَدً\n\nشَمسٌ/ى\n\n‍/",
+    "secondPass": "SbāHaNā, mdrsat? stsm-, anta rubbamā — aldhī? min — ā mn — albajtu/uN — mHmd? qahva, qahva/shaj', stsm-/ghadaN\n\nshamsuN/á\n\n‍/"
+  }
+]

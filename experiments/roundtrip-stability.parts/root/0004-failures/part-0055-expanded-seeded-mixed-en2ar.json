@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0031",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/",
+      "A1": "شيء — مدرسة/اَنا\n\nأمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِ/سِتِ، في/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمْسٌ/",
+      "L2": "shī' — mdrsat/anā\n\n'ams mdrsat — nHn? būk\n\nmHmd marHaba, mi/siti, fī/-alá — madrasat -lá\n\nvurld? ilá, Hajj ā, shamsuN/",
+      "A2": "شِيئ — مدرسة/اَنا\n\nأَمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِ/سِتِ، فِي/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمسٌ/",
+      "L3": "shī' — mdrsat/anā\n\nams mdrsat — nHn? būk\n\nmHmd marHaba, mi/siti, fī/-alá — madrasat -lá\n\nvurld? ilá, Hajj ā, shamsuN/",
+      "A3": "شِيئ — مدرسة/اَنا\n\nاَمس مدرسة — نحن؟ بُوك\n\nمحمد مَرحَبَ، مِ/سِتِ، فِي/عَلى — مَدرَسة على\n\nوُرلد؟ إِلى، حَيّ ا، شَمسٌ/"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0057",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "output": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSawt — hvā' min\n\nsu'āl? E=mc^2, ktāb/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "roundTrip": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/بُوك — سِتِي/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+    "secondPass": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — sitī/naHnu — kitāb? naHnu, kuffī alSavt — shaj' ",
+    "before": {
+      "output": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSawt — hvā' min\n\nsu'āl? E=mc^2, ktāb/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+      "roundTrip": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاb/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "secondPass": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' "
+    },
+    "after": {
+      "output": "fī — qār'? 'aHmd, -ā'shat aldhī\n\nsatasma- alSawt — hvā' min\n\nsu'āl? E=mc^2, ktāb/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+      "roundTrip": "فِي — قارء؟ أَحمد، عاءشة اَلذِي\n\nسةَسمَع اَلصَوْت — هوْاء مِن\n\nسُؤال؟ E=مك^2، كتاب/بُوك — سِتِ/نَحنُ — كِتاب؟ نَحنُ، كُفِّي اَلصَوْت — شَيْء ",
+      "secondPass": "fī — qār'? aHmd, -ā'shat aldhī\n\nsatasma- alSavt — hvā' min\n\nsu'āl? E=mk^2, ktāb/būk — siti/naHnu — kitāb? naHnu, kuffī alSavt — shaj' "
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

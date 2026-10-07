@@ -1,0 +1,309 @@
+{
+  "probes": [
+    {
+      "direction": "ar2en",
+      "input": "اً",
+      "before": "āaN",
+      "after": "āN",
+      "oldRoundTrip": "اً",
+      "newRoundTrip": "اً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "كتاباً",
+      "before": "ktābāaN",
+      "after": "ktābāN",
+      "oldRoundTrip": "كتاباً",
+      "newRoundTrip": "كتاباً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "كِتاباً",
+      "before": "kitābāaN",
+      "after": "kitābāN",
+      "oldRoundTrip": "كِتاباً",
+      "newRoundTrip": "كِتاباً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "كتابًا",
+      "before": "ktābaNā",
+      "after": "ktābaNā",
+      "oldRoundTrip": "كتابًا",
+      "newRoundTrip": "كتابًا"
+    },
+    {
+      "direction": "ar2en",
+      "input": "كِتَابًا",
+      "before": "kitābaNā",
+      "after": "kitābaNā",
+      "oldRoundTrip": "كِتابًا",
+      "newRoundTrip": "كِتابًا"
+    },
+    {
+      "direction": "ar2en",
+      "input": "شكرًا",
+      "before": "shkraNā",
+      "after": "shkraNā",
+      "oldRoundTrip": "شكرًا",
+      "newRoundTrip": "شكرًا"
+    },
+    {
+      "direction": "ar2en",
+      "input": "شكراً",
+      "before": "shkrāaN",
+      "after": "shkrāN",
+      "oldRoundTrip": "شكراً",
+      "newRoundTrip": "شكراً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "شكراً لك",
+      "before": "shkrāaN lk",
+      "after": "shkrāN lk",
+      "oldRoundTrip": "شكراً لك",
+      "newRoundTrip": "شكراً لك"
+    },
+    {
+      "direction": "ar2en",
+      "input": "بَاً",
+      "before": "bāaN",
+      "after": "bāN",
+      "oldRoundTrip": "باً",
+      "newRoundTrip": "باً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "باًّ",
+      "before": "bāaNb",
+      "after": "bāNb",
+      "oldRoundTrip": "باًب",
+      "newRoundTrip": "باًب"
+    },
+    {
+      "direction": "ar2en",
+      "input": "باًو",
+      "before": "bāaNū",
+      "after": "bāNū",
+      "oldRoundTrip": "باًُو",
+      "newRoundTrip": "باًُو"
+    },
+    {
+      "direction": "ar2en",
+      "input": "باًي",
+      "before": "bāaNī",
+      "after": "bāNī",
+      "oldRoundTrip": "باًِي",
+      "newRoundTrip": "باًِي"
+    },
+    {
+      "direction": "ar2en",
+      "input": "بًا",
+      "before": "baNā",
+      "after": "baNā",
+      "oldRoundTrip": "بًا",
+      "newRoundTrip": "بًا"
+    },
+    {
+      "direction": "ar2en",
+      "input": "آً",
+      "before": "'āaN",
+      "after": "'āaN",
+      "oldRoundTrip": "آً",
+      "newRoundTrip": "آً"
+    },
+    {
+      "direction": "ar2en",
+      "input": "سَتَسمَع",
+      "before": "satasma-",
+      "after": "satasma-",
+      "oldRoundTrip": "سةَسمَع",
+      "newRoundTrip": "سةَسمَع"
+    },
+    {
+      "direction": "en2ar",
+      "input": "āN",
+      "before": "اN",
+      "after": "اً",
+      "oldRoundTrip": "āN",
+      "newRoundTrip": "āN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "(āN)",
+      "before": "(اN)",
+      "after": "(اً)",
+      "oldRoundTrip": "(āN)",
+      "newRoundTrip": "(āN)"
+    },
+    {
+      "direction": "en2ar",
+      "input": "bāN",
+      "before": "باN",
+      "after": "باً",
+      "oldRoundTrip": "bāN",
+      "newRoundTrip": "bāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "shukrāN",
+      "before": "شُكراN",
+      "after": "شُكراً",
+      "oldRoundTrip": "shukrāN",
+      "newRoundTrip": "shukrāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "kitābāN",
+      "before": "كِتاباN",
+      "after": "كِتاباً",
+      "oldRoundTrip": "kitābāN",
+      "newRoundTrip": "kitābāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "kitābaN",
+      "before": "كِتابً",
+      "after": "كِتابً",
+      "oldRoundTrip": "kitābaN",
+      "newRoundTrip": "kitābaN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "aN",
+      "before": "ً",
+      "after": "ً",
+      "oldRoundTrip": "aN",
+      "newRoundTrip": "aN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "'āN",
+      "before": "آN",
+      "after": "أاً",
+      "oldRoundTrip": "'āN",
+      "newRoundTrip": "'aāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "āNāN",
+      "before": "اNاN",
+      "after": "اًاً",
+      "oldRoundTrip": "āNāN",
+      "newRoundTrip": "āNāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "baāN",
+      "before": "بَاN",
+      "after": "بَاً",
+      "oldRoundTrip": "bāN",
+      "newRoundTrip": "bāN"
+    },
+    {
+      "direction": "en2ar",
+      "input": "bāNw",
+      "before": "باNوْ",
+      "after": "باًوْ",
+      "oldRoundTrip": "bāNv",
+      "newRoundTrip": "bāNv"
+    },
+    {
+      "direction": "en2ar",
+      "input": "bāNj",
+      "before": "باNيْ",
+      "after": "باًيْ",
+      "oldRoundTrip": "bāNj",
+      "newRoundTrip": "bāNj"
+    },
+    {
+      "direction": "en2ar",
+      "input": "āN=2",
+      "before": "اN=2",
+      "after": "اً=2",
+      "oldRoundTrip": "āN=2",
+      "newRoundTrip": "āN=2"
+    },
+    {
+      "direction": "en2ar",
+      "input": "city",
+      "before": "سِتِي",
+      "after": "سِتِي",
+      "oldRoundTrip": "sitī",
+      "newRoundTrip": "sitī"
+    },
+    {
+      "direction": "en2ar",
+      "input": "xylophone",
+      "before": "سِيلُفُنِ",
+      "after": "سِيلُفُنِ",
+      "oldRoundTrip": "sīlufuni",
+      "newRoundTrip": "sīlufuni"
+    },
+    {
+      "direction": "en2ar",
+      "input": "cat",
+      "before": "كة",
+      "after": "كة",
+      "oldRoundTrip": "kat",
+      "newRoundTrip": "kat"
+    },
+    {
+      "direction": "en2ar",
+      "input": "cancer",
+      "before": "كَنسِر",
+      "after": "كَنسِر",
+      "oldRoundTrip": "kansir",
+      "newRoundTrip": "kansir"
+    },
+    {
+      "direction": "en2ar",
+      "input": "school",
+      "before": "ستجُول",
+      "after": "ستجُول",
+      "oldRoundTrip": "stJūl",
+      "newRoundTrip": "stJūl"
+    },
+    {
+      "direction": "en2ar",
+      "input": "cycle",
+      "before": "سِيكلِ",
+      "after": "سِيكلِ",
+      "oldRoundTrip": "sīkli",
+      "newRoundTrip": "sīkli"
+    },
+    {
+      "direction": "en2ar",
+      "input": "satasma-",
+      "before": "سةَسمَع",
+      "after": "سةَسمَع",
+      "oldRoundTrip": "satasma-",
+      "newRoundTrip": "satasma-"
+    }
+  ],
+  "roundTripStability": {
+    "lostExactRoundTrip": [
+      "expanded-ambiguous-tokenization/en2ar/0014"
+    ],
+    "gainedExactRoundTrip": [],
+    "lostStableOutput": [
+      "arabic-diacritics/ar2en/0524",
+      "expanded-ambiguous-tokenization/en2ar/0014"
+    ],
+    "gainedStableOutput": []
+  },
+  "documents": [
+    {
+      "id": "civilization-latin",
+      "forwardUnchanged": true,
+      "backUnchanged": true,
+      "secondPassUnchanged": true
+    },
+    {
+      "id": "civilization-supplied-arabic",
+      "forwardUnchanged": true,
+      "backUnchanged": true,
+      "secondPassUnchanged": true
+    }
+  ]
+}

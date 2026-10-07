@@ -1,0 +1,443 @@
+[
+  {
+    "id": "expanded-everyday/ar2en/0001",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "مرحبا",
+    "output": "mrHbā",
+    "roundTrip": "مرحبا",
+    "secondPass": "mrHbā"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0002",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أهلاً وسهلاً",
+    "output": "'ahlāN vshlāN",
+    "roundTrip": "أَهلاً وْشلاً",
+    "secondPass": "ahlāN vshlāN"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0003",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "السلام عليكم ورحمة الله",
+    "output": "alslām -līkm vrHmat allh",
+    "roundTrip": "اَلسلام علِيكم وْرحمة اَلّه",
+    "secondPass": "alslām -līkm vrHmat allh"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0004",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "وعليكم السلام",
+    "output": "v-līkm alslām",
+    "roundTrip": "وْعلِيكم اَلسلام",
+    "secondPass": "v-līkm alslām"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0005",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "صباح الخير",
+    "output": "SbāH alkhīr",
+    "roundTrip": "صباح اَلخِير",
+    "secondPass": "SbāH alkhīr"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0006",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "مساء الخير",
+    "output": "msā' alkhīr",
+    "roundTrip": "مساء اَلخِير",
+    "secondPass": "msā' alkhīr"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0007",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "تصبح على خير",
+    "output": "tSbH -lá khīr",
+    "roundTrip": "تصبح على خِير",
+    "secondPass": "tSbH -lá khīr"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0008",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "شكرًا جزيلًا",
+    "output": "shkraNā JzīlaNā",
+    "roundTrip": "شكرًا جزِيلًا",
+    "secondPass": "shkraNā JzīlaNā"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0009",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "عفوًا",
+    "output": "-fvaNā",
+    "roundTrip": "عفوًا",
+    "secondPass": "-fvaNā"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0010",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "من فضلك",
+    "output": "mn fDlk",
+    "roundTrip": "من فضلك",
+    "secondPass": "mn fDlk"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0011",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "كيف حالك؟",
+    "output": "kīf Hālk?",
+    "roundTrip": "كِيف حالك؟",
+    "secondPass": "kīf Hālk?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0012",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أنا بخير، وأنت؟",
+    "output": "'anā bkhīr, v'nt?",
+    "roundTrip": "أَنا بخِير، وأنت؟",
+    "secondPass": "anā bkhīr, v'nt?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0013",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "ما اسمك؟",
+    "output": "mā āsmk?",
+    "roundTrip": "ما اسمك؟",
+    "secondPass": "mā āsmk?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0014",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "اسمي ليلى.",
+    "output": "āsmī līlá.",
+    "roundTrip": "اسمِي لِيلى.",
+    "secondPass": "āsmī līlá."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0015",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أين تسكن؟",
+    "output": "'aīn tskn?",
+    "roundTrip": "أَِين تسكن؟",
+    "secondPass": "ajn tskn?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0016",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "لا أفهم.",
+    "output": "lā 'afhm.",
+    "roundTrip": "لا أَفهم.",
+    "secondPass": "lā afhm."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0017",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "هل تتكلم العربية؟",
+    "output": "hl ttklm al-rbīat?",
+    "roundTrip": "هل تّكلم اَلعربِية؟",
+    "secondPass": "hl ttklm al-rbīat?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0018",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أعد الكلام ببطء، من فضلك.",
+    "output": "'a-d alklām bbT', mn fDlk.",
+    "roundTrip": "أَعد اَلكلام بّطء، من فضلك.",
+    "secondPass": "a-d alklām bbT', mn fDlk."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0019",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "كم الساعة الآن؟",
+    "output": "km alsā-at al'ān?",
+    "roundTrip": "كم اَلساعة اَلآن؟",
+    "secondPass": "km alsā-at al'ān?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0020",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أريد كوبًا من الماء.",
+    "output": "'arīd kūbaNā mn almā'.",
+    "roundTrip": "أَرِيد كُوبًا من اَلماء.",
+    "secondPass": "arīd kūbaNā mn almā'."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0021",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "القهوة بدون سكر، والشاي مع الحليب.",
+    "output": "alqhūat bdūn skr, vālshāj m- alHlīb.",
+    "roundTrip": "اَلقهُوة بدُون سكر، والشايْ مع اَلحلِيب.",
+    "secondPass": "alqhūat bdūn skr, vālshāj m- alHlīb."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0022",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "بكم هذا الكتاب؟",
+    "output": "bkm hdhā alktāb?",
+    "roundTrip": "بكم هذا اَلكتاب؟",
+    "secondPass": "bkm hdhā alktāb?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0023",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أين محطة القطار؟",
+    "output": "'aīn mHTat alqTār?",
+    "roundTrip": "أَِين محطة اَلقطار؟",
+    "secondPass": "ajn mHTat alqTār?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0024",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "سأعود بعد خمس دقائق.",
+    "output": "s'-ūd b-d khms dqā'q.",
+    "roundTrip": "سءعُود بعد خمس دقاءق.",
+    "secondPass": "s'-ūd b-d khms dqā'q."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0025",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "اليوم الاثنين وغدًا الثلاثاء.",
+    "output": "alīvm alāthnīn vghdaNā althlāthā'.",
+    "roundTrip": "اَلِيوْم اَلاثنِين وْغدًا اَلثلاثاء.",
+    "secondPass": "alīvm alāthnīn vghdaNā althlāthā'."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0026",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "هذا بيتي وهذه مدرستي.",
+    "output": "hdhā bītī vhdhh mdrstī.",
+    "roundTrip": "هذا بِيتِي وْهذه مدرستِي.",
+    "secondPass": "hdhā bītī vhdhh mdrstī."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0027",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "اشتريت خبزًا وجبنًا وتفاحًا من السوق.",
+    "output": "āshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.",
+    "roundTrip": "اشترِيت خبزًا وْجبنًا وْتفاحًا من اَلسُوق.",
+    "secondPass": "āshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0028",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "ذهبت أمي إلى المستشفى صباحًا.",
+    "output": "dhhbt 'amī 'ilá almstshfá SbāHaNā.",
+    "roundTrip": "ذهبت أَمِي إِلى اَلمستشفى صباحًا.",
+    "secondPass": "dhhbt amī ilá almstshfá SbāHaNā."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0029",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "الطقس جميل، ولكن الرياح قوية.",
+    "output": "alTqs Jmīl, vlkn alrjāH qūjat.",
+    "roundTrip": "اَلطقس جمِيل، وْلكن اَلريْاح قُويْة.",
+    "secondPass": "alTqs Jmīl, vlkn alrjāH qūjat."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0030",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أحب القراءة والموسيقى والسفر.",
+    "output": "'aHb alqrā'at vālmūsīqá vālsfr.",
+    "roundTrip": "أَحب اَلقراءة والمُوسِيقى والسفر.",
+    "secondPass": "aHb alqrā'at vālmūsīqá vālsfr."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0031",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "رجاءً أغلق الباب وافتح النافذة.",
+    "output": "rJā'aN 'aghlq albāb vāftH alnāfdhat.",
+    "roundTrip": "رجاأً أَغلق اَلباب وافتح اَلنافذة.",
+    "secondPass": "rJā'aN aghlq albāb vāftH alnāfdhat."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0032",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "رقم الهاتف: +20 123 456 7890",
+    "output": "rqm alhātf: +20 123 456 7890",
+    "roundTrip": "رقم اَلهاتف: +20 123 456 7890",
+    "secondPass": "rqm alhātf: +20 123 456 7890"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0033",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "العنوان: شارع النور، مبنى ١٢، الطابق ٣.",
+    "output": "al-nvān: shār- alnūr, mbná ١٢, alTābq ٣.",
+    "roundTrip": "اَلعنوْان: شارع اَلنُور، مبنى ١٢، اَلطابق ٣.",
+    "secondPass": "al-nvān: shār- alnūr, mbná ١٢, alTābq ٣."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0034",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "السعر ١٢٫٥٠ ريالًا، والخصم ٢٠٪.",
+    "output": "als-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.",
+    "roundTrip": "اَلسعر ١٢٫٥٠ ريْالًا، والخصم ٢٠٪.",
+    "secondPass": "als-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0035",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "موعدنا يوم 2026-10-07 الساعة 08:30.",
+    "output": "mū-dnā īvm 2026-10-07 alsā-at 08:30.",
+    "roundTrip": "مُوعدنا ِيوْم 2026ع10ع07 اَلساعة 08:30.",
+    "secondPass": "mū-dnā īvm 2026-10-07 alsā-at 08:30."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0036",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "عبد الله بن محمد",
+    "output": "-bd allh bn mHmd",
+    "roundTrip": "عبد اَلّه بن محمد",
+    "secondPass": "-bd allh bn mHmd"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0037",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أحمد وإبراهيم وإسماعيل",
+    "output": "'aHmd v'brāhīm v'smā-īl",
+    "roundTrip": "أَحمد وأبراهِيم وأسماعِيل",
+    "secondPass": "aHmd v'brāhīm v'smā-īl"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0038",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "فاطمة، خديجة، عائشة، ومريم",
+    "output": "fāTmat, khdīJat, -ā'shat, vmrīm",
+    "roundTrip": "فاطمة، خدِيجة، عاءشة، وْمرِيم",
+    "secondPass": "fāTmat, khdīJat, -ā'shat, vmrīm"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0039",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "القاهرة، بيروت، دمشق، بغداد، الرباط، صنعاء",
+    "output": "alqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'",
+    "roundTrip": "اَلقاهرة، بِيرُوت، دمشق، بغداد، اَلرباط، صنعاء",
+    "secondPass": "alqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0040",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "مكة المكرمة والمدينة المنورة",
+    "output": "mkat almkrmat vālmdīnat almnūrat",
+    "roundTrip": "مكة اَلمكرمة والمدِينة اَلمنُورة",
+    "secondPass": "mkat almkrmat vālmdīnat almnūrat"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0041",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "شمس وقمر، ليل ونهار، ماء وهواء.",
+    "output": "shms vqmr, līl vnhār, mā' vhvā'.",
+    "roundTrip": "شمس وْقمر، لِيل وْنهار، ماء وْهوْاء.",
+    "secondPass": "shms vqmr, līl vnhār, mā' vhvā'."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0042",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "مدرسة جميلة، مكتبة كبيرة، شجرة عالية.",
+    "output": "mdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.",
+    "roundTrip": "مدرسة جمِيلة، مكتبة كبِيرة، شجرة عالِية.",
+    "secondPass": "mdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0043",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "مَرْحَبًا! كَيْفَ حَالُكَ الْيَوْمَ؟",
+    "output": "marHabaNā! kajfa Hāluka aljavma?",
+    "roundTrip": "مَرحَبًا! كَيْفَ حالُكَ اَليَوْمَ؟",
+    "secondPass": "marHabaNā! kajfa Hāluka aljavma?"
+  },
+  {
+    "id": "expanded-everyday/ar2en/0044",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أَنَا أَتَعَلَّمُ الْعَرَبِيَّةَ.",
+    "output": "anā ata-allamu al-arabijjāta.",
+    "roundTrip": "اَنا اَتَعَلَّمُ اَلعَرَبِيّاتَ.",
+    "secondPass": "anā ata-allamu al-arabijjāta."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0045",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "هَذَا كِتَابٌ جَدِيدٌ، وَتِلْكَ مَدْرَسَةٌ قَدِيمَةٌ.",
+    "output": "hadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.",
+    "roundTrip": "هَذا كِتابٌ جَدِيدٌ، وَتِلكَ مَدرَسةٌ قَدِيمةٌ.",
+    "secondPass": "hadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0046",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "إِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.",
+    "output": "inna alTTaāliba jaqra'u bihudū'iN.",
+    "roundTrip": "إِنَّ اَلطَّالِبَ يَقرَؤُ بِهُدُوإٍ.",
+    "secondPass": "inna alTTāliba jaqra'u bihudū'iN."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0047",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "وَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ.",
+    "output": "vaSala alqiTāru ilaá almaHaTTāti.",
+    "roundTrip": "وَصَلَ اَلقِطارُ إِلَى اَلمَحَطّاتِ.",
+    "secondPass": "vaSala alqiTāru ilaá almaHaTTāti."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0048",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "لا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.",
+    "output": "lā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh.",
+    "roundTrip": "لا، لم أَقرءه بعد؛ سءقرءه غدًا إِن شاء اَلّه.",
+    "secondPass": "lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh."
+  },
+  {
+    "id": "expanded-everyday/ar2en/0049",
+    "group": "expanded-everyday",
+    "direction": "ar2en",
+    "input": "أمس، اليوم، غدًا، وبعد غد.",
+    "output": "'ams, alīvm, ghdaNā, vb-d ghd.",
+    "roundTrip": "أَمس، اَلِيوْم، غدًا، وْبعد غد.",
+    "secondPass": "ams, alīvm, ghdaNā, vb-d ghd."
+  }
+]

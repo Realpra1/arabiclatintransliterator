@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0059",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "anta, هي/شيء — لا على\n\niN? su'āl, ghadaN? school\n\n🙂? alSawt\n\nnaHnu? marHaba — هواء rubbamā — school? ‍\n\nقهوة ربما, aN? ",
+    "output": "اَنتَ، هي/شيء — لا على\n\nٍ؟ سُؤال، غَدً؟ ستجُول\n\n🙂؟ اَلصَوْت\n\nنَحنُ؟ مَرحَبَ — هواء رُبَّما — ستجُول؟ ‍\n\nقهوة ربما، ً؟ ",
+    "roundTrip": "anta, hī/shī' — lā -lá\n\niN? su'āl, ghadaN? stJūl\n\n🙂? alSavt\n\nnaHnu? marHaba — hvā' rubbamā — stJūl? ‍\n\nqhūat rbmā, aN? ",
+    "secondPass": "اَنتَ، هِي/شِيئ — لا على\n\nٍ؟ سُؤال، غَدً؟ ستجُول\n\n🙂؟ اَلصَوْت\n\nنَحنُ؟ مَرحَبَ — هوْاء رُبَّما — ستجُول؟ ‍\n\nقهُوة ربما، ً؟ "
+  }
+]

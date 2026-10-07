@@ -1,3 +1,4 @@
+import { writeJsonArtifact } from './lib/json-artifacts.mjs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
@@ -107,7 +108,7 @@ const examples = ['CO2', '(CO2)', 'KU2', '12CO', 'CO2Na', 'Na2CO3', 'H2O', 'H2SO
 const temporary = mkdtempSync(join(tmpdir(), 'arabiclatin-digit-protection-'));
 let testSummary;
 try {
-  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests']) cpSync(new URL(file, root), join(temporary, file), { recursive: true });
+  for (const file of [...translatorFiles, 'ArabicEnglishAlphabetTranslator.html', 'tests', 'scripts/lib']) cpSync(new URL(file, root), join(temporary, file), { recursive: true });
   writeFileSync(join(temporary, 'latin-normalizer.js'), candidateSource);
   cpSync(new URL(`experiments/${experimentName}.test.mjs`, root), join(temporary, 'tests/digit-protection.test.mjs'));
   const testFiles = readdirSync(join(temporary, 'tests')).filter(file => file.endsWith('.test.mjs')).sort().map(file => `tests/${file}`);
@@ -128,8 +129,8 @@ try {
   rmSync(temporary, { recursive: true, force: true });
 }
 const sourceSha256 = Object.fromEntries(translatorFiles.map(file => [file, createHash('sha256').update(readFileSync(new URL(file, root))).digest('hex')]));
-writeFileSync(new URL(`experiments/${experimentName}.json`, root), JSON.stringify({
+writeJsonArtifact(new URL(`experiments/${experimentName}.json`, root), {
   description: `Isolated trial: protect each run of at least ${minimumLetters} Latin letters (ASCII plus ā/ī/ū/á) immediately before or after an ASCII digit, before case folding and alias normalization. Other symbols do not activate this new rule; existing single-letter protection remains. Production source and fixtures unchanged.`,
   sourceSha256, counts, testSummary, stability, documents, examples, changes,
-}, null, 2) + '\n');
+});
 console.log(JSON.stringify({ counts, testSummary, stability: { checks: stability.checks, baselineFailed: stability.baselineFailed, candidateFailed: stability.candidateFailed, newlyFailing: stability.newlyFailing.length, fixed: stability.fixed.length }, documents: documents.map(d => ({ id: d.id, unchanged: d.unchanged })), examples }, null, 2));

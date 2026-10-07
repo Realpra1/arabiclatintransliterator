@@ -1,0 +1,443 @@
+[
+  {
+    "id": "arabic-words/ar2en/0001",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "العربية",
+    "output": "al-rbīat",
+    "roundTrip": "اَلعربِية",
+    "secondPass": "al-rbīat"
+  },
+  {
+    "id": "arabic-words/ar2en/0002",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "الْعَرَبِيَّةُ",
+    "output": "al-arabijjātu",
+    "roundTrip": "اَلعَرَبِيّاتُ",
+    "secondPass": "al-arabijjātu"
+  },
+  {
+    "id": "arabic-words/ar2en/0003",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "السَّلَامُ عَلَيْكُمْ",
+    "output": "alssalāmu -alajkum",
+    "roundTrip": "اَلسَّلامُ عَلَيْكُم",
+    "secondPass": "alssalāmu -alajkum"
+  },
+  {
+    "id": "arabic-words/ar2en/0004",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بِسْمِ اللَّهِ",
+    "output": "bismi alllahi",
+    "roundTrip": "بِسمِ اَلّلَهِ",
+    "secondPass": "bismi alllahi"
+  },
+  {
+    "id": "arabic-words/ar2en/0005",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "حَضَارَةٌ فِي صَفْحَةٍ وَاحِدَةٍ",
+    "output": "HaDāratuN fī SafHatiN vāHidatiN",
+    "roundTrip": "حَضارةٌ فِي صَفحةٍ واحِدةٍ",
+    "secondPass": "HaDāratuN fī SafHatiN vāHidatiN"
+  },
+  {
+    "id": "arabic-words/ar2en/0006",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "مَرْحَبًا بِالْعَالَمِ",
+    "output": "marHabaNā biāl-ālami",
+    "roundTrip": "مَرحَبًا بِالعالَمِ",
+    "secondPass": "marHabaNā biāl-ālami"
+  },
+  {
+    "id": "arabic-words/ar2en/0007",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "كِتَابٌ",
+    "output": "kitābuN",
+    "roundTrip": "كِتابٌ",
+    "secondPass": "kitābuN"
+  },
+  {
+    "id": "arabic-words/ar2en/0008",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "كِتَابٍ",
+    "output": "kitābiN",
+    "roundTrip": "كِتابٍ",
+    "secondPass": "kitābiN"
+  },
+  {
+    "id": "arabic-words/ar2en/0009",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "كِتَابًا",
+    "output": "kitābaNā",
+    "roundTrip": "كِتابًا",
+    "secondPass": "kitābaNā"
+  },
+  {
+    "id": "arabic-words/ar2en/0010",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "شَدَّة",
+    "output": "shaddāt",
+    "roundTrip": "شَدّات",
+    "secondPass": "shaddāt"
+  },
+  {
+    "id": "arabic-words/ar2en/0011",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "شَدَّة",
+    "output": "shaddat",
+    "roundTrip": "شَدّة",
+    "secondPass": "shaddat"
+  },
+  {
+    "id": "arabic-words/ar2en/0012",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "قُوَّة",
+    "output": "quvvāt",
+    "roundTrip": "قُوّات",
+    "secondPass": "quvvāt"
+  },
+  {
+    "id": "arabic-words/ar2en/0013",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "قُوَّة",
+    "output": "quvvat",
+    "roundTrip": "قُوّة",
+    "secondPass": "quvvat"
+  },
+  {
+    "id": "arabic-words/ar2en/0014",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "حَيّ",
+    "output": "Hajj",
+    "roundTrip": "حَيّ",
+    "secondPass": "Hajj"
+  },
+  {
+    "id": "arabic-words/ar2en/0015",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "عَرَبِيّ",
+    "output": "-arabijj",
+    "roundTrip": "عَرَبِيّ",
+    "secondPass": "-arabijj"
+  },
+  {
+    "id": "arabic-words/ar2en/0016",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "عَرَبِيَّة",
+    "output": "-arabijjat",
+    "roundTrip": "عَرَبِيّة",
+    "secondPass": "-arabijjat"
+  },
+  {
+    "id": "arabic-words/ar2en/0017",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "عَرَبِيَّة",
+    "output": "-arabijjāt",
+    "roundTrip": "عَرَبِيّات",
+    "secondPass": "-arabijjāt"
+  },
+  {
+    "id": "arabic-words/ar2en/0018",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "وَالْكِتَابُ",
+    "output": "vālkitābu",
+    "roundTrip": "والكِتابُ",
+    "secondPass": "vālkitābu"
+  },
+  {
+    "id": "arabic-words/ar2en/0019",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "فَالْكِتَابُ",
+    "output": "fālkitābu",
+    "roundTrip": "فالكِتابُ",
+    "secondPass": "fālkitābu"
+  },
+  {
+    "id": "arabic-words/ar2en/0020",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "لِلْكِتَابِ",
+    "output": "lilkitābi",
+    "roundTrip": "لِلكِتابِ",
+    "secondPass": "lilkitābi"
+  },
+  {
+    "id": "arabic-words/ar2en/0021",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "للكتاب",
+    "output": "lilktāb",
+    "roundTrip": "لِلكتاب",
+    "secondPass": "lilktāb"
+  },
+  {
+    "id": "arabic-words/ar2en/0022",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "للناس",
+    "output": "lilnās",
+    "roundTrip": "لِلناس",
+    "secondPass": "lilnās"
+  },
+  {
+    "id": "arabic-words/ar2en/0023",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "الْأَمْرُ",
+    "output": "al'amru",
+    "roundTrip": "اَلأَمرُ",
+    "secondPass": "al'amru"
+  },
+  {
+    "id": "arabic-words/ar2en/0024",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بِأَمْرٍ",
+    "output": "bi'amriN",
+    "roundTrip": "بِئَمرٍ",
+    "secondPass": "bi'amriN"
+  },
+  {
+    "id": "arabic-words/ar2en/0025",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱلْكِتَابُ",
+    "output": "alkitābu",
+    "roundTrip": "اَلكِتابُ",
+    "secondPass": "alkitābu"
+  },
+  {
+    "id": "arabic-words/ar2en/0026",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱكْتُبْ",
+    "output": "uktub",
+    "roundTrip": "أُكتُب",
+    "secondPass": "uktub"
+  },
+  {
+    "id": "arabic-words/ar2en/0027",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱسْم",
+    "output": "ism",
+    "roundTrip": "إِسم",
+    "secondPass": "ism"
+  },
+  {
+    "id": "arabic-words/ar2en/0028",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "وَٱكْتُبْ",
+    "output": "vaktub",
+    "roundTrip": "وَكتُب",
+    "secondPass": "vaktub"
+  },
+  {
+    "id": "arabic-words/ar2en/0029",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "فَٱلْكِتَاب",
+    "output": "falkitāb",
+    "roundTrip": "فَلكِتاب",
+    "secondPass": "falkitāb"
+  },
+  {
+    "id": "arabic-words/ar2en/0030",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱل",
+    "output": "al",
+    "roundTrip": "اَل",
+    "secondPass": "al"
+  },
+  {
+    "id": "arabic-words/ar2en/0031",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱ",
+    "output": "i",
+    "roundTrip": "إِ",
+    "secondPass": "i"
+  },
+  {
+    "id": "arabic-words/ar2en/0032",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ٱُ",
+    "output": "ū",
+    "roundTrip": "ُو",
+    "secondPass": "ū"
+  },
+  {
+    "id": "arabic-words/ar2en/0033",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "آدَم",
+    "output": "'ādam",
+    "roundTrip": "آدَم",
+    "secondPass": "'ādam"
+  },
+  {
+    "id": "arabic-words/ar2en/0034",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "آ",
+    "output": "'ā",
+    "roundTrip": "آ",
+    "secondPass": "'ā"
+  },
+  {
+    "id": "arabic-words/ar2en/0035",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أَكَلَ",
+    "output": "akala",
+    "roundTrip": "اَكَلَ",
+    "secondPass": "akala"
+  },
+  {
+    "id": "arabic-words/ar2en/0036",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "إِنَّ",
+    "output": "inna",
+    "roundTrip": "إِنَّ",
+    "secondPass": "inna"
+  },
+  {
+    "id": "arabic-words/ar2en/0037",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أُمّ",
+    "output": "umm",
+    "roundTrip": "أُمّ",
+    "secondPass": "umm"
+  },
+  {
+    "id": "arabic-words/ar2en/0038",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "أمر",
+    "output": "'amr",
+    "roundTrip": "أَمر",
+    "secondPass": "amr"
+  },
+  {
+    "id": "arabic-words/ar2en/0039",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "إنسان",
+    "output": "'insān",
+    "roundTrip": "إِنسان",
+    "secondPass": "insān"
+  },
+  {
+    "id": "arabic-words/ar2en/0040",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "سَأَلَ",
+    "output": "sa'ala",
+    "roundTrip": "سَءَلَ",
+    "secondPass": "sa'ala"
+  },
+  {
+    "id": "arabic-words/ar2en/0041",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "سُؤَال",
+    "output": "su'āl",
+    "roundTrip": "سُؤال",
+    "secondPass": "su'āl"
+  },
+  {
+    "id": "arabic-words/ar2en/0042",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "بِئْر",
+    "output": "bi'r",
+    "roundTrip": "بِئر",
+    "secondPass": "bi'r"
+  },
+  {
+    "id": "arabic-words/ar2en/0043",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "شَيْء",
+    "output": "shaj'",
+    "roundTrip": "شَيْء",
+    "secondPass": "shaj'"
+  },
+  {
+    "id": "arabic-words/ar2en/0044",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "مَاء",
+    "output": "mā'",
+    "roundTrip": "ماء",
+    "secondPass": "mā'"
+  },
+  {
+    "id": "arabic-words/ar2en/0045",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "مَاءٌ",
+    "output": "mā'uN",
+    "roundTrip": "ماؤٌ",
+    "secondPass": "mā'uN"
+  },
+  {
+    "id": "arabic-words/ar2en/0046",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "هَٰذَا",
+    "output": "haādhā",
+    "roundTrip": "هَاذا",
+    "secondPass": "hādhā"
+  },
+  {
+    "id": "arabic-words/ar2en/0047",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "الرَّحْمَٰن",
+    "output": "alrraHmaān",
+    "roundTrip": "اَلرَّحمَان",
+    "secondPass": "alrraHmān"
+  },
+  {
+    "id": "arabic-words/ar2en/0048",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "كــتــاب",
+    "output": "ktāb",
+    "roundTrip": "كتاب",
+    "secondPass": "ktāb"
+  },
+  {
+    "id": "arabic-words/ar2en/0049",
+    "group": "arabic-words",
+    "direction": "ar2en",
+    "input": "ـــ",
+    "output": "",
+    "roundTrip": "",
+    "secondPass": ""
+  }
+]

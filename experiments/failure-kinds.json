@@ -1,0 +1,320 @@
+{
+  "description": "Counts concern existing failing input cases, not unique dictionary words. Curated natural Arabic is manually identified from the word list and everyday/continuous-text groups. Random real-word arrangements are counted separately from sentences. Synthetic probes may coincidentally contain real words; they are not dictionary-validated. Continuous texts include three concatenations of the everyday phrase list, so those four failures are not four independent language defects.",
+  "summary": {
+    "inputCases": 5511,
+    "checks": 11022,
+    "passed": 10447,
+    "failed": 575,
+    "failingInputCases": 385,
+    "byRule": {
+      "Latin input: Latin L2 = L3": {
+        "checks": 3238,
+        "passed": 3108,
+        "failed": 130
+      },
+      "Latin input: Arabic A2 = A3": {
+        "checks": 3238,
+        "passed": 3117,
+        "failed": 121
+      },
+      "Arabic input: Latin L2 = L3": {
+        "checks": 2273,
+        "passed": 2204,
+        "failed": 69
+      },
+      "Arabic input: Arabic A2 = A3": {
+        "checks": 2273,
+        "passed": 2018,
+        "failed": 255
+      }
+    }
+  },
+  "categories": {
+    "Latin-start inputs": {
+      "inputCases": 130,
+      "failedAssertions": 251,
+      "latinComparisons": 130,
+      "arabicComparisons": 121
+    },
+    "Synthetic letter, mark, boundary, and spelling probes": {
+      "inputCases": 59,
+      "failedAssertions": 97,
+      "latinComparisons": 38,
+      "arabicComparisons": 59
+    },
+    "Curated natural Arabic": {
+      "inputCases": 21,
+      "failedAssertions": 21,
+      "latinComparisons": 0,
+      "arabicComparisons": 21
+    },
+    "Random arrangements of real Arabic words": {
+      "inputCases": 99,
+      "failedAssertions": 99,
+      "latinComparisons": 0,
+      "arabicComparisons": 99
+    },
+    "Random Arabic characters and marks": {
+      "inputCases": 44,
+      "failedAssertions": 75,
+      "latinComparisons": 31,
+      "arabicComparisons": 44
+    },
+    "Random mixed Arabic/Latin text": {
+      "inputCases": 32,
+      "failedAssertions": 32,
+      "latinComparisons": 0,
+      "arabicComparisons": 32
+    }
+  },
+  "naturalTypes": {
+    "standaloneWords": 3,
+    "everydayPhrases": 14,
+    "continuousTexts": 4
+  },
+  "naturalCases": [
+    {
+      "id": "arabic-words/ar2en/0038",
+      "kind": "word",
+      "input": "أمر",
+      "explanation": {
+        "latin": "amr",
+        "meaning": "matter / command"
+      },
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'amr",
+      "L2": "amr",
+      "L3": "amr"
+    },
+    {
+      "id": "arabic-words/ar2en/0046",
+      "kind": "word",
+      "input": "هَٰذَا",
+      "explanation": {
+        "latin": "hādhā",
+        "meaning": "this"
+      },
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "haādhā",
+      "L2": "hādhā",
+      "L3": "hādhā"
+    },
+    {
+      "id": "arabic-words/ar2en/0047",
+      "kind": "word",
+      "input": "الرَّحْمَٰن",
+      "explanation": {
+        "latin": "al-Raḥmān",
+        "meaning": "the Most Merciful"
+      },
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "alrraHmaān",
+      "L2": "alrraHmān",
+      "L3": "alrraHmān"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0002",
+      "kind": "phrase",
+      "input": "أهلاً وسهلاً",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'ahlāN vshlāN",
+      "L2": "ahlāN vshlāN",
+      "L3": "ahlāN vshlāN"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0012",
+      "kind": "phrase",
+      "input": "أنا بخير، وأنت؟",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'anā bkhīr, v'nt?",
+      "L2": "anā bkhīr, v'nt?",
+      "L3": "anā bkhīr, v'nt?"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0015",
+      "kind": "phrase",
+      "input": "أين تسكن؟",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'aīn tskn?",
+      "L2": "ajn tskn?",
+      "L3": "ajn tskn?"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0016",
+      "kind": "phrase",
+      "input": "لا أفهم.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "lā 'afhm.",
+      "L2": "lā afhm.",
+      "L3": "lā afhm."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0018",
+      "kind": "phrase",
+      "input": "أعد الكلام ببطء، من فضلك.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'a-d alklām bbT', mn fDlk.",
+      "L2": "a-d alklām bbT', mn fDlk.",
+      "L3": "a-d alklām bbT', mn fDlk."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0020",
+      "kind": "phrase",
+      "input": "أريد كوبًا من الماء.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'arīd kūbaNā mn almā'.",
+      "L2": "arīd kūbaNā mn almā'.",
+      "L3": "arīd kūbaNā mn almā'."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0023",
+      "kind": "phrase",
+      "input": "أين محطة القطار؟",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'aīn mHTat alqTār?",
+      "L2": "ajn mHTat alqTār?",
+      "L3": "ajn mHTat alqTār?"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0028",
+      "kind": "phrase",
+      "input": "ذهبت أمي إلى المستشفى صباحًا.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "dhhbt 'amī 'ilá almstshfá SbāHaNā.",
+      "L2": "dhhbt amī ilá almstshfá SbāHaNā.",
+      "L3": "dhhbt amī ilá almstshfá SbāHaNā."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0030",
+      "kind": "phrase",
+      "input": "أحب القراءة والموسيقى والسفر.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'aHb alqrā'at vālmūsīqá vālsfr.",
+      "L2": "aHb alqrā'at vālmūsīqá vālsfr.",
+      "L3": "aHb alqrā'at vālmūsīqá vālsfr."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0031",
+      "kind": "phrase",
+      "input": "رجاءً أغلق الباب وافتح النافذة.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "rJā'aN 'aghlq albāb vāftH alnāfdhat.",
+      "L2": "rJā'aN aghlq albāb vāftH alnāfdhat.",
+      "L3": "rJā'aN aghlq albāb vāftH alnāfdhat."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0037",
+      "kind": "phrase",
+      "input": "أحمد وإبراهيم وإسماعيل",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'aHmd v'brāhīm v'smā-īl",
+      "L2": "aHmd v'brāhīm v'smā-īl",
+      "L3": "aHmd v'brāhīm v'smā-īl"
+    },
+    {
+      "id": "expanded-everyday/ar2en/0046",
+      "kind": "phrase",
+      "input": "إِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "inna alTTaāliba jaqra'u bihudū'iN.",
+      "L2": "inna alTTāliba jaqra'u bihudū'iN.",
+      "L3": "inna alTTāliba jaqra'u bihudū'iN."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0048",
+      "kind": "phrase",
+      "input": "لا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "lā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh.",
+      "L2": "lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.",
+      "L3": "lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh."
+    },
+    {
+      "id": "expanded-everyday/ar2en/0049",
+      "kind": "phrase",
+      "input": "أمس، اليوم، غدًا، وبعد غد.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "'ams, alīvm, ghdaNā, vb-d ghd.",
+      "L2": "ams, alīvm, ghdaNā, vb-d ghd.",
+      "L3": "ams, alīvm, ghdaNā, vb-d ghd."
+    },
+    {
+      "id": "expanded-continuous-text/ar2en/0001",
+      "kind": "continuous text",
+      "input": "استيقظت ليلى مبكرًا وفتحت النافذة. كان المطر خفيفًا، والشارع هادئًا.\nقالت لأخيها: «هل ستسمع صوت العصافير إذا سكتنا قليلًا؟»\n\nبعد الإفطار، أخذت كتابًا وقلمًا وذهبت إلى المكتبة. عند الباب وجدت ورقةً كُتب عليها: نفتح الساعة ٩:٣٠؛ أهلًا بالجميع!",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "āstīqZt līlá mbkraNā vftHt alnāfdhat. kān almTr khfīfaNā, vālshār- hād'aNā.\nqālt l'khīhā: «hl stsm- Sūt al-Sāfīr 'idhā sktnā qlīlaNā?»\n\nb-d al'fTār, 'akhdht ktābaNā vqlmaNā vdhhbt 'ilá almktbat. -nd albāb vJdt vrqataN kutb -līhā: nftH alsā-at ٩:٣٠; 'ahlaNā bālJmī-!",
+      "L2": "āstīqZt līlá mbkraNā vftHt alnāfdhat. kān almTr khfīfaNā, vālshār- hād'aNā.\nqālt l'khīhā: «hl stsm- Sūt al-Sāfīr idhā sktnā qlīlaNā?»\n\nb-d al'fTār, akhdht ktābaNā vqlmaNā vdhhbt ilá almktbat. -nd albāb vJdt vrqataN kutb -līhā: nftH alsā-at ٩:٣٠; ahlaNā bālJmī-!",
+      "L3": "āstīqZt līlá mbkraNā vftHt alnāfdhat. kān almTr khfīfaNā, vālshār- hād'aNā.\nqālt l'khīhā: «hl stsm- Sūt al-Sāfīr idhā sktnā qlīlaNā?»\n\nb-d al'fTār, akhdht ktābaNā vqlmaNā vdhhbt ilá almktbat. -nd albāb vJdt vrqataN kutb -līhā: nftH alsā-at ٩:٣٠; ahlaNā bālJmī-!"
+    },
+    {
+      "id": "expanded-continuous-text/ar2en/0002",
+      "kind": "continuous text",
+      "input": "مرحبا أهلاً وسهلاً السلام عليكم ورحمة الله وعليكم السلام صباح الخير مساء الخير تصبح على خير شكرًا جزيلًا عفوًا من فضلك كيف حالك؟ أنا بخير، وأنت؟ ما اسمك؟ اسمي ليلى. أين تسكن؟ لا أفهم. هل تتكلم العربية؟ أعد الكلام ببطء، من فضلك. كم الساعة الآن؟ أريد كوبًا من الماء. القهوة بدون سكر، والشاي مع الحليب. بكم هذا الكتاب؟ أين محطة القطار؟ سأعود بعد خمس دقائق. اليوم الاثنين وغدًا الثلاثاء. هذا بيتي وهذه مدرستي. اشتريت خبزًا وجبنًا وتفاحًا من السوق. ذهبت أمي إلى المستشفى صباحًا. الطقس جميل، ولكن الرياح قوية. أحب القراءة والموسيقى والسفر. رجاءً أغلق الباب وافتح النافذة. رقم الهاتف: +20 123 456 7890 العنوان: شارع النور، مبنى ١٢، الطابق ٣. السعر ١٢٫٥٠ ريالًا، والخصم ٢٠٪. موعدنا يوم 2026-10-07 الساعة 08:30. عبد الله بن محمد أحمد وإبراهيم وإسماعيل فاطمة، خديجة، عائشة، ومريم القاهرة، بيروت، دمشق، بغداد، الرباط، صنعاء مكة المكرمة والمدينة المنورة شمس وقمر، ليل ونهار، ماء وهواء. مدرسة جميلة، مكتبة كبيرة، شجرة عالية. مَرْحَبًا! كَيْفَ حَالُكَ الْيَوْمَ؟ أَنَا أَتَعَلَّمُ الْعَرَبِيَّةَ. هَذَا كِتَابٌ جَدِيدٌ، وَتِلْكَ مَدْرَسَةٌ قَدِيمَةٌ. إِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ. وَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ. لا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله. أمس، اليوم، غدًا، وبعد غد.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "mrHbā 'ahlāN vshlāN alslām -līkm vrHmat allh v-līkm alslām SbāH alkhīr msā' alkhīr tSbH -lá khīr shkraNā JzīlaNā -fvaNā mn fDlk kīf Hālk? 'anā bkhīr, v'nt? mā āsmk? āsmī līlá. 'aīn tskn? lā 'afhm. hl ttklm al-rbīat? 'a-d alklām bbT', mn fDlk. km alsā-at al'ān? 'arīd kūbaNā mn almā'. alqhūat bdūn skr, vālshāj m- alHlīb. bkm hdhā alktāb? 'aīn mHTat alqTār? s'-ūd b-d khms dqā'q. alīvm alāthnīn vghdaNā althlāthā'. hdhā bītī vhdhh mdrstī. āshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq. dhhbt 'amī 'ilá almstshfá SbāHaNā. alTqs Jmīl, vlkn alrjāH qūjat. 'aHb alqrā'at vālmūsīqá vālsfr. rJā'aN 'aghlq albāb vāftH alnāfdhat. rqm alhātf: +20 123 456 7890 al-nvān: shār- alnūr, mbná ١٢, alTābq ٣. als-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪. mū-dnā īvm 2026-10-07 alsā-at 08:30. -bd allh bn mHmd 'aHmd v'brāhīm v'smā-īl fāTmat, khdīJat, -ā'shat, vmrīm alqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā' mkat almkrmat vālmdīnat almnūrat shms vqmr, līl vnhār, mā' vhvā'. mdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat. marHabaNā! kajfa Hāluka aljavma? anā ata-allamu al-arabijjāta. hadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN. inna alTTaāliba jaqra'u bihudū'iN. vaSala alqiTāru ilaá almaHaTTāti. lā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh. 'ams, alīvm, ghdaNā, vb-d ghd.",
+      "L2": "mrHbā ahlāN vshlāN alslām -līkm vrHmat allh v-līkm alslām SbāH alkhīr msā' alkhīr tSbH -lá khīr shkraNā JzīlaNā -fvaNā mn fDlk kīf Hālk? anā bkhīr, v'nt? mā āsmk? āsmī līlá. ajn tskn? lā afhm. hl ttklm al-rbīat? a-d alklām bbT', mn fDlk. km alsā-at al'ān? arīd kūbaNā mn almā'. alqhūat bdūn skr, vālshāj m- alHlīb. bkm hdhā alktāb? ajn mHTat alqTār? s'-ūd b-d khms dqā'q. alīvm alāthnīn vghdaNā althlāthā'. hdhā bītī vhdhh mdrstī. āshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq. dhhbt amī ilá almstshfá SbāHaNā. alTqs Jmīl, vlkn alrjāH qūjat. aHb alqrā'at vālmūsīqá vālsfr. rJā'aN aghlq albāb vāftH alnāfdhat. rqm alhātf: +20 123 456 7890 al-nvān: shār- alnūr, mbná ١٢, alTābq ٣. als-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪. mū-dnā īvm 2026-10-07 alsā-at 08:30. -bd allh bn mHmd aHmd v'brāhīm v'smā-īl fāTmat, khdīJat, -ā'shat, vmrīm alqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā' mkat almkrmat vālmdīnat almnūrat shms vqmr, līl vnhār, mā' vhvā'. mdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat. marHabaNā! kajfa Hāluka aljavma? anā ata-allamu al-arabijjāta. hadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN. inna alTTāliba jaqra'u bihudū'iN. vaSala alqiTāru ilaá almaHaTTāti. lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh. ams, alīvm, ghdaNā, vb-d ghd.",
+      "L3": "mrHbā ahlāN vshlāN alslām -līkm vrHmat allh v-līkm alslām SbāH alkhīr msā' alkhīr tSbH -lá khīr shkraNā JzīlaNā -fvaNā mn fDlk kīf Hālk? anā bkhīr, v'nt? mā āsmk? āsmī līlá. ajn tskn? lā afhm. hl ttklm al-rbīat? a-d alklām bbT', mn fDlk. km alsā-at al'ān? arīd kūbaNā mn almā'. alqhūat bdūn skr, vālshāj m- alHlīb. bkm hdhā alktāb? ajn mHTat alqTār? s'-ūd b-d khms dqā'q. alīvm alāthnīn vghdaNā althlāthā'. hdhā bītī vhdhh mdrstī. āshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq. dhhbt amī ilá almstshfá SbāHaNā. alTqs Jmīl, vlkn alrjāH qūjat. aHb alqrā'at vālmūsīqá vālsfr. rJā'aN aghlq albāb vāftH alnāfdhat. rqm alhātf: +20 123 456 7890 al-nvān: shār- alnūr, mbná ١٢, alTābq ٣. als-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪. mū-dnā īvm 2026-10-07 alsā-at 08:30. -bd allh bn mHmd aHmd v'brāhīm v'smā-īl fāTmat, khdīJat, -ā'shat, vmrīm alqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā' mkat almkrmat vālmdīnat almnūrat shms vqmr, līl vnhār, mā' vhvā'. mdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat. marHabaNā! kajfa Hāluka aljavma? anā ata-allamu al-arabijjāta. hadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN. inna alTTāliba jaqra'u bihudū'iN. vaSala alqiTāru ilaá almaHaTTāti. lā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh. ams, alīvm, ghdaNā, vb-d ghd."
+    },
+    {
+      "id": "expanded-continuous-text/ar2en/0003",
+      "kind": "continuous text",
+      "input": "مرحبا\nأهلاً وسهلاً\nالسلام عليكم ورحمة الله\nوعليكم السلام\nصباح الخير\nمساء الخير\nتصبح على خير\nشكرًا جزيلًا\nعفوًا\nمن فضلك\nكيف حالك؟\nأنا بخير، وأنت؟\nما اسمك؟\nاسمي ليلى.\nأين تسكن؟\nلا أفهم.\nهل تتكلم العربية؟\nأعد الكلام ببطء، من فضلك.\nكم الساعة الآن؟\nأريد كوبًا من الماء.\nالقهوة بدون سكر، والشاي مع الحليب.\nبكم هذا الكتاب؟\nأين محطة القطار؟\nسأعود بعد خمس دقائق.\nاليوم الاثنين وغدًا الثلاثاء.\nهذا بيتي وهذه مدرستي.\nاشتريت خبزًا وجبنًا وتفاحًا من السوق.\nذهبت أمي إلى المستشفى صباحًا.\nالطقس جميل، ولكن الرياح قوية.\nأحب القراءة والموسيقى والسفر.\nرجاءً أغلق الباب وافتح النافذة.\nرقم الهاتف: +20 123 456 7890\nالعنوان: شارع النور، مبنى ١٢، الطابق ٣.\nالسعر ١٢٫٥٠ ريالًا، والخصم ٢٠٪.\nموعدنا يوم 2026-10-07 الساعة 08:30.\nعبد الله بن محمد\nأحمد وإبراهيم وإسماعيل\nفاطمة، خديجة، عائشة، ومريم\nالقاهرة، بيروت، دمشق، بغداد، الرباط، صنعاء\nمكة المكرمة والمدينة المنورة\nشمس وقمر، ليل ونهار، ماء وهواء.\nمدرسة جميلة، مكتبة كبيرة، شجرة عالية.\nمَرْحَبًا! كَيْفَ حَالُكَ الْيَوْمَ؟\nأَنَا أَتَعَلَّمُ الْعَرَبِيَّةَ.\nهَذَا كِتَابٌ جَدِيدٌ، وَتِلْكَ مَدْرَسَةٌ قَدِيمَةٌ.\nإِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.\nوَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ.\nلا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.\nأمس، اليوم، غدًا، وبعد غد.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "mrHbā\n'ahlāN vshlāN\nalslām -līkm vrHmat allh\nv-līkm alslām\nSbāH alkhīr\nmsā' alkhīr\ntSbH -lá khīr\nshkraNā JzīlaNā\n-fvaNā\nmn fDlk\nkīf Hālk?\n'anā bkhīr, v'nt?\nmā āsmk?\nāsmī līlá.\n'aīn tskn?\nlā 'afhm.\nhl ttklm al-rbīat?\n'a-d alklām bbT', mn fDlk.\nkm alsā-at al'ān?\n'arīd kūbaNā mn almā'.\nalqhūat bdūn skr, vālshāj m- alHlīb.\nbkm hdhā alktāb?\n'aīn mHTat alqTār?\ns'-ūd b-d khms dqā'q.\nalīvm alāthnīn vghdaNā althlāthā'.\nhdhā bītī vhdhh mdrstī.\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\ndhhbt 'amī 'ilá almstshfá SbāHaNā.\nalTqs Jmīl, vlkn alrjāH qūjat.\n'aHb alqrā'at vālmūsīqá vālsfr.\nrJā'aN 'aghlq albāb vāftH alnāfdhat.\nrqm alhātf: +20 123 456 7890\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n-bd allh bn mHmd\n'aHmd v'brāhīm v'smā-īl\nfāTmat, khdīJat, -ā'shat, vmrīm\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\nmkat almkrmat vālmdīnat almnūrat\nshms vqmr, līl vnhār, mā' vhvā'.\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\nmarHabaNā! kajfa Hāluka aljavma?\nanā ata-allamu al-arabijjāta.\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\ninna alTTaāliba jaqra'u bihudū'iN.\nvaSala alqiTāru ilaá almaHaTTāti.\nlā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh.\n'ams, alīvm, ghdaNā, vb-d ghd.",
+      "L2": "mrHbā\nahlāN vshlāN\nalslām -līkm vrHmat allh\nv-līkm alslām\nSbāH alkhīr\nmsā' alkhīr\ntSbH -lá khīr\nshkraNā JzīlaNā\n-fvaNā\nmn fDlk\nkīf Hālk?\nanā bkhīr, v'nt?\nmā āsmk?\nāsmī līlá.\najn tskn?\nlā afhm.\nhl ttklm al-rbīat?\na-d alklām bbT', mn fDlk.\nkm alsā-at al'ān?\narīd kūbaNā mn almā'.\nalqhūat bdūn skr, vālshāj m- alHlīb.\nbkm hdhā alktāb?\najn mHTat alqTār?\ns'-ūd b-d khms dqā'q.\nalīvm alāthnīn vghdaNā althlāthā'.\nhdhā bītī vhdhh mdrstī.\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\ndhhbt amī ilá almstshfá SbāHaNā.\nalTqs Jmīl, vlkn alrjāH qūjat.\naHb alqrā'at vālmūsīqá vālsfr.\nrJā'aN aghlq albāb vāftH alnāfdhat.\nrqm alhātf: +20 123 456 7890\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n-bd allh bn mHmd\naHmd v'brāhīm v'smā-īl\nfāTmat, khdīJat, -ā'shat, vmrīm\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\nmkat almkrmat vālmdīnat almnūrat\nshms vqmr, līl vnhār, mā' vhvā'.\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\nmarHabaNā! kajfa Hāluka aljavma?\nanā ata-allamu al-arabijjāta.\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\ninna alTTāliba jaqra'u bihudū'iN.\nvaSala alqiTāru ilaá almaHaTTāti.\nlā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.\nams, alīvm, ghdaNā, vb-d ghd.",
+      "L3": "mrHbā\nahlāN vshlāN\nalslām -līkm vrHmat allh\nv-līkm alslām\nSbāH alkhīr\nmsā' alkhīr\ntSbH -lá khīr\nshkraNā JzīlaNā\n-fvaNā\nmn fDlk\nkīf Hālk?\nanā bkhīr, v'nt?\nmā āsmk?\nāsmī līlá.\najn tskn?\nlā afhm.\nhl ttklm al-rbīat?\na-d alklām bbT', mn fDlk.\nkm alsā-at al'ān?\narīd kūbaNā mn almā'.\nalqhūat bdūn skr, vālshāj m- alHlīb.\nbkm hdhā alktāb?\najn mHTat alqTār?\ns'-ūd b-d khms dqā'q.\nalīvm alāthnīn vghdaNā althlāthā'.\nhdhā bītī vhdhh mdrstī.\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\ndhhbt amī ilá almstshfá SbāHaNā.\nalTqs Jmīl, vlkn alrjāH qūjat.\naHb alqrā'at vālmūsīqá vālsfr.\nrJā'aN aghlq albāb vāftH alnāfdhat.\nrqm alhātf: +20 123 456 7890\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n-bd allh bn mHmd\naHmd v'brāhīm v'smā-īl\nfāTmat, khdīJat, -ā'shat, vmrīm\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\nmkat almkrmat vālmdīnat almnūrat\nshms vqmr, līl vnhār, mā' vhvā'.\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\nmarHabaNā! kajfa Hāluka aljavma?\nanā ata-allamu al-arabijjāta.\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\ninna alTTāliba jaqra'u bihudū'iN.\nvaSala alqiTāru ilaá almaHaTTāti.\nlā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.\nams, alīvm, ghdaNā, vb-d ghd."
+    },
+    {
+      "id": "expanded-continuous-text/ar2en/0004",
+      "kind": "continuous text",
+      "input": "مرحبا\n\nأهلاً وسهلاً\n\nالسلام عليكم ورحمة الله\n\nوعليكم السلام\n\nصباح الخير\n\nمساء الخير\n\nتصبح على خير\n\nشكرًا جزيلًا\n\nعفوًا\n\nمن فضلك\n\nكيف حالك؟\n\nأنا بخير، وأنت؟\n\nما اسمك؟\n\nاسمي ليلى.\n\nأين تسكن؟\n\nلا أفهم.\n\nهل تتكلم العربية؟\n\nأعد الكلام ببطء، من فضلك.\n\nكم الساعة الآن؟\n\nأريد كوبًا من الماء.\n\nالقهوة بدون سكر، والشاي مع الحليب.\n\nبكم هذا الكتاب؟\n\nأين محطة القطار؟\n\nسأعود بعد خمس دقائق.\n\nاليوم الاثنين وغدًا الثلاثاء.\n\nهذا بيتي وهذه مدرستي.\n\nاشتريت خبزًا وجبنًا وتفاحًا من السوق.\n\nذهبت أمي إلى المستشفى صباحًا.\n\nالطقس جميل، ولكن الرياح قوية.\n\nأحب القراءة والموسيقى والسفر.\n\nرجاءً أغلق الباب وافتح النافذة.\n\nرقم الهاتف: +20 123 456 7890\n\nالعنوان: شارع النور، مبنى ١٢، الطابق ٣.\n\nالسعر ١٢٫٥٠ ريالًا، والخصم ٢٠٪.\n\nموعدنا يوم 2026-10-07 الساعة 08:30.\n\nعبد الله بن محمد\n\nأحمد وإبراهيم وإسماعيل\n\nفاطمة، خديجة، عائشة، ومريم\n\nالقاهرة، بيروت، دمشق، بغداد، الرباط، صنعاء\n\nمكة المكرمة والمدينة المنورة\n\nشمس وقمر، ليل ونهار، ماء وهواء.\n\nمدرسة جميلة، مكتبة كبيرة، شجرة عالية.\n\nمَرْحَبًا! كَيْفَ حَالُكَ الْيَوْمَ؟\n\nأَنَا أَتَعَلَّمُ الْعَرَبِيَّةَ.\n\nهَذَا كِتَابٌ جَدِيدٌ، وَتِلْكَ مَدْرَسَةٌ قَدِيمَةٌ.\n\nإِنَّ الطَّالِبَ يَقْرَأُ بِهُدُوءٍ.\n\nوَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ.\n\nلا، لم أقرأه بعد؛ سأقرأه غدًا إن شاء الله.\n\nأمس، اليوم، غدًا، وبعد غد.",
+      "failedRules": [
+        "Arabic input: Arabic A2 = A3"
+      ],
+      "L1": "mrHbā\n\n'ahlāN vshlāN\n\nalslām -līkm vrHmat allh\n\nv-līkm alslām\n\nSbāH alkhīr\n\nmsā' alkhīr\n\ntSbH -lá khīr\n\nshkraNā JzīlaNā\n\n-fvaNā\n\nmn fDlk\n\nkīf Hālk?\n\n'anā bkhīr, v'nt?\n\nmā āsmk?\n\nāsmī līlá.\n\n'aīn tskn?\n\nlā 'afhm.\n\nhl ttklm al-rbīat?\n\n'a-d alklām bbT', mn fDlk.\n\nkm alsā-at al'ān?\n\n'arīd kūbaNā mn almā'.\n\nalqhūat bdūn skr, vālshāj m- alHlīb.\n\nbkm hdhā alktāb?\n\n'aīn mHTat alqTār?\n\ns'-ūd b-d khms dqā'q.\n\nalīvm alāthnīn vghdaNā althlāthā'.\n\nhdhā bītī vhdhh mdrstī.\n\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\n\ndhhbt 'amī 'ilá almstshfá SbāHaNā.\n\nalTqs Jmīl, vlkn alrjāH qūjat.\n\n'aHb alqrā'at vālmūsīqá vālsfr.\n\nrJā'aN 'aghlq albāb vāftH alnāfdhat.\n\nrqm alhātf: +20 123 456 7890\n\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\n\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\n\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n\n-bd allh bn mHmd\n\n'aHmd v'brāhīm v'smā-īl\n\nfāTmat, khdīJat, -ā'shat, vmrīm\n\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\n\nmkat almkrmat vālmdīnat almnūrat\n\nshms vqmr, līl vnhār, mā' vhvā'.\n\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\n\nmarHabaNā! kajfa Hāluka aljavma?\n\nanā ata-allamu al-arabijjāta.\n\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\n\ninna alTTaāliba jaqra'u bihudū'iN.\n\nvaSala alqiTāru ilaá almaHaTTāti.\n\nlā, lm 'aqr'h b-d; s'qr'h ghdaNā 'in shā' allh.\n\n'ams, alīvm, ghdaNā, vb-d ghd.",
+      "L2": "mrHbā\n\nahlāN vshlāN\n\nalslām -līkm vrHmat allh\n\nv-līkm alslām\n\nSbāH alkhīr\n\nmsā' alkhīr\n\ntSbH -lá khīr\n\nshkraNā JzīlaNā\n\n-fvaNā\n\nmn fDlk\n\nkīf Hālk?\n\nanā bkhīr, v'nt?\n\nmā āsmk?\n\nāsmī līlá.\n\najn tskn?\n\nlā afhm.\n\nhl ttklm al-rbīat?\n\na-d alklām bbT', mn fDlk.\n\nkm alsā-at al'ān?\n\narīd kūbaNā mn almā'.\n\nalqhūat bdūn skr, vālshāj m- alHlīb.\n\nbkm hdhā alktāb?\n\najn mHTat alqTār?\n\ns'-ūd b-d khms dqā'q.\n\nalīvm alāthnīn vghdaNā althlāthā'.\n\nhdhā bītī vhdhh mdrstī.\n\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\n\ndhhbt amī ilá almstshfá SbāHaNā.\n\nalTqs Jmīl, vlkn alrjāH qūjat.\n\naHb alqrā'at vālmūsīqá vālsfr.\n\nrJā'aN aghlq albāb vāftH alnāfdhat.\n\nrqm alhātf: +20 123 456 7890\n\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\n\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\n\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n\n-bd allh bn mHmd\n\naHmd v'brāhīm v'smā-īl\n\nfāTmat, khdīJat, -ā'shat, vmrīm\n\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\n\nmkat almkrmat vālmdīnat almnūrat\n\nshms vqmr, līl vnhār, mā' vhvā'.\n\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\n\nmarHabaNā! kajfa Hāluka aljavma?\n\nanā ata-allamu al-arabijjāta.\n\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\n\ninna alTTāliba jaqra'u bihudū'iN.\n\nvaSala alqiTāru ilaá almaHaTTāti.\n\nlā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.\n\nams, alīvm, ghdaNā, vb-d ghd.",
+      "L3": "mrHbā\n\nahlāN vshlāN\n\nalslām -līkm vrHmat allh\n\nv-līkm alslām\n\nSbāH alkhīr\n\nmsā' alkhīr\n\ntSbH -lá khīr\n\nshkraNā JzīlaNā\n\n-fvaNā\n\nmn fDlk\n\nkīf Hālk?\n\nanā bkhīr, v'nt?\n\nmā āsmk?\n\nāsmī līlá.\n\najn tskn?\n\nlā afhm.\n\nhl ttklm al-rbīat?\n\na-d alklām bbT', mn fDlk.\n\nkm alsā-at al'ān?\n\narīd kūbaNā mn almā'.\n\nalqhūat bdūn skr, vālshāj m- alHlīb.\n\nbkm hdhā alktāb?\n\najn mHTat alqTār?\n\ns'-ūd b-d khms dqā'q.\n\nalīvm alāthnīn vghdaNā althlāthā'.\n\nhdhā bītī vhdhh mdrstī.\n\nāshtrīt khbzaNā vJbnaNā vtfāHaNā mn alsūq.\n\ndhhbt amī ilá almstshfá SbāHaNā.\n\nalTqs Jmīl, vlkn alrjāH qūjat.\n\naHb alqrā'at vālmūsīqá vālsfr.\n\nrJā'aN aghlq albāb vāftH alnāfdhat.\n\nrqm alhātf: +20 123 456 7890\n\nal-nvān: shār- alnūr, mbná ١٢, alTābq ٣.\n\nals-r ١٢٫٥٠ rjālaNā, vālkhSm ٢٠٪.\n\nmū-dnā īvm 2026-10-07 alsā-at 08:30.\n\n-bd allh bn mHmd\n\naHmd v'brāhīm v'smā-īl\n\nfāTmat, khdīJat, -ā'shat, vmrīm\n\nalqāhrat, bīrūt, dmshq, bghdād, alrbāT, Sn-ā'\n\nmkat almkrmat vālmdīnat almnūrat\n\nshms vqmr, līl vnhār, mā' vhvā'.\n\nmdrsat Jmīlat, mktbat kbīrat, shJrat -ālīat.\n\nmarHabaNā! kajfa Hāluka aljavma?\n\nanā ata-allamu al-arabijjāta.\n\nhadhā kitābuN JadīduN, vatilka madrasatuN qadīmatuN.\n\ninna alTTāliba jaqra'u bihudū'iN.\n\nvaSala alqiTāru ilaá almaHaTTāti.\n\nlā, lm aqr'h b-d; s'qr'h ghdaNā in shā' allh.\n\nams, alīvm, ghdaNā, vb-d ghd."
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0064",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "في\nلا؛ ماء+مدرسة؛ شيء\nهذه لا\nشيء؛ أحمد+هي نحن غدًا مساءً صوت؛ نحن!",
+    "output": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; 'aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!",
+    "roundTrip": "فِي\nلا؛ ماء+مدرسة؛ شِيئ\nهذه لا\nشِيئ؛ أَحمد+hِي نحن غدًا مساأً صُوت؛ نحن!",
+    "secondPass": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!",
+    "before": {
+      "output": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; 'aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!",
+      "roundTrip": "فِي\nلا؛ ماء+مدرسة؛ شِيئ\nهذه لا\nشِيئ؛ أَحمد+hِي نحن غدًا مساأً صُوت؛ نحن!",
+      "secondPass": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!"
+    },
+    "after": {
+      "output": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; 'aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!",
+      "roundTrip": "فِي\nلا؛ ماء+مدرسة؛ شِيئ\nهذه لا\nشِيئ؛ أَحمد+هِي نحن غدًا مساأً صُوت؛ نحن!",
+      "secondPass": "fī\nlā; mā'+mdrsat; shī'\nhdhh lā\nshī'; aHmd+hī nHn ghdaNā msā'aN Sūt; nHn!"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0065",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "ستسمع — ٱلْبَيْتُ? ليلى, حَيّ/اليوم\n\nالذي ٱلْبَيْتُ — نعم? مسؤول, نعم/لأن, أمس? على\n\nهواء نعم, اليوم/هواء\n\nنافذة/لأن — أنت? نافذة, اليوم? حَيّ\n\nكتاب نعم — هؤلاء عائشة\n\nلأن/من — من/هو, نعم? ٱلْبَيْتُ\n\nهو? مسؤول — ستسمع/أمس — ستسمع من — ستسمع/هو\n\nاليوم/اليوم — عائشة؟",
+    "output": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, 'ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — 'ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?",
+    "roundTrip": "ستسمع — اَلبَيْتُ؟ لِيلى، حَيّ/الِيوْم\n\nاَلذِي اَلبَيْتُ — نعم؟ مسؤُول، نعm/lأن، أَمس؟ على\n\nهوْاء نعم، اَلِيوْم/هوْاء\n\nنافذة/lأن — أَنت؟ نافذة، اَلِيوْم؟ حَيّ\n\nكتاب نعم — هءلاء عاءشة\n\nلأn/من — من/hُو، نعم؟ اَلبَيْتُ\n\nهُو؟ مسؤُول — ستسمع/أمس — ستسمع من — ستسمع/hُو\n\nاَلِيوْم/الِيوْم — عاءشة؟",
+    "secondPass": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?",
+    "before": {
+      "output": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, 'ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — 'ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?",
+      "roundTrip": "ستسمع — اَلبَيْتُ؟ لِيلى، حَيّ/الِيوْم\n\nاَلذِي اَلبَيْتُ — نعم؟ مسؤُول، نعm/lأن، أَمس؟ على\n\nهوْاء نعم، اَلِيوْم/هوْاء\n\nنافذة/lأن — أَنت؟ نافذة، اَلِيوْم؟ حَيّ\n\nكتاب نعم — هءلاء عاءشة\n\nلأn/من — من/hُو، نعم؟ اَلبَيْتُ\n\nهُو؟ مسؤُول — ستسمع/أمس — ستسمع من — ستسمع/hُو\n\nاَلِيوْم/الِيوْم — عاءشة؟",
+      "secondPass": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?"
+    },
+    "after": {
+      "output": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, 'ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — 'ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?",
+      "roundTrip": "ستسمع — اَلبَيْتُ؟ لِيلى، حَيّ/الِيوْم\n\nاَلذِي اَلبَيْتُ — نعم؟ مسؤُول، نعm/lأن، أَمس؟ على\n\nهوْاء نعم، اَلِيوْم/هوْاء\n\nنافذة/lأن — أَنت؟ نافذة، اَلِيوْم؟ حَيّ\n\nكتاب نعم — هءلاء عاءشة\n\nلأn/من — من/هُو، نعم؟ اَلبَيْتُ\n\nهُو؟ مسؤُول — ستسمع/أمس — ستسمع من — ستسمع/هُو\n\nاَلِيوْم/الِيوْم — عاءشة؟",
+      "secondPass": "stsm- — albajtu? līlá, Hajj/ālīvm\n\naldhī albajtu — n-m? ms'ūl, n-m/l'n, ams? -lá\n\nhvā' n-m, alīvm/hvā'\n\nnāfdhat/l'n — ant? nāfdhat, alīvm? Hajj\n\nktāb n-m — h'lā' -ā'shat\n\nl'n/mn — mn/hū, n-m? albajtu\n\nhū? ms'ūl — stsm-/'ms — stsm- mn — stsm-/hū\n\nalīvm/ālīvm — -ā'shat?"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0066",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قارئ+صوت\tفي\nقُوَّة\tقارئ+ربما ماء\n",
+    "output": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n",
+    "roundTrip": "قارء+Sُوت\tفِي\nقُوّات\tقارء+ربما ماء\n",
+    "secondPass": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n",
+    "before": {
+      "output": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n",
+      "roundTrip": "قارء+Sُوت\tفِي\nقُوّات\tقارء+ربما ماء\n",
+      "secondPass": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n"
+    },
+    "after": {
+      "output": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n",
+      "roundTrip": "قارء+صُوت\tفِي\nقُوّات\tقارء+ربما ماء\n",
+      "secondPass": "qār'+Sūt\tfī\nquvvāt\tqār'+rbmā mā'\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0067",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "هؤلاء, شاي/من — ليلى/لأن — هواء? هواء\n\nأمس? ليلى — شاي/صباحًا — الذي? أمس — على",
+    "output": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\n'ams? līlá — shāj/SbāHaNā — aldhī? 'ams — -lá",
+    "roundTrip": "هءلاء، شاj/من — لِيلى/lأن — هوْاء؟ هوْاء\n\nأَمس؟ لِيلى — شاj/صباحًا — اَلذِي؟ أَمس — على",
+    "secondPass": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\nams? līlá — shāj/SbāHaNā — aldhī? ams — -lá",
+    "before": {
+      "output": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\n'ams? līlá — shāj/SbāHaNā — aldhī? 'ams — -lá",
+      "roundTrip": "هءلاء، شاj/من — لِيلى/lأن — هوْاء؟ هوْاء\n\nأَمس؟ لِيلى — شاj/صباحًا — اَلذِي؟ أَمس — على",
+      "secondPass": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\nams? līlá — shāj/SbāHaNā — aldhī? ams — -lá"
+    },
+    "after": {
+      "output": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\n'ams? līlá — shāj/SbāHaNā — aldhī? 'ams — -lá",
+      "roundTrip": "هءلاء، شايْ/من — لِيلى/lأن — هوْاء؟ هوْاء\n\nأَمس؟ لِيلى — شايْ/صباحًا — اَلذِي؟ أَمس — على",
+      "secondPass": "h'lā', shāj/mn — līlá/l'n — hvā'? hvā'\n\nams? līlá — shāj/SbāHaNā — aldhī? ams — -lá"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0068",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "غدًا\nماء أحمد قُوَّة لكن\nشيء قُوَّة قُوَّة؛ لكن أنا؛ شيء\nلا؛ غدًا\nلا؛ مساءً هي\tلا+هي؛ مساءً قارئ\tمدرسة+لكن؛ ماء مدرسة شَمْسٌ\nشَمْسٌ\tربما\nشيء\tأحمد\nقهوة قُوَّة\nشَمْسٌ إلى+قهوة لكن\nمساءً قارئ\nمدرسة؛ هذه!",
+    "output": "ghdaNā\nmā' 'aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn 'anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\t'aHmd\nqhūat quvvāt\nshamsuN 'ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!",
+    "roundTrip": "غدًا\nماء أَحمد قُوّات لكن\nشِيئ قُوّات قُوّات؛ لكن أَنا؛ شِيئ\nلا؛ غدًا\nلا؛ مساأً هِي\tلا+hِي؛ مساأً قارء\tمدرسة+لكن؛ ماء مدرسة شَمسٌ\nشَمسٌ\tربما\nشِيئ\tأَحمد\nقهُوة قُوّات\nشَمسٌ إِلى+قهُوة لكن\nمساأً قارء\nمدرسة؛ هذه!",
+    "secondPass": "ghdaNā\nmā' aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\taHmd\nqhūat quvvāt\nshamsuN ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!",
+    "before": {
+      "output": "ghdaNā\nmā' 'aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn 'anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\t'aHmd\nqhūat quvvāt\nshamsuN 'ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!",
+      "roundTrip": "غدًا\nماء أَحمد قُوّات لكن\nشِيئ قُوّات قُوّات؛ لكن أَنا؛ شِيئ\nلا؛ غدًا\nلا؛ مساأً هِي\tلا+hِي؛ مساأً قارء\tمدرسة+لكن؛ ماء مدرسة شَمسٌ\nشَمسٌ\tربما\nشِيئ\tأَحمد\nقهُوة قُوّات\nشَمسٌ إِلى+قهُوة لكن\nمساأً قارء\nمدرسة؛ هذه!",
+      "secondPass": "ghdaNā\nmā' aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\taHmd\nqhūat quvvāt\nshamsuN ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!"
+    },
+    "after": {
+      "output": "ghdaNā\nmā' 'aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn 'anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\t'aHmd\nqhūat quvvāt\nshamsuN 'ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!",
+      "roundTrip": "غدًا\nماء أَحمد قُوّات لكن\nشِيئ قُوّات قُوّات؛ لكن أَنا؛ شِيئ\nلا؛ غدًا\nلا؛ مساأً هِي\tلا+هِي؛ مساأً قارء\tمدرسة+لكن؛ ماء مدرسة شَمسٌ\nشَمسٌ\tربما\nشِيئ\tأَحمد\nقهُوة قُوّات\nشَمسٌ إِلى+قهُوة لكن\nمساأً قارء\nمدرسة؛ هذه!",
+      "secondPass": "ghdaNā\nmā' aHmd quvvāt lkn\nshī' quvvāt quvvāt; lkn anā; shī'\nlā; ghdaNā\nlā; msā'aN hī\tlā+hī; msā'aN qār'\tmdrsat+lkn; mā' mdrsat shamsuN\nshamsuN\trbmā\nshī'\taHmd\nqhūat quvvāt\nshamsuN ilá+qhūat lkn\nmsā'aN qār'\nmdrsat; hdhh!"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0072",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "لكن+صوت قهوة\nصوت؛ في\nهي أحمد+مدرسة مدرسة محمد؛ قُوَّة أحمد\tأنا+ربما هي لكن؛ شَمْسٌ",
+    "output": "lkn+Sūt qhūat\nSūt; fī\nhī 'aHmd+mdrsat mdrsat mHmd; quvvāt 'aHmd\t'anā+rbmā hī lkn; shamsuN",
+    "roundTrip": "لكن+Sُوت قهُوة\nصُوت؛ فِي\nهِي أَحمد+مدرسة مدرسة محمد؛ قُوّات أَحمد\tأَنا+ربما هِي لكن؛ شَمسٌ",
+    "secondPass": "lkn+Sūt qhūat\nSūt; fī\nhī aHmd+mdrsat mdrsat mHmd; quvvāt aHmd\tanā+rbmā hī lkn; shamsuN",
+    "before": {
+      "output": "lkn+Sūt qhūat\nSūt; fī\nhī 'aHmd+mdrsat mdrsat mHmd; quvvāt 'aHmd\t'anā+rbmā hī lkn; shamsuN",
+      "roundTrip": "لكن+Sُوت قهُوة\nصُوت؛ فِي\nهِي أَحمد+مدرسة مدرسة محمد؛ قُوّات أَحمد\tأَنا+ربما هِي لكن؛ شَمسٌ",
+      "secondPass": "lkn+Sūt qhūat\nSūt; fī\nhī aHmd+mdrsat mdrsat mHmd; quvvāt aHmd\tanā+rbmā hī lkn; shamsuN"
+    },
+    "after": {
+      "output": "lkn+Sūt qhūat\nSūt; fī\nhī 'aHmd+mdrsat mdrsat mHmd; quvvāt 'aHmd\t'anā+rbmā hī lkn; shamsuN",
+      "roundTrip": "لكن+صُوت قهُوة\nصُوت؛ فِي\nهِي أَحمد+مدرسة مدرسة محمد؛ قُوّات أَحمد\tأَنا+ربما هِي لكن؛ شَمسٌ",
+      "secondPass": "lkn+Sūt qhūat\nSūt; fī\nhī aHmd+mdrsat mdrsat mHmd; quvvāt aHmd\tanā+rbmā hī lkn; shamsuN"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0073",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "شاي — شاي ليلى\n\nنافذة/أمس, ليلى/على — ستسمع? عائشة\n\nمسؤول/حَيّ\n\nالذي/الذي — من لأن, من حَيّ — أنت? حَيّ — ٱلْبَيْتُ? شاي — هواء شاي\n\nمسؤول؟",
+    "output": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — 'ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?",
+    "roundTrip": "شايْ — شايْ لِيلى\n\nنافذة/أمس، لِيلى/على — ستسمع؟ عاءشة\n\nمسؤُوl/حَيّ\n\nاَلذِي/الذِي — من لأن، من حَيّ — أَنت؟ حَيّ — اَلبَيْتُ؟ شايْ — هوْاء شايْ\n\nمسؤُول؟",
+    "secondPass": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?",
+    "before": {
+      "output": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — 'ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?",
+      "roundTrip": "شايْ — شايْ لِيلى\n\nنافذة/أمس، لِيلى/على — ستسمع؟ عاءشة\n\nمسؤُوl/حَيّ\n\nاَلذِي/الذِي — من لأن، من حَيّ — أَنت؟ حَيّ — اَلبَيْتُ؟ شايْ — هوْاء شايْ\n\nمسؤُول؟",
+      "secondPass": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?"
+    },
+    "after": {
+      "output": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — 'ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?",
+      "roundTrip": "شايْ — شايْ لِيلى\n\nنافذة/أمس، لِيلى/على — ستسمع؟ عاءشة\n\nمسؤُول/حَيّ\n\nاَلذِي/الذِي — من لأن، من حَيّ — أَنت؟ حَيّ — اَلبَيْتُ؟ شايْ — هوْاء شايْ\n\nمسؤُول؟",
+      "secondPass": "shāj — shāj līlá\n\nnāfdhat/'ms, līlá/-lá — stsm-? -ā'shat\n\nms'ūl/Hajj\n\naldhī/āldhī — mn l'n, mn Hajj — ant? Hajj — albajtu? shāj — hvā' shāj\n\nms'ūl?"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0074",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "نحن+قارئ\tأنا\nأحمد\tقهوة+مدرسة لا\nقارئ؛ قهوة.",
+    "output": "nHn+qār'\t'anā\n'aHmd\tqhūat+mdrsat lā\nqār'; qhūat.",
+    "roundTrip": "نحن+qارء\tأَنا\nأَحمد\tقهُوة+مدرسة لا\nقارء؛ قهُوة.",
+    "secondPass": "nHn+qār'\tanā\naHmd\tqhūat+mdrsat lā\nqār'; qhūat.",
+    "before": {
+      "output": "nHn+qār'\t'anā\n'aHmd\tqhūat+mdrsat lā\nqār'; qhūat.",
+      "roundTrip": "نحن+qارء\tأَنا\nأَحمد\tقهُوة+مدرسة لا\nقارء؛ قهُوة.",
+      "secondPass": "nHn+qār'\tanā\naHmd\tqhūat+mdrsat lā\nqār'; qhūat."
+    },
+    "after": {
+      "output": "nHn+qār'\t'anā\n'aHmd\tqhūat+mdrsat lā\nqār'; qhūat.",
+      "roundTrip": "نحن+قارء\tأَنا\nأَحمد\tقهُوة+مدرسة لا\nقارء؛ قهُوة.",
+      "secondPass": "nHn+qār'\tanā\naHmd\tqhūat+mdrsat lā\nqār'; qhūat."
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0075",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "شاي — ٱلْبَيْتُ? على — ستسمع? على\n\nمن? من\n\nليلى? صباحًا\n\nمن/الذي, هواء? هواء\n\nالذي حَيّ\n\nشاي/نافذة, ليلى/هواء, على ستسمع\n\nمسؤول/ليلى\n\nٱلْبَيْتُ/صباحًا, لأن لأن\n\nمسؤول مسؤول\n\nشاي/لأن\n\nعلى/هواء\n\nهو? شاي\n\nأمس/عائشة\n\nهواء? على\n\nهواء نافذة\n\nكتاب\n",
+    "output": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\n'ams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n",
+    "roundTrip": "شايْ — اَلبَيْتُ؟ على — ستسمع؟ على\n\nمن؟ من\n\nلِيلى؟ صباحًا\n\nمن/الذِي، هوْاء؟ هوْاء\n\nاَلذِي حَيّ\n\nشاj/nافذة، لِيلى/هوْاء، على ستسمع\n\nمسؤُوl/lِيلى\n\nاَلبَيْتُ/صباحًا، لأن لأن\n\nمسؤُول مسؤُول\n\nشاj/lأن\n\nعلى/هوْاء\n\nهُو؟ شايْ\n\nأَمس/عاءشة\n\nهوْاء؟ على\n\nهوْاء نافذة\n\nكتاب\n",
+    "secondPass": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\nams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n",
+    "before": {
+      "output": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\n'ams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n",
+      "roundTrip": "شايْ — اَلبَيْتُ؟ على — ستسمع؟ على\n\nمن؟ من\n\nلِيلى؟ صباحًا\n\nمن/الذِي، هوْاء؟ هوْاء\n\nاَلذِي حَيّ\n\nشاj/nافذة، لِيلى/هوْاء، على ستسمع\n\nمسؤُوl/lِيلى\n\nاَلبَيْتُ/صباحًا، لأن لأن\n\nمسؤُول مسؤُول\n\nشاj/lأن\n\nعلى/هوْاء\n\nهُو؟ شايْ\n\nأَمس/عاءشة\n\nهوْاء؟ على\n\nهوْاء نافذة\n\nكتاب\n",
+      "secondPass": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\nams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n"
+    },
+    "after": {
+      "output": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\n'ams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n",
+      "roundTrip": "شايْ — اَلبَيْتُ؟ على — ستسمع؟ على\n\nمن؟ من\n\nلِيلى؟ صباحًا\n\nمن/الذِي، هوْاء؟ هوْاء\n\nاَلذِي حَيّ\n\nشايْ/نافذة، لِيلى/هوْاء، على ستسمع\n\nمسؤُول/لِيلى\n\nاَلبَيْتُ/صباحًا، لأن لأن\n\nمسؤُول مسؤُول\n\nشايْ/lأن\n\nعلى/هوْاء\n\nهُو؟ شايْ\n\nأَمس/عاءشة\n\nهوْاء؟ على\n\nهوْاء نافذة\n\nكتاب\n",
+      "secondPass": "shāj — albajtu? -lá — stsm-? -lá\n\nmn? mn\n\nlīlá? SbāHaNā\n\nmn/āldhī, hvā'? hvā'\n\naldhī Hajj\n\nshāj/nāfdhat, līlá/hvā', -lá stsm-\n\nms'ūl/līlá\n\nalbajtu/SbāHaNā, l'n l'n\n\nms'ūl ms'ūl\n\nshāj/l'n\n\n-lá/hvā'\n\nhū? shāj\n\nams/-ā'shat\n\nhvā'? -lá\n\nhvā' nāfdhat\n\nktāb\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0077",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "ستسمع — من حَيّ — عائشة ٱلْبَيْتُ, شاي/عائشة\n\nالذي? من, اليوم? ستسمع — أمس حَيّ — ستسمع/نافذة\n\nحَيّ أمس, من? ستسمع — نعم? هؤلاء\n\nنافذة? ليلى — هو? ٱلْبَيْتُ\n\nهواء? ليلى, صباحًا على\n\nنعم? نعم — ليلى/حَيّ, هؤلاء لأن, من? أمس\n\nاليوم اليوم\n\nنعم\n",
+    "output": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — 'ams Hajj — stsm-/nāfdhat\n\nHajj 'ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? 'ams\n\nalīvm alīvm\n\nn-m\n",
+    "roundTrip": "ستسمع — من حَيّ — عاءشة اَلبَيْتُ، شاj/عاءشة\n\nاَلذِي؟ من، اَلِيوْم؟ ستسمع — أَمس حَيّ — ستسمع/nافذة\n\nحَيّ أَمس، من؟ ستسمع — نعم؟ هءلاء\n\nنافذة؟ لِيلى — هُو؟ اَلبَيْتُ\n\nهوْاء؟ لِيلى، صباحًا على\n\nنعم؟ نعم — لِيلى/حَيّ، هءلاء لأن، من؟ أَمس\n\nاَلِيوْم اَلِيوْم\n\nنعم\n",
+    "secondPass": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — ams Hajj — stsm-/nāfdhat\n\nHajj ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? ams\n\nalīvm alīvm\n\nn-m\n",
+    "before": {
+      "output": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — 'ams Hajj — stsm-/nāfdhat\n\nHajj 'ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? 'ams\n\nalīvm alīvm\n\nn-m\n",
+      "roundTrip": "ستسمع — من حَيّ — عاءشة اَلبَيْتُ، شاj/عاءشة\n\nاَلذِي؟ من، اَلِيوْم؟ ستسمع — أَمس حَيّ — ستسمع/nافذة\n\nحَيّ أَمس، من؟ ستسمع — نعم؟ هءلاء\n\nنافذة؟ لِيلى — هُو؟ اَلبَيْتُ\n\nهوْاء؟ لِيلى، صباحًا على\n\nنعم؟ نعم — لِيلى/حَيّ، هءلاء لأن، من؟ أَمس\n\nاَلِيوْم اَلِيوْم\n\nنعم\n",
+      "secondPass": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — ams Hajj — stsm-/nāfdhat\n\nHajj ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? ams\n\nalīvm alīvm\n\nn-m\n"
+    },
+    "after": {
+      "output": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — 'ams Hajj — stsm-/nāfdhat\n\nHajj 'ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? 'ams\n\nalīvm alīvm\n\nn-m\n",
+      "roundTrip": "ستسمع — من حَيّ — عاءشة اَلبَيْتُ، شايْ/عاءشة\n\nاَلذِي؟ من، اَلِيوْم؟ ستسمع — أَمس حَيّ — ستسمع/نافذة\n\nحَيّ أَمس، من؟ ستسمع — نعم؟ هءلاء\n\nنافذة؟ لِيلى — هُو؟ اَلبَيْتُ\n\nهوْاء؟ لِيلى، صباحًا على\n\nنعم؟ نعم — لِيلى/حَيّ، هءلاء لأن، من؟ أَمس\n\nاَلِيوْم اَلِيوْم\n\nنعم\n",
+      "secondPass": "stsm- — mn Hajj — -ā'shat albajtu, shāj/-ā'shat\n\naldhī? mn, alīvm? stsm- — ams Hajj — stsm-/nāfdhat\n\nHajj ams, mn? stsm- — n-m? h'lā'\n\nnāfdhat? līlá — hū? albajtu\n\nhvā'? līlá, SbāHaNā -lá\n\nn-m? n-m — līlá/Hajj, h'lā' l'n, mn? ams\n\nalīvm alīvm\n\nn-m\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0079",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "هو\n\nنافذة أمس\n\nالذي/عائشة — ستسمع أمس\n\nشاي/ليلى — لأن? شاي, الذي/كتاب\n\nهو/الذي — ٱلْبَيْتُ ٱلْبَيْتُ\n\nاليوم/نافذة — عائشة لأن\n\nهو!",
+    "output": "hū\n\nnāfdhat 'ams\n\naldhī/-ā'shat — stsm- 'ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!",
+    "roundTrip": "هُو\n\nنافذة أَمس\n\nاَلذِي/عاءشة — ستسمع أَمس\n\nشاj/lِيلى — لأن؟ شايْ، اَلذِي/كتاب\n\nهُو/الذِي — اَلبَيْتُ اَلبَيْتُ\n\nاَلِيوْم/nافذة — عاءشة لأن\n\nهُو!",
+    "secondPass": "hū\n\nnāfdhat ams\n\naldhī/-ā'shat — stsm- ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!",
+    "before": {
+      "output": "hū\n\nnāfdhat 'ams\n\naldhī/-ā'shat — stsm- 'ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!",
+      "roundTrip": "هُو\n\nنافذة أَمس\n\nاَلذِي/عاءشة — ستسمع أَمس\n\nشاj/lِيلى — لأن؟ شايْ، اَلذِي/كتاب\n\nهُو/الذِي — اَلبَيْتُ اَلبَيْتُ\n\nاَلِيوْم/nافذة — عاءشة لأن\n\nهُو!",
+      "secondPass": "hū\n\nnāfdhat ams\n\naldhī/-ā'shat — stsm- ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!"
+    },
+    "after": {
+      "output": "hū\n\nnāfdhat 'ams\n\naldhī/-ā'shat — stsm- 'ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!",
+      "roundTrip": "هُو\n\nنافذة أَمس\n\nاَلذِي/عاءشة — ستسمع أَمس\n\nشايْ/لِيلى — لأن؟ شايْ، اَلذِي/كتاب\n\nهُو/الذِي — اَلبَيْتُ اَلبَيْتُ\n\nاَلِيوْم/نافذة — عاءشة لأن\n\nهُو!",
+      "secondPass": "hū\n\nnāfdhat ams\n\naldhī/-ā'shat — stsm- ams\n\nshāj/līlá — l'n? shāj, aldhī/ktāb\n\nhū/āldhī — albajtu albajtu\n\nalīvm/nāfdhat — -ā'shat l'n\n\nhū!"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0080",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أنا قهوة في في\tماء\nماء\tإلى+مدرسة\tقُوَّة\nماء؛ نحن+قهوة قُوَّة+لا؛ أحمد+قُوَّة\tفي غدًا\tلا\nمدرسة؛ ماء+قهوة\tشَمْسٌ\nماء؛ مدرسة هذه قهوة\nقُوَّة؛ أحمد!",
+    "output": "'anā qhūat fī fī\tmā'\nmā'\t'ilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; 'aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; 'aHmd!",
+    "roundTrip": "أَنا قهُوة فِي فِي\tماء\nماء\tإِلى+مدرسة\tقُوّات\nماء؛ نحن+قهُوة قُوّاt+lا؛ أَحمد+قُوّات\tفِي غدًا\tلا\nمدرسة؛ ماء+قهُوة\tشَمسٌ\nماء؛ مدرسة هذه قهُوة\nقُوّات؛ أَحمد!",
+    "secondPass": "anā qhūat fī fī\tmā'\nmā'\tilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; aHmd!",
+    "before": {
+      "output": "'anā qhūat fī fī\tmā'\nmā'\t'ilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; 'aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; 'aHmd!",
+      "roundTrip": "أَنا قهُوة فِي فِي\tماء\nماء\tإِلى+مدرسة\tقُوّات\nماء؛ نحن+قهُوة قُوّاt+lا؛ أَحمد+قُوّات\tفِي غدًا\tلا\nمدرسة؛ ماء+قهُوة\tشَمسٌ\nماء؛ مدرسة هذه قهُوة\nقُوّات؛ أَحمد!",
+      "secondPass": "anā qhūat fī fī\tmā'\nmā'\tilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; aHmd!"
+    },
+    "after": {
+      "output": "'anā qhūat fī fī\tmā'\nmā'\t'ilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; 'aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; 'aHmd!",
+      "roundTrip": "أَنا قهُوة فِي فِي\tماء\nماء\tإِلى+مدرسة\tقُوّات\nماء؛ نحن+قهُوة قُوّات+لا؛ أَحمد+قُوّات\tفِي غدًا\tلا\nمدرسة؛ ماء+قهُوة\tشَمسٌ\nماء؛ مدرسة هذه قهُوة\nقُوّات؛ أَحمد!",
+      "secondPass": "anā qhūat fī fī\tmā'\nmā'\tilá+mdrsat\tquvvāt\nmā'; nHn+qhūat quvvāt+lā; aHmd+quvvāt\tfī ghdaNā\tlā\nmdrsat; mā'+qhūat\tshamsuN\nmā'; mdrsat hdhh qhūat\nquvvāt; aHmd!"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0081",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "هواء, اليوم هواء, صباحًا/ستسمع, شاي/هو\n\nعائشة ستسمع\n\nمن/نعم, هواء? أنت, كتاب اليوم, على? مسؤول\n\nٱلْبَيْتُ/نافذة, هواء? ٱلْبَيْتُ — ليلى? كتاب\n\nعائشة من\n\nأنت/كتاب — لأن ليلى, كتاب/على, على من, لأن على\n\nعلى? ستسمع — ليلى\n",
+    "output": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? 'ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\n'ant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n",
+    "roundTrip": "هوْاء، اَلِيوْم هوْاء، صباحًا/ستسمع، شاj/hُو\n\nعاءشة ستسمع\n\nمن/nعم، هوْاء؟ أَنت، كتاب اَلِيوْم، على؟ مسؤُول\n\nاَلبَيْتُ/nافذة، هوْاء؟ اَلبَيْتُ — لِيلى؟ كتاب\n\nعاءشة من\n\nأَنت/كتاب — لأن لِيلى، كتاb/على، على من، لأن على\n\nعلى؟ ستسمع — لِيلى\n",
+    "secondPass": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\nant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n",
+    "before": {
+      "output": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? 'ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\n'ant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n",
+      "roundTrip": "هوْاء، اَلِيوْم هوْاء، صباحًا/ستسمع، شاj/hُو\n\nعاءشة ستسمع\n\nمن/nعم، هوْاء؟ أَنت، كتاب اَلِيوْم، على؟ مسؤُول\n\nاَلبَيْتُ/nافذة، هوْاء؟ اَلبَيْتُ — لِيلى؟ كتاب\n\nعاءشة من\n\nأَنت/كتاب — لأن لِيلى، كتاb/على، على من، لأن على\n\nعلى؟ ستسمع — لِيلى\n",
+      "secondPass": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\nant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n"
+    },
+    "after": {
+      "output": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? 'ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\n'ant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n",
+      "roundTrip": "هوْاء، اَلِيوْم هوْاء، صباحًا/ستسمع، شايْ/هُو\n\nعاءشة ستسمع\n\nمن/nعم، هوْاء؟ أَنت، كتاب اَلِيوْم، على؟ مسؤُول\n\nاَلبَيْتُ/نافذة، هوْاء؟ اَلبَيْتُ — لِيلى؟ كتاب\n\nعاءشة من\n\nأَنت/كتاب — لأن لِيلى، كتاب/على، على من، لأن على\n\nعلى؟ ستسمع — لِيلى\n",
+      "secondPass": "hvā', alīvm hvā', SbāHaNā/stsm-, shāj/hū\n\n-ā'shat stsm-\n\nmn/n-m, hvā'? ant, ktāb alīvm, -lá? ms'ūl\n\nalbajtu/nāfdhat, hvā'? albajtu — līlá? ktāb\n\n-ā'shat mn\n\nant/ktāb — l'n līlá, ktāb/-lá, -lá mn, l'n -lá\n\n-lá? stsm- — līlá\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0082",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "مدرسة\nمساءً\tشيء في لا+هي\tمساءً قارئ\tفي\nمساءً هي\nلكن؛ هي\nلكن\tمحمد\nصوت؛ نحن+شَمْسٌ\tمساءً\nقُوَّة\tشَمْسٌ+لا\tقهوة+قهوة أحمد+نحن ماء.",
+    "output": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat 'aHmd+nHn mā'.",
+    "roundTrip": "مدرسة\nمساأً\tشِيئ فِي لا+hِي\tمساأً قارء\tفِي\nمساأً هِي\nلكن؛ هِي\nلكن\tمحمد\nصُوت؛ نحن+شَمسٌ\tمساأً\nقُوّات\tشَمسٌ+lا\tقهُوة+قهُوة أَحمد+نحن ماء.",
+    "secondPass": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat aHmd+nHn mā'.",
+    "before": {
+      "output": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat 'aHmd+nHn mā'.",
+      "roundTrip": "مدرسة\nمساأً\tشِيئ فِي لا+hِي\tمساأً قارء\tفِي\nمساأً هِي\nلكن؛ هِي\nلكن\tمحمد\nصُوت؛ نحن+شَمسٌ\tمساأً\nقُوّات\tشَمسٌ+lا\tقهُوة+قهُوة أَحمد+نحن ماء.",
+      "secondPass": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat aHmd+nHn mā'."
+    },
+    "after": {
+      "output": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat 'aHmd+nHn mā'.",
+      "roundTrip": "مدرسة\nمساأً\tشِيئ فِي لا+هِي\tمساأً قارء\tفِي\nمساأً هِي\nلكن؛ هِي\nلكن\tمحمد\nصُوت؛ نحن+شَمسٌ\tمساأً\nقُوّات\tشَمسٌ+لا\tقهُوة+قهُوة أَحمد+نحن ماء.",
+      "secondPass": "mdrsat\nmsā'aN\tshī' fī lā+hī\tmsā'aN qār'\tfī\nmsā'aN hī\nlkn; hī\nlkn\tmHmd\nSūt; nHn+shamsuN\tmsā'aN\nquvvāt\tshamsuN+lā\tqhūat+qhūat aHmd+nHn mā'."
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0083",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "حَيّ — هو/الذي\n\nعائشة? عائشة\n\nهواء كتاب — نافذة/نافذة, لأن/ليلى, شاي مسؤول — عائشة من\n\nصباحًا? كتاب — شاي أنت, ٱلْبَيْتُ/عائشة\n\nأمس? من\n\nاليوم? هؤلاء — نعم? حَيّ — ليلى/مسؤول — على/شاي\n\nأمس/نافذة\n\nٱلْبَيْتُ? نافذة, اليوم? هواء, هؤلاء/ليلى, من من, ستسمع? ٱلْبَيْتُ\n\nأمس/أمس — مسؤول/نعم, كتاب لأن\n\nشاي.",
+    "output": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj 'ant, albajtu/-ā'shat\n\n'ams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\n'ams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\n'ams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj.",
+    "roundTrip": "حَيّ — هُو/الذِي\n\nعاءشة؟ عاءشة\n\nهوْاء كتاب — نافذة/nافذة، لأn/lِيلى، شايْ مسؤُول — عاءشة من\n\nصباحًا؟ كتاب — شايْ أَنت، اَلبَيْتُ/عاءشة\n\nأَمس؟ من\n\nاَلِيوْم؟ هءلاء — نعم؟ حَيّ — لِيلى/مسؤُول — على/شايْ\n\nأَمس/nافذة\n\nاَلبَيْتُ؟ نافذة، اَلِيوْم؟ هوْاء، هءلاء/lِيلى، من من، ستسمع؟ اَلبَيْتُ\n\nأَمس/أمس — مسؤُوl/nعم، كتاب لأن\n\nشايْ.",
+    "secondPass": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj ant, albajtu/-ā'shat\n\nams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\nams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\nams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj.",
+    "before": {
+      "output": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj 'ant, albajtu/-ā'shat\n\n'ams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\n'ams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\n'ams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj.",
+      "roundTrip": "حَيّ — هُو/الذِي\n\nعاءشة؟ عاءشة\n\nهوْاء كتاب — نافذة/nافذة، لأn/lِيلى، شايْ مسؤُول — عاءشة من\n\nصباحًا؟ كتاب — شايْ أَنت، اَلبَيْتُ/عاءشة\n\nأَمس؟ من\n\nاَلِيوْم؟ هءلاء — نعم؟ حَيّ — لِيلى/مسؤُول — على/شايْ\n\nأَمس/nافذة\n\nاَلبَيْتُ؟ نافذة، اَلِيوْم؟ هوْاء، هءلاء/lِيلى، من من، ستسمع؟ اَلبَيْتُ\n\nأَمس/أمس — مسؤُوl/nعم، كتاب لأن\n\nشايْ.",
+      "secondPass": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj ant, albajtu/-ā'shat\n\nams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\nams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\nams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj."
+    },
+    "after": {
+      "output": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj 'ant, albajtu/-ā'shat\n\n'ams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\n'ams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\n'ams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj.",
+      "roundTrip": "حَيّ — هُو/الذِي\n\nعاءشة؟ عاءشة\n\nهوْاء كتاب — نافذة/نافذة، لأn/لِيلى، شايْ مسؤُول — عاءشة من\n\nصباحًا؟ كتاب — شايْ أَنت، اَلبَيْتُ/عاءشة\n\nأَمس؟ من\n\nاَلِيوْم؟ هءلاء — نعم؟ حَيّ — لِيلى/مسؤُول — على/شايْ\n\nأَمس/نافذة\n\nاَلبَيْتُ؟ نافذة، اَلِيوْم؟ هوْاء، هءلاء/لِيلى، من من، ستسمع؟ اَلبَيْتُ\n\nأَمس/أمس — مسؤُول/nعم، كتاب لأن\n\nشايْ.",
+      "secondPass": "Hajj — hū/āldhī\n\n-ā'shat? -ā'shat\n\nhvā' ktāb — nāfdhat/nāfdhat, l'n/līlá, shāj ms'ūl — -ā'shat mn\n\nSbāHaNā? ktāb — shāj ant, albajtu/-ā'shat\n\nams? mn\n\nalīvm? h'lā' — n-m? Hajj — līlá/ms'ūl — -lá/shāj\n\nams/nāfdhat\n\nalbajtu? nāfdhat, alīvm? hvā', h'lā'/līlá, mn mn, stsm-? albajtu\n\nams/'ms — ms'ūl/n-m, ktāb l'n\n\nshāj."
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0084",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "صوت ماء إلى نحن\tماء مدرسة\tقُوَّة+أنا؛ قهوة\nمساءً ربما+في\tمحمد\nمدرسة لكن\nغدًا ماء محمد قهوة لا قارئ",
+    "output": "Sūt mā' 'ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'",
+    "roundTrip": "صُوت ماء إِلى نحن\tماء مدرسة\tقُوّاt+أنا؛ قهُوة\nمساأً ربما+fِي\tمحمد\nمدرسة لكن\nغدًا ماء محمد قهُوة لا قارء",
+    "secondPass": "Sūt mā' ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'",
+    "before": {
+      "output": "Sūt mā' 'ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'",
+      "roundTrip": "صُوت ماء إِلى نحن\tماء مدرسة\tقُوّاt+أنا؛ قهُوة\nمساأً ربما+fِي\tمحمد\nمدرسة لكن\nغدًا ماء محمد قهُوة لا قارء",
+      "secondPass": "Sūt mā' ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'"
+    },
+    "after": {
+      "output": "Sūt mā' 'ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'",
+      "roundTrip": "صُوت ماء إِلى نحن\tماء مدرسة\tقُوّات+أنا؛ قهُوة\nمساأً ربما+فِي\tمحمد\nمدرسة لكن\nغدًا ماء محمد قهُوة لا قارء",
+      "secondPass": "Sūt mā' ilá nHn\tmā' mdrsat\tquvvāt+'nā; qhūat\nmsā'aN rbmā+fī\tmHmd\nmdrsat lkn\nghdaNā mā' mHmd qhūat lā qār'"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0086",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أنا\nأحمد هي+ربما هذه+هي؛ صوت\nربما\tهي أنا\tقارئ ربما قارئ\nمحمد أنا\nهي؛ هي\nصوت؛ غدًا+مدرسة قارئ\nإلى شَمْسٌ ماء؛ شَمْسٌ\nشَمْسٌ\tقارئ لا؛ مساءً+ماء أنا\nلكن هذه نحن؛ شَمْسٌ\n",
+    "output": "'anā\n'aHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī 'anā\tqār' rbmā qār'\nmHmd 'anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\n'ilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' 'anā\nlkn hdhh nHn; shamsuN\n",
+    "roundTrip": "أَنا\nأَحمد هِي+ربما هذه+hِي؛ صُوت\nربما\tهِي أَنا\tقارء ربما قارء\nمحمد أَنا\nهِي؛ هِي\nصُوت؛ غدًا+مدرسة قارء\nإِلى شَمسٌ ماء؛ شَمسٌ\nشَمسٌ\tقارء لا؛ مساأً+mاء أَنا\nلكن هذه نحن؛ شَمسٌ\n",
+    "secondPass": "anā\naHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī anā\tqār' rbmā qār'\nmHmd anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\nilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' anā\nlkn hdhh nHn; shamsuN\n",
+    "before": {
+      "output": "'anā\n'aHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī 'anā\tqār' rbmā qār'\nmHmd 'anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\n'ilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' 'anā\nlkn hdhh nHn; shamsuN\n",
+      "roundTrip": "أَنا\nأَحمد هِي+ربما هذه+hِي؛ صُوت\nربما\tهِي أَنا\tقارء ربما قارء\nمحمد أَنا\nهِي؛ هِي\nصُوت؛ غدًا+مدرسة قارء\nإِلى شَمسٌ ماء؛ شَمسٌ\nشَمسٌ\tقارء لا؛ مساأً+mاء أَنا\nلكن هذه نحن؛ شَمسٌ\n",
+      "secondPass": "anā\naHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī anā\tqār' rbmā qār'\nmHmd anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\nilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' anā\nlkn hdhh nHn; shamsuN\n"
+    },
+    "after": {
+      "output": "'anā\n'aHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī 'anā\tqār' rbmā qār'\nmHmd 'anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\n'ilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' 'anā\nlkn hdhh nHn; shamsuN\n",
+      "roundTrip": "أَنا\nأَحمد هِي+ربما هذه+هِي؛ صُوت\nربما\tهِي أَنا\tقارء ربما قارء\nمحمد أَنا\nهِي؛ هِي\nصُوت؛ غدًا+مدرسة قارء\nإِلى شَمسٌ ماء؛ شَمسٌ\nشَمسٌ\tقارء لا؛ مساأً+ماء أَنا\nلكن هذه نحن؛ شَمسٌ\n",
+      "secondPass": "anā\naHmd hī+rbmā hdhh+hī; Sūt\nrbmā\thī anā\tqār' rbmā qār'\nmHmd anā\nhī; hī\nSūt; ghdaNā+mdrsat qār'\nilá shamsuN mā'; shamsuN\nshamsuN\tqār' lā; msā'aN+mā' anā\nlkn hdhh nHn; shamsuN\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0088",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "قارئ\nماء؛ أحمد في؛ صوت\nمحمد صوت+أنا\tقهوة محمد؛ في+لا\tمدرسة\nفي\tلكن في؛ أنا+نحن أحمد.",
+    "output": "qār'\nmā'; 'aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; 'anā+nHn 'aHmd.",
+    "roundTrip": "قارء\nماء؛ أَحمد فِي؛ صُوت\nمحمد صُوt+أنا\tقهُوة محمد؛ فِي+lا\tمدرسة\nفِي\tلكن فِي؛ أَنا+نحن أَحمد.",
+    "secondPass": "qār'\nmā'; aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; anā+nHn aHmd.",
+    "before": {
+      "output": "qār'\nmā'; 'aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; 'anā+nHn 'aHmd.",
+      "roundTrip": "قارء\nماء؛ أَحمد فِي؛ صُوت\nمحمد صُوt+أنا\tقهُوة محمد؛ فِي+lا\tمدرسة\nفِي\tلكن فِي؛ أَنا+نحن أَحمد.",
+      "secondPass": "qār'\nmā'; aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; anā+nHn aHmd."
+    },
+    "after": {
+      "output": "qār'\nmā'; 'aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; 'anā+nHn 'aHmd.",
+      "roundTrip": "قارء\nماء؛ أَحمد فِي؛ صُوت\nمحمد صُوت+أنا\tقهُوة محمد؛ فِي+لا\tمدرسة\nفِي\tلكن فِي؛ أَنا+نحن أَحمد.",
+      "secondPass": "qār'\nmā'; aHmd fī; Sūt\nmHmd Sūt+'nā\tqhūat mHmd; fī+lā\tmdrsat\nfī\tlkn fī; anā+nHn aHmd."
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0089",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "حَيّ — الذي ٱلْبَيْتُ\n\nاليوم/نعم\n\nحَيّ مسؤول, من/نافذة — حَيّ? مسؤول, لأن/أنت\n\nأنت/لأن — عائشة? صباحًا, اليوم/نعم — نعم هواء\n\nمن نافذة\n\nحَيّ/نعم — شاي حَيّ\n\nستسمع أمس\n\nهؤلاء صباحًا, هواء/لأن, حَيّ",
+    "output": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\n'ant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- 'ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj",
+    "roundTrip": "حَيّ — اَلذِي اَلبَيْتُ\n\nاَلِيوْم/nعم\n\nحَيّ مسؤُول، من/nافذة — حَيّ؟ مسؤُول، لأn/أنت\n\nأَنت/lأن — عاءشة؟ صباحًا، اَلِيوْم/nعم — نعم هوْاء\n\nمن نافذة\n\nحَيّ/nعم — شايْ حَيّ\n\nستسمع أَمس\n\nهءلاء صباحًا، هوْاء/lأن، حَيّ",
+    "secondPass": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\nant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj",
+    "before": {
+      "output": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\n'ant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- 'ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj",
+      "roundTrip": "حَيّ — اَلذِي اَلبَيْتُ\n\nاَلِيوْم/nعم\n\nحَيّ مسؤُول، من/nافذة — حَيّ؟ مسؤُول، لأn/أنت\n\nأَنت/lأن — عاءشة؟ صباحًا، اَلِيوْم/nعم — نعم هوْاء\n\nمن نافذة\n\nحَيّ/nعم — شايْ حَيّ\n\nستسمع أَمس\n\nهءلاء صباحًا، هوْاء/lأن، حَيّ",
+      "secondPass": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\nant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj"
+    },
+    "after": {
+      "output": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\n'ant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- 'ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj",
+      "roundTrip": "حَيّ — اَلذِي اَلبَيْتُ\n\nاَلِيوْم/nعم\n\nحَيّ مسؤُول، من/نافذة — حَيّ؟ مسؤُول، لأn/أنت\n\nأَنت/lأن — عاءشة؟ صباحًا، اَلِيوْم/nعم — نعم هوْاء\n\nمن نافذة\n\nحَيّ/nعم — شايْ حَيّ\n\nستسمع أَمس\n\nهءلاء صباحًا، هوْاء/lأن، حَيّ",
+      "secondPass": "Hajj — aldhī albajtu\n\nalīvm/n-m\n\nHajj ms'ūl, mn/nāfdhat — Hajj? ms'ūl, l'n/'nt\n\nant/l'n — -ā'shat? SbāHaNā, alīvm/n-m — n-m hvā'\n\nmn nāfdhat\n\nHajj/n-m — shāj Hajj\n\nstsm- ams\n\nh'lā' SbāHaNā, hvā'/l'n, Hajj"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  },
+  {
+    "id": "expanded-seeded-paragraphs/ar2en/0093",
+    "group": "expanded-seeded-paragraphs",
+    "direction": "ar2en",
+    "input": "أنت — ٱلْبَيْتُ أنت\n\nلأن حَيّ\n\nمسؤول? صباحًا\n\nمن أمس — كتاب/مسؤول, ٱلْبَيْتُ أنت, من/مسؤول\n\nنافذة? نعم\n\nاليوم من — نافذة/على, على? نافذة, من? الذي\n\nاليوم أمس\n\nٱلْبَيْتُ? نعم — اليوم هو — هواء على\n\nاليوم هو — الذي/ليلى, على هواء\n\nستسمع? على\n\nكتاب\n",
+    "output": "'ant — albajtu 'ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn 'ams — ktāb/ms'ūl, albajtu 'ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm 'ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n",
+    "roundTrip": "أَنت — اَلبَيْتُ أَنت\n\nلأن حَيّ\n\nمسؤُول؟ صباحًا\n\nمن أَمس — كتاb/مسؤُول، اَلبَيْتُ أَنت، من/مسؤُول\n\nنافذة؟ نعم\n\nاَلِيوْم من — نافذة/على، على؟ نافذة، من؟ اَلذِي\n\nاَلِيوْم أَمس\n\nاَلبَيْتُ؟ نعم — اَلِيوْم هُو — هوْاء على\n\nاَلِيوْم هُو — اَلذِي/lِيلى، على هوْاء\n\nستسمع؟ على\n\nكتاب\n",
+    "secondPass": "ant — albajtu ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn ams — ktāb/ms'ūl, albajtu ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n",
+    "before": {
+      "output": "'ant — albajtu 'ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn 'ams — ktāb/ms'ūl, albajtu 'ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm 'ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n",
+      "roundTrip": "أَنت — اَلبَيْتُ أَنت\n\nلأن حَيّ\n\nمسؤُول؟ صباحًا\n\nمن أَمس — كتاb/مسؤُول، اَلبَيْتُ أَنت، من/مسؤُول\n\nنافذة؟ نعم\n\nاَلِيوْم من — نافذة/على، على؟ نافذة، من؟ اَلذِي\n\nاَلِيوْم أَمس\n\nاَلبَيْتُ؟ نعم — اَلِيوْم هُو — هوْاء على\n\nاَلِيوْم هُو — اَلذِي/lِيلى، على هوْاء\n\nستسمع؟ على\n\nكتاب\n",
+      "secondPass": "ant — albajtu ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn ams — ktāb/ms'ūl, albajtu ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n"
+    },
+    "after": {
+      "output": "'ant — albajtu 'ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn 'ams — ktāb/ms'ūl, albajtu 'ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm 'ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n",
+      "roundTrip": "أَنت — اَلبَيْتُ أَنت\n\nلأن حَيّ\n\nمسؤُول؟ صباحًا\n\nمن أَمس — كتاب/مسؤُول، اَلبَيْتُ أَنت، من/مسؤُول\n\nنافذة؟ نعم\n\nاَلِيوْم من — نافذة/على، على؟ نافذة، من؟ اَلذِي\n\nاَلِيوْم أَمس\n\nاَلبَيْتُ؟ نعم — اَلِيوْم هُو — هوْاء على\n\nاَلِيوْم هُو — اَلذِي/لِيلى، على هوْاء\n\nستسمع؟ على\n\nكتاب\n",
+      "secondPass": "ant — albajtu ant\n\nl'n Hajj\n\nms'ūl? SbāHaNā\n\nmn ams — ktāb/ms'ūl, albajtu ant, mn/ms'ūl\n\nnāfdhat? n-m\n\nalīvm mn — nāfdhat/-lá, -lá? nāfdhat, mn? aldhī\n\nalīvm ams\n\nalbajtu? n-m — alīvm hū — hvā' -lá\n\nalīvm hū — aldhī/līlá, -lá hvā'\n\nstsm-? -lá\n\nktāb\n"
+    },
+    "stages": [
+      "roundTrip"
+    ]
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1777",
+    "input": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/",
+    "normalized": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? būk\n\nمحمد marHaba, mi/siti, في/-alá — madrasat على\n\nwurld? ilá, حَيّ ā, شَمْسٌ/",
+    "collapsed": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/"
+  },
+  {
+    "id": "normalizer/1778",
+    "input": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hello\n\nqueue? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? ",
+    "normalized": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hillu\n\nquiui? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? ",
+    "collapsed": "أنا — qahva/anta — محمد/أنت — لأن/مساءً\n\naHmad fī, شاي hello\n\nqueue? اليوم — لكن/في — alSSabāH هذه, هو shaj'\n\nمن? "
+  },
+  {
+    "id": "normalizer/1779",
+    "input": "محمد\n\nمحمد? min\n\naN? ghadaN\n\nfī/على\n\nصباحًا? شاي\n\nمن yellow, aN/‍\n\nاليوم/١٢ — صوت أنا\n\nنافذة نعم, hello ",
+    "normalized": "محمد\n\nمحمد? min\n\naN? ghadaN\n\nfī/على\n\nصباحًا? شاي\n\nمن yilluw, aN/‍\n\nاليوم/١٢ — صوت أنا\n\nنافذة نعم, hillu ",
+    "collapsed": "محمد\n\nمحمد? min\n\naN? ghadaN\n\nfī/على\n\nصباحًا? شاي\n\nمن yellow, aN/‍\n\nاليوم/١٢ — صوت أنا\n\nنافذة نعم, hello "
+  },
+  {
+    "id": "normalizer/1780",
+    "input": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, book? iN — city/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/",
+    "normalized": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, būk? iN — siti/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/",
+    "collapsed": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, book? iN — city/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/"
+  },
+  {
+    "id": "normalizer/1781",
+    "input": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "normalized": "ماء\n\nsu'āl wurld, لا/quiui, alSawt? أنا — rhithm būk — shāj? madrasat — kuffī/E=mk^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "collapsed": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/"
+  },
+  {
+    "id": "normalizer/1782",
+    "input": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mc^2, shāj/إلى — 42 مسؤول, من/هي\n\nqueue ",
+    "normalized": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mk^2, shāj/إلى — 42 مسؤول, من/هي\n\nquiui ",
+    "collapsed": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mc^2, shāj/إلى — 42 مسؤول, من/هي\n\nqueue "
+  },
+  {
+    "id": "normalizer/1783",
+    "input": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+    "normalized": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+    "collapsed": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla "
+  },
+  {
+    "id": "normalizer/1784",
+    "input": "اليوم\n\nمن/rhythm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhythm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nهي? ",
+    "normalized": "اليوم\n\nمن/rhithm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhithm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\nsiti qahva — havā'/quvva — rhithm? ilá\n\nهي? ",
+    "collapsed": "اليوم\n\nمن/rhythm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhythm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nهي? "
+  },
+  {
+    "id": "normalizer/1785",
+    "input": "هذه\n\nالذي? ‍ — anā/quvva\n\nلأن شيء\n\nbook? ghadaN — na-am/alSawt\n\n🙂 هي — fī/شاي — في? school — كتاب عائشة, نافذة? ",
+    "normalized": "هذه\n\nالذي? ‍ — anā/quvva\n\nلأن شيء\n\nbūk? ghadaN — na-am/alSawt\n\n🙂 هي — fī/شاي — في? schūl — كتاب عائشة, نافذة? ",
+    "collapsed": "هذه\n\nالذي? ‍ — anā/quvva\n\nلأن شيء\n\nbook? ghadaN — na-am/alSawt\n\n🙂 هي — fī/شاي — في? school — كتاب عائشة, نافذة? "
+  },
+  {
+    "id": "normalizer/1786",
+    "input": "na-am\n\nā/by, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhythm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? ",
+    "normalized": "na-am\n\nā/bi, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhithm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? ",
+    "collapsed": "na-am\n\nā/by, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhythm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? "
+  },
+  {
+    "id": "normalizer/1787",
+    "input": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/coffee — كتاب/yellow — havā'? school — world? ",
+    "normalized": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/kuffī — كتاب/yilluw — havā'? schūl — wurld? ",
+    "collapsed": "havā', أمس/satasma-\n\nنافذة? shāj\n\nحَيّ/ilá, هؤلاء/في\n\nnaHnu نحن\n\n-alá -alá\n\nهؤلاء/coffee — كتاب/yellow — havā'? school — world? "
+  },
+  {
+    "id": "normalizer/1788",
+    "input": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — school? hello, نحن? rhythm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن ",
+    "normalized": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — schūl? hillu, نحن? rhithm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن ",
+    "collapsed": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — school? hello, نحن? rhythm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن "
+  },
+  {
+    "id": "normalizer/1789",
+    "input": "على — غدًا/هؤلاء — أنا? world — لأن? ٱلْبَيْتُ\n\nwith? rhythm\n\nshaj'? حَيّ\n\nqueue? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+    "normalized": "على — غدًا/هؤلاء — أنا? wurld — لأن? ٱلْبَيْتُ\n\nwith? rhithm\n\nshaj'? حَيّ\n\nquiui? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+    "collapsed": "على — غدًا/هؤلاء — أنا? world — لأن? ٱلْبَيْتُ\n\nwith? rhythm\n\nshaj'? حَيّ\n\nqueue? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/"
+  },
+  {
+    "id": "normalizer/1790",
+    "input": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+    "normalized": "alSawt\n\nilá/rhithm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/kuffī — أمس/mi — mi ā, ستسمع? ",
+    "collapsed": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? "
+  },
+  {
+    "id": "normalizer/1791",
+    "input": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+    "normalized": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, siti? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? siti\n\nصباحًا/الذي — ghadaN yilluw\n\nإلى? كتاب\n\nrhithm/",
+    "collapsed": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/"
+  },
+  {
+    "id": "normalizer/1792",
+    "input": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+    "normalized": "لا\n\nyilluw? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? ربما, لا alSawt\n\nلا? ",
+    "collapsed": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? "
+  },
+  {
+    "id": "normalizer/1793",
+    "input": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/",
+    "normalized": "quiui, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? mi — ستسمع alSawt\n\nna-am/bi — شَمْسٌ/-alá — أحمد/",
+    "collapsed": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/"
+  },
+  {
+    "id": "normalizer/1794",
+    "input": "هواء — aHmad? في — كتاب? 42 — ١٢? satasma- — شاي قهوة, ā/quvva\n\nشيء 42\n\nهي كتاب\n\nالذي min — havā'? شاي, aN? ",
+    "normalized": "هواء — aHmad? في — كتاب? 42 — ١٢? satasma- — شاي قهوة, ā/quvva\n\nشيء 42\n\nهي كتاب\n\nالذي min — havā'? شاي, aN? ",
+    "collapsed": "هواء — aHmad? في — كتاب? 42 — ١٢? satasma- — شاي قهوة, ā/quvva\n\nشيء 42\n\nهي كتاب\n\nالذي min — havā'? شاي, aN? "
+  },
+  {
+    "id": "normalizer/1795",
+    "input": "queue — anta? book, coffee? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — school في, قارئ/ghadaN, iN/عائشة, world قُوَّة\n\nمن? ",
+    "normalized": "quiui — anta? būk, kuffī? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — schūl في, قارئ/ghadaN, iN/عائشة, wurld قُوَّة\n\nمن? ",
+    "collapsed": "queue — anta? book, coffee? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — school في, قارئ/ghadaN, iN/عائشة, world قُوَّة\n\nمن? "
+  },
+  {
+    "id": "normalizer/1796",
+    "input": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "normalized": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschūl لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "collapsed": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/"
+  },
+  {
+    "id": "normalizer/1797",
+    "input": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/",
+    "normalized": "ilá, أحمد/الذي — أمس quiui — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, siti/صوت, na-am/siti\n\nsu'āl anta, قارئ/",
+    "collapsed": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/"
+  },
+  {
+    "id": "normalizer/1798",
+    "input": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? ",
+    "normalized": "١٢, E=mk^2/yilluw, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, kuffī schūl, bi/نعم\n\nهذه? ",
+    "collapsed": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? "
+  },
+  {
+    "id": "normalizer/1799",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "normalized": "نعم\n\nمدرسة? hillu — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? ",
+    "collapsed": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? "
+  },
+  {
+    "id": "normalizer/1800",
+    "input": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — coffee anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj ",
+    "normalized": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — kuffī anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj ",
+    "collapsed": "إلى, هؤلاء marHaba, min أنا\n\nfī satasma-, لأن shaj' — coffee anā\n\nماء? ‍ — أنت قارئ — madrasat كتاب, 🙂/aN — shāj "
+  },
+  {
+    "id": "normalizer/1801",
+    "input": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/",
+    "normalized": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\nkuffī/anta — هي? مدرسة, الذي rubbamā — bi/مسؤول\n\nhillu/with, ٱلْبَيْتُ/",
+    "collapsed": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/"
+  },
+  {
+    "id": "normalizer/1802",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "normalized": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — quiui ‍ — إلى wurld, كتاب قُوَّة\n\nbi/fī, إلى/iN\n\nyilluw? قهوة, حَيّ ",
+    "collapsed": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ "
+  },
+  {
+    "id": "normalizer/1803",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "normalized": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mk^2, كتاب/būk — siti/naHnu — kitāb? naHnu, kuffī alSawt — shaj' ",
+    "collapsed": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' "
+  },
+  {
+    "id": "normalizer/1804",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "normalized": "quvva — نعم? ā — aHmad/su'āl, siti? أحمد\n\nمحمد/būk, هي/ٱلْبَيْتُ, صباحًا? الذي — yilluw iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "collapsed": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/"
+  },
+  {
+    "id": "normalizer/1805",
+    "input": "anta, هي/شيء — لا على\n\niN? su'āl, ghadaN? school\n\n🙂? alSawt\n\nnaHnu? marHaba — هواء rubbamā — school? ‍\n\nقهوة ربما, aN? ",
+    "normalized": "anta, هي/شيء — لا على\n\niN? su'āl, ghadaN? schūl\n\n🙂? alSawt\n\nnaHnu? marHaba — هواء rubbamā — schūl? ‍\n\nقهوة ربما, aN? ",
+    "collapsed": "anta, هي/شيء — لا على\n\niN? su'āl, ghadaN? school\n\n🙂? alSawt\n\nnaHnu? marHaba — هواء rubbamā — school? ‍\n\nقهوة ربما, aN? "
+  },
+  {
+    "id": "normalizer/1806",
+    "input": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/coffee, uN alSawt, hello هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? ",
+    "normalized": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/kuffī, uN alSawt, hillu هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? ",
+    "collapsed": "حَيّ, aHmad? quvva\n\nghadaN alSSabāH — أنت? ٱلْبَيْتُ, min? na-am\n\nنافذة/coffee, uN alSawt, hello هؤلاء\n\nحَيّ? shaj'\n\nقارئ? na-am — marHaba? "
+  },
+  {
+    "id": "normalizer/1807",
+    "input": "city",
+    "normalized": "siti",
+    "collapsed": "city"
+  },
+  {
+    "id": "normalizer/1808",
+    "input": "xylophone",
+    "normalized": "siluphuni",
+    "collapsed": "xylophone"
+  },
+  {
+    "id": "normalizer/1809",
+    "input": "cat",
+    "normalized": "kat",
+    "collapsed": "cat"
+  },
+  {
+    "id": "normalizer/1810",
+    "input": "cancer",
+    "normalized": "kansir",
+    "collapsed": "cancer"
+  },
+  {
+    "id": "normalizer/1811",
+    "input": "school",
+    "normalized": "schūl",
+    "collapsed": "school"
+  },
+  {
+    "id": "normalizer/1812",
+    "input": "cycle",
+    "normalized": "sikli",
+    "collapsed": "cycle"
+  },
+  {
+    "id": "normalizer/1813",
+    "input": "ceiling",
+    "normalized": "sīling",
+    "collapsed": "ceiling"
+  },
+  {
+    "id": "normalizer/1814",
+    "input": "cell",
+    "normalized": "sill",
+    "collapsed": "cell"
+  },
+  {
+    "id": "normalizer/1815",
+    "input": "cent",
+    "normalized": "sint",
+    "collapsed": "cent"
+  },
+  {
+    "id": "normalizer/1816",
+    "input": "center",
+    "normalized": "sintir",
+    "collapsed": "center"
+  },
+  {
+    "id": "normalizer/1817",
+    "input": "centre",
+    "normalized": "sintri",
+    "collapsed": "centre"
+  },
+  {
+    "id": "normalizer/1818",
+    "input": "century",
+    "normalized": "sinturi",
+    "collapsed": "century"
+  },
+  {
+    "id": "normalizer/1819",
+    "input": "cereal",
+    "normalized": "sirial",
+    "collapsed": "cereal"
+  },
+  {
+    "id": "normalizer/1820",
+    "input": "certain",
+    "normalized": "sirtain",
+    "collapsed": "certain"
+  },
+  {
+    "id": "normalizer/1821",
+    "input": "circle",
+    "normalized": "sirkli",
+    "collapsed": "circle"
+  },
+  {
+    "id": "normalizer/1822",
+    "input": "circuit",
+    "normalized": "sirkuit",
+    "collapsed": "circuit"
+  },
+  {
+    "id": "normalizer/1823",
+    "input": "circus",
+    "normalized": "sirkus",
+    "collapsed": "circus"
+  },
+  {
+    "id": "normalizer/1824",
+    "input": "citizen",
+    "normalized": "sitizin",
+    "collapsed": "citizen"
+  },
+  {
+    "id": "normalizer/1825",
+    "input": "civil",
+    "normalized": "sivil",
+    "collapsed": "civil"
+  },
+  {
+    "id": "normalizer/1826",
+    "input": "civilization",
+    "normalized": "sivilizatiun",
+    "collapsed": "civilization"
+  },
+  {
+    "id": "normalizer/1827",
+    "input": "civic",
+    "normalized": "sivis",
+    "collapsed": "civic"
+  },
+  {
+    "id": "normalizer/1828",
+    "input": "cylinder",
+    "normalized": "silindir",
+    "collapsed": "cylinder"
+  },
+  {
+    "id": "normalizer/1829",
+    "input": "cypress",
+    "normalized": "sipriss",
+    "collapsed": "cypress"
+  },
+  {
+    "id": "normalizer/1830",
+    "input": "cyan",
+    "normalized": "sian",
+    "collapsed": "cyan"
+  },
+  {
+    "id": "normalizer/1831",
+    "input": "cyber",
+    "normalized": "sibir",
+    "collapsed": "cyber"
+  },
+  {
+    "id": "normalizer/1832",
+    "input": "bicycle",
+    "normalized": "bisikli",
+    "collapsed": "bicycle"
+  },
+  {
+    "id": "normalizer/1833",
+    "input": "recycle",
+    "normalized": "risikli",
+    "collapsed": "recycle"
+  },
+  {
+    "id": "normalizer/1834",
+    "input": "icy",
+    "normalized": "isi",
+    "collapsed": "icy"
+  },
+  {
+    "id": "normalizer/1835",
+    "input": "mercy",
+    "normalized": "mirsi",
+    "collapsed": "mercy"
+  },
+  {
+    "id": "normalizer/1836",
+    "input": "car",
+    "normalized": "kar",
+    "collapsed": "car"
+  },
+  {
+    "id": "normalizer/1837",
+    "input": "cap",
+    "normalized": "kap",
+    "collapsed": "cap"
+  },
+  {
+    "id": "normalizer/1838",
+    "input": "cake",
+    "normalized": "kaki",
+    "collapsed": "cake"
+  },
+  {
+    "id": "normalizer/1839",
+    "input": "can",
+    "normalized": "kan",
+    "collapsed": "can"
+  },
+  {
+    "id": "normalizer/1840",
+    "input": "candle",
+    "normalized": "kandli",
+    "collapsed": "candle"
+  },
+  {
+    "id": "normalizer/1841",
+    "input": "camera",
+    "normalized": "kamira",
+    "collapsed": "camera"
+  },
+  {
+    "id": "normalizer/1842",
+    "input": "coconut",
+    "normalized": "kukunut",
+    "collapsed": "coconut"
+  },
+  {
+    "id": "normalizer/1843",
+    "input": "coffee",
+    "normalized": "kuffī",
+    "collapsed": "coffee"
+  },
+  {
+    "id": "normalizer/1844",
+    "input": "cut",
+    "normalized": "kut",
+    "collapsed": "cut"
+  },
+  {
+    "id": "normalizer/1845",
+    "input": "cup",
+    "normalized": "kup",
+    "collapsed": "cup"
+  },
+  {
+    "id": "normalizer/1846",
+    "input": "cucumber",
+    "normalized": "kukumbir",
+    "collapsed": "cucumber"
+  },
+  {
+    "id": "normalizer/1847",
+    "input": "clay",
+    "normalized": "klay",
+    "collapsed": "clay"
+  },
+  {
+    "id": "normalizer/1848",
+    "input": "clock",
+    "normalized": "klukk",
+    "collapsed": "clock"
+  },
+  {
+    "id": "normalizer/1849",
+    "input": "crab",
+    "normalized": "krab",
+    "collapsed": "crab"
+  },
+  {
+    "id": "normalizer/1850",
+    "input": "scarf",
+    "normalized": "skarf",
+    "collapsed": "scarf"
+  }
+]

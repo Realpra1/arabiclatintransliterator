@@ -1,0 +1,11 @@
+[
+  {
+    "id": "expanded-seeded-mixed/ar2en/0017",
+    "group": "expanded-seeded-mixed",
+    "direction": "ar2en",
+    "input": "مدرسة, shāj/with\n\nعلى naHnu, حَيّ هؤلاء — هي? kitāb\n\nغدًا نعم, with قارئ — اليوم shāj — ٱلْبَيْتُ? لكن, shaj'/lā — yellow? ",
+    "output": "mdrsat, shāj/with\n\n-lá naHnu, Hajj h'lā' — hī? kitāb\n\nghdaNā n-m, with qār' — alīvm shāj — albajtu? lkn, shaj'/lā — yellow? ",
+    "roundTrip": "مدرسة، شايْ/وِث\n\nعلى نَحنُ، حَيّ هءلاء — هِي؟ كِتاب\n\nغدًا نعم، وِث قارء — اَلِيوْم شايْ — اَلبَيْتُ؟ لكن، شَيْء/لا — يِلُّوْ؟ ",
+    "secondPass": "mdrsat, shāj/vith\n\n-lá naHnu, Hajj h'lā' — hī? kitāb\n\nghdaNā n-m, vith qār' — alīvm shāj — albajtu? lkn, shaj'/lā — jilluv? "
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "expanded-seeded-mixed/en2ar/0037",
+    "group": "expanded-seeded-mixed",
+    "direction": "en2ar",
+    "input": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+    "failedRules": [
+      "Latin input: Latin L2 = L3",
+      "Latin input: Arabic A2 = A3"
+    ],
+    "trace": {
+      "L1": "الذي, أمس? شيء, ghadaN/شَمْسٌ\n\nsatasma- عائشة — في? نافذة, هواء? لكن\n\nليلى/‍ — 🙂 uN — satasma-? صباحًا\n\nrubbamā alSSabāH — lajla ",
+      "A1": "الذي، أمس؟ شيء، غَدً/شَمْسٌ\n\nسَتَسمَع عائشة — في؟ نافذة، هواء؟ لكن\n\nليلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ ",
+      "L2": "aldhī, 'ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla ",
+      "A2": "اَلذِي، أَمس؟ شِيئ، غَدً/شَمسٌ\n\nسَتَسمَع عاءشة — فِي؟ نافذة، هوْاء؟ لكن\n\nلِيلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ ",
+      "L3": "aldhī, ams? shī', ghadaN/shamsuN\n\nsatasma- -ā'shat — fī? nāfdhat, hvā'? lkn\n\nlīlá/‍ — 🙂 uN — satasma-? SbāHaNā\n\nrubbamā alSSabāH — lajla ",
+      "A3": "اَلذِي، اَمس؟ شِيئ، غَدً/شَمسٌ\n\nسَتَسمَع عاءشة — فِي؟ نافذة، هوْاء؟ لكن\n\nلِيلى/‍ — 🙂 ٌ — سَتَسمَع؟ صباحًا\n\nرُبَّما اَلصَّباح — لَيْلَ "
+    }
+  }
+]

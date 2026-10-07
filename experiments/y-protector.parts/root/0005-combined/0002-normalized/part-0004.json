@@ -1,0 +1,446 @@
+[
+  {
+    "id": "normalizer/1686",
+    "input": "khphNthDJ/īDoDáeīZaD)khysh+ā+atx/uN/Scʿ/SZʿsh+ā\n-yiNxZv(",
+    "before": "khphNthDJ/īDuDáiīZaD)khīsh+ā+atx/uN/Skʿ/SZʿsh+ā\n-yiNxZv(",
+    "after": "khphNthDJ/īDuDáiīZaD)khish+ā+atx/uN/Skʿ/SZʿsh+ā\n-yiNxZv("
+  },
+  {
+    "id": "normalizer/1688",
+    "input": "jaN ʾ'J̄+āTHʾchyHáNSZīDgh'ʾ/phatxeáshyūTcJDuNsh",
+    "before": "jaN ʾ'J̄+āTHʾchīHáNSZīDgh'ʾ/phatxiáshīūTkJDuNsh",
+    "after": "jaN ʾ'J̄+āTHʾchiHáNSZīDgh'ʾ/phatxiáshiūTkJDuNsh"
+  },
+  {
+    "id": "normalizer/1689",
+    "input": "/a/ʾ'aNatT-yHTsho/bj\n v/+eoDvā+̄ʾ(yatuNkhījaj\n(th +wáj",
+    "before": "/a/ʾ'aNatT-yHTshu/bj\n v/+iuDvā+̄ʾ(yatuNkhījaj\n(th +wáj",
+    "after": "/a/ʾ'aNatT-yHTshu/bj\n v/+iuDvā+̄ʾ(yatuNkhījaj\n(th +wáj"
+  },
+  {
+    "id": "normalizer/1691",
+    "input": "(y-v/īj+chxZuNkhaNJHSNS phshS'owʿ-xiNthāJDʿHvZʾNTjphNoch)(thZʾNbiNghsh\niN\nHbeáe",
+    "before": "(y-v/īj+chxZuNkhaNJHSNS phshS'uwʿ-siNthāJDʿHvZʾNTjphNuch)(thZʾNbiNghsh\niN\nHbiái",
+    "after": "(y-v/īj+chxZuNkhaNJHSNS phshS'uwʿ-siNthāJDʿHvZʾNTjphNuch)(thZʾNbiNghsh\niN\nHbiái"
+  },
+  {
+    "id": "normalizer/1696",
+    "input": "Dvatʿ'bHīDokhx/b/phatʿ/uN-xch\nkhuN īH)atuNkhycī'oiNoeuNkhvchJ á/bchuNā)ZJ-bcosh",
+    "before": "Dvatʿ'bHīDukhx/b/phatʿ/uN-sch\nkhuN īH)atuNkhīkī'uiNuiuNkhvchJ á/bchuNā)ZJ-bkush",
+    "after": "Dvatʿ'bHīDukhx/b/phatʿ/uN-sch\nkhuN īH)atuNkhikī'uiNuiuNkhvchJ á/bchuNā)ZJ-bkush"
+  },
+  {
+    "id": "normalizer/1697",
+    "input": "HʿNajaāghūuNex̄Jkh)chywxiNoH\n-phcʿāthāʿDʾHaN/xeīsh",
+    "before": "HʿNajaāghūuNix̄Jkh)chīwxiNuH\n-phkʿāthāʿDʾHaN/siīsh",
+    "after": "HʿNajaāghūuNix̄Jkh)chiwxiNuH\n-phkʿāthāʿDʾHaN/siīsh"
+  },
+  {
+    "id": "normalizer/1701",
+    "input": "āoāx/TchTwthHph ojJshJ̄thkhaN-veuN aNcī(ycphkhJatoN\neyNuN(JiNyNSDghjʾ̄",
+    "before": "āuāx/TchTwthHph ujJshJ̄thkhaN-viuN aNkī(ykphkhJatuN\niyNuN(JiNīNSDghjʾ̄",
+    "after": "āuāiks/TchTwthHph ujJshJ̄thkhaN-viuN aNkī(ykphkhJatuN\niyNuN(JiNiNSDghjʾ̄"
+  },
+  {
+    "id": "normalizer/1702",
+    "input": "shaHbHJū)ZījTwaN'uNw+Zvw",
+    "before": "shaHbHJū)ZījTwaN'uNw+Zvw",
+    "after": "shaHbHJū)ZījTwaN'uNw+Zvw"
+  },
+  {
+    "id": "normalizer/1707",
+    "input": "shʾDuN'ph'áwJD\niNTā)khT'+ZīZʾZī/y/aūīūoe\nūaNDuNDxchJūbjo(ph/bZ",
+    "before": "shʾDuN'ph'áwJD\niNTā)khT'+ZīZʾZī/y/aūīūui\nūaNDuNDxchJūbju(ph/bZ",
+    "after": "shʾDuN'ph'áwJD\niNTā)khT'+ZīZʾZī/y/aūīūui\nūaNDuNDxchJūbju(ph/bZ"
+  },
+  {
+    "id": "normalizer/1711",
+    "input": "̄SHákhvā\nZʾ(TZosháāaNkhy yshxNxjph̄S̄\n/)(ph')iNá(aNeʾ-",
+    "before": "̄SHákhvā\nZʾ(TZusháāaNkhī yshxNxjph̄S̄\n/)(ph')iNá(aNiʾ-",
+    "after": "̄SHákhvā\nZʾ(TZusháāaNkhi yshxNxjph̄S̄\n/)(ph')iNá(aNiʾ-"
+  },
+  {
+    "id": "normalizer/1712",
+    "input": "-aj+iNychxcʾ(áZ+Z+NT/yatawy-xw",
+    "before": "-aj+iNīchxkʾ(áZ+Z+NT/yatawī-sw",
+    "after": "-aj+iNichxkʾ(áZ+Z+NT/yatawi-sw"
+  },
+  {
+    "id": "normalizer/1713",
+    "input": "NʿNbāJūTāghkhuNshtheuNDSāuNāa(āxZxatīkhuN )'",
+    "before": "NʿNbāJūTāghkhuNshthiuNDSāuNāa(āsZxatīkhuN )'",
+    "after": "NʿNbāJūTāghkhuNshthiuNDSāuNāa(āsZxatīkhuN )'"
+  },
+  {
+    "id": "normalizer/1714",
+    "input": "iNīshaN'yNvsh)wáatoHyūʿHxDJshT Jjth/SiNth-ghshʿshuN/thw+(J(a/",
+    "before": "iNīshaN'yNvsh)wáatuHīūʿHxDJshT Jjth/SiNth-ghshʿshuN/thw+(J(a/",
+    "after": "iNīshaN'yNvsh)wáatuHiūʿHxDJshT Jjth/SiNth-ghshʿshuN/thw+(J(a/"
+  },
+  {
+    "id": "normalizer/1715",
+    "input": "ūb/SūuNw\nNbD+HʾatbwaāakhvNʾch+atb'vwvNʾ(vshʾiNáūJ-Jāghc",
+    "before": "ūb/SūuNw\nNbD+HʾatbwaāakhvNʾch+atb'vwvNʾ(vshʾiNáūJ-Jāghs",
+    "after": "ūb/SūuNw\nNbD+HʾatbwaāakhvNʾch+atb'vwvNʾ(vshʾiNáūJ-Jāghs"
+  },
+  {
+    "id": "normalizer/1720",
+    "input": "N\n/īiNJw+(Tāph(Sūa-á(xshviNá/\nkhac\nsh+wáū",
+    "before": "N\n/īiNJw+(Tāph(Sūa-á(sshviNá/\nkhas\nsh+wáū",
+    "after": "N\n/īiNJw+(Tāph(Sūa-á(sshviNá/\nkhas\nsh+wáū"
+  },
+  {
+    "id": "normalizer/1727",
+    "input": "iNJ'ashaNeghjo'gh/áāʾatbDbāycácTūgh ʿatʾ bN\n/gh̄ScyZ\nū\nwth'ghch",
+    "before": "iNJ'ashaNighju'gh/áāʾatbDbāykákTūgh ʿatʾ bN\n/gh̄SsīZ\nū\nwth'ghch",
+    "after": "iNJ'ashaNighju'gh/áāʾatbDbāykákTūgh ʿatʾ bN\n/gh̄SsiZ\nū\nwth'ghch"
+  },
+  {
+    "id": "normalizer/1728",
+    "input": "ūá()Dx̄gh-JwʿevcácaNevchgh'SeaūvNīcīwb(SkhyjSshaNwvchuNH)āȳaNZōbkhaNZph'phH)iNaDthNbw",
+    "before": "ūá()Dx̄gh-JwʿivkákaNivchgh'SiaūvNīkīwb(SkhījSshaNwvchuNH)āȳaNZūbkhaNZph'phH)iNaDthNbw",
+    "after": "ūá()Dx̄gh-JwʿivkákaNivchgh'SiaūvNīkīwb(SkhijSshaNwvchuNH)āȳaNZūbkhaNZph'phH)iNaDthNbw"
+  },
+  {
+    "id": "normalizer/1734",
+    "input": "ZphZghatJZáZ+shoū)Hthū",
+    "before": "ZphZghatJZáZ+shuū)Hthū",
+    "after": "ZphZghatJZáZ+shuū)Hthū"
+  },
+  {
+    "id": "normalizer/1736",
+    "input": "̄bchuNsh+Ha-+ ojvHyshb(\n īcaNcaethūowthZ+ aDʿjaN/ʾNáDuN(uNcuN/v(ʾwaNZghāTkh\nā)khvchʿatb-",
+    "before": "̄bchuNsh+Ha-+ ujvHīshb(\n īkaNkaithūuwthZ+ aDʿjaN/ʾNáDuN(uNkuN/v(ʾwaNZghāTkh\nā)khvchʿatb-",
+    "after": "̄bchuNsh+Ha-+ ujvHishb(\n īkaNkaithūuwthZ+ aDʿjaN/ʾNáDuN(uNkuN/v(ʾwaNZghāTkh\nā)khvchʿatb-"
+  },
+  {
+    "id": "normalizer/1737",
+    "input": "chph ʿāvkhphiNyHvjSāthN)ā)e)N",
+    "before": "chph ʿāvkhphiNīHvjSāthN)ā)e)N",
+    "after": "chph ʿāvkhphiNiHvjSāthN)ā)e)N"
+  },
+  {
+    "id": "normalizer/1738",
+    "input": "jaNāaN(thDxZáatāghw+iNthā\n()ūychywuN aN̄a/JNthat",
+    "before": "jaNāaN(thDxZáatāghw+iNthā\n()ūychīwuN aN̄a/JNthat",
+    "after": "jaNāaN(thDxZáatāghw+iNthā\n()ūychiwuN aN̄a/JNthat"
+  },
+  {
+    "id": "normalizer/1743",
+    "input": "H) + oNʿwgh-v-thūJcghwJiNá̄áiNuNwuND)eoāTZyiNaNHuNshJjʿ-",
+    "before": "H) + uNʿwgh-v-thūJkghwJiNá̄áiNuNwuND)iuāTZīiNaNHuNshJjʿ-",
+    "after": "H) + uNʿwgh-v-thūJkghwJiNá̄áiNuNwuND)iuāTZīNaNHuNshJjʿ-"
+  },
+  {
+    "id": "normalizer/1745",
+    "input": "atuNegh-phDSā\n xāxiNv-yw\n ʾw)eī'",
+    "before": "atuNigh-phDSā\n iksāsiNv-yw\n ʾw)eī'",
+    "after": "atuNigh-phDSā\n iksāsiNv-yw\n ʾw)iī'"
+  },
+  {
+    "id": "normalizer/1746",
+    "input": "̄ác+ thiNīwb̄uN'yHghDbNTjaN-oDyiNaHvūTe+ūykhʿ(ph/īj+khīDʾ'ghH",
+    "before": "̄ác+ thiNīwb̄uN'yHghDbNTjaN-uDīiNaHvūTi+ūykhʿ(ph/īj+khīDʾ'ghH",
+    "after": "̄ák+ thiNīwb̄uN'yHghDbNTjaN-uDīNaHvūTi+ūykhʿ(ph/īj+khīDʾ'ghH"
+  },
+  {
+    "id": "normalizer/1747",
+    "input": "نعم — قهوة/اليوم, mā'/aN, world shaj' — rhythm? á\n\n🙂 mā', أمس school — school? شَمْسٌ, na-am/hello — ستسمع صباحًا — من ",
+    "before": "نعم — قهوة/اليوم, mā'/aN, wurld shaj' — rhīthm? á\n\n🙂 mā', أمس schūl — schūl? شَمْسٌ, na-am/hillu — ستسمع صباحًا — من ",
+    "after": "نعم — قهوة/اليوم, mā'/aN, wurld shaj' — rhithm? á\n\n🙂 mā', أمس schūl — schūl? شَمْسٌ, na-am/hillu — ستسمع صباحًا — من "
+  },
+  {
+    "id": "normalizer/1748",
+    "input": "لأن\n\nyellow? هي, هواء عائشة — غدًا? E=mc^2, madrasat? kitāb, الذي? anta\n\nā/aN, quvva lā — ليلى? قهوة — shāj? anta, city/",
+    "before": "لأن\n\nyilluw? هي, هواء عائشة — غدًا? E=mk^2, madrasat? kitāb, الذي? anta\n\nā/aN, quvva lā — ليلى? قهوة — shāj? anta, sitī/",
+    "after": "لأن\n\nyilluw? هي, هواء عائشة — غدًا? E=mk^2, madrasat? kitāb, الذي? anta\n\nā/aN, quvva lā — ليلى? قهوة — shāj? anta, siti/"
+  },
+  {
+    "id": "normalizer/1749",
+    "input": "aN\n\nby/queue — -alá ١٢ — هواء/by, ماء? E=mc^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mc^2/محمد\n\nلا قُوَّة — queue mā' — ستسمع? ",
+    "before": "aN\n\nbī/quiui — -alá ١٢ — هواء/bī, ماء? E=mk^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mk^2/محمد\n\nلا قُوَّة — quiui mā' — ستسمع? ",
+    "after": "aN\n\nbi/quiui — -alá ١٢ — هواء/bi, ماء? E=mk^2 — شاي/لا\n\nwith? قُوَّة\n\nE=mk^2/محمد\n\nلا قُوَّة — quiui mā' — ستسمع? "
+  },
+  {
+    "id": "normalizer/1750",
+    "input": "yellow, هو? ربما, مسؤول? yellow, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhello? 42 — ربما/my — rubbamā yellow\n\nsatasma-/",
+    "before": "yilluw, هو? ربما, مسؤول? yilluw, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhillu? 42 — ربما/mī — rubbamā yilluw\n\nsatasma-/",
+    "after": "yilluw, هو? ربما, مسؤول? yilluw, fī? alSawt, شاي/مساءً — 42? ماء\n\n42 كتاب\n\nhillu? 42 — ربما/mi — rubbamā yilluw\n\nsatasma-/"
+  },
+  {
+    "id": "normalizer/1751",
+    "input": "في\n\n١٢ شَمْسٌ — book/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+    "before": "في\n\n١٢ شَمْسٌ — būk/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? ",
+    "after": "في\n\n١٢ شَمْسٌ — būk/نعم\n\nمدرسة/mā', ghadaN anta — alSSabāH? ليلى — غدًا lajla — في? أنا — quvva/naHnu, ā ٱلْبَيْتُ — مساءً? "
+  },
+  {
+    "id": "normalizer/1753",
+    "input": "naHnu, أمس? 42 — نافذة by\n\nā أحمد, aHmad/world — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "before": "naHnu, أمس? 42 — نافذة bī\n\nā أحمد, aHmad/wurld — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? ",
+    "after": "naHnu, أمس? 42 — نافذة bi\n\nā أحمد, aHmad/wurld — أمس? هو — lā? qahva, mā' with — aHmad lajla\n\naHmad su'āl\n\nفي? "
+  },
+  {
+    "id": "normalizer/1754",
+    "input": "havā' — مدرسة صوت, 42/by, my? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith my\n\nnaHnu/iN\n\nمسؤول/",
+    "before": "havā' — مدرسة صوت, 42/bī, mī? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith mī\n\nnaHnu/iN\n\nمسؤول/",
+    "after": "havā' — مدرسة صوت, 42/bi, mi? من, حَيّ/عائشة\n\nقُوَّة مدرسة\n\nmadrasat أنت, شَمْسٌ هواء\n\nwith mi\n\nnaHnu/iN\n\nمسؤول/"
+  },
+  {
+    "id": "normalizer/1757",
+    "input": "E=mc^2\n\nحَيّ? هي, queue? book\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mc^2/rhythm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am ",
+    "before": "E=mk^2\n\nحَيّ? هي, quiui? būk\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mk^2/rhīthm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am ",
+    "after": "E=mk^2\n\nحَيّ? هي, quiui? būk\n\n🙂/محمد, ماء ilá, aHmad? satasma-, E=mk^2/rhithm, لأن/ليلى\n\nالذي 🙂 — صوت أنت — na-am "
+  },
+  {
+    "id": "normalizer/1758",
+    "input": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yellow? quvva, lā? satasma- — هي قُوَّة, نعم? rhythm — نحن ",
+    "before": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yilluw? quvva, lā? satasma- — هي قُوَّة, نعم? rhīthm — نحن ",
+    "after": "min, quvva shāj — قارئ/madrasat, quvva نحن — هذه/كتاب, من كتاب — yilluw? quvva, lā? satasma- — هي قُوَّة, نعم? rhithm — نحن "
+  },
+  {
+    "id": "normalizer/1761",
+    "input": "su'āl, نافذة ماء\n\nshāj/أنا — city? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yellow ilá — shaj'/quvva — my/",
+    "before": "su'āl, نافذة ماء\n\nshāj/أنا — sitī? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yilluw ilá — shaj'/quvva — mī/",
+    "after": "su'āl, نافذة ماء\n\nshāj/أنا — siti? lā, á? lajla, حَيّ/lajla, إلى kitāb — rubbamā? نحن, yilluw ilá — shaj'/quvva — mi/"
+  },
+  {
+    "id": "normalizer/1763",
+    "input": "مدرسة, shāj/with\n\nعلى naHnu, حَيّ هؤلاء — هي? kitāb\n\nغدًا نعم, with قارئ — اليوم shāj — ٱلْبَيْتُ? لكن, shaj'/lā — yellow? ",
+    "before": "مدرسة, shāj/with\n\nعلى naHnu, حَيّ هؤلاء — هي? kitāb\n\nغدًا نعم, with قارئ — اليوم shāj — ٱلْبَيْتُ? لكن, shaj'/lā — yilluw? ",
+    "after": "مدرسة, shāj/with\n\nعلى naHnu, حَيّ هؤلاء — هي? kitāb\n\nغدًا نعم, with قارئ — اليوم shāj — ٱلْبَيْتُ? لكن, shaj'/lā — yilluw? "
+  },
+  {
+    "id": "normalizer/1764",
+    "input": "هو, world/world\n\nليلى min\n\nكتاب shaj'\n\nilá book — لكن/uN\n\nشاي/نافذة, by أنت, shaj'/صوت\n\nghadaN/iN, world ",
+    "before": "هو, wurld/wurld\n\nليلى min\n\nكتاب shaj'\n\nilá būk — لكن/uN\n\nشاي/نافذة, bī أنت, shaj'/صوت\n\nghadaN/iN, wurld ",
+    "after": "هو, wurld/wurld\n\nليلى min\n\nكتاب shaj'\n\nilá būk — لكن/uN\n\nشاي/نافذة, bi أنت, shaj'/صوت\n\nghadaN/iN, wurld "
+  },
+  {
+    "id": "normalizer/1765",
+    "input": "كتاب\n\nE=mc^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhythm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "before": "كتاب\n\nE=mk^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhīthm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/",
+    "after": "كتاب\n\nE=mk^2 min, á/كتاب — alSSabāH أمس\n\nأمس/نافذة — أحمد rhithm — لأن? نحن\n\nغدًا/مدرسة, with ilá\n\nlā madrasat\n\n-alá/"
+  },
+  {
+    "id": "normalizer/1767",
+    "input": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmy ",
+    "before": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmī ",
+    "after": "quvva — نحن عائشة\n\nلا نافذة — ١٢? هؤلاء, su'āl? الذي — في/‍ — شَمْسٌ? alSSabāH, marHaba? نافذة\n\nصوت? غدًا, quvva? marHaba\n\nmi "
+  },
+  {
+    "id": "normalizer/1768",
+    "input": "quvva\n\nعائشة with\n\nفي/lā\n\nمحمد? lajla, مسؤول? غدًا, anta/qahva\n\nنعم/aHmad, ā ستسمع, á/على, su'āl? ماء, naHnu? ",
+    "before": "quvva\n\nعائشة with\n\nفي/lā\n\nمحمد? lajla, مسؤول? غدًا, anta/qahva\n\nنعم/aHmad, ā ستسمع, á/على, su'āl? ماء, naHnu? ",
+    "after": "quvva\n\nعائشة with\n\nفي/lā\n\nمحمد? lajla, مسؤول? غدًا, anta/qahva\n\nنعم/aHmad, ā ستسمع, á/على, su'āl? ماء, naHnu? "
+  },
+  {
+    "id": "normalizer/1769",
+    "input": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء my, city/من — fī madrasat, iN أمس, E=mc^2/satasma-\n\nschool/na-am — kitāb? ",
+    "before": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء mī, sitī/من — fī madrasat, iN أمس, E=mk^2/satasma-\n\nschūl/na-am — kitāb? ",
+    "after": "من\n\nهواء aHmad\n\nلكن? mā', قارئ? lā\n\nشيء mi, siti/من — fī madrasat, iN أمس, E=mk^2/satasma-\n\nschūl/na-am — kitāb? "
+  },
+  {
+    "id": "normalizer/1770",
+    "input": "هي\n\nghadaN أمس\n\nهي? by\n\nanta/‍, lā إلى — world/الذي — anā? world\n\ncity? لا — هواء أنا, Hajj/mā' — على ",
+    "before": "هي\n\nghadaN أمس\n\nهي? bī\n\nanta/‍, lā إلى — wurld/الذي — anā? wurld\n\nsitī? لا — هواء أنا, Hajj/mā' — على ",
+    "after": "هي\n\nghadaN أمس\n\nهي? bi\n\nanta/‍, lā إلى — wurld/الذي — anā? wurld\n\nsiti? لا — هواء أنا, Hajj/mā' — على "
+  },
+  {
+    "id": "normalizer/1771",
+    "input": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? queue\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/",
+    "before": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? quiui\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/",
+    "after": "هواء\n\nsu'āl? من\n\nmadrasat 42\n\nماء/fī, قهوة? quiui\n\n-alá/havā'\n\n42/لأن — ‍/ليلى\n\nalSawt/shaj', lajla/هذه\n\nأنت/"
+  },
+  {
+    "id": "normalizer/1772",
+    "input": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhythm\n\nkitāb/من\n\nyellow شاي — alSawt على, هؤلاء/",
+    "before": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhīthm\n\nkitāb/من\n\nyilluw شاي — alSawt على, هؤلاء/",
+    "after": "لأن\n\nrubbamā á — مساءً uN, في/Hajj — كتاب قارئ — 42/-alá\n\nعائشة rhithm\n\nkitāb/من\n\nyilluw شاي — alSawt على, هؤلاء/"
+  },
+  {
+    "id": "normalizer/1773",
+    "input": "ليلى — صباحًا/إلى — anā/city — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? world, hello lajla, world? ",
+    "before": "ليلى — صباحًا/إلى — anā/sitī — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? wurld, hillu lajla, wurld? ",
+    "after": "ليلى — صباحًا/إلى — anā/siti — ٱلْبَيْتُ? with\n\nأمس lajla — قُوَّة lā, ستسمع غدًا — fī شيء\n\nمن? wurld, hillu lajla, wurld? "
+  },
+  {
+    "id": "normalizer/1777",
+    "input": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? book\n\nمحمد marHaba, my/city, في/-alá — madrasat على\n\nworld? ilá, حَيّ ā, شَمْسٌ/",
+    "before": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? būk\n\nمحمد marHaba, mī/sitī, في/-alá — madrasat على\n\nwurld? ilá, حَيّ ā, شَمْسٌ/",
+    "after": "شيء — مدرسة/anā\n\nأمس مدرسة — نحن? būk\n\nمحمد marHaba, mi/siti, في/-alá — madrasat على\n\nwurld? ilá, حَيّ ā, شَمْسٌ/"
+  },
+  {
+    "id": "normalizer/1780",
+    "input": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, book? iN — city/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/",
+    "before": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, būk? iN — sitī/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/",
+    "after": "اليوم, rubbamā satasma-, شَمْسٌ/قهوة, aN هو, būk? iN — siti/uN\n\nلأن naHnu\n\nهو 🙂, شَمْسٌ? شيء\n\naHmad? صباحًا\n\nنحن/"
+  },
+  {
+    "id": "normalizer/1781",
+    "input": "ماء\n\nsu'āl world, لا/queue, alSawt? أنا — rhythm book — shāj? madrasat — coffee/E=mc^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "before": "ماء\n\nsu'āl wurld, لا/quiui, alSawt? أنا — rhīthm būk — shāj? madrasat — kuffī/E=mk^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/",
+    "after": "ماء\n\nsu'āl wurld, لا/quiui, alSawt? أنا — rhithm būk — shāj? madrasat — kuffī/E=mk^2\n\nصباحًا? with, نحن/su'āl\n\nقُوَّة? غدًا, نحن/"
+  },
+  {
+    "id": "normalizer/1782",
+    "input": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mc^2, shāj/إلى — 42 مسؤول, من/هي\n\nqueue ",
+    "before": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mk^2, shāj/إلى — 42 مسؤول, من/هي\n\nquiui ",
+    "after": "أنت, عائشة/نافذة — 42 في — محمد/شيء — ماء aHmad\n\nنعم/١٢, هو E=mk^2, shāj/إلى — 42 مسؤول, من/هي\n\nquiui "
+  },
+  {
+    "id": "normalizer/1784",
+    "input": "اليوم\n\nمن/rhythm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhythm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\ncity qahva — havā'/quvva — rhythm? ilá\n\nهي? ",
+    "before": "اليوم\n\nمن/rhīthm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhīthm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\nsitī qahva — havā'/quvva — rhīthm? ilá\n\nهي? ",
+    "after": "اليوم\n\nمن/rhithm\n\nٱلْبَيْتُ? ghadaN\n\nهذه/rhithm, ‍/على\n\nصوت? su'āl — مساءً? ā\n\nsiti qahva — havā'/quvva — rhithm? ilá\n\nهي? "
+  },
+  {
+    "id": "normalizer/1786",
+    "input": "na-am\n\nā/by, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhythm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? ",
+    "before": "na-am\n\nā/bī, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhīthm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? ",
+    "after": "na-am\n\nā/bi, ماء/lā\n\naN/aHmad\n\nlajla قهوة — هذه? نافذة — na-am? هو, rhithm أنا\n\nإلى/anta\n\nالذي/uN\n\nعائشة? "
+  },
+  {
+    "id": "normalizer/1788",
+    "input": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — school? hello, نحن? rhythm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن ",
+    "before": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — schūl? hillu, نحن? rhīthm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن ",
+    "after": "لأن — صوت? madrasat\n\nنعم? na-am\n\nmarHaba اليوم — غدًا? ستسمع, أمس á — schūl? hillu, نحن? rhithm\n\nربما? satasma-\n\naHmad/صوت\n\nنحن "
+  },
+  {
+    "id": "normalizer/1789",
+    "input": "على — غدًا/هؤلاء — أنا? world — لأن? ٱلْبَيْتُ\n\nwith? rhythm\n\nshaj'? حَيّ\n\nqueue? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+    "before": "على — غدًا/هؤلاء — أنا? wurld — لأن? ٱلْبَيْتُ\n\nwith? rhīthm\n\nshaj'? حَيّ\n\nquiui? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/",
+    "after": "على — غدًا/هؤلاء — أنا? wurld — لأن? ٱلْبَيْتُ\n\nwith? rhithm\n\nshaj'? حَيّ\n\nquiui? قارئ\n\nwith? madrasat, qahva? أحمد, أحمد 42, shāj/"
+  },
+  {
+    "id": "normalizer/1790",
+    "input": "alSawt\n\nilá/rhythm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/coffee — أمس/my — my ā, ستسمع? ",
+    "before": "alSawt\n\nilá/rhīthm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/kuffī — أمس/mī — mī ā, ستسمع? ",
+    "after": "alSawt\n\nilá/rhithm — anta/مساءً\n\nalSSabāH/ٱلْبَيْتُ — -alá? عائشة\n\nlā? هو — shaj'? shāj\n\nقهوة/kuffī — أمس/mi — mi ā, ستسمع? "
+  },
+  {
+    "id": "normalizer/1791",
+    "input": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, city? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? city\n\nصباحًا/الذي — ghadaN yellow\n\nإلى? كتاب\n\nrhythm/",
+    "before": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, sitī? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? sitī\n\nصباحًا/الذي — ghadaN yilluw\n\nإلى? كتاب\n\nrhīthm/",
+    "after": "alSawt, شَمْسٌ/هذه — مدرسة aHmad, siti? غدًا — alSSabāH? qahva\n\nghadaN alSawt\n\nصباحًا? siti\n\nصباحًا/الذي — ghadaN yilluw\n\nإلى? كتاب\n\nrhithm/"
+  },
+  {
+    "id": "normalizer/1792",
+    "input": "لا\n\nyellow? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\ncity/uN\n\nhavā'? coffee\n\nmarHaba by — 42? ربما, لا alSawt\n\nلا? ",
+    "before": "لا\n\nyilluw? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\nsitī/uN\n\nhavā'? kuffī\n\nmarHaba bī — 42? ربما, لا alSawt\n\nلا? ",
+    "after": "لا\n\nyilluw? aHmad\n\nعلى? مسؤول, kitāb aHmad, ilá? أمس\n\nsiti/uN\n\nhavā'? kuffī\n\nmarHaba bi — 42? ربما, لا alSawt\n\nلا? "
+  },
+  {
+    "id": "normalizer/1793",
+    "input": "queue, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? my — ستسمع alSawt\n\nna-am/by — شَمْسٌ/-alá — أحمد/",
+    "before": "quiui, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? mī — ستسمع alSawt\n\nna-am/bī — شَمْسٌ/-alá — أحمد/",
+    "after": "quiui, نعم? alSawt\n\nanā هذه\n\nأنا/اليوم — min? لا — أنا/نافذة — shāj? mi — ستسمع alSawt\n\nna-am/bi — شَمْسٌ/-alá — أحمد/"
+  },
+  {
+    "id": "normalizer/1795",
+    "input": "queue — anta? book, coffee? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — school في, قارئ/ghadaN, iN/عائشة, world قُوَّة\n\nمن? ",
+    "before": "quiui — anta? būk, kuffī? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — schūl في, قارئ/ghadaN, iN/عائشة, wurld قُوَّة\n\nمن? ",
+    "after": "quiui — anta? būk, kuffī? marHaba, anā? مساءً, naHnu/fī, ghadaN/صوت — schūl في, قارئ/ghadaN, iN/عائشة, wurld قُوَّة\n\nمن? "
+  },
+  {
+    "id": "normalizer/1796",
+    "input": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschool لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "before": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschūl لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/",
+    "after": "أمس — shaj'/لا — ١٢? إلى, نحن قهوة, havā'? aN\n\nschūl لأن — ghadaN naHnu\n\nهي حَيّ — أنا? هو — هؤلاء أمس — su'āl/"
+  },
+  {
+    "id": "normalizer/1797",
+    "input": "ilá, أحمد/الذي — أمس queue — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, city/صوت, na-am/city\n\nsu'āl anta, قارئ/",
+    "before": "ilá, أحمد/الذي — أمس quiui — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, sitī/صوت, na-am/sitī\n\nsu'āl anta, قارئ/",
+    "after": "ilá, أحمد/الذي — أمس quiui — عائشة aN\n\nsatasma-/quvva\n\nlajla من\n\nماء? مسؤول, siti/صوت, na-am/siti\n\nsu'āl anta, قارئ/"
+  },
+  {
+    "id": "normalizer/1798",
+    "input": "١٢, E=mc^2/yellow, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, coffee school, by/نعم\n\nهذه? ",
+    "before": "١٢, E=mk^2/yilluw, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, kuffī schūl, bī/نعم\n\nهذه? ",
+    "after": "١٢, E=mk^2/yilluw, ‍? من\n\nhavā'/إلى\n\nuN naHnu — ١٢? 42 — ilá? -alá\n\nحَيّ madrasat, kuffī schūl, bi/نعم\n\nهذه? "
+  },
+  {
+    "id": "normalizer/1799",
+    "input": "نعم\n\nمدرسة? hello — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmy/aHmad\n\n١٢/Hajj, 42? ",
+    "before": "نعم\n\nمدرسة? hillu — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmī/aHmad\n\n١٢/Hajj, 42? ",
+    "after": "نعم\n\nمدرسة? hillu — قارئ? قارئ — alSSabāH/aN — 🙂/نافذة — satasma- uN, rubbamā/إلى\n\nستسمع? na-am\n\nmi/aHmad\n\n١٢/Hajj, 42? "
+  },
+  {
+    "id": "normalizer/1801",
+    "input": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\ncoffee/anta — هي? مدرسة, الذي rubbamā — by/مسؤول\n\nhello/with, ٱلْبَيْتُ/",
+    "before": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\nkuffī/anta — هي? مدرسة, الذي rubbamā — bī/مسؤول\n\nhillu/with, ٱلْبَيْتُ/",
+    "after": "kitāb — shaj'/شاي\n\n🙂 ghadaN\n\nلا? havā'\n\n🙂 هو\n\nkuffī/anta — هي? مدرسة, الذي rubbamā — bi/مسؤول\n\nhillu/with, ٱلْبَيْتُ/"
+  },
+  {
+    "id": "normalizer/1802",
+    "input": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — queue ‍ — إلى world, كتاب قُوَّة\n\nby/fī, إلى/iN\n\nyellow? قهوة, حَيّ ",
+    "before": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — quiui ‍ — إلى wurld, كتاب قُوَّة\n\nbī/fī, إلى/iN\n\nyilluw? قهوة, حَيّ ",
+    "after": "with, ستسمع? alSSabāH, شاي شَمْسٌ\n\n١٢/🙂 — quiui ‍ — إلى wurld, كتاب قُوَّة\n\nbi/fī, إلى/iN\n\nyilluw? قهوة, حَيّ "
+  },
+  {
+    "id": "normalizer/1803",
+    "input": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mc^2, كتاب/book — city/naHnu — kitāb? naHnu, coffee alSawt — shaj' ",
+    "before": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mk^2, كتاب/būk — sitī/naHnu — kitāb? naHnu, kuffī alSawt — shaj' ",
+    "after": "fī — قارئ? أحمد, عائشة الذي\n\nsatasma- alSawt — هواء min\n\nsu'āl? E=mk^2, كتاب/būk — siti/naHnu — kitāb? naHnu, kuffī alSawt — shaj' "
+  },
+  {
+    "id": "normalizer/1804",
+    "input": "quvva — نعم? ā — aHmad/su'āl, city? أحمد\n\nمحمد/book, هي/ٱلْبَيْتُ, صباحًا? الذي — yellow iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "before": "quvva — نعم? ā — aHmad/su'āl, sitī? أحمد\n\nمحمد/būk, هي/ٱلْبَيْتُ, صباحًا? الذي — yilluw iN — حَيّ alSawt, ستسمع? iN, anta/",
+    "after": "quvva — نعم? ā — aHmad/su'āl, siti? أحمد\n\nمحمد/būk, هي/ٱلْبَيْتُ, صباحًا? الذي — yilluw iN — حَيّ alSawt, ستسمع? iN, anta/"
+  },
+  {
+    "id": "normalizer/1807",
+    "input": "city",
+    "before": "sitī",
+    "after": "siti"
+  },
+  {
+    "id": "normalizer/1808",
+    "input": "xylophone",
+    "before": "sīluphuni",
+    "after": "siluphuni"
+  },
+  {
+    "id": "normalizer/1812",
+    "input": "cycle",
+    "before": "sīkli",
+    "after": "sikli"
+  },
+  {
+    "id": "normalizer/1818",
+    "input": "century",
+    "before": "sinturī",
+    "after": "sinturi"
+  },
+  {
+    "id": "normalizer/1828",
+    "input": "cylinder",
+    "before": "sīlindir",
+    "after": "silindir"
+  },
+  {
+    "id": "normalizer/1829",
+    "input": "cypress",
+    "before": "sīpriss",
+    "after": "sipriss"
+  },
+  {
+    "id": "normalizer/1830",
+    "input": "cyan",
+    "before": "sīan",
+    "after": "sian"
+  },
+  {
+    "id": "normalizer/1831",
+    "input": "cyber",
+    "before": "sībir",
+    "after": "sibir"
+  },
+  {
+    "id": "normalizer/1832",
+    "input": "bicycle",
+    "before": "bisīkli",
+    "after": "bisikli"
+  }
+]
