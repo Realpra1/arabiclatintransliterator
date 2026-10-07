@@ -30,7 +30,7 @@ Extract this entire ZIP, then open ArabicEnglishAlphabetTranslator.html in a bro
 Keep all files together. No installation or network connection is needed.
 
 Standard notation: w/y/j, dotted consonants, and tanwin N rendered as ṇ.
-Ordinary ن remains n; custom mode retains N. The á and alif/tanwin vowel encodings
+Ordinary ن remains n; MCB mode retains N. The á and alif/tanwin vowel encodings
 are unchanged. This is a reversible alternate notation with custom conventions.
 
 The key image is above the editor. Green marks protected text, yellow marks

@@ -33,7 +33,8 @@
     input.setAttribute("lang", dir === "ar2en" ? "ar" : "en");
     output.dir = dir === "ar2en" ? "ltr" : "rtl";
     output.setAttribute("lang", dir === "ar2en" ? "en" : "ar");
-    $("notationHint").textContent = isStandard ? "Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · ṇ" : "Custom: v / j · H / S / D / T / Z / J";
+    $("notationLabel").textContent = isStandard ? "Standard notation" : "MCB notation";
+    $("notationHint").textContent = isStandard ? "Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · Tanwin: ṇ" : "MCB: v / j · H / S / D / T / Z / J · Tanwin: N";
     $("inputCount").textContent = count(input.value);
     try {
       if (!window.MapperView) throw new Error("The transliterator could not load. Keep all application files in the same folder, then reload this page.");
@@ -60,7 +61,7 @@
       $("unmappedWarning").hidden = result.counts.unmapped === 0;
       $("unmappedWarning").textContent = `${result.counts.unmapped} unmapped ${result.counts.unmapped === 1 ? "section was" : "sections were"} kept unchanged. Check the red highlights before copying.`;
       for (const kind of ["protected", "warning", "unmapped"]) $(`${kind}Count`).textContent = result.counts[kind];
-      $("status").textContent = !input.value ? "Ready when you are." : result.counts.unmapped || result.counts.warning || result.coverage.sparse ? "Converted · review the highlighted details" : "Converted · ready to copy";
+      $("status").textContent = !input.value ? "Ready." : result.counts.unmapped || result.counts.warning || result.coverage.sparse ? "Converted · review the highlighted details" : "Converted · ready to copy";
     } catch (err) {
       current = "";
       output.replaceChildren();
@@ -99,8 +100,8 @@
     update();
   });
   $("sampleBtn").addEventListener("click", () => {
-    input.value = direction() === "ar2en" ? "مَرْحَبًا! كَيْفَ حَالُكَ؟\nكتب علم دمشق\nH2O  25°C" :
-      $("standardNotation").checked ? "ḥaḍāratuN fī ṣafḥatiN wāḥidatiN\nH2O, CO2, 25°C" : "HaDāratuN fī SafHatiN vāHidatiN\ncity, cycle, H2O, CO2, 25°C";
+    input.value = direction() === "ar2en" ? "حُضُورٌ\nجَوٌّ" :
+      $("standardNotation").checked ? "ḥuḍūruṇ\njawwuṇ" : "HuDūruN\nJavvuN";
     update();
     input.focus();
   });

@@ -30,7 +30,7 @@ grammatical or spelling judgment.
 
 One notation toggle enables `v/j → w/y` and `H/S/D/T/Z/J → ḥ/ṣ/ḍ/ṭ/ẓ/j` in both
 directions. Tanwin `N` becomes `ṇ` in standard mode (`buN ↔ buṇ`), while
-ordinary ن remains `n`. Custom mode keeps uppercase `N`. The `á` and existing
+ordinary ن remains `n`. MCB mode keeps uppercase `N`. The `á` and existing
 short/long-vowel encodings remain unchanged,
 so this is an alternate spelling mode rather than full compliance with a
 particular academic romanization standard. Protected symbols are preserved.

@@ -13,6 +13,34 @@ const { chromium } = require(process.env.PLAYWRIGHT_CORE_PATH || 'playwright-cor
     await page.goto(pathToFileURL(join(process.env.APP_DIRECTORY || process.cwd(), 'ArabicEnglishAlphabetTranslator.html')).href);
     assert.equal(await page.locator('#errorBox').isVisible(), false);
     assert.ok(await page.locator('.alphabet-key img').evaluate(el => el.complete && el.naturalWidth > 0));
+    // Both displayed examples must match the real converter in each notation.
+    const examples = await page.locator('.notation-examples tbody tr').evaluateAll(rows => rows.map(row => [...row.cells].map(cell => cell.textContent)));
+    for (const [arabic, mcb, standard] of examples) {
+      for (const [useStandard, latin] of [[false, mcb], [true, standard]]) {
+        assert.equal(await page.evaluate(({ arabic, useStandard }) => MapperView.convert(arabic, 'ar2en', useStandard).text, { arabic, useStandard }), latin);
+      }
+    }
+    const chooser = await page.locator('.direction').boundingBox();
+    const notation = await page.locator('.workspace-toolbar .setting').boundingBox();
+    assert.ok(notation.x >= chooser.x + chooser.width && Math.abs(notation.y - chooser.y) < 15);
+    for (const useStandard of [false, true]) {
+      await page.locator('#standardNotation').setChecked(useStandard);
+      assert.equal(await page.locator('#notationLabel').textContent(), useStandard ? 'Standard notation' : 'MCB notation');
+      assert.equal(await page.locator('#notationHint').textContent(), useStandard ? 'Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · Tanwin: ṇ' : 'MCB: v / j · H / S / D / T / Z / J · Tanwin: N');
+      const latin = examples.map(row => row[useStandard ? 2 : 1]).join('\n');
+      const arabic = examples.map(row => row[0]).join('\n');
+      for (const direction of ['ar2en', 'en2ar']) {
+        await page.locator(`input[value="${direction}"]`).check();
+        await page.locator('#sampleBtn').click();
+        assert.equal(await page.locator('#input').inputValue(), direction === 'ar2en' ? arabic : latin);
+        assert.equal(await page.locator('#output').textContent(), direction === 'ar2en' ? latin : arabic);
+        await page.locator('#swapBtn').click();
+        await page.locator('#swapBtn').click();
+        assert.equal(await page.locator('#output').textContent(), direction === 'ar2en' ? latin : arabic);
+      }
+    }
+    await page.locator('input[value="ar2en"]').check();
+    await page.locator('#standardNotation').uncheck();
     await page.locator('#input').fill('كتب دمشق علم H2O 25°C 🙂');
     await page.waitForFunction(() => document.querySelector('#output').textContent.includes('ktb'));
     assert.ok(await page.locator('#vowelWarning').isVisible());
