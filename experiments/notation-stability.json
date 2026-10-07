@@ -1,7 +1,7 @@
 {
   "description": "Both starting directions, seeded from identical Arabic for custom and standard notation. All corpus inputs contribute, including Arabic generated from Latin inputs.",
-  "checks": 16533,
-  "beforeFailed": 257,
-  "afterFailed": 257,
+  "checks": 22044,
+  "beforeFailed": 633,
+  "afterFailed": 633,
   "newFailures": []
 }

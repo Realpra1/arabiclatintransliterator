@@ -24,7 +24,8 @@ html = (root / files[0]).read_text()
 for relative in re.findall(r'(?:src|href)="\./([^"]+)"', html):
     if relative not in files:
         raise ValueError(f"Missing runtime asset: {relative}")
-instructions = f"""Arabic & Latin — Test release {version}
+release_label = "Test release" if "-" in version else "Release"
+instructions = f"""Arabic & Latin — {release_label} {version}
 
 Extract this entire ZIP, then open ArabicEnglishAlphabetTranslator.html in a browser.
 Keep all files together. No installation or network connection is needed.
@@ -39,7 +40,8 @@ possible missing vowels, and red marks unmapped passthrough. Explanations preced
 warning/error messages. Copy output copies plain text without markup.
 
 Known limitation: existing round-trip stability issues remain, including repeated
-vowel sequences. This is a prerelease for testing. See the release notes and source
+vowel sequences. Both starting directions are tested for L2=L3 and A2=A3; these
+checks remain enabled even when they fail. See the release notes and source
 repository for the full regression/stability reports and tests.
 """
 with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as bundle:

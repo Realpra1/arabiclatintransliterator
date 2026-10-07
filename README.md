@@ -138,12 +138,13 @@ and additional normalizer/tanwin inputs. They compare exact strings independentl
 of saved mappings:
 
 - Latin input: `L1 → A1 → L2 → A2 → L3 → A3`, requiring `L2 === L3` and `A2 === A3`.
-- Arabic input: `A1 → L1 → A2 → L2 → A3 → L3`, requiring only `L2 === L3`. Arabic spellings may continue to settle after the Latin has stabilized.
+- Arabic input: `A1 → L1 → A2 → L2 → A3 → L3`, requiring `L2 === L3` and `A2 === A3`. The original Latin conversion `L1` need not equal `L2`.
 
-With the terminal `at` rule and this stability specification, there are 320 failing
-assertions across 199 inputs (8,749 checks total). Removing Arabic-start `A2 === A3`
-removes 253 of the previous 573 failures; the `at` change adds no failures under
-the retained rules. See `experiments/terminal-at-accepted.json` for the comparison.
+Both Latin and Arabic stability comparisons remain enabled: 575 failing assertions
+across 385 inputs out of 11,022 checks. The terminal `at`
+change adds two Arabic-start `A2 === A3` failures to the previous 573; the Latin
+`L2 === L3` comparisons still pass in those two cases. See
+`experiments/terminal-at-accepted.json` for the current counts and comparison.
 
 Run just these checks with `node --test tests/roundtrip-stability.test.mjs`.
 Run `node scripts/report-roundtrip-stability.mjs` to write every failure's full

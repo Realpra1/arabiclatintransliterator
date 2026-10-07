@@ -1,17 +1,19 @@
 {
-  "description": "Applied terminal at mapping with no inserted carriers. Arabic-start stability now requires only L2=L3; Latin-start still requires L2=L3 and A2=A3. Counts distinguish the removed requirement from conversion changes. Historical experiment reports retain their original test spec.",
+  "description": "Applied terminal at mapping without inserted carriers. Both Arabic-start and Latin-start stability require L2=L3 and A2=A3; L1=L2 is not required. Restores the Arabic A2=A3 comparison that was mistakenly removed in the preceding commit.",
   "previousFailureCount": 573,
-  "failuresRemovedBySpecChange": 253,
-  "previousCodeFailuresUnderNewSpec": 320,
-  "newCodeFailuresUnderNewSpec": 320,
-  "newFailures": 0,
-  "fixedUnderRetainedRules": 0,
+  "currentFailureCount": 575,
+  "newFailures": 2,
+  "newFailureRule": "Arabic input: Arabic A2 = A3",
+  "newFailureCases": [
+    "expanded-seeded-fragments/ar2en/0075",
+    "expanded-seeded-fragments/ar2en/0156"
+  ],
   "summary": {
     "inputCases": 5511,
-    "checks": 8749,
-    "passed": 8429,
-    "failed": 320,
-    "failingInputCases": 199,
+    "checks": 11022,
+    "passed": 10447,
+    "failed": 575,
+    "failingInputCases": 385,
     "byRule": {
       "Latin input: Latin L2 = L3": {
         "checks": 3238,
@@ -27,13 +29,18 @@
         "checks": 2273,
         "passed": 2204,
         "failed": 69
+      },
+      "Arabic input: Arabic A2 = A3": {
+        "checks": 2273,
+        "passed": 2018,
+        "failed": 255
       }
     }
   },
   "fullSuite": {
-    "tests": 29503,
-    "passed": 29183,
-    "failed": 320
+    "tests": 31776,
+    "passed": 31201,
+    "failed": 575
   },
   "reviewedSnapshotCasesChanged": 439,
   "reviewedWholePassageWordsChanged": 11
