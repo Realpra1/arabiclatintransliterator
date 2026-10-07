@@ -103,6 +103,38 @@
 
   // ===== New shared helpers moved out of translators =====
 
+  // Keep optional diagnostic ranges aligned when a final canonicalization changes
+  // string length. The plain-string API uses the exact same replacement path.
+  function replaceWithRanges(str, pattern, replacement, details) {
+    let shift = 0;
+    return str.replace(pattern, (...args) => {
+      const match = args[0];
+      const offset = args[args.length - 2];
+      const value = replacement(...args);
+      if (details) {
+        const start = offset + shift;
+        const end = start + match.length;
+        const delta = value.length - match.length;
+        for (const range of details.ranges) {
+          if (range.end <= start) continue;
+          if (range.start >= end) {
+            range.start += delta;
+            range.end += delta;
+          } else {
+            range.start = Math.min(range.start, start);
+            range.end = range.end >= end ? range.end + delta : start + value.length;
+          }
+        }
+        shift += delta;
+      }
+      return value;
+    });
+  }
+
+  function isNeutralPassthrough(ch) {
+    return /^[\s\p{N}.,;:!?،؛؟()[\]{}"“”«»<>/\\|+=*^~`−–—°%×÷≈Ω_\-$€£&]$/u.test(ch);
+  }
+
   function hasExplicitMarkOnWeakLetter(input, idx) {
     return isArabicDiacritic(input[idx + 1]);
   }
@@ -167,6 +199,8 @@
     nextArabicBaseChar,
     hasShortVowelAfterBaseAt,
     isBareConsonantBridge,
+    replaceWithRanges,
+    isNeutralPassthrough,
 
     hasExplicitMarkOnWeakLetter,
     hasShaddaOnWeakLetter,

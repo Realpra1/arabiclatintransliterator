@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/Realpra1/arabiclatintransliterator",
+  "commit": "a37ad8ecdaf7f639ce54f0b1aa812b13a05255cb",
+  "note": "Observed behavior, including lossy round trips and quirks. Source hashes identify the exact captured implementation; they do not prohibit later code changes.",
+  "sourceSha256": {
+    "constants.js": "6248f7ed8ed929ba4f80161d60a940b8c2275fe87049ba9d2e67b033f27bd409",
+    "translator-core-utils.js": "271b9dd10132afbda5db1f33d693437bcd4144ead5071f838b2529fa89afcd2c",
+    "latin-normalizer.js": "8e59e2b07b23a8b537875d0b7e3e5f122c676db399079ff9f2257e14e5f9bac1",
+    "translator-ar2en.js": "c9bf2de472f9f1606e03f1322d8d777bd44977380ad7f978428f8d71a3ac444a",
+    "translator-en2ar.js": "0c6d73555a923cbbd50c7935b5aa0e6ece5f8181e2eb27ff6b5439f9e2b1df37",
+    "translator.js": "63b65f8b3c206682102fe5d0ce1b6ee345a4001d13333ecbc8546e09331c791c"
+  },
+  "regressionCases": 4918,
+  "normalizerCases": 2053,
+  "documentCases": 2,
+  "suppliedTextsMapToEachOther": true
+}

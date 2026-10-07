@@ -3,86 +3,67 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Arabic ⇄ English-alphabet Mapper (Standalone)</title>
-  <style>
-    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    body { margin: 18px; max-width: 1100px; }
-    h1 { font-size: 18px; margin: 0 0 10px; }
-    .row { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin: 10px 0 14px; }
-    .panel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .box { display: flex; flex-direction: column; gap: 6px; }
-    label { font-size: 13px; opacity: 0.85; }
-    textarea {
-      width: 100%;
-      min-height: 320px;
-      resize: vertical;
-      padding: 10px;
-      border: 1px solid #bbb;
-      border-radius: 8px;
-      font-size: 16px;
-      line-height: 1.4;
-    }
-    textarea[readonly] { background: #f6f6f6; }
-    .controls { display: flex; gap: 10px; flex-wrap: wrap; }
-    .pill {
-      border: 1px solid #bbb; border-radius: 999px; padding: 8px 12px;
-      display: inline-flex; gap: 8px; align-items: center;
-      user-select: none;
-    }
-    .btn {
-      border: 1px solid #bbb; border-radius: 10px; padding: 8px 12px;
-      background: white; cursor: pointer;
-    }
-    .btn:hover { background: #f1f1f1; }
-    .note { font-size: 12px; opacity: 0.8; }
-    code { background: #f2f2f2; padding: 2px 5px; border-radius: 6px; }
-  </style>
+  <meta name="theme-color" content="#f5f5ef" />
+  <title>Arabic & Latin — Transliteration Studio</title>
+  <link rel="stylesheet" href="./app.css" />
 </head>
 <body>
-  <h1>Arabic ⇄ English-alphabet Mapper (stable round-trip; strict mapping rules)</h1>
+  <div class="shell">
+    <header class="masthead">
+      <a class="brand" href="./ArabicEnglishAlphabetTranslator.html" aria-label="Arabic and Latin home"><span class="brand-mark" aria-hidden="true">ع</span><span>Arabic <span class="brand-amp">&</span> Latin<small>TRANSLITERATION STUDIO</small></span></a>
+      <span class="privacy"><span class="status-dot"></span> Local & private</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="pageTitle">
+        <div><p class="eyebrow">A DIFFERENT ALPHABET. THE SAME WORDS.</p><h1 id="pageTitle">Between scripts,<br><em>with clarity.</em></h1><p class="intro-copy">Transliterate Arabic and Latin, explore the details,<br class="desktop-break"> and keep your notation your own.</p></div>
+        <div class="script-art" aria-hidden="true"><span lang="ar" dir="rtl">حروف</span><span class="art-line"></span><span>ḥurūf</span><small>LETTERS, CONNECTED</small></div>
+      </section>
 
-  <div class="row controls">
-    <label class="pill">
-      <input type="radio" name="dir" value="ar2en" checked />
-      From Arabic → English alphabet
-    </label>
-    <label class="pill">
-      <input type="radio" name="dir" value="en2ar" />
-      From English → Arabic alphabet
-    </label>
+      <figure class="alphabet-key" aria-labelledby="keyCaption">
+        <figcaption id="keyCaption"><span><span class="eyebrow">KEEP IT CLOSE</span><strong>Arabic / Latin key</strong></span><a href="./ArabicLatinKey.png" target="_blank" rel="noopener">Custom notation · View full size ↗</a></figcaption>
+        <a href="./ArabicLatinKey.png" target="_blank" rel="noopener" aria-label="Open the Arabic and Latin alphabet key at full size"><img src="./ArabicLatinKey.png" alt="Arabic-to-Latin reference key: Arabic letters and their custom Latin equivalents, followed by vowel and tanwin marks." width="3372" height="280"></a>
+      </figure>
 
-    <button class="btn" id="copyBtn" type="button">Copy output</button>
-    <button class="btn" id="clearBtn" type="button">Clear</button>
+      <section class="workspace" aria-label="Transliteration workspace">
+        <div class="workspace-toolbar">
+          <fieldset class="direction"><legend class="sr-only">Conversion direction</legend><label><input type="radio" name="dir" value="ar2en" checked><span>Arabic <span aria-hidden="true">→</span> Latin</span></label><label><input type="radio" name="dir" value="en2ar"><span>Latin <span aria-hidden="true">→</span> Arabic</span></label></fieldset>
+          <button class="text-button" id="sampleBtn" type="button"><span aria-hidden="true">✧</span> Try an example</button>
+        </div>
+        <div class="editor-grid">
+          <section class="editor input-editor" aria-labelledby="inputLabel">
+            <div class="editor-heading"><div><span class="panel-number">01</span><label id="inputLabel" for="input">Arabic input</label></div><button id="clearBtn" class="quiet-button" type="button">Clear <span aria-hidden="true">×</span></button></div>
+            <textarea id="input" dir="auto" spellcheck="false" placeholder="اكتب أو الصق النص هنا…" aria-describedby="inputHint"></textarea>
+            <div class="editor-footer"><span id="inputHint">Type or paste your text</span><span id="inputCount">0 characters</span></div>
+          </section>
+          <section class="editor output-editor" aria-labelledby="outputLabel">
+            <div class="editor-heading"><div><span class="panel-number">02</span><h2 id="outputLabel">Latin output</h2></div><span class="live-badge"><span class="status-dot"></span> LIVE</span></div>
+            <div class="output-wrap"><div id="output" class="output-text" role="textbox" aria-label="Transliterated output" aria-readonly="true" aria-multiline="true" tabindex="0" dir="ltr"></div><div id="outputPlaceholder" class="output-placeholder"><span class="empty-glyph" aria-hidden="true">Aa <span>↔</span> ع</span><p>Your words, in another script.</p><small>The transliteration will appear here.</small></div></div>
+            <div class="editor-footer"><span id="outputCount">0 characters</span><button class="copy-button" id="copyBtn" type="button" disabled><svg aria-hidden="true" width="15" height="15" viewBox="0 0 20 20" fill="none"><rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M12 4V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1" stroke="currentColor" stroke-width="1.5"/></svg><span id="copyLabel">Copy output</span></button></div>
+          </section>
+        </div>
+        <div class="settings-bar">
+          <label class="setting" for="standardNotation"><input class="switch" id="standardNotation" type="checkbox"><span><strong>Standard notation</strong><small id="notationHint">Custom: v / j · H / S / D / T / Z / J</small></span></label>
+          <div class="settings-actions"><label class="highlight-toggle"><input id="showHighlights" type="checkbox" checked> Show highlights</label><button id="swapBtn" class="swap-button" type="button" disabled><span aria-hidden="true">⇄</span> Reverse result</button></div>
+        </div>
+      </section>
 
-    <span class="note">
-      Uses ONLY your provided mapping. Stability: when encoding English→Arabic we add existing Arabic diacritics
-      (kasra/damma/sukūn) as context markers so a round-trip returns the same English encoding.
-      Sukūn is still removed in Arabic→English output.
-    </span>
+      <div class="results-meta"><p id="status" role="status" aria-live="polite">Ready when you are.</p><div class="legend" aria-label="Highlight legend"><span><i class="key normal-key"></i>Normal</span><span><i class="key protected-key"></i>Protected <b id="protectedCount">0</b></span><span><i class="key warning-key"></i>Check vowels <b id="warningCount">0</b></span><span><i class="key unmapped-key"></i>Unmapped <b id="unmappedCount">0</b></span></div></div>
+      <details class="guide"><summary><span class="info-icon" aria-hidden="true">i</span> Reading your transliteration <span class="guide-plus" aria-hidden="true">+</span></summary><div class="guide-grid"><p><strong>Green keeps things intact.</strong>Letters touching digits, such as H2O, CO2 and m1, are protected. Certain isolated symbols, such as (P) and °C, are also preserved.</p><p><strong>Yellow asks for a closer look.</strong>Three or more consecutive consonants in Arabic-to-Latin output may indicate missing vowel marks. This is a hint, not a spelling correction.</p><p><strong>Red means no mapping was found.</strong>Unrecognized characters stay in the output so nothing is silently lost. Copying includes the text, without highlights.</p><p><strong>Choose your notation.</strong>Standard mode uses w/y and ḥ/ṣ/ḍ/ṭ/ẓ/j in both directions. Custom mode uses v/j and H/S/D/T/Z/J. Standard mode writes tanwin as ṇ; ordinary ن stays n. Custom mode keeps tanwin N. The distinct á stays unchanged. In both modes, a plain hyphen maps to ع.</p></div></details>
+      <div id="errorBox" class="notice error-notice" role="alert">The app has not started. If this message remains, check that all application files are in the same folder, then reload.</div>
+      <div id="vowelWarning" class="notice vowel-notice" role="status" hidden><strong>Some vowels may be missing.</strong><span id="vowelMessage"></span></div>
+      <div id="unmappedWarning" class="notice unmapped-notice" role="status" hidden></div>
+
+    </main>
+    <footer class="page-footer"><span>Test release · 0.9.0-test.1</span><span>Works offline. Your text stays in this browser.</span></footer>
   </div>
-
-  <div class="panel">
-    <div class="box">
-      <label for="input">Input (editable)</label>
-      <textarea id="input" placeholder="Type Arabic or your encoded English here..."></textarea>
-    </div>
-    <div class="box">
-      <label for="output">Output (read-only)</label>
-      <textarea id="output" readonly></textarea>
-    </div>
-  </div>
-
-  <!-- Character constants, seldom changed -->
+  <noscript><p class="notice error-notice">Enable JavaScript to use the transliterator.</p></noscript>
   <script src="./constants.js"></script>
-  
-  <!-- Translation logic (more frequently edited) -->
   <script src="./translator-core-utils.js"></script>
   <script src="./latin-normalizer.js"></script>
   <script src="./translator-ar2en.js"></script>
   <script src="./translator-en2ar.js"></script>
   <script src="./translator.js"></script>
-
-  <!-- UI + utilities (stable) -->
+  <script src="./transliteration-view.js"></script>
   <script src="./app-utils.js"></script>
 </body>
 </html>

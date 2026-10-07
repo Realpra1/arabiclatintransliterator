@@ -103,6 +103,7 @@
   const EN_TO_AR_TOKENS = [
 
     // Tanwin
+    ["āN", "ا" + DIACRITICS.TANWIN_FATH],
     ["aN", DIACRITICS.TANWIN_FATH],
     ["iN", DIACRITICS.TANWIN_KASR],
     ["uN", DIACRITICS.TANWIN_DAMM],

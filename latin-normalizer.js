@@ -25,6 +25,10 @@
     return !!ch && /^[A-Za-z]$/.test(ch);
   }
 
+  function isLatinWordLetter(ch) {
+    return isAsciiLetter(ch) || ch === "ā" || ch === "ī" || ch === "ū" || ch === "á";
+  }
+
   function isLooseLatinVowelChar(ch) {
     return ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u" ||
            ch === "ā" || ch === "ī" || ch === "ū";
@@ -64,13 +68,17 @@
   function isProtectedSingleCharAt(pos, source) {
     const ch = source[pos];
     if (!isAsciiLetter(ch)) return false;
+    // N belongs to the tanwin token after ā, even next to punctuation/symbols.
+    if (ch === "N" && source[pos - 1] === "ā") return false;
     if (source.length === 1) return false;
 
     const prev = source[pos - 1];
     const next = source[pos + 1];
 
-    const prevBlocks = pos === 0 || /\s/.test(prev) || !isAsciiLetter(prev);
-    const nextBlocks = pos === source.length - 1 || /\s/.test(next) || !isAsciiLetter(next);
+    // House vowels belong to words; they must not make an adjacent consonant
+    // look like an isolated technical symbol (for example the b in /bī).
+    const prevBlocks = !isLatinWordLetter(prev);
+    const nextBlocks = !isLatinWordLetter(next);
 
     const prevProtectedSymbol = protectSymbols.has(prev);
     const nextProtectedSymbol = protectSymbols.has(next);
@@ -78,12 +86,32 @@
     return prevBlocks && nextBlocks && (prevProtectedSymbol || nextProtectedSymbol);
   }
 
+  function findNumberAdjacentLetters(str) {
+    const positions = new Set();
+    for (let start = 0; start < str.length; ) {
+      if (!isLatinWordLetter(str[start])) {
+        start++;
+        continue;
+      }
+      let end = start + 1;
+      while (end < str.length && isLatinWordLetter(str[end])) end++;
+      if (end - start >= 1 &&
+          (/[0-9]/.test(str[start - 1] || "") || /[0-9]/.test(str[end] || ""))) {
+        for (let pos = start; pos < end; pos++) positions.add(pos);
+      }
+      start = end;
+    }
+    return positions;
+  }
+
   function normalizeInputForLooseAliases(str) {
+    // Compute before lowercasing so protected formulas retain their exact case.
+    const numberAdjacentLetters = findNumberAdjacentLetters(str);
     // Pass 1: lowercase ordinary capitals unless protected or house-style.
     let normalized = "";
     for (let k = 0; k < str.length; k++) {
       const ch = str[k];
-      const isProtected = isProtectedSingleCharAt(k, str);
+      const isProtected = numberAdjacentLetters.has(k) || isProtectedSingleCharAt(k, str);
 
       if (ch >= "A" && ch <= "Z" && !preserveCaps.has(ch) && !isProtected) {
         normalized += ch.toLowerCase();
@@ -99,7 +127,7 @@
       const next = normalized[k + 1];
       const prev = normalized[k - 1];
 
-      if (isProtectedSingleCharAt(k, normalized)) {
+      if (numberAdjacentLetters.has(k) || isProtectedSingleCharAt(k, normalized)) {
         rewritten += PROTECTED_MARK + ch;
         continue;
       }
@@ -145,7 +173,7 @@
           if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {
             let pattern = "";
             for (let n = 0; n < runLen; n++) {
-              pattern += (n % 2 === 0) ? "ī" : "y";
+              pattern += (n % 2 === 0) ? "i" : "y";
             }
             rewritten += pattern;
           } else {
@@ -205,10 +233,10 @@
       }
 
       // Loose English y:
-      // after a consonant-like Latin letter, prefer vowel-like ī rather than consonantal j.
+      // after a consonant-like Latin letter, prefer short i rather than consonantal j.
       if (ch === "y") {
         if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {
-          rewritten += "ī";
+          rewritten += "i";
         } else {
           rewritten += "y";
         }
@@ -225,6 +253,13 @@
     normalizeInputForLooseAliases,
     collapseLatinVowelRuns,
     isAsciiLetter,
-    isLooseLatinVowelChar
+    isLooseLatinVowelChar,
+    protectedPositions(str) {
+      const positions = findNumberAdjacentLetters(str);
+      for (let k = 0; k < str.length; k++) {
+        if (isProtectedSingleCharAt(k, str)) positions.add(k);
+      }
+      return positions;
+    }
   };
 })();

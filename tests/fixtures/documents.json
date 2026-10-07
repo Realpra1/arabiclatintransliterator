@@ -1,0 +1,56 @@
+[
+  {
+    "id": "civilization-latin",
+    "file": "civilization.latin.txt",
+    "direction": "en2ar",
+    "inputSha256": "35cec68346676cbedd201d482abde6ced9556d115d62356693da9eae321983a0",
+    "output": {
+      "file": "civilization-latin.output.txt",
+      "sha256": "91177db1c6dc690a48b0a4212e1ca4a4cfe74391f931ba9fdd9318a59ceee8a3"
+    },
+    "roundTrip": {
+      "file": "civilization-latin.roundTrip.txt",
+      "sha256": "20cbca363ee1d317ed23676dc88e1a2c934f3fa5d934893ecef387e97409bda2"
+    },
+    "secondPass": {
+      "file": "civilization-latin.secondPass.txt",
+      "sha256": "91177db1c6dc690a48b0a4212e1ca4a4cfe74391f931ba9fdd9318a59ceee8a3"
+    }
+  },
+  {
+    "id": "civilization-supplied-arabic",
+    "file": "civilization.supplied-arabic.txt",
+    "direction": "ar2en",
+    "inputSha256": "9c6584fb840608012d1f17ad139275f1194840606a0cd45eac83c5c2ffb3a54f",
+    "output": {
+      "file": "civilization-supplied-arabic.output.txt",
+      "sha256": "d0cf0859e6336d4f833853eddd12937d37b76e4fbd26919091dec4512003fca9"
+    },
+    "roundTrip": {
+      "file": "civilization-supplied-arabic.roundTrip.txt",
+      "sha256": "f0a8a32f34f4fa9a07e38b6c3cd84ea561a24a78ec52250834174a4c8ae0c741"
+    },
+    "secondPass": {
+      "file": "civilization-supplied-arabic.secondPass.txt",
+      "sha256": "d0cf0859e6336d4f833853eddd12937d37b76e4fbd26919091dec4512003fca9"
+    }
+  },
+  {
+    "id": "civilization-canonical-latin",
+    "file": "civilization.canonical-latin.txt",
+    "direction": "en2ar",
+    "inputSha256": "42c18344035cc95fcd2cfbc756c56636bbfa5a3e64ca755d9c46ce500e18f659",
+    "output": {
+      "file": "civilization-canonical-latin.output.txt",
+      "sha256": "7402408bbc25e1853796f8b32fd1d85a271409f16ef9d622b218fb000a4d704d"
+    },
+    "roundTrip": {
+      "file": "civilization-canonical-latin.roundTrip.txt",
+      "sha256": "f286dd6ba5e8ada2e95a5e8e8061c871986f687f039b3364592747706e9c21dc"
+    },
+    "secondPass": {
+      "file": "civilization-canonical-latin.secondPass.txt",
+      "sha256": "7402408bbc25e1853796f8b32fd1d85a271409f16ef9d622b218fb000a4d704d"
+    }
+  }
+]

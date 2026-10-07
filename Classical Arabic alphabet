@@ -14,6 +14,7 @@ Rules:
 6. Arabic "I" with fatha (line) on it is mapped as just "a" (a short "a" and not "ā" and not "āa" or "aā").
 7. Silent hamza carriers just become hamza (ء->'). On the return trip Alif is usually used if needed.
 ا>ā
+اً>āN
 اَ>a
 ى>á
 ة>at
@@ -54,5 +55,6 @@ i<kasrat
 u<Dammat
 N<tanwīn
 aN<fatHatān
+āN<alif + fatHatān (اً)
 iN<kasratān
 uN<Dammatān

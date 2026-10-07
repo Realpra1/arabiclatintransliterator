@@ -15,7 +15,9 @@
     isBareConsonantBridge,
     prevArabicBaseChar,
     nextArabicBaseChar,
-    isShortVowelMark
+    isShortVowelMark,
+    replaceWithRanges,
+    isNeutralPassthrough
   } = window.MapperTranslatorCoreUtils;
 
   const {
@@ -25,8 +27,10 @@
     TATWEEL
   } = DIACRITICS;
 
-  function ar2en(input) {
+  function ar2en(input, details) {
     let out = "";
+    if (details) details.ranges = [];
+    const protectedPositions = details ? window.MapperLatinNormalizer.protectedPositions(input) : null;
     let lastToken = "";
     let lastConsonantToken = "";
     let pendingShortVowel = "";
@@ -34,7 +38,7 @@
     function isLatinVowelToken(token) {
       return token === "a" || token === "i" || token === "u" ||
              token === "ā" || token === "ī" || token === "ū" ||
-             token === "aN" || token === "iN" || token === "uN";
+             token === "āN" || token === "aN" || token === "iN" || token === "uN";
     }
 
     function emit(token) {
@@ -46,34 +50,15 @@
     }
 
     function normalizeLatinVowelRuns(str) {
-      let normalized = "";
-      for (let k = 0; k < str.length; ) {
-        const ch = str[k];
-
-        if (ch === "a" || ch === "i" || ch === "u") {
-          let j = k + 1;
-          while (j < str.length && str[j] === ch) j++;
-
-          const runLen = j - k;
-          if (runLen >= 2) {
-            const longVowel = ch === "a" ? "ā" : (ch === "i" ? "ī" : "ū");
-            const longCount = Math.ceil(runLen / 2);
-            normalized += longVowel.repeat(longCount);
-            k = j;
-            continue;
-          }
-        }
-
-        normalized += ch;
-        k += 1;
-      }
-      return normalized;
+      return replaceWithRanges(str, /([aiu])\1+/g, (run, ch) =>
+        ({ a: "ā", i: "ī", u: "ū" }[ch]).repeat(Math.ceil(run.length / 2)), details);
     }
 
     function canonicalizeCommonPrefixes(str) {
-      return str.replace(
+      return replaceWithRanges(str,
         /(^|[\s([{"«])ll(?=[A-Za-zĀāĪīŪū'"\-])/g,
-        `$1${CANON_POLICY.DOUBLE_LAM_ARTICLE_CANON_LATIN}`
+        (_, boundary) => boundary + CANON_POLICY.DOUBLE_LAM_ARTICLE_CANON_LATIN,
+        details
       );
     }
 
@@ -240,6 +225,12 @@
       if (ch === "ا") {
         const next = input[i + 1];
 
+        if (next === TANWIN_FATH) {
+          emit("āN");
+          i += 1;
+          continue;
+        }
+
         // الـ at true word start -> al... (emit only a; following ل contributes l)
         if (isTrueWordStart(i) && next === "ل") {
           emit("a");
@@ -266,8 +257,13 @@
         }
 
         if (next === "ا") {
-          emit("ā");
-          i += 1;
+          if (input[i + 2] === TANWIN_FATH) {
+            emit("āN");
+            i += 2;
+          } else {
+            emit("ā");
+            i += 1;
+          }
           continue;
         }
 
@@ -381,6 +377,11 @@
         continue;
       }
 
+      if (details) {
+        const kind = protectedPositions.has(i) ? "protected" :
+          isNeutralPassthrough(ch) ? "normal" : "unmapped";
+        if (kind !== "normal") details.ranges.push({ start: out.length, end: out.length + ch.length, kind });
+      }
       emit(ch);
     }
 

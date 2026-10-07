@@ -1,0 +1,24 @@
+--- a/latin-normalizer.js
++++ b/latin-normalizer.js
+@@ -147,7 +147,7 @@
+           if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {
+             let pattern = "";
+             for (let n = 0; n < runLen; n++) {
+-              pattern += (n % 2 === 0) ? "ī" : "y";
++              pattern += (n % 2 === 0) ? "i" : "y";
+             }
+             rewritten += pattern;
+           } else {
+@@ -207,10 +207,10 @@
+       }
+ 
+       // Loose English y:
+-      // after a consonant-like Latin letter, prefer vowel-like ī rather than consonantal j.
++      // after a consonant-like Latin letter, prefer short i rather than consonantal j.
+       if (ch === "y") {
+         if (isAsciiLetter(prev) && !isLooseLatinVowelChar(prev)) {
+-          rewritten += "ī";
++          rewritten += "i";
+         } else {
+           rewritten += "y";
+         }

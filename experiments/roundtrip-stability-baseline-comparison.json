@@ -1,0 +1,59 @@
+{
+  "baselineCommit": "a37ad8ecdaf7f639ce54f0b1aa812b13a05255cb",
+  "description": "Both directions compare L2=L3 and A2=A3. Same stability checks and same input cases run against verified original source and current āN trial.",
+  "counts": {
+    "baselineFailed": 570,
+    "currentFailed": 572,
+    "stillFailing": 570,
+    "newlyFailing": 2,
+    "fixed": 0
+  },
+  "changed": [
+    {
+      "id": "expanded-ambiguous-tokenization/en2ar/0014",
+      "input": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+      "rule": "Latin input: Latin L2 = L3",
+      "oldFailed": false,
+      "newFailed": true,
+      "before": {
+        "L1": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A1": "آ آا آَ آِ آُ آN أً إٍ أٌ",
+        "L2": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A2": "آ آا آَ آِ آُ آN أً إٍ أٌ",
+        "L3": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A3": "آ آا آَ آِ آُ آN أً إٍ أٌ"
+      },
+      "after": {
+        "L1": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A1": "آ آا آَ آِ آُ أاً أً إٍ أٌ",
+        "L2": "'ā 'āā 'āa 'āi 'āu 'aāN 'aN 'iN 'uN",
+        "A2": "آ آا آَ آِ آُ أَاً أً إٍ أٌ",
+        "L3": "'ā 'āā 'āa 'āi 'āu āN 'aN 'iN 'uN",
+        "A3": "آ آا آَ آِ آُ اً أً إٍ أٌ"
+      }
+    },
+    {
+      "id": "expanded-ambiguous-tokenization/en2ar/0014",
+      "input": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+      "rule": "Latin input: Arabic A2 = A3",
+      "oldFailed": false,
+      "newFailed": true,
+      "before": {
+        "L1": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A1": "آ آا آَ آِ آُ آN أً إٍ أٌ",
+        "L2": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A2": "آ آا آَ آِ آُ آN أً إٍ أٌ",
+        "L3": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A3": "آ آا آَ آِ آُ آN أً إٍ أٌ"
+      },
+      "after": {
+        "L1": "'ā 'āā 'āa 'āi 'āu 'āN 'aN 'iN 'uN",
+        "A1": "آ آا آَ آِ آُ أاً أً إٍ أٌ",
+        "L2": "'ā 'āā 'āa 'āi 'āu 'aāN 'aN 'iN 'uN",
+        "A2": "آ آا آَ آِ آُ أَاً أً إٍ أٌ",
+        "L3": "'ā 'āā 'āa 'āi 'āu āN 'aN 'iN 'uN",
+        "A3": "آ آا آَ آِ آُ اً أً إٍ أٌ"
+      }
+    }
+  ]
+}

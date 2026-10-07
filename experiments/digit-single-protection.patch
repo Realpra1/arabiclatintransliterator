@@ -1,0 +1,45 @@
+--- a/latin-normalizer.js
++++ b/latin-normalizer.js
+@@ -86,12 +86,32 @@
+     return prevBlocks && nextBlocks && (prevProtectedSymbol || nextProtectedSymbol);
+   }
+ 
++  function findNumberAdjacentLetters(str) {
++    const positions = new Set();
++    for (let start = 0; start < str.length; ) {
++      if (!isLatinWordLetter(str[start])) {
++        start++;
++        continue;
++      }
++      let end = start + 1;
++      while (end < str.length && isLatinWordLetter(str[end])) end++;
++      if (end - start >= 1 &&
++          (/[0-9]/.test(str[start - 1] || "") || /[0-9]/.test(str[end] || ""))) {
++        for (let pos = start; pos < end; pos++) positions.add(pos);
++      }
++      start = end;
++    }
++    return positions;
++  }
++
+   function normalizeInputForLooseAliases(str) {
++    // Compute before lowercasing so protected formulas retain their exact case.
++    const numberAdjacentLetters = findNumberAdjacentLetters(str);
+     // Pass 1: lowercase ordinary capitals unless protected or house-style.
+     let normalized = "";
+     for (let k = 0; k < str.length; k++) {
+       const ch = str[k];
+-      const isProtected = isProtectedSingleCharAt(k, str);
++      const isProtected = numberAdjacentLetters.has(k) || isProtectedSingleCharAt(k, str);
+ 
+       if (ch >= "A" && ch <= "Z" && !preserveCaps.has(ch) && !isProtected) {
+         normalized += ch.toLowerCase();
+@@ -107,7 +127,7 @@
+       const next = normalized[k + 1];
+       const prev = normalized[k - 1];
+ 
+-      if (isProtectedSingleCharAt(k, normalized)) {
++      if (numberAdjacentLetters.has(k) || isProtectedSingleCharAt(k, normalized)) {
+         rewritten += PROTECTED_MARK + ch;
+         continue;
+       }

@@ -1,0 +1,327 @@
+{
+  "description": "Isolated alternate-notation trial: nun ن → n; tanwin N → ṇ. Existing short/long-vowel encodings unchanged. Production code and fixtures untouched.",
+  "sourceSha256": {
+    "constants.js": "dd7cc34d8ae93c4a0b98df808e1a91e59a8e8a54f5094dea3cd69f5e69cdf3e8",
+    "translator-core-utils.js": "c66f477385368c932c7a8d99d74febbb7904de650d09f7e9aea056a1cd5a7032",
+    "latin-normalizer.js": "b183b136418034657c3ec054c481c885bdbcce0de9bc310fa071bc8997b42897",
+    "translator-ar2en.js": "8eb5e1ba6ce8f3373941b80eb7bcbfd104a9ce9efcff1276de8e48478ee4a0ad",
+    "translator-en2ar.js": "2ec92592b49266fa4079c102906f848f4d8ef38d281a244998b914ea8f50962d",
+    "translator.js": "63b65f8b3c206682102fe5d0ce1b6ee345a4001d13333ecbc8546e09331c791c",
+    "transliteration-view.js": "9aeb851dc77f518f98a65ed113e486ee361d670f265ab012064c4b7485b98194"
+  },
+  "checks": {
+    "total": 22044,
+    "beforeFailed": 631,
+    "afterFailed": 631,
+    "newlyFailing": [],
+    "fixed": []
+  },
+  "changedArabic": [],
+  "examples": [
+    {
+      "input": "ن",
+      "before": {
+        "A1": "ن",
+        "L1": "n",
+        "A2": "ن",
+        "L2": "n",
+        "A3": "ن",
+        "L3": "n"
+      },
+      "after": {
+        "A1": "ن",
+        "L1": "n",
+        "A2": "ن",
+        "L2": "n",
+        "A3": "ن",
+        "L3": "n"
+      }
+    },
+    {
+      "input": "نَ",
+      "before": {
+        "A1": "نَ",
+        "L1": "na",
+        "A2": "نَ",
+        "L2": "na",
+        "A3": "نَ",
+        "L3": "na"
+      },
+      "after": {
+        "A1": "نَ",
+        "L1": "na",
+        "A2": "نَ",
+        "L2": "na",
+        "A3": "نَ",
+        "L3": "na"
+      }
+    },
+    {
+      "input": "نُونٌ",
+      "before": {
+        "A1": "نُونٌ",
+        "L1": "nūnuN",
+        "A2": "نُونٌ",
+        "L2": "nūnuN",
+        "A3": "نُونٌ",
+        "L3": "nūnuN"
+      },
+      "after": {
+        "A1": "نُونٌ",
+        "L1": "nūnuṇ",
+        "A2": "نُونٌ",
+        "L2": "nūnuṇ",
+        "A3": "نُونٌ",
+        "L3": "nūnuṇ"
+      }
+    },
+    {
+      "input": "عَيْنٌ",
+      "before": {
+        "A1": "عَيْنٌ",
+        "L1": "-aynuN",
+        "A2": "عَيْنٌ",
+        "L2": "-aynuN",
+        "A3": "عَيْنٌ",
+        "L3": "-aynuN"
+      },
+      "after": {
+        "A1": "عَيْنٌ",
+        "L1": "-aynuṇ",
+        "A2": "عَيْنٌ",
+        "L2": "-aynuṇ",
+        "A3": "عَيْنٌ",
+        "L3": "-aynuṇ"
+      }
+    },
+    {
+      "input": "بَنٌ",
+      "before": {
+        "A1": "بَنٌ",
+        "L1": "banuN",
+        "A2": "بَنٌ",
+        "L2": "banuN",
+        "A3": "بَنٌ",
+        "L3": "banuN"
+      },
+      "after": {
+        "A1": "بَنٌ",
+        "L1": "banuṇ",
+        "A2": "بَنٌ",
+        "L2": "banuṇ",
+        "A3": "بَنٌ",
+        "L3": "banuṇ"
+      }
+    },
+    {
+      "input": "بَنُن",
+      "before": {
+        "A1": "بَنُن",
+        "L1": "banun",
+        "A2": "بَنُن",
+        "L2": "banun",
+        "A3": "بَنُن",
+        "L3": "banun"
+      },
+      "after": {
+        "A1": "بَنُن",
+        "L1": "banun",
+        "A2": "بَنُن",
+        "L2": "banun",
+        "A3": "بَنُن",
+        "L3": "banun"
+      }
+    },
+    {
+      "input": "كِتَابٌ",
+      "before": {
+        "A1": "كِتَابٌ",
+        "L1": "kitābuN",
+        "A2": "كِتابٌ",
+        "L2": "kitābuN",
+        "A3": "كِتابٌ",
+        "L3": "kitābuN"
+      },
+      "after": {
+        "A1": "كِتَابٌ",
+        "L1": "kitābuṇ",
+        "A2": "كِتابٌ",
+        "L2": "kitābuṇ",
+        "A3": "كِتابٌ",
+        "L3": "kitābuṇ"
+      }
+    },
+    {
+      "input": "كِتَابٍ",
+      "before": {
+        "A1": "كِتَابٍ",
+        "L1": "kitābiN",
+        "A2": "كِتابٍ",
+        "L2": "kitābiN",
+        "A3": "كِتابٍ",
+        "L3": "kitābiN"
+      },
+      "after": {
+        "A1": "كِتَابٍ",
+        "L1": "kitābiṇ",
+        "A2": "كِتابٍ",
+        "L2": "kitābiṇ",
+        "A3": "كِتابٍ",
+        "L3": "kitābiṇ"
+      }
+    },
+    {
+      "input": "كِتَابً",
+      "before": {
+        "A1": "كِتَابً",
+        "L1": "kitābaN",
+        "A2": "كِتابً",
+        "L2": "kitābaN",
+        "A3": "كِتابً",
+        "L3": "kitābaN"
+      },
+      "after": {
+        "A1": "كِتَابً",
+        "L1": "kitābaṇ",
+        "A2": "كِتابً",
+        "L2": "kitābaṇ",
+        "A3": "كِتابً",
+        "L3": "kitābaṇ"
+      }
+    },
+    {
+      "input": "كِتَاباً",
+      "before": {
+        "A1": "كِتَاباً",
+        "L1": "kitābāN",
+        "A2": "كِتاباً",
+        "L2": "kitābāN",
+        "A3": "كِتاباً",
+        "L3": "kitābāN"
+      },
+      "after": {
+        "A1": "كِتَاباً",
+        "L1": "kitābāṇ",
+        "A2": "كِتاباً",
+        "L2": "kitābāṇ",
+        "A3": "كِتاباً",
+        "L3": "kitābāṇ"
+      }
+    },
+    {
+      "input": "كِتَابًا",
+      "before": {
+        "A1": "كِتَابًا",
+        "L1": "kitābaNā",
+        "A2": "كِتابًا",
+        "L2": "kitābaNā",
+        "A3": "كِتابًا",
+        "L3": "kitābaNā"
+      },
+      "after": {
+        "A1": "كِتَابًا",
+        "L1": "kitābaṇā",
+        "A2": "كِتابًا",
+        "L2": "kitābaṇā",
+        "A3": "كِتابًا",
+        "L3": "kitābaṇā"
+      }
+    },
+    {
+      "input": "نَارٌ",
+      "before": {
+        "A1": "نَارٌ",
+        "L1": "nāruN",
+        "A2": "نارٌ",
+        "L2": "nāruN",
+        "A3": "نارٌ",
+        "L3": "nāruN"
+      },
+      "after": {
+        "A1": "نَارٌ",
+        "L1": "nāruṇ",
+        "A2": "نارٌ",
+        "L2": "nāruṇ",
+        "A3": "نارٌ",
+        "L3": "nāruṇ"
+      }
+    },
+    {
+      "input": "سَنَةٌ",
+      "before": {
+        "A1": "سَنَةٌ",
+        "L1": "sanatuN",
+        "A2": "سَنةٌ",
+        "L2": "sanatuN",
+        "A3": "سَنةٌ",
+        "L3": "sanatuN"
+      },
+      "after": {
+        "A1": "سَنَةٌ",
+        "L1": "sanatuṇ",
+        "A2": "سَنةٌ",
+        "L2": "sanatuṇ",
+        "A3": "سَنةٌ",
+        "L3": "sanatuṇ"
+      }
+    },
+    {
+      "input": "مِنْ",
+      "before": {
+        "A1": "مِنْ",
+        "L1": "min",
+        "A2": "مِن",
+        "L2": "min",
+        "A3": "مِن",
+        "L3": "min"
+      },
+      "after": {
+        "A1": "مِنْ",
+        "L1": "min",
+        "A2": "مِن",
+        "L2": "min",
+        "A3": "مِن",
+        "L3": "min"
+      }
+    },
+    {
+      "input": "بِين",
+      "before": {
+        "A1": "بِين",
+        "L1": "bīn",
+        "A2": "بِين",
+        "L2": "bīn",
+        "A3": "بِين",
+        "L3": "bīn"
+      },
+      "after": {
+        "A1": "بِين",
+        "L1": "bīn",
+        "A2": "بِين",
+        "L2": "bīn",
+        "A3": "بِين",
+        "L3": "bīn"
+      }
+    },
+    {
+      "input": "بٍ",
+      "before": {
+        "A1": "بٍ",
+        "L1": "biN",
+        "A2": "بٍ",
+        "L2": "biN",
+        "A3": "بٍ",
+        "L3": "biN"
+      },
+      "after": {
+        "A1": "بٍ",
+        "L1": "biṇ",
+        "A2": "بٍ",
+        "L2": "biṇ",
+        "A3": "بٍ",
+        "L3": "biṇ"
+      }
+    }
+  ],
+  "focusedChecks": 7
+}

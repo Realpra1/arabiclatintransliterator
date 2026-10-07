@@ -15,7 +15,8 @@
     isArabicDiacritic,
     isArabicBaseLetter,
     isArabicPrefixBoundaryBase,
-    isLatinBoundaryChar
+    isLatinBoundaryChar,
+    isNeutralPassthrough
   } = window.MapperTranslatorCoreUtils;
 
   const { normalizeInputForLooseAliases } = window.MapperLatinNormalizer;
@@ -27,9 +28,10 @@
 
   const { PROTECTED_MARK } = LATIN_NORMALIZER_POLICY;
 
-  function en2ar(input) {
+  function en2ar(input, details) {
     let out = "";
     let i = 0;
+    if (details) details.ranges = [];
 
     input = normalizeInputForLooseAliases(input);
 
@@ -41,7 +43,7 @@
     }
 
     function isShaddaEligible(tok) {
-      if (["a", "i", "e", "u", "o", "ā", "ī", "ū", "aN", "iN", "uN", "at"].includes(tok)) return false;
+      if (["a", "i", "e", "u", "o", "ā", "ī", "ū", "āN", "aN", "iN", "uN", "at"].includes(tok)) return false;
       return true;
     }
 
@@ -66,7 +68,7 @@
     }
 
     function canonicalHamzaVowelClass(tok) {
-      if (tok === "a" || tok === "ā" || tok === "aN") return "a";
+      if (tok === "a" || tok === "ā" || tok === "āN" || tok === "aN") return "a";
       if (tok === "i" || tok === "e" || tok === "ī" || tok === "iN") return "i";
       if (tok === "u" || tok === "o" || tok === "ū" || tok === "uN") return "u";
       return null;
@@ -219,6 +221,7 @@
     while (i < input.length) {
       // Preserve protected raw characters inserted by the Latin normalizer.
       if (input[i] === PROTECTED_MARK) {
+        if (details) details.ranges.push({ start: out.length, end: out.length + 1, kind: "protected" });
         out += input[i + 1] || "";
         i += 2;
         continue;
@@ -227,6 +230,9 @@
       const m1 = matchTokenAt(i);
 
       if (!m1) {
+        if (details && !isNeutralPassthrough(input[i])) {
+          details.ranges.push({ start: out.length, end: out.length + 1, kind: "unmapped" });
+        }
         out += input[i++];
         continue;
       }
