@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "test:mappings": "node --test tests/contract.test.mjs tests/regression.test.mjs tests/alif-tanwin.test.mjs tests/y-consonant.test.mjs tests/loose-y-protection.test.mjs tests/digit-protection.test.mjs tests/view.test.mjs",
+    "test:mappings": "node --test tests/contract.test.mjs tests/regression.test.mjs tests/alif-tanwin.test.mjs tests/y-consonant.test.mjs tests/loose-y-protection.test.mjs tests/digit-protection.test.mjs tests/terminal-at.test.mjs tests/view.test.mjs",
     "test:coverage": "node --test --experimental-test-coverage tests/*.test.mjs",
     "test:sensitivity": "node scripts/check-test-sensitivity.mjs",
     "test:stability": "node --test tests/roundtrip-stability.test.mjs",

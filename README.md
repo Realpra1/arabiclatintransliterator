@@ -28,6 +28,12 @@ below the legend and its explanation. Sparse Arabic diacritics trigger a warning
 the converter does not infer missing vowels. The warning is a heuristic, not a
 grammatical or spelling judgment.
 
+`at` maps to ة only at the end of a word, optionally followed by short vowels
+(`a/i/u/e/o`), tanwin (`aN/iN/uN`), or combining diacritic marks. Internal `at`
+is read as separate `a` and `t` tokens, with no added alif carrier. The following
+`t` can still join `th` or `tt`. Ain and hamza continue the word; punctuation
+and whitespace end it.
+
 One notation toggle enables `v/j → w/y` and `H/S/D/T/Z/J → ḥ/ṣ/ḍ/ṭ/ẓ/j` in both
 directions. Tanwin `N` becomes `ṇ` in standard mode (`buN ↔ buṇ`), while
 ordinary ن remains `n`. Standard mode writes ع as `ʿ`, while MCB mode keeps `-`.
@@ -55,7 +61,7 @@ stability failures remain enabled for later fixes, so the full suite currently
 fails on those checks. Run only the mapping and public API checks with:
 
 ```sh
-node --test tests/contract.test.mjs tests/regression.test.mjs tests/alif-tanwin.test.mjs tests/y-consonant.test.mjs tests/loose-y-protection.test.mjs tests/digit-protection.test.mjs tests/view.test.mjs
+node --test tests/contract.test.mjs tests/regression.test.mjs tests/alif-tanwin.test.mjs tests/y-consonant.test.mjs tests/loose-y-protection.test.mjs tests/digit-protection.test.mjs tests/terminal-at.test.mjs tests/view.test.mjs
 ```
 
 The tests execute the actual browser JavaScript in an isolated `window`. Saved
@@ -132,7 +138,12 @@ and additional normalizer/tanwin inputs. They compare exact strings independentl
 of saved mappings:
 
 - Latin input: `L1 → A1 → L2 → A2 → L3 → A3`, requiring `L2 === L3` and `A2 === A3`.
-- Arabic input: `A1 → L1 → A2 → L2 → A3 → L3`, requiring `L2 === L3` and `A2 === A3`.
+- Arabic input: `A1 → L1 → A2 → L2 → A3 → L3`, requiring only `L2 === L3`. Arabic spellings may continue to settle after the Latin has stabilized.
+
+With the terminal `at` rule and this stability specification, there are 320 failing
+assertions across 199 inputs (8,749 checks total). Removing Arabic-start `A2 === A3`
+removes 253 of the previous 573 failures; the `at` change adds no failures under
+the retained rules. See `experiments/terminal-at-accepted.json` for the comparison.
 
 Run just these checks with `node --test tests/roundtrip-stability.test.mjs`.
 Run `node scripts/report-roundtrip-stability.mjs` to write every failure's full

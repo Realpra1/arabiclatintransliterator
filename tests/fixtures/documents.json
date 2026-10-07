@@ -6,7 +6,7 @@
     "inputSha256": "35cec68346676cbedd201d482abde6ced9556d115d62356693da9eae321983a0",
     "output": {
       "file": "civilization-latin.output.txt",
-      "sha256": "91177db1c6dc690a48b0a4212e1ca4a4cfe74391f931ba9fdd9318a59ceee8a3"
+      "sha256": "9f655729dc244acdd3263e3607d32beaef6a863603c0cf9c8cab99f32d5469e3"
     },
     "roundTrip": {
       "file": "civilization-latin.roundTrip.txt",
@@ -14,7 +14,7 @@
     },
     "secondPass": {
       "file": "civilization-latin.secondPass.txt",
-      "sha256": "91177db1c6dc690a48b0a4212e1ca4a4cfe74391f931ba9fdd9318a59ceee8a3"
+      "sha256": "9f655729dc244acdd3263e3607d32beaef6a863603c0cf9c8cab99f32d5469e3"
     }
   },
   {
@@ -28,7 +28,7 @@
     },
     "roundTrip": {
       "file": "civilization-supplied-arabic.roundTrip.txt",
-      "sha256": "f0a8a32f34f4fa9a07e38b6c3cd84ea561a24a78ec52250834174a4c8ae0c741"
+      "sha256": "9e1cac3d71337fd2db92f6e2ce59b32669850ed24cf900618f53d6b4e8efc64f"
     },
     "secondPass": {
       "file": "civilization-supplied-arabic.secondPass.txt",
@@ -42,7 +42,7 @@
     "inputSha256": "42c18344035cc95fcd2cfbc756c56636bbfa5a3e64ca755d9c46ce500e18f659",
     "output": {
       "file": "civilization-canonical-latin.output.txt",
-      "sha256": "7402408bbc25e1853796f8b32fd1d85a271409f16ef9d622b218fb000a4d704d"
+      "sha256": "5b5463289c0eeb5f9ce475ee889e918381258f2121054ec98cbf70674c088229"
     },
     "roundTrip": {
       "file": "civilization-canonical-latin.roundTrip.txt",
@@ -50,7 +50,7 @@
     },
     "secondPass": {
       "file": "civilization-canonical-latin.secondPass.txt",
-      "sha256": "7402408bbc25e1853796f8b32fd1d85a271409f16ef9d622b218fb000a4d704d"
+      "sha256": "5b5463289c0eeb5f9ce475ee889e918381258f2121054ec98cbf70674c088229"
     }
   }
 ]

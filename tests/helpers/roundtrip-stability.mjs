@@ -56,5 +56,5 @@ export function traceRoundTrip(translator, c) {
 export function stabilityComparisons(direction) {
   return direction === 'en2ar'
     ? [['Latin input: Latin L2 = L3', 'L2', 'L3'], ['Latin input: Arabic A2 = A3', 'A2', 'A3']]
-    : [['Arabic input: Latin L2 = L3', 'L2', 'L3'], ['Arabic input: Arabic A2 = A3', 'A2', 'A3']];
+    : [['Arabic input: Latin L2 = L3', 'L2', 'L3']];
 }

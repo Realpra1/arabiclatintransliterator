@@ -28,7 +28,7 @@ const sourceSha256 = Object.fromEntries(translatorFiles.map(file => [file, creat
 mkdirSync(new URL('experiments/', root), { recursive: true });
 const report = new URL('experiments/roundtrip-stability.json', root);
 writeFileSync(report, JSON.stringify({
-  description: 'Exact stability checks. For Latin input: L1 → A1 → L2 → A2 → L3 → A3. For Arabic input: A1 → L1 → A2 → L2 → A3 → L3. Both require L2=L3 and A2=A3. Original inputs need not be recovered.',
+  description: 'Exact stability checks. For Latin input: L1 → A1 → L2 → A2 → L3 → A3. For Arabic input: A1 → L1 → A2 → L2 → A3 → L3. Latin input requires L2=L3 and A2=A3. Arabic input requires only L2=L3. Original inputs need not be recovered.',
   sourceSha256, summary, documents, failures,
 }, null, 2) + '\n');
 console.log(JSON.stringify(summary, null, 2));

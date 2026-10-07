@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/Realpra1/arabiclatintransliterator",
-  "commit": "a37ad8ecdaf7f639ce54f0b1aa812b13a05255cb",
+  "commit": "d8b74f5a9ee6cc37fe6211bccb799a220fc3cbe5",
   "sourceMatchesCommit": false,
   "note": "Observed behavior, including lossy round trips and quirks. Commit identifies the checkout base; source hashes identify the actual working files captured, which may include uncommitted changes. They do not prohibit later code changes.",
   "sourceSha256": {
@@ -8,9 +8,9 @@
     "translator-core-utils.js": "c66f477385368c932c7a8d99d74febbb7904de650d09f7e9aea056a1cd5a7032",
     "latin-normalizer.js": "b183b136418034657c3ec054c481c885bdbcce0de9bc310fa071bc8997b42897",
     "translator-ar2en.js": "8eb5e1ba6ce8f3373941b80eb7bcbfd104a9ce9efcff1276de8e48478ee4a0ad",
-    "translator-en2ar.js": "2ec92592b49266fa4079c102906f848f4d8ef38d281a244998b914ea8f50962d",
+    "translator-en2ar.js": "1e4584fd6a5e76ec27b5316dca3cb8b4a4e77b30553efc74c8524ff8341f4e27",
     "translator.js": "63b65f8b3c206682102fe5d0ce1b6ee345a4001d13333ecbc8546e09331c791c",
-    "transliteration-view.js": "3739a3ccdf8f392cbfb809aa9a87249925cf253977d8a98953624022e159b424"
+    "transliteration-view.js": "6fea576c7a0fa3b0142f2447cd649f4076dbcbc0ce3140260d1e7557d6bdc3df"
   },
   "regressionCases": 5445,
   "normalizerCases": 2053,

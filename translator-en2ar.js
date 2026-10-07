@@ -35,8 +35,16 @@
 
     input = normalizeInputForLooseAliases(input);
 
+    function isTerminalAt(pos) {
+      // Digits and transliteration consonants (including - and ') continue words.
+      // Unicode punctuation, symbols, whitespace, or end of input end words.
+      const tail = input.slice(pos + 2).replace(/^(?:aN|iN|uN|[aiueo]|\p{M})*/u, "");
+      return !tail || !/^[\p{L}\p{N}\p{M}'ʾʿ-]/u.test(tail);
+    }
+
     function matchTokenAt(pos) {
       for (const [tok, ar] of EN_TO_AR_TOKENS) {
+        if (tok === "at" && input.startsWith(tok, pos) && !isTerminalAt(pos)) continue;
         if (input.startsWith(tok, pos)) return { tok, ar };
       }
       return null;
@@ -202,8 +210,7 @@
       if (canonicalHamzaVowelClass(nextTok.tok)) return true;
       if (nextTok.tok === "'" || nextTok.tok === "ʾ") return true;
 
-      // Important: do not change at->ة behavior,
-      // just treat "at" as vowel-bearing for the initial/prefix waw cleanup.
+      // A terminal at token is vowel-bearing for the initial/prefix waw cleanup.
       if (nextTok.tok === "at") return true;
 
       return false;
