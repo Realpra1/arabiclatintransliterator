@@ -8,14 +8,17 @@ import { stabilityCases, traceRoundTrip, stabilityComparisons } from '../tests/h
 const baseline = loadTranslator();
 const asTranslator = w => ({ ar2en: s => w.MapperView.convert(s, 'ar2en', true).text, en2ar: s => w.MapperView.convert(s, 'en2ar', true).text });
 const before = asTranslator(baseline);
+const distinctOnly = process.argv.includes('--distinct-only');
+assert.ok(process.argv.slice(2).every(arg => arg === '--distinct-only'));
 const variants = [
   { name: 'apostrophe-for-ayn', added: { '-': "'" } },
   { name: 'distinct-ayn-mark', added: { '-': 'ʿ' } },
   { name: 'apostrophe-for-ayn-distinct-hamza', added: { '-': "'", "'": 'ʾ' } },
 ];
 const cases = stabilityCases();
+const selectedVariants = distinctOnly ? variants.filter(v => v.name === 'distinct-ayn-mark') : variants;
 const reports = [];
-for (const variant of variants) {
+for (const variant of selectedVariants) {
   const context = createContext({ window: {} });
   for (const file of translatorFiles) {
     let source = readFileSync(new URL(file, root), 'utf8');
@@ -27,6 +30,34 @@ for (const variant of variants) {
     runInContext(source, context, { filename: file });
   }
   const after = asTranslator(context.window);
+  let focusedChecks = 0;
+  if (variant.name === 'distinct-ayn-mark') {
+    // Keep every current hamza spelling/seat behavior, even existing quirks.
+    // Exercise ayn beside hamza, vowels, punctuation, and protected formulas.
+    for (const hamza of ['ء', 'أ', 'إ', 'ؤ', 'ئ', 'آ']) {
+      for (const vowel of ['', 'َ', 'ِ', 'ُ', 'ً', 'ٍ', 'ٌ', 'ْ']) {
+        for (const body of [hamza + vowel, 'عَ' + hamza + vowel, hamza + vowel + 'عَ', 'مَ' + hamza + vowel + 'ع']) {
+          for (const [left, right] of [['', ''], ['(', ')'], ['H2O ', ' CO2 25°C'], ['"', '"']]) {
+            const arabic = left + body + right;
+            const oldLatin = before.ar2en(arabic);
+            const newLatin = after.ar2en(arabic);
+            assert.equal(newLatin, oldLatin.replaceAll('-', 'ʿ'), arabic);
+            assert.equal(after.en2ar(newLatin), before.en2ar(oldLatin), arabic);
+            focusedChecks++;
+          }
+        }
+      }
+    }
+    for (const latin of ["'", "'a", "'i", "'u", "'ā", "mā'", "sa'ala", "don't", 'ʾ', 'ʾā']) {
+      assert.equal(after.en2ar(latin), before.en2ar(latin), latin);
+      focusedChecks++;
+    }
+    for (const [arabic, latin] of [['عَمَل', 'ʿamal'], ['عَيْنٌ', 'ʿaynuṇ'], ['ماء', "mā'"], ['آ', "'ā"]]) {
+      assert.equal(after.ar2en(arabic), latin);
+      assert.equal(after.en2ar(latin), arabic);
+      focusedChecks++;
+    }
+  }
   const checks = { total: 0, beforeFailed: 0, afterFailed: 0, newlyFailing: [], fixed: [] };
   const changes = [];
   // Compare notation encodings of identical Arabic, in both starting directions.
@@ -53,7 +84,7 @@ for (const variant of variants) {
     const b = traceRoundTrip(after, { direction: 'ar2en', input: arabic });
     return { id: c.id, arabicRoundTripUnchanged: a.A2 === b.A2, arabicThirdPassUnchanged: a.A3 === b.A3, before: a, after: b };
   });
-  reports.push({ ...variant, checks, changedArabicTraces: changes.length, changedArabicInputCases: new Set(changes.map(c => c.id)).size, changes, examples, documents });
+  reports.push({ ...variant, focusedChecks, checks, changedArabicTraces: changes.length, changedArabicInputCases: new Set(changes.map(c => c.id)).size, changes, examples, documents });
 }
 const report = { description: 'Isolated Standard-notation trials. All 5,511 corpus inputs contribute, seeded from identical Arabic for both directions. MCB output is asserted unchanged. Different Latin spelling is expected, but Arabic corruption is reported independently of eventual stability.', sourceSha256: Object.fromEntries(translatorFiles.map(f => [f, createHash('sha256').update(readFileSync(new URL(f, root))).digest('hex')])), reports };
 // Keep counts and every changed ID; sample large traces to avoid duplicating the corpus.
@@ -63,5 +94,5 @@ const savedReport = { ...report, reports: reports.map(r => ({
   changedCaseIds: [...new Set(r.changes.map(c => c.id))],
   checks: { ...r.checks, fixed: r.checks.fixed.map(({ id, direction, rule }) => ({ id, direction, rule })) },
 })) };
-writeFileSync(new URL('experiments/ayn-notation.json', root), JSON.stringify(savedReport, null, 2) + '\n');
-console.log(JSON.stringify(reports.map(r => ({ name:r.name, checks:{ ...r.checks, newlyFailing:r.checks.newlyFailing.length, fixed:r.checks.fixed.length }, changedArabicTraces:r.changedArabicTraces, changedArabicInputCases:r.changedArabicInputCases, documents:r.documents.map(({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})=>({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})), examples:r.examples.map(e=>({input:e.input, oldLatin:e.before.L1, newLatin:e.after.L1, oldArabic:e.before.A2, newArabic:e.after.A2})) })), null, 2));
+writeFileSync(new URL(distinctOnly ? 'experiments/ayn-standard.json' : 'experiments/ayn-notation.json', root), JSON.stringify(savedReport, null, 2) + '\n');
+console.log(JSON.stringify(reports.map(r => ({ name:r.name, focusedChecks:r.focusedChecks, checks:{ ...r.checks, newlyFailing:r.checks.newlyFailing.length, fixed:r.checks.fixed.length }, changedArabicTraces:r.changedArabicTraces, changedArabicInputCases:r.changedArabicInputCases, documents:r.documents.map(({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})=>({id,arabicRoundTripUnchanged,arabicThirdPassUnchanged})), examples:r.examples.map(e=>({input:e.input, oldLatin:e.before.L1, newLatin:e.after.L1, oldArabic:e.before.A2, newArabic:e.after.A2})) })), null, 2));
