@@ -1,0 +1,40 @@
+NEXT TODO — Human review of existing round-trip stability failures
+
+Status: Pending human review. Preserve the tests and current mappings until
+review determines which behaviors should change.
+
+Report: experiments/failure-kinds.json
+Full traces: experiments/roundtrip-stability.json (index plus .parts/ modules)
+Baseline reviewed: commit 4e53d0d, 2026-10-07
+
+Current results
+- 575 failed assertions across 385 input cases.
+- Full test suite: 31,204 passing tests and 575 known failures.
+- 21 failing curated natural-Arabic inputs: 3 standalone words, 14 everyday
+  phrases, and 4 continuous-text inputs. All pass L2 = L3 but fail A2 = A3.
+- The standalone words are أمر (amr, matter/command), هَٰذَا (hādhā, this),
+  and الرَّحْمَٰن (al-Raḥmān, the Most Merciful).
+- Another 99 failing inputs are random arrangements of real Arabic words;
+  all fail only A2 = A3.
+- These are input-case counts, not unique words or independent defects.
+  Three continuous-text cases concatenate the everyday phrases. Synthetic
+  probes may accidentally contain real words; no exhaustive dictionary
+  validation has been performed.
+
+Human review checklist
+[ ] Review the three standalone words, then the phrases and continuous texts.
+[ ] Compare A1 (input), A2, and A3; describe changes in readable Latin/English.
+[ ] Decide which inputs are valid Arabic and which changes lose information,
+    normalize spelling acceptably, or need a mapping fix.
+[ ] Review the 99 shuffled-word cases separately for contextual effects.
+[ ] Record accepted behavior and proposed fixes before changing expectations.
+
+Keep both stability requirements: L2 = L3 and A2 = A3, for both Arabic-start
+and Latin-start tests. Do not remove failing tests to make the suite pass.
+The complete supplied long-text cases currently pass stability checks.
+
+Regenerate the report after future mapping changes:
+  node scripts/report-roundtrip-stability.mjs
+  node scripts/report-failure-kinds.mjs
+The first command exits nonzero while known stability failures remain; run
+both commands separately so the classification report is still refreshed.
