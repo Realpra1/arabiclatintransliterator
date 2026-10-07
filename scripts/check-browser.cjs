@@ -26,7 +26,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_CORE_PATH || 'playwright-cor
     for (const useStandard of [false, true]) {
       await page.locator('#standardNotation').setChecked(useStandard);
       assert.equal(await page.locator('#notationLabel').textContent(), useStandard ? 'Standard notation' : 'MCB notation');
-      assert.equal(await page.locator('#notationHint').textContent(), useStandard ? 'Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j / ʿ · Tanwin: ṇ' : 'MCB: v / j · H / S / D / T / Z / J / - · Tanwin: N');
+      assert.equal(await page.locator('#notationHint').textContent(), useStandard ? 'Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · ع: ʿ · Tanwin: ṇ' : 'MCB: v / j · H / S / D / T / Z / J · ع: - · Tanwin: N');
       const latin = examples.map(row => row[useStandard ? 2 : 1]).join('\n');
       const arabic = examples.map(row => row[0]).join('\n');
       for (const direction of ['ar2en', 'en2ar']) {
