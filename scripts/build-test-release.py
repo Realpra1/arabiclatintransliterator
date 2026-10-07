@@ -29,7 +29,8 @@ instructions = f"""Arabic & Latin — Test release {version}
 Extract this entire ZIP, then open ArabicEnglishAlphabetTranslator.html in a browser.
 Keep all files together. No installation or network connection is needed.
 
-Standard notation: w/y/j, dotted consonants, and tanwin N rendered as ṇ.
+Standard notation: w/y/j, dotted consonants, tanwin N rendered as ṇ, and ع as ʿ.
+MCB notation keeps - for ع. Hamza keeps its apostrophe (') in both modes.
 Ordinary ن remains n; MCB mode retains N. The á and alif/tanwin vowel encodings
 are unchanged. This is a reversible alternate notation with custom conventions.
 

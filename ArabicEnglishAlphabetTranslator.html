@@ -30,7 +30,7 @@
       <section class="workspace" aria-label="Transliteration workspace">
         <div class="workspace-toolbar">
           <fieldset class="direction"><legend class="sr-only">Conversion direction</legend><label><input type="radio" name="dir" value="ar2en" checked><span>Arabic <span aria-hidden="true">→</span> Latin</span></label><label><input type="radio" name="dir" value="en2ar"><span>Latin <span aria-hidden="true">→</span> Arabic</span></label></fieldset>
-          <label class="setting" for="standardNotation"><input class="switch" id="standardNotation" type="checkbox"><span><strong id="notationLabel">MCB notation</strong><small id="notationHint">MCB: v / j · H / S / D / T / Z / J · Tanwin: N</small></span></label>
+          <label class="setting" for="standardNotation"><input class="switch" id="standardNotation" type="checkbox"><span><strong id="notationLabel">MCB notation</strong><small id="notationHint">MCB: v / j · H / S / D / T / Z / J / - · Tanwin: N</small></span></label>
         </div>
         <div class="editor-grid">
           <section class="editor input-editor" aria-labelledby="inputLabel">
@@ -51,13 +51,13 @@
       </section>
 
       <div class="results-meta"><p id="status" role="status" aria-live="polite">Ready.</p><div class="legend" aria-label="Highlight legend"><span><i class="key normal-key"></i>Normal</span><span><i class="key protected-key"></i>Protected <b id="protectedCount">0</b></span><span><i class="key warning-key"></i>Check vowels <b id="warningCount">0</b></span><span><i class="key unmapped-key"></i>Unmapped <b id="unmappedCount">0</b></span></div></div>
-      <details class="guide"><summary><span class="info-icon" aria-hidden="true">i</span> Highlights and notation <span class="guide-plus" aria-hidden="true">+</span></summary><div class="guide-grid"><p><strong>Green: protected text.</strong>Letters touching digits, such as H2O, CO2 and m1, are protected. Certain isolated symbols, such as (P) and °C, are also preserved.</p><p><strong>Yellow: possible missing vowels.</strong>Three or more consecutive consonants in Arabic-to-Latin output may indicate missing vowel marks. This is a hint, not a spelling correction.</p><p><strong>Red: unmapped text.</strong>Unrecognized characters stay in the output so nothing is silently lost. Copying includes the text, without highlights.</p><p><strong>Notation.</strong>Standard mode uses w/y and ḥ/ṣ/ḍ/ṭ/ẓ/j in both directions. MCB mode uses v/j and H/S/D/T/Z/J. Standard mode writes tanwin as ṇ; ordinary ن stays n. MCB mode keeps tanwin N. The distinct á stays unchanged. In both modes, a plain hyphen maps to ع.</p></div></details>
+      <details class="guide"><summary><span class="info-icon" aria-hidden="true">i</span> Highlights and notation <span class="guide-plus" aria-hidden="true">+</span></summary><div class="guide-grid"><p><strong>Green: protected text.</strong>Letters touching digits, such as H2O, CO2 and m1, are protected. Certain isolated symbols, such as (P) and °C, are also preserved.</p><p><strong>Yellow: possible missing vowels.</strong>Three or more consecutive consonants in Arabic-to-Latin output may indicate missing vowel marks. This is a hint, not a spelling correction.</p><p><strong>Red: unmapped text.</strong>Unrecognized characters stay in the output so nothing is silently lost. Copying includes the text, without highlights.</p><p><strong>Notation.</strong>Standard mode uses w/y and ḥ/ṣ/ḍ/ṭ/ẓ/j in both directions. MCB mode uses v/j and H/S/D/T/Z/J. Standard mode writes tanwin as ṇ; ordinary ن stays n. MCB mode keeps tanwin N. The distinct á stays unchanged. Standard mode writes ع as ʿ; MCB mode uses a hyphen. Hamza keeps its apostrophe ('). A plain hyphen is also accepted for ع in Standard mode.</p></div></details>
       <div id="errorBox" class="notice error-notice" role="alert">The app has not started. If this message remains, check that all application files are in the same folder, then reload.</div>
       <div id="vowelWarning" class="notice vowel-notice" role="status" hidden><strong>Some vowels may be missing.</strong><span id="vowelMessage"></span></div>
       <div id="unmappedWarning" class="notice unmapped-notice" role="status" hidden></div>
 
     </main>
-    <footer class="page-footer"><span>Test release · 0.9.0-test.2</span><span>Works offline. Your text stays in this browser.</span></footer>
+    <footer class="page-footer"><span>Test release · 0.9.0-test.3</span><span>Works offline. Your text stays in this browser.</span></footer>
   </div>
   <noscript><p class="notice error-notice">Enable JavaScript to use the transliterator.</p></noscript>
   <script src="./constants.js"></script>

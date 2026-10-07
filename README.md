@@ -30,12 +30,13 @@ grammatical or spelling judgment.
 
 One notation toggle enables `v/j → w/y` and `H/S/D/T/Z/J → ḥ/ṣ/ḍ/ṭ/ẓ/j` in both
 directions. Tanwin `N` becomes `ṇ` in standard mode (`buN ↔ buṇ`), while
-ordinary ن remains `n`. MCB mode keeps uppercase `N`. The `á` and existing
+ordinary ن remains `n`. Standard mode writes ع as `ʿ`, while MCB mode keeps `-`.
+Hamza keeps its existing apostrophe (`'`) mapping in both modes. MCB mode keeps uppercase `N`. The `á` and existing
 short/long-vowel encodings remain unchanged,
 so this is an alternate spelling mode rather than full compliance with a
 particular academic romanization standard. Protected symbols are preserved.
 Unprotected English `y` in this mode is read as a consonant; switch back to
-custom mode for loose English aliases such as `city → siti`.
+MCB mode for loose English aliases such as `city → siti`.
 
 MCBs-Compact-Laser is a custom single stroke font optimized for etching dense text with a laser.
 It maximizes readability and compactness.

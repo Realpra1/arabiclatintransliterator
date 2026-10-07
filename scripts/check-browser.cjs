@@ -22,11 +22,11 @@ const { chromium } = require(process.env.PLAYWRIGHT_CORE_PATH || 'playwright-cor
     }
     const chooser = await page.locator('.direction').boundingBox();
     const notation = await page.locator('.workspace-toolbar .setting').boundingBox();
-    assert.ok(notation.x >= chooser.x + chooser.width && Math.abs(notation.y - chooser.y) < 15);
+    assert.ok(notation.x >= chooser.x + chooser.width && notation.x - chooser.x - chooser.width <= 24 && Math.abs(notation.y - chooser.y) < 15);
     for (const useStandard of [false, true]) {
       await page.locator('#standardNotation').setChecked(useStandard);
       assert.equal(await page.locator('#notationLabel').textContent(), useStandard ? 'Standard notation' : 'MCB notation');
-      assert.equal(await page.locator('#notationHint').textContent(), useStandard ? 'Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · Tanwin: ṇ' : 'MCB: v / j · H / S / D / T / Z / J · Tanwin: N');
+      assert.equal(await page.locator('#notationHint').textContent(), useStandard ? 'Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j / ʿ · Tanwin: ṇ' : 'MCB: v / j · H / S / D / T / Z / J / - · Tanwin: N');
       const latin = examples.map(row => row[useStandard ? 2 : 1]).join('\n');
       const arabic = examples.map(row => row[0]).join('\n');
       for (const direction of ['ar2en', 'en2ar']) {
@@ -67,6 +67,16 @@ const { chromium } = require(process.env.PLAYWRIGHT_CORE_PATH || 'playwright-cor
     assert.equal(await page.locator('#output').textContent(), 'nūnuṇ buṇ biṇ baṇ bāṇ');
     await page.locator('#standardNotation').uncheck();
     assert.equal(await page.locator('#output').textContent(), 'nūnuN buN biN baN bāN');
+    await page.locator('#standardNotation').check();
+    // Ayn uses its own mark, while hamza retains the keyboard apostrophe.
+    await page.locator('#input').fill('عَمَل ماء آ');
+    await page.waitForFunction(() => document.querySelector('#output').textContent === "ʿamal mā' 'ā");
+    await page.locator('#swapBtn').click();
+    assert.equal(await page.locator('#output').textContent(), 'عَمَل ماء آ');
+    await page.locator('#swapBtn').click();
+    assert.equal(await page.locator('#output').textContent(), "ʿamal mā' 'ā");
+    await page.locator('#standardNotation').uncheck();
+    assert.equal(await page.locator('#output').textContent(), "-amal mā' 'ā");
     await page.locator('#standardNotation').check();
     // Copy the text only, with no annotation markup.
     await page.evaluate(() => Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: async text => { window.copiedText = text; } } }));

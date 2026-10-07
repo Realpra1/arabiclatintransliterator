@@ -34,7 +34,7 @@
     output.dir = dir === "ar2en" ? "ltr" : "rtl";
     output.setAttribute("lang", dir === "ar2en" ? "en" : "ar");
     $("notationLabel").textContent = isStandard ? "Standard notation" : "MCB notation";
-    $("notationHint").textContent = isStandard ? "Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j · Tanwin: ṇ" : "MCB: v / j · H / S / D / T / Z / J · Tanwin: N";
+    $("notationHint").textContent = isStandard ? "Standard: w / y · ḥ / ṣ / ḍ / ṭ / ẓ / j / ʿ · Tanwin: ṇ" : "MCB: v / j · H / S / D / T / Z / J / - · Tanwin: N";
     $("inputCount").textContent = count(input.value);
     try {
       if (!window.MapperView) throw new Error("The transliterator could not load. Keep all application files in the same folder, then reload this page.");

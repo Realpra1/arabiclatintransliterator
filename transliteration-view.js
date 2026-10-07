@@ -2,7 +2,7 @@
 (() => {
   // Keep ordinary n and á; render the distinct tanwin marker N as ṇ.
   // This reversible alternate notation retains the house vowel encodings.
-  const standard = { v: "w", j: "y", J: "j", H: "ḥ", S: "ṣ", D: "ḍ", T: "ṭ", Z: "ẓ", N: "ṇ" };
+  const standard = { v: "w", j: "y", J: "j", H: "ḥ", S: "ṣ", D: "ḍ", T: "ṭ", Z: "ẓ", N: "ṇ", "-": "ʿ" };
   const custom = Object.fromEntries(Object.entries(standard).map(([a, b]) => [b, a]));
 
   function fromStandard(input) {

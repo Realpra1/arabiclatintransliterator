@@ -8,6 +8,8 @@ for (const [arabic, custom, standard] of [
   ['حَصَضَطَظَجَ', 'HaSaDaTaZaJa', 'ḥaṣaḍaṭaẓaja'],
   ['وَيْ', 'vaj', 'way'], ['يَوْم', 'javm', 'yawm'], ['ى', 'á', 'á'],
   ['ج', 'J', 'j'], ['يْ', 'j', 'y'], ['وْ', 'v', 'w'],
+  ['ع', '-', 'ʿ'], ['عَمَل', '-amal', 'ʿamal'], ['عَيْنٌ', '-ajnuN', 'ʿaynuṇ'],
+  ['ماء', "mā'", "mā'"], ['آ', "'ā", "'ā"],
   ['ن', 'n', 'n'], ['نَ', 'na', 'na'],
   ['بٌ', 'buN', 'buṇ'], ['بٍ', 'biN', 'biṇ'], ['بً', 'baN', 'baṇ'],
   ['باً', 'bāN', 'bāṇ'], ['بَنٌ', 'banuN', 'banuṇ'],
@@ -88,4 +90,26 @@ test('standard notation introduces no additional round-trip instability across t
   // so its Arabic spelling may differ. Its stability checks above still run.
   assert.equal(differences.length, 0, JSON.stringify(differences.slice(0, 4), null, 2));
   assert.equal(failures.length, 0, JSON.stringify(failures.slice(0, 4), null, 2));
+});
+
+
+test('standard ayn stays distinct from every hamza form in context', () => {
+  for (const hamza of ['ء', 'أ', 'إ', 'ؤ', 'ئ', 'آ']) {
+    for (const vowel of ['', 'َ', 'ِ', 'ُ', 'ً', 'ٍ', 'ٌ', 'ْ']) {
+      for (const body of [hamza + vowel, 'عَ' + hamza + vowel, hamza + vowel + 'عَ', 'مَ' + hamza + vowel + 'ع']) {
+        for (const [left, right] of [['', ''], ['(', ')'], ['H2O ', ' CO2 25°C'], ['"', '"']]) {
+          const arabic = left + body + right;
+          const canonical = core.ar2en(arabic);
+          const latin = view.convert(arabic, 'ar2en', true).text;
+          assert.equal(view.fromStandard(latin), canonical, arabic);
+          assert.equal(view.convert(latin, 'en2ar', true).text, core.en2ar(canonical), arabic);
+        }
+      }
+    }
+  }
+  for (const latin of ["'", "'a", "'i", "'u", "'ā", "mā'", "sa'ala", "don't", 'ʾ', 'ʾā']) {
+    assert.equal(view.convert(latin, 'en2ar', true).text, core.en2ar(latin), latin);
+  }
+  assert.equal(view.convert('ʿamal', 'en2ar', true).text, 'عَمَل');
+  assert.equal(view.convert('-amal', 'en2ar', true).text, 'عَمَل');
 });
