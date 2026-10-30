@@ -7,6 +7,7 @@ from pathlib import Path
 from fractions import Fraction
 import tempfile
 import math
+import sys
 import unittest
 
 from fontTools.pens.basePen import BasePen
@@ -14,6 +15,7 @@ from fontTools.ttLib import TTFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 spec = importlib.util.spec_from_file_location("repair", ROOT / "scripts/repair-laser-font.py")
 repair = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(repair)
@@ -131,13 +133,13 @@ class LaserFontTests(unittest.TestCase):
             shared = ((407, 262), (407, Fraction(1004, 3)))
             self.assertEqual(polygon_counts[shared], 4)
 
-    def test_only_the_five_reviewed_glyphs_change(self):
+    def test_only_the_eight_reviewed_glyphs_change(self):
         changed = {
             name for name in self.original.getGlyphOrder()
             if self.original["glyf"][name].compile(self.original["glyf"]) !=
             self.fixed["glyf"][name].compile(self.fixed["glyf"])
         }
-        self.assertEqual(changed, set(repair.REPAIRS) | {"i", "j"})
+        self.assertEqual(changed, set(repair.REPAIRS) | {"i", "j", "a", "aacute", "amacron"})
         self.assertEqual(self.original.getGlyphOrder(), self.fixed.getGlyphOrder())
         self.assertEqual(self.original.getBestCmap(), self.fixed.getBestCmap())
         for name in repair.REPAIRS:
@@ -171,6 +173,34 @@ class LaserFontTests(unittest.TestCase):
             counts = Counter(min(s, s[::-1]) for contour in (forward, reverse) for s in contour)
             self.assertEqual(Counter(counts.values()), {2: 8})
         self.assertEqual(dots[0], dots[1])
+
+    def test_smoothed_a_variants_share_body_and_preserve_spacing_and_accents(self):
+        bodies = []
+        for name, accent in {"a": None, "aacute": ((120, 610), (298, 730)),
+                             "amacron": ((30, 720), (298, 720))}.items():
+            before, after = self.original["glyf"][name], self.fixed["glyf"][name]
+            self.assertEqual(self.original["hmtx"][name], self.fixed["hmtx"][name])
+            self.assertEqual(self.fixed["hmtx"][name], (432, 30))
+            self.assertEqual((before.xMin, before.yMin, before.xMax, before.yMax),
+                             (after.xMin, after.yMin, after.xMax, after.yMax))
+            gs = self.fixed.getGlyphSet()
+            pen = SegmentPen(gs)
+            gs[name].draw(pen)
+            bodies.append(pen.contours[:2])
+            self.assertEqual(len(pen.contours), 3 if accent else 2)
+            for contour in pen.contours[:2]:
+                counts = Counter(min(s, s[::-1]) for s in contour)
+                self.assertEqual(set(counts.values()), {2})
+            body = [s for contour in pen.contours[:2] for s in contour]
+            self.assertTrue(any(len(s) == 3 for s in body), "Curves replace hand-drawn facets")
+            self.assertIn(((298, 390), (298, 12)), body)
+            self.assertIn((66, 390), [s[0] for s in body])
+            for join in ((298, 343), (298, 143)):
+                self.assertIn(join, [p for s in body for p in (s[0], s[-1])])
+            if accent:
+                self.assertEqual(pen.contours[-1], [accent, accent[::-1]])
+        self.assertEqual(bodies[0], bodies[1])
+        self.assertEqual(bodies[0], bodies[2])
 
     def test_no_other_repeated_off_curve_turnarounds(self):
         candidates = set()

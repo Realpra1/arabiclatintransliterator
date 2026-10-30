@@ -1,4 +1,4 @@
-"""Reproduce reviewed bowl repairs and standardized i/j dots from the source.
+"""Reproduce reviewed bowl repairs, i/j dots and approved a forms from the source.
 
 Requires Python 3 and fontTools (python -m pip install fonttools).
 Run from any directory: python scripts/repair-laser-font.py
@@ -10,6 +10,7 @@ from pathlib import Path
 
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import GlyphCoordinates
+from approved_a import replace_a_variants
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -83,6 +84,7 @@ def repair_font(source=SOURCE, output=OUTPUT):
                 end + (end >= index) for end in glyph.endPtsOfContours
             ]
         standardize_dots(font)
+        replace_a_variants(font)
         font.save(output)
     finally:
         font.close()
@@ -91,5 +93,5 @@ def repair_font(source=SOURCE, output=OUTPUT):
 
 if __name__ == "__main__":
     digest = repair_font()
-    print("Repaired g/o/oacute; standardized i/j dots at diameter 120; preserved advances and line metrics.")
+    print("Repaired bowls, standardized 120-unit dots, and applied approved a forms; advances and line metrics preserved.")
     print(f"SHA-256 {digest}  {OUTPUT.name}")

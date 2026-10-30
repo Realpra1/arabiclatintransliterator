@@ -48,13 +48,16 @@ MCBs-Compact-Laser is a custom single stroke font optimized for etching dense te
 It maximizes readability and compactness.
 
 The TTF now restores missing curved joins in `g`, `o`, and `ó`, and standardizes
-the dots on `i` and `j` as matching 120-unit circles. It retains the closed-contour,
+the dots on `i` and `j` as matching 120-unit circles. The accepted smoothed,
+hooked `a` is shared by `a`, `á`, and `ā`; their original accents, 432-unit
+advances, 30-unit side bearings, and outline bounds are preserved.
+It retains the closed-contour,
 double-stroke format. All character advances and line-height metrics are
 unchanged. The `i` bearing follows its wider dot to preserve the stem position.
 `q`, `Q`, and `m` retain their original curves; the
 four-pass section of `m` in the supplied laser test comes from drawing curve
 control polygons during G-code conversion. See [the font audit](docs/font-contour-audit.md).
-No redesign of `a` or its accents is included.
+Only the approved hooked form was applied; the alternative oval form was not.
 
 To reproduce and verify the font repair:
 

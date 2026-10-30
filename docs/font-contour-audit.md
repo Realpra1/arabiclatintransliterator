@@ -15,6 +15,7 @@ method; stroke the paths without a fill.
 | `g` U+0067 | `g` | Top-left bowl turns back at `(169,523)`, 91 units short of the start. | Insert on-curve `(260,523)` between points 23 and 24. |
 | `ó` U+00F3 | `oacute` | Contains the same broken bowl as `o`. | Insert the same join; retain the accent. |
 | `i`, `j` | `i`, `j` | Dots are unequal ellipses: 86×53 and 32×50 units. | Replace with identical 120-unit circles at a common height, centered on each stem. |
+| `a`, `á`, `ā` | `a`, `aacute`, `amacron` | Crooked, faceted bodies differ between variants. | Apply the approved smoothed hooked form to all three, retaining accents and spacing. |
 
 Coordinates are in font units, with Y upwards (1024 units per em); point
 indices refer to the original font and start at zero. The insertions restore
@@ -58,13 +59,14 @@ python -m unittest discover -s tests -p test_laser_font.py -v
 ```
 
 The script verifies the source hash before editing and refuses to overwrite
-the original. It applies the three reviewed insertions and the two dot replacements, preserving
+the original. It applies the three reviewed insertions, two dot replacements,
+and the approved a bodies, preserving
 the font timestamp, producing the same bytes each time.
 
 | File | SHA-256 |
 | --- | --- |
 | Original | `e8dd198ac07d5f3828ce8642fd7917d51b3d37654de1d59eab8808301d545f37` |
-| Repaired | `a116f8775bc5e3ba7a4956f4d271417506765fcbd7d438e0d2d60315ee2786c0` |
+| Repaired | `03705e0fabc674126e787abccbf104e15577596a9157b1a0c937eb8d93a98bf8` |
 
 The Python regression tests verify the original hash, geometric cycle
 closure, unchanged `q` and `Q`, the exact set of changed glyphs, unchanged
@@ -102,7 +104,7 @@ curves. Regression tests distinguish both representations explicitly.
 
 The closed bowls of `O`/`o` and the dots of `i`/`j` also retrace twice in this
 font. All repairs retain that closed-contour, double-stroke format.
-No redesign of `a`, `á`, or `ā` is included in this update.
+The separately approved smoothed `a` form is described below.
 
 ## Standardized dots
 
@@ -112,3 +114,20 @@ once in each direction. Their radius differs from an ideal circle by less than
 0.7 font units. Centers are `(107,680)` for `i` and `(135,680)` for `j`, directly
 over their original stems. Both dots now span Y620..740. Stem contours remain
 byte-for-byte equivalent, and the font's overall vertical bounds are unchanged.
+
+## Approved smoothed a
+
+The user accepted the **Smoothed original form** from the comparison, preserving
+the hooked/two-storey design. `scripts/approved_a.py` records those exact six
+cubic curves and the straight right stem. They are converted to TrueType
+quadratics with a 0.25-unit approximation tolerance, then rounded to the font
+grid. The same rounded points are retraced in reverse, keeping closed contours
+with two traversals per segment. No thin filled outline is added.
+
+The body is shared by `a`, `á`, and `ā`. Each retains advance 432 and left side
+bearing 30; every outline bound is unchanged. The acute keeps its original
+endpoints `(120,610)` and `(298,730)`; the macron keeps `(30,720)` and `(298,720)`.
+The upper hook starts at `(66,390)`, the straight stem stays at X298, and the
+lower bowl meets it exactly at Y343 and Y143. No oval-form alternative was
+applied. Regression tests verify the shared bodies, double traversal, accents,
+spacing, and bounds of all three characters.
