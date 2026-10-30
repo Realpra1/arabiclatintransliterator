@@ -14,13 +14,15 @@ method; stroke the paths without a fill.
 | `o` U+006F | `o` | Bottom-left bowl turns back at `(176,-10)`, 95 units short of the start. | Insert on-curve `(271,-10)` between points 9 and 10. |
 | `g` U+0067 | `g` | Top-left bowl turns back at `(169,523)`, 91 units short of the start. | Insert on-curve `(260,523)` between points 23 and 24. |
 | `ó` U+00F3 | `oacute` | Contains the same broken bowl as `o`. | Insert the same join; retain the accent. |
+| `i`, `j` | `i`, `j` | Dots are unequal ellipses: 86×53 and 32×50 units. | Replace with identical 120-unit circles at a common height, centered on each stem. |
 
 Coordinates are in font units, with Y upwards (1024 units per em); point
 indices refer to the original font and start at zero. The insertions restore
 the intended quadratic arcs, rather than bridging the gaps with straight
 lines. Every repaired bowl now forms a connected cycle when reverse
-traversals are deduplicated. Bounds, spacing, character mappings, glyph order,
-and all other glyph geometry remain unchanged.
+traversals are deduplicated. The bowl repairs retain their bounds. Character
+advances, line metrics, mappings, glyph order, and all other glyph geometry
+remain unchanged. The enlarged dots extend the ink bounds of `i` and `j`.
 
 The source's duplicated off-curve controls at each turnaround imply a point
 at the control itself. The missing explicit on-curve point is why the
@@ -56,25 +58,29 @@ python -m unittest discover -s tests -p test_laser_font.py -v
 ```
 
 The script verifies the source hash before editing and refuses to overwrite
-the original. It applies only the three reviewed insertions and preserves
+the original. It applies the three reviewed insertions and the two dot replacements, preserving
 the font timestamp, producing the same bytes each time.
 
 | File | SHA-256 |
 | --- | --- |
 | Original | `e8dd198ac07d5f3828ce8642fd7917d51b3d37654de1d59eab8808301d545f37` |
-| Repaired | `e4d91921c5bbba2e77278fe84d88bb7063a253a45158a628faa9f8fa0971d28b` |
+| Repaired | `a116f8775bc5e3ba7a4956f4d271417506765fcbd7d438e0d2d60315ee2786c0` |
 
 The Python regression tests verify the original hash, geometric cycle
 closure, unchanged `q` and `Q`, the exact set of changed glyphs, unchanged
-metrics/mappings/bounds, the absence of additional matching defects, and a
+advances/line metrics/mappings, standardized dot geometry, preserved stems,
+the absence of additional matching bowl defects, and a
 byte-identical rebuild. Tested with Python 3.12 and fontTools 4.68.0.
 
 No engraving hardware or external laser software was used for this audit.
 
 ## Spacing and line-height verification
 
-The complete `hmtx`, `hhea`, and `OS/2` tables are byte-identical to the original.
-Every character's advance width and side bearing is preserved. Units/em remain
+The complete `hhea` and `OS/2` tables are byte-identical to the original.
+Every character's advance width is preserved. The only bearing change is `i`:
+65 to 47, matching its enlarged dot's new xMin. This prevents font renderers
+from shifting the unchanged stem right; it does not change its 217-unit text
+advance. All other bearings, including every `a` variant, are unchanged. Units/em remain
 1024; horizontal ascent/descent remain 920/-210 with line gap 0. Typographic
 ascent/descent/line gap and Windows ascent/descent are also unchanged, as are
 the overall font bounds. The repair changes no layout metrics.
@@ -95,5 +101,14 @@ This extra overlap belongs to the exported control polygons, not to the TTF
 curves. Regression tests distinguish both representations explicitly.
 
 The closed bowls of `O`/`o` and the dots of `i`/`j` also retrace twice in this
-font. The three bowl repairs retain that closed-contour, double-stroke format.
+font. All repairs retain that closed-contour, double-stroke format.
 No redesign of `a`, `á`, or `ā` is included in this update.
+
+## Standardized dots
+
+The user selected a 120-unit diameter for both `i` and `j`. Both circles use
+eight identical, symmetric quadratic arcs on the integer font grid, traversed
+once in each direction. Their radius differs from an ideal circle by less than
+0.7 font units. Centers are `(107,680)` for `i` and `(135,680)` for `j`, directly
+over their original stems. Both dots now span Y620..740. Stem contours remain
+byte-for-byte equivalent, and the font's overall vertical bounds are unchanged.

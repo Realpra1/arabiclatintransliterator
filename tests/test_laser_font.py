@@ -6,6 +6,7 @@ import importlib.util
 from pathlib import Path
 from fractions import Fraction
 import tempfile
+import math
 import unittest
 
 from fontTools.pens.basePen import BasePen
@@ -97,9 +98,11 @@ class LaserFontTests(unittest.TestCase):
                 self.assertEqual(self.original["glyf"][name].compile(self.original["glyf"]),
                                  self.fixed["glyf"][name].compile(self.fixed["glyf"]))
 
-    def test_all_spacing_and_line_metrics_are_preserved(self):
-        for tag in ("hmtx", "hhea", "OS/2"):
+    def test_advances_and_line_metrics_are_preserved(self):
+        for tag in ("hhea", "OS/2"):
             self.assertEqual(self.original.getTableData(tag), self.fixed.getTableData(tag), tag)
+        for name, (advance, bearing) in self.original["hmtx"].metrics.items():
+            self.assertEqual(self.fixed["hmtx"][name], (advance, 47 if name == "i" else bearing))
         for field in ("unitsPerEm", "xMin", "yMin", "xMax", "yMax"):
             self.assertEqual(getattr(self.original["head"], field),
                              getattr(self.fixed["head"], field), field)
@@ -128,21 +131,46 @@ class LaserFontTests(unittest.TestCase):
             shared = ((407, 262), (407, Fraction(1004, 3)))
             self.assertEqual(polygon_counts[shared], 4)
 
-    def test_only_the_three_reviewed_glyphs_change(self):
+    def test_only_the_five_reviewed_glyphs_change(self):
         changed = {
             name for name in self.original.getGlyphOrder()
             if self.original["glyf"][name].compile(self.original["glyf"]) !=
             self.fixed["glyf"][name].compile(self.fixed["glyf"])
         }
-        self.assertEqual(changed, set(repair.REPAIRS))
+        self.assertEqual(changed, set(repair.REPAIRS) | {"i", "j"})
         self.assertEqual(self.original.getGlyphOrder(), self.fixed.getGlyphOrder())
         self.assertEqual(self.original.getBestCmap(), self.fixed.getBestCmap())
-        self.assertEqual(self.original["hmtx"].metrics, self.fixed["hmtx"].metrics)
         for name in repair.REPAIRS:
             before, after = self.original["glyf"][name], self.fixed["glyf"][name]
             self.assertEqual(before.numberOfContours, after.numberOfContours)
             self.assertEqual((before.xMin, before.yMin, before.xMax, before.yMax),
                              (after.xMin, after.yMin, after.xMax, after.yMax))
+
+    def test_dots_are_identical_120_unit_circles_above_unchanged_stems(self):
+        dots = []
+        for name, (center_x, stem_points) in repair.DOT_STEMS.items():
+            before, after = self.original["glyf"][name], self.fixed["glyf"][name]
+            self.assertEqual(list(before.coordinates[:stem_points]), list(after.coordinates[:stem_points]))
+            self.assertEqual(list(before.flags[:stem_points]), list(after.flags[:stem_points]))
+            gs = self.fixed.getGlyphSet()
+            pen = SegmentPen(gs)
+            gs[name].draw(pen)
+            self.assertEqual(len(pen.contours), 3)
+            forward, reverse = pen.contours[1:]
+            self.assertEqual(forward, [s[::-1] for s in reverse[::-1]])
+            dot = [tuple((x - center_x, y - repair.DOT_CENTER_Y) for x, y in s) for s in forward]
+            dots.append(dot)
+            all_points = [p for s in dot for p in s]
+            self.assertEqual((min(x for x, y in all_points), max(x for x, y in all_points)), (-60, 60))
+            self.assertEqual((min(y for x, y in all_points), max(y for x, y in all_points)), (-60, 60))
+            for start, control, end in dot:
+                for step in range(21):
+                    t = step / 20
+                    point = tuple((1-t)**2*a + 2*t*(1-t)*b + t*t*c for a, b, c in zip(start, control, end))
+                    self.assertLess(abs(math.hypot(*point) - 60), 0.7)
+            counts = Counter(min(s, s[::-1]) for contour in (forward, reverse) for s in contour)
+            self.assertEqual(Counter(counts.values()), {2: 8})
+        self.assertEqual(dots[0], dots[1])
 
     def test_no_other_repeated_off_curve_turnarounds(self):
         candidates = set()

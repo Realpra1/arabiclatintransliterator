@@ -47,9 +47,11 @@ MCB mode for loose English aliases such as `city → siti`.
 MCBs-Compact-Laser is a custom single stroke font optimized for etching dense text with a laser.
 It maximizes readability and compactness.
 
-The TTF now restores missing curved joins in `g`, `o`, and `ó`, retaining its
-closed-contour, double-stroke format. All character spacing and line-height
-metrics are unchanged. `q`, `Q`, and `m` retain their original curves; the
+The TTF now restores missing curved joins in `g`, `o`, and `ó`, and standardizes
+the dots on `i` and `j` as matching 120-unit circles. It retains the closed-contour,
+double-stroke format. All character advances and line-height metrics are
+unchanged. The `i` bearing follows its wider dot to preserve the stem position.
+`q`, `Q`, and `m` retain their original curves; the
 four-pass section of `m` in the supplied laser test comes from drawing curve
 control polygons during G-code conversion. See [the font audit](docs/font-contour-audit.md).
 No redesign of `a` or its accents is included.
