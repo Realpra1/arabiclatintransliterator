@@ -1,0 +1,133 @@
+# MCBs Compact Laser contour audit
+
+Audited the font at repository commit `494c9b4` on 2026-10-30. Inspected a
+vector contact sheet of all 129 mapped Unicode codepoints, examined the
+quadratic geometry, and scanned all 125 glyph records for the confirmed
+defect pattern. This font uses retraced, zero-area closed TrueType contours
+to represent single strokes. Filling outlines is not an adequate inspection
+method; stroke the paths without a fill.
+
+## Confirmed repairs
+
+| Character | Glyph | Defect | Repair |
+| --- | --- | --- | --- |
+| `o` U+006F | `o` | Bottom-left bowl turns back at `(176,-10)`, 95 units short of the start. | Insert on-curve `(271,-10)` between points 9 and 10. |
+| `g` U+0067 | `g` | Top-left bowl turns back at `(169,523)`, 91 units short of the start. | Insert on-curve `(260,523)` between points 23 and 24. |
+| `ó` U+00F3 | `oacute` | Contains the same broken bowl as `o`. | Insert the same join; retain the accent. |
+| `i`, `j` | `i`, `j` | Dots are unequal ellipses: 86×53 and 32×50 units. | Replace with identical 120-unit circles at a common height, centered on each stem. |
+| `a`, `á`, `ā` | `a`, `aacute`, `amacron` | Crooked, faceted bodies differ between variants. | Apply the approved smoothed hooked form to all three, retaining accents and spacing. |
+
+Coordinates are in font units, with Y upwards (1024 units per em); point
+indices refer to the original font and start at zero. The insertions restore
+the intended quadratic arcs, rather than bridging the gaps with straight
+lines. Every repaired bowl now forms a connected cycle when reverse
+traversals are deduplicated. The bowl repairs retain their bounds. Character
+advances, line metrics, mappings, glyph order, and all other glyph geometry
+remain unchanged. The enlarged dots extend the ink bounds of `i` and `j`.
+
+The source's duplicated off-curve controls at each turnaround imply a point
+at the control itself. The missing explicit on-curve point is why the
+visible stroke has a gap even though the TrueType contour is formally closed.
+Checking only whether an exported SVG ends with `Z` would miss this defect.
+
+## Reviewed suspects left unchanged
+
+- Lowercase `q` U+0071 has a complete bowl. Its two bowl contours describe
+  the same closed loop in opposite directions, and meet the stem at
+  `(480,343)`.
+- Uppercase `Q` U+0051 likewise has a complete oval. Its two oval contours
+  are exact reverse traversals. The tail runs from `(477,-58)` to
+  `(712,-184)` and crosses the oval on the lower right. No missing join was
+  found in the stored vector geometry.
+- Intentional openings in letters such as `c`, `e`, and `s`, disconnected
+  accents/dots, and normal interior space inside bowls were preserved.
+
+No other glyph has the same repeated off-curve turnaround defect. This is a
+targeted geometry audit, not a guarantee about every laser application's
+font import, fill/raster rendering, or toolpath generation. A gap seen only
+in such an application should be compared with the vector inspector.
+
+## Reproduce and verify
+
+The original is retained at `fonts/MCBs-Compact-Laser.original.ttf`.
+The repaired file remains `MCBs-Compact-Laser.ttf`.
+
+```text
+python -m pip install fonttools
+python scripts/repair-laser-font.py
+python -m unittest discover -s tests -p test_laser_font.py -v
+```
+
+The script verifies the source hash before editing and refuses to overwrite
+the original. It applies the three reviewed insertions, two dot replacements,
+and the approved a bodies, preserving
+the font timestamp, producing the same bytes each time.
+
+| File | SHA-256 |
+| --- | --- |
+| Original | `e8dd198ac07d5f3828ce8642fd7917d51b3d37654de1d59eab8808301d545f37` |
+| Repaired | `03705e0fabc674126e787abccbf104e15577596a9157b1a0c937eb8d93a98bf8` |
+
+The Python regression tests verify the original hash, geometric cycle
+closure, unchanged `q` and `Q`, the exact set of changed glyphs, unchanged
+advances/line metrics/mappings, standardized dot geometry, preserved stems,
+the absence of additional matching bowl defects, and a
+byte-identical rebuild. Tested with Python 3.12 and fontTools 4.68.0.
+
+No engraving hardware or external laser software was used for this audit.
+
+## Spacing and line-height verification
+
+The complete `hhea` and `OS/2` tables are byte-identical to the original.
+Every character's advance width is preserved. The only bearing change is `i`:
+65 to 47, matching its enlarged dot's new xMin. This prevents font renderers
+from shifting the unchanged stem right; it does not change its 217-unit text
+advance. All other bearings, including every `a` variant, are unchanged. Units/em remain
+1024; horizontal ascent/descent remain 920/-210 with line gap 0. Typographic
+ascent/descent/line gap and Windows ascent/descent are also unchanged, as are
+the overall font bounds. The repair changes no layout metrics.
+
+## The m in the supplied laser test
+
+The TTF's `m` already describes 11 distinct geometric segments, each traversed
+exactly twice. It is unchanged: deleting a curve would remove correct geometry.
+The supplied `TestLine.gc` instead draws the cubic **control polygons** as
+straight G1 movements. Those are not a proper flattening of the curved glyph.
+
+For example, the right arch begins with quadratic points `(407,262)`,
+`(407,371)`, `(457,448)`. Conversion to a cubic gives its first handle at
+`(407,334.666...)`. Drawing a straight line to that handle creates a vertical
+piece shared with the other arch. Each arch returns over that piece, resulting
+in the four passes at X203.515/Y226.604..226.892 in the supplied test.
+This extra overlap belongs to the exported control polygons, not to the TTF
+curves. Regression tests distinguish both representations explicitly.
+
+The closed bowls of `O`/`o` and the dots of `i`/`j` also retrace twice in this
+font. All repairs retain that closed-contour, double-stroke format.
+The separately approved smoothed `a` form is described below.
+
+## Standardized dots
+
+The user selected a 120-unit diameter for both `i` and `j`. Both circles use
+eight identical, symmetric quadratic arcs on the integer font grid, traversed
+once in each direction. Their radius differs from an ideal circle by less than
+0.7 font units. Centers are `(107,680)` for `i` and `(135,680)` for `j`, directly
+over their original stems. Both dots now span Y620..740. Stem contours remain
+byte-for-byte equivalent, and the font's overall vertical bounds are unchanged.
+
+## Approved smoothed a
+
+The user accepted the **Smoothed original form** from the comparison, preserving
+the hooked/two-storey design. `scripts/approved_a.py` records those exact six
+cubic curves and the straight right stem. They are converted to TrueType
+quadratics with a 0.25-unit approximation tolerance, then rounded to the font
+grid. The same rounded points are retraced in reverse, keeping closed contours
+with two traversals per segment. No thin filled outline is added.
+
+The body is shared by `a`, `á`, and `ā`. Each retains advance 432 and left side
+bearing 30; every outline bound is unchanged. The acute keeps its original
+endpoints `(120,610)` and `(298,730)`; the macron keeps `(30,720)` and `(298,720)`.
+The upper hook starts at `(66,390)`, the straight stem stays at X298, and the
+lower bowl meets it exactly at Y343 and Y143. No oval-form alternative was
+applied. Regression tests verify the shared bodies, double traversal, accents,
+spacing, and bounds of all three characters.

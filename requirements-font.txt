@@ -1,0 +1,2 @@
+# Only needed to rebuild and test the font repair.
+fonttools==4.68.0
