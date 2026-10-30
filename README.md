@@ -47,6 +47,21 @@ MCB mode for loose English aliases such as `city → siti`.
 MCBs-Compact-Laser is a custom single stroke font optimized for etching dense text with a laser.
 It maximizes readability and compactness.
 
+The TTF now restores missing curved joins in `g`, `o`, and `ó`, retaining its
+closed-contour, double-stroke format. All character spacing and line-height
+metrics are unchanged. `q`, `Q`, and `m` retain their original curves; the
+four-pass section of `m` in the supplied laser test comes from drawing curve
+control polygons during G-code conversion. See [the font audit](docs/font-contour-audit.md).
+No redesign of `a` or its accents is included.
+
+To reproduce and verify the font repair:
+
+```sh
+python -m pip install -r requirements-font.txt
+python scripts/repair-laser-font.py
+python -B -m unittest discover -s tests -p test_laser_font.py -v
+```
+
 Regression tests run on Node.js 20 or newer, with no packages to install:
 
 ```sh

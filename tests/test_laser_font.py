@@ -4,6 +4,7 @@ from collections import Counter
 import hashlib
 import importlib.util
 from pathlib import Path
+from fractions import Fraction
 import tempfile
 import unittest
 
@@ -95,6 +96,37 @@ class LaserFontTests(unittest.TestCase):
                 self.assertEqual(components, 1)
                 self.assertEqual(self.original["glyf"][name].compile(self.original["glyf"]),
                                  self.fixed["glyf"][name].compile(self.fixed["glyf"]))
+
+    def test_all_spacing_and_line_metrics_are_preserved(self):
+        for tag in ("hmtx", "hhea", "OS/2"):
+            self.assertEqual(self.original.getTableData(tag), self.fixed.getTableData(tag), tag)
+        for field in ("unitsPerEm", "xMin", "yMin", "xMax", "yMax"):
+            self.assertEqual(getattr(self.original["head"], field),
+                             getattr(self.fixed["head"], field), field)
+
+    def test_m_is_double_traced_but_control_polygon_export_creates_four_passes(self):
+        for font in (self.original, self.fixed):
+            glyphs = font.getGlyphSet()
+            pen = SegmentPen(glyphs)
+            glyphs["m"].draw(pen)
+            segments = [segment for contour in pen.contours for segment in contour]
+            counts = Counter(min(s, s[::-1]) for s in segments)
+            self.assertEqual(Counter(counts.values()), {2: 11})
+            # The supplied G-code follows cubic control polygons, not curves.
+            # Converting each quadratic to equivalent cubic handles reproduces
+            # its artificial shared vertical at the middle of m exactly.
+            lines = []
+            for segment in segments:
+                if len(segment) == 2:
+                    lines.append(segment)
+                    continue
+                start, control, end = segment
+                c1 = tuple(Fraction(a) + Fraction(2, 3) * (b - a) for a, b in zip(start, control))
+                c2 = tuple(Fraction(a) + Fraction(2, 3) * (b - a) for a, b in zip(end, control))
+                lines.extend(zip((start, c1, c2), (c1, c2, end)))
+            polygon_counts = Counter(min(s, s[::-1]) for s in lines)
+            shared = ((407, 262), (407, Fraction(1004, 3)))
+            self.assertEqual(polygon_counts[shared], 4)
 
     def test_only_the_three_reviewed_glyphs_change(self):
         changed = {

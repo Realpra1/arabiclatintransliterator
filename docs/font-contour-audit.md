@@ -64,9 +64,36 @@ the font timestamp, producing the same bytes each time.
 | Original | `e8dd198ac07d5f3828ce8642fd7917d51b3d37654de1d59eab8808301d545f37` |
 | Repaired | `e4d91921c5bbba2e77278fe84d88bb7063a253a45158a628faa9f8fa0971d28b` |
 
-The six Python regression tests verify the original hash, geometric cycle
+The Python regression tests verify the original hash, geometric cycle
 closure, unchanged `q` and `Q`, the exact set of changed glyphs, unchanged
 metrics/mappings/bounds, the absence of additional matching defects, and a
 byte-identical rebuild. Tested with Python 3.12 and fontTools 4.68.0.
 
 No engraving hardware or external laser software was used for this audit.
+
+## Spacing and line-height verification
+
+The complete `hmtx`, `hhea`, and `OS/2` tables are byte-identical to the original.
+Every character's advance width and side bearing is preserved. Units/em remain
+1024; horizontal ascent/descent remain 920/-210 with line gap 0. Typographic
+ascent/descent/line gap and Windows ascent/descent are also unchanged, as are
+the overall font bounds. The repair changes no layout metrics.
+
+## The m in the supplied laser test
+
+The TTF's `m` already describes 11 distinct geometric segments, each traversed
+exactly twice. It is unchanged: deleting a curve would remove correct geometry.
+The supplied `TestLine.gc` instead draws the cubic **control polygons** as
+straight G1 movements. Those are not a proper flattening of the curved glyph.
+
+For example, the right arch begins with quadratic points `(407,262)`,
+`(407,371)`, `(457,448)`. Conversion to a cubic gives its first handle at
+`(407,334.666...)`. Drawing a straight line to that handle creates a vertical
+piece shared with the other arch. Each arch returns over that piece, resulting
+in the four passes at X203.515/Y226.604..226.892 in the supplied test.
+This extra overlap belongs to the exported control polygons, not to the TTF
+curves. Regression tests distinguish both representations explicitly.
+
+The closed bowls of `O`/`o` and the dots of `i`/`j` also retrace twice in this
+font. The three bowl repairs retain that closed-contour, double-stroke format.
+No redesign of `a`, `á`, or `ā` is included in this update.
