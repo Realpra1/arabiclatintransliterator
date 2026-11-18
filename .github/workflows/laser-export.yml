@@ -1,0 +1,43 @@
+name: Laser export app
+
+on:
+  push:
+    paths:
+      - 'laser-export/**'
+      - '.github/workflows/laser-export.yml'
+  pull_request:
+    paths:
+      - 'laser-export/**'
+      - '.github/workflows/laser-export.yml'
+  workflow_dispatch:
+
+jobs:
+  laser-export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: laser-export
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright pymupdf==2.0
+      - run: python -m playwright install --with-deps chrome
+      - run: node --test tests/*.test.mjs
+      - run: python scripts/build-pdf-export.py
+      - run: python scripts/check-pdf-export-browser.py
+      - run: python scripts/check-pdf-gcode-browser.py
+      - run: python scripts/check-svg-import-browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: laser-export-html-and-checks
+          path: |
+            laser-export/dist/PDF to SVG.html
+            laser-export/dist/*checks/*.json
+          if-no-files-found: warn
